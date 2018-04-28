@@ -1,7 +1,7 @@
 //META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use?  Then this is the theme for you.","author":"Insta","version":"2.0"}*//
 :root {
 	--background: url(https://i.imgur.com/3AiL3yN.png);
-	--font: Product Sans;	
+	--font: 'Product Sans';	
 	--roundness: 10px;
 	--accent-color: rgba(135,31,96,0.8);
 }
@@ -12,6 +12,55 @@
     right: 1% !important;
     top: 1% !important;
 }
+
+/*Product Sans font*/
+@font-face {
+		font-family: 'Product Sans';
+		src:
+		local('Product Sans'),
+		local('Product Sans Regular'),
+		local('ProductSans'),
+		local('ProductSansRegular'),
+		local('ProductSans-Regular'),
+		 url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans.ttf);
+}
+@font-face {
+		font-family: Product Sans;
+		font-weight: bold; 
+		src: 
+		local('Product Sans'),
+		local('Product Sans Bold'),
+		local('ProductSans'),
+		local('ProductSansBold'),
+		local('ProductSans-Bold'),
+		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_bold.ttf);
+   
+}
+@font-face {
+		font-family: Product Sans;
+		font-style: italic;
+		src: 
+		local('Product Sans'),
+		local('Product Sans Italic'),
+		local('ProductSans'),
+		local('ProductSansItalic'),
+		local('ProductSans-Italic'),
+		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_italic.ttf);
+		
+}
+@font-face {
+		font-family: Product Sans;
+		font-style: italic;
+		font-weight: bold;
+		src: 
+		local('Product Sans'),
+		local('Product Sans Bold Italic'),
+		local('ProductSans'),
+		local('ProductSansBoldItalic'),
+		local('ProductSans-BoldItalic'),
+		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_bold_italic.ttf);
+}
+
 /*DARK THEME*/
 :root {
 	--transparency: rgba(0,0,0,0.6);
