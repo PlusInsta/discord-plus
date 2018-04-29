@@ -506,6 +506,43 @@ background: rgba(0,0,0,0);
 .theme-dark .headerNormal-T_seeN {
     background-color: var(--transparency-dark);
 }
+/*Search popout*/
+.search-results-wrap .search-result:after {
+    background-image: transparent !important;
+    bottom: none !important;
+}
+.search-results-wrap .search-result.expanded {
+    border: none !important;
+	border-radius: 10px !important;
+}
+.search-results-wrap .search-result .search-result-message.hit {
+	border: none !important;
+}
+.search-results-wrap .search-result:before {
+    background-image: transparent !important;
+}
+.theme-dark .searchPopout-1vUlP3 {
+    background-color: var(--transparency-dark);
+	border: 0px !important;
+}
+.theme-dark .search-results-wrap {
+    background-color: var(--transparency-dark);
+}
+.theme-dark .search-results-wrap .search-header {
+	background-color: var(--transparency);
+}
+.theme-dark .search-results-wrap .search-result .hit {
+    background-color: var(--transparency-dark);
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+	border-top: transparent;
+	border-bottom: transparent;
+	background-color: transparent; 
+	border-radius: var(--roundness) !important;
+}
 
 /*Profile modal*/
 .backdrop-2ohBEd { backdrop-filter: blur(5px) }
