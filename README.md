@@ -16,6 +16,9 @@ This theme aims to theme everything on Discord.
 If there's anything that is not themed, be it an official feature, a plugin, bug or third party feature, open an issue along with some information about the unthemed feature.
 The theme supports the light theme out of the box too, if that's your thing.
 
+# Download 
+https://github.com/PlusInsta/discord-plus/releases/latest
+
 # Installation
 ## **Windows**:
 * Download `DiscordPlus.theme.css`
