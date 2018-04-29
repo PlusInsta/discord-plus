@@ -360,7 +360,7 @@ top: 10% !important;
 div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	height: 0px !important
 }
-
+.status { border-radius: var(--roundness) }
 .theme-dark #friends .friends-table .friends-row:hover { background: var(--transparency-darkest); }
 .theme-dark div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-dark div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
@@ -940,10 +940,7 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
     justify-content: center;
     right: -11px!important;
     width: 26px!important;
-}	
-
-/*Status bubble*/
-.status { border-radius: var(--roundness) }
+}
 
 /*Profile pictures in messages*/
 div.avatar-large {
@@ -954,7 +951,6 @@ div.avatar-large {
     float: left;
     margin: 0 15px; 
 }
-
 
 /*Images*/
 .image { border-radius: var(--roundness);  backdrop-filter: blur(5px)}
