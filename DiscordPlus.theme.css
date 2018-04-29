@@ -96,7 +96,6 @@
 .theme-light .layers-3iHuyZ,
 .theme-light .chat form { background: transparent }
 .theme-light .chat form { -webkit-box-shadow: none; box-shadow: none; }
-.avatar-small { background-size: 32px 32px; height: 32px; width: 32px }
 
 /*Fonts*/
 div>*:not(code) {
@@ -157,9 +156,22 @@ div>*:not(code) {
 /*The loading page, in case your Internet is slow*/
 .container-2oOGIt { background-color: var(--transparency) } 
 
-/*Profile picture roundness*/
+/*Profile pictures*/
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .user-popout .avatar-wrapper .avatar-popout {
 	border-radius: var(--roundness) !important;
+}
+.avatar-small {
+	background-size: cover;
+	height: 32px;
+	width: 32px
+}
+.avatar-large {
+    background-size: cover;
+    width: 62.5px;
+    height: 62.5px;
+    border-radius: var(--roundness);
+    float: left;
+    margin: 0 15px; 
 }
 .maskProfile-1ObLFT, .mask-3OgeRz {
     -webkit-mask: none;
@@ -940,16 +952,6 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
     justify-content: center;
     right: -11px!important;
     width: 26px!important;
-}
-
-/*Profile pictures in messages*/
-div.avatar-large {
-    background-size: cover;
-    width: 62.5px;
-    height: 62.5px;
-    border-radius: var(--roundness);
-    float: left;
-    margin: 0 15px; 
 }
 
 /*Images*/
