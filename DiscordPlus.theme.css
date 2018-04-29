@@ -97,6 +97,14 @@
 .theme-light .chat form { background: transparent }
 .theme-light .chat form { -webkit-box-shadow: none; box-shadow: none; }
 
+button { border-radius: var(--roundness) !important; }
+.checkbox-inner span, checkbox { border-radius: var(--roundness) !important; }
+.search-bar input { font-size: 12px; text-align: center; text-transform: lowercase; font-style: italic; }
+.theme-dark search-bar-inner { background: var(--transparency) !important;}
+.item-26Dhrx {
+    border-radius: var(--roundness);
+}
+
 /*Fonts*/
 div>*:not(code) {
 	font-family: var(--font), Product Sans, ProductSans, apple-system, SF Pro, San Francisco Display, 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', Franklin Gothic Medium, Lucida Grande, Tahoma, sans-serif !important;
@@ -273,16 +281,6 @@ div.message-group {
 .theme-dark .messages-wrapper .messages .divider:before {
     background-color: transparent;
 }
-
-/*Globals*/
-button { border-radius: var(--roundness) !important; }
-.checkbox-inner span, checkbox { border-radius: var(--roundness) !important; }
-.search-bar input { font-size: 12px; text-align: center; text-transform: lowercase; font-style: italic; }
-.theme-dark search-bar-inner { background: var(--transparency) !important;}
-.item-26Dhrx {
-    border-radius: var(--roundness);
-}
-
 
 /*System messages*/
 .system-message .system-message-content { margin-left: 6.11rem !important; }
