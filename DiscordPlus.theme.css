@@ -647,7 +647,7 @@ background: rgba(0,0,0,0);
 	background-color: var(--transparency-lightest);
 }
 .theme-light .searchPopout-1vUlP3 {
-    background-color: var(--transparency-lighter);
+    background-color: var(--transparency-lightest);
 }
 .theme-light .option-96V44q::after {
 	background: linear-gradient(90deg,hsla(0,0%,100%,0),rgba(255, 255, 255, 0) 0%);
