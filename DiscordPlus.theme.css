@@ -816,15 +816,35 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
     color: hsla(0, 0%, 0%, 0) !important; 
 }
 
-/*Emoji selector*/
+/*Emoji autocomplete*/
 .theme-dark .autocomplete-1TnWNR {
     background-color: var(--transparency-darker);
 	border-radius: var(--roundness);
+	transition: background-color .2s;
 	margin-bottom: 10px;
 }
 .theme-dark .selectorSelected-2M0IGv {
     background-color: var(--transparency-darkest);
-	border-radius: var(--roundness)
+	border-radius: var(--roundness);
+	transition: background-color .2s;
+}
+.theme-dark .selectorSelected-2M0IGv .content-249Pr9 {
+	transition: background-color .2s;
+}
+.theme-light .autocomplete-1TnWNR {
+    background-color: var(--transparency-lighter);
+	transition: background-color .2s;
+	border-radius: var(--roundness);
+	margin-bottom: 10px;
+}
+.theme-light .selectorSelected-2M0IGv {
+    background-color: var(--transparency-darkest);
+	transition: background-color .2s;
+	border-radius: var(--roundness);
+}
+.theme-light .selectorSelected-2M0IGv .content-249Pr9 {
+    color: white;
+	transition: background-color .2s
 }
 
 /*Typing?*/
@@ -976,21 +996,3 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
 .theme-light pre code { background: var(--transparency-lite) !important; border-radius: var(--roundness);  }
 .theme-light .message-text .markup { color: black }
-
-
-/*Emoji selector*/
-.theme-light .autocomplete-1TnWNR {
-    background-color: var(--transparency-lighter);
-	transition: background-color .2s;
-	border-radius: var(--roundness);
-	margin-bottom: 10px;
-}
-.theme-light .selectorSelected-2M0IGv {
-    background-color: var(--transparency-darkest);
-	transition: background-color .2s;
-	border-radius: var(--roundness);
-}
-.theme-light .selectorSelected-2M0IGv .content-249Pr9 {
-    color: white;
-	transition: background-color .2s
-}
