@@ -250,6 +250,15 @@ div.message-group {
 	color: black;
 }
 
+/*Date separator*/
+.messages-wrapper .messages .divider:not(.red) div {
+    background: transparent !important;
+}
+.theme-dark .friends-table .messages .divider:before,
+.theme-dark .messages-wrapper .messages .divider:before {
+    background-color: transparent;
+}
+
 /*Globals*/
 button { border-radius: var(--roundness) !important; }
 .checkbox-inner span, checkbox { border-radius: var(--roundness) !important; }
@@ -950,12 +959,3 @@ div.avatar-large {
 /*Images*/
 .image { border-radius: var(--roundness);  backdrop-filter: blur(5px)}
 .imageWrapper-2p5ogY { border-radius: var(--roundness); }
-
-/*Date separator*/
-.messages-wrapper .messages .divider:not(.red) div {
-    background: transparent !important;
-}
-.theme-dark .friends-table .messages .divider:before,
-.theme-dark .messages-wrapper .messages .divider:before {
-    background-color: transparent;
-}
