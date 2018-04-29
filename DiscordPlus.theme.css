@@ -902,16 +902,16 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
     background: inherit;
 }
 
-/*Person is now typing box*/
-.typing-3eiiL_ {
+/*Person is now typing*/
+.typing-2GQL18 {
 	margin-bottom: 58px;
-	margin-left:10px;
-	background-color: rgba(0,0,0,0.1) !important;
+	margin-left:8px;
+	background-color: rgba(0,0,0,0) !important;
 	border-radius: var(--roundness);
 	background: rgba(0,0,0,0);
 }
-.text-1rI06- { text-align: center; text-size: 0px) }
-.typing-3eiiL_ span {
+.text-1y-e8- { text-align: center; text-size: 0px) }
+.typing-2GQL18 span {
     color: hsla(0, 0%, 0%, 0) !important; 
 }
 
