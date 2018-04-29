@@ -66,6 +66,10 @@
     --transparency-dark: rgba(0,0,0,0.7);
     --transparency-darker: rgba(0,0,0,0.8);
     --transparency-darkest: rgba(0,0,0,0.9);
+    --transparency-lite: rgba(255,255,255,0.6);
+    --transparency-light: rgba(255,255,255,0.7);
+    --transparency-lighter: rgba(255,255,255,0.8);
+    --transparency-lightest: rgba(255,255,255,0.9);
 }
 
 .links,
@@ -946,16 +950,6 @@ div.avatar-large {
 /*Images*/
 .image { border-radius: var(--roundness);  backdrop-filter: blur(5px)}
 .imageWrapper-2p5ogY { border-radius: var(--roundness); }
-
-
-
-/*LIGHT THEME COMPATIBILITY (HIGHLY EXPERIMENTAL)*/
-
-:root {
-    --transparency-lite: rgba(255,255,255,0.6);
-    --transparency-light: rgba(255,255,255,0.7);
-    --transparency-lighter: rgba(255,255,255,0.8);
-    --transparency-lightest: rgba(255,255,255,0.9); }
 
 /*Date separator*/
 .messages-wrapper .messages .divider:not(.red) div {
