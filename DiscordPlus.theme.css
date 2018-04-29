@@ -227,7 +227,7 @@ button { border-radius: var(--roundness) !important; }
 }
 
 
-/*Pinned messages*/
+/*System messages*/
 .system-message .system-message-content { margin-left: 6.11rem !important; }
 .system-message .system-message-icon { background-size: 2rem 2rem !important;
 height: 2rem !important;
@@ -237,6 +237,7 @@ top: 10% !important;
 .system-message-icon {
     margin-left: 32px !important;
 }
+
 /*New messages bar*/
 .chat .new-messages-bar button:first-child {
     text-transform: lowercase;
@@ -668,7 +669,44 @@ background: rgba(0,0,0,0);
     background-color: var(--transparency);
 	padding-bottom: 4px;
 }
+
+.theme-light .messagesPopoutWrap-1MQ1bW {
+	background-color: var(--transparency-lite);
+}
+.theme-light .messagesPopoutWrap-1MQ1bW .header-SsaQ8X {
+	background-color: var(--transparency-lite);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+	border-color: var(--accent-color);
+    filter: saturate(100%);
+	transition: filter .5s;
+}
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+    background-color: var(--transparency-lite);
+    border-color: var(--accent-color);
+    filter: saturate(0%);
+	transition: filter .5s;
+}
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+    -webkit-box-shadow: none;
+    background-color: transparent;
+	color: black;
+}
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+    background-color: transparent;
+    color: black; }
+.theme-light .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
+    background-color: var(--transparency-lite);
+	padding-bottom: 4px;
+}
+
 div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
+.messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug .closeButton-17RIVZ {
+    opacity: 1;
+	transition: opacity .2s;
+}
+
 
 /*Upload modal*/
 .modal-2LIEKY .inner-1_1f7b .uploadModal-2KN6Mm { background-color: var(--accent-color) !important; border-radiius: var(--roundness) !important }
@@ -953,42 +991,6 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .selectorSelected-2M0IGv .content-249Pr9 {
     color: white;
 	transition: background-color .2s
-}
-
-/*Pinned messages*/
-.theme-light .messagesPopoutWrap-1MQ1bW {
-	background-color: var(--transparency-lite);
-}
-.theme-light .messagesPopoutWrap-1MQ1bW .header-SsaQ8X {
-	background-color: var(--transparency-lite);
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
-}
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
-	border-color: var(--accent-color);
-    filter: saturate(100%);
-	transition: filter .5s;
-}
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
-    background-color: var(--transparency-lite);
-    border-color: var(--accent-color);
-    filter: saturate(0%);
-	transition: filter .5s;
-}
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
-    -webkit-box-shadow: none;
-    background-color: transparent;
-	color: black;
-}
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
-    background-color: transparent;
-    color: black; }
-.theme-light .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
-    background-color: var(--transparency-lite);
-	padding-bottom: 4px;
-}
-.messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug .closeButton-17RIVZ {
-    opacity: 1;
-	transition: opacity .2s;
 }
 
 /*Your profile*/
