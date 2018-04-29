@@ -53,8 +53,9 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 ![Light settings](https://user-images.githubusercontent.com/38794586/39408050-8b8be4b2-4bd0-11e8-875d-74a15f6be12d.png)
 
 # GIFs
-### Context menu
-![Context menu](https://user-images.githubusercontent.com/38794586/39408174-f1256814-4bd2-11e8-8e71-375b4006d2a1.gif)
+### Context menus
+![Dark context menu](https://user-images.githubusercontent.com/38794586/39408174-f1256814-4bd2-11e8-8e71-375b4006d2a1.gif)
+![Light context menu](https://user-images.githubusercontent.com/38794586/39409272-669cbd48-4be4-11e8-842b-34e7a12bfd3f.gif)
 
 ### Channels
 ![Channels](https://user-images.githubusercontent.com/38794586/39408185-0a4060a6-4bd3-11e8-9994-c8e9fde1f547.gif)
