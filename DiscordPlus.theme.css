@@ -374,6 +374,8 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	margin: 0 10px 0 2px }
 .container-2Thooq { font-size: 18px; background: transparent }
 .accountDetails-3k9g4n .discriminator { font-size: 0px; margin-top: 0px }
+.theme-light .accountDetails-3k9g4n .username { color: black !important }
+.theme-light .button-2b6hmh { filter: invert() !important }
 
 /*Server members*/
 .channel-members h2 { padding: 0 20px }
@@ -992,7 +994,3 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
     color: white;
 	transition: background-color .2s
 }
-
-/*Your profile*/
-.theme-light .accountDetails-3k9g4n .username { color: black !important }
-.theme-light .button-2b6hmh { filter: invert() !important }
