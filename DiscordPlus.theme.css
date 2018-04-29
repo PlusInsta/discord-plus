@@ -213,7 +213,8 @@ background-color: transparent; }
     margin: 15px 0 25px;
 }
 .innerNoAutocomplete-1WpcVO { border-radius: var(--roundness) }
-.innerAutocomplete-2qsvzH {
+.innerAutocomplete-2qsvzH,
+.innerAutocomplete-1PN280 {
     border-radius: var(--roundness);
 }
 .theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
