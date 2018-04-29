@@ -463,6 +463,28 @@ background: rgba(0,0,0,0);
 	opacity: 1;
 	transition: opacity .25s !important
 }
+.theme-light.contextMenu-HLZMGh,
+.theme-light.itemSubMenu-1vN_Yn {
+	background: var(--transparency-lite);
+	background-size:cover;
+	border-radius: var(--roundness);
+	opacity: 0.8;
+	transition: opacity .25s;
+}
+.theme-light .item-1Yvehc.itemSubMenu-1vN_Yn {
+	background-color: transparent;
+}
+.theme-light .item-1Yvehc {
+	color: black;
+}
+.theme-light .item-1Yvehc:hover {
+	color: white;
+}
+.theme-light .itemSubMenu-1vN_Yn:hover,
+.theme-light .item-1Yvehc:hover {
+	background-color: var(--accent-color);
+}
+
 
 /*Popouts*/
 .root-2sNHUF, .userPopout-3XzG_A, .quickMessage-2XpSaN, .note-3rIr6P textarea {border-radius: var(--roundness); background-color: var(--transparency)}
@@ -967,35 +989,6 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug .closeButton-17RIVZ {
     opacity: 1;
 	transition: opacity .2s;
-}
-
-/*Context menu*/
-.theme-light.contextMenu-HLZMGh,
-.theme-light.itemSubMenu-1vN_Yn {
-	background: var(--transparency-lite);
-	background-size:cover;
-	border-radius: var(--roundness);
-	opacity: 0.8;
-	transition: opacity .25s;
-}
-.theme-light .item-1Yvehc.itemSubMenu-1vN_Yn {
-	background-color: transparent;
-}
-.theme-light .item-1Yvehc {
-	color: black;
-}
-.theme-light .item-1Yvehc:hover {
-	color: white;
-}
-.theme-light .itemSubMenu-1vN_Yn:hover,
-.theme-light .item-1Yvehc:hover {
-	background-color: var(--accent-color);
-}
-.contextMenu-HLZMGh:hover,
-.itemSubMenu-1vN_Yn:hover,
-.item-1Yvehc:hover {
-	opacity: 1;
-	transition: opacity .25s !important
 }
 
 /*Your profile*/
