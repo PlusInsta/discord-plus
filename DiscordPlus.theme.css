@@ -559,6 +559,12 @@ background: rgba(0,0,0,0);
     box-shadow: none !important;
 }
 
+/*Quick switcher modal*/
+.theme-dark .quickswitcher-3JagVE { background-color: var(--transparency); }
+.theme-dark .input-2VB9rf {	background-color: var(--transparency); }
+.theme-light .quickswitcher-3JagVE { background-color: var(--transparency-lighter); }
+.theme-light .input-2VB9rf {background-color: var(--transparency-lite); }
+
 /*Profile modal*/
 .backdrop-2ohBEd { backdrop-filter: blur(5px) }
 .theme-dark .topSectionNormal-2-vo2m {
