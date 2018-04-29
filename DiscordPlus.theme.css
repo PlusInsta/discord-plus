@@ -195,8 +195,9 @@ background-color: transparent; }
 .innerAutocomplete-2qsvzH {
     border-radius: var(--roundness);
 }
+.theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
 
-/*Message properties*/
+/*Messages*/
 div.message-group {
     background-color: var(--transparency);
     margin: 10px 0px 0 0;
@@ -215,7 +216,35 @@ div.message-group {
     height: auto;
 	background-image: linear-gradient(90deg,var(--accent-color) 50%,rgb(0, 0, 0));
 }
-
+.theme-dark .messages-wrapper .messages .divider span {
+    background-color: var(--transparency-dark);
+    margin-top: 10px;
+    font-size: 10px;
+    padding-right: 2px;
+	padding-left: 2px;
+}
+.theme-light pre code { background: var(--transparency-lite) !important; border-radius: var(--roundness);  }
+.theme-light .message-group { background-color: var(--transparency-light) }
+.theme-light .message-text .markup { color: black }
+.theme-light .message-group.is-local-bot-message {
+    opacity:1;
+	-webkit-box-shadow: 0px !important;
+	box-shadow: 0px !important;
+    background-color: var(--transparency-light);
+    margin: 10px 0px 0 0;
+    border-radius: var(--roundness);
+    box-shadow: 0px 0px 0px lightgrey;
+    height: auto;
+	background-image: linear-gradient(90deg,var(--accent-color) 50%,rgb(255,255,255));
+}
+.theme-light .messages-wrapper .messages .divider span {
+    background-color: var(--transparency-light);
+    margin-top: 10px;
+    font-size: 10px;
+    padding-right: 2px;
+	padding-left: 2px;
+	color: black;
+}
 
 /*Globals*/
 button { border-radius: var(--roundness) !important; }
@@ -361,8 +390,11 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 
 /*Icons*/
 .theme-dark .iconForeground-2c7s3m,
-.theme-dark .title-3qD0b-{
+.theme-dark .title-3qD0b- {
     color: #FFFFFF;
+}
+.theme-light .iconForeground-3y9f0B {
+    color: black !important;
 }
 	
 /*Your profile*/
@@ -892,34 +924,6 @@ div.avatar-large {
 .theme-light .layers-3iHuyZ,
 .theme-light .chat form { background: transparent }
 .theme-light .chat form { -webkit-box-shadow: none; box-shadow: none; }
-/*Message adjustments*/
-.theme-light div.message-group { background-color: var(--transparency-light) }
-.theme-light .message-group.is-local-bot-message {
-    opacity:1;
-	-webkit-box-shadow: 0px !important;
-	box-shadow: 0px !important;
-    background-color: var(--transparency-light);
-    margin: 10px 0px 0 0;
-    border-radius: var(--roundness);
-    box-shadow: 0px 0px 0px lightgrey;
-    height: auto;
-	background-image: linear-gradient(90deg,var(--accent-color) 50%,rgb(255,255,255));
-}
-.theme-dark .messages-wrapper .messages .divider span {
-    background-color: var(--transparency-dark);
-    margin-top: 10px;
-    font-size: 10px;
-    padding-right: 2px;
-	padding-left: 2px;
-}
-.theme-light .messages-wrapper .messages .divider span {
-    background-color: var(--transparency-light);
-    margin-top: 10px;
-    font-size: 10px;
-    padding-right: 2px;
-	padding-left: 2px;
-	color: black;
-}
 /*Date separator*/
 .messages-wrapper .messages .divider:not(.red) div {
     background: transparent !important;
@@ -986,13 +990,3 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .themed-popout .footer {
     background-color: var(--transparency-light);
 }
-
-/*Icons*/
-.theme-light .iconForeground-3y9f0B {
-    color: black !important;
-}
-
-/*Message box*/
-.theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
-.theme-light pre code { background: var(--transparency-lite) !important; border-radius: var(--roundness);  }
-.theme-light .message-text .markup { color: black }
