@@ -156,7 +156,6 @@ div>*:not(code) {
 .theme-light .guilds-wrapper { background:var(--transparency-lighter) }
 .theme-light .guilds-wrapper .guilds .friends-online { color: var(--transparency) }
 .theme-light .guilds-wrapper .guilds-add {background: transparent }
-.guilds-wrapper { backdrop-filter: blur(3px)}
 .guilds .guild .guild-inner:nth-child(1) {
 	background-color: var(--accent-color) !important;
 }
@@ -226,7 +225,6 @@ div.message-group {
     border-radius: var(--roundness);
     box-shadow: 0px 0px 0px black;
     height: auto;
-	backdrop-filter: blur(2px);
 }
 .theme-dark .message-group.is-local-bot-message {
     opacity:1;
@@ -395,7 +393,7 @@ div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: black; transit
 div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-light header { color: black }
-.theme-light #friends { background-color: var(--transparency-lightest); border-radius: var(--roundness); backdrop-filter: blur(5px)}
+.theme-light #friends { background-color: var(--transparency-lightest); border-radius: var(--roundness);}
 .theme-light .headerBar-UHpsPw { background: transparent !important }
 .theme-light .channels-Ie2l6A { background-color: var(--transparency-lighter) }
 .theme-light .private-channels .channel .channel-name,
@@ -463,10 +461,8 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 /*Server members*/
 .channel-members h2 { padding: 0 20px }
 .channel-members .member {padding: 5px 16px 5px 20px; border-radius: var(--roundness)}
-.theme-dark .members-1998pB { background-color: var(--transparency-dark); border-radius: var(--roundness) 0 var(--roundness) var(--roundness); backdrop-filter: blur(0.2em)}
-.channel-members {
-    backdrop-filter: blur(4px)
-}
+.theme-dark .members-1998pB { background-color: var(--transparency-dark); border-radius: var(--roundness) 0 var(--roundness) var(--roundness);}
+
 
 /*Server channels*/
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-1WDIBM:active {background-color: var(--transparency) }
@@ -478,7 +474,7 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 
 .content-20Aix8 { border-radius: var(--roundness) }
 .channels-Ie2l6A { margin: 0 10px; border-radius: var(--roundness); }
-.theme-dark .channels-Ie2l6A { background:var(--transparency-dark);  backdrop-filter: blur(5px)}
+.theme-dark .channels-Ie2l6A { background:var(--transparency-dark); }
 .theme-dark .unread-1Dp-OI { background-color: var(--transparency-light) !important; }
 
 .theme-light .name-3gtcmp { color: black }
@@ -515,7 +511,6 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 /*Transparent friends list*/
 .theme-dark #friends {
 	background-color: var(--transparency-darker);
-    backdrop-filter: blur(5px)
 }
 .theme-dark .headerBar-UHpsPw {
 background: rgba(0,0,0,0);
@@ -667,7 +662,6 @@ background: rgba(0,0,0,0);
 .theme-light .input-2VB9rf {background-color: var(--transparency-lite); }
 
 /*Profiles*/
-.backdrop-2ohBEd { backdrop-filter: blur(5px) }
 .theme-dark .topSectionNormal-2-vo2m {
  background-color: var(--transparency-dark); }
 .theme-dark .body-3ND3kc {
@@ -690,11 +684,9 @@ background: rgba(0,0,0,0);
 }
 .theme-light .headerNormal-T_seeN {
 	background-color: var(--transparency-lightest);
-	backdrop-filter: blur(2px);
 }
 .theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
     background-color: var(--transparency-lightest);
-	backdrop-filter: blur(2px);
 }
 
 /*Create guild modal*/
@@ -914,7 +906,7 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 }
 
 /*Images*/
-.image { border-radius: var(--roundness);  backdrop-filter: blur(5px)}
+.image { border-radius: var(--roundness);}
 .imageWrapper-2p5ogY { border-radius: var(--roundness); }
 
 /*Emoji autocomplete*/
