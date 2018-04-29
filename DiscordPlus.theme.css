@@ -61,19 +61,38 @@
 		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_bold_italic.ttf);
 }
 
-/*DARK THEME*/
 :root {
 	--transparency: rgba(0,0,0,0.6);
     --transparency-dark: rgba(0,0,0,0.7);
     --transparency-darker: rgba(0,0,0,0.8);
     --transparency-darkest: rgba(0,0,0,0.9);
-	--roundness: 10px;
-	--background: url(https://i.imgur.com/3AiL3yN.png);
-	--font: Product Sans;	
-	--roundness: 10px;
-	--accent-color: rgba(135,31,96,0.8);
 }
 
+.links,
+.chat,
+.content,
+.guild-channels,
+.private-channels,
+.guild-header header,
+.divider-red span,
+.messages-wrapper,
+.search-bar,
+.friends-table,
+#rtc-connection,
+#voice-connection,
+.layers,
+.container-2lgZY8,
+.container-PNkimc,
+.theme-dark .layer-3QrUeG,
+.theme-dark .layers-3iHuyZ,
+.theme-dark .chat form { background: transparent !important; }
+.theme-dark .chat form { -webkit-box-shadow: none; box-shadow: none; }
+.theme-light,
+.theme-light .layer-3QrUeG,
+.theme-light .layers-3iHuyZ,
+.theme-light .chat form { background: transparent }
+.theme-light .chat form { -webkit-box-shadow: none; box-shadow: none; }
+.avatar-small { background-size: 32px 32px; height: 32px; width: 32px }
 
 /*Fonts*/
 div>*:not(code) {
@@ -130,27 +149,6 @@ div>*:not(code) {
 .guilds .guild .guild-inner:nth-child(1) {
 	background-color: var(--accent-color) !important;
 }
-/*Transparent BG*/
-.links,
-.chat,
-.content,
-.guild-channels,
-.private-channels,
-.guild-header header,
-.divider-red span,
-.messages-wrapper,
-.search-bar,
-.friends-table,
-#rtc-connection,
-#voice-connection,
-.layers,
-.container-2lgZY8,
-.container-PNkimc,
-.theme-dark .layer-3QrUeG,
-.theme-dark .layers-3iHuyZ,
-.theme-dark .chat form { background: transparent !important; }
-.theme-dark .chat form { -webkit-box-shadow: none; box-shadow: none; }
-.avatar-small { background-size: 32px 32px; height: 32px; width: 32px }
 
 /*The loading page, in case your Internet is slow*/
 .container-2oOGIt { background-color: var(--transparency) } 
@@ -429,11 +427,7 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 	
 /*Your profile*/
 .accountDetails-3k9g4n  { opacity: 1; padding: 0px }
-.container-2Thooq .avatar-small {
-	background-size: 32px 32px;
-	width: 32px;
-	height: 32px;
-	margin: 0 10px 0 2px }
+.container-2Thooq .avatar-small { margin: 0 10px 0 2px }
 .container-2Thooq { font-size: 18px; background: transparent }
 .accountDetails-3k9g4n .discriminator { font-size: 0px; margin-top: 0px }
 .theme-light .accountDetails-3k9g4n .username { color: black !important }
@@ -963,11 +957,6 @@ div.avatar-large {
     --transparency-lighter: rgba(255,255,255,0.8);
     --transparency-lightest: rgba(255,255,255,0.9); }
 
-.theme-light,
-.theme-light .layer-3QrUeG,
-.theme-light .layers-3iHuyZ,
-.theme-light .chat form { background: transparent }
-.theme-light .chat form { -webkit-box-shadow: none; box-shadow: none; }
 /*Date separator*/
 .messages-wrapper .messages .divider:not(.red) div {
     background: transparent !important;
