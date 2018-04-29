@@ -359,8 +359,7 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 .theme-dark .private-channels .channel:hover .channel-activity  { opacity: 0.8;  transition: opacity .2s }
 .theme-dark .private-channels .channel.selected .channel-name,
 .theme-dark .private-channels .channel.selected .channel-activity { opacity: 1; transition: opacity .2s }
-
-.theme-dark .badge { background-color: var(--accent-color); color: black; border-radius: var(--roundness) }
+.theme-dark .badge { background-color: var(--accent-color); color: white; var(--roundness); border-radius: var(--roundness) }
 .theme-dark .title-3qD0b- {
 	border-radius: var(--roundness) var(--roundness) 0 0;
 	background-color: var(--transparency-darkest)
@@ -369,7 +368,6 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 .theme-dark pre code { background: var(--transparency) !important; border-radius: var(--roundness);  }
 .markup pre { background: transparent; border-radius: var(--roundness) !important; border-color: var(--accent-color) !important; }
 	
-.theme-dark .badge { background-color: var(--accent-color); color: white; var(--roundness); }
 
 /*Add Friends to DM*/
 .theme-dark .private-channel-recipients-invite {
