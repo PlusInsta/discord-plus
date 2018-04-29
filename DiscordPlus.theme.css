@@ -261,6 +261,9 @@ div.message-group {
 	padding-left: 2px;
 	color: black;
 }
+.theme-light .message-group .btn-option { filter: invert() }
+.theme-light .message-group .btn-reaction { filter: invert() }
+
 
 /*Date separator*/
 .messages-wrapper .messages .divider:not(.red) div {
