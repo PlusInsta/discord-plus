@@ -645,7 +645,7 @@ background: rgba(0,0,0,0);
 .theme-light .quickswitcher-3JagVE { background-color: var(--transparency-lighter); }
 .theme-light .input-2VB9rf {background-color: var(--transparency-lite); }
 
-/*Profile modal*/
+/*Profiles*/
 .backdrop-2ohBEd { backdrop-filter: blur(5px) }
 .theme-dark .topSectionNormal-2-vo2m {
  background-color: var(--transparency-dark); }
@@ -660,6 +660,20 @@ background: rgba(0,0,0,0);
 }
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
 	background-color: transparent;
+}
+.theme-light .topSectionNormal-2-vo2m {
+    background-color: var(--transparency-lighter);
+}
+.theme-light .body-3ND3kc {
+    background-color: var(--transparency-lighter);
+}
+.theme-light .headerNormal-T_seeN {
+	background-color: var(--transparency-lightest);
+	backdrop-filter: blur(2px);
+}
+.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
+    background-color: var(--transparency-lightest);
+	backdrop-filter: blur(2px);
 }
 
 /*Create guild modal*/
@@ -961,22 +975,4 @@ div.avatar-large {
 .theme-dark .friends-table .messages .divider:before,
 .theme-dark .messages-wrapper .messages .divider:before {
     background-color: transparent;
-}
-
-/*Profile popouts*/
-.theme-light .headerNormal-T_seeN {
-	background-color: var(--transparency-lightest);
-	backdrop-filter: blur(2px);
-}
-.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
-    background-color: var(--transparency-lightest);
-	backdrop-filter: blur(2px);
-}
-
-/*Profile modals*/
-.theme-light .topSectionNormal-2-vo2m {
-    background-color: var(--transparency-lighter);
-}
-.theme-light .body-3ND3kc {
-    background-color: var(--transparency-lighter);
 }
