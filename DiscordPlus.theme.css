@@ -374,13 +374,15 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 .container-2Thooq { font-size: 18px; background: transparent }
 .accountDetails-3k9g4n .discriminator { font-size: 0px; margin-top: 0px }
 
-/*Server member list*/
+/*Server members*/
 .channel-members h2 { padding: 0 20px }
 .channel-members .member {padding: 5px 16px 5px 20px; border-radius: var(--roundness)}
 .theme-dark .members-1998pB { background-color: var(--transparency-dark); border-radius: var(--roundness) 0 var(--roundness) var(--roundness); backdrop-filter: blur(0.2em)}
+.channel-members {
+    backdrop-filter: blur(4px)
+}
 
-
-/*Server channel list*/
+/*Server channels*/
 .contentHoveredText-2HYGIY, .contentHoveredVoice-3qGNKh:active, .contentSelectedVoice-1WDIBM:active {background-color: var(--transparency) }
 .nameHoveredText-2FFqiz { background: transparent }
 .contentSelectedText-3wUhMi { background-color: var(--transparency-darkest); transition: background-color .1s}
@@ -392,6 +394,21 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 .channels-Ie2l6A { margin: 0 10px; border-radius: var(--roundness); }
 .theme-dark .channels-Ie2l6A { background:var(--transparency-dark);  backdrop-filter: blur(5px)}
 .theme-dark .unread-1Dp-OI { background-color: var(--transparency-light) !important; }
+
+.theme-light .name-3gtcmp { color: black }
+.theme-light .nameHoveredText-2FFqiz { color: #e6e6e6; transition: color .25s}
+
+.theme-light .contentSelectedText-3wUhMi,
+.theme-light .contentSelectedVoice-1WDIBM { background-color: var(--transparency-darker) !important; transition: background-color .1s}
+.theme-light .contentUnreadText-2vNnZc { background-color: var(--transparency) !important }
+.theme-light .wrapperUnreadText-2zuiuD { color: inherit !important }
+
+.theme-light .nameSelectedText-32NDX5,
+.theme-light .nameSelectedVoice-XpjYTw { color: white !important }
+.theme-light .nameUnreadText-DfkrI4,
+.theme-light .nameUnreadVoice-EVo-wI { color: inherit !important }
+
+.theme-light .unread-1Dp-OI { background-color: var(--transparency-dark) !important; }
 
 /*Scrollbar mods*/
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
@@ -724,9 +741,6 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
     background: inherit;
 }
 
-.channel-members {
-    backdrop-filter: blur(4px)
-}
 /*Person is now typing box*/
 .typing-3eiiL_ {
 	margin-bottom: 58px;
@@ -987,19 +1001,3 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 /*Your profile*/
 .theme-light .accountDetails-3k9g4n .username { color: black !important }
 .theme-light .button-2b6hmh { filter: invert() !important }
-
-/*Server channels*/
-.theme-light .name-3gtcmp { color: black }
-.theme-light .nameHoveredText-2FFqiz { color: #e6e6e6; transition: color .25s}
-
-.theme-light .contentSelectedText-3wUhMi,
-.theme-light .contentSelectedVoice-1WDIBM { background-color: var(--transparency-darker) !important; transition: background-color .1s}
-.theme-light .contentUnreadText-2vNnZc { background-color: var(--transparency) !important }
-.theme-light .wrapperUnreadText-2zuiuD { color: inherit !important }
-
-.theme-light .nameSelectedText-32NDX5,
-.theme-light .nameSelectedVoice-XpjYTw { color: white !important }
-.theme-light .nameUnreadText-DfkrI4,
-.theme-light .nameUnreadVoice-EVo-wI { color: inherit !important }
-
-.theme-light .unread-1Dp-OI { background-color: var(--transparency-dark) !important; }
