@@ -371,7 +371,7 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	
 .theme-dark .badge { background-color: var(--accent-color); color: white; var(--roundness); }
 
-/*DM Invitations*/
+/*Add Friends to DM*/
 .theme-dark .private-channel-recipients-invite {
 	background-color: var(--transparency) !important;
 }
@@ -386,6 +386,21 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 }
 .theme-dark .themed-popout .footer {
     background-color: var(--transparency-dark);
+}
+.theme-light .private-channel-recipients-invite {
+	background-color: var(--transparency-lite) !important;
+}
+.theme-light .private-channel-recipients-invite .header-SsaQ8X {
+	background-color: var(--transparency-light) !important;
+}
+.theme-light .private-channel-recipients-invite .friend {
+	background: var(--transparency-light) !important;
+}
+.theme-light .private-channel-recipients-invite .friend:hover {
+	background: var(--transparency-lighter) !important;
+}
+.theme-light .themed-popout .footer {
+    background-color: var(--transparency-light);
 }
 
 /*Icons*/
@@ -971,22 +986,4 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 }
 .theme-light .body-3ND3kc {
     background-color: var(--transparency-lighter);
-}
-
-
-/*DM Invitations*/
-.theme-light .private-channel-recipients-invite {
-	background-color: var(--transparency-lite) !important;
-}
-.theme-light .private-channel-recipients-invite .header-SsaQ8X {
-	background-color: var(--transparency-light) !important;
-}
-.theme-light .private-channel-recipients-invite .friend {
-	background: var(--transparency-light) !important;
-}
-.theme-light .private-channel-recipients-invite .friend:hover {
-	background: var(--transparency-lighter) !important;
-}
-.theme-light .themed-popout .footer {
-    background-color: var(--transparency-light);
 }
