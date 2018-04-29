@@ -14,7 +14,7 @@ There are variables at the top of the file that allow you to change things like 
 ## Full support
 This theme aims to theme everything on Discord.
 If there's anything that is not themed, be it an official feature, a plugin, bug or third party feature, open an issue along with some information about the unthemed feature.
-It supports the light theme out of the box too, if that's your thing.
+The theme supports the light theme out of the box too, if that's your thing.
 
 # Installation
 ## **Windows**:
