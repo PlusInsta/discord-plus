@@ -36,21 +36,33 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 
 # Screenshots
 
-### Servers
+### Dark
 ![Dark servers](https://user-images.githubusercontent.com/38794586/39407979-5c837c76-4bcf-11e8-9e22-2bc15511d04a.png)
+
+
+![Dark DMs](https://user-images.githubusercontent.com/38794586/39408073-255254b4-4bd1-11e8-8bbc-ebba320a2c68.png)
+
+
+![Dark friends list](https://user-images.githubusercontent.com/38794586/39408094-7b4ec33e-4bd1-11e8-9b9a-e1411a13ad12.png)
+
+
+![Dark settings](https://user-images.githubusercontent.com/38794586/39408049-8b72e1f6-4bd0-11e8-8413-eaae1e164a06.png)
+
+
+
+### Light
 ![Light servers](https://user-images.githubusercontent.com/38794586/39407980-5c9d9318-4bcf-11e8-828e-80b23d398957.png)
 
-### Direct Messages
-![Dark DMs](https://user-images.githubusercontent.com/38794586/39408073-255254b4-4bd1-11e8-8bbc-ebba320a2c68.png)
+
 ![Light DMs](https://user-images.githubusercontent.com/38794586/39408074-2571240c-4bd1-11e8-901a-87635f218ec1.png)
 
-### Friends list
-![Dark friends list](https://user-images.githubusercontent.com/38794586/39408094-7b4ec33e-4bd1-11e8-9b9a-e1411a13ad12.png)
+
 ![Light friends list](https://user-images.githubusercontent.com/38794586/39408095-7b7f6c82-4bd1-11e8-838b-bf606a828012.png)
 
-### Settings
-![Dark settings](https://user-images.githubusercontent.com/38794586/39408049-8b72e1f6-4bd0-11e8-8413-eaae1e164a06.png)
+
 ![Light settings](https://user-images.githubusercontent.com/38794586/39408050-8b8be4b2-4bd0-11e8-875d-74a15f6be12d.png)
+
+
 
 # GIFs
 ### Context menus
