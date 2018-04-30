@@ -134,15 +134,18 @@ div>*:not(code) {
 .winButton-iRh8-Z { height: 23px; top: 2px; right: 2px; border-radius: var(--roundness)}
 
 .wordmark-2iDDfm {
+	background-image: url('https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark.svg');
+	background-repeat: no-repeat;
+	background-size: 65px 16px;
+	width: 65px;
+	height: 16px;
+	display: block;
     opacity: 0.6;
     padding: 5px 8px;
 	transition: opacity .5s, padding .5s;
 }
-
-.wordmark-2iDDfm:hover {
-    opacity: 1;
-    padding: 8px 26px;
-	transition: opacity 1s, padding 1s;
+.wordmark-2iDDfm svg {
+	display: none;
 }
 
 /*Servers*/
