@@ -1,3 +1,14 @@
+:root {
+	--transparency: rgba(0,0,0,0.6);
+    --transparency-dark: rgba(0,0,0,0.7);
+    --transparency-darker: rgba(0,0,0,0.8);
+    --transparency-darkest: rgba(0,0,0,0.9);
+    --transparency-lite: rgba(255,255,255,0.6);
+    --transparency-light: rgba(255,255,255,0.7);
+    --transparency-lighter: rgba(255,255,255,0.8);
+    --transparency-lightest: rgba(255,255,255,0.9);
+}
+
 .app {
     bottom: 1% !important;
     left: 1% !important;
@@ -51,17 +62,6 @@
 		local('ProductSansBoldItalic'),
 		local('ProductSans-BoldItalic'),
 		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_bold_italic.ttf);
-}
-
-:root {
-	--transparency: rgba(0,0,0,0.6);
-    --transparency-dark: rgba(0,0,0,0.7);
-    --transparency-darker: rgba(0,0,0,0.8);
-    --transparency-darkest: rgba(0,0,0,0.9);
-    --transparency-lite: rgba(255,255,255,0.6);
-    --transparency-light: rgba(255,255,255,0.7);
-    --transparency-lighter: rgba(255,255,255,0.8);
-    --transparency-lightest: rgba(255,255,255,0.9);
 }
 
 .links,
