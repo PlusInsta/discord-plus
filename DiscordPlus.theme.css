@@ -22,7 +22,7 @@
 		local('ProductSans'),
 		local('ProductSansRegular'),
 		local('ProductSans-Regular'),
-		 url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans.ttf);
+		 url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans.ttf);
 }
 @font-face {
 		font-family: Product Sans;
@@ -33,7 +33,7 @@
 		local('ProductSans'),
 		local('ProductSansBold'),
 		local('ProductSans-Bold'),
-		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_bold.ttf);
+		url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans_bold.ttf);
    
 }
 @font-face {
@@ -45,7 +45,7 @@
 		local('ProductSans'),
 		local('ProductSansItalic'),
 		local('ProductSans-Italic'),
-		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_italic.ttf);
+		url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans_italic.ttf);
 		
 }
 @font-face {
@@ -58,7 +58,7 @@
 		local('ProductSans'),
 		local('ProductSansBoldItalic'),
 		local('ProductSans-BoldItalic'),
-		url(https://github.com/PlusInsta/discord-plus/blob/master/fonts/productsans_bold_italic.ttf);
+		url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans_bold_italic.ttf);
 }
 
 :root {
@@ -134,7 +134,7 @@ div>*:not(code) {
 .winButton-iRh8-Z { height: 23px; top: 2px; right: 2px; border-radius: var(--roundness)}
 
 .wordmark-2iDDfm {
-	background-image: url('https://rawgithub.com/PlusInsta/discord-plus/master/assets/wordmark.svg');
+	background-image: url('https://rawgithub.com/PlusInsta/discord-plus/master/assets/wordmark_white.svg');
 	background-repeat: no-repeat;
 	background-size: 65px 16px;
 	background-position: 6px 4px !important;
