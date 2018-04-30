@@ -14,7 +14,7 @@ If there's anything that is not themed, be it an official feature, a plugin, bug
 The theme supports the light theme out of the box too, if that's your thing.
 
 # Download 
-https://github.com/PlusInsta/discord-plus/releases/latest
+[Get the latest release.](https://github.com/PlusInsta/discord-plus/releases/latest)
 
 # Installation
 ## **Windows**:
