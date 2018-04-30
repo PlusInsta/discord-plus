@@ -1,0 +1,10 @@
+//META{"name":"Discord+ (Beta)","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use?  Then this is the theme for you. This version automatically downloads the latest commits from the beta branch. Use GitHub to report issues.","author":"Insta","version":"2.0+"}*//
+
+@import url(https://raw.githubusercontent.com/PlusInsta/discord-plus/beta/css/DiscordPlus_beta.css):
+
+:root {
+	--background: url(https://i.imgur.com/3AiL3yN.png);
+	--font: 'Product Sans';	
+	--roundness: 10px;
+	--accent-color: rgba(135,31,96,0.8);
+}
