@@ -131,6 +131,12 @@ div>*:not(code) {
     position: relative;
 }
 
+/*macOS window buttons*/
+.typeMacOS-3EmCyP {
+	border-radius: var(--roundness);
+	background-color: var(--transparency)
+}
+
 .winButton-iRh8-Z { height: 23px; top: 2px; right: 2px; border-radius: var(--roundness)}
 
 .wordmark-2iDDfm {
