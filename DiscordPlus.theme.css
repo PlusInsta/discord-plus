@@ -354,6 +354,11 @@ top: 10% !important;
     background: var(--transparency-dark);
 }
 
+/*BetterDiscord plugin update notices*/
+.noticeInfo-3_iTE1 {
+    background-color: var(--accent-color);
+}
+
 /*DM Adjustments*/
 #friends { overflow: hidden; border-radius: var(--roundness); }
 .private-channels .channel .link-button-icon { height: 32px; width: 32px; }
