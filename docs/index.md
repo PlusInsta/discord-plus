@@ -2,7 +2,7 @@
 
 **Discord+** is a theme for [Discord](https://discordapp.com), a popular messaging and voice chat service.
 
-Using plugins like [BetterDiscord](https://betterdiscord.net/home/) or [BandagedBD](https://github.com/rauenzi/BetterDiscordApp), you can change the look of the app.
+Using plugins like [BetterDiscord](https://betterdiscord.net/home) or [BandagedBD](https://github.com/rauenzi/BetterDiscordApp), you can change the look of the app.
 
 ## User customization
 This theme aims to be **fully customizable**.
@@ -19,7 +19,7 @@ The theme supports the light theme out of the box too, if that's your thing.
 # Installation
 ## **Windows**:
 * Download `DiscordPlus.theme.css`
-* Move it to `%AppData%\BetterDiscord\themes`
+* Move it to `%AppData%\\BetterDiscord\\themes`
 * Launch Discord
 * Enable the theme in Settings
 
