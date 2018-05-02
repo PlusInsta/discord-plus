@@ -19,7 +19,7 @@ The theme supports the light theme out of the box too, if that's your thing.
 # Installation
 ## **Windows**:
 * Download `DiscordPlus.theme.css`
-* Move it to `%AppData%\\BetterDiscord\\themes`
+* Move it to `%AppData%\BetterDiscord\themes`
 * Launch Discord
 * Enable the theme in Settings
 
