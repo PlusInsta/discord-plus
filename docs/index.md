@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## What is this?
 
 **Discord+** is a theme for [Discord](https://discordapp.com), a popular messaging and voice chat service.
