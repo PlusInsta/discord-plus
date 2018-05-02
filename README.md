@@ -29,7 +29,7 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 
 ## **macOS**:
 * Download `DiscordPlus.theme.css`
-* Move it to `/User/Library/Application Support/BetterDiscord/themes`
+* Move it to `/User/Library/Preferences/BetterDiscord/themes`
 * Launch Discord.app
 * Enable the theme in Settings
 
