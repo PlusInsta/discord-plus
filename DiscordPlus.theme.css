@@ -13,64 +13,7 @@
     top: 1% !important;
 }
 
-/*Product Sans font*/
-@font-face {
-		font-family: 'Product Sans';
-		src:
-		local('Product Sans'),
-		local('Product Sans Regular'),
-		local('ProductSans'),
-		local('ProductSansRegular'),
-		local('ProductSans-Regular'),
-		 url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans.ttf);
-}
-@font-face {
-		font-family: Product Sans;
-		font-weight: bold;
-		src:
-		local('Product Sans'),
-		local('Product Sans Bold'),
-		local('ProductSans'),
-		local('ProductSansBold'),
-		local('ProductSans-Bold'),
-		url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans_bold.ttf);
-
-}
-@font-face {
-		font-family: Product Sans;
-		font-style: italic;
-		src:
-		local('Product Sans'),
-		local('Product Sans Italic'),
-		local('ProductSans'),
-		local('ProductSansItalic'),
-		local('ProductSans-Italic'),
-		url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans_italic.ttf);
-
-}
-@font-face {
-		font-family: Product Sans;
-		font-style: italic;
-		font-weight: bold;
-		src:
-		local('Product Sans'),
-		local('Product Sans Bold Italic'),
-		local('ProductSans'),
-		local('ProductSansBoldItalic'),
-		local('ProductSans-BoldItalic'),
-		url(https://rawgithub.com/PlusInsta/discord-plus/master/fonts/productsans_bold_italic.ttf);
-}
-
-:root {
-	--transparency: rgba(0,0,0,0.6);
-    --transparency-dark: rgba(0,0,0,0.7);
-    --transparency-darker: rgba(0,0,0,0.8);
-    --transparency-darkest: rgba(0,0,0,0.9);
-    --transparency-lite: rgba(255,255,255,0.6);
-    --transparency-light: rgba(255,255,255,0.7);
-    --transparency-lighter: rgba(255,255,255,0.8);
-    --transparency-lightest: rgba(255,255,255,0.9);
-}
+@import url(https://fonts.googleapis.com/css?family=Product+Sans:400,700);
 
 .links,
 .chat,
