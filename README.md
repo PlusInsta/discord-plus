@@ -16,6 +16,15 @@ This theme aims to theme everything on Discord.
 If there's anything that is not themed, be it an official feature, a plugin, bug or third party feature, open an issue along with some information about the unthemed feature.
 The theme supports the light theme out of the box too, if that's your thing.
 
+## Cross-platform compatibility
+The theme looks identical on Windows, macOS, Linux and the Web, the only differences being in the titlebar.
+
+Whereas Windows has a draggable titlebar, macOS only has the window buttons visible.
+
+Linux uses the titlebar native to your distribution, and the web version has your browser's tab bar.
+
+I made sure the theme looks just the same across platforms, despite these differences.
+
 # Download
 https://github.com/PlusInsta/discord-plus/releases/latest
 
@@ -32,6 +41,7 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 * Move it to `/User/Library/Preferences/BetterDiscord/themes`
 * Launch Discord.app
 * Enable the theme in Settings
+
 **Notice:** You might have to install [Product Sans](https://befonts.com/download/product-sans) manually on macOS.
 
 # Screenshots
@@ -62,6 +72,8 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 
 ![Light settings](https://user-images.githubusercontent.com/38794586/39408050-8b8be4b2-4bd0-11e8-875d-74a15f6be12d.png)
 
+### macOS
+![Dark theme on macOS](https://user-images.githubusercontent.com/38794586/39621516-549d0af4-4f8f-11e8-8823-4d2a64d14b5d.png)
 
 
 # GIFs
