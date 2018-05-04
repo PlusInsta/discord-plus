@@ -85,11 +85,21 @@ div>*:not(code) {
     position: relative;
 }
 
+
 /*macOS window buttons*/
 .typeMacOS-3EmCyP {
 	border-radius: var(--roundness);
-	background-color: var(--transparency)
+	margin-left: 1vw;
+	margin-top: 1vh;
+	border-radius: var(--roundness) var(--roundness) 0 0 !important;
 }
+.platform-osx .guilds-wrapper {
+    margin-top: 0px !important;
+}
+.platform-osx .guilds {
+    padding: 32px 0 16px 10px !important;
+}
+
 
 .winButton-iRh8-Z { height: 23px; top: 2px; right: 2px; border-radius: var(--roundness)}
 
@@ -108,8 +118,8 @@ div>*:not(code) {
 }
 
 /*Servers*/
-.guilds-wrapper { border-radius: var(--roundness) !important; }
-.guilds-wrapper .guilds { padding: 10px 0 16px 10px !important;}
+.guilds-wrapper { border-radius: var(--roundness); }
+.guilds-wrapper .guilds { padding: 10px 0 16px 10px;}
 .guilds-wrapper .guilds .guild .guild-inner { border-radius: var(--roundness) !important; transition: opacity .25s; opacity: 0.6;}
 .guilds-wrapper .guilds .guild .guild-inner:hover {opacity: 1; transition: opacity .25s; }
 .guilds-wrapper .guilds .guild+.guild { border-radius: var(--roundness); }
