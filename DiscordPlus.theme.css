@@ -158,6 +158,14 @@ div>*:not(code) {
 }
 .image-33JSyf, .avatarHint-1qgaV3 { border-radius: var(--roundness) }
 
+/*Game icons*/
+.assetsLargeImage-eYwpTX {
+    border-radius: var(--roundness);
+}
+.gameIcon-_0rmMm {
+	border-radius: var(--roundness);
+}
+
 /*Calling*/
 .video-1FfuMD {
 background-color: transparent; }
