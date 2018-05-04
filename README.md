@@ -16,7 +16,7 @@ This theme aims to theme everything on Discord.
 If there's anything that is not themed, be it an official feature, a plugin, bug or third party feature, open an issue along with some information about the unthemed feature.
 The theme supports the light theme out of the box too, if that's your thing.
 
-# Download 
+# Download
 https://github.com/PlusInsta/discord-plus/releases/latest
 
 # Installation
@@ -32,7 +32,7 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 * Move it to `/User/Library/Preferences/BetterDiscord/themes`
 * Launch Discord.app
 * Enable the theme in Settings
-
+**Notice:** You might have to install [Product Sans](https://befonts.com/download/product-sans) manually on macOS.
 
 # Screenshots
 
