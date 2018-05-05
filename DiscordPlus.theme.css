@@ -73,16 +73,15 @@ div>*:not(code) {
 
 /*Windows titlebar*/
 .typeWindows-1za-n7 {
-    height: 20px !important;
-    background-color: var(--transparency);
+  height: 20px !important;
+  background-color: var(--transparency);
 	border-radius: var(--roundness);
-	margin-top: 4px;
-	margin-bottom: -2px;
-    padding-bottom: 4px;
-	width: 98%;
-	left: 1%;
-    align-items: center;
-    position: relative;
+	margin-bottom: -0.2vh;
+	padding-bottom: 0.4vh;
+	width: 98vw;
+	left: 1vw;
+  align-items: center;
+  position: relative;
 }
 
 
