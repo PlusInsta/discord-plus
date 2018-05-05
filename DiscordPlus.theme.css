@@ -726,26 +726,24 @@ background: rgba(0,0,0,0);
 	background-color: var(--transparency);
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
-	border-color: var(--accent-color);
-    filter: saturate(100%);
-	transition: filter .5s;
-}
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
     background-color: var(--transparency);
-    border-color: var(--accent-color);
-    filter: saturate(0%);
-	transition: filter .5s;
+    border-color: var(--transparency);
+	transition: border-color .5s;
+}
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+	border-color: var(--accent-color);
+	transition: border-color .5s;
 }
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
-    -webkit-box-shadow: none;
-    background-color: transparent;
+  -webkit-box-shadow: none;
+  background-color: transparent;
 }
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
-    background-color: transparent;
-    color: var(--transparency); }
+  background-color: transparent;
+  color: var(--transparency); }
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
-    background-color: var(--transparency);
+  background-color: var(--transparency);
 	padding-bottom: 4px;
 }
 
@@ -756,20 +754,18 @@ background: rgba(0,0,0,0);
 	background-color: var(--transparency-lite);
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 }
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+  background-color: var(--transparency-lite);
+  border-color: var(--transparency);
+	transition: border-color .5s;
+}
 .theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
 	border-color: var(--accent-color);
-    filter: saturate(100%);
-	transition: filter .5s;
-}
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
-    background-color: var(--transparency-lite);
-    border-color: var(--accent-color);
-    filter: saturate(0%);
-	transition: filter .5s;
+	transition: border-color .5s;
 }
 .theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
-    -webkit-box-shadow: none;
-    background-color: transparent;
+  -webkit-box-shadow: none;
+  background-color: transparent;
 	color: black;
 }
 .theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
