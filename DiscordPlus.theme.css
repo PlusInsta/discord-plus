@@ -330,6 +330,10 @@ top: 10% !important;
 .noticeInfo-3_iTE1 {
     background-color: var(--accent-color);
 }
+#pluginNotice {
+    border-radius: var(--roundness);
+    margin-top: -0.8vh;
+}
 
 /*DM Adjustments*/
 #friends { overflow: hidden; border-radius: var(--roundness); }
