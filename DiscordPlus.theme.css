@@ -741,7 +741,7 @@ background: rgba(0,0,0,0);
 }
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
   background-color: transparent;
-  color: var(--transparency); }
+  color: white; }
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
   background-color: var(--transparency);
 	padding-bottom: 4px;
