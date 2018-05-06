@@ -875,6 +875,15 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 	background: var(--accent-color) !important;
 }
 
+/*BetterDiscord Custom CSS*/
+#bd-customcss-attach-controls {
+	margin-top: 10px;
+	border-radius: var(--roundness);
+}
+#bd-customcss-editor {
+	border-radius: var(--roundness);
+}
+
 /*Server settings*/
 .theme-dark .select-2TCrqx .Select-menu-outer {
 	background: var(--transparency-darker);
