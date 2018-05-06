@@ -233,7 +233,7 @@ div.message-group {
 .theme-light .message-group { background-color: var(--transparency-light) }
 .theme-light .message-text .markup { color: black }
 .theme-light .message-group.is-local-bot-message {
-    opacity:1;
+  opacity:1;
 	-webkit-box-shadow: 0px !important;
 	box-shadow: 0px !important;
   background-color: var(--transparency-light);
@@ -355,8 +355,8 @@ div.message-group {
   padding: 4px 12px;
 }
 .private-channels .channel.selected a {
-    background-color: var(--transparency);
-    border-radius: var(--roundness); }
+  background-color: var(--transparency);
+  border-radius: var(--roundness); }
 .private-channels .channel a { padding: 4px }
 .private-channels .channel:hover a {
   background-color: var(--transparency-dark) !important;
