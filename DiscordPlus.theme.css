@@ -797,10 +797,18 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .bgScale-1otPtc { border-radius: var(--roundness) !important }
 
 /*Settings*/
-.theme-dark .user-settings,
-.theme-dark .sidebar-region,
-.theme-dark .content-region,
-.theme-dark .ui-standard-sidebar-view { background-color: var(--transparency) !important; border-radius: var(--roundness) !important; }
+.user-settings,
+.sidebar-region,
+.content-region { background-color: transparent !important; }
+.theme-dark .ui-standard-sidebar-view {
+	background-color: var(--transparency) !important;
+	border-radius: var(--roundness) !important;
+}
+.theme-light .ui-standard-sidebar-view {
+	background: var(--transparency-lightest) !important;
+	border-radius: var(--roundness) !important;
+}
+
 #bd-settings-sidebar:after {
   content: "Discord+ by Insta";
   color: rgb(114, 118, 125);
@@ -816,11 +824,10 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 }
 
 .checkbox-1ix_J3 { border-radius: var(--roundness) }
-
-.theme-light .user-settings,
-.theme-light .sidebar-region,
-.theme-light .content-region { background: transparent !important }
-.theme-light .ui-standard-sidebar-view { background: var(--transparency-lightest) !important; border-radius: var(--roundness) !important; }
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
 .theme-light #bd-settings-sidebar .ui-tab-bar-item { color: #72767d !important; }
 .theme-light #bd-settings-sidebar .ui-tab-bar-item:hover { color: black !important; }
