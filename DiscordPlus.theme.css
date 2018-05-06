@@ -642,7 +642,13 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
-
+/*Tooltips*/
+.tooltip {
+	border-radius: var(--roundness);
+}
+.tooltip.tooltip-black {
+	background-color: var(--transparency-dark);
+}
 
 /*Quick switcher modal*/
 .theme-dark .quickswitcher-3JagVE { background-color: var(--transparency); }
