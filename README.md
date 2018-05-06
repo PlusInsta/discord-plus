@@ -47,30 +47,30 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 # Screenshots
 
 ### Dark
-![Dark servers](https://user-images.githubusercontent.com/38794586/39407979-5c837c76-4bcf-11e8-9e22-2bc15511d04a.png)
+![Dark servers](https://dl.dropboxusercontent.com/s/ku6cq24xiu8m0bx/darkserv.png)
 
 
-![Dark DMs](https://user-images.githubusercontent.com/38794586/39408073-255254b4-4bd1-11e8-8bbc-ebba320a2c68.png)
+![Dark DMs](https://dl.dropboxusercontent.com/s/f3mwoft8sffuozb/darkdms.png)
 
 
-![Dark friends list](https://user-images.githubusercontent.com/38794586/39408094-7b4ec33e-4bd1-11e8-9b9a-e1411a13ad12.png)
+![Dark friends list](https://dl.dropboxusercontent.com/s/drl3hjrfq4iq78v/darkfrnd.png)
 
 
-![Dark settings](https://user-images.githubusercontent.com/38794586/39408049-8b72e1f6-4bd0-11e8-8413-eaae1e164a06.png)
+![Dark settings](https://dl.dropboxusercontent.com/s/uru93qincnejmu1/darksett.png)
 
 
 
 ### Light
-![Light servers](https://user-images.githubusercontent.com/38794586/39407980-5c9d9318-4bcf-11e8-828e-80b23d398957.png)
+![Light servers](https://dl.dropboxusercontent.com/s/8g41td1ebocfps7/liteserv.png)
 
 
-![Light DMs](https://user-images.githubusercontent.com/38794586/39408074-2571240c-4bd1-11e8-901a-87635f218ec1.png)
+![Light DMs](https://dl.dropboxusercontent.com/s/3q3kme7k75vvc80/litedms.png)
 
 
-![Light friends list](https://user-images.githubusercontent.com/38794586/39408095-7b7f6c82-4bd1-11e8-838b-bf606a828012.png)
+![Light friends list](https://dl.dropboxusercontent.com/s/h1av89cg28a54zm/litefrnd.png)
 
 
-![Light settings](https://user-images.githubusercontent.com/38794586/39408050-8b8be4b2-4bd0-11e8-875d-74a15f6be12d.png)
+![Light settings](https://dl.dropboxusercontent.com/s/ydeyjjwwncwcrkc/litesett.png)
 
 ### macOS
 ![Dark theme on macOS](https://user-images.githubusercontent.com/38794586/39621516-549d0af4-4f8f-11e8-8823-4d2a64d14b5d.png)
