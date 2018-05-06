@@ -254,6 +254,7 @@ div.message-group {
 .theme-light .message-group .btn-option { filter: invert() }
 .theme-light .message-group .btn-reaction { filter: invert() }
 
+.base-3dtUhz { border-radius: var(--roundness); }
 
 /*Date separator*/
 .messages-wrapper .messages .divider:not(.red) div {
@@ -499,9 +500,7 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-dark .inner-zqa7da {
   background-color: var(--transparency);
 }
-.links,
-.help-container { display: none; }
-.base-3dtUhz { border-radius: var(--roundness); }
+
 /*Transparent friends list*/
 .theme-dark #friends {
 	background-color: var(--transparency-darker);
