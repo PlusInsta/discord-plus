@@ -265,6 +265,24 @@ div.message-group {
   background-color: transparent;
 }
 
+/*Attachments*/
+.theme-dark .attachment-33OFj0,
+.theme-dark .wrapper-2TxpI8 {
+	background-color: var(--transparency) !important;
+	border-color: var(--accent-color) !important;
+}
+.theme-light .attachment-33OFj0,
+.theme-light .wrapper-2TxpI8 {
+  background-color: var(--transparency-light) !important;
+	border-color: var(--accent-color) !important;
+}
+.attachment-33OFj0,
+.wrapper-2TxpI8,
+.audioControls-2HsaU6,
+.videoControls-2kcYic {
+	border-radius: var(--roundness) !important;
+}
+
 /*System messages*/
 .system-message .system-message-content { margin-left: 6.11rem !important; }
 .system-message .system-message-icon {
