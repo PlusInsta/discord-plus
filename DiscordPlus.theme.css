@@ -137,7 +137,13 @@ div>*:not(code) {
 .container-16j22k { background-color: var(--transparency) }
 
 /*Profile pictures*/
-.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .user-popout .avatar-wrapper .avatar-popout {
+.avatar-profile,
+.avatar-xsmall,
+.avatar-small,
+.avatar-large,
+.avatar-xlarge,
+.avatar-xxlarge,
+.avatar-uploader-inner {
 	border-radius: var(--roundness) !important;
 }
 .avatar-small {
