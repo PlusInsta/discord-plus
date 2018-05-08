@@ -859,7 +859,10 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
   flex-shrink: 0;
 }
 
-.checkbox-1ix_J3 { border-radius: var(--roundness) }
+.checkbox-1ix_J3,
+.questionMark-CWEQZn {
+	border-radius: var(--roundness)
+}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
