@@ -923,6 +923,10 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .Select .Select-menu {
   border-radius: 0 0 var(--roundness) var(--roundness);
 }
+.auditLog-3jNbM6 {
+  border-color: var(--accent-color);
+  border-radius: var(--roundness);
+}
 .card-FDVird::before {
   background-color: transparent !important;
   border-color: var(--accent-color) !important;
