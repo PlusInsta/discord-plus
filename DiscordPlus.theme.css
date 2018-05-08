@@ -923,6 +923,21 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .Select .Select-menu {
   border-radius: 0 0 var(--roundness) var(--roundness);
 }
+.theme-dark .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	background-color: var(--transparency);
+	border-color: transparent;
+}
+.theme-light .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	background-color: var(--transparency-lite);
+	border-color: transparent;
+	color: black;
+}
+.theme-light .lookOutlined-3sRXeN:hover.colorWhite-rEQuAQ {
+	color: white;
+}
+.lookOutlined-3sRXeN:hover.colorWhite-rEQuAQ {
+	background-color: var(--accent-color);
+}
 .item-PXvHYJ,
 .input-cIJ7To,
 .copyInput-2rOSt7,
