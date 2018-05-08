@@ -909,10 +909,16 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 }
 
 /*Server settings*/
-.theme-dark .select-2TCrqx .Select-menu-outer {
-	background: var(--transparency-darker);
-	border-color: var(--accent-color);
-	border-radius: var(--roundness);
+.select-2TCrqx .Select-menu-outer {
+	background: var(--transparency-darker) !important;
+	border-color: var(--accent-color) !important;
+	border-radius: var(--roundness) !important;
+}
+.theme-light .select-2TCrqx .Select-menu-outer {
+	background: var(--transparency-lighter) !important;
+}
+.theme-light .select-2TCrqx .Select-option.is-selected {
+  background: transparent;
 }
 .Select .Select-menu {
   border-radius: 0 0 var(--roundness) var(--roundness);
