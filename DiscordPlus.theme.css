@@ -923,6 +923,13 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .Select .Select-menu {
   border-radius: 0 0 var(--roundness) var(--roundness);
 }
+.item-PXvHYJ,
+.input-cIJ7To,
+.copyInput-2rOSt7,
+.Select .Select-control,
+.Select.is-open .Select-control {
+	border-radius: var(--roundness) !important;
+}
 .auditLog-3jNbM6 {
   border-color: var(--accent-color);
   border-radius: var(--roundness);
@@ -930,6 +937,7 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .card-FDVird::before {
   background-color: transparent !important;
   border-color: var(--accent-color) !important;
+	border-radius: var(--roundness) !important;
 }
 .theme-light .guild-settings-members-member .tag {
   color: var(--transparency-dark) !important;
