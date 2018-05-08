@@ -289,6 +289,12 @@ div.message-group {
 	border-radius: var(--roundness) !important;
 }
 
+/*Media*/
+.video-27HGyZ,
+.embedVideo-3nf0O9 {
+	border-radius: var(--roundness) !important;
+}
+
 /*System messages*/
 .system-message .system-message-content { margin-left: 6.11rem !important; }
 .system-message .system-message-icon {
