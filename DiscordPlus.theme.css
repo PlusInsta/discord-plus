@@ -944,11 +944,9 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 	border-color: transparent;
 	color: black;
 }
-.theme-light .lookOutlined-3sRXeN:hover.colorWhite-rEQuAQ {
-	color: white;
-}
 .lookOutlined-3sRXeN:hover.colorWhite-rEQuAQ {
 	background-color: var(--accent-color);
+	color: white;
 }
 .item-PXvHYJ,
 .input-cIJ7To,
