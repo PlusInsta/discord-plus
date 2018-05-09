@@ -577,6 +577,23 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 
 .theme-light .unread-1Dp-OI { background-color: var(--transparency-dark) !important; }
 
+/*Server categories*/
+.theme-light .iconCollapsed-3hFp_8,
+.theme-light .iconDefault-3Gr8d2,
+.theme-light .nameCollapsed-34uFWo,
+.theme-light .nameDefault-2DI02H {
+    color: #72767d;
+		transition: color .2s;
+}
+
+.theme-light .iconHovered-2L3-fB,
+.theme-light .iconHoveredCollapsed-3caIIZ,
+.theme-light .nameHovered-1gxhWH,
+.theme-light .nameHoveredCollapsed-2orEWB {
+	color: black;
+	transition: color .2s;
+}
+
 /*Scrollbar*/
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border: 0px solid rgba(0,0,0,0) !important;
