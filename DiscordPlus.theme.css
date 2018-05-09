@@ -490,25 +490,85 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 
 
 /*Server channels*/
-.contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {background-color: var(--transparency) }
+.contentHoveredText-2D9B-x,
+.contentHoveredVoice-3p_NEO,
+.contentSelectedVoice-1WDIBM {
+	background-color: var(--transparency);
+	transition: background-color .2s !important;
+}
 .nameHoveredText-1uO31y { background: transparent }
-.contentSelectedText-3wUhMi { background-color: var(--transparency-darkest); transition: background-color .1s}
+.contentSelectedText-3wUhMi {
+	background-color: var(--transparency-darkest) !important;
+	transition: background-color .2s !important;
+}
 
-.content-20Aix8:hover {background-color: var(--transparency-dark); transition: background-color .25s !important}
-.content-20Aix8 {background-color: rgba(0,0,0,0); transition: background-color .25s !important}
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameHoveredText-1uO31y,
+.nameHoveredVoice-YJ1Vfd,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.theme-dark .nameMutedText-3Vj4bM,
+.theme-dark .nameMutedVoice-3oxyQZ,
+.theme-dark .nameUnreadText-DfkrI4,
+.theme-dark .nameUnreadVoice-EVo-wI
+.contentMutedText-2y6aPQ,
+.content-20Aix8 {
+	transition: color .2s !important;
+}
+.content-20Aix8 {
+	background-color: transparent;
+	transition: background-color .2s !important;
+}
+.content-20Aix8:hover {
+	background-color: var(--transparency-dark);
+	transition: background-color .2s !important;
+}
 
 .content-20Aix8 { border-radius: var(--roundness) }
 .channels-Ie2l6A { margin: 0 10px; border-radius: var(--roundness); }
 .theme-dark .channels-Ie2l6A { background:var(--transparency-dark); }
 .theme-dark .unread-1Dp-OI { background-color: var(--transparency-light) !important; }
 
-.theme-light .name-3YKhmS { color: black }
-.theme-light .nameHoveredText-1uO31y { color: #e6e6e6; transition: color .25s}
+.theme-light .name-3YKhmS { color: black; }
+.theme-light .nameHoveredText-1uO31y { color: #e6e6e6; }
+.theme-light .nameMutedText-3Vj4bM,
+.theme-light .nameMutedVoice-3oxyQZ {
+	color: #8f8f8f;
+}
 
 .theme-light .contentSelectedText-3wUhMi,
-.theme-light .contentSelectedVoice-1WDIBM { background-color: var(--transparency-darker) !important; transition: background-color .1s}
-.theme-light .contentUnreadText-2vNnZc { background-color: var(--transparency) !important }
-.theme-light .wrapperUnreadText-2zuiuD { color: inherit !important }
+.theme-light .contentSelectedVoice-1WDIBM {
+	background-color: var(--transparency-darker) !important;
+	transition: background-color .2s;
+}
+.theme-light .contentUnreadText-2vNnZc { background-color: transparent !important }
+.theme-light .content-20Aix8 {
+	color: black !important;
+	background-color: transparent;
+	transition: color .2s, background-color .2s ease-in-out !important;
+}
+.theme-light .content-20Aix8:hover {
+	color: white !important;
+	background-color: var(--transparency-darker);
+	transition: color .2s, background-color .2s ease-in-out !important;
+}
+/*Channel icons*/
+.theme-light .contentDefaultText-3vZplL .foreground-2W-aJk,
+.theme-light .contentDefaultVoice-2ko43i .foreground-2W-aJk,
+.theme-light .contentMutedText-2y6aPQ .foreground-2W-aJk,
+.theme-light .colorUnreadText-2t7XRb,
+.theme-light .colorUnreadVoice-137o4SJ {
+	color: black;
+	transition: color .2s
+}
+.theme-light .contentSelectedText-3wUhMi .foreground-2W-aJk,
+.theme-light .contentSelectedVoice-1WDIBM .foreground-2W-aJk,
+.theme-light .colorHoveredText-OZnAgu,
+.theme-light .colorHoveredVoice-1kucsK, {
+	color: white;
+	transition: color .2s
+}
 
 .theme-light .nameSelectedText-sp_EUw,
 .theme-light .nameSelectedVoice-1qSph5 { color: white !important }
