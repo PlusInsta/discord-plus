@@ -483,8 +483,6 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 
 /*Server members*/
-.channel-members h2 { padding: 0 20px }
-.channel-members .member {padding: 5px 16px 5px 20px; border-radius: var(--roundness)}
 .theme-dark .members-1998pB { background-color: var(--transparency-dark); border-radius: var(--roundness) 0 var(--roundness) var(--roundness);}
 
 
