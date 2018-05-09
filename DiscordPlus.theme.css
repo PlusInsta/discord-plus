@@ -936,14 +936,16 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 /*Settings*/
 .user-settings,
 .sidebar-region,
-.content-region { background-color: transparent !important; }
+.content-region { background-color: transparent !important; transition: background-color: .2s; }
 .theme-dark .ui-standard-sidebar-view {
-	background-color: var(--transparency) !important;
-	border-radius: var(--roundness) !important;
+	background-color: var(--transparency);
+	border-radius: var(--roundness);
+	transition: background-color .2s;
 }
 .theme-light .ui-standard-sidebar-view {
-	background: var(--transparency-lightest) !important;
-	border-radius: var(--roundness) !important;
+	background: var(--transparency-lightest);
+	border-radius: var(--roundness);
+	transition: background-color .2s;
 }
 
 #bd-settings-sidebar:after {
