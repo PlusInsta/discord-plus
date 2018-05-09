@@ -991,6 +991,9 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .questionMark-CWEQZn {
 	border-radius: var(--roundness)
 }
+.input-cIJ7To:focus {
+    border-color: var(--accent-color);
+}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
