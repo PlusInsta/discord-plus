@@ -483,8 +483,30 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 
 /*Server members*/
-.theme-dark .members-1998pB { background-color: var(--transparency-dark); border-radius: var(--roundness) 0 var(--roundness) var(--roundness);}
-
+.theme-dark .members-1998pB {
+	background-color: var(--transparency-dark);
+	border-radius: var(--roundness) 0 var(--roundness) var(--roundness);
+}
+.member-3W1lQa {
+	border-radius: var(--roundness);
+}
+.content-OzHfo4 {
+	transition: background-color .2s;
+}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+	background-color: var(--transparency-dark);
+}
+.theme-light .member-3W1lQa:hover .content-OzHfo4 {
+	background-color: var(--transparency-light);
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+  background-color: var(--transparency-darker);
+}
+.theme-light .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-light .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+  background-color: var(--transparency-lighter);
+}
 
 /*Server channels*/
 .content-20Aix8 {
