@@ -936,15 +936,36 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 /*Settings*/
 .user-settings,
 .sidebar-region,
-.content-region { background-color: transparent !important; transition: background-color: .2s; }
-.theme-dark .ui-standard-sidebar-view {
+.content-region {
+	background-color: transparent;
+	transition: background-color: .2s;
+}
+.ui-standard-sidebar-view {
+    background: transparent !important;
+}
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+	width: 100%;
+}
+.ui-standard-sidebar-view .content-column,
+.ui-standard-sidebar-view .custom-column {
+	max-width: 100%;
+}
+.ui-standard-sidebar-view .content-column.default,
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+  padding-top: 20px;
+}
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
 	background-color: var(--transparency);
 	border-radius: var(--roundness);
+	margin: 5px;
 	transition: background-color .2s;
 }
-.theme-light .ui-standard-sidebar-view {
+.theme-light .ui-standard-sidebar-view .content-region,
+.theme-light .ui-standard-sidebar-view .sidebar-region {
 	background: var(--transparency-lightest);
 	border-radius: var(--roundness);
+	margin: 5px;
 	transition: background-color .2s;
 }
 .item-PXvHYJ, .itemDefault-3Jdr52, .itemHover-EnbcjT, .ui-tab-bar-item {
