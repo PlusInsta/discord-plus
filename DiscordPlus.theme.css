@@ -857,10 +857,12 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-dark .modal-3HD5ck {
 	background-color: var(--transparency-dark);
 }
-.theme-dark .footer-2yfCgX {
-	background-color: transparent;
+.theme-light .modal-3HD5ck {
+	background-color: var(--transparency-lightest);
 }
-
+.footer-2yfCgX {
+	background-color: transparent !important;
+}
 /*Pinned messages*/
 .theme-dark .messagesPopoutWrap-1MQ1bW {
 	background-color: var(--transparency);
