@@ -675,7 +675,20 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 }
 
 /*Popouts*/
-.root-SR8cQa, .userPopout-3XzG_A, .quickMessage-2XpSaN, .note-3HfJZ5 textarea {border-radius: var(--roundness); background-color: var(--transparency)}
+.root-SR8cQa,
+.userPopout-3XzG_A,
+.quickMessage-2XpSaN,
+.note-3HfJZ5 textarea {
+	border-radius: var(--roundness);
+	background-color: var(--transparency)
+}
+.theme-light .root-SR8cQa,
+.theme-light .userPopout-3XzG_A,
+.theme-light .quickMessage-2XpSaN,
+.theme-light .note-3HfJZ5 textarea {
+  border-radius: var(--roundness);
+  background-color: var(--transparency-light);
+}
 .theme-dark .headerNormal-T_seeN { background-color: var(--transparency-darker) !important; }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background-color: var(--transparency-darker) !important; }
 .headerPlaying-j0WQBV { background-color: var(--accent-color) !important}
