@@ -913,10 +913,7 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 	background-color: var(--transparency-lighter);
 	border-color: transparent !important;
 }
-#bd-settingspane-container
-.ui-switch-item
-.ui-switch-wrapper
-.ui-switch.checked,
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bd-pfbtn {
 	background: var(--accent-color) !important;
 }
