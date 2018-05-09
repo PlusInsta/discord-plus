@@ -947,6 +947,23 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 	border-radius: var(--roundness);
 	transition: background-color .2s;
 }
+.item-PXvHYJ, .itemDefault-3Jdr52, .itemHover-EnbcjT, .ui-tab-bar-item {
+	transition: background-color .2s, color .2s;
+}
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover,
+.theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
+  background-color: var(--transparency-dark);
+}
+.theme-light .side-8zPYf6 .itemDefault-3Jdr52:hover,
+.theme-light .side-8zPYf6 .itemHover-EnbcjT:hover,
+.theme-light #bd-settings-sidebar .ui-tab-bar-item:hover {
+  background-color: var(--transparency-light);
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+	background-color: var(--accent-color) !important;
+	cursor: default;
+}
 
 #bd-settings-sidebar:after {
   content: "Discord+ by Insta";
@@ -988,9 +1005,10 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .side-8zPYf6 .itemSelected-1qLhcL,
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .barFill-23-gu-,
-.bda-slist .bda-footer button,
-#bd-settings-sidebar .ui-tab-bar-item.selected {
-	background-color: var(--accent-color) }
+.bda-slist .bda-footer button {
+	background-color: var(--accent-color);
+	transition: background-color .2s, color .2s;
+}
 
 .theme-dark .radioGroup-1GBvlr [style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {
 	background-color: var(--accent-color) !important;
