@@ -1063,8 +1063,10 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 * DevilBro's plugins (only tested with PluginRepo)
 * (https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/PluginRepo)
 */
-.flexChild-faoVW3 > div > div:not(.radioGroup-1GBvlr) {
+.flexChild-faoVW3 > div > div {
   border-radius: var(--roundness) !important;
+}
+.DevilBro-notice {
   margin-left: 10px;
   margin-bottom: 0.8vh;
 }
