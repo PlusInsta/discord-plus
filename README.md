@@ -47,30 +47,28 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 # Screenshots
 
 ### Dark
-![Dark servers](https://dl.dropboxusercontent.com/s/ku6cq24xiu8m0bx/darkserv.png)
+![Dark servers](https://dl.dropboxusercontent.com/s/vze8yo4im20s3uf/darkdream_server.png)
 
 
-![Dark DMs](https://dl.dropboxusercontent.com/s/f3mwoft8sffuozb/darkdms.png)
+![Dark DMs](https://dl.dropboxusercontent.com/s/x7yw375x3fjw1wz/darkdream_dms.png)
 
 
-![Dark friends list](https://dl.dropboxusercontent.com/s/drl3hjrfq4iq78v/darkfrnd.png)
+![Dark friends list](https://dl.dropboxusercontent.com/s/xpmdyio9nkvwj6e/darkdream_friends.png)
 
 
-![Dark settings](https://dl.dropboxusercontent.com/s/uru93qincnejmu1/darksett.png)
-
-
+![Dark settings](https://dl.dropboxusercontent.com/s/weui9zkt8c42pjf/darkdream_settings.png)
 
 ### Light
-![Light servers](https://dl.dropboxusercontent.com/s/8g41td1ebocfps7/liteserv.png)
+![Light servers](https://dl.dropboxusercontent.com/s/jh27kn6kmto74ts/lightdream_server.png)
 
 
-![Light DMs](https://dl.dropboxusercontent.com/s/3q3kme7k75vvc80/litedms.png)
+![Light DMs](https://dl.dropboxusercontent.com/s/o12ltaiopswtipl/lightdream_dms.png)
 
 
-![Light friends list](https://dl.dropboxusercontent.com/s/h1av89cg28a54zm/litefrnd.png)
+![Light friends list](https://dl.dropboxusercontent.com/s/v3gmo3r71eeglgj/lightdream_friends.png)
 
 
-![Light settings](https://dl.dropboxusercontent.com/s/ydeyjjwwncwcrkc/litesett.png)
+![Light settings](https://dl.dropboxusercontent.com/s/zhsujnlcn93cow6/lightdream_settings.png)
 
 ### macOS
 ![Dark theme on macOS](https://user-images.githubusercontent.com/38794586/39621516-549d0af4-4f8f-11e8-8823-4d2a64d14b5d.png)
