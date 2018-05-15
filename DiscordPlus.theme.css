@@ -395,6 +395,11 @@ div.message-group {
 .private-channels .channel .link-button-icon { height: 32px; width: 32px; }
 .private-channels .channel .channel-name { font-size: 18px }
 .private-channels .channel .avatar-small { margin-right: 10px; }
+.private-channels .channel a,
+.private-channels .channel.selected a {
+	transition: background-color .2s;
+	border-radius: var(--roundness);
+}
 .private-channels .channel {
   margin: 4px 0px 4px 0px;
   border-radius: var(--roundness);}
@@ -405,53 +410,58 @@ div.message-group {
 	font-style: italic;
   padding: 4px 12px;
 }
-.private-channels .channel.selected a {
-  background-color: var(--transparency);
-  border-radius: var(--roundness); }
 .private-channels .channel a { padding: 4px }
-.private-channels .channel:hover a {
-  background-color: var(--transparency-dark) !important;
-  border-radius: var(--roundness) !important}; }
-.private-channels .channel:hover { background-color: var(--transparency-dark) !important; border-radius: var(--roundness) !important;}
+.private-channels .channel:hover a { background-color: var(--transparency-dark); }
+.private-channels .channel.selected a {
+	 background-color: var(--transparency);
+	 border-radius: var(--roundness);
+}
 div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	height: 0px !important
 }
-.badge { background-color: var(--accent-color); color: white; border-radius: var(--roundness) }
-.status { border-radius: var(--roundness) }
+.status, .friends-action, .tab-bar-item, .badge { border-radius: var(--roundness) !important; }
 .status.status-typing { justify-content: center; right: -11px !important; width: 26px !important; }
-.theme-dark #friends .friends-table .friends-row:hover { background: var(--transparency-darkest); border-radius: var(--roundness); }
+.badge { background-color: var(--accent-color); color: white; }
+.tab-bar-item { transition: color .2s, background-color .2s; }
+.discriminator { transition: opacity .2s }
+#friends .friends-table .friends-row .discriminator,
+#friends .friends-table .friends-row .friends-column-actions { opacity: 0 !important; visibility: visible !important; }
+#friends .friends-table .friends-row:hover .discriminator,
+#friends .friends-table .friends-row:hover .friends-column-actions { opacity: 0.6 !important; transition: opacity .2s; }
+.friends-column-actions { transition: background-color .2s; }
+#friends .friends-table .friends-row+.friends-row { border-top: transparent !important; }
+.headerBar-UHpsPw { background: transparent !important }
+#friends .friends-table .friends-row {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	transition: background .2s, color .2s, margin .2s, padding .2s;
+	border-radius: var(--roundness);
+}
 .theme-dark div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-dark div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-dark div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark .headerBar-UHpsPw { background: transparent !important }
+.theme-dark .title-3qD0b- { background-color: var(--transparency-darkest); }
 .theme-dark .private-channels .channel .channel-name,
-.theme-dark .private-channels .channel .channel-activity { opacity: 0.4; transition: opacity .2s }
+.theme-dark .private-channels .channel .channel-activity { opacity: 0.4; transition: opacity .2s, background-color .2s }
 .theme-dark .private-channels .channel:hover .channel-name,
-.theme-dark .private-channels .channel:hover .channel-activity  { opacity: 0.8;  transition: opacity .2s }
+.theme-dark .private-channels .channel:hover .channel-activity  { opacity: 0.8;  transition: opacity .2s, background-color .2s }
 .theme-dark .private-channels .channel.selected .channel-name,
-.theme-dark .private-channels .channel.selected .channel-activity { opacity: 1; transition: opacity .2s }
-.theme-dark .title-3qD0b- {
-	border-radius: var(--roundness) var(--roundness) 0 0;
-	background-color: var(--transparency-darkest)
-}
+.theme-dark .private-channels .channel.selected .channel-activity { opacity: 1; transition: opacity .2s, background-color .2s }
+.theme-dark #friends .friends-table .friends-row:hover { background: var(--transparency-darkest); border-radius: var(--roundness); }
 div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: black; transition: fill .2s }
 div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-light header { color: black }
-.theme-light #friends { background-color: var(--transparency-lightest); border-radius: var(--roundness);}
-.theme-light .headerBar-UHpsPw { background: transparent !important }
+.theme-light #friends { background-color: var(--transparency-lightest); border-radius: var(--roundness); }
+.theme-light .title-3qD0b- { background-color: var(--transparency-lightest); }
 .theme-light .private-channels .channel .channel-name,
-.theme-light .private-channels .channel .channel-activity { color: black !important; opacity: 0.8; transition: color .2s } /*Global*/
+.theme-light .private-channels .channel .channel-activity { color: black !important; opacity: 0.8; transition: color .2s }
 .theme-light .private-channels .channel:hover .channel-name,
-.theme-light .private-channels .channel:hover .channel-activity { color: white !important; transition: color .2s } /*Hovered*/
+.theme-light .private-channels .channel:hover .channel-activity { color: white !important; transition: color .2s }
 .theme-light .private-channels .channel.selected .channel-name,
-.theme-light .private-channels .channel.selected .channel-activity { color: white !important; transition: color .2s } /*Selected*/
+.theme-light .private-channels .channel.selected .channel-activity { color: white !important; transition: color .2s }
 .theme-light #friends .friends-table .friends-row .friends-column-name { color: black !important; }
-.theme-light #friends .friends-table .friends-row:hover { background: var(--transparency-dark); border-radius: var(--roundness); }
-.theme-light .title-3qD0b- {
-	background: var(--transparency-lightest);
-	border-radius: var(--roundness) var(--roundness) 0
-}
+.theme-light #friends .friends-table .friends-row:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
 
 /*Add Friends to DM*/
 .theme-dark .private-channel-recipients-invite {
