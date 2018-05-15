@@ -133,8 +133,28 @@ div>*:not(code) {
 	background-color: var(--accent-color) !important;
 }
 
-/*The loading page, in case your Internet is slow*/
+/*The loading page, in case you disconnect*/
 .container-16j22k { background-color: var(--transparency) }
+.quote-3aooyW {
+  font-size: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.contentBase-11jeVK,
+.problemsText-1Yx-Kl {
+	color: white;
+	text-transform: none;
+}
+.attribution-aTC3hS,
+.links-3Ldd4A {
+  font-size: 0px;
+}
+.twitterLink-3NsWMp:before,
+.statusLink-gFXhrL:before {
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+}
 
 /*Profile pictures*/
 .avatar-profile,
