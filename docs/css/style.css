@@ -469,7 +469,7 @@ body {
     line-height: 1.5;
     color: #FFFFFF;
     background-image: linear-gradient(0deg, #410143, #F67149, #410143);
-    background-size: 100%;
+    background-size: 50%;
 }
 
 a {
