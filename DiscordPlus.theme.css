@@ -640,9 +640,11 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border: 0px solid rgba(0,0,0,0) !important;
 	background-color: var(--accent-color) !important;
+	border-radius: var(--roundness);
 }
 .theme-dark .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 	background-color: rgba(0,0,0,0.3) !important;
+	border-radius: var(--roundness);
 }
 .theme-light .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 	background-color: rgba(255,255,255,0.3) !important;
