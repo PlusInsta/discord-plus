@@ -316,6 +316,7 @@ div.message-group {
 
 /*Media*/
 .video-27HGyZ,
+.video-36_NdB,
 .embedVideo-3nf0O9 {
 	border-radius: var(--roundness) !important;
 }
@@ -837,6 +838,9 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .topSectionStreaming-1Tpf5X {
 	background: var(--accent-color);
 }
+.role-2irmRk {
+	border-radius: var(--roundness);
+}
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
 	background-color: transparent;
 }
@@ -892,6 +896,9 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 }
 
 /*Changelog modal*/
+.modal-3HD5ck {
+	border-radius: var(--roundness);
+}
 .theme-dark .modal-3HD5ck {
 	background-color: var(--transparency-dark);
 }
@@ -1048,8 +1055,12 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .ghostPill-2-KUPM,
 .user-settings-games .not-detected,
 .user-settings-games .now-playing,
+.questionMark-CWEQZn,
 #bd-settings-sidebar .ui-tab-bar-item,
-.questionMark-CWEQZn {
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
+.sizeDefault-2YlOZr,
+.sizeDefault-2YlOZr:after,
+.sizeMini-1ii40f {
 	border-radius: var(--roundness)
 }
 .input-cIJ7To:focus {
