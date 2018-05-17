@@ -133,6 +133,11 @@ div>*:not(code) {
 	background-color: var(--accent-color) !important;
 }
 
+/*Server notices*/
+.channelNotices-41mJbj {
+	display: none !important;
+}
+
 /*The loading page, in case you disconnect*/
 .container-16j22k { background-color: var(--transparency) }
 .quote-3aooyW {
