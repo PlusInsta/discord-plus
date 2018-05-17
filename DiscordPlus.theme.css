@@ -156,9 +156,9 @@ div>*:not(code) {
 }
 .twitterLink-3NsWMp:before,
 .statusLink-gFXhrL:before {
-    background-size: 24px 24px;
-    height: 24px;
-    width: 24px;
+  background-size: 24px 24px;
+  height: 24px;
+  width: 24px;
 }
 
 /*Profile pictures*/
@@ -630,8 +630,8 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .iconDefault-3Gr8d2,
 .theme-light .nameCollapsed-34uFWo,
 .theme-light .nameDefault-2DI02H {
-    color: #72767d;
-		transition: color .2s;
+  color: #72767d;
+	transition: color .2s;
 }
 .theme-light .iconHovered-2L3-fB,
 .theme-light .iconHoveredCollapsed-3caIIZ,
@@ -981,7 +981,7 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 	transition: background-color: .2s;
 }
 .ui-standard-sidebar-view {
-    background: transparent !important;
+  background: transparent !important;
 }
 .ui-standard-sidebar-view .sidebar-region .sidebar {
 	width: 100%;
@@ -1053,7 +1053,7 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 	border-radius: var(--roundness)
 }
 .input-cIJ7To:focus {
-    border-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
   background-color: var(--accent-color);
