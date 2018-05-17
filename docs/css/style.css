@@ -468,7 +468,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
-    background: url(https://i.imgur.com/3AiL3yN.png)
+    background-image: linear-gradient(0deg, #410143, #F67149, #410143);
+    background-size: 100%;
 }
 
 a {
@@ -484,19 +485,15 @@ a:hover {
     display: inline-block;
     margin-bottom: 1rem;
     color: rgba(255,255,255,0.7);
-    background-color: rgba(255,255,255,0.08);
-    border-color: rgba(255,255,255,0.2);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0.3rem;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    transition: color 0.2s, background-color 0.2s
 }
 
 .btn:hover {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
-    background-color: rgba(255,255,255,0.2);
-    border-color: rgba(255,255,255,0.3)
+    background-color: rgba(135,31,96,0.8);
 }
 
 .btn+.btn {
@@ -533,8 +530,6 @@ a:hover {
 .page-header {
     color: #fff;
     text-align: center;
-    background-color: #000000;
-    background-image: linear-gradient(120deg, #993a15, #99157d)
 }
 
 @media screen and (min-width: 64em) {
@@ -669,7 +664,7 @@ a:hover {
     word-wrap: normal;
     background-color: #f3f6fa;
     border: solid 1px #dce6f0;
-    border-radius: 0.3rem
+    border-radius: 10px
 }
 
 .main-content pre>code {
@@ -697,7 +692,7 @@ a:hover {
     overflow: auto;
     font-size: 0.9rem;
     line-height: 1.45;
-    border-radius: 0.3rem;
+    border-radius: 10px;
     -webkit-overflow-scrolling: touch
 }
 
