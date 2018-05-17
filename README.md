@@ -44,6 +44,12 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 
 **Notice:** You might have to install [Product Sans](https://befonts.com/download/product-sans) manually on macOS.
 
+## **Linux**:
+* Download `DiscordPlus.theme.css`
+* Move it to `~/.config/BetterDiscord/themes`
+* Execute `discord`
+* Enable the theme in Settings
+
 # Screenshots
 
 ### Dark
