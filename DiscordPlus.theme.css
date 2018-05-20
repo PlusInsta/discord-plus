@@ -387,9 +387,12 @@ div.message-group {
 	background: var(--transparency-dark);
 }
 
-/*BetterDiscord plugin update notices*/
+/*Notices*/
 .noticeInfo-3_iTE1 {
 	background-color: var(--accent-color);
+}
+.noticeFacebook-3equ5g {
+    margin-left: 10px;
 }
 #pluginNotice {
 	border-radius: var(--roundness);
