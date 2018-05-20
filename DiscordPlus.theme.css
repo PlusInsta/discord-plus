@@ -134,9 +134,25 @@ div>*:not(code) {
 }
 
 /*Server notices*/
-.channelNotices-41mJbj {
-	display: none !important;
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
+    background-color: transparent !important;
 }
+.theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P {
+    color: black;
+}
+.btn-11C5_u { border: none !important; background-color .2s; transition: color .2s, }
+.theme-dark .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+	background-color: var(--transparency);
+}
+.theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+	background-color: var(--transparency-lite);
+    color: black;
+}
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
+	background-color: var(--accent-color);
+	color: white;
+}
+
 
 /*The loading page, in case you disconnect*/
 .container-16j22k { background-color: var(--transparency) }
