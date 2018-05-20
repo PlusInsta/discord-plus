@@ -80,8 +80,8 @@ div>*:not(code) {
 	border-radius: var(--roundness);
 	margin-bottom: -0.2vh;
 	padding-bottom: 0.4vh;
-	width: 98.25vw;
-	left: 0.8vw;
+	width: 98vw;
+	left: 1vw;
 	align-items: center;
 	position: relative;
 }
