@@ -59,7 +59,7 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 ![Dark DMs](https://dl.dropboxusercontent.com/s/x7yw375x3fjw1wz/darkdream_dms.png)
 
 
-![Dark friends list](https://dl.dropboxusercontent.com/s/xpmdyio9nkvwj6e/darkdream_friends.png)
+![Dark friends list](https://dl.dropboxusercontent.com/s/ogjaoy4gu9hqrv5/darkbulldozer_friends.png)
 
 
 ![Dark settings](https://dl.dropboxusercontent.com/s/weui9zkt8c42pjf/darkdream_settings.png)
@@ -71,7 +71,7 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 ![Light DMs](https://dl.dropboxusercontent.com/s/o12ltaiopswtipl/lightdream_dms.png)
 
 
-![Light friends list](https://dl.dropboxusercontent.com/s/v3gmo3r71eeglgj/lightdream_friends.png)
+![Light friends list](https://dl.dropboxusercontent.com/s/nn7hieloidzvs9g/lightbulldozer_friends.png)
 
 
 ![Light settings](https://dl.dropboxusercontent.com/s/zhsujnlcn93cow6/lightdream_settings.png)
