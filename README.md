@@ -1,5 +1,5 @@
 # ![Discord+](https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark_black.svg)
-A Discord theme inspired by Google's Material Design 2.
+A Discord theme inspired by Google's Material Theme.
 
 ## What is this?
 
