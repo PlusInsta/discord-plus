@@ -859,6 +859,10 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .role-2irmRk {
 	border-radius: var(--roundness);
 }
+.tab-bar.TOP .tab-bar-item.selected,
+.tab-bar.TOP .tab-bar-item:hover {
+    border-bottom: none !important;
+}
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
 	background-color: transparent;
 }
