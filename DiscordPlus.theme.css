@@ -535,6 +535,7 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .container-2Thooq .avatar-small { margin: 0 10px 0 2px }
 .container-2Thooq { font-size: 18px; background: transparent }
 .accountDetails-3k9g4n .discriminator { font-size: 0px; margin-top: 0px }
+.button-2b6hmh { transition: .2s; }
 .theme-light .accountDetails-3k9g4n .username { color: black !important }
 .theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 
