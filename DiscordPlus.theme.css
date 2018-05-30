@@ -122,11 +122,14 @@ div>*:not(code) {
 .guilds-wrapper { border-radius: var(--roundness); }
 .guilds-wrapper .guilds { padding: 10px 0 16px 10px;}
 .guilds-wrapper .guilds .guild .guild-inner { border-radius: var(--roundness) !important; transition: opacity .25s; opacity: 0.6;}
-.guilds-wrapper .guilds .guild .guild-inner:hover {opacity: 1; transition: opacity .25s; }
-.guilds-wrapper .guilds .guild+.guild { border-radius: var(--roundness); }
+.guilds-wrapper .guilds .guild .guild-inner:hover { opacity: 0.8; transition: opacity .25s; }
+.guilds-wrapper .guilds .guild.selected .guild-inner,
+.guilds-wrapper .guilds .guild.active .guild-inner { opacity: 1; transition: opacity .25s; }
+.guilds-wrapper .guilds .guild.selected:before { border-radius: var(--roundness); }
 .guilds-wrapper .scroller-wrap { width: 90px; }
 .theme-dark .guilds-wrapper { background:var(--transparency-darker) }
 .theme-light .guilds-wrapper { background:var(--transparency-lighter) }
+.theme-light .guilds-wrapper .guilds .guild.selected:before { background: black; }
 .theme-light .guilds-wrapper .guilds .friends-online { color: var(--transparency) }
 .theme-light .guilds-wrapper .guilds-add {background: transparent }
 .guilds .guild .guild-inner:nth-child(1) {
