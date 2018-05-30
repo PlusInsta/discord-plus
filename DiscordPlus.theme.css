@@ -298,8 +298,6 @@ div.message-group {
 	padding-left: 2px;
 	color: black;
 }
-.theme-light .message-group .btn-option { filter: invert() }
-.theme-light .message-group .btn-reaction { filter: invert() }
 
 .base-3dtUhz { border-radius: var(--roundness); }
 
@@ -537,7 +535,6 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .accountDetails-3k9g4n .discriminator { font-size: 0px; margin-top: 0px }
 .button-2b6hmh { transition: .2s; }
 .theme-light .accountDetails-3k9g4n .username { color: black !important }
-.theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 
 /*Server members*/
 .theme-dark .members-1998pB {
@@ -1155,6 +1152,10 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 }
 
 /*Buttons*/
+.thene-light .button-1w5pas,
+.theme-light .message-group .btn-option,
+.theme-light .message-group .btn-reaction { filter: invert() }
+.theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91 {
 	background-color: var(--transparency);
 }
