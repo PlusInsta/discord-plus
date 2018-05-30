@@ -60,10 +60,8 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Fonts*/
-div>*:not(code) {
-	font-family: var(--font), Product Sans, ProductSans, apple-system, SF Pro, San Francisco Display, 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', Franklin Gothic Medium, Lucida Grande, Tahoma, sans-serif !important;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: subpixel-antialiased;
+::-webkit-input-placeholder, body, button, input, select, textarea {
+	font-family: var(--font), Product Sans, ProductSans, SF Pro, apple-system, San Francisco Display, 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', Franklin Gothic Medium, Lucida Grande, Verdana, sans-serif !important;
 }
 
 /*Background image*/
