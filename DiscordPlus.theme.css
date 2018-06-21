@@ -341,15 +341,15 @@ div.message-group {
 }
 
 /*System messages*/
-.system-message .system-message-content { margin-left: 6.11rem !important; }
-.system-message .system-message-icon {
-	background-size: 2rem 2rem !important;
+.icon-2Po-VO {
+	background-size: 1.6rem 1.6rem !important;
 	height: 2rem !important;
 	width: 2rem !important;
-	top: 10% !important;
+	top: 30% !important;
+	margin-left: 1.11rem !important;
 }
-.system-message-icon {
-	margin-left: 32px !important;
+.content-2M3n_H {
+	margin-left: 56px !important;
 }
 
 /*New messages bar*/
