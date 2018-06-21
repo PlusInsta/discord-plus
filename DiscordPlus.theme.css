@@ -275,6 +275,11 @@ div.message-group {
 	padding-right: 2px;
 	padding-left: 2px;
 }
+.message-group .avatar-large {
+	margin-right: 25px;
+  margin-left: 8px;
+  margin-top: 0px;
+}
 .markup pre { background: transparent; border-radius: var(--roundness) !important; border-color: var(--accent-color) !important; }
 .theme-dark pre code { background: var(--transparency) !important; border-radius: var(--roundness);	}
 .theme-light pre code { background: var(--transparency-lite) !important; border-radius: var(--roundness);	}
