@@ -1,4 +1,4 @@
-//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"Insta","version":"2.1.2.1"}*//
+//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"Insta","version":"2.1.3"}*//
 :root {
 	--background: url(https://i.imgur.com/3AiL3yN.png);
 	--font: 'Product Sans';
@@ -418,7 +418,7 @@ div.message-group {
 	margin-top: -0.8vh;
 }
 
-/*DM Adjustments*/
+/*Home*/
 #friends { overflow: hidden; border-radius: var(--roundness); }
 .private-channels .channel .link-button-icon { height: 32px; width: 32px; }
 .private-channels .channel .channel-name { font-size: 18px }
@@ -474,6 +474,9 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 .theme-dark div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-dark div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-dark div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark div.channel.btn-friends > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark div.channel.btn-friends > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-dark .private-channels .channel .channel-name,
 .theme-dark .private-channels .channel .channel-activity { opacity: 0.4; transition: opacity .2s, background-color .2s }
 .theme-dark .private-channels .channel:hover .channel-name,
@@ -484,6 +487,9 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: black; transition: fill .2s }
 div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+div.channel.btn-friends > a > svg > path:nth-child(1) { fill: black; transition: fill .2s }
+div.channel.btn-friends > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-light header { color: black }
 .theme-light #friends { background-color: var(--transparency-lightest); border-radius: var(--roundness); }
 .theme-light .private-channels .channel .channel-name,
@@ -494,6 +500,57 @@ div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white
 .theme-light .private-channels .channel.selected .channel-activity { color: white !important; transition: color .2s }
 .theme-light #friends .friends-table .friends-row .friends-column-name { color: black !important; }
 .theme-light #friends .friends-table .friends-row:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
+
+/*Games tab*/
+.activityFeed-28jde9 {
+  border-radius: var(--roundness) !important;
+}
+.theme-dark .activityFeed-28jde9 {
+	background-color: var(--transparency-dark) !important;
+}
+.feedCarousel-3qXmKE {
+  border-radius: var(--roundness) !important;
+}
+.carousel-JbsNzL {
+	background-color: transparent;
+}
+.article-FleDq5 {
+	background-color: black;
+}
+.emptyState-2-sT0o {
+    background-color: var(--transparency);
+    border-radius: var(--roundness);
+    border-color: black;
+}
+.theme-dark .card-7JP0BX {
+  background-color: var(--transparency);
+	border-radius: var(--roundness);
+  color: #f6f6f7;
+}
+.header-1RC2Wb {
+	background-color: var(--accent-color) !important;
+	transition: .2s;
+}
+.theme-light .header-1RC2Wb {
+	color: white;
+}
+.theme-dark .body-SKIE6r {
+  background-color: var(--transparency);
+}
+.news-2GDtLJ {
+  background-color: var(--transparency);
+  border-radius: var(--roundness);
+	transition: .2s;
+}
+.headerActions-3w_xT- {
+	display: flex;
+	opacity: 0;
+	transition: .2s;
+}
+.header-1RC2Wb:hover .headerActions-3w_xT- {
+	opacity: 1;
+}
+
 
 /*Add Friends to DM*/
 .theme-dark .private-channel-recipients-invite {
@@ -1164,15 +1221,23 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .theme-light .message-group .btn-option,
 .theme-light .message-group .btn-reaction { filter: invert() }
 .theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
-.theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91 {
+.theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
 	background-color: var(--transparency);
+	transition: .2s;
 }
-.theme-light .lookFilled-1Gx00P.colorBrand-3pXr91 {
+.theme-light .lookFilled-1Gx00P.colorBrand-3pXr91,
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
 	background-color: var(--transparency-lite);
+	transition: .2s;
 	color: black;
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
+.theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
 	background-color: var(--accent-color);
+	transition: .2s;
 	color: white;
 }
 

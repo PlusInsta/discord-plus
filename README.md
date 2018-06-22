@@ -53,6 +53,8 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 # Screenshots
 
 ### Dark
+![Dark games tab](https://user-images.githubusercontent.com/38794586/41775584-b37bc50e-7624-11e8-91d5-0d4ee22efd35.png)
+
 ![Dark servers](https://dl.dropboxusercontent.com/s/vze8yo4im20s3uf/darkdream_server.png)
 
 
@@ -65,6 +67,8 @@ https://github.com/PlusInsta/discord-plus/releases/latest
 ![Dark settings](https://dl.dropboxusercontent.com/s/weui9zkt8c42pjf/darkdream_settings.png)
 
 ### Light
+![Light games tab](https://user-images.githubusercontent.com/38794586/41775587-b6bc0ecc-7624-11e8-9cfe-e9449e79d898.png)
+
 ![Light servers](https://dl.dropboxusercontent.com/s/jh27kn6kmto74ts/lightdream_server.png)
 
 
