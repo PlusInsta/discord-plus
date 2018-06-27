@@ -219,16 +219,16 @@ button { border-radius: var(--roundness) !important; }
 .video-1FfuMD {
 	background-color: transparent;
 }
-.theme-dark .private-channel-call {
+.theme-dark .wrapper-29NfPK {
 	background-color: var(--transparency-darker);
 }
-.theme-light .private-channel-call {
+.theme-light .wrapper-29NfPK {
 	background-color: var(--transparency-lighter);
 }
- .private-channel-call, .video-1FfuMD.minimum-1pRSEN {
+.wrapper-29NfPK, .video-1FfuMD.minimum-1pRSEN {
 	border-radius: var(--roundness) !important;
 }
-.private-channel-call.minimum .private-channel-call-actions .center {
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
 	background-color: transparent;
 	border-color: transparent;
 }
