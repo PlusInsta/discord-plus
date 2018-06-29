@@ -139,7 +139,7 @@ button { border-radius: var(--roundness) !important; }
 	background-color: transparent !important;
 }
 .theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P {
-  color: black;
+	color: black;
 }
 .btn-11C5_u { border: none !important; background-color .2s; transition: color .2s, }
 .theme-dark .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
@@ -147,7 +147,7 @@ button { border-radius: var(--roundness) !important; }
 }
 .theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
 	background-color: var(--transparency-lite);
-  color: black;
+	color: black;
 }
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
 	background-color: var(--accent-color);
@@ -277,8 +277,8 @@ div.message-group {
 }
 .message-group .avatar-large {
 	margin-right: 25px;
-  margin-left: 8px;
-  margin-top: 0px;
+	margin-left: 8px;
+	margin-top: 0px;
 }
 .markup pre { background: transparent; border-radius: var(--roundness) !important; border-color: var(--accent-color) !important; }
 .theme-dark pre code { background: var(--transparency) !important; border-radius: var(--roundness);	}
@@ -411,7 +411,7 @@ div.message-group {
 	background-color: var(--accent-color);
 }
 .noticeFacebook-3equ5g {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 #pluginNotice {
 	border-radius: var(--roundness);
@@ -445,7 +445,7 @@ div.message-group {
 	 border-radius: var(--roundness);
 }
 .private-channels .channel .avatar-small {
-  margin-left: 1px;
+	margin-left: 1px;
 }
 div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	height: 0px !important
@@ -503,13 +503,13 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 
 /*Games tab*/
 .activityFeed-28jde9 {
-  border-radius: var(--roundness) !important;
+	border-radius: var(--roundness) !important;
 }
 .theme-dark .activityFeed-28jde9 {
 	background-color: var(--transparency-dark) !important;
 }
 .feedCarousel-3qXmKE {
-  border-radius: var(--roundness) !important;
+	border-radius: var(--roundness) !important;
 }
 .carousel-JbsNzL {
 	background-color: transparent;
@@ -518,14 +518,41 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 	background-color: black;
 }
 .emptyState-2-sT0o {
-    background-color: var(--transparency);
-    border-radius: var(--roundness);
-    border-color: black;
+	background-color: var(--transparency);
+	border-radius: var(--roundness);
+	border-color: black;
+}
+.theme-dark .dockItem-2kQDqg {
+	border-radius: var(--roundness);
+	transition: .2s;
+}
+.theme-dark .dockItem-2kQDqg:hover {
+	background-color: var(--transparency);
+}
+.theme-light .dockItem-2kQDqg:hover {
+	background-color: var(--transparency-lite);
+}
+.gamePreview-9weYR2 {
+	border-radius: var(--roundness);
+}
+.theme-dark .gamePreview-9weYR2 {
+	background-color: rgba(0,0,0,0.95);
+}
+.theme-light .gamePreview-9weYR2 {
+	background-color: rgba(255,255,255,0.95);
+}
+.theme-dark .body-1SVoBw {
+		background-color: black;
+}
+.theme-light .body-1SVoBw {
+		background-color: white;
+}
+.card-7JP0BX {
+	border-radius: var(--roundness);
 }
 .theme-dark .card-7JP0BX {
-  background-color: var(--transparency);
-	border-radius: var(--roundness);
-  color: #f6f6f7;
+	background-color: var(--transparency);
+	color: #f6f6f7;
 }
 .header-1RC2Wb {
 	background-color: var(--accent-color) !important;
@@ -534,12 +561,15 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 .theme-light .header-1RC2Wb {
 	color: white;
 }
+.theme-light .username-XRo90I {
+	color: white;
+}
 .theme-dark .body-SKIE6r {
-  background-color: var(--transparency);
+	background-color: var(--transparency);
 }
 .news-2GDtLJ {
-  background-color: var(--transparency);
-  border-radius: var(--roundness);
+	background-color: var(--transparency);
+	border-radius: var(--roundness);
 	transition: .2s;
 }
 .headerActions-3w_xT- {
@@ -925,7 +955,7 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 }
 .tab-bar.TOP .tab-bar-item.selected,
 .tab-bar.TOP .tab-bar-item:hover {
-    border-bottom: none !important;
+	border-bottom: none !important;
 }
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
 	background-color: transparent;
@@ -1222,20 +1252,27 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .theme-light .message-group .btn-reaction { filter: invert() }
 .theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-dark .lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P, .lookInverted-2D7oAl {
 	background-color: var(--transparency);
 	transition: .2s;
 }
 .theme-light .lookFilled-1Gx00P.colorBrand-3pXr91,
-.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-light .lookFilled-1Gx00P.colorGreen-29iAKY,
+.theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
 	background-color: var(--transparency-lite);
 	transition: .2s;
 	color: black;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
-.theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+.theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover,
+.theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
 	background-color: var(--accent-color);
 	transition: .2s;
 	color: white;
@@ -1353,8 +1390,9 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 
 /*
 * Third-party Plugins
-* NOTE:	BetterDiscord and every fork of it does NOT go under this category!
-* 			Add BetterDiscord-related styles near their VanillaDiscord counterparts!
+* NOTE:
+* BetterDiscord and every fork of it does NOT go under this category!
+* Add BetterDiscord-related styles near their VanillaDiscord counterparts!
 */
 
 /*
