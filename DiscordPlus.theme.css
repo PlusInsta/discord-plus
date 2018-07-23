@@ -1,4 +1,5 @@
 /*//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"Insta","version":"2.1.3"}*//**/
+@import url(https://fonts.googleapis.com/css?family=Product+Sans:400,700);
 :root {
 	--background: url(https://i.imgur.com/3AiL3yN.png);
 	--font: 'Product Sans';
@@ -12,8 +13,6 @@
 	right: 1% !important;
 	top: 1% !important;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Product+Sans:400,700);
 
 :root {
 	--transparency: rgba(0,0,0,0.6);
