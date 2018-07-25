@@ -192,13 +192,13 @@ button { border-radius: var(--roundness) !important; }
 	height: 32px;
 	width: 32px
 }
-.avatar-large {
+.large-3ChYtB {
 	background-size: cover;
 	width: 62.5px;
 	height: 62.5px;
 	border-radius: var(--roundness);
 	float: left;
-	margin: 0 15px;
+	margin: -5px 2px;
 }
 .maskProfile-1ObLFT, .mask-3OgeRz {
 	-webkit-mask: none;
@@ -250,14 +250,46 @@ button { border-radius: var(--roundness) !important; }
 .theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
 
 /*Messages*/
-div.message-group {
+div.containerCozy-jafyvG {
 	background-color: var(--transparency);
-	margin: 10px 0px 0 0;
+	margin: 10px 0 0 0;
 	border-radius: var(--roundness);
 	box-shadow: none;
 	height: auto;
+	padding: 25px 10px 25px 10px;
 }
-.theme-dark .message-group.is-local-bot-message {
+.chat .messages {
+	border-radius: 0 0 var(--roundness) var(--roundness);
+}
+.theme-dark .containerCompact-3V0ioj {
+	background: var(--transparency-dark);
+}
+.theme-light .containerCompact-3V0ioj {
+	background: var(--transparency-lite);
+}
+.headerCozyMeta-rdohGq {
+	margin: 0 1.2em;
+  -webkit-margin-before: -0.5em;
+}
+.headerCozy-2N9HOL {
+	margin-top: -2px;
+}
+.contentCozy-3XX413 {
+	margin-left: 86px;
+}
+.containerCozy-jafyvG .divider-32i8lo,
+.containerCompact-3V0ioj .divider-32i8lo {
+	border-bottom: none;
+}
+.status-3fQvEa {
+    height: 10px !important;
+    position: relative;
+    width: 10px !important;
+}
+.container-1RjyoP .previewInner-2iCbun { /*Hotfix for new message system*/
+	top: -16px;
+}
+.theme-dark .containerCozy-jafyvG.isLocalBot-38G0P0 {
 	opacity:1;
 	background-color: var(--transparency-dark) ;
 	margin: 10px 0px 0 0;
@@ -274,7 +306,7 @@ div.message-group {
 	padding-right: 2px;
 	padding-left: 2px;
 }
-.message-group .avatar-large {
+.messageGroupWrapper-o-Zw7G .avatar-17mtN {
 	margin-right: 25px;
 	margin-left: 8px;
 	margin-top: 0px;
@@ -282,9 +314,9 @@ div.message-group {
 .markup pre { background: transparent; border-radius: var(--roundness) !important; border-color: var(--accent-color) !important; }
 .theme-dark pre code { background: var(--transparency) !important; border-radius: var(--roundness);	}
 .theme-light pre code { background: var(--transparency-lite) !important; border-radius: var(--roundness);	}
-.theme-light .message-group { background-color: var(--transparency-light) }
+.theme-light .messageGroupWrapper-o-Zw7G { background-color: var(--transparency-light) }
 .theme-light .message-text .markup { color: black }
-.theme-light .message-group.is-local-bot-message {
+.theme-light .messageGroupWrapper-o-Zw7G.isLocalBot-38G0P0 {
 	opacity:1;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -1031,20 +1063,20 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 	background-color: var(--transparency);
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
 	background-color: var(--transparency);
 	border-color: var(--transparency);
 	transition: border-color .5s;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
 	border-color: var(--accent-color);
 	transition: border-color .5s;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .buttonContainer-KtQ8wc {
 	-webkit-box-shadow: none;
 	background-color: transparent;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .buttonContainer-KtQ8wc .jumpButton-3DTcS_ {
 	background-color: transparent;
 	color: white; }
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
@@ -1059,21 +1091,21 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 	background-color: var(--transparency-lite);
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
 }
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
 	background-color: var(--transparency-lite);
 	border-color: var(--transparency);
 	transition: border-color .5s;
 }
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
 	border-color: var(--accent-color);
 	transition: border-color .5s;
 }
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .buttonContainer-KtQ8wc {
 	-webkit-box-shadow: none;
 	background-color: transparent;
 	color: black;
 }
-.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+.theme-light .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .buttonContainer-KtQ8wc .jumpButton-3DTcS_ {
 	background-color: transparent;
 	color: black; }
 .theme-light .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
@@ -1082,7 +1114,7 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 }
 
 div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
-.messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug .closeButton-17RIVZ {
+.messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .buttonContainer-KtQ8wc .closeButton-17RIVZ {
 	opacity: 1;
 	transition: opacity .2s;
 }
@@ -1247,8 +1279,8 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 
 /*Buttons*/
 .thene-light .button-1w5pas,
-.theme-light .message-group .btn-option,
-.theme-light .message-group .btn-reaction { filter: invert() }
+.theme-light .messageGroupWrapper-o-Zw7G .btn-option,
+.theme-light .messageGroupWrapper-o-Zw7G .btn-reaction { filter: invert() }
 .theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
 .theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
@@ -1326,11 +1358,11 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 }
 
 /*Edit messages*/
-.message-group .edit-message .edit-container-inner {
+.messageGroupWrapper-o-Zw7G .edit-message .edit-container-inner {
 	margin-left: 103px;
 }
-.message-group .edit-message { margin: 6px -26px 0 -97px; }
-.message-group .edit-message .edit-container-outer {
+.messageGroupWrapper-o-Zw7G .edit-message { margin: 6px -26px 0 -97px; }
+.messageGroupWrapper-o-Zw7G .edit-message .edit-container-outer {
 	margin-left: -103px;
 }
 
