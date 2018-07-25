@@ -198,7 +198,7 @@ button { border-radius: var(--roundness) !important; }
 	height: 62.5px;
 	border-radius: var(--roundness);
 	float: left;
-	margin: -5px 2px;
+	margin: -6px 2px;
 }
 .maskProfile-1ObLFT, .mask-3OgeRz {
 	-webkit-mask: none;
@@ -269,7 +269,7 @@ div.containerCozy-jafyvG {
 }
 .headerCozyMeta-rdohGq {
 	margin: 0 1.2em;
-  -webkit-margin-before: -0.5em;
+  -webkit-margin-before: -0.6em;
 }
 .headerCozy-2N9HOL {
 	margin-top: -2px;
@@ -553,6 +553,15 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 	background-color: var(--transparency);
 	border-radius: var(--roundness);
 	border-color: black;
+}
+.player-1kJMbj .large-3ChYtB {
+	margin: -5px 0;
+}
+.player-1kJMbj .status-oxiHuE {
+	height: 25% !important;
+	width: 25% !important;
+	margin: 0 !important;
+	float: none !important;
 }
 .theme-dark .dockItem-2kQDqg {
 	border-radius: var(--roundness);
