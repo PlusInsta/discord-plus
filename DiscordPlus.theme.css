@@ -475,7 +475,7 @@ div.containerCozy-jafyvG {
 .private-channels .channel .channel-name { font-size: 18px }
 .private-channels .channel .avatar-small { margin-right: 10px; }
 .private-channels .channel a,
-.private-channels .channel.selected-ML3OIq a {
+.private-channels .channel.selected a {
 	transition: background-color .2s;
 	border-radius: var(--roundness);
 }
@@ -491,7 +491,7 @@ div.containerCozy-jafyvG {
 }
 .private-channels .channel a { padding: 4px }
 .private-channels .channel:hover a { background-color: var(--transparency-dark); }
-.private-channels .channel.selected-ML3OIq a {
+.private-channels .channel.selected a {
 	 background-color: var(--transparency);
 	 border-radius: var(--roundness);
 }
