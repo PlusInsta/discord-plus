@@ -249,14 +249,17 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Message box*/
-.theme-dark .inner-zqa7da { background-color: var(--transparency-dark) !important; }
-.chat form {
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-light .chat-3bRxxu, .theme-light .chat-3bRxxu form, .theme-light .content-yTz4x3 {
+    background-color: transparent;
+}
+.chat-3bRxxu form {
 	margin: -6px 14px -25px 0px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 .channelTextArea-rNsIhG {
-	margin: 15px 0 25px;
+	margin: -4px 0 25px;
+	border-top: none !important;
 }
 .innerNoAutocomplete-1WpcVO { border-radius: var(--roundness) }
 .innerAutocomplete-1PN280,
@@ -274,10 +277,13 @@ div.containerCozy-jafyvG {
 	height: auto;
 	padding: 25px 10px 25px 10px;
 }
+.theme-dark .messagesWrapper-3lZDfY, .theme-light .messagesWrapper-3lZDfY {
+	background-color: transparent;
+}
 .theme-light div.containerCozy-jafyvG {
 	background-color: var(--transparency-light);
 }
-.chat .messages {
+.chat-3bRxxu .messages-3amgkR {
 	border-radius: 0 0 var(--roundness) var(--roundness);
 }
 .theme-dark .containerCompact-3V0ioj {
@@ -404,24 +410,21 @@ div.containerCozy-jafyvG {
 }
 
 /*New messages bar*/
-.chat .new-messages-bar button:first-child {
+.newMessagesBar-mujexs button:first-child {
 	text-transform: lowercase;
 	font-style: italic;
 	font-size: 16px;
 }
-.chat .new-messages-bar {
+.newMessagesBar-mujexs {
 	background-color: var(--accent-color) !important;
 	border-radius: 0 0 var(--roundness) var(--roundness) !important;
 }
-.chat .new-messages-bar button:last-child {
+.newMessagesBar-mujexs button:last-child {
 	font-size: 12px;
 	text-transform: lowercase;
 }
-.theme-dark .chat .jump-to-present-bar {
-	background-color: var(--transparency);
-}
 /*Old messages bar*/
-.chat .jump-to-present-bar {
+.theme-dark .jumpToPresentBar-9P20AM, .theme-light .jumpToPresentBar-9P20AM {
 	-webkit-transition: background-color .5s;
 	background-color: var(--accent-color);
 	border-radius: var(--roundness) var(--roundness) 0 0;
@@ -436,12 +439,12 @@ div.containerCozy-jafyvG {
 	transition: background-color .8s;
 	z-index: 2;
 }
-.chat .jump-to-present-bar button:first-child {
+.chat .jumpToPresentBar-9P20AM button:first-child {
 	text-transform: lowercase;
 	font-size: 16px;
 	font-style: italic;
 }
-.chat .jump-to-present-bar button:last-child {
+.chat .jumpToPresentBar-9P20AM button:last-child {
 	-webkit-transition: color .2s;
 	color: hsla(0,0%,100%,.6);
 	font-size: 12px;
