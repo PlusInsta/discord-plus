@@ -515,7 +515,7 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 #friends .friends-table .friends-row:hover .friends-column-actions { opacity: 0.6 !important; transition: opacity .2s; }
 .friends-column-actions { transition: background-color .2s; }
 #friends .friends-table .friends-row+.friends-row { border-top: transparent !important; }
-.headerBar-UHpsPw { background: transparent !important }
+#friends .headerBar-UHpsPw { background: transparent !important }
 #friends .friends-table .friends-row {
 	box-shadow: none !important;
 	-webkit-box-shadow: none !important;
@@ -840,7 +840,7 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 	background-color: var(--transparency-darker);
 }
 .theme-dark .headerBar-UHpsPw {
-	background: rgba(0,0,0,0);
+	background: var(--transparency) !important;
 }
 
 /*Status menu*/
