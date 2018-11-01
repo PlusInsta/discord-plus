@@ -1163,34 +1163,34 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 
 /*Settings*/
 .user-settings,
-.sidebar-region,
-.content-region {
+.sidebarRegion-VFTUkN,
+.contentRegion-3nDuYy {
 	background-color: transparent;
 	transition: background-color: .2s;
 }
-.ui-standard-sidebar-view {
+.standardSidebarView-3F1I7i {
 	background: transparent !important;
 }
-.ui-standard-sidebar-view .sidebar-region .sidebar {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar {
 	width: 100%;
 }
-.ui-standard-sidebar-view .content-column,
-.ui-standard-sidebar-view .custom-column {
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy {
 	max-width: 100%;
 }
-.ui-standard-sidebar-view .content-column.default,
-.ui-standard-sidebar-view .sidebar-region .sidebar {
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy.default,
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar {
 	padding-top: 45px;
 }
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region {
+.theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
 	background-color: var(--transparency);
 	border-radius: var(--roundness);
 	margin: 5px;
 	transition: background-color .2s;
 }
-.theme-light .ui-standard-sidebar-view .content-region,
-.theme-light .ui-standard-sidebar-view .sidebar-region {
+.theme-light .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+.theme-light .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
 	background: var(--transparency-lightest);
 	border-radius: var(--roundness);
 	margin: 5px;
