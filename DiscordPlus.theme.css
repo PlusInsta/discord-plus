@@ -55,7 +55,7 @@
 .chat,
 .content,
 .guild-channels,
-.private-channels,
+.privateChannels-1nO12o,
 .guild-header header,
 .divider-red span,
 .messages-wrapper,
@@ -507,36 +507,38 @@ div.containerCozy-jafyvG {
 #friends { overflow: hidden; border-radius: var(--roundness); }
 .theme-dark #friends { background-color: var(--transparency-dark); }
 .theme-light #friends { background-color: var(--transparency-lighter); }
-.private-channels .channel .link-button-icon { height: 32px; width: 32px; }
-.private-channels .channel .channel-name { font-size: 18px }
-.private-channels .channel .avatar-small { margin-right: 10px; }
-.private-channels .channel a,
-.private-channels .channel.selected a {
+.privateChannels-1nO12o .channel-2QD9_O .link-button-icon { height: 32px; width: 32px; }
+.privateChannels-1nO12o .channel-2QD9_O .channel-name { font-size: 18px }
+.privateChannels-1nO12o .channel-2QD9_O .avatar-small { margin-right: 10px; }
+.privateChannels-1nO12o .channel-2QD9_O a,
+.privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a {
 	transition: background-color .2s;
 	border-radius: var(--roundness);
 }
-.private-channels .channel {
+.privateChannels-1nO12o .channel-2QD9_O {
 	margin: 4px 0px 4px 0px;
 	border-radius: var(--roundness);}
-.private-channels header {
+.privateChannels-1nO12o header {
 	font-size: 14px;
 	margin-top: 0px;
 	text-transform: lowercase;
 	font-style: italic;
 	padding: 4px 12px;
 }
-.private-channels .channel a { padding: 4px }
-.private-channels .channel:hover a { background-color: var(--transparency-dark); }
-.private-channels .channel.selected a {
+.privateChannels-1nO12o .channel-2QD9_O a { padding: 4px }
+.privateChannels-1nO12o .channel-2QD9_O:hover a { background-color: var(--transparency-dark); }
+.privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ a {
 	 background-color: var(--transparency);
 	 border-radius: var(--roundness);
 }
-.private-channels .channel .avatar-small {
+.privateChannels-1nO12o .channel-2QD9_O .avatar-small {
 	margin-left: 1px;
 }
-div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
+.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	height: 0px !important
 }
+.scroller-2FKFPG header { margin-top: 20px; }
+
 .status, .friends-action, .tab-bar-item, .badge { border-radius: var(--roundness) !important; }
 .status.status-typing { justify-content: center; right: -11px !important; width: 26px !important; }
 .badge { background-color: var(--accent-color); color: white; }
@@ -558,32 +560,26 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 .title-3qD0b- { border-radius: var(--roundness) var(--roundness) 0 0; }
 .theme-dark .title-3qD0b- { background-color: var(--transparency-darkest); }
 .theme-light .title-3qD0b- { background-color: var(--transparency-lightest); }
-.theme-dark div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark div.channel.btn-friends.selected-ML3OIq > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark div.channel.btn-friends > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark div.channel.btn-friends > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark div.channel.btn-friends.selected-ML3OIq > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
-.theme-dark .private-channels .channel .channel-name,
-.theme-dark .private-channels .channel .channel-activity { opacity: 0.4; transition: opacity .2s, background-color .2s }
-.theme-dark .private-channels .channel:hover .channel-name,
-.theme-dark .private-channels .channel:hover .channel-activity	{ opacity: 0.8;	transition: opacity .2s, background-color .2s }
-.theme-dark .private-channels .channel.selected .channel-name,
-.theme-dark .private-channels .channel.selected .channel-activity { opacity: 1; transition: opacity .2s, background-color .2s }
+.theme-dark .channel-2QD9_O > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark .channel-2QD9_O > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark .channel-2QD9_O.selected-1HYmZZ > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark .channel-2QD9_O > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark .channel-2QD9_O > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark .channel-2QD9_O.selected-1HYmZZ > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.theme-dark .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M { opacity: 0.4; transition: opacity .2s, background-color .2s; color: white; }
+.theme-dark .privateChannels-1nO12o .channel-2QD9_O:hover .name-2WpE7M { opacity: 0.8; transition: opacity .2s, background-color .2s }
+.theme-dark .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M { opacity: 1; transition: opacity .2s, background-color .2s }
 .theme-dark #friends .friends-table .friends-row:hover { background: var(--transparency-darkest); border-radius: var(--roundness); }
-div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: black; transition: fill .2s }
-div.channel.btn-friends > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
-div.channel.btn-friends.selected > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
-div.channel.btn-friends > a > svg > path:nth-child(1) { fill: black; transition: fill .2s }
-div.channel.btn-friends > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
-div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.channel-2QD9_O > a > svg > g > path:nth-child(1) { fill: black; transition: fill .2s }
+.channel-2QD9_O > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+.channel-2QD9_O.selected-1HYmZZ > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
+.channel-2QD9_O > a > svg > path:nth-child(1) { fill: black; transition: fill .2s }
+.channel-2QD9_O > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
+.channel-2QD9_O.selected-1HYmZZ > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-light header { color: black }
-.theme-light .private-channels .channel .channel-name,
-.theme-light .private-channels .channel .channel-activity { color: black !important; opacity: 0.8; transition: color .2s }
-.theme-light .private-channels .channel:hover .channel-name,
-.theme-light .private-channels .channel:hover .channel-activity { color: white !important; transition: color .2s }
-.theme-light .private-channels .channel.selected .channel-name,
-.theme-light .private-channels .channel.selected .channel-activity { color: white !important; transition: color .2s }
+.theme-light .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M { color: black !important; opacity: 0.8; transition: color .2s }
+.theme-light .privateChannels-1nO12o .channel-2QD9_O:hover .name-2WpE7M { color: white !important; transition: color .2s }
+.theme-light .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M { color: white !important; transition: color .2s }
 .theme-light #friends .friends-table .friends-row .friends-column-name { color: black !important; }
 .theme-light #friends .friends-table .friends-row:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
 
