@@ -300,7 +300,7 @@ button { border-radius: var(--roundness) !important; }
 .theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
 
 /*Messages*/
-div.containerCozy-jafyvG {
+.containerCozy-jafyvG {
 	background-color: var(--transparency);
 	margin: 10px 0 0 0;
 	border-radius: var(--roundness);
@@ -311,7 +311,7 @@ div.containerCozy-jafyvG {
 .theme-dark .messagesWrapper-3lZDfY, .theme-light .messagesWrapper-3lZDfY {
 	background-color: transparent;
 }
-.theme-light div.containerCozy-jafyvG {
+.theme-light .containerCozy-jafyvG {
 	background-color: var(--transparency-light);
 }
 .chat-3bRxxu .messages-3amgkR {
@@ -1217,7 +1217,7 @@ div.containerCozy-jafyvG {
 	padding-bottom: 4px;
 }
 
-div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
+.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .buttonContainer-KtQ8wc .closeButton-17RIVZ {
 	opacity: 1;
 	transition: opacity .2s;
