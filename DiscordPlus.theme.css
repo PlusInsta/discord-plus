@@ -284,7 +284,7 @@ button { border-radius: var(--roundness) !important; }
     background-color: transparent;
 }
 .chat-3bRxxu form {
-	margin: -6px 14px -25px 0px;
+	margin: -6px 10px -24px 0px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -302,7 +302,7 @@ button { border-radius: var(--roundness) !important; }
 /*Messages*/
 .containerCozy-jafyvG {
 	background-color: var(--transparency);
-	margin: 10px 0 0 0;
+	margin: 10px 1px 0 0;
 	border-radius: var(--roundness);
 	box-shadow: none;
 	height: auto;
@@ -892,6 +892,9 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Scrollbar*/
+.scroller-wrap .scroller::-webkit-scrollbar {
+	width: 10px;
+}
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border: 0px solid rgba(0,0,0,0) !important;
 	background-color: var(--accent-color) !important;
@@ -899,12 +902,11 @@ button { border-radius: var(--roundness) !important; }
 }
 .theme-dark .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 	background-color: rgba(0,0,0,0.3) !important;
-	border-radius: var(--roundness) !important;
 }
 .theme-light .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 	background-color: rgba(255,255,255,0.3) !important;
 }
-.scroller { margin-right: 0px !important; }
+.scroller { margin-right: -1px !important }
 .theme-dark .inner-zqa7da {
 	background-color: var(--transparency);
 }
