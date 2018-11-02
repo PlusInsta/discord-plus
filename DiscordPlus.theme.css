@@ -163,6 +163,11 @@ button { border-radius: var(--roundness) !important; }
 .theme-dark .guildsAdd-21_IdK:hover {
 	background: var(--accent-color);
 }
+.iconSizeMedium-2OqPjI {
+	height: 48px;
+	width: 48px;
+	border-radius: var(--roundness);
+}
 
 /*Server notices*/
 .channelNotices-41mJbj .channelNotice-1-XFjC {
@@ -228,7 +233,6 @@ button { border-radius: var(--roundness) !important; }
 	width: 62.5px;
 	height: 62.5px;
 	border-radius: var(--roundness);
-	float: left;
 	margin: -6px 2px;
 }
 .maskProfile-1ObLFT, .mask-3OgeRz {
@@ -236,6 +240,10 @@ button { border-radius: var(--roundness) !important; }
 	mask: none;
 }
 .image-33JSyf, .avatarHint-1qgaV3 { border-radius: var(--roundness) }
+.listAvatar-1NlAhb .image-33JSyf {
+	height: 48px;
+	width: 48px;
+}
 
 /*Game icons*/
 .assetsLargeImage-eYwpTX {
@@ -1055,6 +1063,12 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 }
 .theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
 	background-color: var(--transparency-lightest);
+}
+.listAvatar-1NlAhb .status-oxiHuE {
+	height: 25% !important;
+	width: 25% !important;
+	margin: 0 !important;
+	float: none !important;
 }
 
 /*Create guild modal*/
