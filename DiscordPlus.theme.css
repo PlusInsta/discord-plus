@@ -45,10 +45,10 @@
 }
 
 .app {
-	bottom: 1% !important;
-	left: 1% !important;
-	right: 1% !important;
-	top: 1% !important;
+	bottom: 10px !important;
+	left: 10px !important;
+	right: 10px !important;
+	top: 10px !important;
 }
 
 .links,
@@ -90,10 +90,10 @@ button { border-radius: var(--roundness) !important; }
 	height: 20px !important;
 	background-color: var(--transparency);
 	border-radius: var(--roundness);
-	margin-bottom: -0.2vh;
-	padding-bottom: 0.4vh;
-	width: 98vw;
-	left: 1vw;
+	padding-bottom: 4px;
+	left: 10px;
+	margin-right: 20px;
+	margin-top: 5px;
 	align-items: center;
 	position: relative;
 }
