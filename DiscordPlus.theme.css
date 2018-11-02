@@ -1,19 +1,38 @@
 /*//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"Insta","version":"2.1.3.1"}*//**/
-@import url(https://fonts.googleapis.com/css?family=Product+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Righteous:400);
 :root {
 	--background: url(https://i.imgur.com/3AiL3yN.png);
-	--font: 'Product Sans';
+	--font: 'Poppins';
+	--font-text: 'Roboto';
+	--font-header: 'Righteous';
 	--roundness: 10px;
 	--accent-color: rgb(135,31,96);
 }
 
-.app {
-	bottom: 1% !important;
-	left: 1% !important;
-	right: 1% !important;
-	top: 1% !important;
+/*Background image*/
+.appMount-3VJmYg {
+	background: var(--background) !important;
+	background-color: var(--accent-color) !important;
+	background-size: cover !important;
 }
 
+/* Default font */
+::-webkit-input-placeholder, body, button, input, select, textarea {
+	font-family: var(--font), 'SF Pro', apple-system, 'San Francisco Display', 'Helvetica Neue', 'HelveticaNeue', 'Segoe UI', 'Helvetica', 'Franklin Gothic Medium', 'Lucida Grande', 'Verdana', sans-serif !important;
+}
+/* Text font */
+.message-1PNnaP, textarea, placeholder, .member-1q7VfX .tag-1YGWN0 {
+	font-family: var(--font-text) !important;
+}
+/* Usernames, titles and headers */
+.username-_4ZSMR, .emoji-uploader, .name-3YKhmS, .username, .member-1q7VfX .name-8yzEIY,
+.title-3sZWYQ, .channelName-3stJzi, .title-2a5mvx, h1, h2 {
+	font-family: var(--font-header) !important;
+}
+
+/*Core variables*/
 :root {
 	--transparency: rgba(0,0,0,0.6);
 	--transparency-dark: rgba(0,0,0,0.7);
@@ -23,6 +42,13 @@
 	--transparency-light: rgba(255,255,255,0.7);
 	--transparency-lighter: rgba(255,255,255,0.8);
 	--transparency-lightest: rgba(255,255,255,0.9);
+}
+
+.app {
+	bottom: 1% !important;
+	left: 1% !important;
+	right: 1% !important;
+	top: 1% !important;
 }
 
 .links,
@@ -57,18 +83,7 @@ button { border-radius: var(--roundness) !important; }
 .item-26Dhrx {
 	border-radius: var(--roundness);
 }
-
-/*Fonts*/
-::-webkit-input-placeholder, body, button, input, select, textarea {
-	font-family: var(--font), Product Sans, ProductSans, SF Pro, apple-system, San Francisco Display, 'Helvetica Neue', 'HelveticaNeue', 'Helvetica', Franklin Gothic Medium, Lucida Grande, Verdana, sans-serif !important;
-}
-
-/*Background image*/
-.appMount-3VJmYg {
-	background: var(--background) !important;
-	background-color: var(--accent-color) !important;
-	background-size: cover !important;
-}
+/*End of core variables*/
 
 /*Windows titlebar*/
 .typeWindows-1za-n7 {
@@ -720,6 +735,10 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 .theme-light .member-3W1lQa.popout-open .content-OzHfo4,
 .theme-light .member-3W1lQa.popout-open:hover .content-OzHfo4 {
 	background-color: var(--transparency-lighter);
+}
+.theme-dark .member-1q7VfX .tag-1YGWN9 {
+	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 /*Server channels*/
