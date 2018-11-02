@@ -1,4 +1,4 @@
-/*//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"Insta","version":"2.1.3.1"}*//**/
+/*//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"PlusInsta","version":"2.2.0"}*//**/
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(https://fonts.googleapis.com/css?family=Righteous:400);
@@ -28,7 +28,7 @@
 }
 /* Usernames, titles and headers */
 .username-_4ZSMR, .emoji-uploader, .name-3YKhmS, .username, .member-1q7VfX .name-8yzEIY,
-.title-3sZWYQ, .channelName-3stJzi, .title-2a5mvx, h1, h2 {
+.title-3sZWYQ, .channelName-3stJzi, .title-2a5mvx, .title-CZQTru, h1, h2 {
 	font-family: var(--font-header) !important;
 }
 
@@ -147,6 +147,9 @@ button { border-radius: var(--roundness) !important; }
 .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:nth-child(1) {
 	background-color: var(--accent-color) !important;
 }
+.theme-dark .chat-3bRxxu .headerBar-UHpsPw {
+	background: var(--transparency-darker);
+}
 .theme-light .guildsAdd-21_IdK {
 	background: var(--transparency-light);
 	border-color: white;
@@ -166,6 +169,11 @@ button { border-radius: var(--roundness) !important; }
 .iconSizeMedium-2OqPjI {
 	height: 48px;
 	width: 48px;
+	border-radius: var(--roundness);
+}
+.iconSizeSmall-3aWgx9 {
+	height: 32px;
+	width: 32px;
 	border-radius: var(--roundness);
 }
 
@@ -497,6 +505,8 @@ div.containerCozy-jafyvG {
 
 /*Home*/
 #friends { overflow: hidden; border-radius: var(--roundness); }
+.theme-dark #friends { background-color: var(--transparency-dark); }
+.theme-light #friends { background-color: var(--transparency-lighter); }
 .private-channels .channel .link-button-icon { height: 32px; width: 32px; }
 .private-channels .channel .channel-name { font-size: 18px }
 .private-channels .channel .avatar-small { margin-right: 10px; }
@@ -545,7 +555,7 @@ div.scroller-2FKFPG > [style*="width: 100%; height: 20px;"] {
 	transition: background .2s, color .2s, margin .2s, padding .2s;
 	border-radius: var(--roundness);
 }
-.title-3qD0b- { border-radius: var(--roundness) 0 0 0; }
+.title-3qD0b- { border-radius: var(--roundness) var(--roundness) 0 0; }
 .theme-dark .title-3qD0b- { background-color: var(--transparency-darkest); }
 .theme-light .title-3qD0b- { background-color: var(--transparency-lightest); }
 .theme-dark div.channel.btn-friends > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
@@ -568,7 +578,6 @@ div.channel.btn-friends > a > svg > path:nth-child(1) { fill: black; transition:
 div.channel.btn-friends > a:hover > svg > path:nth-child(1) { fill: white; transition: fill .2s }
 div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; transition: fill .2s }
 .theme-light header { color: black }
-.theme-light #friends { background-color: var(--transparency-lightest); border-radius: var(--roundness); }
 .theme-light .private-channels .channel .channel-name,
 .theme-light .private-channels .channel .channel-activity { color: black !important; opacity: 0.8; transition: color .2s }
 .theme-light .private-channels .channel:hover .channel-name,
@@ -578,7 +587,10 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 .theme-light #friends .friends-table .friends-row .friends-column-name { color: black !important; }
 .theme-light #friends .friends-table .friends-row:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
 
-/*Games tab*/
+/*Game Activity*/
+.theme-dark .headerBar-UHpsPw {
+	background: transparent;
+}
 .activityFeed-28jde9 {
 	border-radius: var(--roundness) !important;
 }
@@ -666,7 +678,44 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 .header-1RC2Wb:hover .headerActions-3w_xT- {
 	opacity: 1;
 }
+.article-3kb3qm {
+	background-color: black;
+}
 
+/*Game Library*/
+.theme-dark .gameLibrary-TTDw4Y {
+    background-color: var(--transparency-dark);
+}
+.theme-dark .header-39GIC8 {
+	background-color: transparent;
+}
+.theme-light .gameLibrary-TTDw4Y {
+    background-color: var(--transparency-light);
+}
+.gameLibrary-TTDw4Y {
+	border-radius: var(--roundness);
+}
+
+/*Game Store*/
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .itemBackground-1jfD8p {
+    background-color: var(--transparency);
+    border-radius: var(--roundness);
+}
+.theme-dark .itemBackground-1jfD8p:before {
+	background: transparent;
+}
+.applicationMedia-1PPJ39,
+.paginationItemContainer-2q8AX7,
+.overlappingBorder-1ysb12 {
+	border-radius: var(--roundness);
+}
+.overlappingBorder-1ysb12 {
+	border-color: var(--accent-color) !important;
+}
+.tile-367QuY, .tileWrapper-2khh-w {
+	border-radius: var(--roundness);
+}
 
 /*Add Friends to DM*/
 .theme-dark .private-channel-recipients-invite {
@@ -862,14 +911,6 @@ div.channel.btn-friends.selected > a > svg > path:nth-child(1) { fill: white; tr
 .scroller { margin-right: 0px !important; }
 .theme-dark .inner-zqa7da {
 	background-color: var(--transparency);
-}
-
-/*Transparent friends list*/
-.theme-dark #friends {
-	background-color: var(--transparency-darker);
-}
-.theme-dark .headerBar-UHpsPw {
-	background: var(--transparency) !important;
 }
 
 /*Status menu*/
@@ -1494,13 +1535,40 @@ div.footer-SRC48P.footer-1kmXd4 > div { padding-top: 0px !important; }
 */
 
 /*
-* DevilBro's plugins (only tested with PluginRepo)
-* (https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/PluginRepo)
+* DevilBro's plugins
+* https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/PluginRepo
+* https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/TopRoleEverywhere
+* https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/BadgesEverywhere
 */
+/*PluginRepo*/
 .flexChild-faoVW3 > div > div {
 	border-radius: var(--roundness) !important;
 }
 .DevilBro-notice {
 	margin-left: 10px;
 	margin-bottom: 0.8vh;
+}
+
+/*TopRoleEverywhere*/
+.TRE-tag {
+	text-transform: none !important;
+	font-size: 14px !important;
+	margin-left: 6px !important;
+	border-radius: var(--roundness) !important;
+	padding: 0 4px 0 6px !important;
+	margin-top: 1px;
+	-webkit-filter: invert() hue-rotate(180deg) brightness(180%);
+}
+
+/* -- About the use of filters --
+* The reason it's filtered is so the alternate style becomes legible.
+* Making text black screws over the default style, but inverting
+* the frame itself makes both legible, with the latter text black.
+* Emojis will look weird and inverted, but it's a necessary evil.
+* This wouldn't be necessary if there were a class for the alt style.
+*/
+
+/*BadgesEverywhere*/
+.BE-badge:last-of-type {
+	margin-right: 0px;
 }
