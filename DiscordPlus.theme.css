@@ -102,8 +102,8 @@ button { border-radius: var(--roundness) !important; }
 /*macOS window buttons*/
 .typeMacOS-3EmCyP {
 	border-radius: var(--roundness);
-	margin-left: 1vw;
-	margin-top: 1vh;
+	margin-left: 10px;
+	margin-top: 10px;
 	border-radius: var(--roundness) var(--roundness) 0 0 !important;
 }
 .platform-osx .guildsWrapper-5TJh6A {
