@@ -19,17 +19,17 @@
 }
 
 /* Default font */
-::-webkit-input-placeholder, body, button, input, select, textarea {
-	font-family: var(--font), 'SF Pro', apple-system, 'San Francisco Display', 'Helvetica Neue', 'HelveticaNeue', 'Segoe UI', 'Helvetica', 'Franklin Gothic Medium', 'Lucida Grande', 'Verdana', sans-serif !important;
+::-webkit-input-placeholder, body, button, input, select {
+	font-family: var(--font), 'apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
 }
 /* Text font */
 .message-1PNnaP, textarea, placeholder, .member-1q7VfX .tag-1YGWN0 {
-	font-family: var(--font-text) !important;
+	font-family: var(--font-text), 'apple-system', 'Helvetica', 'Arial', sans-serif !important;
 }
 /* Usernames, titles and headers */
 .username-_4ZSMR, .emoji-uploader, .name-3YKhmS, .username, .member-1q7VfX .name-8yzEIY,
 .title-3sZWYQ, .channelName-3stJzi, .title-2a5mvx, .title-CZQTru, h1, h2 {
-	font-family: var(--font-header) !important;
+	font-family: var(--font-header), 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
 }
 
 /*Core variables*/
