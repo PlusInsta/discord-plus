@@ -176,6 +176,9 @@ button { border-radius: var(--roundness) !important; }
 	width: 32px;
 	border-radius: var(--roundness);
 }
+.friendsOnline-_wi_fM {
+	display: none;
+}
 
 /*Server notices*/
 .channelNotices-41mJbj .channelNotice-1-XFjC {
