@@ -9,7 +9,7 @@ Using plugins like [BetterDiscord](https://betterdiscord.net/home/) or [Bandaged
 
 ## User customization
 This theme aims to be **fully customizable**.
-There are variables at the top of the file that allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the font to any font installed on your device.
+There are variables at the top of the file that allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the fonts to any fonts installed on your device.
 
 I am planning on introducing in-app settings, as soon as BetterDiscord allows for that.
 In the meantime, you can edit the downloaded CSS file's variables to your liking.
@@ -61,7 +61,7 @@ Note: Since this is only updated after I'm satisfied with a set of revisions, it
 * Open the Terminal
 * type `mv ~/Downloads/DiscordPlus.theme.css ~/.config/BetterDiscord/themes`
 * Execute `discord`
-* Enable the theme in Settings
+* Enable the theme in Settings (sorry, no Terminal command for this one!)
 
 # Screenshots
 (Note: these may be outdated as taking screenshots with every revision and update is overkill)
