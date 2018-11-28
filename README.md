@@ -11,46 +11,60 @@ Using plugins like [BetterDiscord](https://betterdiscord.net/home/) or [Bandaged
 This theme aims to be **fully customizable**.
 There are variables at the top of the file that allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the font to any font installed on your device.
 
+I am planning on introducing in-app settings, as soon as BetterDiscord allows for that.
+In the meantime, you can edit the downloaded CSS file's variables to your liking.
+
 ## Full support
 This theme aims to theme everything on Discord.
 If there's anything that is not themed, be it an official feature, a plugin, bug or third party feature, open an issue along with some information about the unthemed feature.
 The theme supports the light theme out of the box too, if that's your thing.
 
+_(Note: I cannot guarantee the light theme's continued support. Due to the vast unpopularity of the light theme, I will prioritize theming the dark version of Discord for now. I apologize to those affected.)_
+
 ## Cross-platform compatibility
-The theme looks identical on Windows, macOS, Linux and the Web, the only differences being in the titlebar.
+The theme works on Windows, macOS, Linux and the Web. There are some minor differences, though.
+Windows has a draggable titlebar (with the Discord+ logo for good measure), macOS has window buttons at the top left, and Linux has your desktop environment's borders (which I unfortunately cannot customize).
 
-Whereas Windows has a draggable titlebar, macOS only has the window buttons visible.
+By the way, the theme is fully compatible with web extensions like Stylus, so you can use it with discordapp.com, no modifications needed!
 
-Linux uses the titlebar native to your distribution, and the web version has your browser's tab bar.
-
-I made sure the theme looks just the same across platforms, despite these differences.
 
 # Download
 https://github.com/PlusInsta/discord-plus/releases/latest
 
+This link takes you straight to the latest release. These are released whenever I feel I've made enough modifications to warrant a new version tag.
+
+Note: Since this is only updated after I'm satisfied with a set of revisions, it may not work on the latest version. If that's the case, download `DiscordPlus.theme.css` directly from the master branch. If it still doesn't work, feel free to open an issue.
+
+
 # Installation
 ## **Windows**:
 * Download `DiscordPlus.theme.css`
-* Move it to `%AppData%\BetterDiscord\themes`
+* Open your Downloads folder
+* Cut the downloaded file (Ctrl + X)
+* Type `%AppData%\BetterDiscord\themes` in the address bar
+* Paste it here (Ctrl + V)
 * Launch Discord
 * Enable the theme in Settings
 
-
 ## **macOS**:
 * Download `DiscordPlus.theme.css`
-* Move it to `/User/Library/Preferences/BetterDiscord/themes`
+* Open Finder
+* Press ⇧⌘G
+* Type `~/Library/Preferences/BetterDiscord/themes`
+* Click the Downloads on the Dock
+* Drag DiscordPlus.theme.css into the folder
 * Launch Discord.app
 * Enable the theme in Settings
 
-**Notice:** You might have to install [Product Sans](https://befonts.com/download/product-sans) manually on macOS.
-
 ## **Linux**:
 * Download `DiscordPlus.theme.css`
-* Move it to `~/.config/BetterDiscord/themes`
+* Open the Terminal
+* type `mv ~/Downloads/DiscordPlus.theme.css ~/.config/BetterDiscord/themes`
 * Execute `discord`
 * Enable the theme in Settings
 
 # Screenshots
+(Note: these may be outdated as taking screenshots with every revision and update is overkill)
 
 ### Dark
 ![Dark games tab](https://user-images.githubusercontent.com/38794586/41775584-b37bc50e-7624-11e8-91d5-0d4ee22efd35.png)
