@@ -1,9 +1,7 @@
 /*//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Do you want a better-looking Discord? Or something that feels nice to use? Then this theme is for you.","author":"PlusInsta","version":"2.2.0"}*//**/
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-@import url(https://fonts.googleapis.com/css?family=Righteous:400);
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous');
 :root {
-	--background: url(https://i.imgur.com/3AiL3yN.png);
+	--background: url('https://i.imgur.com/3AiL3yN.png');
 	--font: 'Poppins';
 	--font-text: 'Roboto';
 	--font-header: 'Righteous';
@@ -20,16 +18,16 @@
 
 /* Default font */
 ::-webkit-input-placeholder, body, button, input, select {
-	font-family: var(--font), 'apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
+	font-family: var(--font), 'Poppins', 'apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
 }
 /* Text font */
 .message-1PNnaP, textarea, placeholder, .member-1q7VfX .tag-1YGWN0 {
-	font-family: var(--font-text), 'apple-system', 'Helvetica', 'Arial', sans-serif !important;
+	font-family: var(--font-text), 'Roboto', 'apple-system', 'Helvetica', 'Arial', sans-serif !important;
 }
 /* Usernames, titles and headers */
 .username-_4ZSMR, .emoji-uploader, .name-3YKhmS, .username, .member-1q7VfX .name-8yzEIY,
 .title-3sZWYQ, .channelName-3stJzi, .title-2a5mvx, .title-CZQTru, h1, h2 {
-	font-family: var(--font-header), 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
+	font-family: var(--font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
 }
 
 /*Core variables*/
