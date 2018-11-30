@@ -18,11 +18,11 @@
 
 /* Default font */
 ::-webkit-input-placeholder, body, button, input, select {
-	font-family: var(--font), 'Poppins', 'apple-system', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
+	font-family: var(--font), 'Poppins', 'system-ui', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
 }
 /* Text font */
 .message-1PNnaP, textarea, placeholder, .member-1q7VfX .tag-1YGWN0 {
-	font-family: var(--font-text), 'Roboto', 'apple-system', 'Helvetica', 'Arial', sans-serif !important;
+	font-family: var(--font-text), 'Roboto', 'system-ui', 'Helvetica', 'Arial', sans-serif !important;
 }
 /* Usernames, titles and headers */
 .username-_4ZSMR, .emoji-uploader, .name-3YKhmS, .username, .member-1q7VfX .name-8yzEIY,
