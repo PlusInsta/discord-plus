@@ -5,7 +5,7 @@ A Discord theme inspired by Google's Material Theme.
 
 **Discord+** is a theme for [Discord](https://discordapp.com), a popular messaging and voice chat service.
 
-Using plugins like [BetterDiscord](https://betterdiscord.net/home/) or [BandagedBD](https://github.com/rauenzi/BetterDiscordApp), you can change the look of the app.
+Using a modification called [BandagedBD](https://github.com/rauenzi/BetterDiscordApp), you can change the look of the app, customize its behavior, and even add functionality through plugins!
 
 ## User customization
 This theme aims to be **fully customizable**.
@@ -16,17 +16,16 @@ In the meantime, you can edit the downloaded CSS file's variables to your liking
 
 ## Full support
 This theme aims to theme everything on Discord.
-If there's anything that is not themed, be it an official feature, a plugin, bug or third party feature, open an issue along with some information about the unthemed feature.
+If there's anything that is not themed, be it an official feature, a plugin, or third party feature, open an issue along with some information about the unthemed feature.
 The theme supports the light theme out of the box too, if that's your thing.
 
 _(Note: I cannot guarantee the light theme's continued support. Due to the vast unpopularity of the light theme, I will prioritize theming the dark version of Discord for now. I apologize to those affected.)_
 
 ## Cross-platform compatibility
-The theme works on Windows, macOS, Linux and the Web. There are some minor differences, though.
+The theme works on Windows, macOS, and Linux. There are some minor differences, though.
 Windows has a draggable titlebar (with the Discord+ logo for good measure), macOS has window buttons at the top left, and Linux has your desktop environment's borders (which I unfortunately cannot customize).
 
-By the way, the theme is fully compatible with web extensions like Stylus, so you can use it with discordapp.com, no modifications needed!
-
+Compatibility with web browsers has been deprecated in v2.2.0 in favor of normalized classes through BandagedBD. This allows my theme to continue working, even if Discord refreshes all the class names. This also means legacy versions of BetterDiscord will no longer work with my theme.
 
 # Download
 https://github.com/PlusInsta/discord-plus/releases/latest
