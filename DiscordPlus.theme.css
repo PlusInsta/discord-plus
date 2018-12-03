@@ -11,9 +11,11 @@
 
 /*Background image*/
 .da-appMount, #app-mount {
-	background: var(--background) !important;
-	background-color: var(--accent-color) !important;
+	background-image: var(--background) !important;
 	background-size: cover !important;
+}
+html {
+background-color: var(--accent-color);
 }
 
 /* Default font */
