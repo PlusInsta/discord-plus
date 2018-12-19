@@ -247,7 +247,7 @@ button { border-radius: var(--roundness) !important; }
 .assetsLargeImage-eYwpTX {
 	border-radius: var(--roundness);
 }
-.gameIcon-_0rmMm {
+.da-gameIcon {
 	border-radius: var(--roundness);
 }
 
@@ -701,6 +701,22 @@ button { border-radius: var(--roundness) !important; }
 }
 .tile-367QuY, .tileWrapper-2khh-w {
 	border-radius: var(--roundness);
+}
+
+/* Nitro Games */
+.theme-dark	.da-root {
+	background-color: var(--transparency);
+}
+.da-tileWrapper .da-tile {
+	background-color: var(--accent-color) !important;
+}
+
+/* Gift Inventory */
+.theme-dark .da-root {
+border-radius: var(--roundness);
+}
+.root-3iawo2 {
+	background-color: transparent !important;
 }
 
 /*Add Friends to DM*/
@@ -1404,6 +1420,7 @@ button { border-radius: var(--roundness) !important; }
 	transition: .2s;
 	color: white;
 }
+
 
 /*Server settings*/
 .select-2TCrqx .Select-menu-outer {
