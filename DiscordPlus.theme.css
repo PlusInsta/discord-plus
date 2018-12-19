@@ -707,7 +707,7 @@ button { border-radius: var(--roundness) !important; }
 .theme-dark	.da-root {
 	background-color: var(--transparency);
 }
-.da-tileWrapper .da-tile {
+.da-description {
 	background-color: var(--accent-color) !important;
 }
 
