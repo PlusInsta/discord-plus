@@ -707,7 +707,7 @@ button { border-radius: var(--roundness) !important; }
 .theme-dark	.da-root {
 	background-color: var(--transparency);
 }
-.da-description {
+.da-tileWrapper .da-tile {
 	background-color: var(--accent-color) !important;
 }
 
@@ -715,8 +715,13 @@ button { border-radius: var(--roundness) !important; }
 .theme-dark .da-root {
 border-radius: var(--roundness);
 }
-.root-3iawo2 {
+.da-scrollerStore .da-body .da-root {
 	background-color: transparent !important;
+}
+
+/* Gifts */
+.da-applicationTileHorizontal .da-description {
+	background-color: var(--accent-color);
 }
 
 /*Add Friends to DM*/
