@@ -1,0 +1,10 @@
+//META{"name":"Discord+ Master Edition","description":"Are you tired of Discord's bland design? Are you the type who loves variety? Do you wish Discord were more colorful? Then this theme is just the thing for you. ♦ This special version of the theme automatically grabs the latest version from the repo! ♦","source":"https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus.theme.css","website":"https://plusinsta.github.io/discord-plus/","author":"PlusInsta","version":"2.2.x"}*//
+@import url("https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus.theme.css");
+:root {
+	--background: url('https://i.imgur.com/3AiL3yN.png');
+	--font: 'Poppins';
+	--font-text: 'Roboto';
+	--font-header: 'Righteous';
+	--roundness: 10px;
+	--accent-color: rgb(135,31,96);
+}
