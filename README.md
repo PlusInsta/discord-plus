@@ -5,7 +5,7 @@ A Discord theme inspired by Google's Material Theme.
 
 **Discord+** is a theme for [Discord](https://discordapp.com), a popular messaging and voice chat service.
 
-Using a modification called [BandagedBD](https://github.com/rauenzi/BetterDiscordApp), you can change the look of the app, customize its behavior, and even add functionality through plugins!
+Using a modification called [BandagedBD](https://github.com/rauenzi/BetterDiscordApp), you can change the look of the app, customize its behavior, and even add functionality through plugins! If you already have it installed, you're ready to install my theme. It's as easy as downloading a file and moving it to the right folder.
 
 ## User customization
 This theme aims to be **fully customizable**.
@@ -28,16 +28,15 @@ Windows has a draggable titlebar (with the Discord+ logo for good measure), macO
 Compatibility with web browsers has been deprecated in v2.2.0 in favor of normalized classes through BandagedBD. This allows my theme to continue working, even if Discord refreshes all the class names. This also means legacy versions of BetterDiscord will no longer work with my theme.
 
 # Download
-https://raw.githubusercontent.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
-This file contains everything you need to run my theme. It always loads the latest version so you don't have to.
+https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
+This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." Instructions on how to install below.
 
-If your Internet is slow or you for whatever reason want to keep an offline version, download it from here:
+If your Internet is slow or you for whatever reason want to keep an older version, download it from here:
 
 https://github.com/PlusInsta/discord-plus/releases/latest
-This link takes you straight to the latest release. These are released whenever I feel I've made enough modifications to warrant a new version tag.
+This link takes you straight to the latest release. These are released whenever I feel I've made enough modifications to warrant a new version tag, and are therefore rendered obsolete almost immediately after release. Please consider using `DiscordPlus-master.theme.css` instead so you always have the latest commits delivered to your front door.
 
-Note: Since this is only updated after I'm satisfied with a set of revisions, it may not work on the latest version. If that's the case, use `DiscordPlus-master.theme.css` so you always have the latest commits delivered to your front door. If it still doesn't work, feel free to open an issue.
-
+If for some reason neither of these two work for you, feel free to open an issue and describe the problem.
 
 # Installation
 ## **Windows**:
@@ -66,8 +65,11 @@ Note: Since this is only updated after I'm satisfied with a set of revisions, it
 * Run `discord`
 * Enable the theme in Settings (sorry, no Terminal command for this!)
 
+# Disclaimer
+I am an independent developer with a real life. As a student, I prioritize working on real-life projects over this. That doesn't mean I'm abandoning the theme, but I'm much less likely to fix something that's broken if it doesn't directly affect me or my friend's usage of Discord. If you want to help, consider opening issues for things you want to see added or fixed, or contribute directly by making pull requests.
+
 # Screenshots
-(Note: these may be outdated as taking screenshots with every revision and update is overkill)
+Warning: These screenshots are terribly out of date.
 
 ### Dark
 ![Dark games tab](https://user-images.githubusercontent.com/38794586/41775584-b37bc50e-7624-11e8-91d5-0d4ee22efd35.png)
