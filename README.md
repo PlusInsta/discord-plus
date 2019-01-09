@@ -28,16 +28,20 @@ Windows has a draggable titlebar (with the Discord+ logo for good measure), macO
 Compatibility with web browsers has been deprecated in v2.2.0 in favor of normalized classes through BandagedBD. This allows my theme to continue working, even if Discord refreshes all the class names. This also means legacy versions of BetterDiscord will no longer work with my theme.
 
 # Download
-https://github.com/PlusInsta/discord-plus/releases/latest
+https://raw.githubusercontent.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
+This file contains everything you need to run my theme. It always loads the latest version so you don't have to.
 
+If your Internet is slow or you for whatever reason want to keep an offline version, download it from here:
+
+https://github.com/PlusInsta/discord-plus/releases/latest
 This link takes you straight to the latest release. These are released whenever I feel I've made enough modifications to warrant a new version tag.
 
-Note: Since this is only updated after I'm satisfied with a set of revisions, it may not work on the latest version. If that's the case, download `DiscordPlus.theme.css` directly from the master branch. If it still doesn't work, feel free to open an issue.
+Note: Since this is only updated after I'm satisfied with a set of revisions, it may not work on the latest version. If that's the case, use `DiscordPlus-master.theme.css` so you always have the latest commits delivered to your front door. If it still doesn't work, feel free to open an issue.
 
 
 # Installation
 ## **Windows**:
-* Download `DiscordPlus.theme.css`
+* Download `DiscordPlus-master.theme.css` or `DiscordPlus.theme.css`
 * Open your Downloads folder
 * Cut the downloaded file (Ctrl + X)
 * Type `%AppData%\BetterDiscord\themes` in the address bar
@@ -46,21 +50,21 @@ Note: Since this is only updated after I'm satisfied with a set of revisions, it
 * Enable the theme in Settings
 
 ## **macOS**:
-* Download `DiscordPlus.theme.css`
+* Download `DiscordPlus-master.theme.css` or `DiscordPlus.theme.css`
 * Open Finder
 * Press ⇧⌘G
 * Type `~/Library/Preferences/BetterDiscord/themes`
 * Click the Downloads on the Dock
-* Drag DiscordPlus.theme.css into the folder
-* Launch Discord.app
+* Drag the file into the folder
+* Launch Discord
 * Enable the theme in Settings
 
 ## **Linux**:
-* Download `DiscordPlus.theme.css`
+* Download `DiscordPlus-master.theme.css` or `DiscordPlus.theme.css`
 * Open the Terminal
-* type `mv ~/Downloads/DiscordPlus.theme.css ~/.config/BetterDiscord/themes`
-* Execute `discord`
-* Enable the theme in Settings (sorry, no Terminal command for this one!)
+* type `mv ~/Downloads/DiscordPlus* ~/.config/BetterDiscord/themes`
+* Run `discord`
+* Enable the theme in Settings (sorry, no Terminal command for this!)
 
 # Screenshots
 (Note: these may be outdated as taking screenshots with every revision and update is overkill)
