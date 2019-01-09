@@ -289,6 +289,10 @@ button { border-radius: var(--roundness) !important; }
 }
 .theme-light .inner-zqa7da { background-color: var(--transparency-lighter) !important; }
 
+.da-buttons .da-button[tabindex="2"] {
+    display: none !important;
+}
+
 /*Messages*/
 .containerCozy-jafyvG {
 	background-color: var(--transparency);
