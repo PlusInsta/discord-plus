@@ -50,7 +50,7 @@ h1, h2, .da-username, .da-emojiUploader, .da-titleText, .da-channelName, .da-hea
 	top: 10px !important;
 }
 
-#friends .friends-table,
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable,
 #rtc-connection,
 #voice-connection,
 .da-search .search-bar,
@@ -392,7 +392,7 @@ button { border-radius: var(--roundness) !important; }
 .messages-wrapper .messages .divider:not(.red) div {
 	background: transparent !important;
 }
-.theme-dark .friends-table .messages .divider:before,
+.theme-dark .da-friendsTable .messages .divider:before,
 .theme-dark .messages-wrapper .messages .divider:before {
 	background-color: transparent;
 }
@@ -498,9 +498,10 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Home*/
-#friends { overflow: hidden; border-radius: var(--roundness); }
-.theme-dark #friends { background-color: var(--transparency-dark); }
-.theme-light #friends { background-color: var(--transparency-lighter); }
+[style*="flex: 1 1 auto;"] > .da-container { overflow: hidden; border-radius: var(--roundness); }
+.theme-dark [style*="flex: 1 1 auto;"] > .da-container { background-color: var(--transparency-dark); }
+.theme-light [style*="flex: 1 1 auto;"] > .da-container { background-color: var(--transparency-lighter); }
+.da-unread { background-color: transparent !important; }
 .privateChannels-1nO12o .channel-2QD9_O .link-button-icon { height: 32px; width: 32px; }
 .privateChannels-1nO12o .channel-2QD9_O .channel-name { font-size: 18px }
 .privateChannels-1nO12o .channel-2QD9_O .avatar-small { margin-right: 10px; }
@@ -538,14 +539,14 @@ button { border-radius: var(--roundness) !important; }
 .badge { background-color: var(--accent-color); color: white; }
 .tab-bar-item { transition: color .2s, background-color .2s; }
 .discriminator { transition: opacity .2s }
-#friends .friends-table .friends-row .discriminator,
-#friends .friends-table .friends-row .friends-column-actions { opacity: 0 !important; visibility: visible !important; }
-#friends .friends-table .friends-row:hover .discriminator,
-#friends .friends-table .friends-row:hover .friends-column-actions { opacity: 0.6 !important; transition: opacity .2s; }
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow .discriminator,
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow .friends-column-actions { opacity: 0 !important; visibility: visible !important; }
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow:hover .discriminator,
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow:hover .friends-column-actions { opacity: 0.6 !important; transition: opacity .2s; }
 .friends-column-actions { transition: background-color .2s; }
-#friends .friends-table .friends-row+.friends-row { border-top: transparent !important; }
-#friends .headerBar-UHpsPw { background: transparent !important }
-#friends .friends-table .friends-row {
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow+.da-friendsRow { border-top: transparent !important; }
+[style*="flex: 1 1 auto;"] > .da-container .headerBar-UHpsPw { background: transparent !important }
+[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow {
 	box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	transition: background .2s, color .2s, margin .2s, padding .2s;
@@ -563,7 +564,7 @@ button { border-radius: var(--roundness) !important; }
 .theme-dark .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M { opacity: 0.4; transition: opacity .2s, background-color .2s; color: white; }
 .theme-dark .privateChannels-1nO12o .channel-2QD9_O:hover .name-2WpE7M { opacity: 0.8; transition: opacity .2s, background-color .2s }
 .theme-dark .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M { opacity: 1; transition: opacity .2s, background-color .2s }
-.theme-dark #friends .friends-table .friends-row:hover { background: var(--transparency-darkest); border-radius: var(--roundness); }
+.theme-dark [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow:hover { background: var(--transparency-darkest); border-radius: var(--roundness); }
 .channel-2QD9_O > a > svg > g > path:nth-child(1) { fill: black; transition: fill .2s }
 .channel-2QD9_O > a:hover > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
 .channel-2QD9_O.selected-1HYmZZ > a > svg > g > path:nth-child(1) { fill: white; transition: fill .2s }
@@ -574,8 +575,8 @@ button { border-radius: var(--roundness) !important; }
 .theme-light .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M { color: black !important; opacity: 0.8; transition: color .2s }
 .theme-light .privateChannels-1nO12o .channel-2QD9_O:hover .name-2WpE7M { color: white !important; transition: color .2s }
 .theme-light .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M { color: white !important; transition: color .2s }
-.theme-light #friends .friends-table .friends-row .friends-column-name { color: black !important; }
-.theme-light #friends .friends-table .friends-row:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
+.theme-light [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow .friends-column-name { color: black !important; }
+.theme-light [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
 
 /*Game Activity*/
 .theme-dark .headerBar-UHpsPw {
