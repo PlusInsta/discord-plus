@@ -49,7 +49,12 @@ dfn {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0
+    margin: 0.67em 0;
+    font-family: "Righteous";
+}
+
+h2 {
+  font-family: "Poppins";
 }
 
 mark {
@@ -464,7 +469,7 @@ td,th {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Product Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto";
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
