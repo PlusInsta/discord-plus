@@ -14,29 +14,28 @@ There are variables at the top of the file that allow you to change things like 
 I am planning on introducing in-app settings, as soon as BetterDiscord allows for that.
 In the meantime, you can edit the downloaded CSS file's variables to your liking.
 
-## Full support
-This theme aims to theme everything on Discord.
-If there's anything that is not themed, be it an official feature, a plugin, or third party feature, open an issue along with some information about the unthemed feature.
-The theme supports the light theme out of the box too, if that's your thing.
+## Complete theme
+This theme aims to style everything on Discord.
+If there's anything that is not themed, be it an official feature, a plugin, or third party feature, open an issue along with some information about the unthemed feature and I'll see what I can do.
 
-_(Note: I cannot guarantee the light theme's continued support. Due to the vast unpopularity of the light theme, I will prioritize theming the dark version of Discord for now. I apologize to those affected.)_
+I also use this theme myself, so if there's something's bugging you, it probably bugs me too. Expect quick updates if something big breaks. I do my best to keep up with Discord's BS.
 
 ## Cross-platform compatibility
 The theme works on Windows, macOS, and Linux. There are some minor differences, though.
-Windows has a draggable titlebar (with the Discord+ logo for good measure), macOS has window buttons at the top left, and Linux has your desktop environment's borders (which I unfortunately cannot customize).
+Windows has a draggable titlebar (with the Discord+ logo for good measure), macOS has window buttons at the top left, and Linux has your desktop environment's borders (which I cannot customize).
 
 Compatibility with web browsers has been deprecated in v2.2.0 in favor of normalized classes through BandagedBD. This allows my theme to continue working, even if Discord refreshes all the class names. This also means legacy versions of BetterDiscord will no longer work with my theme.
 
 # Download
 https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
-This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." Instructions on how to install below.
+This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." Instructions on how to install below. It's compatible with all future versions, though if I add new variables you'll need to update to change their values.
 
-If your Internet is slow or you for whatever reason want to keep an older version, download it from here:
+If you for whatever reason are a masochist who likes to keep old, defunct versions of things, download it from here:
 
 https://github.com/PlusInsta/discord-plus/releases/latest
-This link takes you straight to the latest release. These are released whenever I feel I've made enough modifications to warrant a new version tag, and are therefore rendered obsolete almost immediately after release. Please consider using `DiscordPlus-master.theme.css` instead so you always have the latest commits delivered to your front door.
+This link takes you to the latest release. These are released very rarely, and are therefore rendered obsolete almost immediately after release. Please consider using `DiscordPlus-master.theme.css` instead so you always have the latest commits delivered to your front door.
 
-If for some reason neither of these two work for you, feel free to open an issue and describe the problem.
+If neither of these two work for you, feel free to open an issue and describe the problem and I'll try to help you.
 
 # Installation
 ## **Windows**:
