@@ -212,33 +212,43 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Profile pictures*/
-.avatar-profile,
-.avatar-xsmall,
-.avatar-small,
-.avatar-large,
-.avatar-xlarge,
-.avatar-xxlarge,
-.avatar-uploader-inner {
+.da-profile,
+.da-small,
+.da-large,
+.da-avatarUploaderInner,
+.da-inner {
 	border-radius: var(--roundness) !important;
 }
-.avatar-small {
+.da-small {
 	background-size: cover;
 	height: 32px;
 	width: 32px
 }
-.large-3ChYtB {
+.da-status {
+	height: 10px;
+	width: 10px;
+}
+.da-statusProfile {
+	height: 18px;
+	width: 18px;
+	background-size: 12px;
+}
+.da-large {
 	background-size: cover;
 	width: 62.5px;
 	height: 62.5px;
 	border-radius: var(--roundness);
 	margin: -6px 2px;
 }
-.maskProfile-1ObLFT, .mask-3OgeRz {
+.da-customScroller .da-large {
+	margin: 0 0;
+}
+.da-mask, .da-maskProfile {
 	-webkit-mask: none;
 	mask: none;
 }
-.image-33JSyf, .avatarHint-1qgaV3 { border-radius: var(--roundness) }
-.listAvatar-1NlAhb .image-33JSyf {
+.da-image, .da-avatarHint { border-radius: var(--roundness) }
+.listAvatar-1NlAhb .da-image {
 	height: 48px;
 	width: 48px;
 }
@@ -293,6 +303,11 @@ button { border-radius: var(--roundness) !important; }
     display: none !important;
 }
 
+
+#user-settings > div:nth-child(3) > div > div.contentRegion-3nDuYy.da-contentRegion > div > div > div > div.contentColumn-2hrIYH.da-contentColumn.contentColumnDefault-1VQkGM.da-contentColumnDefault > div > div > div:nth-child(2) > div > div:nth-child(1) > div > .da-title::after {
+	content: " (Unsupported)"
+}
+
 /*Messages*/
 .containerCozy-jafyvG {
 	background-color: var(--transparency);
@@ -302,11 +317,8 @@ button { border-radius: var(--roundness) !important; }
 	height: auto;
 	padding: 25px 10px 25px 10px;
 }
-.theme-dark .messagesWrapper-3lZDfY, .theme-light .messagesWrapper-3lZDfY {
+.theme-dark .messagesWrapper-3lZDfY {
 	background-color: transparent;
-}
-.theme-light .containerCozy-jafyvG {
-	background-color: var(--transparency-light);
 }
 .chat-3bRxxu .messages-3amgkR {
 	border-radius: 0 0 var(--roundness) var(--roundness);
@@ -1385,6 +1397,10 @@ border-radius: var(--roundness);
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bd-pfbtn {
 	background: var(--accent-color) !important;
+}
+
+.da-roleWrapper .da-root {
+	background-color: transparent !important;
 }
 
 /*BetterDiscord Custom CSS*/
