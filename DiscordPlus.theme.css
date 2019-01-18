@@ -434,6 +434,15 @@ button { border-radius: var(--roundness) !important; }
 	border-radius: var(--roundness) !important;
 }
 
+.da-progress {
+	width: 100% !important;
+	height: 6px !important;
+}
+.da-progressBar {
+	width: 100%;
+	height: 6px !important;
+}
+
 /*System messages*/
 .icon-2Po-VO {
 	background-size: 1.6rem 1.6rem !important;
