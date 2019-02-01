@@ -798,8 +798,12 @@ border-radius: var(--roundness);
 .theme-dark .container-2Thooq,
 .theme-light .container-2Thooq { background: transparent !important; }
 .accountDetails-3k9g4n .discriminator { font-size: 0px; margin-top: 0px }
-.button-2b6hmh { transition: .2s; }
 .theme-light .accountDetails-3k9g4n .username { color: black !important }
+
+.da-iconButton {
+	background-size: 18px !important;
+	transition: .2s;
+}
 
 /*Server members*/
 .theme-dark .members-1998pB {
