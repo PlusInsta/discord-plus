@@ -1613,3 +1613,14 @@ border-radius: var(--roundness);
 .BE-badge:last-of-type {
 	margin-right: 0px;
 }
+
+/*TitleForTitlebar*/
+/*Original addon by Arashiryuu*/
+
+#TitleForTitlebar {
+  color: #ffffff;
+  opacity: 0.7;
+  left: 80px;
+  font-size: 12px;
+  font-family: var(--font);
+}
