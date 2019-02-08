@@ -23,11 +23,13 @@ body, button, input, select, ::-webkit-input-placeholder {
 	font-family: var(--font), 'Poppins', 'system-ui', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
 }
 /* Text font */
-p, textarea, placeholder, .da-message, .da-member, .da-nameTag {
+p, textarea, placeholder, .da-message, .da-member {
 	font-family: var(--font-text), 'Roboto', 'system-ui', 'Helvetica', 'Arial', sans-serif !important;
 }
 /* Usernames, titles and headers */
-h1, h2, .da-nameTag, .da-nameWrapper, .da-username, .da-emojiUploader, .da-titleText, .da-channelName, .da-header {
+.da-nameWrapper, .da-nameTag, .da-emojiUploader,
+.da-noChannel .da-title, .da-titleText,
+h1, h2, .da-header, .da-username, .da-channelName {
 	font-family: var(--font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
 }
 
@@ -53,7 +55,6 @@ h1, h2, .da-nameTag, .da-nameWrapper, .da-username, .da-emojiUploader, .da-title
 [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable,
 #rtc-connection,
 #voice-connection,
-.da-search .search-bar,
 .container-2lgZY8,
 .container-PNkimc,
 .da-layers,
@@ -65,7 +66,6 @@ h1, h2, .da-nameTag, .da-nameWrapper, .da-username, .da-emojiUploader, .da-title
 
 button { border-radius: var(--roundness) !important; }
 .checkbox-inner span, checkbox { border-radius: var(--roundness) !important; }
-.search-bar input { font-size: 12px; text-align: center; text-transform: lowercase; font-style: italic; }
 .theme-dark search-bar-inner { background: var(--transparency) !important;}
 .item-26Dhrx {
 	border-radius: var(--roundness);
@@ -118,6 +118,8 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Servers*/
+.da-guild, .da-guild+.da-guild { margin-top: 10px; }
+.da-guild:nth-child(1) { margin-top: 0 !important; }
 .guildsWrapper-5TJh6A { border-radius: var(--roundness); }
 .guildsWrapper-5TJh6A .guilds-1q_RqH { padding: 10px 0 16px 10px;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 { border-radius: var(--roundness) !important; transition: opacity .25s; opacity: 0.6;}
@@ -137,21 +139,36 @@ button { border-radius: var(--roundness) !important; }
 .theme-dark .chat-3bRxxu .headerBar-UHpsPw {
 	background: var(--transparency-darker);
 }
-.theme-light .guildsAdd-21_IdK {
+.da-noChannel {
+    background: var(--transparency-dark) !important;
+    border-radius: var(--roundness);
+}
+.da-guildsDiscover {
+	border-radius: var(--roundness) !important;
+	height: 48px !important;
+	width: 48px !important;
+}
+.theme-light .da-guildsAdd {
 	background: var(--transparency-light);
 	border-color: white;
 	transition: .2s;
 }
-.theme-light .guildsAdd-21_IdK:hover {
+.theme-light .da-guildsAdd:hover {
 	background: var(--accent-color);
 }
-.theme-dark .guildsAdd-21_IdK {
+.theme-dark .da-guildsAdd {
 	background: var(--transparency-dark);
 	border-color: black;
 	transition: .2s;
 }
-.theme-dark .guildsAdd-21_IdK:hover {
+.theme-dark .da-guildsAdd:hover {
 	background: var(--accent-color);
+}
+.da-guildsAddInner {
+	top: 0 !important;
+}
+.da-guildsDiscoverInner {
+	top: 2px !important;
 }
 .iconSizeMedium-2OqPjI {
 	height: 48px;
@@ -303,6 +320,10 @@ button { border-radius: var(--roundness) !important; }
     display: none !important;
 }
 
+form .da-wrapper {
+	background-color: var(--transparency) !important;
+	border-radius: var(--roundness);
+}
 
 #user-settings > div:nth-child(3) > div > div.contentRegion-3nDuYy.da-contentRegion > div > div > div > div.contentColumn-2hrIYH.da-contentColumn.contentColumnDefault-1VQkGM.da-contentColumnDefault > div > div > div:nth-child(2) > div > div:nth-child(1) > div > .da-title::after {
 	content: " (Unsupported)"
