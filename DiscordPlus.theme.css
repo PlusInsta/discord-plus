@@ -1635,6 +1635,13 @@ border-radius: var(--roundness);
 	margin-right: 0px;
 }
 
+/*EditUsers*/
+.EditUsers-tag {
+	text-transform: none;
+	top: 0;
+	padding: 2px 4px;
+}
+
 /*TitleForTitlebar*/
 /*Original addon by Arashiryuu*/
 
