@@ -1638,7 +1638,7 @@ border-radius: var(--roundness);
 /*EditUsers*/
 .EditUsers-tag {
 	text-transform: none;
-	top: 0;
+	top: -1px !important;
 	padding: 2px 4px;
 }
 
