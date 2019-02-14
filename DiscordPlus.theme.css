@@ -1383,7 +1383,7 @@ border-radius: var(--roundness);
 	border-radius: var(--roundness)
 }
 .input-cIJ7To:focus {
-	border-color: var(--accent-color);
+	border-color: var(--accent-color) !important;
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
 	background-color: var(--accent-color);
@@ -1616,6 +1616,12 @@ border-radius: var(--roundness);
     right: 10px !important;
     top: -10px;
     font-size: 10px;
+}
+
+/*SendLargeMessages*/
+.SendLargeMessages-modal #character-counter {
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 /*TopRoleEverywhere*/
