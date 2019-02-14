@@ -1611,6 +1611,13 @@ border-radius: var(--roundness);
 	margin-bottom: 0.8vh;
 }
 
+/*CharCounter*/
+#charcounter.normal {
+    right: 10px !important;
+    top: -10px;
+    font-size: 10px;
+}
+
 /*TopRoleEverywhere*/
 .TRE-tag {
 	text-transform: none !important;
