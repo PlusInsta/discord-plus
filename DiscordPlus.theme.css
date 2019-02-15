@@ -1586,7 +1586,7 @@ border-radius: var(--roundness);
 	background: rgba(0,0,0,0);
 }
 
-.da-typing .da-text * {
+.da-typing .da-text {
 	display: none !important;
 }
 
