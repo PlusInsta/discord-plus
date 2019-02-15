@@ -100,8 +100,11 @@ button { border-radius: var(--roundness) !important; }
 	padding: 32px 0 16px 10px !important;
 }
 
-
-.winButton-iRh8-Z { height: 23px; top: 2px; right: 2px; border-radius: var(--roundness)}
+.winButton-iRh8-Z {
+	height: 24px;
+	top: 2px;
+	border-radius: var(--roundness);
+}
 
 .wordmark-2iDDfm {
 	background-image: url('https://rawgithub.com/PlusInsta/discord-plus/master/assets/wordmark_white.svg');
