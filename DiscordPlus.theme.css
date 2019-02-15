@@ -338,6 +338,16 @@ form .da-wrapper {
 	height: auto;
 	padding: 25px 10px 25px 10px;
 }
+.da-containerCozy .da-divider {
+	margin: 0 0 -25px 0 !important
+}
+.da-container:last-of-type .da-divider {
+	display: block !important;
+}
+.da-messageCozy:first-child:last-of-type .da-contentCozy {
+    margin-bottom: 15px;
+}
+
 .theme-dark .messagesWrapper-3lZDfY {
 	background-color: transparent;
 }
@@ -365,6 +375,20 @@ form .da-wrapper {
 .containerCompact-3V0ioj .divider-32i8lo {
 	border-bottom: none;
 }
+
+.da-divider {
+  margin: 0 0 -10px 0 !important;
+	padding: 5px;
+	border-radius: var(--roundness);
+}
+
+/* TODO: Find a way to select this in compact mode
+.da-divider {
+  margin: 0 !important;
+  background-color: var(--transparency-dark);
+}
+*/
+
 .status-3fQvEa {
     height: 10px !important;
     position: relative;
