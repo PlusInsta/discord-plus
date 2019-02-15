@@ -1461,6 +1461,15 @@ border-radius: var(--roundness);
 	background-color: transparent !important;
 }
 
+.da-contentColumn .da-flex .da-divider {
+	padding: 0;
+	border-radius: 0 !important;
+}
+
+.da-dividerDefault {
+	margin: 20px 0 0 0 !important;
+}
+
 /*BetterDiscord Custom CSS*/
 #bd-customcss-attach-controls {
 	margin-top: 10px;
