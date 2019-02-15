@@ -1582,9 +1582,9 @@ border-radius: var(--roundness);
 	border-radius: var(--roundness);
 	background: rgba(0,0,0,0);
 }
-.text-1y-e8- { text-align: center; text-size: 0px) }
-.typing-2GQL18 span {
-	color: hsla(0, 0%, 0%, 0) !important;
+
+.da-typing .da-text * {
+	display: none !important;
 }
 
 /*Images*/
