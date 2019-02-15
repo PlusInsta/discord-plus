@@ -11,7 +11,7 @@
 
 /*Background image*/
 .da-appMount, #app-mount {
-	background-image: var(--background) !important;
+	background: var(--background) !important;
 	background-size: cover !important;
 }
 html {
