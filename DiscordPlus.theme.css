@@ -35,10 +35,10 @@ h1, h2, .da-header, .da-username, .da-channelName {
 
 /*Core variables*/
 :root {
-	--transparency: rgba(0,0,0,0.6);
-	--transparency-dark: rgba(0,0,0,0.7);
-	--transparency-darker: rgba(0,0,0,0.8);
-	--transparency-darkest: rgba(0,0,0,0.9);
+	--transparency: hsla(0, 0%, 0%, 0.68);
+	--transparency-dark: hsla(0, 0%, 0%, 0.74);
+	--transparency-darker: hsla(0, 0%, 0%, 0.82);
+	--transparency-darkest: hsla(0, 0%, 0%, 0.90);
 	--transparency-lite: rgba(255,255,255,0.6);
 	--transparency-light: rgba(255,255,255,0.7);
 	--transparency-lighter: rgba(255,255,255,0.8);
