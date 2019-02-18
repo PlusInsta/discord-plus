@@ -1625,6 +1625,90 @@ border-radius: var(--roundness);
 	transition: background-color .2s
 }
 
+/* Emoji Picker */
+.da-popout {
+	border-radius: var(--roundness) !important;
+}
+#bda-qem {
+	border-radius: var(--roundness) var(--roundness) 0 0 !important;
+}
+
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+	border-radius: 0 0 var(--roundness) var(--roundness) !important;
+}
+
+#bda-qem,
+.bda-dark #bda-qem,
+.bda-dark .da-emojiPicker .da-category,
+.da-emojiPicker .da-stickyHeader,
+.da-emojiPicker .da-stickyHeader .da-category,
+.da-emojiPicker .da-dimmer {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+
+#bda-qem,
+.bda-dark #bda-qem {
+	border-bottom: none !important;
+}
+
+#bda-qem button,
+.bda-dark #bda-qem button {
+    background: var(--transparency);
+    border-left: none !important;
+    box-shadow: none !important;
+	border-radius: var(--roundness) var(--roundness) 0 0 !important;
+	color: white;
+}
+
+#bda-qem button:hover,
+.bda-dark #bda-qem button:hover {
+    background-color: var(--transparency-dark);
+}
+
+#bda-qem button.active,
+.bda-dark #bda-qem button.active {
+    background-color: var(--accent-color);
+	color: white;
+}
+.da-emojiPicker .da-categories .da-item.da-selected {
+	border-bottom-color: var(--accent-color);
+}
+
+.da-emojiPicker .da-emojiItem.da-selected {
+    background-color: rgba(123,123,123,.37) !important;
+}
+
+.da-emojiPicker,
+.bda-dark .da-emojiPicker {
+    background-color: var(--transparency);
+}
+
+.da-emojiPicker .da-header {
+	border-bottom: none !important;
+}
+
+.da-emojiPicker .da-searchBar .da-searchBarInner {
+	background-color: transparent !important;
+}
+
+.da-emojiPicker .da-searchBar input {
+	background-color: transparent !important;
+	color: white !important;
+}
+
+.da-searchBar.da-searchBarLight {
+	background-color: var(--transparency) !important;
+}
+
+
+.bda-dark #bda-qem-favourite-container,
+.bda-dark #bda-qem-twitch-container,
+#bda-qem-favourite-container,
+#bda-qem-twitch-container {
+	background: var(--transparency);
+}
+
 /*
 * Third-party Plugins
 * NOTE:
