@@ -328,10 +328,6 @@ form .da-wrapper {
 	border-radius: var(--roundness);
 }
 
-#user-settings > div:nth-child(3) > div > div.contentRegion-3nDuYy.da-contentRegion > div > div > div > div.contentColumn-2hrIYH.da-contentColumn.contentColumnDefault-1VQkGM.da-contentColumnDefault > div > div > div:nth-child(2) > div > div:nth-child(1) > div > .da-title::after {
-	content: " (Unsupported)"
-}
-
 /*Messages*/
 .containerCozy-jafyvG {
 	background-color: var(--transparency);
@@ -379,8 +375,8 @@ form .da-wrapper {
 	border-bottom: none;
 }
 
-.da-divider {
-  margin: 0 0 -10px 0 !important;
+.da-messagesWrapper .da-divider {
+  margin: 0 0 -10px 0;
 	padding: 5px;
 	border-radius: var(--roundness);
 }
@@ -1464,13 +1460,26 @@ border-radius: var(--roundness);
 	background-color: transparent !important;
 }
 
-.da-contentColumn .da-flex .da-divider {
-	padding: 0;
-	border-radius: 0 !important;
+.da-top .da-item {
+	border-bottom: none;
 }
 
-.da-dividerDefault {
-	margin: 20px 0 0 0 !important;
+.da-paymentPane {
+	background: var(--transparency);
+	border-radius: var(--roundness);
+}
+
+.da-payment {
+	background-color: transparent !important;
+
+}
+.da-paginator {
+	background: transparent;
+}
+
+.da-codeRedemptionRedirect {
+	background-color: var(--transparency) !important;
+	border-color: transparent !important;
 }
 
 /*BetterDiscord Custom CSS*/
