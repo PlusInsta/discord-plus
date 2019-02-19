@@ -1575,6 +1575,9 @@ border-radius: var(--roundness);
 }
 
 .da-typing .da-text {
+	text-shadow: 0px 0px 2px black !important;
+	font-size: 10px !important;
+	margin-top: -4px !important;
 	opacity: 0 !important;
 	transition: .2s;
 }
@@ -1582,11 +1585,6 @@ border-radius: var(--roundness);
 .da-typing:hover .da-text {
 	opacity: 1 !important;
 	transition: .2s;
-}
-
-.da-typing .da-text {
-	font-size: 10px !important;
-	margin-top: -4px !important;
 }
 
 .da-base .da-ellipsis .da-spinnerItem {
