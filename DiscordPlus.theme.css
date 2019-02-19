@@ -28,7 +28,7 @@ p, textarea, placeholder, .da-message, .da-member {
 }
 /* Usernames, titles and headers */
 .da-nameWrapper, .da-nameTag, .da-emojiUploader,
-.da-noChannel .da-title, .da-titleText,
+.da-noChannel .da-title, .da-titleText, .da-nameCellText,
 h1, h2, .da-header, .da-username, .da-channelName {
 	font-family: var(--font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
 }
@@ -750,6 +750,10 @@ form .da-wrapper {
 }
 .gameLibrary-TTDw4Y {
 	border-radius: var(--roundness);
+}
+
+.da-gameUpdates {
+	background-color: transparent !important;
 }
 
 /*Game Store*/
