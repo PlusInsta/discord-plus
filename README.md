@@ -64,9 +64,6 @@ If neither of these two work for you, feel free to open an issue and describe th
 * Run `discord`
 * Enable the theme in Settings (sorry, no Terminal command for this!)
 
-# Disclaimer
-I am an independent developer with a real life. As a student, I prioritize working on real-life projects over this. That doesn't mean I'm abandoning the theme, but I'm much less likely to fix something that's broken if it doesn't directly affect me or my friend's usage of Discord. If you want to help, consider opening issues for things you want to see added or fixed, or contribute directly by making pull requests.
-
 # Screenshots
 Warning: These screenshots are terribly out of date.
 
