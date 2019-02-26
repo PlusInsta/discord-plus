@@ -299,6 +299,10 @@ button { border-radius: var(--roundness) !important; }
 	border-color: transparent;
 }
 
+.da-iconsWrapper .da-iconButton {
+	background-size: 100% !important;
+}
+
 /*Message box*/
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-light .chat-3bRxxu, .theme-light .chat-3bRxxu form, .theme-light .content-yTz4x3 {
     background-color: transparent;
@@ -849,7 +853,7 @@ border-radius: var(--roundness);
 .theme-light .accountDetails-3k9g4n .username { color: black !important }
 
 .da-iconButton {
-	background-size: 18px !important;
+	background-size: 18px;
 	transition: .2s;
 }
 
