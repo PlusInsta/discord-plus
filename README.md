@@ -41,8 +41,6 @@ https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
 
 This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." Instructions on how to install below. It's compatible with all future versions, though if I add new variables you'll need to update (or add the new values to the file) to customize them.
 
-**Please do not use releases.** Those are extremely outdated, and impractical for me to update. Using a file that loads the latest commits allows you to keep your settings across updates. I will not be making more releases in the future.
-
 # Installation
 ## **Windows**:
 * Download `DiscordPlus-master.theme.css`
