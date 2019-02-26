@@ -38,11 +38,14 @@ Previously, this theme worked with both browsers and BetterDiscord. However, as 
 
 # Download
 https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
+
 This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." Instructions on how to install below. It's compatible with all future versions, though if I add new variables you'll need to update (or add the new values to the file) to customize them.
+
+**Please do not use releases.** Those are extremely outdated, and impractical for me to update. Using a file that loads the latest commits allows you to keep your settings across updates. I will not be making more releases in the future.
 
 # Installation
 ## **Windows**:
-* Download `DiscordPlus-master.theme.css` or `DiscordPlus.theme.css`
+* Download `DiscordPlus-master.theme.css`
 * Open your Downloads folder
 * Cut the downloaded file (Ctrl + X)
 * Type `%AppData%\BetterDiscord\themes` in the address bar
@@ -51,7 +54,7 @@ This file always loads the latest version so you don't have to. To download it, 
 * Enable the theme in Settings
 
 ## **macOS**:
-* Download `DiscordPlus-master.theme.css` or `DiscordPlus.theme.css`
+* Download `DiscordPlus-master.theme.css`
 * Open Finder
 * Press ⇧⌘G
 * Type `~/Library/Preferences/BetterDiscord/themes`
@@ -61,7 +64,7 @@ This file always loads the latest version so you don't have to. To download it, 
 * Enable the theme in Settings
 
 ## **Linux**:
-* Download `DiscordPlus-master.theme.css` or `DiscordPlus.theme.css`
+* Download `DiscordPlus-master.theme.css`
 * Open the Terminal
 * type `mv ~/Downloads/DiscordPlus* ~/.config/BetterDiscord/themes`
 * Run `discord`
