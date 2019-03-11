@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous');
 :root {
 	--background: url('https://i.imgur.com/3AiL3yN.png');
+	--accent-color: rgb(135,31,96);
 	--font: 'Poppins';
 	--font-text: 'Roboto';
 	--font-header: 'Righteous';
 	--roundness: 10px;
-	--accent-color: rgb(135,31,96);
+	--spacing: 10px; /* WARNING: WORK IN PROGRESS! */
 }
 
 /*Background image*/
@@ -15,7 +16,7 @@
 	background-size: cover !important;
 }
 html {
-background-color: var(--accent-color);
+	background-color: var(--accent-color);
 }
 
 /* Default font */
@@ -46,10 +47,10 @@ h1, h2, .da-header, .da-username, .da-channelName {
 }
 
 .da-app {
-	bottom: 15px !important;
-	left: 5px !important;
-	right: 15px !important;
-	top: 5px !important;
+	bottom:	calc(var(--spacing) + calc(var(--spacing) / 2)) !important;
+	left:		calc(var(--spacing) - calc(var(--spacing) / 2)) !important;
+	right:	calc(var(--spacing) + calc(var(--spacing) / 2)) !important;
+	top:		calc(var(--spacing) - calc(var(--spacing) / 2)) !important;
 }
 
 [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable,
@@ -79,9 +80,9 @@ button { border-radius: var(--roundness) !important; }
 	background-color: var(--transparency);
 	border-radius: var(--roundness);
 	padding-bottom: 4px;
-	left: 10px;
-	margin-right: 20px;
-	margin-top: 5px;
+	left: var(--spacing);
+	margin-right: calc(var(--spacing) + var(--spacing));
+	margin-top: calc(var(--spacing) / 2);
 	align-items: center;
 	position: relative;
 }
@@ -110,8 +111,8 @@ button { border-radius: var(--roundness) !important; }
 /*macOS window buttons*/
 .typeMacOS-3EmCyP {
 	border-radius: var(--roundness);
-	margin-left: 10px;
-	margin-top: 10px;
+	margin-left: var(--spacing);
+	margin-top: var(--spacing);
 	border-radius: var(--roundness) var(--roundness) 0 0 !important;
 }
 .platform-osx .da-flex .da-wrapper {
@@ -126,7 +127,7 @@ button { border-radius: var(--roundness) !important; }
 .da-wrapper .da-scrollerWrap .da-container:nth-child(1) { margin-top: 0 !important; }
 .da-flex .da-wrapper { border-radius: var(--roundness); }
 .da-flex .da-wrapper .da-dragfix:active { border-radius: var(--roundness); }
-.da-flex .da-wrapper .da-scroller { padding: 10px 0 0 10px;}
+.da-flex .da-wrapper .da-scroller { padding: 10px 0 0 10px; }
 .da-flex .da-wrapper .da-scroller .da-container .da-wrapper { border-radius: var(--roundness) !important; transition: opacity .25s; opacity: 0.6;}
 .da-flex .da-wrapper .da-scroller .da-container .da-wrapper:hover { opacity: 0.8; transition: opacity .25s; }
 .da-flex .da-wrapper .da-scroller .da-container.da-selected .da-wrapper,
