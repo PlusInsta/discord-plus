@@ -13,8 +13,7 @@ Using a modification called [BandagedBD](https://github.com/rauenzi/BetterDiscor
 This theme aims to be **fully customizable**.
 There are variables at the top of the file that allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the fonts to any fonts installed on your device.
 
-
-You could stylize it after a game you like.
+For example, you could stylize it after a game you like.
 
 ![Minecraft-styled Discord+](https://dl.dropbox.com/s/5h9mjteils9fcck/Image2_2_customized_minecraft.png)
 
@@ -34,12 +33,12 @@ I also use this theme myself, so if there's something's bugging you, it probably
 The theme works on Windows, macOS, and Linux. There are some minor differences, though.
 Windows has a draggable titlebar (with the Discord+ "logo" for good measure), macOS has window buttons at the top left (sans Discord+ logo), and Linux has your desktop environment's borders (which means I can't customize it).
 
-Previously, this theme worked with both browsers and BetterDiscord. However, as Discord kept making their code more difficult to work with, I decided to move entirely to BandagedBD's normalized classes. What this means for you is that you'll have to use Zere's fork of BetterDiscord to use my theme. Not only does this mean Discord+ is unlikely to break overnight, it also means I have more stable code to work with. Until BetterDiscord v2 is finished, your best bet is to use normalized classes. I apologize if any of your plugins don't work with normalized classes, but it's a necessary evil.
+Previously, this theme worked with both browsers and BetterDiscord. However, as Discord kept making their code more difficult to work with, I decided to move entirely to BandagedBD's normalized classes. What this means for you is that you'll have to use Zere's fork of BetterDiscord for my theme to work. I apologize if any of your plugins don't work with normalized classes, but it's a necessary evil.
 
 # Download
 https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css
 
-This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." Instructions on how to install below. It's compatible with all future versions, though if I add new variables you'll need to update (or add the new values to the file) to customize them.
+This file always loads the latest version so you don't have to. To download it, open the context menu and click "Save as..." It's forwards-compatible, although if I add new variables you'll need to redownload this file to customize them.
 
 # Installation
 ## **Windows**:
