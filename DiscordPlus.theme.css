@@ -7,7 +7,6 @@
 	--font-text: 'Roboto';
 	--font-header: 'Righteous';
 	--roundness: 10px;
-	--spacing: 10px; /* WARNING: WORK IN PROGRESS! */
 }
 
 /*Background image*/
@@ -47,10 +46,10 @@ h1, h2, .da-header, .da-username, .da-channelName {
 }
 
 .da-app {
-	bottom:	calc(var(--spacing) + calc(var(--spacing) / 2)) !important;
-	left:		calc(var(--spacing) - calc(var(--spacing) / 2)) !important;
-	right:	calc(var(--spacing) + calc(var(--spacing) / 2)) !important;
-	top:		calc(var(--spacing) - calc(var(--spacing) / 2)) !important;
+	bottom:	15px !important;
+	left:		5px !important;
+	right:	15px !important;
+	top:		5px !important;
 }
 
 [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable,
@@ -80,9 +79,9 @@ button { border-radius: var(--roundness) !important; }
 	background-color: var(--transparency);
 	border-radius: var(--roundness);
 	padding-bottom: 4px;
-	left: var(--spacing);
-	margin-right: calc(var(--spacing) + var(--spacing));
-	margin-top: calc(var(--spacing) / 2);
+	left: 10px;
+	margin-right: 20px;
+	margin-top: 5px;
 	align-items: center;
 	position: relative;
 }
@@ -111,8 +110,8 @@ button { border-radius: var(--roundness) !important; }
 /*macOS window buttons*/
 .typeMacOS-3EmCyP {
 	border-radius: var(--roundness);
-	margin-left: var(--spacing);
-	margin-top: var(--spacing);
+	margin-left: 10px;
+	margin-top: 10px;
 	border-radius: var(--roundness) var(--roundness) 0 0 !important;
 }
 .platform-osx .da-flex .da-wrapper {
