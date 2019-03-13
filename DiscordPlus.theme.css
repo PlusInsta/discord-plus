@@ -53,11 +53,17 @@ h1, h2, .da-header, .da-username, .da-channelName {
 }
 
 [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable,
-#rtc-connection,
-#voice-connection,
+.channelNotices-41mJbj .channelNotice-1-XFj,
 .container-2lgZY8,
 .container-PNkimc,
+.messagesWrapper-3lZDfY,
+.chat-3bRxxu,
+.chat-3bRxxu form,
+.content-yTz4x3,
 .wrapper-1Rf91z,
+.video-1FfuMD,
+.da-searchBar,
+.da-unread,
 .da-layers,
 .da-layer {
 	background: transparent !important;
@@ -192,9 +198,6 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Server notices*/
-.channelNotices-41mJbj .channelNotice-1-XFjC {
-	background-color: transparent !important;
-}
 .theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P {
 	color: black;
 }
@@ -286,9 +289,6 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Calling*/
-.video-1FfuMD {
-	background-color: transparent;
-}
 .theme-dark .wrapper-29NfPK {
 	background-color: var(--transparency-darker);
 }
@@ -308,9 +308,6 @@ button { border-radius: var(--roundness) !important; }
 }
 
 /*Message box*/
-.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3, .theme-light .chat-3bRxxu, .theme-light .chat-3bRxxu form, .theme-light .content-yTz4x3 {
-    background-color: transparent;
-}
 .chat-3bRxxu form {
 	margin: -6px 10px -24px 0px;
 	-webkit-box-shadow: none;
@@ -355,9 +352,6 @@ form .da-wrapper {
     margin-bottom: 15px;
 }
 
-.theme-dark .messagesWrapper-3lZDfY {
-	background-color: transparent;
-}
 .chat-3bRxxu .messages-3amgkR {
 	border-radius: 0 0 var(--roundness) var(--roundness);
 }
@@ -574,7 +568,6 @@ form .da-wrapper {
 [style*="flex: 1 1 auto;"] > .da-container { overflow: hidden; border-radius: var(--roundness); }
 .theme-dark [style*="flex: 1 1 auto;"] > .da-container { background-color: var(--transparency-dark); }
 .theme-light [style*="flex: 1 1 auto;"] > .da-container { background-color: var(--transparency-lighter); }
-.da-unread { background-color: transparent !important; }
 .privateChannels-1nO12o .channel-2QD9_O .link-button-icon { height: 32px; width: 32px; }
 .privateChannels-1nO12o .channel-2QD9_O .channel-name { font-size: 18px }
 .privateChannels-1nO12o .channel-2QD9_O .avatar-small { margin-right: 10px; }
