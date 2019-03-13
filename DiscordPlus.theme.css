@@ -62,6 +62,7 @@ h1, h2, .da-header, .da-username, .da-channelName {
 .content-yTz4x3,
 .wrapper-1Rf91z,
 .video-1FfuMD,
+.da-flex .da-wrapper,
 .da-searchBar,
 .da-unread,
 .da-layers,
@@ -147,7 +148,45 @@ button { border-radius: var(--roundness) !important; }
 }
 
 .da-homeButton {
-	background: var(--accent-color) !important;
+	background: transparent !important;
+}
+
+.da-homeLink svg {
+	display: none !important;
+}
+
+/* Animated Home icon */
+.da-homeLink {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxnPgoJPHJlY3QgeD0iNi4zIiB5PSIxMy45IiBjbGFzcz0ic3QwIiB3aWR0aD0iMTkuNCIgaGVpZ2h0PSI0LjIiLz4KCTxyZWN0IHg9IjEzLjkiIHk9IjYuMyIgY2xhc3M9InN0MCIgd2lkdGg9IjQuMiIgaGVpZ2h0PSIxOS40Ii8+CjwvZz4KPC9zdmc+Cg==);
+	background-size: 40px 40px;
+	background-position: center;
+	animation: introPlus ease-in-out 0.4s;
+	animation-fill-mode: forwards;
+	animation-delay: 6s;
+}
+.da-homeLink:hover {
+}
+.da-homeLink::before {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTYgMTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE2IDE2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik04LDMuMUg0LjN2NC4xbDIuNCwyLjJ2LTRIOGMwLjgsMCwxLjIsMC40LDEuMiwxdjNjMCwwLjYtMC40LDEuMS0xLjIsMS4xSDQuM3YyLjNIOGMxLjksMCwzLjctMSwzLjctMy4yVjYuNAoJQzExLjYsNC4xLDkuOSwzLjEsOCwzLjF6Ii8+Cjwvc3ZnPgo=);
+	position: absolute;
+	content: "";
+	animation: introBigD linear 0.25s;
+	animation-fill-mode: forwards;
+	animation-delay: 6s;
+}
+
+@keyframes introPlus {
+	0%		{ transform: rotate(0deg) scale(1) }
+	75%		{ transform: rotate(190deg) scale(1.5) }
+	100%	{ transform: rotate(180deg) scale(1.4) }
+}
+@keyframes introBigD {
+	from	{ top: 8px; left: -20px; height: 32px; width: 26px; transform: rotate(0deg) }
+	to		{ top: 25px; left: 24px; height: 18px; width: 18px; transform: rotate(180deg) }
+}
+
+.da-guildSeparator {
+	display: none;
 }
 
 .da-guildIcon {
