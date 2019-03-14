@@ -1466,6 +1466,29 @@ border-radius: var(--roundness);
 	background-color: var(--transparency-lighter);
 	border-color: transparent !important;
 }
+
+.da-radioGroup .da-card {
+	transition: .2s;
+}
+
+.da-notDetected {
+	background-color: transparent !important;
+	border: 1px solid #747f8d !important;
+	border-radius: var(--roundness);
+}
+
+.da-nowPlaying {
+	border-radius: var(--roundness);
+}
+
+.da-lastPlayed {
+	margin-top: 2px;
+}
+
+.da-addGamePopout {
+	background-color: var(--transparency);
+}
+
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bd-pfbtn {
 	background: var(--accent-color) !important;
@@ -1553,8 +1576,11 @@ border-radius: var(--roundness);
 
 /* Buttons */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
 .lookFilled-1Gx00P, .lookInverted-2D7oAl,
 .bd-modal-wrapper .footer button {
 	background-color: var(--transparency);
@@ -1573,6 +1599,12 @@ border-radius: var(--roundness);
 
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
 	background-color: #3ca374;
+}
+
+/* Except when you're not supposed to click :( */
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled:hover {
+	background-color: gray;
 }
 
 /*Server settings*/
