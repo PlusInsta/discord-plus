@@ -62,7 +62,7 @@ h1, h2, .da-header, .da-username, .da-channelName, .bda-name {
 .content-yTz4x3,
 .wrapper-1Rf91z,
 .video-1FfuMD,
-.da-flex .da-wrapper,
+.da-flex .da-wrapper:not(.da-badge),
 .da-searchBar,
 .da-unread,
 .da-layers,
@@ -140,6 +140,28 @@ button { border-radius: var(--roundness) !important; }
 .da-flex .da-wrapper .da-scroller .da-container.da-active .da-wrapper { opacity: 1; transition: opacity .25s; }
 .da-flex .da-wrapper .da-scroller .da-container.da-selected::before { border-radius: var(--roundness); }
 .da-flex .da-wrapper .da-scrollerWrap { width: 90px; }
+
+.container-1aNBdK .da-wrapper {
+	animation: notification linear infinite 5s;
+}
+
+@keyframes notification { /* Designed specifically to annoy you ;) */
+	0%		{ opacity: 1 }
+	4%		{ opacity: 0.8 }
+	85%		{ opacity: 0.8 }
+	90% 	{ opacity: 1 }
+	95%		{ opacity: 0.8 }
+	100%	{ opacity: 1 }
+}
+
+.container-1aNBdK .da-wrapper:hover {
+	animation: notificationHover ease-in-out 0.2s;
+	animation-fill-mode: forwards;
+}
+@keyframes notificationHover { /*Smooth transition between hover and unhover*/
+	0%		{ opacity: 0.8 }
+	100%		{ opacity: 1 }
+}
 
 .da-flex .da-wrapper .da-avatar {
 	background-color: var(--accent-color);
