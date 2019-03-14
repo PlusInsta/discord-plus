@@ -11,7 +11,7 @@ All you need to install my theme is [BandagedBetterDiscord](https://github.com/r
 
 ## User customization
 This theme is **fully customizable**.
-The variables at the top of the file allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the fonts to any fonts installed on your device.
+The variables at the top of the file allow you to change things like the background image, the accent color, and the roundness of the UI. You can also change the fonts to any fonts installed on your device.
 
 For reference, this is what Discord+ looks like by default.
 
