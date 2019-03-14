@@ -1510,38 +1510,74 @@ border-radius: var(--roundness);
 	border-radius: var(--roundness);
 }
 
-/*Buttons*/
-.thene-light .button-1w5pas,
-.theme-light .messageGroupWrapper-o-Zw7G .btn-option,
-.theme-light .messageGroupWrapper-o-Zw7G .btn-reaction { filter: invert() }
-.theme-light .button-2b6hmh { filter: invert() hue-rotate(180deg) !important }
-.theme-dark .lookFilled-1Gx00P.colorBrand-3pXr91,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.theme-dark .lookFilled-1Gx00P.colorGreen-29iAKY,
-.lookFilled-1Gx00P, .lookInverted-2D7oAl {
+/* BetterDiscord modal */
+.bd-modal-wrapper .tab-bar.TOP {
+	display: flex;
+}
+
+.bd-modal-wrapper .header,
+.bd-modal-wrapper .bd-modal-body {
+	background-color: var(--transparency);
+	box-shadow: none;
+}
+
+.bd-modal-wrapper .header {
+	padding: 10px;
+}
+
+.bd-modal-wrapper .bd-modal-inner {
+	border-radius: var(--roundness);
+	box-shadow: none;
+	border: none;
+}
+
+.bd-modal-wrapper .table-header {
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.bd-modal-wrapper .tab-bar-container .tab-bar-item {
+	margin: 0 10px;
+}
+
+.bd-modal-wrapper .tab-bar-container .tab-bar-item,
+.bd-modal-wrapper .tab-bar-container .tab-bar-item.selected {
+  background-color: var(--accent-color);
+	border-radius: var(--roundness);
+  padding: 10px;
+}
+
+.bd-modal-wrapper .tab-bar-container .tab-bar-item:not(.selected):hover {
+	opacity: 0.8;
+}
+
+.bd-modal-wrapper .footer {
+	box-shadow: none;
+	padding: 10px;
+}
+
+/* Buttons */
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P, .lookInverted-2D7oAl,
+.bd-modal-wrapper .footer button {
 	background-color: var(--transparency);
 	transition: .2s;
 }
-.theme-light .lookFilled-1Gx00P.colorBrand-3pXr91,
-.theme-light .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.theme-light .lookFilled-1Gx00P.colorGreen-29iAKY,
-.theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
-	background-color: var(--transparency-lite);
-	transition: .2s;
-	color: black;
-}
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover,
-.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover,
-.theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover
-.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover,
-.theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+.bd-modal-wrapper .footer button:hover {
 	background-color: var(--accent-color);
-	transition: .2s;
-	color: white;
 }
 
+/* Wouldn't wanna disrupt Discord's branding :) */
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+	background-color: #7289da;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+	background-color: #3ca374;
+}
 
 /*Server settings*/
 .select-2TCrqx .Select-menu-outer {
