@@ -28,8 +28,8 @@ p, textarea, placeholder, .da-message, .da-member {
 }
 /* Usernames, titles and headers */
 .da-nameWrapper, .da-nameTag, .da-emojiUploader,
-.da-noChannel .da-title, .da-titleText, .da-nameCellText,
-h1, h2, .da-header, .da-username, .da-channelName {
+.da-noChannel .da-title, .da-titleText, .da-nameCellText, .bda-author,
+h1, h2, .da-header, .da-username, .da-channelName, .bda-name {
 	font-family: var(--font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
 }
 
@@ -1403,10 +1403,6 @@ border-radius: var(--roundness);
 .theme-dark .bda-slist li { background: var(--transparency-darker); }}
 .theme-dark .bda-slist .bda-header { color: white; border-bottom: 1px solid rgba(0,0,0,0.1); }
 .theme-dark .bda-slist .bda-description { color: white; }
-.theme-light .bda-slist li { background: var(--transparency-lighter); }
-.theme-light .bda-slist .bda-header { color: #4f545c; border-bottom: 1px solid rgba(0,0,0,0.1); }
-.theme-light .bda-slist .bda-description { color: #72767d; }
-.theme-light .bda-slist .bda-footer { border-top: 1px solid rgba(0,0,0,0.1); }
 
 .checkbox-1ix_J3,
 .grabber-3mFHz2,
