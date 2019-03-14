@@ -5,15 +5,15 @@ A sleek, customizable Discord theme, inspired by Google's Material Theme.
 
 ## What is this?
 
-**Discord+** is a theme for [Discord](https://discordapp.com). It's both sleek and customizable, without getting in your way. Its top priority is having a balance between looks and performance.
+**Discord+** is a theme for [Discord](https://discordapp.com). It's both sleek and customizable, without getting in your way. Its top priority is balancing between looks and performance.
 
-All you need to install my theme is [BandagedBetterDiscord](https://github.com/rauenzi/BetterDiscordApp). If you already have it installed, you're ready to install my theme! It's as easy as downloading a file and moving it to the right folder.
+All you need to install my theme is [BandagedBetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest). If you already have it installed, you're ready to install my theme! It's as easy as downloading a file and moving it to the right folder.
 
 ## User customization
-This theme aims to be **fully customizable**.
-There are variables at the top of the file that allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the fonts to any fonts installed on your device.
+This theme is **fully customizable**.
+The variables at the top of the file allow you to change things like the background image, the roundness of the UI, and the accent color. You can also change the fonts to any fonts installed on your device.
 
-For reference, this is what it looks like by default.
+For reference, this is what Discord+ looks like by default.
 
 ![Default-looking Discord](https://i.imgur.com/kLsnXvY.png)
 
@@ -21,19 +21,14 @@ And this is how it would look like if you stylized it after [Minecraft](https://
 
 ![Minecraft-styled Discord+](https://i.imgur.com/nkYzMiH.png)
 
-Or, if you're not feeling creative, you could change the background image to cardboard and set the font to Comic Sans.
+If you're not feeling creative, you could change the background image to cardboard and set the font to Comic Sans MS.
 
 ![please dont do this at home kids](https://i.imgur.com/cgiNA54.png)
 
 Check the [FAQ](https://github.com/PlusInsta/discord-plus/wiki/FAQ) for a full list of what you can do.
 
 ## Complete theme
-This theme aims to style everything on Discord.
-If there's anything that is not themed, be it an official feature, a plugin, or third party feature, open an issue along with some information about the unthemed feature and I'll see what I can do.
-
-## Cross-platform compatibility
-The theme works on Windows, macOS, and Linux. There are some minor differences, though.
-Windows has a draggable titlebar (with the Discord+ "logo" for good measure), macOS has window buttons at the top left (sans Discord+ logo), and Linux has your desktop environment's borders (which means I can't customize it).
+Discord+ aims to style everything on Discord. If there’s anything that is not styled, be it an official feature, a plugin, or a third-party feature, open an issue along with some information and I'll see what I can do.
 
 # Download
 [DiscordPlus-master.theme.css](https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css)
