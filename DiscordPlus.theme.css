@@ -1839,21 +1839,13 @@ border-radius: var(--roundness);
 /* TopRoleEverywhere */
 .TRE-tag {
 	text-transform: none !important;
-	font-size: 14px !important;
+	text-shadow: 0px 0px 2px black;
+	font-size: 12px !important;
 	margin-left: 6px !important;
 	border-radius: var(--roundness) !important;
-	padding: 0 4px 0 6px !important;
+	padding: 0 4px 0 4px !important;
 	margin-top: 1px;
-	-webkit-filter: invert() hue-rotate(180deg) brightness(180%);
 }
-
-/* -- About the use of filters --
-* The reason it's filtered is so the alternate style becomes legible.
-* Making text black screws over the default style, but inverting
-* the frame itself makes both legible, with the latter text black.
-* Emojis will look weird and inverted, but it's a necessary evil.
-* This wouldn't be necessary if there were a class for the alt style.
-*/
 
 /* BadgesEverywhere */
 .BE-badge:last-of-type {
