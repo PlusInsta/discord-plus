@@ -940,6 +940,21 @@ border-radius: var(--roundness);
 	margin-top: 10px;
 }
 
+/* Bot tags */
+.da-botTag {
+	border-radius: var(--roundness);
+	top: -1px !important;
+	height: 15px;
+	font-size: 12px;
+	text-shadow: 0px 0px 2px black;
+	padding: 0 4px;
+	margin-left: 6px !important;
+}
+
+.da-botTagRegular {
+	background-color: var(--accent-color);
+}
+
 /*Server channels*/
 .content-20Aix8 {
 	background-color: transparent;
@@ -1838,13 +1853,17 @@ border-radius: var(--roundness);
 
 /* TopRoleEverywhere */
 .TRE-tag {
-	text-transform: none !important;
-	text-shadow: 0px 0px 2px black;
-	font-size: 12px !important;
-	margin-left: 6px !important;
-	border-radius: var(--roundness) !important;
-	padding: 0 4px 0 4px !important;
+	border: none !important;
 	margin-top: 1px;
+	text-transform: none !important;
+	font-size: 12px !important;
+	text-shadow: 0px 0px 2px black;
+	border-radius: var(--roundness) !important;
+	padding: 0 4px !important;
+}
+
+.TRE-tag span {
+	vertical-align: middle;
 }
 
 /* BadgesEverywhere */
@@ -1856,7 +1875,10 @@ border-radius: var(--roundness);
 .EditUsers-tag {
 	text-transform: none;
 	top: -1px !important;
-	padding: 2px 4px;
+	height: 15px;
+	font-size: 12px;
+	padding: 0 4px;
+	vertical-align: middle;
 }
 
 /* TitleForTitlebar by Arashiryuu */
