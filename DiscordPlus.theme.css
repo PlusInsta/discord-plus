@@ -1083,6 +1083,20 @@ border-radius: var(--roundness);
 	padding-left: 8px;
 }
 
+.container-1UB9sr {
+  background: transparent;
+  border-bottom: none;
+  padding: 0px 10px;
+}
+
+.container-1UB9sr .da-inner {
+	border-radius: 0 !important;
+}
+
+.container-1UB9sr .da-channel {
+  padding-bottom: 2px;
+}
+
 /*Scrollbar*/
 .da-scrollerWrap .da-scroller::-webkit-scrollbar {
 	width: 10px;
