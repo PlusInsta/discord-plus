@@ -1032,7 +1032,8 @@ border-radius: var(--roundness);
 .da-nameHoveredText,
 .da-nameLockedText,
 .da-nameMutedText,
-.da-nameUnreadText {
+.da-nameUnreadText,
+.name-2upRM5 {
 	text-overflow: clip;
 	-webkit-mask-image:
 		-webkit-linear-gradient(
@@ -1042,6 +1043,26 @@ border-radius: var(--roundness);
 		rgba(255,255,255,1),
 		rgba(255,255,255, 0)
 		);
+}
+
+.name-2upRM5, .da-nameSpeaking {
+	text-transform: none !important;
+	font-style: normal !important;
+	font-size: 14px;
+	transition: .2s;
+}
+
+.da-nameSpeaking {
+	font-size: 16px;
+	color: #43b581;
+}
+
+.smallAvatar-1MzqAa {
+	transition: .2s;
+}
+
+.da-listCollapse, .da-listDefault {
+	padding-left: 8px;
 }
 
 /*Scrollbar*/
