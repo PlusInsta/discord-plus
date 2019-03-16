@@ -456,6 +456,18 @@ form .da-wrapper {
 	border-bottom: none;
 }
 
+.da-timestampCompact {
+	width: calc(10px + 8ch);
+}
+
+.da-messageEditorCompact {
+	margin-left: 8ch;
+}
+
+.containerCompact-3bB5aN {
+	padding-left: 8ch;
+}
+
 .da-messagesWrapper .da-divider {
   margin: 0 0 -10px 0;
 	padding: 5px;
