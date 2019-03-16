@@ -164,6 +164,12 @@ button { border-radius: var(--roundness) !important; }
 .da-flex .da-wrapper .da-scroller .da-container.da-selected::before { border-radius: var(--roundness); }
 .da-flex .da-wrapper .da-scrollerWrap { width: 90px; }
 
+.da-audio::after,
+.da-video::after {
+	background-color: var(--accent-color);
+	box-shadow: 0px 0px 2px black;
+}
+
 .container-1aNBdK .da-wrapper {
 	animation: notification linear infinite 5s;
 }
