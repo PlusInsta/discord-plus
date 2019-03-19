@@ -154,7 +154,7 @@ button { border-radius: var(--roundness) !important; }
 /* Guilds list */
 .theme-dark .da-flex .da-wrapper .da-scroller { background: var(--transparency-darker) }
 .da-wrapper .da-scrollerWrap .da-container:nth-child(1) { margin-top: 0 !important; }
-.da-flex .da-wrapper { border-radius: var(--roundness); }
+.da-flex .da-wrapper, .da-dragPlaceholder { border-radius: var(--roundness); }
 .da-flex .da-wrapper .da-dragfix:active { border-radius: var(--roundness); }
 .da-flex .da-wrapper .da-scroller { padding: 10px 0 0 10px; }
 .da-flex .da-wrapper .da-scroller .da-container .da-wrapper { border-radius: var(--roundness) !important; transition: opacity .25s; opacity: 0.6;}
@@ -170,7 +170,7 @@ button { border-radius: var(--roundness) !important; }
 	box-shadow: 0px 0px 2px black;
 }
 
-.container-1aNBdK .da-wrapper {
+.container-1aNBdK .da-wrapper:not(.da-badge) {
 	animation: notification linear infinite 5s;
 }
 
@@ -708,7 +708,8 @@ form .da-wrapper {
 
 .da-status, .da-friendsAction, .da-tabBar .da-item, .da-badge { border-radius: var(--roundness) !important; }
 .status.status-typing { justify-content: center; right: -11px !important; width: 26px !important; }
-.da-badge { background-color: var(--accent-color); color: white; }
+.da-badge { background-color: var(--accent-color); color: white; opacity: 1 !important; box-shadow: 0 0 2px black; }
+.wrapper-232cHJ { text-shadow: 0 0 2px black; }
 .da-tabBar .da-item { transition: color .2s, background-color .2s; }
 .discriminator { transition: opacity .2s }
 [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow .discriminator,
@@ -1967,6 +1968,19 @@ border-radius: var(--roundness);
 	line-height: 20px;
 	opacity: .8;
 }
+
+.container-2td-dC.folder .badge-3dItlm.folder.count {
+	background-color: var(--accent-color) !important;
+}
+
+/* Hide the notification badge if the folder is open */
+.folder.da-unread .notifications {
+	transition: .2s;
+}
+.folder.da-unread.open .notifications {
+	opacity: 0 !important;
+}
+
 
 /* TitleForTitlebar by Arashiryuu */
 
