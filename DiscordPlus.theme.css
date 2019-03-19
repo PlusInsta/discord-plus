@@ -953,6 +953,10 @@ border-radius: var(--roundness);
 	transition: .2s;
 }
 
+.da-icon {
+	transition: background-image .2s;
+}
+
 /*Server members*/
 .theme-dark .members-1998pB {
 	background-color: var(--transparency-dark);
@@ -1926,6 +1930,44 @@ border-radius: var(--roundness);
 	vertical-align: middle;
 }
 
+/* ServerFolders */
+.da-flex .da-wrapper.foldercontent {
+	border-radius: var(--roundness);
+	transition: margin .25s .2s, width .25s ease-in-out, opacity .25s !important;
+}
+
+.folder .wrapper-2lTRaf {
+  border-radius: var(--roundness) !important;
+}
+
+.foldercontent {
+	width: 70px !important;
+}
+
+.foldercontent .da-scrollerWrap .da-container:nth-child(1) {
+	margin-top: 60px !important;
+}
+
+.foldercontentopen {
+	margin-left: 10px;
+}
+
+.foldercontentclosed {
+	opacity: 0;
+}
+
+.foldercontent .da-scrollerWrap::before {
+	content: "Folder Servers";
+	text-align: center;
+	font-family: var(--font-header);
+	position: absolute;
+	color: white;
+	margin-right: 20px;
+	margin-top: 15px;
+	line-height: 20px;
+	opacity: .8;
+}
+
 /* TitleForTitlebar by Arashiryuu */
 
 #TitleForTitlebar {
@@ -1934,20 +1976,4 @@ border-radius: var(--roundness);
   left: 80px;
   font-size: 12px;
   font-family: var(--font);
-}
-
-/* ServerFolders */
-
-.wrapper-1Rf91z:first-child {
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-}
-
-.wrapper-1Rf91z:nth-child(2) {
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-}
-
-.folder .wrapper-2lTRaf {
-  border-radius: var(--roundness) !important;
 }
