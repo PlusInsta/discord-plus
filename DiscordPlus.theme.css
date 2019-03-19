@@ -163,6 +163,7 @@ button { border-radius: var(--roundness) !important; }
 .da-flex .da-wrapper .da-scroller .da-container.da-active .da-wrapper { opacity: 1; transition: opacity .25s; }
 .da-flex .da-wrapper .da-scroller .da-container.da-selected::before { border-radius: var(--roundness); }
 .da-flex .da-wrapper .da-scrollerWrap { width: 90px; }
+.da-guildName { width: unset !important; height: unset !important; }
 
 .da-audio::after,
 .da-video::after {
@@ -1653,6 +1654,20 @@ border-radius: var(--roundness);
 	padding: 10px;
 }
 
+/* Modals */
+.da-modal {
+	border-radius: var(--roundness);
+}
+
+.da-tabBarItem {
+	background-color: var(--accent-color);
+	border-radius: var(--roundness);
+	padding: 10px;
+	height: 16px;
+	margin-right: 10px;
+	line-height: 0;
+}
+
 /* Buttons */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
@@ -1981,6 +1996,47 @@ border-radius: var(--roundness);
 	opacity: 0 !important;
 }
 
+.ServerFolders-modal .ui-icon-picker-icon {
+	width: 60px !important;
+	height: 60px !important;
+	margin-right: 10px;
+	border-radius: var(--roundness) !important;
+	transition: .2s;
+}
+
+.ServerFolders-modal .ui-icon-picker-icon.preview {
+	margin-right: 0;
+}
+
+.ServerFolders-modal .ui-icon-picker-icon.selected {
+	background-color: var(--accent-color) !important;
+}
+.ServerFolders-modal .ui-picker-inner {
+	border-radius: var(--roundness);
+	margin: 0 !important;
+	transition: .2s;
+}
+
+[tab="folder"] .da-flex:nth-child(4) {
+	background: var(--background);
+	background-size: cover;
+	background-position: center;
+	border-radius: var(--roundness);
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+[tab="custom"] .da-flex:nth-child(6) {
+	background: var(--background);
+	background-size: cover;
+	background-position: center;
+	border-radius: var(--roundness);
+	padding: 5px;
+}
+
+.preview .ui-picker-inner {
+	background-color: var(--accent-color);
+}
 
 /* TitleForTitlebar by Arashiryuu */
 
