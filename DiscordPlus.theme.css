@@ -1935,3 +1935,19 @@ border-radius: var(--roundness);
   font-size: 12px;
   font-family: var(--font);
 }
+
+/* ServerFolders */
+
+.wrapper-1Rf91z:first-child {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.wrapper-1Rf91z:nth-child(2) {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.folder .wrapper-2lTRaf {
+  border-radius: var(--roundness) !important;
+}
