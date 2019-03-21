@@ -34,7 +34,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 }
 
 /* Discord branding font */
-.da-introHeader, .da-introBlurb, .da-planOption .da-button, .da-feature, .da-feature .da-description, .da-sectionTier1, .da-tier1Banner .da-planInfo, .da-sectionTier2, .da-subsectionHeader, .da-premiumFeaturesHeader, .da-sidebar div:nth-child(8):not(.ui-tab-bar-item) {
+.da-introHeader, .da-introBlurb, .da-planOption .da-button, .da-feature, .da-feature .da-description, .da-sectionTier1, .da-tier1Banner .da-planInfo, .da-sectionTier2, .da-subsectionHeader, .da-premiumFeaturesHeader, #user-settings .da-sidebar div:nth-child(8):not(.ui-tab-bar-item) {
 	font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
 }
 
