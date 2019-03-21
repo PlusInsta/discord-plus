@@ -1995,7 +1995,18 @@ border-radius: var(--roundness);
 
 .folder .wrapper-2lTRaf {
   border-radius: var(--roundness) !important;
+	opacity: 0.6;
+	transition: opacity .25s;
 }
+
+.folder .wrapper-2lTRaf:hover {
+	opacity: 0.8;
+}
+
+.folder.open .wrapper-2lTRaf {
+	opacity: 1;
+}
+
 
 .foldercontent {
 	width: 70px !important;
