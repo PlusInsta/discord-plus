@@ -1922,9 +1922,26 @@ border-radius: var(--roundness);
 .flexChild-faoVW3 > div > div {
 	border-radius: var(--roundness) !important;
 }
+
 .DevilBro-notice {
 	margin-left: 10px;
 	margin-bottom: 0.8vh;
+}
+
+.repo-loadingwrapper .pluginrepo-loadingicon {
+	display: none;
+}
+
+.repo-loadingwrapper {
+	bottom: 6px !important;
+	right: 8px !important;
+}
+
+.repo-loadingwrapper::before {
+	content: "Loading PluginRepo...";
+	font-size: 10px;
+	color: white;
+	text-align: right;
 }
 
 /* CharCounter */
