@@ -101,7 +101,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 }
 
 	/* Make sure titles aren't uppercase */
-.da-title {
+.da-title, .ui-form-title {
 	text-transform: none !important;
 }
 
@@ -1499,13 +1499,59 @@ border-radius: var(--roundness);
 	display: flex;
 	padding: 2px 10px;
 }
-.bda-slist li {	border: none;	border-radius: var(--roundness) !important;	margin-bottom: 10px !important; }
-.bda-slist .bda-header { font-size: 14px; }
-.bda-slist .bda-description { max-width: 90%; }
-.bda-name { font-size: 16px; }
-.bda-author { color: var(--accent-color); font-size: 16px }
-.theme-dark .bda-slist li { background: var(--transparency-darker); }}
-.theme-dark .bda-slist .bda-header { color: white; border-bottom: 1px solid rgba(0,0,0,0.1); }
+#bd-settingspane-container .scroller-wrap .scroller {
+	display: block;
+}
+
+.bda-slist li {
+	border-radius: var(--roundness) !important;
+	border: none;
+	max-height: 100%;
+	margin-bottom: 10px !important;
+	padding: 10px;
+}
+
+.bda-slist .bda-header {
+	font-size: 14px;
+	line-height: 1.25;
+	border-bottom: none;
+	padding-bottom: 5px;
+}
+
+.bda-slist .bda-description {
+	max-height: 100%;
+	overflow-y: hidden;
+	padding: 0;
+	padding-bottom: 2px;
+}
+
+.bda-slist .bda-footer {
+	border-top: none;
+}
+
+.bda-name {
+	font-size: 16px;
+}
+
+.bda-author {
+	color: var(--accent-color);
+	font-size: 16px
+}
+
+.bda-links {
+	font-size: 0;
+}
+
+.bda-links .bda-link {
+	font-size: 12px;
+}
+
+.bda-link:not(:first-of-type) {
+	margin-left: 10px;
+}
+
+.theme-dark .bda-slist li { background: var(--transparency-darker); }
+.theme-dark .bda-slist .bda-header { color: white; }
 .theme-dark .bda-slist .bda-description { color: white; }
 
 .checkbox-1ix_J3,
@@ -1596,6 +1642,10 @@ border-radius: var(--roundness);
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bd-pfbtn {
 	background: var(--accent-color) !important;
+}
+
+.bd-pfbtn, .bda-settings-button {
+  text-shadow: 0 0 2px black;
 }
 
 .da-roleWrapper .da-root {
@@ -1907,6 +1957,35 @@ border-radius: var(--roundness);
 #bda-qem-favourite-container,
 #bda-qem-twitch-container {
 	background: var(--transparency);
+}
+
+/* Theme Metadata */
+[data-name="Discord+"] .bda-header-title::after {
+	margin-top: 10px;
+	margin-left: 10px;
+	color: grey;
+	content: "Last updated: March 21, 2019 [v2.2]";
+}
+
+[data-name="Discord+"] .bda-description::after {
+	content: "\A\AThank you for using my theme!\A\ASupport server: bit.ly/DiscordPlusServer";
+}
+
+[data-name="Discord+ Source Code"] .bda-header-title::after {
+	color: grey;
+	content: " and 2 contributors";
+}
+
+[data-name="Discord+ Source Code"] .bda-description::after {
+	display: block;
+	background: var(--accent-color);
+	border-radius: var(--roundness);
+	padding: 10px;
+	margin-top: 10px;
+  font-size: 16px;
+	text-shadow: 0 0 2px black;
+	content: "Contributors:\A\
+	intrnl, TheLastZombie";
 }
 
 /*
