@@ -28,7 +28,7 @@ p, textarea, placeholder, .da-message, .da-markup, .da-member, .da-viewBody, .da
 }
 /* Username, title, and header font */
 .da-nameWrapper, .da-nameTag, .da-emojiUploader,
-.da-noChannel .da-title, .da-titleText, .da-nameCellText, .bda-author,
+.da-noChannel .da-title, .da-titleText, .da-nameCellText, .bda-author, .da-timestamp,
 header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messagesWrapper .da-base h1 strong {
 	font-family: var(--font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', sans-serif !important;
 }
@@ -610,14 +610,19 @@ form .da-wrapper {
 
 /*System messages*/
 .icon-2Po-VO {
-	background-size: 1.6rem 1.6rem !important;
-	height: 2rem !important;
-	width: 2rem !important;
-	top: 30% !important;
-	margin-left: 1.11rem !important;
+	background-size: cover;
+	height: 32px;
+	width: 32px;
+	margin-top: -12px;
 }
 .content-2M3n_H {
-	margin-left: 56px !important;
+	margin-left: 66px;
+	margin-top: -10px;
+}
+.container-3-pyIM {
+	padding-top: 20px;
+	padding-bottom: 4px;
+	margin-top: -20px;
 }
 
 /*New messages bar*/
