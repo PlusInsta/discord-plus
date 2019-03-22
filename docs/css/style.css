@@ -40,7 +40,8 @@ abbr[title] {
 }
 
 b,strong {
-    font-weight: bold
+    font-weight: bold;
+    font-family: "Poppins";
 }
 
 dfn {
@@ -479,7 +480,8 @@ body {
 
 a {
     color: #59b9e8;
-    text-decoration: none
+    text-decoration: none;
+    font-family: "Poppins";
 }
 
 a:hover {
@@ -492,13 +494,63 @@ a:hover {
     color: rgba(255,255,255,0.7);
     background-color: rgba(0,0,0,0.6);
     border-radius: 10px;
-    transition: color 0.2s, background-color 0.2s
+    transition: .2s;
+    box-shadow: 0 0 2px black;
 }
 
 .btn:hover {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
     background-color: rgba(135,31,96,0.8);
+    transform: scale(1.1);
+}
+
+#temptation {
+  animation: lookAtMe ease-in-out infinite 5s;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+  border: 2px solid;
+}
+
+@keyframes lookAtMe {
+  0% { background-color: rgba(0,0,0,0.6);}
+  20% { background-color: rgba(135,31,96,0.8); }
+  40% { background-color: rgba(0,0,0,0.6);}
+  100% { background-color: rgba(0,0,0,0.6);}
+}
+
+#temptation span {
+  background: white;
+  background: -webkit-linear-gradient(left, orange, yellow, orange);
+  background: -o-linear-gradient(right, orange, yellow, orange);
+  background: -moz-linear-gradient(right, orange, yellow, orange);
+  background: linear-gradient(to right, orange, yellow, orange );
+  background-size: 240px 240px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove linear infinite 5s;
+}
+
+@keyframes gradientMove {
+  100% { background-position: -240px; }
+}
+
+/* Don't show Download button if on mobile */
+@media screen and (max-width: 42em) {
+    #temptation, #download, #requirements {
+        display: none;
+    }
+}
+
+#mobile {
+  display: none;
+}
+
+@media screen and (max-width: 42em) {
+    #mobile {
+        display: block;
+    }
 }
 
 .btn+.btn {
@@ -544,7 +596,7 @@ a:hover {
 
 #discord-plus-logo {
     display: inline-block;
-    width: 16em;
+    max-width: 16em;
     box-sizing: border-box;
 }
 
@@ -825,4 +877,12 @@ a:hover {
 .background {
 	padding: 10px;
 	margin: 10px;
+}
+
+#headerScreenshot {
+  max-width: 80%;
+}
+
+img:not(#discord-plus-logo) {
+  box-shadow: 0 0 10px black;
 }

@@ -1,5 +1,5 @@
 # ![Discord+](https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark_black.svg)
-A sleek, customizable Discord theme, inspired by Google's Material Theme. 
+A sleek, customizable Discord theme, inspired by Google's Material Theme.
 
 ![Screenshot](https://i.imgur.com/4z1wR9Z.png)
 
@@ -15,7 +15,7 @@ The variables at the top of the file allow you to change things like the backgro
 
 For reference, this is what Discord+ looks like by default.
 
-![Default-looking Discord](https://i.imgur.com/kLsnXvY.png)
+![Default look for Discord+](https://i.imgur.com/kLsnXvY.png)
 
 And this is how it would look like if you stylized it after [Minecraft](https://minecraft.net).
 
