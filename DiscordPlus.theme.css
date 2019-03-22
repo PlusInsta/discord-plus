@@ -105,6 +105,13 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	text-transform: none !important;
 }
 
+	/* Prevent text clipping */
+.da-roleName,
+.container-1UB9sr .da-channel,
+.da-listRowContent .da-listName {
+	padding-bottom: 2px;
+}
+
 button { border-radius: var(--roundness) !important; }
 .checkbox-inner span, checkbox { border-radius: var(--roundness) !important; }
 .theme-dark search-bar-inner { background: var(--transparency) !important;}
@@ -1128,10 +1135,6 @@ border-radius: var(--roundness);
 	border-radius: 0 !important;
 }
 
-.container-1UB9sr .da-channel {
-  padding-bottom: 2px;
-}
-
 /*Scrollbar*/
 .da-scrollerWrap .da-scroller::-webkit-scrollbar {
 	width: 10px;
@@ -1377,8 +1380,9 @@ border-radius: var(--roundness);
 .role-2irmRk {
 	border-radius: var(--roundness);
 }
-.tab-bar.TOP .da-tabBar .da-item.selected,
-.tab-bar.TOP .da-tabBar .da-item:hover {
+.da-tabBar .da-item,
+.da-tabBar .da-item:hover,
+.da-tabBar .da-item.da-selected {
 	border-bottom: none !important;
 }
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
@@ -1401,6 +1405,31 @@ border-radius: var(--roundness);
 	width: 25% !important;
 	margin: 0 !important;
 	float: none !important;
+}
+
+.da-listScroller {
+	padding: 10px 20px;
+}
+
+.da-body .da-listRow {
+	border-radius: var(--roundness);
+	padding: 10px;
+	transition: .2s;
+}
+
+.da-body .da-listRow:hover {
+	background: none;
+	background-color: rgba(255,255,255,0.1);
+}
+
+.da-body .da-listRow .da-large {
+	margin: 0;
+	width: 48px;
+	height: 48px;
+}
+
+.da-listRow .da-nameTag {
+	margin-left: 10px;
 }
 
 /*Create guild modal*/
