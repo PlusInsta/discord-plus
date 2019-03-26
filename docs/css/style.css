@@ -18,6 +18,68 @@ body {
   height: 100%;
 }
 
+#wrapper .project-name {
+  opacity: 0;
+  animation: fadeinName ease-in-out 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+#wrapper .project-tagline {
+  opacity: 0;
+  text-shadow: 0 0 2px black;
+  margin-top: 40px;
+  animation: fadeinTagline ease-in-out 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+#wrapper .page-header p {
+  opacity: 0;
+  animation: fadeinImg cubic-bezier(0, 0, 0.8, 0.95) 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.background, #buttons {
+  opacity: 0;
+  animation: fadenormal ease-in-out 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeinName {
+  0% { opacity: 0; filter: blur(20px); margin-top: 40px; }
+  100% { opacity: 1; filter: blur(0); margin-top: 0; }
+}
+
+@keyframes fadeinTagline {
+  0% { opacity: 0; filter: blur(10px); margin-top: 30px; }
+  100% { opacity: 1; filter: blur(0); margin-top: 0; }
+}
+
+@keyframes fadeinImg {
+  0% { opacity: 0; margin-top: 80px; }
+  100% { opacity: 1; margin-top: 0; }
+}
+
+@keyframes fadenormal {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#easterEgg {
+  animation: easterEgg linear 0.01s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+
+@keyframes easterEgg {
+  0% { opacity: 1; transform: scale(1); }
+  100% { height: 0; width: 0; opacity: 0; transform: scale(0); }
+}
+
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
     display: block
 }
@@ -578,6 +640,13 @@ a:hover {
 }
 
 @media screen and (max-width: 42em) {
+    #buttons {
+        padding: 0rem 1rem;
+        font-size: 1rem
+    }
+}
+
+@media screen and (max-width: 42em) {
     .btn {
         display:block;
         width: 100%;
@@ -605,23 +674,24 @@ a:hover {
     display: inline-block;
     max-width: 16em;
     box-sizing: border-box;
+    filter: drop-shadow(0 0 2px black);
 }
 
 @media screen and (min-width: 64em) {
     .page-header {
-        padding:5rem 6rem
+        padding:2rem 6rem
     }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
-        padding:3rem 4rem
+        padding: 1.5rem 4rem
     }
 }
 
 @media screen and (max-width: 42em) {
     .page-header {
-        padding:2rem 1rem
+        padding: 1rem 1rem
     }
 }
 
@@ -888,6 +958,15 @@ a:hover {
 
 #headerScreenshot {
   max-width: 80%;
+}
+
+@media screen and (max-width: 42em) {
+    #headerScreenshot {
+      max-width: 100%;
+    }
+    .page-header p {
+      padding: 0rem 1rem;
+    }
 }
 
 img:not(#discord-plus-logo) {
