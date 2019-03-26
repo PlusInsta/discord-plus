@@ -41,10 +41,17 @@ body {
   animation-fill-mode: forwards;
 }
 
-.background, #buttons {
+#buttons {
   opacity: 0;
   animation: fadenormal ease-in-out 1s;
   animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.background {
+  opacity: 0;
+  animation: fadenormal ease-in-out 1s;
+  animation-delay: 3.5s;
   animation-fill-mode: forwards;
 }
 
@@ -70,7 +77,7 @@ body {
 
 #easterEgg {
   animation: easterEgg linear 0.01s;
-  animation-delay: 3s;
+  animation-delay: 3.5s;
   animation-fill-mode: forwards;
   text-align: center;
 }
@@ -78,6 +85,49 @@ body {
 @keyframes easterEgg {
   0% { opacity: 1; transform: scale(1); }
   100% { height: 0; width: 0; opacity: 0; transform: scale(0); }
+}
+
+#githubicon {
+  opacity: 0.6;
+  width: 14px;
+  height: 14px;
+  vertical-align: center;
+}
+
+#wordmark {
+  margin-bottom: -4px;
+  width: 72px;
+  height: 18px;
+}
+
+#buttons #questionmark {
+  color: #ABABAB;
+  font-family: Righteous;
+  content: "?";
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  width: 16px;
+  margin-right: -4px;
+  height: 16px;
+  font-size: 11px;
+  margin-bottom: 10px;
+  animation: qm cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite 10s;
+  user-select: none;
+}
+
+#buttons #questionmark:hover {
+  text-decoration: none;
+}
+
+@keyframes qm {
+  0% { transform: rotate(-30deg) }
+  5% { transform: rotate(0deg) }
+  10% { transform: rotate(30deg) }
+  15% { transform: rotate(0deg) }
+  20% { transform: rotate(0deg) }
+  95% { transform: rotate(0deg) }
+  100% { transform: rotate(-30deg) }
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
@@ -576,8 +626,6 @@ a:hover {
 
 #temptation {
   animation: lookAtMe ease-in-out infinite 5s;
-  animation-direction: alternate;
-  animation-fill-mode: both;
   animation-delay: 2s;
   border: 2px solid;
 }
@@ -605,9 +653,21 @@ a:hover {
   100% { background-position: -240px; }
 }
 
-/* Don't show Download button if on mobile */
+#author, #servername {
+  background: white;
+  background: -webkit-linear-gradient(left, violet, rgb(135,31,96), violet);
+  background: -o-linear-gradient(right, violet, rgb(135,31,96), violet);
+  background: -moz-linear-gradient(right, violet, rgb(135,31,96), violet);
+  background: linear-gradient(to right, violet, rgb(135,31,96), violet);
+  background-size: 240px 240px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove linear infinite 10s;
+}
+
+/* Don't show Download section if on mobile */
 @media screen and (max-width: 42em) {
-    #temptation, #download, #requirements {
+    #download, #requirements {
         display: none;
     }
 }
