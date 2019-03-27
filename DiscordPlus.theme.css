@@ -1805,6 +1805,20 @@ border-radius: var(--roundness);
 	border-color: transparent !important;
 }
 
+.da-previewContainer div:first-child {
+	background-color: transparent;
+}
+
+.da-previewOverlay {
+	background-color: var(--transparency) !important;
+}
+
+.da-previewOverlayInner img.marginBottom20-32qID7 {
+	border-radius: var(--roundness);
+	background-image: url('https://rawgithub.com/PlusInsta/discord-plus/master/assets/discord/camera.svg');
+	background-color: #2f3136;
+}
+
 /*BetterDiscord Custom CSS*/
 #bd-customcss-attach-controls {
 	margin-top: 10px;
