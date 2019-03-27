@@ -1408,7 +1408,7 @@ border-radius: var(--roundness);
 .da-tabBar .da-item,
 .da-tabBar .da-item:hover,
 .da-tabBar .da-item.da-selected {
-	border-bottom: none !important;
+	border: none !important;
 }
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
 	background-color: transparent;
@@ -1779,7 +1779,7 @@ border-radius: var(--roundness);
 	background: transparent !important;
 }
 
-.top-28JiJ- .da-item {
+.top-28JiJ-:not(.da-tabBar) .da-item {
 	opacity: 0.6;
 	color: white !important;
 	transition: .2s;
