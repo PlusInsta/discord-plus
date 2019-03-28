@@ -122,6 +122,12 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	padding-bottom: 2px;
 }
 
+	/* Contrast with same-color backgrounds */
+.da-headerStreaming .da-botTagInvert,
+.da-headerPlaying .da-botTagInvert {
+  border: 1px solid hsla(0,0%,100%,.6);
+}
+
 button { border-radius: var(--roundness) !important; }
 .checkbox-inner span, checkbox { border-radius: var(--roundness) !important; }
 .theme-dark search-bar-inner { background: var(--transparency) !important;}
@@ -1052,6 +1058,11 @@ border-radius: var(--roundness);
 	background-color: var(--accent-color);
 }
 
+.da-botTagInvert {
+  background: var(--accent-color);
+  color: white;
+}
+
 /*Server channels*/
 .content-20Aix8 {
 	background-color: transparent;
@@ -1401,7 +1412,7 @@ border-radius: var(--roundness);
 .da-tabBar .da-item,
 .da-tabBar .da-item:hover,
 .da-tabBar .da-item.da-selected {
-	border-bottom: none !important;
+	border: none !important;
 }
 .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
 	background-color: transparent;
@@ -1760,7 +1771,7 @@ border-radius: var(--roundness);
 }
 
 .da-paymentPane {
-	background: var(--transparency);
+	background-color: var(--transparency) !important;
 	border-radius: var(--roundness);
 }
 
@@ -1769,12 +1780,47 @@ border-radius: var(--roundness);
 
 }
 .da-paginator {
-	background: transparent;
+	background: transparent !important;
+}
+
+.top-28JiJ-:not(.da-tabBar) .da-item {
+	opacity: 0.6;
+	color: white !important;
+	transition: .2s;
+	border-bottom: 2px solid transparent !important;
+	border-top: 2px solid transparent;
+	margin-bottom: 10px;
+}
+.top-28JiJ- .da-item.da-selected {
+	opacity: 1;
+}
+.tab-1kx2RU {
+	margin-left: 0;
+}
+.expandedInfo-3kfShd {
+    background-color: transparent !important;
+		border-radius: var(--roundness);
+		margin: 0px 10px 10px;
+		padding: 10px;
 }
 
 .da-codeRedemptionRedirect {
 	background-color: var(--transparency) !important;
 	border-color: transparent !important;
+}
+
+.da-previewContainer div:first-child {
+	background-color: transparent;
+}
+
+.da-previewOverlay {
+	background-color: var(--transparency) !important;
+}
+
+.da-previewOverlayInner img.marginBottom20-32qID7 {
+	border-radius: var(--roundness);
+	background-image: url('https://rawgithub.com/PlusInsta/discord-plus/master/assets/discord/camera.svg');
+	background-color: #2f3136;
 }
 
 /*BetterDiscord Custom CSS*/
@@ -1836,7 +1882,8 @@ border-radius: var(--roundness);
 	border-radius: var(--roundness);
 }
 
-.da-tabBarItem {
+.da-tabBarItem,
+.top-28JiJ- .da-item {
 	background-color: var(--accent-color);
 	border-radius: var(--roundness);
 	padding: 10px;
