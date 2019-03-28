@@ -2144,7 +2144,8 @@ border-radius: var(--roundness);
 /* DevilBro's plugins */
 
 /* PluginRepo */
-.flexChild-faoVW3 > div > div {
+.flexChild-faoVW3 > div > div,
+.DevilBro-notice {
 	border-radius: var(--roundness) !important;
 }
 
