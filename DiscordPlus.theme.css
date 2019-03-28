@@ -310,20 +310,13 @@ button { border-radius: var(--roundness) !important; }
 	display: none;
 }
 
-/*Server notices*/
-.theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P {
-	color: black;
-}
+/* Channel notices */
 .btn-11C5_u { border: none !important; background-color .2s; transition: color .2s, }
 .theme-dark .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
-	background-color: var(--transparency);
-}
-.theme-light .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
-	background-color: var(--transparency-lite);
-	color: black;
+	background-color: var(--transparency) !important;
 }
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u:hover {
-	background-color: var(--accent-color);
+	background-color: var(--accent-color) !important;
 	color: white;
 }
 
@@ -694,15 +687,26 @@ form .da-wrapper {
 }
 
 /*Notices*/
-.noticeInfo-3_iTE1 {
+.da-noticeInfo {
 	background-color: var(--accent-color);
 }
-.noticeFacebook-3equ5g {
+
+.da-noticeFacebook {
 	margin-left: 10px;
 }
-#pluginNotice {
-	border-radius: var(--roundness);
-	margin-top: -0.8vh;
+
+#pluginNotice,
+.DevilBro-notice {
+	border-radius: var(--roundness) !important;
+	margin-top: -5px;
+	margin-left: -10px !important;
+	margin-right: 10px !important;
+  max-width: calc(100vw - 10px) !important;
+}
+
+.DevilBro-notice+.DevilBro-notice {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 /*Home*/
@@ -2095,11 +2099,6 @@ border-radius: var(--roundness);
 /* PluginRepo */
 .flexChild-faoVW3 > div > div {
 	border-radius: var(--roundness) !important;
-}
-
-.DevilBro-notice {
-	margin-left: 10px;
-	margin-bottom: 0.8vh;
 }
 
 .repo-loadingwrapper .pluginrepo-loadingicon {
