@@ -118,7 +118,8 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	/* Prevent text clipping */
 .da-roleName,
 .container-1UB9sr .da-channel,
-.da-listRowContent .da-listName {
+.da-listRowContent .da-listName,
+.rtc-connection-status {
 	padding-bottom: 2px;
 }
 
