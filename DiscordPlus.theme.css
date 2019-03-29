@@ -232,6 +232,10 @@ button { border-radius: var(--roundness) !important; }
 	height: 50px;
 }
 
+.da-homeButton[style*="border-radius: 1"] {
+	opacity: 0.8 !important;
+}
+
 .da-homeLink svg {
 	display: none !important;
 }
