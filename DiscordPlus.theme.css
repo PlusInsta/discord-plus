@@ -444,7 +444,6 @@ button { border-radius: var(--roundness) !important; }
 }
 
 form .da-wrapper {
-	background-color: var(--transparency) !important;
 	border-radius: var(--roundness);
 }
 
@@ -2315,11 +2314,35 @@ border-radius: var(--roundness);
 }
 
 /* TitleForTitlebar by Arashiryuu */
-
 #TitleForTitlebar {
   color: #ffffff;
   opacity: 0.7;
   left: 80px;
   font-size: 12px;
   font-family: var(--font);
+}
+
+/* Citador by nirewen */
+.quote-msg {
+	filter: grayscale();
+	margin-bottom: 10px;
+	margin-top: -10px;
+	padding: 0 10px;
+}
+
+.quote-close {
+    margin-top: -10px;
+}
+
+.quote-msg .da-messageCozy {
+	padding-bottom: 10px;
+}
+
+.quote-msg .da-headerCozyMeta::before {
+	color: grey;
+	content: "Quoting "
+}
+
+.quote-msg .da-buttonContainer {
+	display: none;
 }
