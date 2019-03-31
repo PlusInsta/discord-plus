@@ -19,11 +19,11 @@ html {
 }
 
 /* Display font */
-body, button, input, select, ::-webkit-input-placeholder {
+body, button, select, ::-webkit-input-placeholder {
 	font-family: var(--font), 'Poppins', 'system-ui', 'Helvetica Neue', 'Segoe UI', sans-serif !important;
 }
 /* Body font */
-p, textarea, placeholder, .da-message, .da-markup, .da-member, .da-viewBody, .da-modeDefault, .da-description, .da-messagesWrapper .da-base h1, .bda-description{
+p, textarea, input, placeholder, .da-message, .da-markup, .da-member, .da-viewBody, .da-modeDefault, .da-description, .da-messagesWrapper .da-base h1, .bda-description{
 	font-family: var(--font-text), 'Roboto', 'system-ui', 'Helvetica', 'Arial', sans-serif !important;
 }
 /* Username, title, and header font */
@@ -90,7 +90,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 
 	/* Lowercase italics */
 .da-privateChannels header,
-.da-searchBar input,
 .da-membersGroup,
 .da-nameDefault,
 .da-nameHovered,
