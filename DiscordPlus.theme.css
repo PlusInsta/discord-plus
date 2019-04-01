@@ -2425,11 +2425,15 @@ border-radius: var(--roundness);
     content: "new.\A and enhanced.\A\
 	and enhanced, and new.\A\
 	the brand new Discord Minus experience.\A\
+<<<<<<< HEAD
 	every bad design choice you can think of, neatly packed into what's possibly the worst theme ever made.\
 	\A\
 	\A\
 	this\A\
 	is the ultimate discord experience™.\A";
+=======
+	every bad design choice you can think of, neatly packed into what's possibly the worst theme ever made.\A\A this\A is the ultimate discord experience™.\A";
+>>>>>>> 913b0177b486162c39c86da527b493d66a18272c
 }
 
 [data-name="Discord+"] .bda-author {
