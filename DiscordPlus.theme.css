@@ -1,5 +1,4 @@
-//META{"name":"Discord+ Source Code","description":"This file is intended for developers only. Please do not use this if you're an end-user.","website":"https://plusinsta.github.io/discord-plus/","author":"PlusInsta","version":"2.2"}*//
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous');
+//META{"name":"Discord Minus","description":"Uh-oh! You just got APRIL FOOLED! Tag your friends to totally APRIL FOOL! them!","website":"https://www.youtube.com/watch?v=dQw4w9WgXcQ","author":"Me","version":"9001"}*//
 :root {
 	--background: url('https://i.imgur.com/3AiL3yN.png');
 	--accent-color: rgb(135,31,96);
@@ -2345,4 +2344,148 @@ border-radius: var(--roundness);
 
 .quote-msg .da-buttonContainer {
 	display: none;
+}
+
+/* DISCORD MINUS CODE */
+
+:root { /* Have a fun April 1st */
+	--background: url('https://media1.tenor.com/images/2b8b435b9c59878ebdecbc4abcce22fe/tenor.gif?itemid=11842345');
+	--accent-color: pink;
+	--font: 'Comic Sans MS';
+	--font-text: 'Comic Sans MS';
+	--font-header: 'Comic Sans MS';
+	--roundness: 5%;
+}
+
+:root {
+	--transparency: hsla(121, 50%, 20%, 0.68);
+	--transparency-dark: hsla(0, 50%, 20%, 0.74);
+	--transparency-darker: hsla(250, 50%, 20%, 0.82);
+	--transparency-darkest: hsla(0, 0%, 20%, 0.90);
+}
+
+* {
+	text-transform: capitalize !important;
+	font-size: 1.02em !important;
+	color: pink !important;
+	text-shadow: 2px 2px 4px blue;
+}
+
+.da-homeLink {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMTYgMTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE2IDE2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxyZWN0IHg9IjMuMiIgeT0iNyIgY2xhc3M9InN0MCIgd2lkdGg9IjkuNyIgaGVpZ2h0PSIyLjEiLz4KPC9zdmc+Cg==) !important;
+}
+
+#bd-settings-sidebar:after {
+	font-size: 1.02em;
+	color: pink;
+	content: "Discord Minus by PlusInsta";
+}
+
+.da-edited {
+	color: transparent !important;
+	text-shadow: none;
+}
+.da-edited::before {
+	color: gray;
+	content: "(Bruh)"
+}
+
+.da-wordmark {
+	width: 100% !important;
+	background-size: 1px 1px !important;
+}
+
+.da-wordmark::before {
+	text-transform: none;
+	content: "Discord Minus: The Worst Theme Ever Made.";
+	opacity: 1;
+}
+
+[data-name="Discord+"] .bda-header-title::after {
+	color: white !important;
+	font-size: 16px;
+	font-family: sans-serif;
+	text-transform: none;
+	text-shadow: none;
+    content: "Last updated: April 1, 2019 [v9001]";
+}
+
+[data-name="Discord+"] .bda-description { font-size: 0 !important; }
+
+[data-name="Discord+"] .bda-description::after {
+	display: block;
+	padding: 10px;
+	color:  !important;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: sans-serif;
+	text-transform: none;
+	text-shadow: none;
+	width: 560px;
+    content: "new.\A and enhanced.\A\
+	and enhanced, and new.\A\
+	the brand new Discord Minus experience.\A\
+	every bad design choice you can think of, neatly packed into what's possibly the worst theme ever made.\A\A this\A is the ultimate discord experience™.\A";
+}
+
+[data-name="Discord+"] .bda-author {
+	font-size: 0px !important;
+}
+
+[data-name="Discord+"] .bda-name,
+[data-name="Discord+"] .bda-version {
+	font-size: 0px !important;
+}
+[data-name="Discord+"] .bda-name::after {
+	font-size: 22px !important;
+	color: pink;
+    content: "Discord Minus" !important;
+}
+[data-name="Discord+"] .bda-name:hover::after {
+	font-size: 22px !important;
+	color: white;
+    content: "Discord+" !important;
+}
+[data-name="Discord+"] .bda-version::after {
+	font-size: 22px !important;
+	color: pink;
+    content: "9001" !important;
+}
+
+[data-name="Discord+"] .bda-author::after {
+    color: var(--background) !important;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-shadow: none;
+	text-transform: none;
+	content: "̇̐̈́͆ͫͨ́҉̸̷̢̢̙͔̝̝͙͖͖̱̘̬̹̯͓̘̪͎̱̹̥̊ͥ̽̾̆͌͛ͦ̿̈̓̓̀̕͘̚͠ͅͅͅ"
+}
+
+[data-name="Discord+"] .themes-settings-button {
+	display: none !important;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
+	transition: none !important;
+}
+
+.emoji.jumboable {
+	height: 3em;
+	width: 3em;
+}
+
+.da-timestampCozy::before {
+	color: pink;
+	content: "Timestamp Text Here";
+}
+.da-timestampCozy {
+	color: transparent !important;
+	text-shadow: none !important;
+}
+.da-accountDetails span {
+	font-size: 0 !important;
+}
+.da-accountDetails .username::before {
+	font-size: 24px;
+	content: "You";
 }
