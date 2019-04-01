@@ -2349,12 +2349,12 @@ border-radius: var(--roundness);
 /* DISCORD MINUS CODE */
 
 :root { /* Have a fun April 1st */
-	--background: url('https://media1.tenor.com/images/2b8b435b9c59878ebdecbc4abcce22fe/tenor.gif?itemid=11842345');
-	--accent-color: pink;
-	--font: 'Comic Sans MS';
-	--font-text: 'Comic Sans MS';
-	--font-header: 'Comic Sans MS';
-	--roundness: 5%;
+	--background: url('https://media1.tenor.com/images/2b8b435b9c59878ebdecbc4abcce22fe/tenor.gif?itemid=11842345') !important;
+	--accent-color: pink !important;
+	--font: 'Comic Sans MS' !important;
+	--font-text: 'Comic Sans MS' !important;
+	--font-header: 'Comic Sans MS' !important;
+	--roundness: 5% !important;
 }
 
 :root {
