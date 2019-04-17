@@ -427,6 +427,14 @@ button { border-radius: var(--roundness) !important; }
 	background-size: 100% !important;
 }
 
+.videoHeight-Qp_9vC.noChat-3nt48u {
+	height: 100%;
+}
+
+.chat-3bRxxu {
+	border-radius: var(--roundness);
+}
+
 /* Message box */
 .chat-3bRxxu form {
 	margin: -6px 10px -24px 0px;
