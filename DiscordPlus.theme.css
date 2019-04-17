@@ -1413,6 +1413,10 @@ border-radius: var(--roundness);
 	line-height: 0;
 }
 
+.da-backdrop {
+	opacity: 0.68 !important;
+}
+
 	/* Quick switcher modal */
 .theme-dark .quickswitcher-3JagVE { background-color: var(--transparency); }
 .theme-dark .input-2VB9rf {	background-color: var(--transparency); }
@@ -1486,20 +1490,33 @@ border-radius: var(--roundness);
 	margin-left: 10px;
 }
 
-	/* Create guild modal */
-.create-guild-container.deprecated .create-or-join .form-inner {
+	/* Another server modal */
+.theme-dark .theme-light .da-modal {
 	background-color: transparent !important;
 	border-radius: var(--roundness) !important;
 	background-image: none !important;
 }
-.create-guild-container.deprecated {
-	background-color: transparent;
+
+.theme-dark .theme-light .da-animator {
+	background-color: var(--transparency);
+	border: 1px solid hsla(0, 0%, 100%, 0.1);
 }
-.create-guild-container.deprecated .action {
-	border-radius: var(--roundness);
+
+.theme-dark .theme-light .da-action {
+	background-color: var(--transparency);
 }
-.create-guild-container.deprecated .action .action-body {
-	color: #000000;
+
+.theme-light .da-modal .da-scroller header {
+	margin-top: 0;
+}
+
+.da-or {
+	background-image: url('https://dl.dropbox.com/s/b2x16cb860tbhj2/da-or_edit.svg') !important;
+  line-height: 306px;
+}
+
+.theme-dark .theme-light .da-action .da-actionBody {
+	color: #FFF;
 }
 .create-guild-container.deprecated .create-or-join { background-image: none !important; }
 
@@ -1528,11 +1545,8 @@ border-radius: var(--roundness);
 .modal-3HD5ck {
 	border-radius: var(--roundness);
 }
-.theme-dark .modal-3HD5ck {
+.modal-3HD5ck {
 	background-color: var(--transparency-dark);
-}
-.theme-light .modal-3HD5ck {
-	background-color: var(--transparency-lightest);
 }
 .footer-2yfCgX {
 	background-color: transparent !important;
