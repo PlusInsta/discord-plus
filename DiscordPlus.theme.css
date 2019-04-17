@@ -375,6 +375,13 @@ button { border-radius: var(--roundness) !important; }
 	height: 10px;
 	width: 10px;
 }
+
+.da-large .da-status {
+	height: 25% !important;
+	width: 25% !important;
+	margin: 0;
+}
+
 .da-statusProfile {
 	height: 18px;
 	width: 18px;
@@ -823,13 +830,81 @@ form .da-wrapper {
 .theme-light [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow .friends-column-name { color: black !important; }
 .theme-light [style*="flex: 1 1 auto;"] > .da-container .da-friendsTable .da-friendsRow:hover { background: var(--transparency-lighter); border-radius: var(--roundness); }
 
-/* Game Activity */
-.activityFeed-28jde9 {
+/* Activity Feed */
+.theme-dark .da-activityFeed,
+.theme-dark .wrapper-3UweLa,
+.theme-dark .multipleIconWrapper-1PjkRO,
+.theme-dark .section-2VKIPC {
+	background-color: var(--transparency) !important;
+}
+
+.theme-dark .popout-3G62UL {
+	background-color: var(--transparency-dark);
+}
+
+.theme-dark .inset-GQDQYw {
+	background-color: transparent;
+}
+
+.da-activityFeed,
+.da-card {
 	border-radius: var(--roundness) !important;
 }
-.theme-dark .activityFeed-28jde9 {
-	background-color: var(--transparency-dark) !important;
+
+.da-activityFeed .da-card .da-wrapper {
+	border-radius: 0 !important;
 }
+
+.da-activityFeed .da-card .da-imageWrapper,
+.da-activityFeed .da-card .da-imageWrapper .da-image,
+.da-activityFeed .da-card .da-content .da-embedVideo {
+	border-radius: var(--roundness) var(--roundness) 0 0 !important;
+}
+
+.da-partyMembers .da-partyMember .da-large {
+	height: 24px !important;
+	width: 24px !important;
+	background-size: cover;
+	margin: 0;
+}
+
+aside .da-card header {
+	margin-top: 0;
+}
+
+aside .da-card .da-headerAvatar {
+  height: 40px;
+  width: 40px;
+	margin: -2px -8px;
+	margin-top: 4px;
+}
+
+aside .da-card .da-headerAvatar .da-large {
+	height: 40px;
+	width: 40px;
+}
+
+aside .da-card .da-headerFull .base-1x0h_U {
+	margin-top: -4px;
+}
+
+aside .da-card .da-popoutContainer,
+aside .da-card .da-popoutContainer:hover {
+	padding: 10px;
+	border-radius: var(--roundness);
+}
+
+aside .da-card .da-popoutContainer:hover {
+	background-color: var(--accent-color);
+}
+aside .da-card .da-large .da-status {
+	height: 25% !important;
+	width: 25% !important;
+	margin-bottom: 4px;
+	margin-right: -2px;
+}
+
+	/* Old, deprecated Game Activity code. Clean this up later. */
 .feedCarousel-3qXmKE {
 	border-radius: var(--roundness) !important;
 }
@@ -878,10 +953,7 @@ form .da-wrapper {
 .theme-light .body-1SVoBw {
 		background-color: white;
 }
-.card-7JP0BX {
-	border-radius: var(--roundness);
-}
-.theme-dark .card-7JP0BX {
+.theme-dark .da-card {
 	background-color: var(--transparency);
 	color: #f6f6f7;
 }
