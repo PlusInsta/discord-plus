@@ -96,10 +96,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 /* Lowercase italics */
 .da-privateChannels header,
 .da-membersGroup,
-.da-nameDefault,
-.da-nameHovered,
-.da-nameCollapsed,
-.da-nameHoveredCollapsed {
+.name-IbjUBS {
 	text-transform: lowercase !important;
 	font-style: italic;
 }
@@ -192,15 +189,18 @@ button { border-radius: var(--roundness) !important; }
 /* Guilds list */
 .theme-dark .da-flex .da-wrapper .da-scroller { background: var(--transparency-darker) }
 .da-wrapper .da-scrollerWrap .da-container:nth-child(1) { margin-top: 0 !important; }
-.da-flex .da-wrapper, .da-dragPlaceholder { border-radius: var(--roundness); }
-.da-flex .da-wrapper .da-dragfix:active { border-radius: var(--roundness); }
-.da-flex .da-wrapper .da-scroller { padding: 10px 0 0 10px; }
+.da-flex .da-wrapper, .da-dragPlaceholder,
+.da-flex .da-wrapper .da-dragfix:active,
+.da-flex .da-wrapper .da-blobContainer .da-wrapper svg { border-radius: var(--roundness); }
+.da-flex .da-wrapper .da-scroller { padding: 10px 0 0 0; overflow: hidden; }
 .da-flex .da-wrapper .da-scroller .da-container .da-wrapper { border-radius: var(--roundness) !important; transition: opacity .25s; opacity: 0.6;}
 .da-flex .da-wrapper .da-scroller .da-container .da-wrapper:hover { opacity: 0.8; transition: opacity .25s; }
 .da-flex .da-wrapper .da-scroller .da-container.da-selected .da-wrapper,
 .da-flex .da-wrapper .da-scroller .da-container.da-active .da-wrapper { opacity: 1; transition: opacity .25s; }
 .da-flex .da-wrapper .da-scroller .da-container.da-selected::before { border-radius: var(--roundness); }
-.da-flex .da-wrapper .da-scrollerWrap { width: 90px; }
+.da-flex .da-wrapper .da-scrollerWrap { width: 72px; }
+.da-flex .da-wrapper .da-listItem .da-blobContainer,
+.da-flex .da-wrapper .da-blob.da-wrapper { margin-left: 2px; }
 .da-guildName { width: unset !important; height: unset !important; }
 
 .da-audio::after,
@@ -240,11 +240,20 @@ button { border-radius: var(--roundness) !important; }
 	opacity: 0.8 !important;
 }
 
-.da-homeLink svg {
+svg.da-homeIcon {
 	display: none !important;
 }
 
+.button-OhfaWu {
+	background-image: url('https://rawgit.com/PlusInsta/discord-plus/master/assets/src/DiscordPlusLogo.svg');
+	background-color: transparent !important;
+	border-radius: 0 !important;
+}
+.da-listItem mask { display: none; }
+
 	/* Animated Home icon */
+	/* Commented out for now. */
+/*
 .da-homeLink {
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxnPgoJPHJlY3QgeD0iNi4zIiB5PSIxMy45IiBjbGFzcz0ic3QwIiB3aWR0aD0iMTkuNCIgaGVpZ2h0PSI0LjIiLz4KCTxyZWN0IHg9IjEzLjkiIHk9IjYuMyIgY2xhc3M9InN0MCIgd2lkdGg9IjQuMiIgaGVpZ2h0PSIxOS40Ii8+CjwvZz4KPC9zdmc+Cg==);
 	background-size: 40px 40px;
@@ -272,6 +281,7 @@ button { border-radius: var(--roundness) !important; }
 	0%		{ top: 8px; left: -20px; height: 32px; width: 26px; transform: rotate(0deg) }
 	100%	{ top: 25px; left: 24px; height: 18px; width: 18px; transform: rotate(180deg) }
 }
+*/
 
 .da-guildSeparator {
 	display: none;
@@ -752,6 +762,14 @@ form .da-wrapper {
 	border-radius: var(--roundness);
 }
 
+.container-1r6BKw {
+	background-color: var(--transparency) !important;
+}
+
+.container-1r6BKw .da-children::after {
+	background: none !important;
+}
+
 .da-channel .da-close {
 	display: block;
 	opacity: 0;
@@ -1152,60 +1170,58 @@ border-radius: var(--roundness);
   color: white;
 }
 
-/* Server channels */
-.content-20Aix8 {
-	background-color: transparent;
-	border-radius: var(--roundness);
-}
-.content-20Aix8:hover {
-	background-color: var(--transparency-dark);
-}
-.contentSelectedText-3wUhMi,
-.contentSelectedVoice-1WDIBM {
-	background-color: var(--transparency-darkest) !important;
-}
-.contentHoveredText-2D9B-x,
-.contentHoveredVoice-3p_NEO {
-	background-color: var(--transparency);
-}
+/* Channel list */
 .channels-Ie2l6A { margin: 0 10px; border-radius: var(--roundness); }
-.theme-dark .channels-Ie2l6A { background:var(--transparency-dark); }
-.theme-dark .unread-1Dp-OI { background-color: var(--transparency-light) !important; }
 
-.nameDefaultText-24KCy5,
-.nameDefaultVoice-3WUH7s,
-.nameHoveredText-1uO31y,
-.nameHoveredVoice-YJ1Vfd,
-.nameLockedText-3pqQcL,
-.nameLockedVoice-26MhB1,
-.theme-dark .nameMutedText-3Vj4bM,
-.theme-dark .nameMutedVoice-3oxyQZ,
-.theme-dark .nameUnreadText-DfkrI4,
-.theme-dark .nameUnreadVoice-EVo-wI
-.contentMutedText-2y6aPQ,
-.contentHoveredText-2D9B-x,
-.contentHoveredVoice-3p_NEO,
-.contentSelectedText-3wUhMi,
-.contentSelectedVoice-1WDIBM,
-.content-20Aix8 {
-	transition: color .2s, background-color .2s !important;
+.theme-dark .channels-Ie2l6A { background:var(--transparency-dark); }
+
+.content-3at_AU {
+	border-radius: var(--roundness);
+	transition: .25s background-color;
 }
 
-.da-nameDefault, .da-nameHovered, .da-nameCollapsed, .da-nameHoveredCollapsed {
+.da-containerDefault .wrapper-1ucjTd.modeSelected-1zApJ_ .da-content {
+	background-color: var(--transparency) !important;
+}
+
+.wrapper-1ucjTd:hover .content-3at_AU {
+	background-color: var(--transparency-dark) !important;
+}
+
+		/* Animated channel buttons */
+.iconVisibility-1bOqu7 .da-children {
+	margin-right: -2px;
+}
+
+.iconVisibility-1bOqu7 .iconItem-1-bXkn {
+	display: block;
+	margin-right: -26px;
+	transition: .25s;
+}
+
+.containerDefault-1ZnADq.selected-37j_iU .iconItem-1-bXkn,
+.iconVisibility-1bOqu7:hover .iconItem-1-bXkn {
+	margin-right: 0;
+}
+
+.userLimit-64AFxe {
+	z-index: 0;	/* fix for buttons covering the voice channel user limit */
+}
+
+.name-IbjUBS, .da-nameHovered, .da-nameCollapsed, .da-nameHoveredCollapsed {
 	font-size: 12px;
 	transition: .2s;
 }
-.da-nameHovered, .da-nameHoveredCollapsed {
+.name-IbjUBS:hover, .da-nameHoveredCollapsed {
 	font-size: 14px;
 }
 
-.da-nameDefaultText,
-.da-nameSelectedText,
-.da-nameHoveredText,
-.da-nameLockedText,
-.da-nameMutedText,
-.da-nameUnreadText,
-.name-2upRM5 {
+.name-3_Dsmg {
+	padding-right: 2px;
+}
+
+.name-IbjUBS,
+.name-3_Dsmg {
 	text-overflow: clip;
 	-webkit-mask-image:
 		-webkit-linear-gradient(
