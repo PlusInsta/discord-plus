@@ -2206,9 +2206,11 @@ border-radius: var(--roundness);
 * NOTE:
 * BetterDiscord and every fork of it does NOT go under this category!
 * Add BetterDiscord-related styles near their VanillaDiscord counterparts!
+* Names used here are from the plugin's metadata.
+* If two or more authors are credited, use only the first.
 */
 
-/* DevilBro's plugins */
+/* Plugins by DevilBro */
 	/* PluginRepo */
 .flexChild-faoVW3 > div > div,
 .DevilBro-notice {
@@ -2377,7 +2379,31 @@ border-radius: var(--roundness);
 	background-color: var(--accent-color);
 }
 
-/* TitleForTitlebar by Arashiryuu */
+/* Plugins by Zerebos */
+	/* BetterFormattingRedux */
+.bf-toolbar {
+	margin-top: 15px;
+}
+
+.bf-toolbar::before {
+	background: var(--transparency);
+	border-radius: var(--roundness);
+}
+
+.bf-toolbar .format:hover {
+	background: transparent !important;
+}
+
+.bf-toolbar .format img {
+	transition: opacity .25s;
+}
+
+.bf-toolbar .format:hover img {
+	opacity: 1;
+}
+
+/* Plugins by Arashiryuu */
+	/* TitleForTitlebar */
 #TitleForTitlebar {
   color: #ffffff;
   opacity: 0.7;
@@ -2386,7 +2412,8 @@ border-radius: var(--roundness);
   font-family: var(--font);
 }
 
-/* Citador by nirewen */
+/* Plugins by nirewen */
+	/* Citador */
 .quote-msg {
 	filter: grayscale();
 	margin-bottom: 10px;
