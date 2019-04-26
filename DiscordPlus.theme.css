@@ -1859,6 +1859,10 @@ border-radius: var(--roundness);
 	background: var(--accent-color) !important;
 }
 
+#bd-settingspane-container .ui-switch-item {
+	margin-top: 0;
+}
+
 .theme-light #bd-settings-sidebar .ui-tab-bar-item { color: #72767d !important; }
 .theme-light #bd-settings-sidebar .ui-tab-bar-item:hover { color: black !important; }
 .theme-light #bd-settings-sidebar .ui-tab-bar-item.selected { color: #fff !important; }
