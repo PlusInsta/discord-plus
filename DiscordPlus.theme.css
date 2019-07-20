@@ -1604,13 +1604,13 @@ border-radius: var(--roundness);
 }
 
 	/* Changelog modal */
-.modal-3HD5ck {
+.modal-yWgWj- {
 	border-radius: var(--roundness);
 }
-.modal-3HD5ck {
-	background-color: var(--transparency-dark);
+.modal-yWgWj- {
+	background-color: var(--transparency-dark) !important;
 }
-.footer-2yfCgX {
+.modal-yWgWj- .da-footer {
 	background-color: transparent !important;
 }
 
