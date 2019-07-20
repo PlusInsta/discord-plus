@@ -339,11 +339,14 @@ svg [name="Nova_Discord"],
 }
 
 /* Avatars */
+foreignObject[mask="url(#svg-mask-avatar-default)"],
 foreignObject[mask="url(#svg-mask-avatar-status-round-32)"],
-foreignObject[mask="url(#svg-mask-avatar-default)"] {
+foreignObject[mask="url(#svg-mask-avatar-status-round-40)"],
+foreignObject[mask="url(#svg-mask-avatar-status-round-80)"],
+[mask="url(#712c8864-7d7e-4a45-b8a9-8ebe0910af65)"],
+[mask="url(#13a01a6e-da11-437b-a5e9-2406a96af5a3)"] {
 	mask: none !important; /*remove mask (necessary for -roundness to work)*/
 }
-
 
 .da-flex .da-wrapper .da-avatar {
 	width: 100%;
@@ -360,8 +363,8 @@ foreignObject[mask="url(#svg-mask-avatar-default)"] {
 	width: 40px;
 }
 
-.avatar-SmRMf2 {
-	margin-bottom: 4px;
+.avatar-SmRMf2, .wrapper-3t9DeA {
+	margin-bottom: 8px;
 }
 
 .da-avatar [style="width: 40px; height: 40px;"] { /*large avatar*/
