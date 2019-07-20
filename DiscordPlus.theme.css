@@ -2454,7 +2454,7 @@ border-radius: var(--roundness);
 
 [data-name="Discord+ Source Code"] .bda-header-title::after {
 	color: grey;
-	content: " and 2 contributors";
+	content: " and 3 contributors";
 }
 
 [data-name="Discord+ Source Code"] .bda-description::after {
@@ -2466,5 +2466,5 @@ border-radius: var(--roundness);
   font-size: 16px;
 	text-shadow: 0 0 2px black;
 	content: "Contributors:\A\
-	intrnl, TheLastZombie";
+	intrnl, micelle, TheLastZombie";
 }
