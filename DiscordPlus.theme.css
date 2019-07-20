@@ -251,11 +251,6 @@ button { border-radius: var(--roundness) !important; }
 	100%		{ opacity: 1 }
 }
 
-.da-flex .da-wrapper .da-avatar {
-	width: 100%;
-	height: 100%;
-}
-
 .da-homeButton[style*="border-radius: 1"] {
 	opacity: 0.8 !important;
 }
@@ -343,49 +338,53 @@ svg [name="Nova_Discord"],
 	width: 24px;
 }
 
-/* Profile pictures */
-.da-profile,
-.da-small,
-.da-large,
-.da-avatarUploaderInner,
-.da-inner {
+/* Avatars */
+foreignObject[mask="url(#svg-mask-avatar-status-round-32)"],
+foreignObject[mask="url(#svg-mask-avatar-default)"] {
+	mask: none !important; /*remove mask (necessary for -roundness to work)*/
+}
+
+
+.da-flex .da-wrapper .da-avatar {
+	width: 100%;
+	height: 100%;
+}
+
+.avatar-VxgULZ {
 	border-radius: var(--roundness) !important;
 }
-.da-small {
+
+[viewBox="0 0 40 32"] {
 	background-size: cover;
-	height: 32px;
-	width: 32px
-}
-.da-status {
-	height: 10px;
-	width: 10px;
+	height: 40px;
+	width: 40px;
 }
 
-.da-large .da-status {
-	height: 25% !important;
-	width: 25% !important;
-	margin: 0;
+.avatar-SmRMf2 {
+	margin-bottom: 4px;
 }
 
-.da-statusProfile {
-	height: 18px;
-	width: 18px;
-	background-size: 12px;
-}
-.da-large {
+.da-avatar [style="width: 40px; height: 40px;"] { /*large avatar*/
 	background-size: cover;
-	width: 62.5px;
-	height: 62.5px;
+	width: 62.5px !important;
+	height: 62.5px !important;
 	border-radius: var(--roundness);
-	margin: -6px 2px;
+	margin: -10px -14px;
 }
+
+.headerCozyMeta-rdohGq > span:first-child {
+	margin-left: -8px; /*Fixes avatar skewing names to the right*/
+}
+
 .da-customScroller .da-large {
 	margin: 0 0;
 }
-.da-mask, .da-maskProfile {
-	-webkit-mask: none;
-	mask: none;
+
+.wrapper-3t9DeA {
+	width: 100%;
+	height: 100%;
 }
+
 .da-image, .da-avatarHint { border-radius: var(--roundness) }
 .listAvatar-1NlAhb .da-image {
 	height: 48px;
