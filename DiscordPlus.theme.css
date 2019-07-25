@@ -231,11 +231,6 @@ button { border-radius: var(--roundness) !important; }
 	border-radius: var(--roundness);
 }
 
-.da-flex .da-wrapper .da-listItem .da-blobContainer,
-.da-flex .da-wrapper .da-blob.da-wrapper {
-	margin-left: 2px;
-}
-
 .da-audio::after,
 .da-video::after {
 	background-color: var(--accent-color);
@@ -302,6 +297,22 @@ svg [name="Nova_Discord"],
 	height: 32px;
 	width: 32px;
 	border-radius: var(--roundness);
+}
+
+/* Server Folders */
+/* Not to be confused with the plugin ServerFolders */
+.da-expandedFolderBackground, .folder-21wGz3 {
+	border-radius: var(--roundness);
+	background-color: var(--transparency) !important;
+}
+
+.da-folderIconWrapper,
+.da-folder.da-hover {
+	background-color: transparent !important;
+}
+
+.da-expandedFolderIconWrapper {
+	transform: none !important; /* prevent the icon from becoming tiny when closing */
 }
 
 /* Channel notices */
@@ -2268,6 +2279,7 @@ border-radius: var(--roundness);
 }
 
 	/* ServerFolders */
+	/* Not to be confused with the native Server Folders */
 .da-flex .da-wrapper.foldercontent {
 	border-radius: var(--roundness);
 	transition: margin .25s .2s, width .25s ease-in-out, opacity .25s !important;
