@@ -1,5 +1,5 @@
 # ![Discord+](https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark_black.svg)
-A sleek, customizable Discord theme, inspired by Google's Material Theme.
+A sleek, customizable Discord theme, inspired by Material Theme.
 
 ![Screenshot](https://i.imgur.com/4z1wR9Z.png)
 
