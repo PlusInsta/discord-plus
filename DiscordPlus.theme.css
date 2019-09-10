@@ -197,10 +197,6 @@ button { border-radius: var(--roundness) !important; }
 	width: 72px;
 }
 
-.da-guilds {
-
-}
-
 .theme-dark .da-flex .da-wrapper .da-scroller {
 	background: var(--dplus-background-dark-3);
 }
@@ -266,7 +262,7 @@ svg [name="Nova_Discord"],
 	display: none !important;
 }
 
-.button-OhfaWu {
+.da-scrollerThemed > div > div:nth-child(1) .childWrapper-anI2G9 {
 	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTYgMTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2Rpc3BsYXk6bm9uZTt9LnN0MXtkaXNwbGF5OmlubGluZTtmaWxsOiNmZmY7fS5zdDJ7ZmlsbDojZmZmO308L3N0eWxlPgo8ZyBjbGFzcz0ic3QwIj48cmVjdCB4PSIzLjMiIHk9IjcuOCIgY2xhc3M9InN0MSIgd2lkdGg9IjkuNyIgaGVpZ2h0PSIyLjEiLz48cmVjdCB4PSI3LjEiIHk9IjQiIGNsYXNzPSJzdDEiIHdpZHRoPSIyLjEiIGhlaWdodD0iOS43Ii8+PC9nPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEsMUgxLjh2Mi42bDEuNSwxLjRWMi41aDAuOGMwLjUsMCwwLjgsMC4zLDAuOCwwLjZ2MS45YzAsMC40LTAuMywwLjctMC44LDAuN0gxLjh2MS41aDIuMwoJYzEuMiwwLDIuNC0wLjYsMi40LTJ2LTJDNi41LDEuNyw1LjMsMSw0LjEsMXoiLz48Zz48cmVjdCB4PSIxLjgiIHk9IjcuNCIgY2xhc3M9InN0MiIgd2lkdGg9IjEyLjQiIGhlaWdodD0iMi43Ii8+PHJlY3QgeD0iNi43IiB5PSIyLjYiIGNsYXNzPSJzdDIiIHdpZHRoPSIyLjciIGhlaWdodD0iMTIuNCIvPjwvZz48L3N2Zz4=');
 	background-color: transparent !important;
 	border-radius: 0 !important;
@@ -1173,12 +1169,13 @@ border-radius: var(--roundness);
 
 /* Channel list */
 .sidebar-2K8pFh {
-    border-radius: var(--roundness);
+    border-radius: var(--roundness) !important;
 		margin-left: 10px;
 }
 
-.channels-Ie2l6A { margin: 0 10px;
+.channels-Ie2l6A {
 	border-radius: var(--roundness);
+	margin: 0 10px;
 }
 
 .content-3at_AU {
