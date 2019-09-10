@@ -1,0 +1,11 @@
+//META{"name":"Discord+ β","description":"This theme, unlike DiscordPlus-master.css, will automatically load the beta branch of the theme. Use this only if you're okay with bleeding-edge experiments. Design horrors await. (If the version number changes, that means you have to update your local theme file. The number will change often during development.)","source":"https://github.com/PlusInsta/discord-plus/blob/beta/DiscordPlus.theme.css","website":"https://plusinsta.github.io/discord-plus/","author":"PlusInsta","version":"2.2-000"}*//
+@import url("https://rawgit.com/PlusInsta/discord-plus/beta/DiscordPlus.theme.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous");
+:root {
+	--background: url('https://i.imgur.com/3AiL3yN.png');
+	--font: 'Poppins';
+	--font-text: 'Roboto';
+	--font-header: 'Righteous';
+	--roundness: 10px;
+	--accent-color: #802060;
+}
