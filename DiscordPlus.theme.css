@@ -720,6 +720,9 @@ form .da-wrapper {
 	padding-bottom: 4px;
 	margin-top: -20px;
 }
+.da-containerCompact .container-3-pyIM {
+	margin-top: 0;
+}
 
 /* New messages bar */
 .newMessagesBar-mujexs button:first-child {
