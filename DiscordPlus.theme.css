@@ -60,6 +60,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	--background-modifier-active:			hsla(0,8%,34%,0.24)							!important;
 	--background-modifier-selected: 	hsla(0,8%,34%,0.32)							!important;
 	--deprecated-panel-background:		var(--dplus-background-dark-2)	!important;
+	--background-floating:						var(--dplus-background-dark-3)	!important;
 }
 
 .theme-light {
@@ -70,6 +71,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	--background-modifier-active:			var(--dplus-background-light-2) !important;
 	--background-modifier-selected: 	var(--dplus-background-light-3) !important;
 	--deprecated-panel-background:		var(--dplus-background-light-2)	!important;
+	--background-floating:						var(--dplus-background-light-3)	!important;
 	--header-primary:									hsl(0, 0%, 10%)									!important;
 	--interactive-active:							black														!important;
 }
@@ -158,8 +160,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .bda-settings-button,
 .wrapper-232cHJ,
 .da-botTag,
-.da-typing .da-text,
-.da-contextMenu {
+.da-typing .da-text {
 	text-shadow: 0 0 2px black !important;
 }
 
@@ -1326,54 +1327,38 @@ aside .da-card .da-large .da-status {
 .theme-light .menu-Sp6bN1 { background: var(--dplus-background-light-4) !important;}
 
 /* Context menu */
-.contextMenu-HLZMGh {
-	border-radius: var(--dplus-border-radius);
-}
+.contextMenu-HLZMGh { border-radius: var(--dplus-border-radius); }
+.contextMenu-HLZMGh { padding: 0; }
 
-	/* Old contextmenu code, TODO remove this */
-.theme-dark.contextMenu-HLZMGh,
-.theme-dark.itemSubMenu-1vN_Yn {
-	background: var(--dplus-background-dark-1);
-	border-radius: var(--dplus-border-radius);
-	opacity: 0.8;
-	transition: opacity .25s;
-}
-.contextMenu-HLZMGh:hover {
-	opacity: 1;
-}
 .item-1Yvehc {
-	border-radius: 0;
 	transition: background-color .2s;
 	margin: 0;
 }
-.itemGroup-1tL0uz {
-    border-color: hsla(0,0%,100%,0.1);
+.itemBase-tz5SeC { margin: 0 !important }
+
+.itemSubMenu-1vN_Yn:hover,
+.item-1Yvehc:hover { background-color: var(--dplus-accent-color); }
+
+.theme-light .itemSubMenu-1vN_Yn:hover,
+.theme-light .item-1Yvehc:hover { color: white; }
+
+.da-item.da-danger:hover {
+	background-color: #f04747;
+	color: white;
 }
-.itemGroup-1tL0uz:first-child .item-1Yvehc:first-of-type,
-.da-contextMenu .da-scroller .da-item:first-of-type,
-.da-contextMenu .contextMenu-HLZMGh .itemGroup-1tL0uz .item-1Yvehc:first-child,
-.editusers-submenu .item-1Yvehc:first-child {
+
+.da-subMenuContext { right: 12px; }
+.theme-dark .itemGroup-1tL0uz { border-color: hsla(0,0%,100%,0.1); }
+.theme-light .itemGroup-1tL0uz { border-color: hsla(0,0%,0%,0.1); }
+
+	/* Border radiuses */
+.da-itemGroup:first-child .da-item:first-of-type,
+.da-itemGroup:first-child .da-itemSubMenu:first-of-type {
 	border-radius: var(--dplus-border-radius) var(--dplus-border-radius) 0 0 !important;
 }
-.itemGroup-1tL0uz:last-of-type .item-1Yvehc:last-of-type,
-.da-contextMenu .da-scroller .da-item:last-of-type,
-.da-contextMenu .contextMenu-HLZMGh .contextMenu-HLZMGh .item-1Yvehc:last-of-type {
+.da-itemGroup:last-of-type .da-item:last-of-type,
+.da-itemGroup:last-of-type .da-itemSubMenu:last-of-type {
 	border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius);
-}
-.da-contextMenu .personalpins-item,
-.da-contextMenu .contextMenu-HLZMGh .item-1Yvehc:first-child,
-.da-contextMenu .contextMenu-HLZMGh .itemGroup-1tL0uz:last-child .item-1Yvehc:first-child {
-	border-radius: 0;
-}
-.theme-dark .item-1Yvehc.itemSubMenu-1vN_Yn {
-	background-color: transparent;
-}
-.theme-dark .itemSubMenu-1vN_Yn:hover,
-.theme-dark .item-1Yvehc:hover {
-	background-color: var(--dplus-accent-color);
-}
-.da-item.da-danger:hover {
-	background-color: var(--dplus-background-dark-1);
 }
 
 /* Popouts */
