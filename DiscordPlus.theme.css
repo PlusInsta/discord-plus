@@ -500,7 +500,6 @@ foreignObject {
 .innerAutocomplete-1PN280 {
 	border-radius: var(--dplus-border-radius);
 }
-.theme-light .inner-zqa7da { background-color: var(--dplus-background-light-4) !important; }
 
 .da-buttons .da-button[tabindex="2"] {
     display: none !important;
@@ -1714,10 +1713,16 @@ aside .da-card .da-large .da-status {
 }
 
 	/* Upload modal */
-.uploadModal-2ifh8j { background-color: var(--dplus-accent-color) !important; border-radius: var(--dplus-border-radius) !important }
-.uploadModal-2ifh8j .da-inner { border: 2px dashed var(--dplus-background-dark-1); border-radius: var(--dplus-border-radius) !important; }
-.footer-3mqk7D { background-color: var(--dplus-background-dark-2) !important; border-radius: var(--dplus-border-radius) !important; }
+.uploadModal-2ifh8j { background-color: var(--dplus-accent-color) !important; }
 
+.uploadModal-2ifh8j,
+.uploadModal-2ifh8j .da-inner,
+.footer-3mqk7D { border-radius: var(--dplus-border-radius) !important; }
+
+.uploadModal-2ifh8j .da-inner {	border: 2px dashed var(--dplus-background-dark-1); }
+.footer-3mqk7D { background-color: var(--dplus-background-dark-2) !important; }
+
+.theme-brand .textArea-2Spzkt { color: black; }
 
 /* BetterDiscord modal */
 .bd-modal-wrapper .tab-bar.TOP {
