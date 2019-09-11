@@ -1,11 +1,35 @@
-//META{"name":"Discord+","description":"Are you tired of Discord's bland design? Are you the type who loves variety? Do you wish Discord were more colorful? Then this theme is just the thing for you.","source":"https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus.theme.css","website":"https://plusinsta.github.io/discord-plus/","author":"PlusInsta","version":"2.2"}*//
-@import url("https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus.theme.css");
+//META{"name":"Discord+","description":"A sleek, customizable Discord theme.","source":"https://github.com/PlusInsta/discord-plus/blob/beta/DiscordPlus.theme.css","website":"https://plusinsta.github.io/discord-plus/","author":"PlusInsta","version":"2.3"}*//
+@import url("https://rawgit.com/PlusInsta/discord-plus/beta/DiscordPlus.theme.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous");
+
+/*	See the FAQ for detailed info about these values.
+		https://github.com/PlusInsta/discord-plus/wiki/FAQ	*/
 :root {
-	--background: url('https://i.imgur.com/3AiL3yN.png');
-	--font: 'Poppins';
-	--font-text: 'Roboto';
-	--font-header: 'Righteous';
-	--roundness: 10px;
-	--accent-color: rgb(135,31,96);
+	/* Background */
+	--dplus-background:			url('https://i.imgur.com/3AiL3yN.png');
+	/* Accent color */
+	--dplus-accent-color:		#802060;
+	/* Fonts */
+		/* Display font (UI) */
+	--dplus-font-display:		'Poppins';
+		/* Text font (messages) */
+	--dplus-font-text:			'Roboto';
+		/* Names, titles & headers font */
+	--dplus-font-names:			'Righteous';
+	/* Rounded corners size */
+	--dplus-border-radius:	10px;
+	/* Background colors */
+		/* Dark theme */
+	--dplus-background-dark-1: hsla(0, 0%, 0%, 0.68);
+	--dplus-background-dark-2: hsla(0, 0%, 0%, 0.74);
+	--dplus-background-dark-3: hsla(0, 0%, 0%, 0.82);
+	--dplus-background-dark-4: hsla(0, 0%, 0%, 0.90);
+		/* Light theme */
+	--dplus-background-light-1: hsla(0, 0%, 90%, 0.90);
+	--dplus-background-light-2: hsla(0, 0%, 80%, 0.82);
+	--dplus-background-light-3: hsla(0, 0%, 80%, 0.74);
+	--dplus-background-light-4: hsla(0, 0%, 70%, 0.68);
 }
+
+/*	You can drop your custom CSS below here.
+		If you want some examples, check out the FAQ. */
