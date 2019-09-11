@@ -97,6 +97,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .theme-light .modeMuted-3osy7j .name-3_Dsmg {
 	color: var(--interactive-muted);
 }
+.theme-light .emoji,
 .theme-light .emoji.jumboable {
   filter: drop-shadow(0 0 1px #00000055);
 }
