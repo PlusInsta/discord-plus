@@ -1305,21 +1305,17 @@ aside .da-card .da-large .da-status {
 }
 
 /* Scrollbar */
-.da-scrollerWrap .da-scroller::-webkit-scrollbar {
-	width: 10px;
-}
+.da-scrollerWrap .da-scroller::-webkit-scrollbar { width: 10px; }
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
 	border: none !important;
 	background-color: var(--dplus-accent-color) !important;
 	border-radius: var(--dplus-border-radius) !important;
 }
-.theme-dark .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece {
-	background-color: rgba(0,0,0,0.3) !important;
-	border: none !important;
-}
-.theme-dark .inner-zqa7da {
-	background-color: var(--dplus-background-dark-1);
-}
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece { border: none !important; }
+.theme-dark .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece { background-color: hsla(0,0%,0%,0.3) !important; }
+.theme-light .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece { background-color: hsla(0,0%,100%,0.3) !important; }
+.theme-dark .inner-zqa7da {	background-color: var(--dplus-background-dark-1); }
+.theme-light .inner-zqa7da {	background-color: var(--dplus-background-light-1); }
 
 /* Status menu */
 .menu-Sp6bN1 { border-radius: var(--dplus-border-radius) !important; }
