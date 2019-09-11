@@ -2112,8 +2112,12 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 
 .da-typing .da-text {
 	font-size: 10px !important;
-	margin-top: -2px !important;
-	opacity: 1;
+}
+.theme-light .dots-3Bkt3k.themed-IQiCm3, .theme-light .da-typing .da-text {
+	color: white;
+}
+.da-dots {
+	margin-top: -1px;
 }
 
 .da-base .da-ellipsis .da-spinnerItem {
