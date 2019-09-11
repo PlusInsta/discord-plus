@@ -71,6 +71,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	--background-modifier-selected: 	var(--dplus-background-light-3) !important;
 	--deprecated-panel-background:		var(--dplus-background-light-2)	!important;
 	--header-primary:									hsl(0, 0%, 10%)									!important;
+	--interactive-active:							black														!important;
 }
 
 /* App margins */
@@ -92,9 +93,22 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .theme-light .emoji.jumboable {
   filter: drop-shadow(0 0 1px #00000055);
 }
+
 	/* White text hack */
 .theme-light [style="color: rgb(255, 255, 255) !important;"] {
   filter: drop-shadow(0 0 1px #000000ff);
+}
+
+	/* Contrast for stupidly bright settings text */
+.theme-light .nowPlayingAdd-1Kdmh_,
+.theme-light .rowBody-10yI-R {
+	color: #72767d;
+}
+
+	/* Contrast for contrast hacks */
+.theme-light .modeUnread-1zpFdA .name-3_Dsmg {
+	color: var(--interactive-active) !important;
+	text-shadow: 0 0 0px #000000aa;
 }
 
 /* Global transparency */
@@ -113,7 +127,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .video-1FfuMD,
 .da-headerBar,
 .da-searchBar,
-.da-unread,
 .da-layers,
 .da-layer,
 #bda-qem,
@@ -547,12 +560,12 @@ form .da-wrapper {
 .chat-3bRxxu .messages-3amgkR {
 	border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius);
 }
-.theme-dark .containerCompact-3V0ioj {
-	background: var(--dplus-background-dark-2);
+.theme-dark .containerCompact-3V0ioj { background: var(--dplus-background-dark-2); }
+.theme-light .containerCompact-3V0ioj { background: var(--dplus-background-light-1); }
+.containerCompact-3V0ioj {
+	padding: 0;
 }
-.theme-light .containerCompact-3V0ioj {
-	background: var(--dplus-background-light-1);
-}
+
 .headerCozyMeta-rdohGq {
 	margin: 0 25px;
   -webkit-margin-before: -0.6em;
@@ -599,9 +612,13 @@ form .da-wrapper {
     position: relative;
     width: 10px !important;
 }
-.container-1RjyoP .previewInner-2iCbun { /*Hotfix for new message system*/
+.container-1RjyoP .da-previewInner { /*Hotfix for new message system*/
 	top: -12px;
 }
+.container-1RjyoP .da-previewInner.da-previewCompact { /*Don't do for compact*/
+	top: 0;
+}
+
 .theme-dark .containerCozy-jafyvG.isLocalBot-38G0P0 {
 	opacity:1;
 	background-color: var(--dplus-background-dark-2) ;
@@ -1032,10 +1049,6 @@ aside .da-card .da-large .da-status {
 }
 .theme-light .body-1SVoBw {
 		background-color: white;
-}
-.theme-dark .da-card {
-	background-color: var(--dplus-background-dark-1);
-	color: #f6f6f7;
 }
 .header-1RC2Wb {
 	background-color: var(--dplus-accent-color) !important;
@@ -1968,20 +1981,12 @@ border-radius: var(--dplus-border-radius);
 	background-color: var(--dplus-accent-color) !important;
 	border-color: transparent !important;
 }
-.theme-dark .radioGroup-1GBvlr [style*="padding: 10px;"] {
-	background-color: var(--dplus-background-dark-3);
-	border-color: transparent !important;
-}
 .theme-light .radioGroup-1GBvlr [style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218); padding: 10px;"] {
 	background-color: var(--dplus-accent-color) !important;
 	border-color: transparent !important;
 }
 .theme-light .radioGroup-1GBvlr [style*="padding: 10px; border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
 	background-color: var(--dplus-accent-color) !important;
-	border-color: transparent !important;
-}
-.theme-light .radioGroup-1GBvlr [style*="padding: 10px;"] {
-	background-color: var(--dplus-background-light-4);
 	border-color: transparent !important;
 }
 
@@ -1991,8 +1996,6 @@ border-radius: var(--dplus-border-radius);
 
 	/* Game Activity settings */
 .da-notDetected {
-	background-color: transparent !important;
-	border: 1px solid #747f8d !important;
 	border-radius: var(--dplus-border-radius);
 }
 
