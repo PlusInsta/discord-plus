@@ -1192,28 +1192,13 @@ border-radius: var(--dplus-border-radius);
 }
 
 /* Server members */
-.theme-dark .members-1998pB {
-	background-color: var(--dplus-background-dark-2);
-	border-radius: var(--dplus-border-radius) 0 var(--dplus-border-radius) var(--dplus-border-radius);
-}
+.da-membersWrap .da-members { border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius); }
+
 .member-3W1lQa {
 	border-radius: var(--dplus-border-radius);
 	transition: background-color .2s;
 }
-.memberOffline-2lN7gt, .avatarOffline-3GF27z, .darken-1wMGLZ {
-	transition: opacity .2s;
-}
-.theme-dark .member-3W1lQa:hover {
-	background-color: var(--dplus-background-dark-2);
-}
-.theme-dark .member-3W1lQa.popout-open,
-.theme-dark .member-3W1lQa.popout-open:hover {
-	background-color: var(--dplus-background-dark-3);
-}
-.theme-dark .member-1q7VfX .tag-1YGWN9 {
-	margin-bottom: 5px;
-	margin-top: 10px;
-}
+.da-member.da-offline {	transition: opacity .2s; }
 
 /* Bot tags */
 .da-botTag {
