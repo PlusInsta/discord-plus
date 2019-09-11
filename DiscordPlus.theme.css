@@ -74,6 +74,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	--background-floating:						var(--dplus-background-light-3)	!important;
 	--header-primary:									hsl(0, 0%, 10%)									!important;
 	--interactive-active:							black														!important;
+	--interactive-muted:							#8f99a3													!important;
 }
 
 /* App margins */
@@ -91,6 +92,10 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 }
 .theme-light .da-name {
 	color: hsl(0, 0%, 20%);
+}
+.theme-light .modeMuted-3osy7j .icon-1_QxNX,
+.theme-light .modeMuted-3osy7j .name-3_Dsmg {
+	color: var(--interactive-muted);
 }
 .theme-light .emoji.jumboable {
   filter: drop-shadow(0 0 1px #00000055);
