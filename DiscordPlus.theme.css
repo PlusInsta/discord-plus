@@ -11,10 +11,10 @@
 	--dplus-background-dark-2: hsla(0, 0%, 0%, 0.74);
 	--dplus-background-dark-3: hsla(0, 0%, 0%, 0.82);
 	--dplus-background-dark-4: hsla(0, 0%, 0%, 0.90);
-	--dplus-background-light-1: hsla(0, 0%, 90%, 0.68);
-	--dplus-background-light-2: hsla(0, 0%, 80%, 0.74);
-	--dplus-background-light-3: hsla(0, 0%, 80%, 0.82);
-	--dplus-background-light-4: hsla(0, 0%, 70%, 0.90);
+  --dplus-background-light-1: hsla(0, 0%, 100%, 0.72);
+  --dplus-background-light-2: hsla(0, 0%, 100%, 0.80);
+  --dplus-background-light-3: hsla(0, 0%, 100%, 0.88);
+  --dplus-background-light-4: hsla(0, 0%, 90%, 0.94);
 }
 
 /* Background image */
@@ -53,13 +53,23 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 /* Core */
 /* Discord variables */
 .theme-dark {
-	--dplus-background-primary:						var(--dplus-background-dark-1)	!important;
-	--dplus-background-secondary:					var(--dplus-background-dark-2)	!important;
-	--dplus-background-tertiary:					transparent											!important;
-	--dplus-background-modifier-hover: 		hsla(0,8%,34%,0.16)							!important;
-	--dplus-background-modifier-active:		hsla(0,8%,34%,0.24)							!important;
-	--dplus-background-modifier-selected: hsla(0,8%,34%,0.32)							!important;
-	--deprecated-panel-background:	var(--dplus-background-dark-2)	!important;
+	--background-primary:							var(--dplus-background-dark-1)	!important;
+	--background-secondary:						var(--dplus-background-dark-2)	!important;
+	--background-tertiary:						transparent											!important;
+	--background-modifier-hover: 			hsla(0,8%,34%,0.16)							!important;
+	--background-modifier-active:			hsla(0,8%,34%,0.24)							!important;
+	--background-modifier-selected: 	hsla(0,8%,34%,0.32)							!important;
+	--deprecated-panel-background:		var(--dplus-background-dark-2)	!important;
+}
+
+.theme-light {
+	--background-primary:							var(--dplus-background-light-1)	!important;
+	--background-secondary:						var(--dplus-background-light-2)	!important;
+	--background-tertiary:						transparent											!important;
+	--background-modifier-hover: 			hsla(0,8%,34%,0.16)							!important;
+	--background-modifier-active:			hsla(0,8%,34%,0.24)							!important;
+	--background-modifier-selected: 	hsla(0,8%,34%,0.32)							!important;
+	--deprecated-panel-background:		var(--dplus-background-light-2)	!important;
 }
 
 /* App margins */

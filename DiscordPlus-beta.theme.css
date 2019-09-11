@@ -25,9 +25,8 @@
 	--dplus-background-dark-3: hsla(0, 0%, 0%, 0.82);
 	--dplus-background-dark-4: hsla(0, 0%, 0%, 0.90);
 		/* Light theme */
-			/* Disclaimer: Currently untested as LT is unimplemented. */
-	--dplus-background-light-1: hsla(0, 0%, 90%, 0.90);
-	--dplus-background-light-2: hsla(0, 0%, 80%, 0.82);
-	--dplus-background-light-3: hsla(0, 0%, 80%, 0.74);
-	--dplus-background-light-4: hsla(0, 0%, 70%, 0.68);
+	--dplus-background-light-1: hsla(0, 0%, 100%, 0.72);
+	--dplus-background-light-2: hsla(0, 0%, 100%, 0.80);
+	--dplus-background-light-3: hsla(0, 0%, 100%, 0.88);
+	--dplus-background-light-4: hsla(0, 0%, 90%, 0.94);
 }
