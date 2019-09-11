@@ -1,7 +1,8 @@
 # ![Discord+](https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark_black.svg)
-A sleek, customizable Discord theme, inspired by Material Theme.
+A sleek, customizable Discord theme, inspired by Material.
 
-![Screenshot](https://i.imgur.com/4z1wR9Z.png)
+![Screenshot dark theme](https://cdn.discordapp.com/attachments/372469909180907531/621326166548283403/unknown.png)
+![Screenshot light theme](https://cdn.discordapp.com/attachments/372469909180907531/621326239793283098/unknown.png)
 
 ## What is this?
 
@@ -11,19 +12,7 @@ All you need to install my theme is [BandagedBetterDiscord](https://github.com/r
 
 ## User customization
 This theme is **fully customizable**.
-The variables at the top of the file allow you to change things like the background image, the accent color, and the roundness of the UI. You can also change the fonts to any fonts installed on your device.
-
-For reference, this is what Discord+ looks like by default.
-
-![Default look for Discord+](https://i.imgur.com/kLsnXvY.png)
-
-And this is how it would look like if you stylized it after [Minecraft](https://minecraft.net).
-
-![Minecraft-styled Discord+](https://i.imgur.com/nkYzMiH.png)
-
-If you're not feeling creative, you could change the background image to cardboard and set the font to Comic Sans MS.
-
-![please dont do this at home kids](https://i.imgur.com/cgiNA54.png)
+The variables at the top of the file allow you to change things like the background image, the accent color, the roundness of the UI, the fonts, and even the backdrop behind elements.
 
 Check the [FAQ](https://github.com/PlusInsta/discord-plus/wiki/FAQ) for a full list of what you can do.
 
@@ -63,3 +52,6 @@ These steps assume the file is in your Downloads folder.
 * type `mv ~/Downloads/DiscordPlus* ~/.config/BetterDiscord/themes`
 * Run `discord`
 * Enable the theme in Settings (sorry, no Terminal command for this!)
+
+# Discord server
+Join [this server](https://bit.ly/DiscordPlusServer) to chat, read changelogs, and discuss the theme. Feel free to drop by with your feedback!
