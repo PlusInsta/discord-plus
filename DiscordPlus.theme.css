@@ -334,7 +334,6 @@ svg [name="Nova_Discord"],
 
 .da-circleIconButton {
 	border-radius: var(--dplus-border-radius) !important;
-	background: var(--dplus-background-dark-2) !important;
 	border-color: black !important;
 }
 
@@ -350,15 +349,8 @@ svg [name="Nova_Discord"],
 }
 
 /* Server Folders */
-/* Not to be confused with the plugin ServerFolders */
-.da-expandedFolderBackground, .folder-21wGz3 {
+.da-expandedFolderBackground, .folder-21wGz3, .da-folderIconWrapper {
 	border-radius: var(--dplus-border-radius);
-	background-color: var(--dplus-background-dark-1) !important;
-}
-
-.da-folderIconWrapper,
-.da-folder.da-hover {
-	background-color: transparent !important;
 }
 
 .da-expandedFolderIconWrapper {
@@ -2360,7 +2352,6 @@ border-radius: var(--dplus-border-radius);
 }
 
 	/* ServerFolders */
-	/* Not to be confused with the native Server Folders */
 .da-flex .da-wrapper.foldercontent {
 	border-radius: var(--dplus-border-radius);
 	transition: margin .25s .2s, width .25s ease-in-out, opacity .25s !important;
