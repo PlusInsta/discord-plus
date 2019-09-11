@@ -1577,6 +1577,10 @@ border-radius: var(--dplus-border-radius);
 	line-height: 0;
 }
 
+.theme-light .da-tabBarItem { color: hsla(0, 0%, 100%, 0.4) !important; }
+.theme-light .da-tabBarItem:hover { color: hsla(0, 0%, 100%, 0.6) !important; }
+.theme-light .da-tabBarItem.da-selected { color: hsla(0, 0%, 100%, 1) !important; }
+
 .da-backdrop {
 	opacity: 0.68 !important;
 }
@@ -1705,16 +1709,12 @@ border-radius: var(--dplus-border-radius);
 	background-color transparent;
 }
 
-	/* Changelog modal */
-.modal-yWgWj- {
-	border-radius: var(--dplus-border-radius);
-}
-.modal-yWgWj- {
-	background-color: var(--dplus-background-dark-2) !important;
-}
-.modal-yWgWj- .da-footer {
-	background-color: transparent !important;
-}
+	/* Generic modal */
+.modal-yWgWj- { border-radius: var(--dplus-border-radius); }
+.theme-dark .modal-yWgWj- { background-color: var(--dplus-background-dark-2) !important; }
+.theme-light .modal-yWgWj- { background-color: var(--dplus-background-light-3) !important; }
+
+.modal-yWgWj- .da-footer { background-color: transparent !important; }
 
 	/* Pinned messages */
 .theme-dark .messagesPopoutWrap-1MQ1bW {
