@@ -153,6 +153,18 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	box-shadow: none !important;
 }
 
+/* Remove duplicate backgrounds */
+.scroller-1JbKMe,
+.scroller-1IIF0A,
+.scroller-5bBood,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
+.sidebar-2K8pFh,
+.messages-3amgkR,
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e {
+	background: transparent !important;
+}
+
 /* Lowercase italics */
 .da-privateChannels header,
 .da-membersGroup,
