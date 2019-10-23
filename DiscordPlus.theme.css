@@ -2254,22 +2254,6 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 	border-radius: var(--dplus-border-radius) !important;
 }
 
-.repo-loadingwrapper .pluginrepo-loadingicon {
-	display: none;
-}
-
-.repo-loadingwrapper {
-	bottom: 6px !important;
-	right: 8px !important;
-}
-
-.repo-loadingwrapper::before {
-	content: "Loading PluginRepo...";
-	font-size: 10px;
-	color: white;
-	text-align: right;
-}
-
 	/* CharCounter */
 #charcounter.normal {
     right: 10px !important;
