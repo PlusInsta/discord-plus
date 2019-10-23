@@ -132,6 +132,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .standardSidebarView-3F1I7i,
 .messagesWrapper-3lZDfY,
 .container-2lgZY8,
+.scroller-305q3I,
 .chat-3bRxxu,
 .chat-3bRxxu form,
 .content-yTz4x3,
@@ -1795,9 +1796,13 @@ aside .da-card .da-large .da-status {
 	background-color: transparent;
 	transition: background-color: .2s;
 }
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar {
-	width: 100%;
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+  max-width: 100%;
 }
+.da-sidebarRegion {
+	max-width: 218px;
+}
+
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
 	max-width: 100%;
