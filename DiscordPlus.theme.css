@@ -565,7 +565,7 @@ form .da-wrapper {
 .da-containerCozy .da-divider {
 	margin: 0 0 -25px 0 !important
 }
-.da-container:last-of-type .da-divider {
+.da-container:last-of-type .divider-32i8lo {
 	display: block !important;
 	padding: 10px;
 }
@@ -1104,6 +1104,7 @@ aside .da-card .da-large .da-status {
 }
 
 /*Game Store*/
+/* Deprecated. https://blog.discordapp.com/whats-coming-for-nitro-a732ddc4b5b1 */
 .theme-dark .applicationStore-1pNvnv,
 .theme-dark .itemBackground-1jfD8p {
     background-color: var(--dplus-background-dark-1);
@@ -1119,6 +1120,11 @@ aside .da-card .da-large .da-status {
 }
 .tile-367QuY, .tileWrapper-2khh-w {
 	border-radius: var(--dplus-border-radius);
+}
+
+/* Nitro tab */
+.da-scrollerStore {
+	background: transparent !important;
 }
 
 /* Nitro Games */
