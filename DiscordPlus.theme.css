@@ -1211,6 +1211,10 @@ aside .da-card .da-large .da-status {
 }
 .da-member.da-offline {	transition: opacity .2s; }
 
+.roleColor-rz2vM0 { /* prevent tags from flowing into a new line */
+    display: inline !important;
+}
+
 /* Bot tags */
 .da-botTag {
 	border-radius: var(--dplus-border-radius);
