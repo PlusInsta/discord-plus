@@ -895,7 +895,7 @@ form .da-wrapper {
 }
 
 
-.da-scroller header { padding: 16px 10px; transition: .2s padding }
+.da-scroller header { padding: 10px; transition: .2s padding }
 
 .friendsTable-133bsv .friendsRow-2yicud {
 	border-radius: var(--dplus-border-radius);
