@@ -2183,7 +2183,7 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 	transition: background-color .2s
 }
 
-/* Emoji Picker */
+/* Perhaps deprecated Emoji Picker code? Throw away unnecessary lines. */
 #bda-qem {
 	border-radius: var(--dplus-border-radius) var(--dplus-border-radius) 0 0 !important;
 }
@@ -2251,6 +2251,12 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 #bda-qem-favourite-container,
 #bda-qem-twitch-container {
 	background: var(--dplus-background-dark-1);
+}
+
+/* Emoji Picker */
+.emojiPicker-3m1S-j {
+	max-width: 420px !important;
+	border-radius: var(--dplus-border-radius) !important;
 }
 
 /*
