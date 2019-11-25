@@ -1840,17 +1840,19 @@ aside .da-card .da-large .da-status {
 }
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover,
 .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-	background-color: var(--dplus-background-dark-2);
-}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
 .theme-light .side-8zPYf6 .itemDefault-3Jdr52:hover,
 .theme-light .side-8zPYf6 .itemHover-EnbcjT:hover,
 .theme-light #bd-settings-sidebar .ui-tab-bar-item:hover {
-	background-color: var(--dplus-background-light-1);
+	background-color: var(--background-modifier-hover);
+	transition: background-color .2s, color .2s;
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-	background-color: var(--dplus-accent-color) !important;
+	background-color: var(--background-modifier-selected) !important;
+	transition: background-color .2s, color .2s;
 	cursor: default;
+}
+.item-PXvHYJ, .itemDefault-3Jdr52, .itemHover-EnbcjT, .ui-tab-bar-item {
 }
 
 #bd-settings-sidebar:after {
@@ -1913,7 +1915,7 @@ aside .da-card .da-large .da-status {
 	margin-left: 10px;
 }
 
-.theme-dark .bda-slist li { background: var(--dplus-background-dark-3); }
+.theme-dark .bda-slist li { background: var(--deprecated-card-bg); }
 .theme-dark .bda-slist .bda-header { color: white; }
 .theme-dark .bda-slist .bda-description { color: white; }
 
@@ -2493,7 +2495,7 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 
 [data-name="Discord+"] .bda-description::after {
 	display: block;
-	background: var(--background-modifier-active);
+	background: var(--deprecated-card-nbg);
 	border-radius: var(--dplus-border-radius);
 	padding: 10px;
 	margin-top: 10px;
