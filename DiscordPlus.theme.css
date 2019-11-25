@@ -17,6 +17,21 @@
   --dplus-background-light-4: hsla(0, 0%, 90%, 0.94);
 }
 
+/* Current theme variable shorthands */
+.theme-dark {
+	--dplus-background-1: var(--dplus-background-dark-1);
+	--dplus-background-2: var(--dplus-background-dark-2);
+	--dplus-background-3: var(--dplus-background-dark-3);
+	--dplus-background-4: var(--dplus-background-dark-4);
+}
+.theme-light {
+	--dplus-background-1: var(--dplus-background-light-1);
+	--dplus-background-2: var(--dplus-background-light-2);
+	--dplus-background-3: var(--dplus-background-light-3);
+	--dplus-background-4: var(--dplus-background-light-4);
+}
+
+
 /* Background image */
 .da-appMount, #app-mount {
 	background: var(--dplus-background) !important;
@@ -131,8 +146,10 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .itemBackground-1jfD8p::before,
 .standardSidebarView-3F1I7i,
 .messagesWrapper-3lZDfY,
+.messagesPopout-24nkyi,
 .container-2lgZY8,
 .scroller-305q3I,
+.header-ykumBX,
 .chat-3bRxxu,
 .chat-3bRxxu form,
 .content-yTz4x3,
@@ -1704,12 +1721,17 @@ aside .da-card .da-large .da-status {
 .modal-yWgWj- .da-footer { background-color: transparent !important; }
 
 	/* Pinned messages */
-.theme-dark .messagesPopoutWrap-1MQ1bW {
-	background-color: var(--dplus-background-dark-1);
+.messagesPopoutWrap-1MQ1bW {
+	background-color: var(--deprecated-card-bg) !important;
+	border: none !important;
+	width: 528px !important;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .header-SsaQ8X {
-	background-color: var(--dplus-background-dark-1);
+.messagesPopoutWrap-1MQ1bW .header-SsaQ8X {
+	background-color: var(--dplus-background-1) !important;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+.messageGroupWrapper-o-Zw7G {
+	border-radius: var(--dplus-border-radius);
 }
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
 	background-color: var(--dplus-background-dark-1);
@@ -1730,6 +1752,10 @@ aside .da-card .da-large .da-status {
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
 	background-color: var(--dplus-background-dark-1);
 	padding-bottom: 4px;
+}
+
+.messagesPopoutWrap-1MQ1bW .da-avatar [style="width: 40px; height: 40px;"] {
+	left: 6px;
 }
 
 .da-messagesPopoutWrap .da-containerCozy .da-divider {
