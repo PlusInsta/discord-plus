@@ -2228,7 +2228,7 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 
 .da-emojiPicker,
 .bda-dark .da-emojiPicker {
-    background-color: var(--dplus-background-dark-1);
+    background-color: var(--background-floating);
 }
 
 .da-emojiPicker .da-header {
