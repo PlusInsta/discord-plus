@@ -2482,24 +2482,31 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 }
 
 
-/* Theme Metadata */
-	/* This adds extra information in Settings */
+/* Theme Info */
+	/* This adds extra information to the Discord+ family of themes in Settings */
 [data-name="Discord+"] .bda-header-title::after {
 	margin-top: 10px;
 	margin-left: 10px;
 	color: grey;
-	content: "Latest release: v2.3";
+	content: "Latest release: v2.3.0";
 }
 
 [data-name="Discord+"] .bda-description::after {
-	content: "\A\AThank you for using my theme!\A\ASupport server: bit.ly/DiscordPlusServer";
+	display: block;
+	background: var(--background-modifier-active);
+	border-radius: var(--dplus-border-radius);
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	text-shadow: 0 0 2px black;
+	content: "\A\AThank you for using my theme!\A\AStop by the theme's server for chatting, bug reporting, or leaving feedback!\A bit.ly/DiscordPlusServer";
 }
 
 [data-name="Discord+ β"] .bda-header-title::after {
 	margin-top: 10px;
 	margin-left: 10px;
 	color: white;
-	content: "Latest: v2.3";
+	content: "Latest: master v2.3.0";
 	background-color: var(--dplus-accent-color);
 	border-radius: 10px;
 	padding-left: 5px;
@@ -2513,7 +2520,14 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 }
 
 [data-name="Discord+ β"] .bda-description::after {
-	content: "\A\AThank you for testing the latest changes!\A\APlease leave feedback in my server: bit.ly/DiscordPlusServer";
+	display: block;
+	background: var(--background-modifier-active);
+	border-radius: var(--dplus-border-radius);
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	text-shadow: 0 0 2px black;
+	content: "\A\A\Thank you for testing upcoming changes!\A\A\Please leave feedback in my server: bit.ly/DiscordPlusServer";
 }
 
 [data-name="Discord+ Source Code"] .bda-header-title::after {
@@ -2523,12 +2537,12 @@ button, [type="button"] { border-radius: var(--dplus-border-radius) !important; 
 
 [data-name="Discord+ Source Code"] .bda-description::after {
 	display: block;
-	background: var(--dplus-accent-color);
+	background: var(--background-modifier-active);
 	border-radius: var(--dplus-border-radius);
 	padding: 10px;
 	margin-top: 10px;
   font-size: 16px;
 	text-shadow: 0 0 2px black;
-	content: "Contributors:\A\
+	content: "Thanks to the following contributors:\A\
 	intrnl, micelle, TheLastZombie";
 }
