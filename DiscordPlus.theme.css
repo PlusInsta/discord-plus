@@ -152,8 +152,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 
 /* Remove duplicate backgrounds */
 .scroller-1JbKMe,
-.scroller-1IIF0A,
-.scroller-5bBood,
 .friendsTable-133bsv .friendsTableBody-1ZhKif,
 .theme-dark .bodyInner-245q0L,
 .theme-dark .footer-1fjuF6,
@@ -162,7 +160,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .sidebar-2K8pFh,
 .messages-3amgkR,
 .sidebarRegionScroller-3MXcoP,
-.contentRegionScroller-26nc1e {
+.contentRegionScroller-26nc1e  {
 	background: transparent !important;
 }
 
@@ -255,6 +253,12 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 }
 
 /* Guilds list */
+.theme-dark #bd-pub-li .wrapper-25eVIn {
+    background-color: var(--dplus-background-dark-1);
+}
+.theme-light #bd-pub-li .wrapper-25eVIn {
+    background-color: var(--dplus-background-light-2);
+}
 .da-flex .da-wrapper .da-scrollerWrap {
 	width: 72px;
 }
@@ -356,6 +360,15 @@ svg [name="Nova_Discord"],
 }
 .da-expandedFolderIconWrapper {
 	transform: none !important; /* prevent the icon from becoming tiny when closing */
+}
+/* Server Discovery/Add */
+.circleIconButton-jET_ig {
+    -webkit-transition: color .15s ease-out,background-color .15s ease-out;
+    transition: color .15s ease-out,background-color .15s ease-out;
+    color: var(--dplus-accent-color);
+}
+.circleIconButton-jET_ig.selected-ugP_am {
+    background-color: var(--dplus-accent-color);
 }
 
 /* Channel notices */
@@ -904,24 +917,19 @@ form .da-wrapper {
 	background-color: transparent !important;
 }
 
-/*Game Store*/
+/*Nitro Tab*/
 .theme-dark .applicationStore-1pNvnv,
 .theme-dark .itemBackground-1jfD8p {
     background-color: var(--dplus-background-dark-1);
     border-radius: var(--dplus-border-radius);
 }
-
-/* Nitro tab */
 .da-scrollerStore {
 	background: transparent !important;
 }
-
-/* Nitro Games */
-.theme-dark	.da-root {
-	background-color: var(--dplus-background-dark-1);
-}
-.da-tileWrapper .da-tile {
-	background-color: var(--dplus-accent-color) !important;
+.theme-light .applicationStore-1pNvnv,
+.theme-light .itemBackground-1jfD8p {
+    background-color: var(--dplus-background-light-2);
+    border-radius: var(--dplus-border-radius);
 }
 
 /* Gift Inventory */
@@ -931,6 +939,12 @@ form .da-wrapper {
 }
 .da-scrollerStore .da-body .da-root {
 	background-color: transparent !important;
+}
+.theme-dark	.da-root {
+	background-color: var(--dplus-background-dark-1);
+}
+.theme-light	.da-root {
+	background-color: var(--dplus-background-light-2);
 }
 
 /* Gifts */
@@ -1242,13 +1256,16 @@ form .da-wrapper {
 
 .da-searchFilter,
 .da-option.da-selected {
-	background-color: var(--dplus-background-dark-1) !important;
+	background-color: var(--dplus-background-dark-1)!important;
 }
-
+.theme-light .da-searchFilter,
+.da-option.da-selected {
+    background-color: var(--dplus-background-light-2)!important;
+    color: black;
+}
 .da-option {
 	transition: .2s;
 }
-
 .da-option.da-selected .da-filter,
 .da-option.da-selected .da-displayedNick {
 	color: white;
@@ -1285,9 +1302,19 @@ form .da-wrapper {
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
-
 .da-searchResultMessage .da-container:last-of-type .da-divider {
 	margin: 0 0 -5px 0 !important;
+}
+.theme-light .da-searchResultsWrap {
+	background-color: var(--dplus-background-light-1);
+}
+.theme-light .da-searchResultsWrap .da-searchResult .da-hit {
+	background-color: transparent;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.theme-light .searchHeader-1l-wpR {
+    background-color: var(--dplus-background-light-1)!important;
 }
 
 		/* Calendar picker */
@@ -1624,6 +1651,7 @@ form .da-wrapper {
 .item-PXvHYJ, .itemDefault-3Jdr52, .itemHover-EnbcjT, .ui-tab-bar-item {
 	transition: background-color .2s, color .2s;
 }
+
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover,
 .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
