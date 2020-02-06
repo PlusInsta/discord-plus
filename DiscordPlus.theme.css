@@ -548,20 +548,31 @@ form .da-wrapper {
 .messages-3amgkR {
     margin-bottom: -25px;
     border-radius: var(--dplus-border-radius);
-
 }
 
+
+.da-groupStart .container-3FojY8 {
+	border-radius: var(--dplus-border-radius) var(--dplus-border-radius) 0 0 !important;
+}
+
+.cozy-3raOZG .header-23xsNx { line-height: 2.5rem }
+
 .group-spacing-16 .groupStart-23k01U {
-    padding: 15px 0 0 75px;
+    padding: 16px 0 -1px 75px;
     border-radius: var(--dplus-border-radius) var(--dplus-border-radius) 0 0;
 }
 .group-spacing-16 .groupStart-23k01U:last-of-type {
-    padding: 15px 0 14px 75px;
+    padding: 16px 0 -1px 75px;
     border-radius: var(--dplus-border-radius);
 }
-.container-3FojY8:last-of-type {
+.messages-3amgkR :last-child {
     border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius);
 }
+
+.messages-3amgkR :last-child .message-2qnXI6.da-groupStart {
+	border-radius: var(--dplus-border-radius) !important;
+}
+
 .group-spacing-16 .groupStart-23k01U:before {
     display: block;
     background: var(--dplus-background-1);
