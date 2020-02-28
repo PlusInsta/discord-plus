@@ -450,8 +450,8 @@ foreignObject {
 }
 .avatar-1BDn8e {
     position: absolute;
-    left: -8px;
-    top: -15px;
+    left: 5px;
+    top: 2px;
     width: 60px;
     height: 60px;
     border-radius: var(--dplus-border-radius);
@@ -548,8 +548,8 @@ border-radius: var(--dplus-border-radius)
     background: var(--dplus-background-3)!important;
 }
 .message-2qnXI6.groupStart-23k01U, .message-2qnXI6.groupStart-23k01U:hover {
-    border-radius: var(--dplus-border-radius) var(--dplus-border-radius) 0 0 !important;
-    padding-top: 10px!important;
+    border-radius: var(--dplus-border-radius) var(--dplus-border-radius) 0 0!important;
+    padding-top: 15px!important;
 }
 .compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs, .message-2qnXI6:hover {
     padding-top: 0;
@@ -557,7 +557,7 @@ border-radius: var(--dplus-border-radius)
 }
 .da-groupStart:last-of-type, .message-2qnXI6.groupStart-23k01U:last-of-type:hover {
     border-radius: var(--dplus-border-radius)!important;
-    padding-bottom: 5px;
+    padding-bottom: 12px;
 }
 .message-2qnXI6.da-message.cozyMessage-3V1Y8y.da-cozyMessage.cozy-3raOZG.da-cozy:last-of-type {
     border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius);
@@ -566,8 +566,8 @@ border-radius: var(--dplus-border-radius)
     display: block;
     background: var(--dplus-background-1);
     content: "";
-    position: relative;
-    top: -27px;
+    position: absolute;
+    top: -17px;
     left: 0;
     border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius);
     height: 12px;
@@ -1292,8 +1292,6 @@ display: none
     opacity: 0.8;
     background-color:;
 }
-
-
 
 	/* Need help modal */
 .need-help-modal.deprecated .header { background-color: transparent }
