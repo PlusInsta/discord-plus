@@ -127,7 +127,8 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .scroller-1JbKMe, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
 .theme-light .bodyInner-245q0L, .theme-light .footer-1fjuF6, .sidebar-2K8pFh, 
 .messages-3amgkR, .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e,
-.theme-dark .da-friendsTable .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
+.theme-dark .da-friendsTable .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before, 
+.video-1kutKI {
 	background: transparent !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -192,12 +193,10 @@ svg.da-homeIcon,
 .message-2qnXI6.da-message.cozyMessage-3V1Y8y.da-cozyMessage.cozy-3raOZG.da-cozy:last-of-type, .group-spacing-16 .groupStart-23k01U:before {
 	border-radius: 0 0 var(--dplus-border-radius) var(--dplus-border-radius);
 }
-.da-wrapper.guilds-1SWlCJ .da-blobContainer .da-wrapper svg,
-.da-wrapper.guilds-1SWlCJ, .typeWindows-1za-n7, .winButton-iRh8-Z, 
+.guilds-1SWlCJ, .typeWindows-1za-n7, .winButton-iRh8-Z, 
 .da-flex .da-wrapper .da-scroller .da-container.da-selected::before,
-.da-expandedFolderBackground, .folder-21wGz3, .da-folderIconWrapper,
-.avatar-VxgULZ, .assetsLargeImage-eYwpTX, .da-gameIcon,
-.theme-dark .base-19D3Qq, .theme-light .base-19D3Qq, .da-guildIcon, 
+.da-expandedFolderBackground,  .da-folderIconWrapper,
+.avatar-VxgULZ, .assetsLargeImage-eYwpTX, .da-gameIcon, .da-guildIcon, 
 .container-1D34oG, .peopleListItem-2nzedh:hover,
 .container-3Mxszk, .innerNoAutocomplete-1WpcVO, .innerAutocomplete-1PN280,
 .innerAutocomplete-1PN280, .itemCard-v9viV7, .bd-search-wrapper, 
@@ -207,7 +206,7 @@ svg.da-homeIcon,
 .da-groupStart:last-of-type, .message-2qnXI6.groupStart-23k01U:last-of-type:hover, 
 .video-27HGyZ, .video-36_NdB, .embedVideo-3nf0O9, .imageWrapper-2p5ogY, 
 .scrollableContainer-2NUZem, .wrapper-29NfPK, .video-1FfuMD.minimum-1pRSEN, .chat-3bRxxu,
-.bd-switch {
+.bd-switch, .wrapper-25eVIn foreignObject, .pictureInPictureWindow-1B5qSe {
 	border-radius: var(--dplus-border-radius)!important;
 }
 
