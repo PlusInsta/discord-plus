@@ -494,9 +494,13 @@ foreignObject {
     padding-top: 15px!important;
 }
 .compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs, .message-2qnXI6:hover {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+
+.da-groupStart.systemMessage-1I9LCe.da-systemMessage {margin-top: 17px!important;}
+.systemMessage-1I9LCe.da-systemMessage {margin-top: 20px;}
+.iconContainer-3GkGRf.da-iconContainer {z-index: 10;}
 .cozy-3raOZG .messageContent-2qWWxC {
     overflow: visible;
 }
