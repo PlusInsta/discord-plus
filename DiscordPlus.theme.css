@@ -460,9 +460,9 @@ foreignObject {
 .avatar-1BDn8e {
     position: absolute;
     left: 5px;
-    top: 2px;
-    width: 60px;
-    height: 60px;
+    top: 5px;
+    width: 60px !important;
+    height: 60px !important;
 }
 /* Channel beginning message */
 .container-Vw8GSP, .theme-dark .base-19D3Qq, .theme-light .base-19D3Qq {
