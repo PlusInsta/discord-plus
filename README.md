@@ -1,23 +1,21 @@
 # ![Discord+](https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark_black.svg)
 A sleek, customizable Discord theme, inspired by Material.
 
-![Screenshot dark theme](https://cdn.discordapp.com/attachments/372469909180907531/621326166548283403/unknown.png)
-![Screenshot light theme](https://cdn.discordapp.com/attachments/372469909180907531/621326239793283098/unknown.png)
+![Screenshot of Discord+ in dark theme](https://i.imgur.com/Czuxyt3.png)
+![Screenshot of Discord+ in light theme](https://i.imgur.com/5mhka8H.png)
 
 ## What is this?
 
-**Discord+** is a theme for [Discord](https://discordapp.com). It's both sleek and customizable, without getting in your way. Its top priority is balancing between looks and performance.
+**Discord+** is a theme for [Discord](https://discord.com). It's both sleek and customizable, without getting in your way. Its top priority is balancing between looks and performance.
 
 All you need to install my theme is [BandagedBetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest). If you already have it installed, you're ready to install my theme! It's as easy as downloading a file and moving it to the right folder.
 
 ## User customization
-This theme is **fully customizable**.
-The variables at the top of the file allow you to change things like the background image, the accent color, the roundness of the UI, the fonts, and even the backdrop behind elements.
+This theme is **very customizable**.
+The variables at the top of the file allow you to change things like the background image, the accent color, the roundness of the UI, the fonts, and even the backdrop behind elements. Just open the file up in a text editor, and you're on your way.
 
-Check the [FAQ](https://github.com/PlusInsta/discord-plus/wiki/FAQ) for a full list of what you can do.
+If customizing the theme is difficult, feel free to drop by our server and we'll try our best to help!
 
-## Complete theme
-Discord+ aims to style everything on Discord. If there’s anything that is not styled, be it an official feature, a plugin, or a third-party feature, open an issue along with some information and I'll see what I can do.
 
 # Download
 [DiscordPlus-master.theme.css](https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css)
@@ -53,5 +51,6 @@ These steps assume the file is in your Downloads folder.
 * Run `discord`
 * Enable the theme in Settings (sorry, no Terminal command for this!)
 
+Check the [FAQ](https://github.com/PlusInsta/discord-plus/wiki/FAQ) for more information.
 # Discord server
-Join [this server](https://bit.ly/DiscordPlusServer) to chat, read changelogs, and discuss the theme. Feel free to drop by with your feedback!
+Join [this server](https://discord.gg/2Jwh2nS) to chat, read changelogs, discuss the theme, and more. Feel free to drop by with your feedback!
