@@ -395,7 +395,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	/* Friends list */
 .peopleColumn-29fq28, .itemCard-v9viV7, .theme-light .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover, theme-light .outer-1AjyKL.interactive-3B9GmY:hover { background: var(--dplus-background-1)}
 .theme-dark .popout-38lTFE, .theme-light .popout-38lTFE {background: var(--dplus-background-3)}
-.da-badge { background-color: var(--dplus-accent-color); color: white; opacity: 1 !important; box-shadow: 0 0 2px black; }
 .da-tabBar .da-item { transition: color .2s, background-color .2s; }
 .discriminator { transition: opacity .2s }
 
