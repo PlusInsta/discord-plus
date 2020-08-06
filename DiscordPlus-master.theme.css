@@ -1,6 +1,6 @@
 /**
- * @name Discord+ 
- * @description A sleek, customizable Discord theme.
+ * @name Discord+
+ * @description A sleek, customizable Discord theme. Have any questions? Stop by our support server by clicking the link below!
  * @source https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus.theme.css
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
@@ -8,37 +8,59 @@
  * @website https://plusinsta.github.io/discord-plus/
  * @invite 2Jwh2nS
 */
-@import url("https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus.theme.css");
+@import url("//plusinsta.github.io/discord-plus/DiscordPlus.theme.css");
+
+/*	I've commented most of these values so you can change them yourself.
+		If you're having trouble, or you want to do more than what these values
+		allow for, drop by our server and we can probably help you out! */
+
+/* Font import */
+/*	This URL controls the fonts that we load from the web. Go to fonts.google.com
+		and have a look! If there's any fonts you like, click them, select styles that
+		are the closest to 400 and 700 (as that's what Discord uses for regular and
+		bold formatted text), then click back onto the main page and repeat for any
+		additional fonts you want. When you're done, click "View selected families"
+		in the top right, click the Embed tab, and replace the link below with the "CSS
+		rules" it gives you. Refresh Discord, change the fonts below, and you're done! */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous");
 
-/*	See the FAQ for detailed info about these values.
-		https://github.com/PlusInsta/discord-plus/wiki/FAQ	*/
+
 :root {
-	/* Background */
+	/* Background image. Falls back to accent color if invalid. */
 	--dplus-background:			url('https://i.imgur.com/3AiL3yN.png');
-	/* Accent color */
+
+	/* Accent color, used to decorate the UI with colors. */
 	--dplus-accent-color:		#802060;
+
 	/* Fonts */
-		/* Display font (UI) */
-	--dplus-font-display:		'Poppins';
-		/* Text font (messages) */
-	--dplus-font-text:			'Roboto';
-		/* Names, titles & headers font */
-	--dplus-font-names:			'Righteous';
-	/* Rounded corners size */
-	--dplus-border-radius:	10px;
-	/* Background colors */
+		/* Display (Discord UI) */
+		--dplus-font-display:		'Poppins';
+		/* Message body */
+		--dplus-font-text:			'Roboto';
+		/* Names, titles & headers */
+		--dplus-font-names:			'Righteous';
+
+	/* Rounded corners sizes, measured in pixel radius
+		 Set avatar and guild radius to 50% if you want them to be circular
+		 Don't set UI radius to 50%, or else it'll completely break Discord! */
+ 	--dplus-avatar-radius: 20%;
+	--dplus-server-radius: 20%;
+	--dplus-ui-radius:	10px;
+
+	/*	Background covers. I recommend using one color range and sticking to it.
+			Ex.: light-1: lime, light-2: slightly more opaque lime, etc. */
 		/* Dark theme */
-	--dplus-background-dark-1: hsla(0, 0%, 0%, 0.68);
-	--dplus-background-dark-2: hsla(0, 0%, 0%, 0.74);
-	--dplus-background-dark-3: hsla(0, 0%, 0%, 0.82);
-	--dplus-background-dark-4: hsla(0, 0%, 0%, 0.90);
+	--dplus-bg-dark-1: hsla(0, 0%, 0%, 0.68);
+	--dplus-bg-dark-2: hsla(0, 0%, 0%, 0.74);
+	--dplus-bg-dark-3: hsla(0, 0%, 0%, 0.82);
+	--dplus-bg-dark-4: hsla(0, 0%, 0%, 0.90);
 		/* Light theme */
-	--dplus-background-light-1: hsla(0, 0%, 100%, 0.72);
-	--dplus-background-light-2: hsla(0, 0%, 100%, 0.80);
-	--dplus-background-light-3: hsla(0, 0%, 100%, 0.88);
-	--dplus-background-light-4: hsla(0, 0%, 90%, 0.94);
+	--dplus-bg-light-1: hsla(0, 0%, 100%, 0.72);
+	--dplus-bg-light-2: hsla(0, 0%, 100%, 0.80);
+	--dplus-bg-light-3: hsla(0, 0%, 100%, 0.88);
+	--dplus-bg-light-4: hsla(0, 0%, 90%, 0.94);
 }
 
 /*	You can drop your custom CSS below here.
-		If you want some examples, check out the FAQ. */
+		If it doesn't work, try adding !important to the end of the affected value.
+		If you need help with this, please don't hesitate to drop by our server! */
