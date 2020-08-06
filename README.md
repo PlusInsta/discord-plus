@@ -18,9 +18,9 @@ If customizing the theme is difficult, feel free to drop by our server and we'll
 
 
 # Download
-[DiscordPlus-master.theme.css](https://rawgit.com/PlusInsta/discord-plus/master/DiscordPlus-master.theme.css)
+[DiscordPlus-master.theme.css](https://plusinsta.github.io/discord-plus/DiscordPlus-master.theme.css)
 
-To download the theme, hover over this link, open the context menu and click "Save link as..."
+To download the theme, hold Alt and click this link. Save it to your Downloads for now.
 
 # Installation
 These steps assume the file is in your Downloads folder.
