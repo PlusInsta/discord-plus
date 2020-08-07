@@ -303,9 +303,6 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	0%		{ opacity: 0.8 }
 	100%		{ opacity: 1 }
 }
-.da-guildIcon {
-	background-color: var(--dplus-accent-color) !important;
-}
 .da-noChannel {
     background: var(--dplus-bg-2) !important;
 }
@@ -329,22 +326,25 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	transform: none !important; /* prevent the icon from becoming tiny when closing */
 }
 /* Server Discovery/Add */
+.scroller-1d5FgU { padding: 16px !important; }
+.guildIcon-3W0pfo { background-color: var(--dplus-bg-1) }
 .circleIconButton-jET_ig {
     -webkit-transition: color .15s ease-out,background-color .15s ease-out;
     transition: color .15s ease-out,background-color .15s ease-out;
     color: var(--dplus-accent-color);
 }
-.circleIconButton-jET_ig.selected-ugP_am, .headerContentWrapper-2u32yq, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+.circleIconButton-jET_ig.selected-ugP_am, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
 	background-color: var(--dplus-accent-color);}
 #app-mount .pageWrapper-1PgVDX, #app-mount .searchBox-3Y2Vi7, #app-mount .card-3DjzTQ, .css-1b86x2o-control, .css-9wh895-control, .loading-17PYl_ {
     background-color: var(--dplus-bg-1);
     box-shadow: none;
-    margin-left: 4px;
+    margin-left: 0;
+		border-radius: var(--dplus-ui-radius);
 }
 .css-1o55ng5-control {background-color: var(--dplus-bg-1);}
 .css-12qlrak-indicatorContainer, #app-mount .searchBoxInput-K6mkng,
 .closeIcon-2WLZc1, .searchIcon-6ljH-4 {
-    color: white!important;
+    color: white !important;
     opacity: 1
 }
 .css-123uooi-menu {
