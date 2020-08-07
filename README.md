@@ -53,4 +53,4 @@ These steps assume the file is in your Downloads folder.
 
 Check the [FAQ](https://github.com/PlusInsta/discord-plus/wiki/FAQ) for more information.
 # Discord server
-Join [this server](https://discord.gg/2Jwh2nS) to chat, read changelogs, discuss the theme, and more. Feel free to drop by with your feedback!
+Join [this server](https://discord.plus/support) to chat, read changelogs, discuss the theme, and more. Feel free to drop by with your feedback!
