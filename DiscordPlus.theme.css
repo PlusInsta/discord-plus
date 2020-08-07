@@ -842,11 +842,20 @@ display: none
   border: none!important;
 }
 
-/* Status menu */
-.menu-3sdvDG { border-radius: var(--dplus-ui-radius) !important; }
-#app-mount .menu-3sdvDG { background: var(--dplus-bg-4) !important;}
-
 /* Context menu */
+.menu-3sdvDG {
+	border-radius: var(--dplus-ui-radius) !important;
+	background: var(--dplus-bg-1) !important;
+}
+
+.scroller-3BxosC, .submenuPaddingContainer-fiOCHc { padding: 0; }
+.thin-1ybCId { backdrop-filter: blur(var(--blur-context) / 100 * var(--dplus-blur-scale))}
+.colorDefault-2K3EoJ { transition: .2s; }
+.item-1tOPte { border-radius: var(--dplus-ui-radius) }
+.colorDefault-2K3EoJ.focused-3afm-j {
+	background-color: var(--dplus-accent-color);
+}
+
 .contextMenu-HLZMGh { border-radius: var(--dplus-ui-radius); }
 .contextMenu-HLZMGh { padding: 0; }
 .item-1Yvehc {
