@@ -205,7 +205,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 	border-radius: var(--dplus-ui-radius) var(--dplus-ui-radius) 0 0 !important; }
 .da-itemGroup:last-of-type .da-item:last-of-type,
 .da-itemGroup:last-of-type .da-itemSubMenu:last-of-type,
-.scrollerSpacer-1Rp0XE, .group-spacing-16 .groupStart-23k01U:before, .css-123uooi-menu,
+.scrollerSpacer-avRLaA, .group-spacing-16 .groupStart-23k01U:before, .css-123uooi-menu,
 .searchResultsWrap-3-pOjs {
 	border-radius: 0 0 var(--dplus-ui-radius) var(--dplus-ui-radius); }
 .guilds-1SWlCJ, .typeWindows-1za-n7, .winButton-iRh8-Z,
@@ -224,7 +224,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .bd-switch, .pictureInPictureWindow-1B5qSe,
 .headerContentWrapper-2u32yq, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, .wrapper-39oAo3 {
 	border-radius: var(--dplus-ui-radius) !important; }
-.avatar-VxgULZ, .avatar-1BDn8e {
+.avatar-VxgULZ, .avatar-1BDn8e, .displayAvatar-1wWlVM .voiceAvatar-14IynY, .border-Jn5IOt, .avatar-3elDyV  {
 	border-radius: var(--dplus-avatar-radius) !important; }
 .icon-27yU2q, .icon-3o6xvg, .closedFolderIconWrapper-15K9MK, .folderIconWrapper-226oVY, .circleIconButton-jET_ig, .avatar-22otdK, .iconMask-3b8GzQ, .guildIcon-3W0pfo {
 	border-radius: var(--dplus-server-radius) !important; }
@@ -508,12 +508,12 @@ foreignObject {
 }
 
 /* Messages */
-.message-2qnXI6, .scrollerSpacer-1Rp0XE {
+.message-2qnXI6, .scrollerSpacer-avRLaA {
     margin: 0;
     background-color: var(--dplus-bg-1);
     box-shadow: none;
 }
-.scrollerSpacer-1Rp0XE {height: 12px; width: 100%}
+.scrollerSpacer-avRLaA {height: 12px; width: 100%}
 .message-2qnXI6:hover, .message-2qnXI6.selected-2P5D_Z {
     background: var(--dplus-bg-3)!important;
 }
@@ -653,17 +653,17 @@ display: none
 }
 
 /* New/Old/Load messages bar */
-.newMessagesBar-mujexs button:first-child {
+.newMessagesBar-265mhP button:first-child {
 	text-transform: lowercase;
 	font-style: italic;
 	font-size: 16px;
 }
-.newMessagesBar-mujexs {
+.newMessagesBar-265mhP {
 	background-color: var(--dplus-accent-color) !important;
 	border-radius: 0 0 var(--dplus-ui-radius) var(--dplus-ui-radius) !important;
 	z-index: 3;
 }
-.newMessagesBar-mujexs button:last-child {
+.newMessagesBar-265mhP button:last-child {
 	font-size: 12px;
 	text-transform: lowercase;
 }
