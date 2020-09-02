@@ -145,7 +145,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 #app-mount .bodyInner-245q0L, #app-mount .footer-1fjuF6, .privateChannels-1nO12o,
 .messages-3amgkR, .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e,
 .theme-dark .da-friendsTable .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before,
-.video-1kutKI, .iconMask-3b8GzQ, .container-PNkimc {
+.video-1kutKI, .iconMask-3b8GzQ, .container-PNkimc, .layer-3QrUeG {
 	background: transparent !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -224,9 +224,9 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .bd-switch, .pictureInPictureWindow-1B5qSe,
 .headerContentWrapper-2u32yq, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, .wrapper-39oAo3 {
 	border-radius: var(--dplus-ui-radius) !important; }
-.avatar-VxgULZ, .avatar-1BDn8e, .displayAvatar-1wWlVM .voiceAvatar-14IynY, .border-Jn5IOt, .avatar-3elDyV  {
+.avatar-VxgULZ, .avatar-1BDn8e, .displayAvatar-1wWlVM, .voiceAvatar-14IynY, .border-Jn5IOt, .avatar-3elDyV, .avatarHint-1qgaV3, .da-avatar, .partyMember-1CzxeX  {
 	border-radius: var(--dplus-avatar-radius) !important; }
-.icon-27yU2q, .icon-3o6xvg, .closedFolderIconWrapper-15K9MK, .folderIconWrapper-226oVY, .circleIconButton-jET_ig, .avatar-22otdK, .iconMask-3b8GzQ, .guildIcon-3W0pfo {
+.voiceSectionGuildImage-3HwnfL, .icon-27yU2q, .icon-3o6xvg, .closedFolderIconWrapper-15K9MK, .folderIconWrapper-226oVY, .circleIconButton-jET_ig, .avatar-22otdK, .iconMask-3b8GzQ, .guildIcon-3W0pfo {
 	border-radius: var(--dplus-server-radius) !important; }
 
 /* Blur */
@@ -470,8 +470,9 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 }
 
 /* Avatars */
-foreignObject {
-	mask: none !important; /*removes masks (necessary for border-radius to work)*/
+foreignObject, .voiceSectionGuildImage-3HwnfL, .partyMember-1CzxeX {
+	mask: none !important; 
+	-webkit-mask: none!important;/*removes masks (necessary for border-radius to work)*/
 }
 
 [viewBox="0 0 40 32"] {
@@ -488,10 +489,10 @@ foreignObject {
 }
 .avatar-1BDn8e {
     position: absolute;
-    top: 5px; left: 5px;
-    width: 60px !important;
-    height: 60px !important;
+    top: 5px!important; left: 5px!important;
+    height: 60px !important; width: 60px!important;
 }
+
 /* Channel beginning message */
 .container-3RCQyg{
 	background-color: var(--dplus-bg-1);
