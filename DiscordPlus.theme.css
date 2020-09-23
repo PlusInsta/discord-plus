@@ -137,14 +137,9 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .da-toolbar .da-divider { padding: 0 !important; }
 
 /* Global transparency */
-[style*="flex: 1 1 auto;"] > .da-container .da-friendsTable,
-.channelNotices-41mJbj .channelNotice-1-XFj, .standardSidebarView-3F1I7i,
-.chat-3bRxxu, .chat-3bRxxu form, .video-1FfuMD, .da-layer,
-.da-emojiPicker .da-dimmer, #app-mount .container-1D34oG, #app-mount .slide-2pHaq5,
-.da-paginator, #app-mount .container-2Thooq,.scroller-1JbKMe,
-#app-mount .bodyInner-245q0L, #app-mount .footer-1fjuF6, .privateChannels-1nO12o,
-.messages-3amgkR, .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e,
-.theme-dark .da-friendsTable .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before,
+.backdropWithLayer-3_uhz4, .chat-3bRxxu, .scroller-1JbKMe, #app-mount .container-1D34oG, .standardSidebarView-3F1I7i, #app-mount .action-3CzlXl,
+.contentRegionScroller-26nc1e, .sidebarRegionScroller-3MXcoP, .scroller-305q3I, #app-mount .footer-2gL1pp,
+.privateChannels-1nO12o, .wrapper-2ZbzR9
 .video-1kutKI, .iconMask-3b8GzQ, .container-PNkimc, .layer-3QrUeG {
 	background: transparent !important;
 	-webkit-box-shadow: none !important;
@@ -909,7 +904,11 @@ display: none
 .theme-dark .headerNormal-T_seeN {
 	background-color: var(--dplus-bg-dark-2);
 }
-
+.container-ZRw2kD {
+	background: var(--background-accent);
+	border-radius: var(--dplus-ui-radius);
+}
+.guildSection-1EoFKd {background-color: var(--dplus-bg-1);}
 	/* Search */
 .search-2oPWTC .searchBar-3dMhjb {
     transition-duration:300ms;
@@ -1004,7 +1003,10 @@ display: none
 .da-modal {
 	border-radius: var(--dplus-ui-radius);
 }
-
+#app-mount .root-1gCeng {
+	background-color: var(--dplus-bg-3);
+	box-shadow: none;
+}
 .da-tabBarItem,
 .top-28JiJ- .da-item {
 	background-color: var(--dplus-accent-color);
