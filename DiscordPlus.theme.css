@@ -565,6 +565,9 @@ foreignObject, .voiceSectionGuildImage-3HwnfL, .partyMember-1CzxeX {
 display: none
 }
 
+.theme-light .mentioned-xhSam7 {
+	background-color: linear-gradient(to right, #ffe9c9de, var(--dplus-bg-1)); }
+
 /* Media */
 .da-progress {
 	width: 100% !important;
