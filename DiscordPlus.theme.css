@@ -275,10 +275,10 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 		/* Home Icon */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: transparent;}
 .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-	background: url(//plusinsta.github.io/discord-plus/master/assets/discord/home_dark.svg);
+	background: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
 }
 .theme-light .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-	background: url(//plusinsta.github.io/discord-plus/master/assets/discord/home_light.svg);
+	background: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 }
 	/* List */
 #app-mount #bd-pub-li .wrapper-25eVIn, .da-pageWrapper {
@@ -1447,7 +1447,7 @@ box-shadow: none;
 
 .da-previewOverlayInner img.marginBottom20-32qID7 {
 	border-radius: var(--dplus-ui-radius);
-	background-image: url(//plusinsta.github.io/discord-plus/master/assets/discord/camera.svg);
+	background-image: url(//plusinsta.github.io/discord-plus/assets/discord/camera.svg);
 	background-color: #2f3136;
 }
 
