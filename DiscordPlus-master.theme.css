@@ -34,11 +34,11 @@
 --dplus-accent-color: #802060;
 
 /* Fonts */
-   /* Display (Discord UI) */
+  /* Display (Discord UI) */
 --dplus-font-display: 'Poppins';
-   /* Message body */
+  /* Message body */
 --dplus-font-text: 'Roboto';
-   /* Names, titles & headers */
+  /* Names, titles & headers */
 --dplus-font-names: 'Righteous';
 
 /* Rounded corners sizes, measured in pixel radius
