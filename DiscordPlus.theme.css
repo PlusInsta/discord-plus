@@ -281,10 +281,10 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 /* Home Icon */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: transparent;}
 .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6I2ZmZn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+);
+	background: url(//plusinsta.github.io/discord-plus/master/assets/discord/home_dark.svg);
 }
 .theme-light .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6IzAwMH08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+);
+	background: url(//plusinsta.github.io/discord-plus/master/assets/discord/home_light.svg);
 }
 
 /* Guilds list */
