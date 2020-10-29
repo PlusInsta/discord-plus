@@ -566,7 +566,7 @@ display: none
 }
 
 .theme-light .mentioned-xhSam7 {
-	background-color: linear-gradient(to right, #ffe9c9de, var(--dplus-bg-1)); }
+		background: linear-gradient(to right, #ffe9c9de, var(--dplus-bg-1)); }
 
 /* Media */
 .da-progress {
