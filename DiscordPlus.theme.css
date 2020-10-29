@@ -2,7 +2,7 @@
  * @name Discord+ Source Code
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
- * @version 2.4
+ * @version 2.4.1
  * @description Thank you for checking out the source code! And thank you to all of the people who helped make this theme possible.
  * @website https://plusinsta.github.io/discord-plus
  * @source https://raw.githubusercontent.com/PlusInsta/discord-plus/master/DiscordPlus.theme.css
@@ -19,7 +19,7 @@
 	--dplus-avatar-radius: 20%;
 	--dplus-server-radius: 20%;
 	--dplus-ui-radius: 10px;
-	--dplus-blur-scale: 0;
+	--dplus-blur-scale: 100;
 	--dplus-bg-dark-1: hsla(0, 0%, 0%, 0.68);
 	--dplus-bg-dark-2: hsla(0, 0%, 0%, 0.74);
 	--dplus-bg-dark-3: hsla(0, 0%, 0%, 0.82);
