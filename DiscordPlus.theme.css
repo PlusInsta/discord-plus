@@ -1261,6 +1261,10 @@ box-shadow: none;
 	transition: background-color .2s, color .2s;
 }
 
+.sidebarScrollable-1qPI87+.content-1rPSz4 {
+	max-width: 100%
+}
+
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
 #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
