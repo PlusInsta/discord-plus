@@ -218,7 +218,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .da-groupStart:last-of-type, .message-2qnXI6.groupStart-23k01U:last-of-type:hover,
 .video-27HGyZ, .video-36_NdB, .embedVideo-3nf0O9, .imageWrapper-2p5ogY,
 .scrollableContainer-2NUZem, .wrapper-29NfPK, .video-1FfuMD.minimum-1pRSEN, .chat-3bRxxu,
-.bd-switch, .pictureInPictureWindow-1B5qSe, .root-1gCeng,
+.bd-switch, .pictureInPictureWindow-1B5qSe, .root-1gCeng, .container-3PXSwK,
 .headerContentWrapper-2u32yq, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, .wrapper-39oAo3 {
 	border-radius: var(--dplus-ui-radius) !important; }
 .avatar-VxgULZ, .avatar-1BDn8e, .displayAvatar-1wWlVM, .voiceAvatar-14IynY, .border-Jn5IOt, .avatar-3elDyV, .avatarHint-1qgaV3, .da-avatar, .partyMember-1CzxeX  {
@@ -1267,6 +1267,14 @@ box-shadow: none;
 
 .container-3PXSwK { /* Fix for Mic Test being long */
 	max-width: 560px;
+}
+
+.notches-1sAcEM.gray-3_LNYR {
+    background-image: none !important;
+}
+
+.progress-1IcQ3A {
+	height: 20px !important;
 }
 
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
