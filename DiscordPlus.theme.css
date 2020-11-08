@@ -218,7 +218,7 @@ header, h1, h2, .da-header, .da-username, .da-channelName, .bda-name, .da-messag
 .da-groupStart:last-of-type, .message-2qnXI6.groupStart-23k01U:last-of-type:hover,
 .video-27HGyZ, .video-36_NdB, .embedVideo-3nf0O9, .imageWrapper-2p5ogY,
 .scrollableContainer-2NUZem, .wrapper-29NfPK, .video-1FfuMD.minimum-1pRSEN, .chat-3bRxxu,
-.bd-switch, .pictureInPictureWindow-1B5qSe, .root-1gCeng, .container-3PXSwK,
+.bd-switch, .pictureInPictureWindow-1B5qSe, .root-1gCeng,
 .headerContentWrapper-2u32yq, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG, .wrapper-39oAo3 {
 	border-radius: var(--dplus-ui-radius) !important; }
 .avatar-VxgULZ, .avatar-1BDn8e, .displayAvatar-1wWlVM, .voiceAvatar-14IynY, .border-Jn5IOt, .avatar-3elDyV, .avatarHint-1qgaV3, .da-avatar, .partyMember-1CzxeX  {
@@ -1265,14 +1265,11 @@ box-shadow: none;
 	max-width: 100%
 }
 
+	/* Mic Test */
 .container-3PXSwK { /* Fix for Mic Test being long */
 	max-width: 560px;
+	-webkit-mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOCIgaGVpZ2h0PSIyMCIgZmlsbD0iIzM2MzkzZiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAyYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMSAwIDQgMFY0YTIgMiAwIDAgMC0yLTJ6Ii8+PC9zdmc+');
 }
-
-.notches-1sAcEM.gray-3_LNYR {
-    background-image: none !important;
-}
-
 .progress-1IcQ3A {
 	height: 20px !important;
 }
@@ -1655,7 +1652,4 @@ button, [type="button"] { border-radius: var(--dplus-ui-radius) !important; tran
 }
 .bf-toolbar .format:hover img {
 	opacity: 1;
-}
-.container-3PXSwK {											/* voicesettings		voicebarcontainer					*/
-	-webkit-mask: url('data:image/svg+xml;base64,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iOCIgaGVpZ2h0PSIyMCIgZmlsbD0iIzM2MzkzZiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNCAyYTIgMiAwIDAgMC0yIDJ2MTJhMiAyIDAgMSAwIDQgMFY0YTIgMiAwIDAgMC0yLTJ6Ii8+PC9zdmc+');
 }
