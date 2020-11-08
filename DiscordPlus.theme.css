@@ -1265,6 +1265,10 @@ box-shadow: none;
 	max-width: 100%
 }
 
+.container-3PXSwK { /* Fix for Mic Test being long */
+	max-width: 560px;
+}
+
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
 #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
