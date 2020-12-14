@@ -404,6 +404,13 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 #app-mount .focused-1En8bG:after, .theme-dark .result-3w1ZcL:hover:after {
     box-shadow: inset 0 0 0 2px var(--dplus-accent-color), inset 0 0 0 3px #2f3136;
 }
+/* Region Select */
+#app-mount .quickSelectPopout-X1hvgV {
+	background-color: var(--dplus-bg-2);
+	border-radius: var(--dplus-ui-radius);
+}
+.quickSelectPopoutOption-opKBx9 {border-radius: var(--dplus-ui-radius);}
+.quickSelectPopoutOption-opKBx9:hover, .quickSelectPopoutOption-opKBx9.selected {background-color: var(--dplus-accent-color);}
 
 /* Light theme stuff */
 .theme-light .emoji, .theme-light .emoji.jumboable {
