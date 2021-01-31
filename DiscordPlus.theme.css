@@ -605,7 +605,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 .wrapper-1F5TKx, #app-mount .children-19S4PO:after {display: none;}
 
 	/* Avatars */
-.wrapper-3t9DeA foreignObject, .callAvatarMask-1SLlRi foreignObject, .wrapper-3t9DeA + svg foreignObject {mask: none;}
+.wrapper-3t9DeA foreignObject, .callAvatarMask-1SLlRi foreignObject, .wrapper-3t9DeA + svg foreignObject, .avatarContainerMasked-PIJ-3L foreignObject {mask: none;}
 .wrapper-3t9DeA img, .voiceAvatar-14IynY, .border-Jn5IOt, .avatarHint-1qgaV3, .da-avatar,  .wrapper-2QE8vf.ringingIncoming-38YcLn:after, .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after, .avatar-1BDn8e, .option-96V44q.user-O3Czj0 .displayAvatar-1wWlVM  {
 	border-radius: var(--dplus-avatar-radius) !important; }
 .avatar-1BDn8e.clickable-1bVtEA:active {translate: none;}
@@ -638,8 +638,9 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	content: "";
 	position: absolute;
 	top: -17px; left: 0;
+	pointer-events: none;
 }
-.divider-JfaTT5 {
+.divider-JfaTT5, .container-3RCQyg {
 	border: none;
 	margin: 0!important;
 }
@@ -649,7 +650,8 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 }
 .hasContent-1cNJDh + .groupStart-23k01U {margin-top: 25px;}
 .hasContent-1cNJDh + .groupStart-23k01U:before {top: -25px;}
-.wrapper-2a6GCs:hover + .groupStart-23k01U:before, .wrapper-2a6GCs:hover + .scrollerSpacer-avRLaA, .wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before {background-color: var(--dplus-bg-3);}
+.wrapper-2a6GCs:hover + .groupStart-23k01U:before, .wrapper-2a6GCs:hover + .scrollerSpacer-avRLaA, .wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before, 
+.wrapper-2a6GCs.selected-2P5D_Z + .groupStart-23k01U:before, .wrapper-2a6GCs.selected-2P5D_Z + .scrollerSpacer-avRLaA, .wrapper-2a6GCs.selected-2P5D_Z + .hasContent-1cNJDh + .groupStart-23k01U:before {background-color: var(--dplus-bg-3);}
 .content-1o0f9g {
 	background: none;
 	color: var(--text-normal);
@@ -797,7 +799,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	transition: background-color .2s;
 	overflow: hidden;
 }
-.cardPrimary-1Hv-to, .cardPrimaryOutline-29Ujqw, .item-26Dhrx, .radioBar-bMNUI- {
+.cardPrimary-1Hv-to, .cardPrimaryOutline-29Ujqw, .item-26Dhrx {
 	background-color: var(--dplus-bg-2);
 	border-radius: var(--dplus-ui-radius);
 }
@@ -821,6 +823,24 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 #app-mount .closeButton-1tv5uR + .keybind-KpFkfr {color: var(--text-normal);}
 .background-1QDuV2 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-avatar-radius);}
 .item-26Dhrx:hover:not([aria-checked=true]) {background-color: var(--dplus-bg-2);}
+	/* Avatar Preview */
+.editingContainer-3s5xK0:after {
+	content: "";
+	box-shadow: 0 0 0 9999px rgba(0,0,0,.6);
+	border: 5px solid var(--dplus-accent-color);
+	border-radius: var(--dplus-avatar-radius);
+	width: 301px;
+	height: 301px;
+	z-index: 1; 
+	pointer-events: none;
+}
+.overlay-4k_Q4- {box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.3);}
+.sliderContainer-1N1-Pn::after {
+	content: "Accent coloured box previews how much is visible with the theme on.";
+	color: var(--text-normal);
+	position: absolute;
+	bottom: 10px;
+}
 	/*Billing*/
 .da-paymentPane, #app-mount .expandedInfo-3kfShd, #app-mount .codeRedemptionRedirect-1wVR4b {
 	background-color: var(--dplus-bg-1) !important;
