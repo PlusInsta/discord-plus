@@ -468,6 +468,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	margin-left: 10px;
 	margin-top: 10px;
 	background: var(--dplus-bg-1);
+	border-radius: var(--dplus-ui-radius);
 }
 .platform-osx .wrapper-1Rf91z {
 	margin-top: 0px !important;
@@ -790,6 +791,28 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar {
 	padding-top: 45px;
 }
+
+.platform-osx [id="user-settings"] {
+	left: -5px !important;
+	top: -5px !important;
+	right: -5px !important;
+	bottom: -5px !important;
+}
+
+.platform-win [id="user-settings"] {
+	left: -5px !important;
+	top: -27px !important;
+	right: -5px !important;
+	bottom: -5px !important;
+}
+
+.platform-linux [id="user-settings"] {
+	left: -5px !important;
+	top: -5px !important;
+	right: -5px !important;
+	bottom: -5px !important;
+}
+
 #app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
 #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
 	background-color: var(--dplus-bg-1);
