@@ -715,6 +715,12 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 .centerButton-3CaNcJ {border-radius: var(--dplus-ui-radius);}
 .colorable-1bkp8v.primaryDark-3mSFDl {background-color: var(--dplus-bg-1);}
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {background-color: var(--background-accent);}
+.tile-2naSqK {background: transparent!important;}
+.background-ujHpbY {background-color: var(--dplus-bg-1)!important;}
+.avatarSpeaking-2IGMRN, .border-3dQmSY.speaking-WDn8Wm, .border-Jn5IOt.speaking-B2MXPi {
+    -webkit-box-shadow: inset 0 0 0 2px var(--dplus-accent-color),inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px var(--dplus-accent-color),inset 0 0 0 3px var(--background-secondary);
+}
 	/* Attachments */
 #app-mount .attachment-33OFj0,
 #app-mount .wrapper-2TxpI8 {
