@@ -167,8 +167,11 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
   border: none!important;
   border-radius: var(--dplus-ui-radius);
 }
-:not(.scroller-2TZvBN)::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px!important;
+}
+.scroller-2TZvBN::-webkit-scrollbar, .scroller-1Bvpku::-webkit-scrollbar {
+	width: 0!important;
 }
 ::-webkit-scrollbar-track {
   background: transparent!important;
@@ -477,17 +480,19 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 
 /* Guilds list */
 		/* Home Icon */
-.homeIcon-tEMBK1 {display: none !important;}
+.homeIcon-tEMBK1, .homeIcon-FuNwkv {display: none !important;}
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: transparent;}
-.theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9 {
+.theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9,
+.theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
 	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6I2ZmZn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+');
 }
-.theme-light .tutorialContainer-1v44GL .childWrapper-anI2G9 {
+.theme-light .tutorialContainer-1v44GL .childWrapper-anI2G9,
+.theme-light .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
 	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6IzAwMH08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+');
 }
 		/* List */
 .guilds-1SWlCJ foreignObject {mask: none;}
-.guildSeparator-3s64Iy {display: none}
+.guildSeparator-3s64Iy, .guildSeparator-33mFX6 {display: none}
 .folder-21wGz3, .folder-21wGz3.hover-2ji_A7 {background-color: transparent;}
 #app-mount .childWrapper-anI2G9, .expandedFolderBackground-2sPsd-, #bd-pub-button {background-color: var(--dplus-bg-1);}
 #app-mount .guilds-1SWlCJ { 
@@ -495,13 +500,13 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	border-radius: var(--dplus-ui-radius);
 }
 .da-expandedFolderIconWrapper {transform: none!important;}
-.listItem-2P_4kh :not(span) {border-radius: var(--dplus-server-radius)!important;}
+.listItem-2P_4kh :not(span), .listItem-GuPuDH :not(span) {border-radius: var(--dplus-server-radius)!important;}
 .expandedFolderBackground-2sPsd- {border-radius: var(--dplus-ui-radius);}
-.circleIconButton-jET_ig {
+.circleIconButton-jET_ig, .circleIconButton-1QV--U {
 	transition: color .15s ease-out,background-color .15s ease-out;
 	color: var(--dplus-accent-color);
 }
-.circleIconButton-jET_ig.selected-ugP_am {background-color: var(--dplus-accent-color);}
+.circleIconButton-jET_ig.selected-ugP_am, .circleIconButton-1QV--U.selected-1JjBPm {background-color: var(--dplus-accent-color);}
 
 	/* Server Discovery */
 .scroller-1d5FgU { padding: 16px !important; }
@@ -852,13 +857,14 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 .background-1QDuV2 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-avatar-radius);}
 .item-26Dhrx:hover:not([aria-checked=true]) {background-color: var(--dplus-bg-2);}
 	/* Avatar Preview */
-.editingContainer-3s5xK0:after {
+.overlay-4k_Q4-:after {
 	content: "";
 	box-shadow: 0 0 0 9999px rgba(0,0,0,.6);
 	border: 5px solid var(--dplus-accent-color);
 	border-radius: var(--dplus-avatar-radius);
-	width: 301px;
-	height: 301px;
+	height: 100%; width: 100%;
+	position: absolute;
+	left: -5px; top: -5px;
 	z-index: 1; 
 	pointer-events: none;
 }
