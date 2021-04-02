@@ -56,17 +56,17 @@
 html { background-color: var(--dplus-accent-color); }
 /* Fonts */
 	/* Display font */
-body, button, select, ::-webkit-input-placeholder, .timestamp-3ZCmNB, .activityText-yGKsKm, .activityText-OW8WYb {
+body, button, select, ::-webkit-input-placeholder {
 	font-family: var(--dplus-font-display), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
 }
 	/* Text font */
-p, textarea, input, placeholder, .message-2qnXI6, .markup-2BOw-j, .da-member, .da-viewBody, .da-modeDefault, .da-description, .da-messagesWrapper .da-base h1, .bda-description {
+p, textarea, input, placeholder, .da-message, .da-markup, .da-member, .da-viewBody, .da-modeDefault, .da-description, .da-messagesWrapper .da-base h1, .bda-description {
 	font-family: var(--dplus-font-text), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
 }
 	/* Names, titles, and headers font */
 .da-nameAndDecorators, .da-nameWrapper, .da-nameTag, .da-emojiUploader,
 .da-noChannel .da-title, .da-titleText, .da-nameCellText, .bda-author, .da-timestamp,
-header, h1, h2, .da-header, .da-username, .da-channelName, .name-uJV0GL, .da-messagesWrapper .da-base h1 strong {
+header, h1, h2, .da-header, .da-username, .name-uJV0GL, .da-messagesWrapper .da-base h1 strong {
 	font-family: var(--dplus-font-names), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 	/* Discord branding font */
