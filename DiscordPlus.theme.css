@@ -929,6 +929,9 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 #app-mount .contentRegionScroller-26nc1e [xmlns] g > path, #app-mount .closeButton-1tv5uR:hover [xmlns] g > path {fill: transparent;}
 #app-mount .contentRegionScroller-26nc1e [xmlns] path + path {fill: var(--dplus-accent-color);}
 #app-mount .closeButton-1tv5uR:hover [xmlns] path + path {fill: white;}
+[for="minimalMode"] + div {display: none;}
+[for="minimalMode"] {pointer-events: none;}
+[for="minimalMode"]::after {content: ": causes issues, turned off until a fix"}
 	/* Ace Editor / Custom CSS */
 #bd-customcss-attach-controls {
 	margin-top: 10px;
