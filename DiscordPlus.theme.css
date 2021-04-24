@@ -715,7 +715,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	height: 100%;
 }
 .streamPreviewWrapper-2DSWOK {padding: 0;}
-.centerButton-3CaNcJ, .avatarSpeaking-2c8-9i {border-radius: var(--dplus-ui-radius);}
+.centerButton-3CaNcJ, .avatarSpeaking-2c8-9i {border-radius: var(--dplus-avatar-radius);}
 .colorable-1bkp8v.primaryDark-3mSFDl {background-color: var(--dplus-bg-1);}
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {background-color: var(--background-accent);}
 .tile-2naSqK {background: transparent!important;}
