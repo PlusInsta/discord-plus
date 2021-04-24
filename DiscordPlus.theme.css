@@ -1010,8 +1010,8 @@ button, [type="button"] {
     border-radius: var(--dplus-ui-radius) !important;
     transition: .2s !important;
 }
-.container-3auIfb svg path {display:none;}
-.lookFilled-1Gx00P.colorBrand-3pXr91, .container-3auIfb:not([style*="125"]), .bd-switch-checked {background-color: var(--dplus-accent-color)!important;}
+.container-3auIfb svg path, svg.bd-switch-symbol {display:none;}
+.lookFilled-1Gx00P.colorBrand-3pXr91, .container-3auIfb:not([style*="125"]), .bd-switch input:checked+.bd-switch-body {background-color: var(--dplus-accent-color)!important;}
 	/* Server settings */
 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-server-radius);}
 .scroller-305q3I, #app-mount .headerClickable-2IVFo9, #app-mount .headerDefault-1wrJcN {background: transparent;}
