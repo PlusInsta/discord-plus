@@ -1143,3 +1143,13 @@ button, [type="button"] {
 .bf-toolbar .format:hover img {
 	opacity: 1;
 }
+
+/* always be plugging */
+[href="https://plusinsta.carrd.co"],
+[href="https://plusinsta.carrd.co/"],
+[href="https://PlusInsta.carrd.co"],
+[href="https://PlusInsta.carrd.co/"] {
+	color: #802060 !important;
+	border-bottom: 1px solid;
+	font-family: Righteous;
+}
