@@ -60,18 +60,37 @@ body, button, select, ::-webkit-input-placeholder {
 	font-family: var(--dplus-font-display), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
 }
 	/* Text font */
-p, textarea, input, placeholder, .da-message, .da-markup, .da-member, .da-viewBody, .da-modeDefault, .da-description, .da-messagesWrapper .da-base h1, .bda-description {
+p, textarea, input, placeholder,
+.message-2qnXI6, .markup-2BOw-j, /*chat messages*/
+.member-3-YXUe, /*member list text*/
+.customStatusText-3YJeRZ, /*user's custom status*/
+.modeDefault-3a2Ph1, /*settings small text*/
+.emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA, /*server settings: emoji name*/
+/*note that usually names don't use text font, but because emoji names are typed into chat, they go here*/
+.topic-TCb_qw, /*channel topic in chat header*/
+.content-38qMG0, /*channel topic popup body*/
+.bd-description /*BD: plugin/theme desc*/ {
 	font-family: var(--dplus-font-text), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
 }
 	/* Names, titles, and headers font */
-.da-nameAndDecorators, .da-nameWrapper, .da-nameTag, .da-emojiUploader,
-.da-noChannel .da-title, .da-titleText, .da-nameCellText, .bda-author, .da-timestamp,
-header, h1, h2, .da-header, .da-username, .name-uJV0GL, .da-messagesWrapper .da-base h1 strong {
+header, h1, h2,
+.nameAndDecorators-5FJ2dg, /*name in member list*/
+.headerNameWrapper-3res2c, /*nickname in profile popup*/
+.nameTag-m8r81H, /*username#tag in profile popup*/
+.nameTag-3uD-yy, /*your username in the bottom-left*/
+.detailsInner-1VPlWl, /*settings: your username in My Account*/
+.activityName-1IaRLn, /*user's activity name, includes song and author titles*/
+.emojiUploader-1f0pVx, /*server settings: emoji's uploader*/
+.userHook-3AdCBF, /*server settings: username in audit log*/
+.secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot names*/
+.roleName-32vpEy, /*role name in profile*/
+.roleName-1vjSQR, .roleName-2IkRdr, /*role name in server settings*/
+.roleRow-1iQo_1, /*role name in context menu*/
+.title-29uC1r, /*channel name in chat header*/
+.title-3sZWYQ, /*channel name in channel topic popup*/
+.bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
+.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/ {
 	font-family: var(--dplus-font-names), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
-}
-	/* Discord branding font */
-.da-introHeader, .da-introBlurb, .da-planOption .da-button, .da-feature, .da-feature .da-description, .da-sectionTier1, .da-tier1Banner .da-planInfo, .da-sectionTier2, .da-subsectionHeader, .da-premiumFeaturesHeader, #user-settings .da-sidebar div:nth-child(8):not(.ui-tab-bar-item) {
-	font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
 }
 
 /* Core */
