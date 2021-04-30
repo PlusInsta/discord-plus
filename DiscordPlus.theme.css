@@ -292,7 +292,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	padding: 0;
 	overflow: hidden!important;
 }
-.submenuPaddingContainer-fiOCHc {margin-left: -3px;}
+.submenuPaddingContainer-fiOCHc {margin-right: -4px;margin-left: -4px;} /* fixes the submenu being four pixels off */
 .menu-3sdvDG {background-color: transparent;}
 .thin-1ybCId { backdrop-filter: blur(var(--blur-context) / 100 * var(--dplus-blur-scale))}
 .colorDefault-2K3EoJ { transition: .2s; }
