@@ -46,6 +46,7 @@
 	--blur-backdrop: 4px;
 	--blur-bgcover: 3px;
 	--blur-context: 2px;
+	--blurcalc-context: blur(calc(var(--blur-context) / 100 * var(--dplus-blur-scale)));
 }
 
 /* Background image */
@@ -293,8 +294,16 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	overflow: hidden!important;
 }
 .submenuPaddingContainer-fiOCHc {margin-right: -4px;margin-left: -4px;} /* fixes the submenu being four pixels off */
-.menu-3sdvDG {background-color: transparent;}
-.thin-1ybCId { backdrop-filter: blur(calc(var(--blur-context) / 100 * var(--dplus-blur-scale)))}
+.menu-3sdvDG { background-color: transparent;}
+
+.item-1tOPte:not([aria-haspopup="true"]),
+.item-1tOPte[aria-haspopup="true"],
+.wrapper-3_530D,
+.separator-2I32lJ { backdrop-filter: var(--blurcalc-context)}
+/* the context menu backdrop blur has to be applied separately for elements
+that have popups, or else the menu breaks when you hover over them */
+
+
 .colorDefault-2K3EoJ { transition: .2s; }
 .item-1tOPte, .button-F9qN4n:hover, .button-F9qN4n.focused-3ZzkKr { border-radius: var(--dplus-ui-radius) }
 .item-1tOPte {
@@ -992,7 +1001,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	max-height: 100%;
 	margin-bottom: 10px !important; padding: 10px;
 }
-.bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: blur(calc(var(--blur-context) / 100 * var(--dplus-blur-scale)));}
+.bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: var(--blurcalc-context);}
 .bd-select-transparent .bd-select-options { border-radius: var(--dplus-ui-radius) !important; border-color: var(--dplus-bg-1);}
 .bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bg-1);}
 .bda-slist .bda-header {
