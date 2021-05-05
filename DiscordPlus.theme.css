@@ -320,20 +320,19 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .item-1tOPte.colorDanger-2qLCe1:hover {background-color: #f04747;}
 	/* Profile Popout */
+.userPopout-3XzG_A {
+	border-radius: var(--dplus-ui-radius);
+	box-shadow: none !important;
+	backdrop-filter: var(--blurcalc-popout);
+}
+.headerTop-3C2Zn0, .activity-11LB_k, .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
+.body-3iLsc4 { padding: var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) / 2) var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
+.footer-1fjuF6 { padding: 0 var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
+.avatarWrapper-3H_478 { margin-bottom: var(--dplus-ui-spacing); }
 #app-mount .headerNormal-T_seeN, #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6,
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT, .headerXbox-3G-4PF {
 	background-color: transparent;
 }
-.layer-v9HyYc { backdrop-filter: var(--blurcalc-popout); }
-
-
-.userPopout-3XzG_A { box-shadow: none !important; }
-
-.avatarWrapper-3H_478 { margin-bottom: var(--dplus-ui-spacing); }
-
-.body-3iLsc4 { padding: var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) / 2) var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
-.headerTop-3C2Zn0, .activity-11LB_k, .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
-.footer-1fjuF6 { padding: 0 var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
 
 .headerPlaying-j0WQBV .activity-11LB_k {background: #7289da;}
 .headerStreaming-2FjmGz .activity-11LB_k {background: #593695;}
@@ -363,12 +362,12 @@ that have popups, or else the menu breaks when you hover over them */
 	opacity: 0.5;
 }
 
-#app-mount .userPopout-3XzG_A .role-2irmRk {
+.userPopout-3XzG_A .role-2irmRk {
 	border-radius: var(--dplus-ui-radius);
 	position: relative;
 	overflow: hidden;
 }
-#app-mount .userPopout-3XzG_A .roleCircle-3xAZ1j::after {
+.userPopout-3XzG_A .roleCircle-3xAZ1j::after {
 	content: "";
 	background: inherit;
 	height: 24px; width: 100%;
@@ -377,6 +376,7 @@ that have popups, or else the menu breaks when you hover over them */
 	opacity: 0.2;
 	z-index: -1;
 }
+
 	/* Search */
 .search-2oPWTC .searchBar-3dMhjb {
 	transition-duration:300ms;
