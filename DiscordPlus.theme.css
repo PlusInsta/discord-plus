@@ -20,9 +20,10 @@
 	--dplus-ui-radius: 10px;
 	--dplus-ui-spacing: 10px;
 	--dplus-ui-elements-spacing: 10px;
-	--dplus-server-size: 48px;
-	--dplus-chat-avatar-size: 60px;
-	--dplus-list-avatar-size: 32px;
+	--dplus-server-size-sidebar: 48px;
+	--dplus-avatar-size-chat: 60px;
+	--dplus-avatar-size-list: 32px;
+	--dplus-avatar-size-profile: 80px;
 	--dplus-scrollbar-width: 10px;
 	--dplus-blur-scale: 100;
 	--blur-backdrop: 5px;
@@ -342,6 +343,14 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-ui-radius);
 	box-shadow: none !important;
 }
+.userPopout-3XzG_A .wrapper-3t9DeA,
+.avatarHint-1qgaV3,
+.header-QKLPzZ .avatar-3EQepX,
+.avatarUploaderInner-2EvNMg {
+	width: var(--dplus-avatar-size-profile) !important;
+	height: var(--dplus-avatar-size-profile) !important;
+}
+
 .headerTop-3C2Zn0, .activity-11LB_k, .footer-1fjuF6 .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
 .body-3iLsc4 { padding: var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) / 2) var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
 .footer-1fjuF6 { padding: 0 var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
@@ -602,20 +611,20 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-ui-radius);
 }
 .guilds-1SWlCJ, .listItem-GuPuDH, .wrapper-3Njo_c {
-	width: calc(var(--dplus-server-size) + var(--dplus-ui-spacing) * 2)
+	width: calc(var(--dplus-server-size-sidebar) + var(--dplus-ui-spacing) * 2)
 }
 .listItem-GuPuDH {
 	margin: 0 0 var(--dplus-ui-spacing);
 }
 .svg-1X37T1, .wrapper-25eVIn {
-	width: var(--dplus-server-size);
-	height: var(--dplus-server-size);
+	width: var(--dplus-server-size-sidebar);
+	height: var(--dplus-server-size-sidebar);
 }
 .scroller-1Bvpku {
 	padding: var(--dplus-ui-spacing) 0 0;
 }
 .expandedFolderBackground-1cujaW {
-	width: var(--dplus-server-size);
+	width: var(--dplus-server-size-sidebar);
 	border-radius: var(--dplus-ui-radius);
 	left: var(--dplus-ui-spacing);
 	bottom: 0;
@@ -625,8 +634,8 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 .listItem-2P_4kh :not(span), .listItem-GuPuDH :not(span) {border-radius: var(--dplus-server-radius);}
-.item-2hkk8m, .wrapper-sa6paO { height: calc(var(--dplus-server-size) / 10 * 8) !important; }
-.pill-1z4sAY { top: calc(var(--dplus-server-size) / 10) }
+.item-2hkk8m, .wrapper-sa6paO { height: calc(var(--dplus-server-size-sidebar) / 10 * 8) !important; }
+.pill-1z4sAY { top: calc(var(--dplus-server-size-sidebar) / 10) }
 
 .expandedFolderBackground-2sPsd- {border-radius: var(--dplus-ui-radius);}
 .circleIconButton-1QV--U {
@@ -761,16 +770,16 @@ that have popups, or else the menu breaks when you hover over them */
 	position: absolute;
 	top: var(--dplus-ui-spacing) !important;
 	left: var(--dplus-ui-spacing) !important;
-	height: var(--dplus-chat-avatar-size) !important;
-	width: var(--dplus-chat-avatar-size) !important;
+	height: var(--dplus-avatar-size-chat) !important;
+	width: var(--dplus-avatar-size-chat) !important;
 }
 .cozy-3raOZG.wrapper-2a6GCs {
-	padding-left: calc(var(--dplus-chat-avatar-size) + var(--dplus-ui-spacing) * 2);
+	padding-left: calc(var(--dplus-avatar-size-chat) + var(--dplus-ui-spacing) * 2);
 }
 
 .avatar-3uk_u9, .wrapper-3t9DeA {
-	width: var(--dplus-list-avatar-size) !important;
-	height: var(--dplus-list-avatar-size) !important;
+	width: var(--dplus-avatar-size-list) !important;
+	height: var(--dplus-avatar-size-list) !important;
 }
 
 .avatar-3uk_u9 {
@@ -778,7 +787,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 .layout-2DM8Md {
-	height: calc(var(--dplus-list-avatar-size) + var(--dplus-ui-spacing));
+	height: calc(var(--dplus-avatar-size-list) + var(--dplus-ui-spacing));
 }
 
 	/* Messages */
