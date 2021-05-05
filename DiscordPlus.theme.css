@@ -320,9 +320,19 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .item-1tOPte.colorDanger-2qLCe1:hover {background-color: #f04747;}
 	/* Profile Popout */
-#app-mount .headerNormal-T_seeN, #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6 {background-color: transparent;}
-.userPopout-3XzG_A {box-shadow: none!important;}
-.headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT, .headerXbox-3G-4PF {background: var(--dplus-accent-color);}
+#app-mount .headerNormal-T_seeN, #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6,
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT, .headerXbox-3G-4PF {
+	background-color: transparent;
+}
+
+.userPopout-3XzG_A { box-shadow: none !important; }
+
+.avatarWrapper-3H_478 { margin-bottom: var(--dplus-ui-spacing); }
+
+.body-3iLsc4 { padding: var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) / 2) var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
+.headerTop-3C2Zn0, .activity-11LB_k, .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
+.footer-1fjuF6 { padding: 0 var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
+
 .headerPlaying-j0WQBV .activity-11LB_k {background: #7289da;}
 .headerStreaming-2FjmGz .activity-11LB_k {background: #593695;}
 .headerSpotify-zpWxgT .activity-11LB_k {background: #1db954;}
@@ -1150,6 +1160,11 @@ button, [type="button"] {
 	font-size: 12px;
 	padding: 0 4px;
 	vertical-align: middle;
+}
+
+	/* CreationDate / JoinedAtDate / LastMessageDate */
+.userPopout-3XzG_A .headerText-2sdzFM.userSelectText-1o1dQ7 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
+	margin-top: var(--dplus-ui-spacing);
 }
 
 /* Plugins by Zerebos */
