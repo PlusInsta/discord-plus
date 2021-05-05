@@ -39,25 +39,62 @@
 	--dplus-bg-3: var(--dplus-bg-light-3);
 }
 
-/* Specific background covers */
+/* Background covers */
 .theme-dark {
-	--dplus-bgc-list-selected: var(--dplus-bg-dark-1);
+	--dplus-bgc-windows-titlebar: var(--dplus-bg-dark-1);
+	--dplus-bgc-macos-titlebar: var(--dplus-bg-dark-1);
 	--dplus-bgc-chatmsg: var(--dplus-bg-dark-2);
+	--dplus-bgc-popout: var(--dplus-bg-dark-3);
+	--dplus-bgc-server-button: hsla(0, 0%, 10%, 0.35);
 }
 
 .theme-light {
-	--dplus-bgc-list-selected: var(--dplus-bg-light-1);
+	--dplus-bgc-windows-titlebar: var(--dplus-bg-light-1);
+	--dplus-bgc-macos-titlebar: var(--dplus-bg-light-1);
 	--dplus-bgc-chatmsg: var(--dplus-bg-light-2);
+	--dplus-bgc-popout: var(--dplus-bg-light-3);
+	--dplus-bgc-server-button: hsla(0, 0%, 75%, 0.35);
 }
-/* This section is going to be a gigantic redoing of how we handle backdrops.
-I want to eventually phase out the whole "background 1, background 2" crap.
-This will allow users to have full control over how their theme looks, without risking
-it all falling apart due to my own incompetence. --Insta */
 
+
+
+/* Discord's variables */
+.theme-dark, .theme-light {
+	--background-tertiary: transparent !important; /* if this is not transparent, background breaks */
+	--background-secondary-alt: transparent ! important; /* bottom-left account details */
+	--channeltextarea-background: transparent !important;
+	--background-floating: var(--dplus-bgc-popout) !important;
+}
+
+.theme-dark {
+	--background-primary: hsla(0, 0%, 0%, 0.68) !important;
+	--background-secondary: hsla(0, 0%, 0%, 0.74) !important;
+	--bd-blue: var(--dplus-accent-color) !important;
+	--background-accent: var(--dplus-accent-color);
+}
+
+.theme-light {
+	--background-primary: hsla(0, 0%, 95%, 0.85) !important;
+	--background-secondary:	hsla(0, 0%, 97%, 0.88) !important;
+	--header-primary: #060607;
+	--header-secondary: #4f5660;
+	--text-normal: #000;
+	--text-muted: #747f8d;
+	--text-link: #0067e0;
+  --channels-default: #1f1f1f;
+  --interactive-normal: #1f1f1f;
+	--interactive-hover: #2e3338;
+	--interactive-active: black;
+	--interactive-muted: #8f99a3;
+	--bd-blue: var(--dplus-accent-color) !important;
+	--background-accent: var(--dplus-accent-color);
+}
+
+/* Blur amount */
 :root {
-	--blur-backdrop: 4px;
-	--blur-bgcover: 3px;
-	--blur-context: 2px;
+	--blur-backdrop: 5px;
+	--blur-bgcover: 4px;
+	--blur-context: 3px;
 	--blurcalc-context: blur(calc(var(--blur-context) / 100 * var(--dplus-blur-scale)));
 }
 
@@ -106,43 +143,6 @@ header, h1, h2,
 	font-family: var(--dplus-font-names), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
-/* Core */
-/* Discord variables */
-.theme-dark {
-	--background-primary: var(--dplus-bg-dark-1) !important;
-	--background-secondary: var(--dplus-bg-dark-2) !important;
-	--background-tertiary: transparent !important;
-	--background-secondary-alt: transparent! important;
-	--background-floating: var(--dplus-bg-dark-3) !important;
-  --channeltextarea-background: transparent !important;
-	--bd-blue: var(--dplus-accent-color) !important;
-	--background-accent: var(--dplus-accent-color);
-}
-.theme-light {
-	--background-primary: var(--dplus-bg-light-1) !important;
-	--background-secondary:	var(--dplus-bg-light-2) !important;
-	--background-tertiary: transparent !important;
-	--background-secondary-alt:	transparent!important;
-	--background-floating: var(--dplus-bg-light-3) !important;
-	--header-primary: hsl(0, 0%, 10%);
-	--channels-default: #000;
-	--interactive-hover: #222;
-	--interactive-active: black;
-	--interactive-muted: #8f99a3;
-	--channeltextarea-background: transparent !important;
-	--bd-blue: var(--dplus-accent-color) !important;
-	--background-accent: var(--dplus-accent-color);
-}
-.theme-light {
-  --header-primary: #060607;
-  --header-secondary: #4f5660;
-  --text-normal: #000;
-  --text-muted: #747f8d;
-  --text-link: #0067e0;
-  --channels-default: #1f1f1f;
-  --interactive-normal: #1f1f1f;
-	--interactive-hover: #2e3338;
-}
 /* App margins */
 .app-2rEoOp, .app-1q1i1E {
 	bottom:	15px !important;
@@ -152,7 +152,7 @@ header, h1, h2,
 }
 
 /*The loading page, in case you disconnect*/
-.container-16j22k { background-color: var(--dplus-bg-dark-1) }
+.container-16j22k { background-color: hsla(0, 0%, 0%, 0.68) }
 .quote-3aooyW {
 	font-size: 20px !important;
 	margin-bottom: 0px !important;
@@ -214,11 +214,14 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 	background-color: transparent;
 	box-shadow: none;
 }
+iframe {
+	border-radius: var(--dplus-ui-radius);
+}
 #app-mount .modal-yWgWj- {background-color: transparent; box-shadow: none;}
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4 {background-color: rgba(0, 0, 0, 0.6)!important;}
 	/* Create/Join Server Modal */
 .theme-dark .theme-light .root-1gCeng {background: var(--dplus-bg-dark-3)!important;}
-.theme-dark .theme-light .container-UC8Ug1 {background: var(--dplus-bg-dark-1);}
+.theme-dark .theme-light .container-UC8Ug1 {background: hsla(0, 0%, 0%, 0.68);}
 #app-mount .container-UC8Ug1:hover {background: var(--dplus-accent-color);}
 .theme-dark .theme-light {
 	--header-primary: #fff;
@@ -238,13 +241,10 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .lookFilled-1h1y05.selectOpen-hQuR6b {border-color: var(--dplus-accent-color);}
 	/* Quick switcher modal */
 #app-mount .quickswitcher-3JagVE {
-	background-color: var(--dplus-bg-1);
+	background-color: var(--dplus-bgc-popups);
 	box-shadow: none;
 	height: 300px;
 }
-#app-mount .input-2VB9rf  {	background-color: var(--dplus-bg-1); }
-.resultFocused-3aIoYe {background-color: var(--background-accent);}
-.theme-light .resultFocused-3aIoYe div {color: white;}
 .container-3qKHyN {height: auto;}
 	/* Keyboard Combos Modal*/
 #app-mount .keyboardShortcutsModal-3piNz7 {background-color: transparent;}
@@ -255,8 +255,9 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 }
 	/* Pin Message Modal */
 #app-mount .message-2qRu38 {
-	background-color: var(--dplus-bg-1);
-	border-radius: var(--dplus-ui-radius); border: 1px solid var(--dplus-accent-color);
+	background-color: var(--dplus-bgc-chatmsg);
+	border-radius: var(--dplus-ui-radius);
+	border: 1px solid var(--dplus-accent-color);
 	box-shadow: none;
 	padding: 0;
 	min-height: 70px;
@@ -290,7 +291,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 
 /* Popouts */
 .layer-v9HyYc > div, .popouts-2bnG9Z > div {
-	background-color: var(--dplus-bg-3);
+	background-color: var(--dplus-bgc-popout);
 	border-radius: var(--dplus-ui-radius);
 }
 	/* Context menu */
@@ -307,8 +308,6 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
 /* the context menu backdrop blur has to be applied separately for elements
 that have popups, or else the menu breaks when you hover over them */
 
-
-.colorDefault-2K3EoJ { transition: .2s; }
 .item-1tOPte, .button-F9qN4n:hover, .button-F9qN4n.focused-3ZzkKr { border-radius: var(--dplus-ui-radius) }
 .item-1tOPte {
 	transition: background-color 0.3s;
@@ -411,9 +410,9 @@ that have popups, or else the menu breaks when you hover over them */
 }
 	/* Pinned messages Popout */
 .messagesPopoutWrap-1MQ1bW {
-	background-color: transparent!important;
+	background-color: transparent !important;
 	border: none !important;
-	max-height: 570px!important
+	max-height: 560px !important;
 }
 
 .messageGroupWrapper-o-Zw7G {
@@ -421,8 +420,7 @@ that have popups, or else the menu breaks when you hover over them */
 	min-height: 70px;
 }
 #app-mount .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
-	background-color: var(--dplus-bg-1);
-	border-color: var(--dplus-bg-1);
+	border-color: var(--dplus-bgc-chatmsg);
 	transition: border-color .5s;
 }
 #app-mount .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
@@ -474,7 +472,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 /* Windows titlebar */
 .typeWindows-1za-n7 {
-	background-color: var(--dplus-bg-1);
+	background-color: var(--dplus-bgc-windows-titlebar);
 	border-radius: var(--dplus-ui-radius);
 	height: 20px;
 	padding-bottom: 4px; margin-right: 20px;
@@ -503,7 +501,7 @@ that have popups, or else the menu breaks when you hover over them */
 .typeMacOS-3EmCyP {
 	margin-left: 10px;
 	margin-top: 10px;
-	background: var(--dplus-bg-1);
+	background: var(--dplus-bgc-macos-titlebar);
 	border-radius: var(--dplus-ui-radius);
 }
 .platform-osx .wrapper-1Rf91z {
@@ -527,19 +525,23 @@ that have popups, or else the menu breaks when you hover over them */
 .guilds-1SWlCJ foreignObject {mask: none;}
 .guildSeparator-3s64Iy, .guildSeparator-33mFX6 {display: none}
 .folder-21wGz3, .folder-21wGz3.hover-2ji_A7 {background-color: transparent;}
-#app-mount .childWrapper-anI2G9, .expandedFolderBackground-2sPsd-, #bd-pub-button {background-color: var(--dplus-bg-1);}
+#app-mount .childWrapper-anI2G9, #bd-pub-button {background-color: var(--dplus-bgc-server-button);}
+#bd-pub-button { border-radius: var(--dplus-ui-radius); }
 #app-mount .guilds-1SWlCJ {
 	background: var(--dplus-bg-3);
 	border-radius: var(--dplus-ui-radius);
 }
 .da-expandedFolderIconWrapper {transform: none!important;}
-.listItem-2P_4kh :not(span), .listItem-GuPuDH :not(span) {border-radius: var(--dplus-server-radius)!important;}
+.listItem-2P_4kh :not(span), .listItem-GuPuDH :not(span) {border-radius: var(--dplus-server-radius);}
 .expandedFolderBackground-2sPsd- {border-radius: var(--dplus-ui-radius);}
-.circleIconButton-jET_ig, .circleIconButton-1QV--U {
+.circleIconButton-1QV--U {
 	transition: color .15s ease-out,background-color .15s ease-out;
 	color: var(--dplus-accent-color);
+	background-color: var(--dplus-bgc-server-button);
 }
-.circleIconButton-jET_ig.selected-ugP_am, .circleIconButton-1QV--U.selected-1JjBPm {background-color: var(--dplus-accent-color);}
+.circleIconButton-1QV--U.selected-1JjBPm {
+	background-color: var(--dplus-accent-color);
+}
 
 	/* Server Discovery */
 .scroller-1d5FgU { padding: 16px !important; }
@@ -679,6 +681,9 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .divider-JfaTT5, .container-3RCQyg {
 	margin: 0!important;
+}
+.imageWrapper-2p5ogY {
+	border-radius: var(--dplus-ui-radius);
 }
 .hasContent-1cNJDh {
 	position: relative;
@@ -1062,7 +1067,7 @@ button, [type="button"] {
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: transparent; border: none;}
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {background-color: var(--dplus-bg-1);}
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-	background-color: var(--dplus-bg-dark-1);
+	background-color: hsla(0, 0%, 0%, 0.68);
 	border-color: transparent;
 }
 .viewAsRoleButton-1ZpPlO, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
@@ -1150,7 +1155,7 @@ button, [type="button"] {
 	margin-top: 20px;
 }
 .bf-toolbar::before {
-	background: var(--dplus-bg-dark-1);
+	background: hsla(0, 0%, 0%, 0.68);
 	border-radius: var(--dplus-ui-radius);
 }
 .bf-toolbar .format:hover {
