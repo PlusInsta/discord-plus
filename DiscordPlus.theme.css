@@ -814,6 +814,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .group-spacing-16 .groupStart-23k01U {
 	margin-top: calc(var(--dplus-ui-spacing) + var(--dplus-ui-radius));
+	min-height: calc(var(--dplus-avatar-size-chat) + var(--dplus-ui-spacing));
 }
 .group-spacing-16 .groupStart-23k01U:before {
 	content: "";
@@ -823,6 +824,10 @@ that have popups, or else the menu breaks when you hover over them */
 	pointer-events: none;
 	height: var(--dplus-ui-radius);
 }
+.groupStart-23k01U .markup-2BOw-j {
+	margin-top: var(--dplus-ui-spacing);
+}
+
 .scrollerSpacer-avRLaA {
 	height: var(--dplus-ui-radius);
 }
