@@ -1242,3 +1242,21 @@ button, [type="button"] {
 	border-bottom: 1px solid;
 	font-family: Righteous;
 }
+
+/* my server oughta look a bit fancier */
+[data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+	font-size: 0;
+}
+
+[data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+	background-size: 54px 13px;
+	width: 54px; height: 13px;
+	opacity: 0.6;
+}
+.theme-light [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
+	background-size: 54px 13px;
+	width: 54px; height: 13px;
+	opacity: 0.7;
+}
