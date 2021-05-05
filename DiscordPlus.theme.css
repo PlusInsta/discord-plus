@@ -798,7 +798,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .groupStart-23k01U, .container-3RCQyg {
 	border-radius: var(--dplus-ui-radius) var(--dplus-ui-radius) 0 0;
-	padding-top: 15px!important;
+	padding-top: var(--dplus-ui-spacing) !important;
 }
 
 .scrollerSpacer-avRLaA, .groupStart-23k01U:before {
@@ -813,12 +813,12 @@ that have popups, or else the menu breaks when you hover over them */
 	padding-bottom: 0px;
 }
 .group-spacing-16 .groupStart-23k01U {
-	margin-top: calc(var(--dplus-ui-radius) * 2);
+	margin-top: calc(var(--dplus-ui-spacing) + var(--dplus-ui-radius));
 }
 .group-spacing-16 .groupStart-23k01U:before {
 	content: "";
 	position: absolute;
-	top: calc(var(--dplus-ui-spacing) - var(--dplus-ui-spacing) - var(--dplus-ui-radius) - var(--dplus-ui-radius));
+	top: calc(var(--dplus-ui-spacing) - var(--dplus-ui-spacing) - var(--dplus-ui-spacing) - var(--dplus-ui-radius));
 	left: 0;
 	pointer-events: none;
 	height: var(--dplus-ui-radius);
