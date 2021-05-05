@@ -634,7 +634,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 .listItem-2P_4kh :not(span), .listItem-GuPuDH :not(span) {border-radius: var(--dplus-server-radius);}
-.item-2hkk8m, .wrapper-sa6paO { height: calc(var(--dplus-server-size-sidebar) / 10 * 8) !important; }
+.item-2hkk8m[style="opacity: 1; height: 40px; transform: none;"], .wrapper-sa6paO { height: calc(var(--dplus-server-size-sidebar) / 10 * 8) !important; }
 .pill-1z4sAY { top: calc(var(--dplus-server-size-sidebar) / 10) }
 
 .expandedFolderBackground-2sPsd- {border-radius: var(--dplus-ui-radius);}
