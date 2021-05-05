@@ -34,7 +34,7 @@
 	--dplus-bgc-windows-titlebar: var(--dplus-bg-dark-1);
 	--dplus-bgc-macos-titlebar: var(--dplus-bg-dark-1);
 	--dplus-bgc-chatmsg: var(--dplus-bg-dark-2);
-	--dplus-bgc-popout: var(--dplus-bg-dark-3);
+	--dplus-bgc-popout: hsla(0, 0%, 0%, 0.75);
 	--dplus-bgc-server-button: hsla(0, 0%, 10%, 0.35);
 }
 
@@ -42,7 +42,7 @@
 	--dplus-bgc-windows-titlebar: var(--dplus-bg-light-1);
 	--dplus-bgc-macos-titlebar: var(--dplus-bg-light-1);
 	--dplus-bgc-chatmsg: var(--dplus-bg-light-2);
-	--dplus-bgc-popout: var(--dplus-bg-light-3);
+	--dplus-bgc-popout: hsla(0, 0%, 100%, 0.80);
 	--dplus-bgc-server-button: hsla(0, 0%, 75%, 0.35);
 }
 
@@ -302,12 +302,20 @@ iframe {
 }
 .submenuPaddingContainer-fiOCHc {margin-right: -4px;margin-left: -4px;} /* fixes the submenu being four pixels off */
 
+.labelContainer-1BLJti {
+	padding: calc(var(--dplus-ui-spacing) / 1.25) var(--dplus-ui-spacing);
+}
+
 .item-1tOPte:not([aria-haspopup="true"]),
 .item-1tOPte[aria-haspopup="true"],
 .wrapper-3_530D,
 .separator-2I32lJ { backdrop-filter: var(--blurcalc-popout) }
 /* the context menu backdrop blur has to be applied separately for elements
 that have popups, or else the menu breaks when you hover over them */
+
+.wrapper-3_530D { padding: 0; }
+.customItem-a8hq58 .button-F9qN4n { padding: calc(var(--dplus-ui-spacing) / 2); }
+.separator-2I32lJ { margin: 0; }
 
 .item-1tOPte, .button-F9qN4n:hover, .button-F9qN4n.focused-3ZzkKr { border-radius: var(--dplus-ui-radius) }
 .item-1tOPte {
@@ -320,11 +328,14 @@ that have popups, or else the menu breaks when you hover over them */
 	color: white!important;
 }
 .item-1tOPte.colorDanger-2qLCe1:hover {background-color: #f04747;}
+
 	/* Profile Popout */
+.translate-2dAEQ6 {
+	backdrop-filter: var(--blurcalc-popout);
+}
 .userPopout-3XzG_A {
 	border-radius: var(--dplus-ui-radius);
 	box-shadow: none !important;
-	backdrop-filter: var(--blurcalc-popout);
 }
 .headerTop-3C2Zn0, .activity-11LB_k, .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
 .body-3iLsc4 { padding: var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) / 2) var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
@@ -376,6 +387,14 @@ that have popups, or else the menu breaks when you hover over them */
 	left: 0;
 	opacity: 0.2;
 	z-index: -1;
+}
+
+	/* Tooltips */
+.tooltip-2QfLtc {
+	backdrop-filter: var(--blurcalc-popout);
+}
+.tooltipContent-bqVLWK {
+	padding: var(--dplus-ui-spacing);
 }
 
 	/* Search */
