@@ -124,7 +124,7 @@ p, textarea, input, placeholder,
 	font-family: var(--dplus-font-text), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
 }
 	/* Names, titles, and headers font */
-header, h1, h2,
+header, h1,
 .nameAndDecorators-5FJ2dg, /*name in member list*/
 .headerNameWrapper-3res2c, /*nickname in profile popup*/
 .nameTag-m8r81H, /*username#tag in profile popup*/
@@ -640,7 +640,7 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-ui-radius);
 }
 .privateChannelsHeaderContainer-3NB1K1 {height: min-content;}
-.headerText-2F0828, .container-2ax-kl {text-transform: lowercase; font-style: italic;}
+.headerText-2F0828, .container-2ax-kl {text-transform: none;}
 .privateChannels-1nO12o .channel-2QD9_O {margin: 5px 0px 5px 5px;}
 .closeButton-2GCmT5 {
 	display: block;
@@ -845,9 +845,6 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: var(--dplus-accent-color) !important;
 	border-radius: 0 0 var(--dplus-ui-radius) var(--dplus-ui-radius) !important;
 	width: 100%;
-}
-.newMessagesBar-265mhP button:first-child {
-	font-style: italic; font-size: 16px;
 }
 .newMessagesBar-265mhP button:last-child {
 	font-size: 12px;
