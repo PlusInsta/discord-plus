@@ -823,6 +823,10 @@ that have popups, or else the menu breaks when you hover over them */
 	pointer-events: none;
 	height: var(--dplus-ui-radius);
 }
+.scrollerSpacer-avRLaA {
+	height: var(--dplus-ui-radius);
+}
+
 .divider-JfaTT5, .container-3RCQyg {
 	margin: 0!important;
 }
