@@ -94,8 +94,8 @@
 :root {
 	--blur-backdrop: 5px;
 	--blur-bgcover: 4px;
-	--blur-context: 3px;
-	--blurcalc-context: blur(calc(var(--blur-context) / 100 * var(--dplus-blur-scale)));
+	--blur-popout: 3px;
+	--blurcalc-popout: blur(calc(var(--blur-popout) / 100 * var(--dplus-blur-scale)));
 }
 
 /* Background image */
@@ -304,7 +304,7 @@ iframe {
 .item-1tOPte:not([aria-haspopup="true"]),
 .item-1tOPte[aria-haspopup="true"],
 .wrapper-3_530D,
-.separator-2I32lJ { backdrop-filter: var(--blurcalc-context)}
+.separator-2I32lJ { backdrop-filter: var(--blurcalc-popout) }
 /* the context menu backdrop blur has to be applied separately for elements
 that have popups, or else the menu breaks when you hover over them */
 
@@ -324,6 +324,8 @@ that have popups, or else the menu breaks when you hover over them */
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT, .headerXbox-3G-4PF {
 	background-color: transparent;
 }
+.layer-v9HyYc { backdrop-filter: var(--blurcalc-popout); }
+
 
 .userPopout-3XzG_A { box-shadow: none !important; }
 
@@ -341,6 +343,25 @@ that have popups, or else the menu breaks when you hover over them */
 
 .disabledButtonWrapper-3wH6-b { display: none; /* Remove Spotify buttons for yourself */ }
 .button-2IFFQ4 { margin-top: var(--dplus-ui-spacing); }
+
+.theme-light .header-2BwW8b,
+.theme-light .headerTag-2pZJzA,
+.theme-light .headerTagUsernameNoNickname-2_H881,
+.theme-light .customStatus-1bh2V9,
+.theme-light .headerNormal-T_seeN .headerName-fajvi9,
+.theme-light .headerNormal-T_seeN .headerTag-2pZJzA span:nth-child(2),
+.theme-light .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881,
+.theme-light .headerNormal-T_seeN .headerTagWithNickname-3IthZD.headerTag-2pZJzA {
+	color: black;
+}
+
+.theme-dark .headerNormal-T_seeN .headerTag-2pZJzA span:nth-child(2),
+.theme-dark .headerNormal-T_seeN .headerTagWithNickname-3IthZD.headerTag-2pZJzA { color: white; }
+
+.headerNormal-T_seeN .headerTag-2pZJzA span:nth-child(2),
+.headerTagNoNickname-ENx6no span:nth-child(2) {
+	opacity: 0.5;
+}
 
 #app-mount .userPopout-3XzG_A .role-2irmRk {
 	border-radius: var(--dplus-ui-radius);
@@ -1030,7 +1051,7 @@ that have popups, or else the menu breaks when you hover over them */
 	max-height: 100%;
 	margin-bottom: 10px !important; padding: 10px;
 }
-.bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: var(--blurcalc-context);}
+.bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: var(--blurcalc-popout);}
 .bd-select-transparent .bd-select-options { border-radius: var(--dplus-ui-radius) !important; border-color: var(--dplus-bg-1);}
 .bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bg-1);}
 .bda-slist .bda-header {
