@@ -328,6 +328,10 @@ that have popups, or else the menu breaks when you hover over them */
 .headerSpotify-zpWxgT .activity-11LB_k {background: #1db954;}
 .headerXbox-3G-4PF .activity-11LB_k {background: #107c10;}
 .activity-11LB_k, .userPopout-3XzG_A > div {border-radius: var(--dplus-ui-radius);}
+
+.disabledButtonWrapper-3wH6-b { display: none; /* Remove Spotify buttons for yourself */ }
+.button-2IFFQ4 { margin-top: var(--dplus-ui-spacing); }
+
 #app-mount .userPopout-3XzG_A .role-2irmRk {
 	border-radius: var(--dplus-ui-radius);
 	position: relative;
