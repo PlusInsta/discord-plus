@@ -889,7 +889,7 @@ that have popups, or else the menu breaks when you hover over them */
 .contentColumn-2hrIYH, .customColumn-Rb6toI {
 	max-width: 100%;
 }
-.da-sidebarRegion {
+.sidebarRegion-VFTUkN {
   max-width: 218px;
 }
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
@@ -1025,45 +1025,9 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .card-FDVird .removeKeybind-39dSFj:hover {background-color: var(--dplus-accent-color);}
 
 /* BetterDiscord Section */
-#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {background-color: var(--background-modifier-selected);}
-#app-mount .contentRegionScroller-26nc1e [xmlns] g > path, #app-mount .closeButton-1tv5uR:hover [xmlns] g > path {fill: transparent;}
-#app-mount .contentRegionScroller-26nc1e [xmlns] path + path {fill: var(--dplus-accent-color);}
-#app-mount .closeButton-1tv5uR:hover [xmlns] path + path {fill: white;}
 [for="minimalMode"] + div {display: none;}
 [for="minimalMode"] {pointer-events: none;}
-[for="minimalMode"]::after {content: ": causes issues, turned off until a fix"}
-	/* Ace Editor / Custom CSS */
-#bd-customcss-attach-controls {
-	margin-top: 10px;
-	border-radius: var(--dplus-ui-radius);
-}
-#bd-customcss-editor {
-	border-radius: var(--dplus-ui-radius);
-}
-#bd-customcss-detach-container .ace-monokai {
-	background: rgba(0, 0, 0, 0.3);
-}
-#bd-customcss-editor {
-		background: rgba(0, 0, 0, 0.1);
-}
-.ace_gutter-cell {
-	color: #fff;
-}
-.ace-monokai .ace_gutter {
-	background: var(--dplus-bg-1);
-}
-.ace_gutter-active-line, #app-mount .ace_active-line, #app-mount #bd-customcss-attach-controls button, #app-mount #bd-customcss-attach-controls .help-text code, #app-mount #bd-customcss-attach-controls .help-text span {
-	background: rgba(255, 255, 255, 0.1);
-	border:none!important;
-}
-#app-mount #bd-customcss-attach-controls {
-	background: rgba(0, 0, 0, 0.5);
-	box-shadow: none;
-}
-#app-mount #bd-customcss-attach-controls button:hover {
-	background: rgba(255, 255, 255, 0.2);
-}
-.ace-monokai .ace_gutter-active-line {background-color: var(--dplus-accent-color);}
+[for="minimalMode"]::after {content: " 🚫"}
 
 		/* BetterDiscord Plugin/Theme lists */
 	/* BetterDiscord Plugin/Theme lists */
@@ -1071,8 +1035,15 @@ that have popups, or else the menu breaks when you hover over them */
 	background: var(--dplus-bg-1);
 	border: none; border-radius: var(--dplus-ui-radius) !important;
 	max-height: 100%;
-	margin-bottom: 10px !important; padding: 10px;
+	margin-bottom: var(--dplus-ui-spacing) !important;
+	padding: var(--dplus-ui-spacing);
 }
+.bd-addon-list .bd-addon-header,
+.bd-description-wrap,
+.bd-addon-list .bd-footer {
+	padding: var(--dplus-ui-spacing);
+}
+
 .bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: var(--blurcalc-popout);}
 .bd-select-transparent .bd-select-options { border-radius: var(--dplus-ui-radius) !important; border-color: var(--dplus-bg-1);}
 .bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bg-1);}
@@ -1243,9 +1214,6 @@ button, [type="button"] {
 /* my server oughta look a bit fancier */
 [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
 	font-size: 0;
-}
-
-[data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
 	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
 	background-size: 54px 13px;
 	width: 54px; height: 13px;
