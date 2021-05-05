@@ -19,7 +19,7 @@
 	--dplus-server-radius: 20%;
 	--dplus-ui-radius: 10px;
 	--dplus-ui-spacing: 10px;
-	--dplus-ui-elements-spacing: 10px;
+	--dplus-ui-element-spacing: 10px;
 	--dplus-server-size-sidebar: 48px;
 	--dplus-avatar-size-chat: 60px;
 	--dplus-avatar-size-list: 32px;
@@ -78,6 +78,7 @@
 	--background-secondary-alt: transparent ! important; /* bottom-left account details */
 	--channeltextarea-background: transparent !important;
 	--background-floating: var(--dplus-bgc-popout) !important;
+	--radio-group-dot-foreground: white;
 }
 
 .theme-dark {
@@ -681,7 +682,7 @@ that have popups, or else the menu breaks when you hover over them */
 .sidebar-2K8pFh {
 	background: var(--dplus-bg-2);
 	border-radius: var(--dplus-ui-radius) !important;
-	margin: 0 var(--dplus-ui-elements-spacing);
+	margin: 0 var(--dplus-ui-element-spacing);
 }
 .layout-2DM8Md, .content-3at_AU {
 	padding: 0 calc(var(--dplus-ui-spacing) / 2) !important;
@@ -987,6 +988,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .sidebarRegion-VFTUkN {
   max-width: 218px;
+	margin-right: var(--dplus-ui-element-spacing);
 }
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
@@ -995,6 +997,32 @@ that have popups, or else the menu breaks when you hover over them */
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy.default,
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar {
 	padding-top: 45px;
+}
+.sidebar-CFHs9e {
+	padding: calc(30px + var(--dplus-ui-spacing)) var(--dplus-ui-spacing) var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) * 2)
+}
+.contentColumnDefault-1VQkGM {
+  padding: calc(30px + var(--dplus-ui-spacing)) calc(var(--dplus-ui-spacing) * 2) calc(var(--dplus-ui-spacing) * 2);
+}
+.horizontal-1ae9ci>.flex-1xMQg5, .horizontal-1ae9ci>.flexChild-faoVW3 {
+	margin-left: var(--dplus-ui-spacing);
+}
+.radioBar-bMNUI- {
+	border-radius: var(--dplus-ui-radius);
+}
+
+.marginBottom8-AtZOdT {
+	margin-bottom: var(--dplus-ui-spacing);
+}
+.marginBottom40-2vIwTv {
+	margin-bottom: calc(10px + var(--dplus-ui-spacing));
+}
+.marginTop40-i-78cZ {
+	margin-top: calc(10px + var(--dplus-ui-spacing));
+}
+
+.preview-2nSL_2 {
+	height: calc(180px + var(--dplus-ui-spacing));
 }
 
 .platform-osx [id="user-settings"] {
@@ -1022,7 +1050,6 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
 	background-color: var(--dplus-bg-1);
 	border-radius: var(--dplus-ui-radius);
-	margin: 5px;
 	transition: background-color .2s;
 	overflow: hidden;
 }
@@ -1048,8 +1075,13 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .closeButton-1tv5uR path {fill: var(--dplus-accent-color);}
 #app-mount .closeButton-1tv5uR:hover path {fill: white}
 #app-mount .closeButton-1tv5uR + .keybind-KpFkfr {color: var(--text-normal);}
+.background-1QDuV2 { border-radius: var(--dplus-ui-radius); }
 .background-1QDuV2 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-avatar-radius);}
 .item-26Dhrx:hover:not([aria-checked=true]) {background-color: var(--dplus-bg-2);}
+
+.theme-light .item-26Dhrx[aria-checked=true] {
+	color: white !important;
+}
 	/* Avatar Preview */
 .overlay-4k_Q4-:after {
 	content: "";
@@ -1127,12 +1159,16 @@ that have popups, or else the menu breaks when you hover over them */
 
 		/* BetterDiscord Plugin/Theme lists */
 	/* BetterDiscord Plugin/Theme lists */
-#app-mount .bd-addon-list .bd-addon-card {
+.bd-addon-list.bd-grid-view {
+  column-gap: var(--dplus-ui-spacing);
+  row-gap: var(--dplus-ui-spacing);
+}
+.bd-addon-list .bd-addon-card {
 	background: var(--dplus-bg-1);
 	border: none; border-radius: var(--dplus-ui-radius) !important;
 	max-height: 100%;
-	margin-bottom: var(--dplus-ui-spacing) !important;
 	padding: var(--dplus-ui-spacing);
+	margin-bottom: var(--dplus-ui-spacing);
 }
 .bd-addon-list .bd-addon-header,
 .bd-description-wrap,
@@ -1181,6 +1217,12 @@ button, [type="button"] {
 .lookFilled-1Gx00P.colorBrand-3pXr91, .container-3auIfb:not([style*="125"]), .bd-switch input:checked+.bd-switch-body {background-color: var(--dplus-accent-color)!important;}
 	/* Server settings */
 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-server-radius);}
+.avatarUploader-2yeaMv .avatarUploaderInnerSquare-2UOXj4, .avatarUploaderDisabled-310UAf .avatarUploaderInnerSquare-2UOXj4 {
+  background-size: contain;
+}
+.fieldList-21DyL8 {
+	background-color: transparent;
+}
 .scroller-305q3I, #app-mount .headerClickable-2IVFo9, #app-mount .headerDefault-1wrJcN {background: transparent;}
 .select-2TCrqx .Select-menu-outer, #app-mount .auditLog-3jNbM6 {
 	background: var(--dplus-bg-dark-3) !important;
