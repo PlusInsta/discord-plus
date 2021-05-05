@@ -19,6 +19,11 @@
 	--dplus-server-radius: 20%;
 	--dplus-ui-radius: 10px;
 	--dplus-ui-spacing: 10px;
+	--dplus-ui-elements-spacing: 10px;
+	--dplus-server-size: 48px;
+	--dplus-chat-avatar-size: 60px;
+	--dplus-list-avatar-size: 32px;
+	--dplus-scrollbar-width: 10px;
 	--dplus-blur-scale: 100;
 	--blur-backdrop: 5px;
 	--blur-bgcover: 4px;
@@ -194,7 +199,7 @@ canvas.canvas-3XuBXe {opacity: 0.6;}
   border-radius: var(--dplus-ui-radius);
 }
 ::-webkit-scrollbar {
-  width: 10px !important;
+  width: var(--dplus-scrollbar-width) !important;
 }
 .scroller-2TZvBN::-webkit-scrollbar, .scroller-1Bvpku::-webkit-scrollbar {
 	width: 0!important;
@@ -337,7 +342,7 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-ui-radius);
 	box-shadow: none !important;
 }
-.headerTop-3C2Zn0, .activity-11LB_k, .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
+.headerTop-3C2Zn0, .activity-11LB_k, .footer-1fjuF6 .inputDefault-_djjkz { padding: var(--dplus-ui-spacing); }
 .body-3iLsc4 { padding: var(--dplus-ui-spacing) calc(var(--dplus-ui-spacing) / 2) var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
 .footer-1fjuF6 { padding: 0 var(--dplus-ui-spacing) var(--dplus-ui-spacing); }
 .avatarWrapper-3H_478 { margin-bottom: var(--dplus-ui-spacing); }
@@ -421,6 +426,12 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-ui-radius);
 	padding: 8px;
 	opacity: 0.6;
+}
+.content-1x5b-n {
+	margin-left: 0;
+	margin: 0 var(--dplus-ui-spacing);
+	padding: 0 calc(var(--dplus-ui-spacing) / 2);
+	border-radius: var(--dplus-ui-radius);
 }
 .channelSeparator-1DOiGt:before {
 	background-color: var(--dplus-accent-color);
@@ -567,6 +578,9 @@ that have popups, or else the menu breaks when you hover over them */
 
 /* Guilds list */
 		/* Home Icon */
+.platform-win .scroller-1Bvpku {
+	padding-top: var(--dplus-ui-spacing);
+}
 .homeIcon-tEMBK1, .homeIcon-FuNwkv {display: none !important;}
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: transparent;}
 .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9,
@@ -587,8 +601,33 @@ that have popups, or else the menu breaks when you hover over them */
 	background: var(--dplus-bg-3);
 	border-radius: var(--dplus-ui-radius);
 }
-.da-expandedFolderIconWrapper {transform: none!important;}
+.guilds-1SWlCJ, .listItem-GuPuDH, .wrapper-3Njo_c {
+	width: calc(var(--dplus-server-size) + var(--dplus-ui-spacing) * 2)
+}
+.listItem-GuPuDH {
+	margin: 0 0 var(--dplus-ui-spacing);
+}
+.svg-1X37T1, .wrapper-25eVIn {
+	width: var(--dplus-server-size);
+	height: var(--dplus-server-size);
+}
+.scroller-1Bvpku {
+	padding: var(--dplus-ui-spacing) 0 0;
+}
+.expandedFolderBackground-1cujaW {
+	width: var(--dplus-server-size);
+	border-radius: var(--dplus-ui-radius);
+	left: var(--dplus-ui-spacing);
+	bottom: 0;
+}
+.wrapper-3Njo_c ul {
+	height: calc(inherit + var(--dplus-ui-spacing)) !important;
+}
+
 .listItem-2P_4kh :not(span), .listItem-GuPuDH :not(span) {border-radius: var(--dplus-server-radius);}
+.item-2hkk8m, .wrapper-sa6paO { height: calc(var(--dplus-server-size) / 10 * 8) !important; }
+.pill-1z4sAY { top: calc(var(--dplus-server-size) / 10) }
+
 .expandedFolderBackground-2sPsd- {border-radius: var(--dplus-ui-radius);}
 .circleIconButton-1QV--U {
 	transition: color .15s ease-out,background-color .15s ease-out;
@@ -633,15 +672,25 @@ that have popups, or else the menu breaks when you hover over them */
 .sidebar-2K8pFh {
 	background: var(--dplus-bg-2);
 	border-radius: var(--dplus-ui-radius) !important;
-	margin: 0 10px;
+	margin: 0 var(--dplus-ui-elements-spacing);
 }
-.layout-2DM8Md, .privateChannelsHeaderContainer-3NB1K1, .content-3at_AU {
-	padding: 0 5px !important;
+.layout-2DM8Md, .content-3at_AU {
+	padding: 0 calc(var(--dplus-ui-spacing) / 2) !important;
 	border-radius: var(--dplus-ui-radius);
 }
+
+.privateChannelsHeaderContainer-3NB1K1 {
+	padding: var(--dplus-ui-spacing);
+	margin: calc(var(--dplus-ui-spacing) / 2);
+}
+
+.privateChannelRecipientsInviteButtonIcon-3A3uTc {
+	margin-right: 0;
+}
+
 .privateChannelsHeaderContainer-3NB1K1 {height: min-content;}
 .headerText-2F0828, .container-2ax-kl {text-transform: none;}
-.privateChannels-1nO12o .channel-2QD9_O {margin: 5px 0px 5px 5px;}
+.privateChannels-1nO12o .channel-2QD9_O {margin: var(--dplus-ui-spacing);}
 .closeButton-2GCmT5 {
 	display: block;
 	opacity: 0;
@@ -710,9 +759,28 @@ that have popups, or else the menu breaks when you hover over them */
 .avatar-1BDn8e.clickable-1bVtEA:active {translate: none;}
 .avatar-1BDn8e {
 	position: absolute;
-	top: 5px!important; left: 5px!important;
-	height: 60px !important; width: 60px!important;
+	top: var(--dplus-ui-spacing) !important;
+	left: var(--dplus-ui-spacing) !important;
+	height: var(--dplus-chat-avatar-size) !important;
+	width: var(--dplus-chat-avatar-size) !important;
 }
+.cozy-3raOZG.wrapper-2a6GCs {
+	padding-left: calc(var(--dplus-chat-avatar-size) + var(--dplus-ui-spacing) * 2);
+}
+
+.avatar-3uk_u9, .wrapper-3t9DeA {
+	width: var(--dplus-list-avatar-size) !important;
+	height: var(--dplus-list-avatar-size) !important;
+}
+
+.avatar-3uk_u9 {
+	margin-right: var(--dplus-ui-spacing);
+}
+
+.layout-2DM8Md {
+	height: calc(var(--dplus-list-avatar-size) + var(--dplus-ui-spacing));
+}
+
 	/* Messages */
 .wrapper-2a6GCs:not(.disableInteraction-286MMw), .scrollerSpacer-avRLaA, .groupStart-23k01U:before, .container-3RCQyg {
 	background-color: var(--dplus-bgc-chatmsg);
@@ -722,9 +790,10 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: var(--dplus-ui-radius) var(--dplus-ui-radius) 0 0;
 	padding-top: 15px!important;
 }
+
 .scrollerSpacer-avRLaA, .groupStart-23k01U:before {
 	border-radius:  0 0 var(--dplus-ui-radius) var(--dplus-ui-radius);
-	height: 12px; width: 100%;
+	width: 100%;
 }
 .wrapper-2a6GCs:hover, .wrapper-2a6GCs.selected-2P5D_Z {
 	background: var(--dplus-bg-3)!important;
@@ -733,11 +802,16 @@ that have popups, or else the menu breaks when you hover over them */
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+.group-spacing-16 .groupStart-23k01U {
+	margin-top: calc(var(--dplus-ui-radius) * 2);
+}
 .group-spacing-16 .groupStart-23k01U:before {
 	content: "";
 	position: absolute;
-	top: -17px; left: 0;
+	top: calc(var(--dplus-ui-spacing) - var(--dplus-ui-spacing) - var(--dplus-ui-radius) - var(--dplus-ui-radius));
+	left: 0;
 	pointer-events: none;
+	height: var(--dplus-ui-radius);
 }
 .divider-JfaTT5, .container-3RCQyg {
 	margin: 0!important;
@@ -758,6 +832,19 @@ that have popups, or else the menu breaks when you hover over them */
 	color: var(--text-normal);
 }
 .container-3RCQyg { margin: 0; padding-left: 5px; }
+
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+	left: calc(-24px + var(--dplus-ui-spacing) / 2);
+}
+.timestampVisibleOnHover-2bQeI4 time {
+	padding: calc(var(--dplus-ui-spacing) / 2);
+	background: var(--dplus-bgc-popout);
+	border-radius: 0 var(--dplus-ui-radius) var(--dplus-ui-radius) 0;
+}
+.timestampVisibleOnHover-2bQeI4 time:nth-child(2) {
+	margin-left: var(--dplus-ui-spacing);
+}
+
 	/* Pings */
 .mentioned-xhSam7 {background: var(--dplus-bg-1);}
 .mentioned-xhSam7 .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK) {
