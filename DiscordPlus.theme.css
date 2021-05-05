@@ -18,25 +18,15 @@
 	--dplus-avatar-radius: 20%;
 	--dplus-server-radius: 20%;
 	--dplus-ui-radius: 10px;
-	--dplus-ui-spacing: 10px; /*unused, for future endeavours*/
+	--dplus-ui-spacing: 10px;
 	--dplus-blur-scale: 100;
-	--dplus-bg-dark-1: hsla(0, 0%, 0%, 0.68);
-	--dplus-bg-dark-2: hsla(0, 0%, 0%, 0.74);
-	--dplus-bg-dark-3: hsla(0, 0%, 0%, 0.82);
-	--dplus-bg-light-1: hsla(0, 0%, 95%, 0.85);
-	--dplus-bg-light-2: hsla(0, 0%, 97%, 0.88);
-	--dplus-bg-light-3: hsla(0, 0%, 100%, 0.90);
+	--blur-backdrop: 5px;
+	--blur-bgcover: 4px;
+	--blur-popout: 3px;
 }
 /* Current theme variable shorthands */
-.theme-dark {
-	--dplus-bg-1: var(--dplus-bg-dark-1);
-	--dplus-bg-2: var(--dplus-bg-dark-2);
-	--dplus-bg-3: var(--dplus-bg-dark-3);
-}
-.theme-light {
-	--dplus-bg-1: var(--dplus-bg-light-1);
-	--dplus-bg-2: var(--dplus-bg-light-2);
-	--dplus-bg-3: var(--dplus-bg-light-3);
+:root {
+	--blurcalc-popout: blur(calc(var(--blur-popout) / 100 * var(--dplus-blur-scale)));
 }
 
 /* Background covers */
@@ -56,7 +46,25 @@
 	--dplus-bgc-server-button: hsla(0, 0%, 75%, 0.35);
 }
 
-
+/* Legacy background covers */
+:root {
+	--dplus-bg-dark-1: hsla(0, 0%, 0%, 0.68);
+	--dplus-bg-dark-2: hsla(0, 0%, 0%, 0.74);
+	--dplus-bg-dark-3: hsla(0, 0%, 0%, 0.82);
+	--dplus-bg-light-1: hsla(0, 0%, 95%, 0.85);
+	--dplus-bg-light-2: hsla(0, 0%, 97%, 0.88);
+	--dplus-bg-light-3: hsla(0, 0%, 100%, 0.90);
+}
+.theme-dark {
+	--dplus-bg-1: var(--dplus-bg-dark-1);
+	--dplus-bg-2: var(--dplus-bg-dark-2);
+	--dplus-bg-3: var(--dplus-bg-dark-3);
+}
+.theme-light {
+	--dplus-bg-1: var(--dplus-bg-light-1);
+	--dplus-bg-2: var(--dplus-bg-light-2);
+	--dplus-bg-3: var(--dplus-bg-light-3);
+}
 
 /* Discord's variables */
 .theme-dark, .theme-light {
@@ -90,13 +98,6 @@
 	--background-accent: var(--dplus-accent-color);
 }
 
-/* Blur amount */
-:root {
-	--blur-backdrop: 5px;
-	--blur-bgcover: 4px;
-	--blur-popout: 3px;
-	--blurcalc-popout: blur(calc(var(--blur-popout) / 100 * var(--dplus-blur-scale)));
-}
 
 /* Background image */
 #app-mount {
@@ -448,6 +449,7 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: transparent !important;
 	border: none !important;
 	max-height: 560px !important;
+	backdrop-filter: var(--blurcalc-popout);
 }
 
 .messageGroupWrapper-o-Zw7G {
@@ -630,6 +632,10 @@ that have popups, or else the menu breaks when you hover over them */
 .channel-2QD9_O:hover .closeButton-2GCmT5 {
 	opacity: 0.6;
 	margin-right: 0;
+}
+.menu-3sdvDG {
+	border-radius: var(--dplus-ui-radius);
+	background: transparent;
 }
 	/* Animated channel buttons */
 .iconVisibility-1bOqu7 .da-children {
