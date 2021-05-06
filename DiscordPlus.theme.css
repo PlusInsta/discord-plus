@@ -134,6 +134,7 @@ p, textarea, input, placeholder,
 header, h1,
 .nameAndDecorators-5FJ2dg, /*name in member list*/
 .headerNameWrapper-3res2c, /*nickname in profile popup*/
+.username-1A8OIy, /*username in chat*/
 .nameTag-m8r81H, /*username#tag in profile popup*/
 .nameTag-3uD-yy, /*your username in the bottom-left*/
 .detailsInner-1VPlWl, /*settings: your username in My Account*/
@@ -813,6 +814,15 @@ that have popups, or else the menu breaks when you hover over them */
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
+.systemMessage-1I9LCe.groupStart-23k01U .contents-2mQqc9:before {
+	display: none;
+}
+.systemMessage-1I9LCe .iconContainer-3GkGRf {
+	width: var(--dplus-avatar-size-chat);
+	margin-right: var(--dplus-ui-spacing);
+}
+
 .group-spacing-16 .groupStart-23k01U {
 	margin-top: calc(var(--dplus-ui-spacing) + var(--dplus-ui-radius));
 }
@@ -827,7 +837,6 @@ that have popups, or else the menu breaks when you hover over them */
 
 .groupStart-23k01U .contents-2mQqc9:before {
     content: '';
-    min-height: calc(var(--dplus-avatar-size-chat) - var(--dplus-ui-spacing) * 4);
     display: inline-block;
 }
 
@@ -843,15 +852,18 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .hasContent-1cNJDh {
 	position: relative;
-	top: 19px;
+	top: calc(var(--dplus-ui-spacing) + var(--dplus-ui-radius) / 2);
 }
-.hasContent-1cNJDh + .groupStart-23k01U {margin-top: 25px;}
-.hasContent-1cNJDh + .groupStart-23k01U:before {top: -25px;}
+
+.hasContent-1cNJDh + .groupStart-23k01U {margin-top: calc(var(--dplus-ui-spacing) + 15px);}
+.hasContent-1cNJDh + .groupStart-23k01U:before {top: calc(var(--dplus-ui-spacing) - var(--dplus-ui-spacing) * 2 - 16px);}
 .wrapper-2a6GCs:hover + .groupStart-23k01U:before, .wrapper-2a6GCs:hover + .scrollerSpacer-avRLaA, .wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before,
 .wrapper-2a6GCs.selected-2P5D_Z + .groupStart-23k01U:before, .wrapper-2a6GCs.selected-2P5D_Z + .scrollerSpacer-avRLaA, .wrapper-2a6GCs.selected-2P5D_Z + .hasContent-1cNJDh + .groupStart-23k01U:before {background-color: var(--dplus-bg-3);}
 .content-1o0f9g {
 	background: none;
 	color: var(--text-normal);
+	margin-top: 0;
+	padding: var(--dplus-ui-spacing);
 }
 .container-3RCQyg { margin: 0; padding-left: 5px; }
 
