@@ -1,8 +1,8 @@
 # ![Discord+](https://github.com/PlusInsta/discord-plus/blob/master/assets/wordmark_black.svg)
 A sleek, customizable Discord theme, inspired by Material.
 
-![Screenshot of Discord+ in dark theme](https://i.imgur.com/Czuxyt3.png)
-![Screenshot of Discord+ in light theme](https://i.imgur.com/5mhka8H.png)
+![Screenshot of Discord+ in dark theme](https://cdn.discordapp.com/attachments/560369937084973067/839901382504874054/unknown.png)
+![Screenshot of Discord+ in light theme](https://cdn.discordapp.com/attachments/560369937084973067/839901405544316968/unknown.png)
 
 ## What is this?
 
