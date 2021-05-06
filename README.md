@@ -18,7 +18,7 @@ If customizing the theme is difficult, feel free to drop by our server and we'll
 
 
 # Download
-[DiscordPlus-master.theme.css](https://plusinsta.github.io/discord-plus/DiscordPlus-master.theme.css)
+[DiscordPlus.theme.css](https://plusinsta.github.io/discord-plus/DiscordPlus.theme.css)
 
 To download the theme, hold Alt and click this link. Save it to your Downloads for now.
 
@@ -26,7 +26,7 @@ To download the theme, hold Alt and click this link. Save it to your Downloads f
 These steps assume the file is in your Downloads folder.
 
 ## **Windows**:
-* Download `DiscordPlus-master.theme.css`
+* Download `DiscordPlus.theme.css`
 * Open your Downloads folder
 * Cut the downloaded file (Ctrl + X)
 * Type `%AppData%\BetterDiscord\themes` in the address bar
@@ -35,7 +35,7 @@ These steps assume the file is in your Downloads folder.
 * Enable the theme in Settings
 
 ## **macOS**:
-* Download `DiscordPlus-master.theme.css`
+* Download `DiscordPlus.theme.css`
 * Open Finder
 * Press ⇧⌘G
 * Type `~/Library/Preferences/BetterDiscord/themes`
@@ -45,7 +45,7 @@ These steps assume the file is in your Downloads folder.
 * Enable the theme in Settings
 
 ## **Linux**:
-* Download `DiscordPlus-master.theme.css`
+* Download `DiscordPlus.theme.css`
 * Open the Terminal
 * type `mv ~/Downloads/DiscordPlus* ~/.config/BetterDiscord/themes`
 * Run `discord`
