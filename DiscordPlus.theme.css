@@ -769,6 +769,7 @@ that have popups, or else the menu breaks when you hover over them */
 .avatar-1BDn8e.clickable-1bVtEA:active {translate: none;}
 .avatar-1BDn8e {
 	position: absolute;
+	margin-top: 0;
 	top: var(--dplus-ui-spacing) !important;
 	left: var(--dplus-ui-spacing) !important;
 	height: var(--dplus-avatar-size-chat) !important;
@@ -814,7 +815,6 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .group-spacing-16 .groupStart-23k01U {
 	margin-top: calc(var(--dplus-ui-spacing) + var(--dplus-ui-radius));
-	min-height: calc(var(--dplus-avatar-size-chat) + var(--dplus-ui-spacing));
 }
 .group-spacing-16 .groupStart-23k01U:before {
 	content: "";
@@ -823,6 +823,12 @@ that have popups, or else the menu breaks when you hover over them */
 	left: 0;
 	pointer-events: none;
 	height: var(--dplus-ui-radius);
+}
+
+.groupStart-23k01U .contents-2mQqc9:before {
+    content: '';
+    min-height: calc(var(--dplus-avatar-size-chat) - var(--dplus-ui-spacing) * 4);
+    display: inline-block;
 }
 
 .scrollerSpacer-avRLaA {
