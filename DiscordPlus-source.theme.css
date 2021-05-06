@@ -831,12 +831,12 @@ that have popups, or else the menu breaks when you hover over them */
 
 /* whacko experimental attempt at fixing awful margins */
 h2.header-23xsNx {
+	display: flex !important;
   flex-direction: column !important;
 }
 .timestampInline-yHQ6fX {
 	margin-left: 0;
 }
-
 .content-2M3n_H .timestampInline-yHQ6fX {
 	margin-left: 4px;
 }
