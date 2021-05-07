@@ -781,6 +781,7 @@ html:not(.reduce-motion) .closeButton-2GCmT5 {
 }
 .iconVisibility-sTNpHs .iconItem-F7GRxr {
 	opacity: 0;
+	z-index: 1;
 }
 
 .containerDefault--pIXnN.selected-3LIHYU .children-3rEycc,
