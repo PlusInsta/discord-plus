@@ -11,6 +11,8 @@
 @import url(//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
+	--dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 	--dplus-accent-ui: #802060;
 	--dplus-font-ui: 'Poppins';
 	--dplus-font-body: 'Roboto';
@@ -627,16 +629,24 @@ html:not(.reduce-motion) #app-mount .messagesPopoutWrap-1MQ1bW .messagesPopout-2
 .platform-win .scroller-1Bvpku {
 	padding-top: var(--dplus-spacing-ui);
 }
-.homeIcon-tEMBK1, .homeIcon-FuNwkv {display: none !important;}
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: transparent;}
-.theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-1v44GL .childWrapper-anI2G9,
-.theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9, .theme-light .theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
-	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6I2ZmZn08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+');
+.homeIcon-FuNwkv {display: none !important;}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+	background-color: transparent;
 }
-.theme-light .tutorialContainer-1v44GL .childWrapper-anI2G9,
+.theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9,
+.theme-light .theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9,
 .theme-light .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
-	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHN0eWxlPi5zdDF7ZGlzcGxheTppbmxpbmV9LnN0MSwuc3Qye2ZpbGw6IzAwMH08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00LjEgMUgxLjh2Mi42TDMuMyA1VjIuNWguOGMuNSAwIC44LjMuOC42VjVjMCAuNC0uMy43LS44LjdIMS44djEuNWgyLjNjMS4yIDAgMi40LS42IDIuNC0ydi0yQzYuNSAxLjcgNS4zIDEgNC4xIDF6TTEuOCA3LjRoMTIuNHYyLjdIMS44eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02LjcgMi42aDIuN1YxNUg2Ljd6Ii8+PC9zdmc+');
+	background: var(--dplus-icon-home-dark);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
+
+.theme-light .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
+	background: var(--dplus-icon-home-light);
+}
+
 		/* List */
 .guilds-1SWlCJ foreignObject {mask: none;}
 .guildSeparator-3s64Iy, .guildSeparator-33mFX6 {display: none}
