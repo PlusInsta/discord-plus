@@ -117,6 +117,7 @@
 #app-mount {
 	background: var(--dplus-background) !important;
 	background-size: cover !important;
+	background-position: center !important;
 }
 html { background-color: var(--dplus-accent-ui); }
 /* Fonts */
