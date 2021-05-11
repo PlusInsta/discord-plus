@@ -450,7 +450,7 @@ html:not(.reduce-motion) .search-2oPWTC .searchBar-3dMhjb {
 	transition-duration:300ms;
 }
 #app-mount .container-3ayLPN {
-	background-color: var(--dplus-bg-2);
+	background-color: var(--dplus-bgc-popout);
 	border-radius: var(--dplus-radius-ui);
 	width: 404px!important;
 	margin-left: -68px;
@@ -491,7 +491,7 @@ html:not(.reduce-motion) .search-2oPWTC .searchBar-3dMhjb {
 	box-shadow: none !important;
 }
 .search-2oPWTC .searchBar-3dMhjb, .queryContainer-RKFJW-.focused-2bY0OD {
-  background: var(--dplus-bg-2);
+  background: var(--dplus-bgc-ui-base);
 }
 #app-mount .searchResultMessage-1fxgXh.sibling-1eJVjd {
   opacity: .3;
@@ -500,7 +500,7 @@ html:not(.reduce-motion) .search-2oPWTC .searchBar-3dMhjb {
 #app-mount .elevationBorderHigh-2WYJ09 {box-shadow: none;}
 	/* Calendar picker */
 #app-mount .calendarPicker-2yf6Ci .react-datepicker {
-	background-color: var(--dplus-bg-2) !important;
+	background-color: var(--dplus-bgc-ui-base) !important;
 	margin-left: 46px;
 }
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__day:not(.react-datepicker__day--disabled):hover,
@@ -729,6 +729,17 @@ html:not(.reduce-motion) .circleIconButton-1QV--U {
 .categoryPill-34fszg.selected-1dONk0 {
 	background-color: var(--dplus-accent-ui);
 }
+/* Server Boost */
+.root-3R2ngo {
+	border-radius: var(--dplus-radius-ui);
+	margin: var(--dplus-spacing-app);
+	margin-top: calc(var(--dplus-spacing-app) + 40px);
+}
+#app-mount .perksModal-fSYqOq, #app-mount .tierBody-16Chc9, #app-mount .perk-2WeBWW {background-color: var(--dplus-bgc-ui-base);}
+#app-mount .tierHeaderLocked-1s2JJz {
+	background-color: var(--dplus-accent-ui);
+	color: var(--text-muted);
+}
 
 	/* Sidebar */
 .scroller-1JbKMe, .privateChannels-1nO12o, .container-3w7J-x {background: transparent;}
@@ -925,7 +936,7 @@ html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 .buttonContainer-2GVjL_ {
 	margin: var(--dplus-spacing-ui);
 }
-
+.reaction-1hd86g.reactionMe-wv5HKu {border-color: var(--dplus-accent-ui);}
 /* Timestamps in chat */
 html:not(.reduce-motion) h2.header-23xsNx .timestamp-3ZCmNB,
 html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
@@ -1095,7 +1106,7 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 	/* Calling */
 .controlButton-2MhVEL foreignObject {mask: none;}
 #app-mount .wrapper-2qzCYF {
-	background-color: var(--dplus-bg-3)!important;
+	background-color: var(--dplus-bgc-ui-base)!important;
 }
 .videoWrapper-2v09vt, :not(:root):-webkit-full-screen::backdrop {background-color: transparent;}
 
@@ -1107,7 +1118,7 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 }
 .streamPreviewWrapper-2DSWOK {padding: 0;}
 .centerButton-3CaNcJ, .avatarSpeaking-2c8-9i {border-radius: var(--dplus-radius-avatar);}
-.colorable-1bkp8v.primaryDark-3mSFDl {background-color: var(--dplus-bg-1);}
+.colorable-1bkp8v.primaryDark-3mSFDl {background-color: var(--dplus-bgc-ui-base);}
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {background-color: var(--background-accent);}
 .tile-2naSqK {background: transparent!important;}
 .background-ujHpbY {background-color: var(--dplus-bg-1)!important;}
@@ -1118,7 +1129,7 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 	/* Attachments */
 #app-mount .attachment-33OFj0,
 #app-mount .wrapper-2TxpI8 {
-	background-color: var(--dplus-bg-1) !important;
+	background-color: var(--dplus-bgc-popout)!important;
 	border-color: var(--dplus-accent-ui) !important;
 }
 .attachment-33OFj0,
@@ -1243,7 +1254,6 @@ html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
-	overflow: hidden;
 }
 html:not(.reduce-motion) #app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
 html:not(.reduce-motion) #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
@@ -1354,10 +1364,6 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 #app-mount .card-FDVird .removeKeybind-39dSFj:hover {background-color: var(--dplus-accent-ui);}
 
 /* BetterDiscord Section */
-[for="minimalMode"] + div {display: none;}
-[for="minimalMode"] {pointer-events: none;}
-[for="minimalMode"]::after {content: " 🚫"}
-
 		/* BetterDiscord Plugin/Theme lists */
 	/* BetterDiscord Plugin/Theme lists */
 .bd-addon-list.bd-grid-view {
@@ -1365,7 +1371,7 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
   row-gap: var(--dplus-spacing-ui);
 }
 .bd-addon-list .bd-addon-card {
-	background: var(--dplus-bgc-ui-card));
+	background: var(--dplus-bgc-ui-card);
 	border: none; border-radius: var(--dplus-radius-ui) !important;
 	max-height: 100%;
 	padding: var(--dplus-spacing-ui);
@@ -1456,6 +1462,10 @@ html:not(.reduce-motion) [type="button"] {
 	background-color: transparent !important;
 	border-color: var(--dplus-accent-ui) !important;
 	border-radius: var(--dplus-radius-ui) !important;
+}
+#app-mount .colorPickerCustom-2CWBn2 {
+	background: transparent;
+	border-color: var(--dplus-accent-ui); border-radius: var(--dplus-radius-ui);
 }
 /* Toast Notifications */
 .toast, .bd-toast {
