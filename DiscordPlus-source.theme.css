@@ -330,7 +330,9 @@ iframe {
 	/* Context menu */
 .scroller-3BxosC, .submenuPaddingContainer-fiOCHc {
 	padding: 0;
-	overflow: hidden!important;
+}
+.scroller-3BxosC::-webkit-scrollbar, .submenuPaddingContainer-fiOCHc::-webkit-scrollbar {
+	width: 0 !important;
 }
 .submenuPaddingContainer-fiOCHc {margin-right: -4px;margin-left: -4px;} /* fixes the submenu being four pixels off */
 
@@ -611,6 +613,9 @@ html:not(.reduce-motion) .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .wrap
 	height: 24px;
 	top: 2px;
 }
+.winButtonClose-1HsbF- {
+	border-radius: 0 10px 10px 0;
+}
 .wordmark-2iDDfm {
 	display: block;
 	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
@@ -858,7 +863,7 @@ html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden;
 }
-.nowPlayingColumn-2sl4cE, .container-1D34oG .container-1r6BKw.themed-ANHk51 {background-color: transparent;}
+.nowPlayingColumn-2sl4cE, .container-1D34oG .container-1r6BKw.themed-ANHk51, .container-lRFx4q {background-color: transparent;}
 .actionButton-uPB8Fs, #app-mount .inset-3sAvek,  #app-mount .separator-XqIyoz, .wrapper-3Rixsz:hover, .memberListContainer-13tNU9 div:hover {
 	background-color: var(--dplus-accent-ui)!important;
 	border-radius: var(--dplus-radius-ui);
