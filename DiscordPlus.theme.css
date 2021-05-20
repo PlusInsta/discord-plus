@@ -48,6 +48,10 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 --dplus-spacing-ui: 10px;
 --dplus-spacing-app: 10px;
 
+/* The Home icon */
+--dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+
 /* Icon sizes */
 --dplus-icon-avatar-chat: 60px;
 --dplus-icon-avatar-list: 32px;

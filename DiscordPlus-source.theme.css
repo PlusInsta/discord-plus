@@ -1,6 +1,6 @@
 /**
  * @name Discord+ Source Code
- * @version 3.0
+ * @version 3.0.1
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
  * @description For developers only. If you're a user, please download the latest release instead.
@@ -11,8 +11,6 @@
 @import url(//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
-	--dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 	--dplus-accent-ui: #802060;
 	--dplus-font-ui: 'Poppins';
 	--dplus-font-body: 'Roboto';
@@ -22,6 +20,8 @@
 	--dplus-radius-server: 20%;
 	--dplus-spacing-ui: 10px;
 	--dplus-spacing-app: 10px;
+	--dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 	--dplus-icon-avatar-chat: 60px;
 	--dplus-icon-avatar-list: 32px;
 	--dplus-icon-avatar-profile: 80px;
