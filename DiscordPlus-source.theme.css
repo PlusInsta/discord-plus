@@ -421,6 +421,10 @@ html:not(.reduce-motion) .item-1tOPte {
     stroke: var(--dplus-accent-ui) !important;
 }
 
+.profileBanner-j34RzR {
+	height: 120px;
+}
+
 .activity-fViXj7 {
 	border-bottom: 0;
 }
@@ -1054,11 +1058,12 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 }
 .hasContent-1cNJDh {
 	position: relative;
-	top: calc(var(--dplus-spacing-ui) + var(--dplus-radius-ui) / 2);
+	top: calc(var(--dplus-spacing-ui) + var(--dplus-radius-ui));
+	margin-top: var(--dplus-spacing-ui) !important;
 }
 
-.hasContent-1cNJDh + .groupStart-23k01U {margin-top: calc(var(--dplus-spacing-ui) + 15px);}
-.hasContent-1cNJDh + .groupStart-23k01U:before {top: calc(var(--dplus-spacing-ui) - var(--dplus-spacing-ui) * 2 - 16px);}
+.hasContent-1cNJDh + .groupStart-23k01U {margin-top: calc(var(--dplus-spacing-ui) + 25px);}
+.hasContent-1cNJDh + .groupStart-23k01U:before {top: calc(var(--dplus-spacing-ui) - var(--dplus-spacing-ui) * 4 - 16px);}
 .wrapper-2a6GCs:hover + .groupStart-23k01U:before,
 .wrapper-2a6GCs:hover + .scrollerSpacer-avRLaA,
 .wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before,
