@@ -120,6 +120,7 @@
 	background-position: center !important;
 }
 html { background-color: var(--dplus-accent-ui); }
+
 /* Fonts */
 	/* Display font */
 body, button, select, ::-webkit-input-placeholder {
@@ -156,7 +157,8 @@ header, h1,
 .title-29uC1r, /*channel name in chat header*/
 .title-3sZWYQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
-.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/ {
+.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/,
+.headerText-2WJ44e /*experimental profile popout w/ banners*/ {
 	font-family: var(--dplus-font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
@@ -391,8 +393,14 @@ html:not(.reduce-motion) .item-1tOPte {
 .body-3iLsc4 { padding: var(--dplus-spacing-ui) calc(var(--dplus-spacing-ui) / 2) var(--dplus-spacing-ui) var(--dplus-spacing-ui); }
 .footer-1fjuF6 { padding: 0 var(--dplus-spacing-ui) var(--dplus-spacing-ui); }
 .avatarWrapper-3H_478 { margin-bottom: var(--dplus-spacing-ui); }
-#app-mount .headerNormal-T_seeN, #app-mount .body-3iLsc4, #app-mount .footer-1fjuF6,
-.headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT, .headerXbox-3G-4PF {
+#app-mount .headerNormal-T_seeN,
+.headerNormal-1l1Znk,
+ #app-mount .body-3iLsc4,
+ #app-mount .footer-1fjuF6,
+.headerPlaying-j0WQBV,
+.headerStreaming-2FjmGz,
+.headerSpotify-zpWxgT,
+.headerXbox-3G-4PF {
 	background-color: transparent;
 }
 
@@ -404,6 +412,18 @@ html:not(.reduce-motion) .item-1tOPte {
 
 .disabledButtonWrapper-3wH6-b { display: none; /* Remove Spotify buttons for yourself */ }
 .button-2IFFQ4 { margin-top: var(--dplus-spacing-ui); }
+
+[style="background-color: rgb(114, 137, 218);"] {
+	background-color: var(--dplus-accent-ui) !important;
+}
+.theme-dark .path-92Hmty,
+.theme-light .path-92Hmty {
+    stroke: var(--dplus-accent-ui) !important;
+}
+
+.activity-fViXj7 {
+	border-bottom: 0;
+}
 
 .theme-light .header-2BwW8b,
 .theme-light .headerTag-2pZJzA,
@@ -901,7 +921,7 @@ html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 	padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);
 }
 
-.avatar-3uk_u9, .wrapper-3t9DeA {
+.avatar-3uk_u9 .wrapper-3t9DeA {
 	width: var(--dplus-icon-avatar-list) !important;
 	height: var(--dplus-icon-avatar-list) !important;
 }
@@ -1232,6 +1252,11 @@ html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 
 .preview-2nSL_2 {
 	height: calc(180px + var(--dplus-spacing-ui));
+}
+
+.profileBannerPreview-3FLQKD,
+.profileBannerPreview-3FLQKD .avatarUploaderInner-3UNxY3 {
+	border-radius: var(--dplus-radius-ui);
 }
 
 .platform-osx [id="user-settings"] {
