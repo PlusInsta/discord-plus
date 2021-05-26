@@ -154,9 +154,10 @@ header, h1,
 .secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot header*/
 .roleName-32vpEy, /*role name in profile*/
 .roleName-1vjSQR, .roleName-2IkRdr, /*role name in server settings*/
+.membersGroup-v9BXpm, /*role name in member list*/
 .roleRow-1iQo_1, /*role name in context menu*/
 .roleMention-2Bj0ju, /*role name mention in chat*/
-.wrapper-3WhCwL, /*channel name or username mention in chat*/
+.wrapper-3WhCwL, /*username or channel name mention in chat*/
 .name-3l27Hl, /*category name in sidebar*/
 .name-23GUGE, /*channel name in sidebar*/
 .title-29uC1r, /*channel name in chat header*/
