@@ -144,7 +144,8 @@ header, h1,
 .nameAndDecorators-5FJ2dg, /*name in member list*/
 .headerNameWrapper-3res2c, /*nickname in profile popup*/
 .username-1A8OIy, /*username in chat*/
-.nameTag-m8r81H, /*username#tag in profile popup*/
+.nameTag-m8r81H, /*username#tag in profile popup (pre-banner, remove after it rolls out)*/
+.headerText-2WJ44e /*username#tag in profile popup*/
 .nameTag-3uD-yy, /*your username in the bottom-left*/
 .detailsInner-1VPlWl, /*settings: your username in My Account*/
 .activityName-1IaRLn, /*user's activity name, includes song and author titles*/
@@ -154,12 +155,14 @@ header, h1,
 .roleName-32vpEy, /*role name in profile*/
 .roleName-1vjSQR, .roleName-2IkRdr, /*role name in server settings*/
 .roleRow-1iQo_1, /*role name in context menu*/
-.name-3l27Hl, /*channel name in sidebar*/
+.roleMention-2Bj0ju, /*role name mention in chat*/
+.wrapper-3WhCwL, /*channel name or username mention in chat*/
+.name-3l27Hl, /*category name in sidebar*/
+.name-23GUGE, /*channel name in sidebar*/
 .title-29uC1r, /*channel name in chat header*/
 .title-3sZWYQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
-.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/,
-.headerText-2WJ44e /*experimental profile popout w/ banners*/ {
+.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/{
 	font-family: var(--dplus-font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
@@ -393,6 +396,10 @@ html:not(.reduce-motion) .item-1tOPte {
 .avatarUploaderInner-2EvNMg {
 	width: var(--dplus-icon-avatar-profile) !important;
 	height: var(--dplus-icon-avatar-profile) !important;
+}
+
+.nickname-322DbL {
+	font-family: inherit;
 }
 
 .headerTop-3C2Zn0, .activity-11LB_k, .footer-1fjuF6 .inputDefault-_djjkz { padding: var(--dplus-spacing-ui); }
