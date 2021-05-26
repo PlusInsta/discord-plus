@@ -389,11 +389,23 @@ html:not(.reduce-motion) .item-1tOPte {
 	border-radius: var(--dplus-radius-ui);
 	box-shadow: none !important;
 }
+
+.avatarHint-1E3LMl,
+.wrapper-3t9DeA {
+	border-radius: var(--dplus-radius-avatar);
+}
+
+.avatarHint-1E3LMl {
+	top: 6px;
+	left: 10px;
+}
+
 .userPopout-3XzG_A .wrapper-3t9DeA,
 .container-3RCQyg .wrapper-3t9DeA,
 .avatarHint-1qgaV3,
 .header-QKLPzZ .avatar-3EQepX,
-.avatarUploaderInner-2EvNMg {
+.avatarUploaderInner-2EvNMg,
+.avatarHint-1E3LMl {
 	width: var(--dplus-icon-avatar-profile) !important;
 	height: var(--dplus-icon-avatar-profile) !important;
 }
