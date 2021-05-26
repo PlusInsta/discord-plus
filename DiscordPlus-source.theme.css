@@ -329,6 +329,11 @@ iframe {
 	background-color: var(--dplus-bgc-popout);
 	border-radius: var(--dplus-radius-ui);
 }
+
+.popouts-2bnG9Z {
+    z-index: 1000 !important;
+}
+
 	/* Context menu */
 .scroller-3BxosC, .submenuPaddingContainer-fiOCHc {
 	padding: 0;
