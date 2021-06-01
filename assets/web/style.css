@@ -87,11 +87,20 @@ body {
   100% { height: 0; width: 0; opacity: 0; transform: scale(0); }
 }
 
-#githubicon {
+#channelname {
+  background: rgba(114,137,218,0.1);
+  color: rgb(227, 231, 248);
+  font-family: "Righteous";
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.githubicon {
   opacity: 0.6;
   width: 14px;
   height: 14px;
   vertical-align: center;
+  background-image: url("githubicon.svg");
 }
 
 #wordmark {
@@ -600,7 +609,7 @@ body {
 a {
     color: #59b9e8;
     text-decoration: none;
-    font-family: "Poppins";
+    font-family: "Roboto";
 }
 
 a:hover {
@@ -632,7 +641,7 @@ a:hover {
 
 @keyframes lookAtMe {
   0% { background-color: rgba(0,0,0,0.6);}
-  20% { background-color: rgba(135,31,96,0.8); }
+  20% { background-color: rgba(128,32,96,0.8); }
   40% { background-color: rgba(0,0,0,0.6);}
   100% { background-color: rgba(0,0,0,0.6);}
 }
@@ -672,12 +681,12 @@ a:hover {
     }
 }
 
-#mobile {
+.mobile {
   display: none;
 }
 
 @media screen and (max-width: 42em) {
-    #mobile {
+    .mobile {
         display: block;
     }
 }
