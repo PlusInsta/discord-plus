@@ -1111,14 +1111,60 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 .imageWrapper-2p5ogY {
 	border-radius: var(--dplus-radius-ui);
 }
+
+.group-spacing-0 {
+	--hascontent-correction-groupstart: 19px;
+	--hascontent-correction-groupstart-before: 20px;
+}
+
+.group-spacing-4 {
+	--hascontent-correction-groupstart: 15px;
+	--hascontent-correction-groupstart-before: 16px;
+}
+
+.group-spacing-8 {
+	--hascontent-correction-groupstart: 11px;
+	--hascontent-correction-groupstart-before: 12px;
+}
+
+.group-spacing-16 {
+	--hascontent-correction-groupstart: 3px;
+	--hascontent-correction-groupstart-before: 4px;
+}
+
+.group-spacing-24 {
+	--hascontent-correction-groupstart: calc(19px - var(--dplus-spacing-ui));
+	--hascontent-correction-groupstart-before: calc(20px - var(--dplus-spacing-ui));
+}
+
 .hasContent-1cNJDh {
 	position: relative;
-	top: calc(var(--dplus-spacing-ui) + var(--dplus-radius-ui));
+	top: calc(10px + var(--dplus-spacing-ui) / 2 + var(--dplus-radius-ui));
 	margin-top: var(--dplus-spacing-ui) !important;
 }
 
-.hasContent-1cNJDh + .groupStart-23k01U {margin-top: calc(var(--dplus-spacing-ui) + 25px);}
-.hasContent-1cNJDh + .groupStart-23k01U:before {top: calc(var(--dplus-spacing-ui) - var(--dplus-spacing-ui) * 4 - 16px);}
+.hasContent-1cNJDh + .groupStart-23k01U { border-top-left-radius: 0; }
+
+
+.hasContent-1cNJDh + .groupStart-23k01U {
+	margin-top: calc(var(--group-spacing) + var(--dplus-spacing-ui) + var(--dplus-radius-ui) + var(--hascontent-correction-groupstart)) !important;
+}
+
+.hasContent-1cNJDh + .groupStart-23k01U:before {
+	top: calc(0px - var(--group-spacing) - var(--hascontent-correction-groupstart-before) - var(--dplus-radius-ui) - var(--dplus-spacing-ui) * 2) !important;
+}
+
+.content-1o0f9g {
+	background: var(--dplus-bgc-chatmsg);
+	color: var(--text-normal);
+	margin-top: var(--dplus-spacing-ui);
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
+}
+
+.divider-JfaTT5 {
+	justify-content: flex-start;
+}
+
 .wrapper-2a6GCs:hover + .groupStart-23k01U:before,
 .wrapper-2a6GCs:hover + .scrollerSpacer-avRLaA,
 .wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before,
@@ -1127,12 +1173,7 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 .wrapper-2a6GCs.selected-2P5D_Z + .hasContent-1cNJDh + .groupStart-23k01U:before {
 	background-color: var(--dplus-bgc-chatmsg-hover);
 }
-.content-1o0f9g {
-	background: none;
-	color: var(--text-normal);
-	margin-top: 0;
-	padding: var(--dplus-spacing-ui);
-}
+
 .container-3RCQyg { margin: 0; padding-left: 5px; }
 
 	/* Pings */
