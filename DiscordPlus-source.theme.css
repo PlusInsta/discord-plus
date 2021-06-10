@@ -1095,9 +1095,7 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 
 
 .scrollerSpacer-avRLaA { /* very last message in chat */
-	height: calc(var(--dplus-radius-ui) + var(--dplus-icon-avatar-chat-limit));
-	max-height: calc(var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui));
-	min-height: var(--dplus-radius-ui);
+	height: calc(var(--dplus-calc-chatmsg-spacing) + var(--dplus-radius-ui) + var(--dplus-spacing-ui));
 }
 
 .scroller-2LSbBU {
