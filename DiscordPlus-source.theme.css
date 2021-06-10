@@ -645,9 +645,6 @@ html:not(.reduce-motion) .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .wrap
 .rtc-connection-status {
 	padding-bottom: 2px;
 }
-.a11y-font-scaled-down, .a11y-font-scaled-up {
-	font-size: 100%!important;
-}
 
 
 /* Windows titlebar */
@@ -1512,6 +1509,19 @@ border-radius: var(--dplus-radius-ui) !important;
 #app-mount .colorPickerCustom-2CWBn2 {
 background: transparent;
 border-color: var(--dplus-accent-ui); border-radius: var(--dplus-radius-ui);
+}
+
+/* Accessibility / a11y */
+	/* Font sizes */
+html[style^="font-size: 75%;"] { --chat-font-scaling: 0.75; }
+html[style^="font-size: 87.5%;"] { --chat-font-scaling: 0.875; }
+html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
+.a11y-font-scaled-down .cozy-3raOZG.wrapper-2a6GCs {
+	padding-left: calc(var(--dplus-icon-avatar-chat-limit) * var(--chat-font-scaling) + var(--dplus-spacing-ui) * 2);
+}
+.a11y-font-scaled-down .cozy-3raOZG.wrapper-2a6GCs .avatar-1BDn8e {
+	width: calc(var(--dplus-icon-avatar-chat-limit) * var(--chat-font-scaling)) !important;
+	height: calc(var(--dplus-icon-avatar-chat-limit) * var(--chat-font-scaling)) !important;
 }
 
 
