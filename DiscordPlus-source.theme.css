@@ -1002,6 +1002,11 @@ html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 }
 .reaction-1hd86g.reactionMe-wv5HKu {border-color: var(--dplus-accent-ui);}
 
+	/* Embeds */
+.embed-IeVjo6 {
+	border-radius: var(--dplus-radius-ui);
+}
+
 	/* Timestamps */
 html:not(.reduce-motion) h2.header-23xsNx .timestamp-3ZCmNB,
 html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
