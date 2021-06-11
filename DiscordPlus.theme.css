@@ -109,6 +109,6 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 * chatmsg governs messages in chat and the message box
 * chatmsg-hover is for hovering over a message
 * popout affects all popouts, like context menu, profiles, etc.
-* server-button affects guilds on the left-hand side of the screen
-* server-button-hover affects guilds when hovered over
+* server-button affects server icons on the left side of the screen
+* server-button-hover affects servers icons when hovered over
 */
