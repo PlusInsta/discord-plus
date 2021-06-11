@@ -1,6 +1,6 @@
 /**
  * @name Discord+ Source Code
- * @version 3.0.1
+ * @version 3.0.2
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
  * @description For developers only. If you're a user, please download the latest release instead.
@@ -22,7 +22,7 @@
 	--dplus-spacing-app: 10px;
 	--dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
 	--dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
-	--dplus-icon-avatar-chat: 60px;
+	--dplus-icon-avatar-chat: 64px;
 	--dplus-icon-avatar-list: 32px;
 	--dplus-icon-avatar-profile: 80px;
 	--dplus-icon-server-sidebar: 48px;
