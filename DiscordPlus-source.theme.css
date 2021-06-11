@@ -32,7 +32,7 @@
 	--dplus-anim-sticky: .2s;
 	--dplus-anim-button: .25s;
 	--dplus-anim-button-appear: .25s;
-	--dplus-sidebar-width: 240px;
+	--dplus-channels-width: 240px;
 	--dplus-members-width: 240px;
 	--dplus-scrollbar-width: 10px;
 	--dplus-blur-scale: 100;
@@ -805,7 +805,7 @@ html:not(.reduce-motion) .circleIconButton-1QV--U {
 	/* Channel list */
 .sidebar-2K8pFh,
 .bannerImage-3KhIJ6 {
-	width: var(--dplus-sidebar-width);
+	width: var(--dplus-channels-width);
 }
 
 .scroller-1JbKMe, .privateChannels-1nO12o, .container-3w7J-x {background: transparent;}

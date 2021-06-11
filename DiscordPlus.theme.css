@@ -61,7 +61,7 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 --dplus-icon-server-list: 32px;
 
 /* Width of different elements */
---dplus-sidebar-width: 240px;
+--dplus-channels-width: 240px;
 --dplus-members-width: 240px;
 --dplus-scrollbar-width: 10px;
 
