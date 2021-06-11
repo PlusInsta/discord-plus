@@ -1510,7 +1510,7 @@ html:not(.reduce-motion) [type="button"] {
 transition: var(--dplus-anim-button) !important;
 }
 .container-3auIfb svg path, svg.bd-switch-symbol {display:none;}
-.lookFilled-1Gx00P.colorBrand-3pXr91, .container-3auIfb:not([style*="125"]), .bd-switch input:checked+.bd-switch-text {background-color: var(--dplus-accent-ui)!important;}
+.container-3auIfb:not([style*="218"]), .bd-switch-checked .bd-switch-body {background-color: var(--dplus-accent-ui)!important;}
 
 /* Server settings */
 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-radius-server);}
