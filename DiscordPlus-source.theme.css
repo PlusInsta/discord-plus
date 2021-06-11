@@ -32,6 +32,8 @@
 	--dplus-anim-sticky: .2s;
 	--dplus-anim-button: .25s;
 	--dplus-anim-button-appear: .25s;
+	--dplus-sidebar-width: 240px;
+	--dplus-members-width: 240px;
 	--dplus-scrollbar-width: 10px;
 	--dplus-blur-scale: 100;
 }
@@ -801,6 +803,11 @@ html:not(.reduce-motion) .circleIconButton-1QV--U {
 }
 
 	/* Channel list */
+.sidebar-2K8pFh,
+.bannerImage-3KhIJ6 {
+	width: var(--dplus-sidebar-width);
+}
+
 .scroller-1JbKMe, .privateChannels-1nO12o, .container-3w7J-x {background: transparent;}
 .sidebar-2K8pFh {
 	background: var(--dplus-bgc-ui-base);
@@ -1301,6 +1308,9 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 }
 
 	/* Server members */
+.members-1998pB {
+	width: var(--dplus-members-width);
+}
 html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 	transition: background-color var(--dplus-anim-short);
 }
@@ -1651,6 +1661,7 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	/* by Arashiryuu */
 		/* MemberCount */
 #MemberCount {
+	width: var(--dplus-members-width) !important;
 	background-color: var(--dplus-bgc-ui-base) !important;
 }
 

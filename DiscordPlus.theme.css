@@ -1,9 +1,9 @@
 /**
  * @name Discord+
- * @version 3.0.1
+ * @version 3.0.2
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
- * @description A sleek, customizable Discord theme. Have any questions? Stop by our support server by clicking the (?) button below!
+ * @description A sleek, customizable Discord theme.
  * @website https://plusinsta.github.io/discord-plus/
  * @source https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus-source.theme.css
  * @invite 2Jwh2nS
@@ -60,7 +60,9 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 --dplus-icon-server-sidebar: 48px;
 --dplus-icon-server-list: 32px;
 
-/* Scrollbar width */
+/* Width of different elements */
+--dplus-sidebar-width: 240px;
+--dplus-members-width: 240px;
 --dplus-scrollbar-width: 10px;
 
 /* Blur percentage. Set to 0 to disable blur.
@@ -110,11 +112,3 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 * server-button affects guilds on the left-hand side of the screen
 * server-button-hover affects guilds when hovered over
 */
-
-
-/* You can drop your custom CSS below here.
-   If it doesn't work, try adding !important to the end of the affected value.
-   If you need help with this, please don't hesitate to drop by our server!
-
-   Please note that since this is stored in your local copy of the theme,
-   it will not automatically update or magically fix itself. */
