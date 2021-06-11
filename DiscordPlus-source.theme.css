@@ -1728,6 +1728,12 @@ html:not(.reduce-motion) .bf-toolbar .format img {
 	background-color: var(--dplus-bgc-ui-base) !important;
 }
 
+	/* by Ducko */
+		/* Better Message Deletion */
+.gm-deleted-message {
+	background-color: hsl(0, 80%, 20%, 0.8) !important;
+}
+
 
 /* My "branding" */
 	/* make links to my carrd use my style */
