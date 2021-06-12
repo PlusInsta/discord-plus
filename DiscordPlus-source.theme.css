@@ -1033,6 +1033,9 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 	left: calc(-5px + var(--dplus-spacing-ui) / 2) !important
 }
 
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+	width: 64px;
+}
 
 .wrapper-2a6GCs:not(.disableInteraction-286MMw), .scrollerSpacer-avRLaA, .groupStart-23k01U:before, .container-3RCQyg {
 	background-color: var(--dplus-bgc-chatmsg);
