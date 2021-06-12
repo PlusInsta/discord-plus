@@ -1728,6 +1728,12 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	background-color: hsl(0, 80%, 20%, 0.8) !important;
 }
 
+	/* by Puyodead1 */
+		/* Staff Tags */
+.ownertag {
+	vertical-align: super !important;
+}
+
 	/* by Zerebos */
 		/* BetterFormattingRedux */
 .bf-toolbar {
