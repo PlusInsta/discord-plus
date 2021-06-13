@@ -39,35 +39,61 @@
 }
 
 
+
 /* Background covers */
+	/* Defaults */
+:root {
+	--dplus-dark-bgc-ui-base: hsla(0, 0%, 0%, 0.74);
+	--dplus-dark-bgc-ui-base-hover: hsla(0, 0%, 0%, 0.82);
+	--dplus-dark-bgc-ui-card: hsla(0, 0%, 7%, 0.75);
+	--dplus-dark-bgc-ui-card-hover: hsla(0, 0%, 15%, 0.50);
+	--dplus-dark-bgc-chatmsg: hsla(0, 0%, 0%, 0.74);
+	--dplus-dark-bgc-chatmsg-hover: hsla(0, 0%, 0%, 0.82);
+	--dplus-dark-bgc-popout: hsla(0, 0%, 0%, 0.75);
+	--dplus-dark-bgc-button: hsla(0, 0%, 15%, 0.50);
+	--dplus-dark-bgc-button-hover: hsla(0, 0%, 20%, 0.60);
+	--dplus-dark-bgc-server-button: hsla(0, 0%, 15%, 0.50);
+	--dplus-dark-bgc-server-button-hover: hsla(0, 0%, 20%, 0.60);
+	--dplus-light-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
+	--dplus-light-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
+	--dplus-light-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
+	--dplus-light-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
+	--dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
+	--dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
+	--dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
+	--dplus-light-bgc-button: hsla(0, 0%, 80%, 0.50);
+	--dplus-light-bgc-button-hover: hsla(0, 0%, 50%, 0.20);
+	--dplus-light-bgc-server-button: hsla(0, 0%, 80%, 0.50);
+	--dplus-light-bgc-server-button-hover: hsla(0, 0%, 50%, 0.20);
+}
+
+	/* Apply to corresponding theme */
 .theme-dark {
-	--dplus-bgc-ui-base: hsla(0, 0%, 0%, 0.74);
-	--dplus-bgc-ui-base-hover: hsla(0, 0%, 0%, 0.82);
-	--dplus-bgc-ui-card: hsla(0, 0%, 7%, 0.75);
-	--dplus-bgc-ui-card-hover: hsla(0, 0%, 15%, 0.50);
-	--dplus-bgc-chatmsg: hsla(0, 0%, 0%, 0.74);
-	--dplus-bgc-chatmsg-hover: hsla(0, 0%, 0%, 0.82);
-	--dplus-bgc-popout: hsla(0, 0%, 0%, 0.75);
-	--dplus-bgc-button: hsla(0, 0%, 15%, 0.50);
-	--dplus-bgc-button-hover: hsla(0, 0%, 75%, 0.15);
-	--dplus-bgc-server-button: hsla(0, 0%, 15%, 0.50);
-	--dplus-bgc-server-button-hover: hsla(0, 0%, 75%, 0.15);
+	--dplus-bgc-ui-base: var(--dplus-dark-bgc-ui-base);
+	--dplus-bgc-ui-base-hover: var(--dplus-dark-bgc-base-hover);
+	--dplus-bgc-ui-card: var(--dplus-dark-bgc-ui-card);
+	--dplus-bgc-ui-card-hover: var(--dplus-dark-bgc-ui-card-hover);
+	--dplus-bgc-chatmsg: var(--dplus-dark-bgc-chatmsg);
+	--dplus-bgc-chatmsg-hover: var(--dplus-dark-bgc-chatmsg-hover);
+	--dplus-bgc-popout: var(--dplus-dark-bgc-popout);
+	--dplus-bgc-button: var(--dplus-dark-bgc-button);
+	--dplus-bgc-button-hover: var(--dplus-dark-bgc-button-hover);
+	--dplus-bgc-server-button: var(--dplus-dark-bgc-server-button);
+	--dplus-bgc-server-button-hover: var(--dplus-dark-bgc-server-button-hover);
 }
-
 .theme-light {
-	--dplus-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
-	--dplus-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
-	--dplus-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
-	--dplus-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
-	--dplus-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
-	--dplus-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
-	--dplus-bgc-popout: hsla(0, 0%, 100%, 0.80);
-	--dplus-bgc-button: hsla(0, 0%, 75%, 0.50);
-	--dplus-bgc-button-hover: hsla(0, 0%, 15%, 0.40);
-	--dplus-bgc-server-button: hsla(0, 0%, 75%, 0.50);
-	--dplus-bgc-server-button-hover: hsla(0, 0%, 15%, 0.40);
+	--dplus-bgc-ui-base: var(--dplus-light-bgc-ui-base);
+	--dplus-bgc-ui-base-hover: var(--dplus-light-bgc-base-hover);
+	--dplus-bgc-ui-card: var(--dplus-light-bgc-ui-card);
+	--dplus-bgc-ui-card-hover: var(--dplus-light-bgc-ui-card-hover);
+	--dplus-bgc-chatmsg: var(--dplus-light-bgc-chatmsg);
+	--dplus-bgc-chatmsg-hover: var(--dplus-light-bgc-chatmsg-hover);
+	--dplus-bgc-popout: var(--dplus-light-bgc-popout);
+	--dplus-bgc-button: var(--dplus-light-bgc-button);
+	--dplus-bgc-button-hover: var(--dplus-light-bgc-button-hover);
+	--dplus-bgc-server-button: var(--dplus-light-bgc-server-button);
+	--dplus-bgc-server-button-hover: var(--dplus-light-bgc-server-button-hover);
 }
-
 
 /* Blur */
 :root {

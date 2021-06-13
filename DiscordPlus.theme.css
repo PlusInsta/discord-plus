@@ -1,6 +1,6 @@
 /**
  * @name Discord+
- * @version 3.0.2
+ * @version 3.1.0
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
  * @description A sleek, customizable Discord theme.
@@ -68,40 +68,36 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 /* Blur percentage. Set to 0 to disable blur.
    Performance may be affected by this option. */
 --dplus-blur-scale: 100;
-}
 
+/* Background covers | Explanations below	*/
+--dplus-dark-bgc-ui-base: hsla(0, 0%, 0%, 0.74);
+--dplus-dark-bgc-ui-base-hover: hsla(0, 0%, 0%, 0.82);
+--dplus-dark-bgc-ui-card: hsla(0, 0%, 7%, 0.75);
+--dplus-dark-bgc-ui-card-hover: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-chatmsg: hsla(0, 0%, 0%, 0.74);
+--dplus-dark-bgc-chatmsg-hover: hsla(0, 0%, 0%, 0.82);
+--dplus-dark-bgc-popout: hsla(0, 0%, 0%, 0.75);
+--dplus-dark-bgc-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-button-hover: hsla(0, 0%, 20%, 0.60);
+--dplus-dark-bgc-server-button: hsla(0, 0%, 15%, 0.50);
+--dplus-dark-bgc-server-button-hover: hsla(0, 0%, 20%, 0.60);
 
-/* Background covers */
-.theme-dark {
-	--dplus-bgc-ui-base: hsla(0, 0%, 0%, 0.74);
-	--dplus-bgc-ui-base-hover: hsla(0, 0%, 0%, 0.82);
-	--dplus-bgc-ui-card: hsla(0, 0%, 7%, 0.75);
-	--dplus-bgc-ui-card-hover: hsla(0, 0%, 15%, 0.50);
-	--dplus-bgc-chatmsg: hsla(0, 0%, 0%, 0.74);
-	--dplus-bgc-chatmsg-hover: hsla(0, 0%, 0%, 0.82);
-	--dplus-bgc-popout: hsla(0, 0%, 0%, 0.75);
-	--dplus-bgc-button: hsla(0, 0%, 15%, 0.50);
-	--dplus-bgc-button-hover: hsla(0, 0%, 75%, 0.15);
-	--dplus-bgc-server-button: hsla(0, 0%, 15%, 0.50);
-	--dplus-bgc-server-button-hover: hsla(0, 0%, 75%, 0.15);
-}
-
-.theme-light {
-	--dplus-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
-	--dplus-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
-	--dplus-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
-	--dplus-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
-	--dplus-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
-	--dplus-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
-	--dplus-bgc-popout: hsla(0, 0%, 100%, 0.80);
-	--dplus-bgc-button: hsla(0, 0%, 75%, 0.50);
-	--dplus-bgc-button-hover: hsla(0, 0%, 15%, 0.40);
-	--dplus-bgc-server-button: hsla(0, 0%, 75%, 0.50);
-	--dplus-bgc-server-button-hover: hsla(0, 0%, 15%, 0.40);
+--dplus-light-bgc-ui-base: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-ui-base-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-ui-card: hsla(0, 0%, 93%, 0.75);
+--dplus-light-bgc-ui-card-hover: hsla(0, 0%, 50%, 0.25);
+--dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
+--dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
+--dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
+--dplus-light-bgc-button: hsla(0, 0%, 80%, 0.50);
+--dplus-light-bgc-button-hover: hsla(0, 0%, 50%, 0.20);
+--dplus-light-bgc-server-button: hsla(0, 0%, 80%, 0.50);
+--dplus-light-bgc-server-button-hover: hsla(0, 0%, 50%, 0.20);
 }
 
 /* Explanations:
 * bgc is short for background cover / color
+* dark/light corresponds to the current active theme
 * ui-base is the main UI
 * ui-base-hover is used when hovering over clickable elements
 * ui-card is for cards like in server discovery
