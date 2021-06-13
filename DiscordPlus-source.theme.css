@@ -243,6 +243,51 @@ header, h1,
 	width: 24px;
 }
 
+/* Crash error */
+.errorPage-u8SYh4 {
+	width: calc(100% - var(--dplus-spacing-app) * 2)
+}
+.wrapper-1prNyd {
+	min-height: calc(100vh - var(--dplus-spacing-app) * 2)
+}
+
+.theme-dark .wrapper-1prNyd,
+.theme-light .wrapper-1prNyd {
+	background: var(--dplus-bgc-ui-base);
+	margin: var(--dplus-spacing-app) calc(var(--dplus-spacing-app) * 2) var(--dplus-spacing-app) var(--dplus-spacing-app);
+	border-radius: var(--dplus-radius-ui);
+}
+
+.theme-dark .image-3zK3Wt,
+.theme-light .image-3zK3Wt {
+	background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/853659649340473414/28.webp')
+}
+.image-3zK3Wt {
+    width: 256px;
+    height: 256px;
+    margin-bottom: 40px;
+    background-size: 256px 256px;
+}
+
+.title-3trS3_,
+.note-450gs3 div p {
+	font-size: 0px;
+}
+
+.title-3trS3_:after {
+	font-size: 24px;
+	content: "Congratulations!";
+}
+
+.note-450gs3 div p:first-child:after {
+	font-size: 16px;
+	content: "You just unlocked Discord Minus!";
+	color: white;
+}
+.note-450gs3 div p:nth-child(2):after {
+	font-size: 16px;
+	content: "...actually, Discord just crashed. Oops."
+}
 
 /* Scrollbar */
 .theme-dark ::-webkit-scrollbar-track-piece,
