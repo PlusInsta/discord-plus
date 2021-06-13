@@ -12,6 +12,7 @@
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
 	--dplus-accent-ui: #802060;
+	--dplus-accent-ui-hover: #601545;
 	--dplus-font-ui: 'Poppins';
 	--dplus-font-body: 'Roboto';
 	--dplus-font-header: 'Righteous';
@@ -61,13 +62,14 @@
 	--dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
 	--dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
 	--dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
-	--dplus-light-bgc-button: hsla(0, 0%, 80%, 0.50);
-	--dplus-light-bgc-button-hover: hsla(0, 0%, 50%, 0.20);
-	--dplus-light-bgc-server-button: hsla(0, 0%, 80%, 0.50);
-	--dplus-light-bgc-server-button-hover: hsla(0, 0%, 50%, 0.20);
+	--dplus-light-bgc-button: hsla(0, 0%, 50%, 0.80);
+	--dplus-light-bgc-button-hover: hsla(0, 0%, 40%, 0.50);
+	--dplus-light-bgc-server-button: hsla(0, 0%, 95%, 0.75);
+	--dplus-light-bgc-server-button-hover: hsla(0, 0%, 100%, 1);
 }
 
 	/* Apply to corresponding theme */
+	/* any values explicitly defined here are not meant to be changed by users */
 .theme-dark {
 	--dplus-bgc-ui-base: var(--dplus-dark-bgc-ui-base);
 	--dplus-bgc-ui-base-hover: var(--dplus-dark-bgc-base-hover);
@@ -80,6 +82,8 @@
 	--dplus-bgc-button-hover: var(--dplus-dark-bgc-button-hover);
 	--dplus-bgc-server-button: var(--dplus-dark-bgc-server-button);
 	--dplus-bgc-server-button-hover: var(--dplus-dark-bgc-server-button-hover);
+	--dplus-bgc-radiobar-hover: hsla(0, 0%, 15%, 0.50);
+	--dplus-bgc-radiobar-selected: hsla(0, 0%, 20%, 0.60);
 }
 .theme-light {
 	--dplus-bgc-ui-base: var(--dplus-light-bgc-ui-base);
@@ -93,6 +97,8 @@
 	--dplus-bgc-button-hover: var(--dplus-light-bgc-button-hover);
 	--dplus-bgc-server-button: var(--dplus-light-bgc-server-button);
 	--dplus-bgc-server-button-hover: var(--dplus-light-bgc-server-button-hover);
+	--dplus-bgc-radiobar-hover: hsla(0, 0%, 92%, 0.70);
+	--dplus-bgc-radiobar-selected: hsla(0, 0%, 80%, 0.60);
 }
 
 /* Blur */
@@ -105,6 +111,10 @@
 
 
 /* Discord's variables */
+body {
+	--brand-color: var(--dplus-accent-ui);
+	--brand-color-hover:  var(--dplus-accent-ui-hover);
+}
 .theme-dark, .theme-light {
 	--background-primary: var(--dplus-bgc-ui-base) !important;
 	--background-secondary: var(--dplus-bgc-ui-card) !important;
@@ -392,21 +402,43 @@ iframe {
 that have popups, or else the menu breaks when you hover over them */
 
 .wrapper-3_530D { padding: 0; }
-.customItem-a8hq58 .button-F9qN4n { padding: calc(var(--dplus-spacing-ui) / 2); }
+.customItem-a8hq58 .button-38aScr { padding: calc(var(--dplus-spacing-ui) / 2); }
 .separator-2I32lJ { margin: 0; }
 
-.item-1tOPte, .button-F9qN4n:hover, .button-F9qN4n.focused-3ZzkKr { border-radius: var(--dplus-radius-ui) }
+.item-1tOPte,
+.button-38aScr {
+	border-radius: var(--dplus-radius-ui);
+}
 .item-1tOPte {
 	margin: 0;
 }
 html:not(.reduce-motion) .item-1tOPte {
 	transition: background-color 0.3s;
 }
-.button-F9qN4n:hover, .itemSubMenu-1vN_Yn:hover, .item-1tOPte:hover, .colorDefault-2K3EoJ.focused-3afm-j,
-.button-F9qN4n.focused-3ZzkKr, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
-	background-color: var(--dplus-accent-ui);
-	color: white!important;
+
+.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan), /* non-special buttons */
+.colorDefault-2K3EoJ:not(.labelContainer-1BLJti) /* regular buttons, except context menu */ {
+	background-color: var(--dplus-bgc-button);
+	transition: var(--dplus-anim-button);
 }
+
+.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):hover, /* buttons hovered over */
+.button-38aScr.focused-3ZzkKr, /* focused but not hovered over */
+.colorDefault-2K3EoJ:not(.labelContainer-1BLJti).focused-3afm-j, /* regular buttons, focused */
+.colorDefault-2K3EoJ:hover:not(.labelContainer-1BLJti):not(.hideInteraction-1iHO1O) /* regular buttons but only if clickable */ {
+	background-color: var(--dplus-bgc-button-hover);
+	transition: var(--dplus-anim-button);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91, /* branded buttons */
+.labelContainer-1BLJti:hover /* context menu buttons */  {
+	background-color: var(--dplus-accent-ui) !important;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover, /* branded buttons, hovered over */
+.labelContainer-1BLJti.focused-3afm-j:not(:hover) /* context menu button w/ submenu */ {
+	background-color: var(--dplus-accent-ui-hover) !important;
+}
+
+
 .item-1tOPte.colorDanger-2qLCe1:hover {background-color: #f04747;}
 
 	/* Profile Popout */
@@ -797,6 +829,10 @@ html:not(.reduce-motion) .circleIconButton-1QV--U {
 #app-mount .childWrapper-anI2G9:hover,
 #bd-pub-button:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
+}
+
+.circleIconButton-1QV--U.selected-1JjBPm {
+	color: var(--dplus-accent-ui);
 }
 
 		/* Server Discovery */
@@ -1384,9 +1420,6 @@ html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 .horizontal-1ae9ci>.flex-1xMQg5, .horizontal-1ae9ci>.flexChild-faoVW3 {
 	margin-left: var(--dplus-spacing-ui);
 }
-.radioBar-bMNUI- {
-	border-radius: var(--dplus-radius-ui);
-}
 
 .marginBottom8-AtZOdT {
 	margin-bottom: var(--dplus-spacing-ui);
@@ -1447,8 +1480,8 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 	transition-duration: var(--dplus-anim-short);
 }
 
-.cardPrimary-1Hv-to, .cardPrimaryOutline-29Ujqw, .item-26Dhrx {
-	background-color: var(--dplus-bgc-ui-card);
+.cardPrimary-1Hv-to, .cardPrimaryOutline-29Ujqw {
+	background-color: var(--dplus-bgc-button);
 	border-radius: var(--dplus-radius-ui);
 }
 #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
@@ -1456,21 +1489,31 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
 	background-color: var(--background-modifier-hover);
 }
+
 #app-mount .closeButton-1tv5uR {
 	border-color: var(--dplus-accent-ui);
 	border-radius: var(--dplus-radius-ui);
 }
-#app-mount .closeButton-1tv5uR:hover, .item-26Dhrx[aria-checked=true] {background-color: var(--dplus-accent-ui);}
+#app-mount .closeButton-1tv5uR:hover {
+	background-color: var(--dplus-bgc-button-hover);
+}
+.item-26Dhrx {
+	background-color: var(--dplus-bgc-ui-base);
+	transition: var(--dplus-anim-button);
+	border-radius: var(--dplus-radius-ui);
+}
+.item-26Dhrx:hover:not([aria-checked=true]) {
+	background-color: var(--dplus-bgc-radiobar-hover);
+}
+.item-26Dhrx[aria-checked=true] {
+	background-color: var(--dplus-bgc-radiobar-selected);
+}
 #app-mount .closeButton-1tv5uR path {fill: var(--dplus-accent-ui);}
 #app-mount .closeButton-1tv5uR:hover path {fill: white}
 #app-mount .closeButton-1tv5uR + .keybind-KpFkfr {color: var(--text-normal);}
 .background-1QDuV2 { border-radius: var(--dplus-radius-ui); }
 .background-1QDuV2 .avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-radius-avatar);}
-.item-26Dhrx:hover:not([aria-checked=true]) {background-color: var(--dplus-bgc-ui-card-hover);}
 
-.theme-light .item-26Dhrx[aria-checked=true] {
-	color: white !important;
-}
 	/* Avatar Preview */
 .overlay-4k_Q4-:after {
 	content: "";
@@ -1549,11 +1592,14 @@ html:not(.reduce-motion) button,
 html:not(.reduce-motion) [type="button"] {
 transition: var(--dplus-anim-button) !important;
 }
+
 .container-3auIfb svg path, svg.bd-switch-symbol {display:none;}
 .container-3auIfb, .bd-switch-checked .bd-switch-body {background-color: var(--dplus-accent-ui) !important;}
+
 .container-3auIfb[style*="218"] {
 	background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%) !important;
 }
+
 .container-3auIfb[style*="rgb(114, 118, 125)"] {
 	background-color: rgb(114, 118, 125) !important;
 }

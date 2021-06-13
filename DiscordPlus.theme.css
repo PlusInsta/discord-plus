@@ -31,6 +31,7 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 
 /* Accent color, used to decorate the UI with colors. */
 --dplus-accent-ui: #802060;
+--dplus-accent-ui-hover: #601545;
 
 /* Fonts */
 --dplus-font-ui: 'Poppins';
@@ -89,10 +90,10 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 --dplus-light-bgc-chatmsg: hsla(0, 0%, 97%, 0.88);
 --dplus-light-bgc-chatmsg-hover: hsla(0, 0%, 100%, 0.90);
 --dplus-light-bgc-popout: hsla(0, 0%, 100%, 0.80);
---dplus-light-bgc-button: hsla(0, 0%, 80%, 0.50);
---dplus-light-bgc-button-hover: hsla(0, 0%, 50%, 0.20);
---dplus-light-bgc-server-button: hsla(0, 0%, 80%, 0.50);
---dplus-light-bgc-server-button-hover: hsla(0, 0%, 50%, 0.20);
+--dplus-light-bgc-button: hsla(0, 0%, 50%, 0.80);
+--dplus-light-bgc-button-hover: hsla(0, 0%, 40%, 0.50);
+--dplus-light-bgc-server-button: hsla(0, 0%, 95%, 0.75);
+--dplus-light-bgc-server-button-hover: hsla(0, 0%, 100%, 1);
 }
 
 /* Explanations:
