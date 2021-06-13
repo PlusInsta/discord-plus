@@ -418,6 +418,10 @@ iframe {
 .listAvatar-1NlAhb {
 	margin-right: var(--dplus-spacing-ui);
 }
+			/*fixes by bonkmaykr*/
+.header-4zuFdR .avatar-AvHqJA {margin-left:-8px;}
+.headerTop-547GTz {float:right;}
+.nameTag-ECvD8P {margin-top:calc(var(--dplus-icon-avatar-profile) - 50px);}
 
 /* Popouts */
 .layer-v9HyYc > div, .popouts-2bnG9Z > div {
@@ -516,7 +520,7 @@ html:not(.reduce-motion) .item-1tOPte {
 .userPopout-3XzG_A .wrapper-3t9DeA,
 .container-3RCQyg .wrapper-3t9DeA,
 .avatarHint-1qgaV3,
-.header-QKLPzZ .avatar-3EQepX,
+.header-QKLPzZ .avatar-AvHqJA,
 .avatarUploaderInner-2EvNMg,
 .avatarHint-1E3LMl {
 	width: var(--dplus-icon-avatar-profile) !important;
