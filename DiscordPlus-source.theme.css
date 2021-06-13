@@ -913,7 +913,7 @@ html:not(.reduce-motion) .closeButton-2GCmT5 {
 }
 		/* Animated channel buttons */
 .iconItem-F7GRxr {
-	display: block;
+	display: block !important;
 }
 .iconVisibility-sTNpHs .children-3rEycc {
 	margin-right: calc(0px - var(--dplus-spacing-ui));
@@ -1077,7 +1077,6 @@ html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 }
 
 	/* Timestamps */
-html:not(.reduce-motion) h2.header-23xsNx .timestamp-3ZCmNB,
 html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 	transition: var(--dplus-anim-short);
 }
@@ -1476,18 +1475,13 @@ html:not(.reduce-motion) #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
 html:not(.reduce-motion) #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
 html:not(.reduce-motion) #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
 html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
-	transition: background-color, color;
+	transition: background-color;
 	transition-duration: var(--dplus-anim-short);
 }
 
 .cardPrimary-1Hv-to, .cardPrimaryOutline-29Ujqw {
 	background-color: var(--dplus-bgc-button);
 	border-radius: var(--dplus-radius-ui);
-}
-#app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
-#app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
-#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
-	background-color: var(--background-modifier-hover);
 }
 
 #app-mount .closeButton-1tv5uR {
@@ -1572,10 +1566,6 @@ html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
 .wrapper-3jrx9n {border-color: var(--dplus-accent-ui);}
 .selected-mKYnfr.option-n0icdO, .option-n0icdO:hover {background-color: var(--dplus-accent-ui);}
 	/* Keybinds */
-#app-mount .card-FDVird:before {
-	background-color: var(--dplus-bg-1);
-	border-color: var(--dplus-accent-ui);
-}
 .removeKeybind-39dSFj { right: -17px; top: 2px;}
 #app-mount .card-FDVird .button-2CgfFz {
 	background-color: transparent;
@@ -1625,7 +1615,7 @@ border-radius: var(--dplus-radius-ui) !important;
 background-color: hsla(0, 0%, 0%, 0.68);
 border-color: transparent;
 }
-.viewAsRoleButton-1ZpPlO, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+.viewAsRoleButton-1ZpPlO {
 background-color: var(--dplus-accent-ui)!important;
 }
 .input-cIJ7To:hover {border-color: var(--dplus-accent-ui);}
@@ -1637,11 +1627,6 @@ background-color: var(--dplus-accent-ui)!important;
 border-radius: var(--dplus-radius-ui) !important;
 }
 
-.card-FDVird::before {
-background-color: transparent !important;
-border-color: var(--dplus-accent-ui) !important;
-border-radius: var(--dplus-radius-ui) !important;
-}
 #app-mount .colorPickerCustom-2CWBn2 {
 background: transparent;
 border-color: var(--dplus-accent-ui); border-radius: var(--dplus-radius-ui);
