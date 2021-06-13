@@ -1,6 +1,6 @@
 /**
  * @name Discord+ Source Code
- * @version 3.0.2
+ * @version 3.1.0
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
  * @description For developers only. If you're a user, please download the latest release instead.
@@ -9,6 +9,7 @@
  * @invite 2Jwh2nS
 */
 @import url(//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
+@import url(//fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&display=swap);
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
 	--dplus-accent-ui: #802060;
@@ -16,6 +17,8 @@
 	--dplus-font-ui: 'Poppins';
 	--dplus-font-body: 'Roboto';
 	--dplus-font-header: 'Righteous';
+	--dplus-font-ui-ja: 'Kosugi';
+	--dplus-font-header-ja: 'RocknRoll One';
 	--dplus-radius-ui: 10px;
 	--dplus-radius-avatar: 20%;
 	--dplus-radius-server: 20%;
@@ -168,7 +171,7 @@ html { background-color: var(--dplus-accent-ui); }
 /* Fonts */
 	/* Display font */
 body, button, select, ::-webkit-input-placeholder {
-	font-family: var(--dplus-font-ui), 'Poppins', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
+	font-family: var(--dplus-font-ui), 'Poppins', var(--dplus-font-ui-ja), 'Kosugi', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
 	/* Text font */
@@ -209,8 +212,8 @@ header, h1,
 .title-29uC1r, /*channel name in chat header*/
 .title-3sZWYQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
-.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/{
-	font-family: var(--dplus-font-header), 'Righteous', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
+.timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/ {
+	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
 
@@ -1482,6 +1485,11 @@ html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 .profileBannerPreview-3FLQKD,
 .profileBannerPreview-3FLQKD .avatarUploaderInner-3UNxY3 {
 	border-radius: var(--dplus-radius-ui);
+}
+
+.h1-1qdNzo, .h2-2gWE-o,
+.h4-AQvcAz, .h5-18_1nd {
+	font-weight: 500;
 }
 
 .platform-osx [id="user-settings"] {
