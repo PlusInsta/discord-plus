@@ -172,13 +172,14 @@ html { background-color: var(--dplus-accent-ui); }
 	/* Display font */
 :root {
 	--font-display: var(--dplus-font-ui), 'Poppins', var(--dplus-font-ui-ja), 'Kosugi', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
+	--font-primary: var(--font-display);
 }
-body, button, select, ::-webkit-input-placeholder {
+body, button, select {
 	font-family: var(--font-display);
 }
 
 	/* Text font */
-p, bodyarea, input, placeholder,
+::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
 .message-2qnXI6, .markup-2BOw-j, /*chat messages*/
 .member-3-YXUe, /*member list body*/
 .customStatusText-3YJeRZ, /*user's custom status*/
