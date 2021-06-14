@@ -780,9 +780,10 @@ html:not(.reduce-motion) .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .wrap
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
 	height: 20px;
-	padding-bottom: 4px; margin-right: 20px;
+	padding-bottom: 4px;
+	margin-right: calc(var(--dplus-spacing-app) * 2);
 	position: relative;
-	left: 10px;
+	left: var(--dplus-spacing-app);
 	align-items: center;
 }
 .withFrame-haYltI {
@@ -924,7 +925,7 @@ html:not(.reduce-motion) .circleIconButton-1QV--U {
 .root-3R2ngo {
 	border-radius: var(--dplus-radius-ui);
 	margin: var(--dplus-spacing-app);
-	margin-top: calc(var(--dplus-spacing-app) + 40px);
+	margin-top: calc(var(--dplus-spacing-app) * 2 + 24px);
 }
 #app-mount .perksModal-fSYqOq, #app-mount .tierBody-16Chc9, #app-mount .perk-2WeBWW {background-color: var(--dplus-bgc-ui-base);}
 #app-mount .tierHeaderLocked-1s2JJz {
