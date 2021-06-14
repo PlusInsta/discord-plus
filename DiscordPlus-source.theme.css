@@ -363,6 +363,13 @@ iframe {
 }
 .header-3msK0M {overflow: hidden;}
 
+.optionContainer-15srkc {
+	background-color: var(--dplus-bgc-ui-card);
+}
+.optionContainer-15srkc:hover {
+	background-color: var(--dplus-bgc-ui-card-hover);
+}
+
 	/* Custom status modal */
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus, .lookFilled-1h1y05.select-1Pkeg4:focus,
 .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .lookFilled-1h1y05.selectOpen-hQuR6b {border-color: var(--dplus-accent-ui);}
@@ -447,13 +454,13 @@ html:not(.reduce-motion) .item-1tOPte {
 	transition: background-color 0.3s;
 }
 
-.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan), /* non-special buttons */
+.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ), /* non-special buttons */
 .colorDefault-2K3EoJ:not(.labelContainer-1BLJti) /* regular buttons, except context menu */ {
 	background-color: var(--dplus-bgc-button);
 	transition: var(--dplus-anim-button);
 }
 
-.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):hover, /* buttons hovered over */
+.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ):hover, /* buttons hovered over */
 .button-38aScr.focused-3ZzkKr, /* focused but not hovered over */
 .colorDefault-2K3EoJ:not(.labelContainer-1BLJti).focused-3afm-j, /* regular buttons, focused */
 .colorDefault-2K3EoJ:hover:not(.labelContainer-1BLJti):not(.hideInteraction-1iHO1O) /* regular buttons but only if clickable */ {
@@ -576,7 +583,6 @@ padding: var(--dplus-spacing-ui);
 .body-r6_QPy, .topSection-y3p-_D {
 	background-color: transparent;
 }
-
 
 .aboutMeSection---MkQa {
 	background-color: transparent;
@@ -1689,10 +1695,7 @@ border-radius: var(--dplus-radius-ui) !important;
 .regionSelectModal-12e-57 {background-color: var(--dplus-accent-ui)!important;}
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: transparent; border: none;}
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {background-color: var(--dplus-bg-1);}
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-background-color: hsla(0, 0%, 0%, 0.68);
-border-color: transparent;
-}
+
 .viewAsRoleButton-1ZpPlO {
 background-color: var(--dplus-accent-ui)!important;
 }
