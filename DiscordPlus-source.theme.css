@@ -601,26 +601,6 @@ padding: var(--dplus-spacing-ui);
 	border-bottom: 0;
 }
 
-.theme-light .header-2BwW8b,
-.theme-light .headerTag-2pZJzA,
-.theme-light .headerTagUsernameNoNickname-2_H881,
-.theme-light .customStatus-1bh2V9,
-.theme-light .headerNormal-T_seeN .headerName-fajvi9,
-.theme-light .headerNormal-T_seeN .headerTag-2pZJzA span:nth-child(2),
-.theme-light .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881,
-.theme-light .headerNormal-T_seeN .headerTagWithNickname-3IthZD.headerTag-2pZJzA {
-	color: black;
-}
-
-.theme-dark .headerNormal-T_seeN .headerTag-2pZJzA span:nth-child(2),
-.theme-dark .headerNormal-T_seeN .headerTagWithNickname-3IthZD.headerTag-2pZJzA { color: white; }
-
-.headerNormal-T_seeN .headerTag-2pZJzA span:nth-child(2),
-.headerTagNoNickname-ENx6no span:nth-child(2) {
-	opacity: 0.5;
-}
-
-.userPopout-3XzG_A .role-2irmRk {
 	/* Roles */
 .role-2irmRk {
 	border-radius: var(--dplus-radius-ui);
