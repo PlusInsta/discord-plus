@@ -8,17 +8,29 @@
  * @source https://raw.githubusercontent.com/PlusInsta/discord-plus/master/DiscordPlus-source.theme.css
  * @invite 2Jwh2nS
 */
+/* Main fonts */
 @import url(//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
-@import url(//fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&display=swap);
+/* Localized fonts */
+@import url(//fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&display=swap);
+
 :root {
 	--dplus-background: url(//i.imgur.com/3AiL3yN.png);
 	--dplus-accent-ui: #802060;
 	--dplus-accent-ui-hover: #601545;
 	--dplus-font-ui: 'Poppins';
+	--dplus-font-ui-ja: 'Kosugi';
+	--dplus-font-ui-ko: 'Gothic A1';
 	--dplus-font-body: 'Roboto';
 	--dplus-font-header: 'Righteous';
-	--dplus-font-ui-ja: 'Kosugi';
 	--dplus-font-header-ja: 'RocknRoll One';
+	--dplus-font-header-ko: 'Black Han Sans';
+	--dplus-font-header-ru: 'Russo One';
+	--dplus-font-header-hi: 'Palanquin Dark';
+	--dplus-font-header-th: 'Mitr';
+	--dplus-font-header-el: 'Alegreya Sans';
+	--dplus-font-ui-ru: 'PT Sans Caption';
+	--dplus-font-ui-vi: 'Raleway';
+	--dplus-font-ui-el: 'Commissioner';
 	--dplus-radius-ui: 10px;
 	--dplus-radius-avatar: 20%;
 	--dplus-radius-server: 20%;
@@ -171,8 +183,12 @@ html { background-color: var(--dplus-accent-ui); }
 /* Fonts */
 	/* Display font */
 :root {
-	--font-display: var(--dplus-font-ui), 'Poppins', var(--dplus-font-ui-ja), 'Kosugi', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
+	--font-display: var(--dplus-font-ui), 'Poppins', var(--dplus-font-ui-ru), 'Comfortaa', var(--dplus-font-ui-vi), 'Raleway', var(--dplus-font-ui-ja), 'Kosugi',  var(--dplus-font-ui-ko), 'Gothic A1', var(--dplus-font-ui-el), 'Commissioner', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
 	--font-primary: var(--font-display);
+	--font-japanese: var(--font-display);
+	--font-korean: var(--font-display);
+	--font-chinese-simplified: var(--font-display);
+	--font-chinese-traditional: var(--font-display);
 }
 body, button, select {
 	font-family: var(--font-display);
@@ -218,7 +234,7 @@ header, h1,
 .title-3sZWYQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
 .timestamp-3ZCmNB /*chat message hover timestamp (counts as a header)*/ {
-	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
+	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 
 
