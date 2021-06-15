@@ -68,7 +68,13 @@
 	--dplus-blur-scale: 100;
 }
 
-
+:root.reduce-motion {
+	--dplus-anim-short: 0s;
+	--dplus-anim-long: 0s;
+	--dplus-anim-sticky: 0s;
+	--dplus-anim-button: 0s;
+	--dplus-anim-button-appear: 0s;
+}
 
 /* Background covers */
 	/* Defaults */
@@ -482,7 +488,7 @@ that have popups, or else the menu breaks when you hover over them */
 .item-1tOPte {
 	margin: 0;
 }
-html:not(.reduce-motion) .item-1tOPte {
+.item-1tOPte {
 	transition: background-color 0.3s;
 }
 
@@ -664,7 +670,7 @@ padding: var(--dplus-spacing-ui);
 }
 
 	/* Search */
-html:not(.reduce-motion) .search-2oPWTC .searchBar-3dMhjb {
+.search-2oPWTC .searchBar-3dMhjb {
 	transition-duration:300ms;
 }
 #app-mount .container-3ayLPN {
@@ -733,7 +739,7 @@ html:not(.reduce-motion) .search-2oPWTC .searchBar-3dMhjb {
 #app-mount .calendarPicker-2yf6Ci div {
 	background-color: transparent !important;
 }
-html:not(.reduce-motion) .react-datepicker__day {
+.react-datepicker__day {
 	transition: .2s;
 }
 
@@ -764,7 +770,7 @@ html:not(.reduce-motion) .react-datepicker__day {
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .wrapper-2a6GCs {
 	background-color: var(--dplus-bgc-ui-card-hover) !important;
 }
-html:not(.reduce-motion) .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .wrapper-2a6GCs {
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .wrapper-2a6GCs {
 	transition: background-color var(--dplus-anim-short);
 }
 
@@ -927,7 +933,7 @@ html:not(.reduce-motion) .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .wrap
 	background-color: var(--dplus-bgc-server-button);
 	color: var(--dplus-accent-ui);
 }
-html:not(.reduce-motion) .circleIconButton-1QV--U {
+.circleIconButton-1QV--U {
 	transition: color, background-color;
 	transition-duration: var(--dplus-anim-button);
 	transition-timing-function: ease-out;
@@ -1006,7 +1012,7 @@ html:not(.reduce-motion) .circleIconButton-1QV--U {
 	margin-right: calc(var(--dplus-spacing-ui) - var(--dplus-spacing-ui) * 1.5);
 }
 
-html:not(.reduce-motion) .closeButton-2GCmT5 {
+.closeButton-2GCmT5 {
 	transition: var(--dplus-anim-button-appear);
 }
 
@@ -1039,10 +1045,10 @@ margin-right: 0;
 	opacity: 1;
 }
 
-html:not(.reduce-motion) .iconVisibility-sTNpHs .children-3rEycc,
-html:not(.reduce-motion) .iconVisibility-sTNpHs .iconItem-F7GRxr,
-html:not(.reduce-motion) .iconVisibility-sTNpHs .userLimit-3aerPX,
-html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
+.iconVisibility-sTNpHs .children-3rEycc,
+.iconVisibility-sTNpHs .iconItem-F7GRxr,
+.iconVisibility-sTNpHs .userLimit-3aerPX,
+.iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 	transition-duration: var(--dplus-anim-button-appear);
 }
 
@@ -1184,7 +1190,7 @@ html:not(.reduce-motion) .iconVisibility-sTNpHs:hover .wrapper-2tAnRe {
 }
 
 	/* Timestamps */
-html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
+.timestampVisibleOnHover-2bQeI4 {
 	transition: var(--dplus-anim-short);
 }
 
@@ -1483,7 +1489,7 @@ html:not(.reduce-motion) .timestampVisibleOnHover-2bQeI4 {
 .members-1998pB {
 	width: var(--dplus-members-width);
 }
-html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
+.member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 	transition: background-color var(--dplus-anim-short);
 }
 .members-1998pB>div { background:transparent;}
@@ -1584,20 +1590,20 @@ html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
 }
-html:not(.reduce-motion) #app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
-html:not(.reduce-motion) #app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
-html:not(.reduce-motion) .itemDefault-3Jdr52,
-html:not(.reduce-motion) .itemHover-EnbcjT,
-html:not(.reduce-motion) .ui-tab-bar-item,
-html:not(.reduce-motion) #app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
-html:not(.reduce-motion) #app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
-html:not(.reduce-motion) #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
-html:not(.reduce-motion) #app-mount .closeButton-1tv5uR {
+#app-mount .standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+#app-mount .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
+.itemDefault-3Jdr52,
+.itemHover-EnbcjT,
+.ui-tab-bar-item,
+#app-mount .side-8zPYf6 .itemDefault-3Jdr52:hover,
+#app-mount .side-8zPYf6 .itemHover-EnbcjT:hover,
+#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
+#app-mount .closeButton-1tv5uR {
 	transition: background-color;
 	transition-duration: var(--dplus-anim-short);
 }
 
-html:not(.reduce-motion) .item-PXvHYJ {
+.item-PXvHYJ {
 	transition: background-color, color, border;
 	transition-duration: var(--dplus-anim-short);
 }
@@ -1701,8 +1707,8 @@ html:not(.reduce-motion) .item-PXvHYJ {
 button, [type="button"] {
 border-radius: var(--dplus-radius-ui) !important;
 }
-html:not(.reduce-motion) button,
-html:not(.reduce-motion) [type="button"] {
+button,
+[type="button"] {
 transition: var(--dplus-anim-button) !important;
 }
 
@@ -1925,7 +1931,7 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 .bf-toolbar .format:hover {
 	background: transparent !important;
 }
-html:not(.reduce-motion) .bf-toolbar .format img {
+.bf-toolbar .format img {
 	transition: opacity var(--dplus-anim-short);
 }
 .bf-toolbar .format:hover img {
