@@ -1468,6 +1468,13 @@ html:not(.reduce-motion) .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 	mask-image: linear-gradient( left, rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,0) );
 }
 
+/* Notices */
+.app-2rEoOp .noticeWrapper-8z511t {
+	margin-left: -10px;
+	margin-right: calc(var(--dplus-spacing-app));
+	margin-bottom: var(--dplus-spacing-app);
+	border-radius: var(--dplus-radius-ui) !important;
+}
 
 /* Settings */
 .layer-3QrUeG, .standardSidebarView-3F1I7i, .contentRegionScroller-26nc1e, .sidebarRegionScroller-3MXcoP {background-color: transparent;}
