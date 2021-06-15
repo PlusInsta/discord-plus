@@ -487,9 +487,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .item-1tOPte {
 	margin: 0;
-}
-.item-1tOPte {
-	transition: background-color 0.3s;
+	transition: background-color var(--dplus-anim-button);
 }
 
 .button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ), /* non-special buttons */
@@ -671,7 +669,7 @@ padding: var(--dplus-spacing-ui);
 
 	/* Search */
 .search-2oPWTC .searchBar-3dMhjb {
-	transition-duration:300ms;
+	transition-duration: var(--dplus-anim-short);
 }
 #app-mount .container-3ayLPN {
 	background-color: var(--dplus-bgc-popout);
@@ -740,7 +738,7 @@ padding: var(--dplus-spacing-ui);
 	background-color: transparent !important;
 }
 .react-datepicker__day {
-	transition: .2s;
+	transition: var(--dplus-anim-short);
 }
 
 	/* Pinned messages Popout */
