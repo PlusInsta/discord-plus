@@ -211,6 +211,7 @@ header, h1,
 .roleMention-2Bj0ju, /*role name mention in chat*/
 .wrapper-3WhCwL, /*username or channel name mention in chat*/
 [data-slate-object="inline"] .mention, /*mention in message box*/
+.systemMessage-1I9LCe .anchorUnderlineOnHover-2ESHQB, /* links / usernames in system messages /*
 .name-3l27Hl, /*category name in sidebar*/
 .name-23GUGE, /*channel name in sidebar*/
 .title-29uC1r, /*channel name in chat header*/
