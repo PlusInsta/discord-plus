@@ -1286,12 +1286,33 @@ margin-right: 0;
 	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
 }
 
+.cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
+	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing)) !important;
+	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing));
+}
 
-.scrollerSpacer-avRLaA { /* very last message in chat */
+.cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y.groupStart-23k01U {
+	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)) !important;
+}
+
+.cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
+	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
+	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
+}
+.cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y.groupStart-23k01U {
+	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
+}
+
+/* very last message in chat */
+.scrollerSpacer-avRLaA {
+	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing));
+}
+	/* if there's only one message */
+.groupStart-23k01U + .scrollerSpacer-avRLaA {
 	height: calc(var(--dplus-calc-chatmsg-spacing) + var(--dplus-radius-ui) + var(--dplus-spacing-ui));
 }
 
-.scroller-2LSbBU {
+.cozyMessage-3V1Y8y .scroller-2LSbBU {
 	border-bottom-left-radius: var(--dplus-radius-ui);
 	border-bottom-right-radius: var(--dplus-radius-ui);
 }
