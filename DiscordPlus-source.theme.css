@@ -751,7 +751,7 @@ padding: var(--dplus-spacing-ui);
 
 	/* Pinned messages Popout */
 .messagesPopoutWrap-1MQ1bW {
-	width: calc(440px + var(--dplus-icon-avatar-chat-limit) + var(--dplus-spacing-ui));
+	width: calc(440px + var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui));
 }
 .header-ykumBX { padding: var(--dplus-spacing-ui); }
 .messagesPopoutWrap-1MQ1bW {
@@ -1132,20 +1132,17 @@ margin-right: 0;
 .wrapper-3t9DeA img, .voiceAvatar-14IynY, .border-Jn5IOt, .avatarHint-2A3RNb, .wrapper-2QE8vf.ringingIncoming-38YcLn:after, .wrapper-2QE8vf.ringingOutgoing-mbXhhQ:after, .avatar-1BDn8e, .option-96V44q.user-O3Czj0 .displayAvatar-1wWlVM  {
 	border-radius: var(--dplus-radius-avatar) !important; }
 .avatar-1BDn8e.clickable-1bVtEA:active {translate: none;}
-:root {
-	--dplus-icon-avatar-chat-limit: var(--dplus-icon-avatar-chat); /*min(var(--dplus-icon-avatar-chat), 64px)*/
-}
 
 .avatar-1BDn8e {
 	position: absolute;
 	margin-top: 0;
 	top: var(--dplus-spacing-ui) !important;
 	left: var(--dplus-spacing-ui) !important;
-	height: var(--dplus-icon-avatar-chat-limit) !important;
-	width: var(--dplus-icon-avatar-chat-limit) !important;
+	height: var(--dplus-icon-avatar-chat) !important;
+	width: var(--dplus-icon-avatar-chat) !important;
 }
 .cozy-3raOZG.wrapper-2a6GCs {
-	padding-left: calc(var(--dplus-icon-avatar-chat-limit) + var(--dplus-spacing-ui) * 2);
+	padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);
 }
 
 .avatar-3uk_u9 .wrapper-3t9DeA {
@@ -1253,12 +1250,12 @@ margin-right: 0;
 	padding-top: calc(var(--dplus-radius-ui) + var(--dplus-spacing-ui)) !important;
 }
 .systemMessage-1I9LCe .iconContainer-3GkGRf {
-	width: var(--dplus-icon-avatar-chat-limit);
+	width: var(--dplus-icon-avatar-chat);
 	margin-right: var(--dplus-spacing-ui);
 }
 
 .chatContent-a9vAAp {
-	--dplus-calc-chatmsg-spacing: calc(var(--dplus-icon-avatar-chat-limit) / 10);
+	--dplus-calc-chatmsg-spacing: calc(var(--dplus-icon-avatar-chat) / 10);
 }
 
 .group-spacing-0 { --group-spacing: 0px; }
@@ -1770,11 +1767,11 @@ html[style^="font-size: 75%;"] { --chat-font-scaling: 0.75; }
 html[style^="font-size: 87.5%;"] { --chat-font-scaling: 0.875; }
 html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 .a11y-font-scaled-down .cozy-3raOZG.wrapper-2a6GCs {
-	padding-left: calc(var(--dplus-icon-avatar-chat-limit) * var(--chat-font-scaling) + var(--dplus-spacing-ui) * 2);
+	padding-left: calc(var(--dplus-icon-avatar-chat) * var(--chat-font-scaling) + var(--dplus-spacing-ui) * 2);
 }
 .a11y-font-scaled-down .cozy-3raOZG.wrapper-2a6GCs .avatar-1BDn8e {
-	width: calc(var(--dplus-icon-avatar-chat-limit) * var(--chat-font-scaling)) !important;
-	height: calc(var(--dplus-icon-avatar-chat-limit) * var(--chat-font-scaling)) !important;
+	width: calc(var(--dplus-icon-avatar-chat) * var(--chat-font-scaling)) !important;
+	height: calc(var(--dplus-icon-avatar-chat) * var(--chat-font-scaling)) !important;
 }
 
 
