@@ -531,10 +531,12 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: var(--dplus-bgc-ui-card);
 }
 
-.translate-2dAEQ6 {
+.translate-2dAEQ6,
+.popout-2iWAc- {
 	backdrop-filter: var(--blurcalc-popout);
 }
 .userPopout-xaxa6l {
+	background-color: var(--dplus-bgc-popout);
 	border-radius: var(--dplus-radius-ui);
 	box-shadow: none !important;
 }
