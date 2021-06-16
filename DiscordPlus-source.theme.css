@@ -543,6 +543,11 @@ that have popups, or else the menu breaks when you hover over them */
 	left: var(--dplus-spacing-ui);
 }
 
+/* this link doesn't do much other than take up space */
+.setIdentityLink-3lcnXW {
+	display: none;
+}
+
 .avatarWrapper-3r9PdD:before {
 	content: "";
 	position: absolute;

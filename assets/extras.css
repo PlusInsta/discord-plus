@@ -1,10 +1,10 @@
+
 /* This file adds trivial or unnecessary styles to the main theme.
   Please don't make a pull request targeting this.
   It's my playground for doing cool shit without affecting loading times too much.
   - Insta */
 
-/* My "branding" */
-	/* make links to my carrd use my style */
+/* make links to my carrd use my style */
 [href="https://plusinsta.carrd.co"],
 [href="https://plusinsta.carrd.co/"],
 [href="https://PlusInsta.carrd.co"],
@@ -14,80 +14,89 @@
 	font-family: Righteous;
 }
 
-	/* banner data */
+
+/* put a nice logo in my server's channel list */
+[data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+	font-size: 0;
+	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+	background-size: 54px 13px;
+	width: 54px; height: 13px;
+	opacity: 0.6;
+}
+.theme-light [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
+	background-size: 54px 13px;
+	width: 54px; height: 13px;
+	opacity: 0.7;
+}
+
+
+/* Custom Profiles+ */
+	/* Common data for everyone*/
+		/* Set up banners */
 [data-user-id="309931975102300160"] .banner-2QYc2d,
-[data-user-id="220275692926009344"] .banner-2QYc2d {
-	background-size: cover;
-	width: 300px;
-	height: 120px;
-}
-
-[data-user-id="309931975102300160"] .banner-2QYc2d {
-	background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854345827237494844/banner_discord.jpg') !important;
-}
-[data-user-id="220275692926009344"] .banner-2QYc2d {
-	background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854380985386139749/unknown.png');
-}
-
-[data-user-id="309931975102300160"] .avatarWrapper-3r9PdD:before,
-[data-user-id="309931975102300160"] .avatar-AvHqJA:before,
-[data-user-id="220275692926009344"] .avatarWrapper-3r9PdD:before,
-[data-user-id="220275692926009344"] .avatar-AvHqJA:before {
-	clip: rect(auto,auto,auto,auto);
-}
-
-[data-user-id="309931975102300160"] .avatarWrapper-3r9PdD:before,
-[data-user-id="309931975102300160"] .avatar-AvHqJA:before {
-	background-color: #802060;
-}
-
-[data-user-id="220275692926009344"] .avatarWrapper-3r9PdD:before,
-[data-user-id="220275692926009344"] .avatar-AvHqJA:before {
-	background-color: #FD0083;
-}
-
-[data-user-id="309931975102300160"] .avatar-AvHqJA,
-[data-user-id="220275692926009344"] .avatar-AvHqJA {
-	top: calc(-68px - 120px);
-}
-[data-user-id="309931975102300160"] .nameTag-ECvD8P,
-[data-user-id="220275692926009344"] .nameTag-ECvD8P {
-	margin-top: -24px;
-}
-
-[data-user-id="309931975102300160"] .headerTop-2cWpdB,
-[data-user-id="309931975102300160"] .nameTag-ECvD8P,
-[data-user-id="220275692926009344"] .headerTop-2cWpdB,
-[data-user-id="220275692926009344"] .nameTag-ECvD8P {
-	padding-top: 16px;
-}
+[data-user-id="220275692926009344"] .banner-2QYc2d,
+[data-user-id="367617500021784587"] .banner-2QYc2d,
+[data-user-id="394891840815366147"] .banner-2QYc2d
+{ background-size: cover; width: 300px; height: 120px; }
 
 [data-user-id="309931975102300160"] .profileBanner-33-uE1,
-[data-user-id="220275692926009344"] .profileBanner-33-uE1 {
-    width: 600px;
-    height: 240px;
-}
+[data-user-id="220275692926009344"] .profileBanner-33-uE1,
+[data-user-id="367617500021784587"] .profileBanner-33-uE1,
+[data-user-id="394891840815366147"] .profileBanner-33-uE1
+{ width: 600px; height: 240px; }
 
-[data-user-id="220275692926009344"] .profileBadges-3cJaE1 {
-	position: unset;
-	max-width: 100%;
-}
-[data-user-id="220275692926009344"] .headerTop-547GTz {
-	justify-content: flex-end;
-	margin-bottom: 16px;
-}
+[data-user-id="309931975102300160"] .avatarPositionNormal-aZjAsn,
+[data-user-id="220275692926009344"] .avatarPositionNormal-aZjAsn,
+[data-user-id="367617500021784587"] .avatarPositionNormal-aZjAsn,
+[data-user-id="394891840815366147"] .avatarPositionNormal-aZjAsn
+{ top: 76px; }
 
-/* gucci profile for me and michelle */
-.layer-v9HyYc > div [data-user-id="309931975102300160"] .headerTop-2cWpdB,
-[data-user-id="309931975102300160"] .topSection-y3p-_D {
-	background-color: #80206080 !important;
-}
+	/* Personalized banner data */
+		/* The banner images */
+[data-user-id="309931975102300160"] .banner-2QYc2d
+	{ background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854642347043586058/banner_discord.jpg') !important; }
+[data-user-id="220275692926009344"] .banner-2QYc2d
+	{ background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854380985386139749/unknown.png'); }
+[data-user-id="367617500021784587"] .banner-2QYc2d
+	{ background-image: url('https://cdn.discordapp.com/attachments/854620180013776916/854620553363849237/ImpBanner.png'); }
+[data-user-id="394891840815366147"] .banner-2QYc2d
+	{ background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854645028789026827/banner_placeholder.jpg'); }
+/* placeholder image: https://cdn.discordapp.com/attachments/560369937084973067/854645028789026827/banner_placeholder.jpg */
 
-.layer-v9HyYc > div [data-user-id="220275692926009344"] .headerTop-2cWpdB,
-[data-user-id="220275692926009344"] .topSection-y3p-_D {
-	background-color: #FD008380 !important;
-}
+		/* Set colors */
+[data-user-id="309931975102300160"] .avatarWrapper-3r9PdD:before, [data-user-id="309931975102300160"] .avatar-AvHqJA:before,
+.layer-v9HyYc > div [data-user-id="309931975102300160"] .headerTop-2cWpdB, [data-user-id="309931975102300160"] .topSection-y3p-_D
+	{ background-color: #80206080 !important; }
 
+[data-user-id="220275692926009344"] .avatarWrapper-3r9PdD:before, [data-user-id="220275692926009344"] .avatar-AvHqJA:before,
+.layer-v9HyYc > div [data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D
+	{ background-color: #FD008380 !important; }
+
+[data-user-id="367617500021784587"] .avatarWrapper-3r9PdD:before, [data-user-id="367617500021784587"] .avatar-AvHqJA:before,
+.layer-v9HyYc > div [data-user-id="367617500021784587"] .headerTop-2cWpdB, [data-user-id="367617500021784587"] .topSection-y3p-_D
+	{ background-color: #00FFFF80 !important; }
+
+[data-user-id="394891840815366147"] .avatarWrapper-3r9PdD:before, [data-user-id="394891840815366147"] .avatar-AvHqJA:before,
+.layer-v9HyYc > div [data-user-id="394891840815366147"] .headerTop-2cWpdB, [data-user-id="394891840815366147"] .topSection-y3p-_D
+	{ background-color: #ffffff80 !important; }
+
+	/* Supporter badge */
+[data-user-id="220275692926009344"] .headerText-15Q25Z:after, [data-user-id="220275692926009344"] .headerTop-547GTz:before,
+[data-user-id="367617500021784587"] .headerText-15Q25Z:after, [data-user-id="367617500021784587"] .headerTop-547GTz:before,
+[data-user-id="644964603108786233"] .headerText-15Q25Z:after, [data-user-id="644964603108786233"] .headerTop-547GTz:before
+{ background-image: url("https://cdn.discordapp.com/attachments/560369937084973067/854643846616186910/badge_supporter.png");
+	width: 120px; height: 25px; background-size: cover; content: ""; display: block; }
+
+	/* Developer badge */
+[data-user-id="309931975102300160"] .headerText-15Q25Z:after, [data-user-id="309931975102300160"] .headerTop-547GTz:before,
+[data-user-id="207335168430702602"] .headerText-15Q25Z:after, [data-user-id="207335168430702602"] .headerTop-547GTz:before,
+[data-user-id="394891840815366147"] .headerText-15Q25Z:after, [data-user-id="394891840815366147"] .headerTop-547GTz:before
+{ background-image: url("https://cdn.discordapp.com/attachments/560369937084973067/854643835987951647/badge_dev.png");
+	width: 120px; height: 25px;	background-size: cover; content: ""; display: block; }
+
+
+/* Make my own profile Different(TM) */
 [data-user-id="309931975102300160"] .nickname-2gQ76l,
 [data-user-id="309931975102300160"] .username-2b1r56 {
 	font-size: 28px;
@@ -105,45 +114,7 @@
 	content: " (Insta#0001)";
 	color: var(--header-secondary);
 }
-
 [data-user-id="309931975102300160"] .discrimBase-1QwWzY,
 [data-user-id="309931975102300160"] .headerTagWithNickname-1SDMpI .headerTagUsernameBase-24SRnT {
 	display: none;
-}
-
-/* credit where it's due */
-[data-user-id="309931975102300160"] .headerText-15Q25Z:after,
-[data-user-id="309931975102300160"] .headerTop-547GTz:before,
-[data-user-id="207335168430702602"] .headerText-15Q25Z:after,
-[data-user-id="207335168430702602"] .headerTop-547GTz:before {
-	content: "Discord+ developer";
-	color: var(--header-secondary);
-}
-
-[data-user-id="394891840815366147"] .headerText-15Q25Z:after,
-[data-user-id="394891840815366147"] .headerTop-547GTz:before {
-	content: "Discord+ contributor";
-	color: var(--header-secondary);
-}
-
-/* this link doesn't do much other than take up space */
-[data-user-id="309931975102300160"] .setIdentityLink-3lcnXW,
-[data-user-id="207335168430702602"] .setIdentityLink-3lcnXW,
-[data-user-id="394891840815366147"] .setIdentityLink-3lcnXW {
-	display: none;
-}
-
-	/* put a nice logo in my server's channel list */
-[data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
-	font-size: 0;
-	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
-	background-size: 54px 13px;
-	width: 54px; height: 13px;
-	opacity: 0.6;
-}
-.theme-light [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
-	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
-	background-size: 54px 13px;
-	width: 54px; height: 13px;
-	opacity: 0.7;
 }
