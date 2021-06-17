@@ -10,15 +10,21 @@
 	width: var(--dplus-members-width) !important;
 	height: 20px;
 	top: 10px !important;
-	background-color: var(--dplus-bgc-ui-base) !important;
+	background: transparent !important;
 }
 
 #MemberCount .membersGroup-v9BXpm {
-	padding: 20px;
+	padding: 10px;
+}
+
+#MemberCount .membersGroup-v9BXpm span {
+	padding: 5px;
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+	background-color: var(--dplus-bgc-ui-base);
 }
 
 .membersWrap-2h-GB4.hasCounter .members-1998pB {
-	margin-top: 20px !important;
+	margin-top: 0 !important;
 }
 
 	/* by DevilBro */
