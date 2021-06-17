@@ -44,7 +44,7 @@
 	--dplus-radius-server: 20%;
 
 	/* Spacing */
-	--dplus-spacing-ui: 10px;
+	--dplus-spacing-ui: 17px;
 	--dplus-spacing-app: 10px;
 
 	/* Icons */
@@ -1261,17 +1261,34 @@ margin-right: 0;
 .group-spacing-0 { --group-spacing: 0px; }
 .group-spacing-4 { --group-spacing: 4px; }
 .group-spacing-8 { --group-spacing: 8px; }
-.group-spacing-16 { --group-spacing: 16px; }
+.group-spacing-16 { --group-spacing: 10px; }
 .group-spacing-24 { --group-spacing: var(--dplus-spacing-ui); }
 
+[aria-valuemin="0"][aria-valuemax="24"] [style="left: 0%;"] .markValue-2DwdXI,
+[aria-valuemin="0"][aria-valuemax="24"] [style="left: 66.6667%;"] .markValue-2DwdXI,
 [aria-valuemin="0"][aria-valuemax="24"] [style="left: 100%;"] .markValue-2DwdXI {
 	font-size: 0px;
 }
-[aria-valuemin="0"][aria-valuemax="24"] [style="left: 100%;"] .markValue-2DwdXI::before {
+[aria-valuemin="0"][aria-valuemax="24"] [style="left: 0%;"] .markValue-2DwdXI::before {
 	display: block;
 	color: inherit;
 	font-size: 10px;
-	content: "Spacing Variable";
+	content: "OFF";
+}
+
+[aria-valuemin="0"][aria-valuemax="24"] [style="left: 66.6667%;"] .markValue-2DwdXI::before {
+	display: block;
+	color: inherit;
+	font-size: 10px;
+	content: "10px";
+}
+
+[aria-valuemin="0"][aria-valuemax="24"] [style="left: 100%;"] .markValue-2DwdXI::before {
+	display: block;
+	color: inherit;
+	width: 50px;
+	font-size: 10px;
+	content: "Spacing variable";
 }
 
 .groupStart-23k01U {
@@ -1317,41 +1334,31 @@ margin-right: 0;
 	border-bottom-right-radius: var(--dplus-radius-ui);
 }
 
+.divider-3_HH5L { margin-bottom: 0px !important; }
 .divider-JfaTT5, .container-3RCQyg {
-	margin: 0!important;
+	margin-top: 0 !important;
 }
+.divider-3_HH5L.isUnread-3Ef-o9.beforeGroup-1rH1F0 {
+	top: var(--dplus-spacing-ui) !important;
+}
+
 .imageWrapper-2p5ogY {
 	border-radius: var(--dplus-radius-ui);
 }
 
-.group-spacing-0 {
-	--hascontent-correction-groupstart: -16px;
-	--hascontent-correction-groupstart-before: 20px;
-}
-
-.group-spacing-4 {
-	--hascontent-correction-groupstart: -12px;
-	--hascontent-correction-groupstart-before: 16px;
-}
-
-.group-spacing-8 {
-	--hascontent-correction-groupstart: -8px;
-	--hascontent-correction-groupstart-before: 12px;
-}
-
-.group-spacing-16 {
-	--hascontent-correction-groupstart: 0px;
-	--hascontent-correction-groupstart-before: 4px;
-}
-
+.group-spacing-0,
+.group-spacing-4,
+.group-spacing-8,
+.group-spacing-16,
 .group-spacing-24 {
-	--hascontent-correction-groupstart: calc(19px - var(--dplus-spacing-ui));
-	--hascontent-correction-groupstart-before: calc(20px - var(--dplus-spacing-ui));
+	--hascontent-correction-groupstart: calc(0px - var(--group-spacing) + 4px);
+	--hascontent-correction-groupstart-before: calc(var(--group-spacing));
 }
 
 .hasContent-1cNJDh {
 	position: relative;
 	top: calc(3px + var(--dplus-radius-ui));
+	margin-left: 0px;
 	margin-top: var(--dplus-spacing-ui) !important;
 }
 
@@ -1361,7 +1368,7 @@ margin-right: 0;
 /* Message groups with more than one message */
 
 .cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh {
-	top: calc(-7px + var(--group-spacing) + var(--dplus-radius-ui));
+	top: calc(-2px + var(--group-spacing) + var(--dplus-radius-ui));
 }
 .cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U {
 	margin-top: calc(6px + var(--group-spacing) + var(--dplus-radius-ui)) !important;
@@ -1373,7 +1380,7 @@ margin-right: 0;
 
 /* Message groups with only one message */
 .groupStart-23k01U + .hasContent-1cNJDh {
-	top: calc(3px + var(--group-spacing) + var(--dplus-radius-ui));
+	top: calc(-2px + var(--group-spacing) * 2 + var(--dplus-radius-ui));
 }
 .groupStart-23k01U + .hasContent-1cNJDh {
 	margin-top: calc(-10px - var(--hascontent-correction-groupstart) + var(--group-spacing) + var(--dplus-radius-ui)) !important;
@@ -1387,7 +1394,7 @@ margin-right: 0;
 .content-1o0f9g {
 	background: var(--dplus-bgc-chatmsg);
 	color: var(--text-normal);
-	margin-top: var(--dplus-spacing-ui);
+	margin-top: 0px;
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
 }
 
