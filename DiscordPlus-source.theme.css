@@ -1325,22 +1325,22 @@ margin-right: 0;
 }
 
 .group-spacing-0 {
-	--hascontent-correction-groupstart: 19px;
+	--hascontent-correction-groupstart: -16px;
 	--hascontent-correction-groupstart-before: 20px;
 }
 
 .group-spacing-4 {
-	--hascontent-correction-groupstart: 15px;
+	--hascontent-correction-groupstart: -12px;
 	--hascontent-correction-groupstart-before: 16px;
 }
 
 .group-spacing-8 {
-	--hascontent-correction-groupstart: 11px;
+	--hascontent-correction-groupstart: -8px;
 	--hascontent-correction-groupstart-before: 12px;
 }
 
 .group-spacing-16 {
-	--hascontent-correction-groupstart: 3px;
+	--hascontent-correction-groupstart: 0px;
 	--hascontent-correction-groupstart-before: 4px;
 }
 
@@ -1351,20 +1351,38 @@ margin-right: 0;
 
 .hasContent-1cNJDh {
 	position: relative;
-	top: calc(10px + var(--dplus-spacing-ui) / 2 + var(--dplus-radius-ui));
+	top: calc(3px + var(--dplus-radius-ui));
 	margin-top: var(--dplus-spacing-ui) !important;
 }
 
 .hasContent-1cNJDh + .groupStart-23k01U { border-top-left-radius: 0; }
 
 
-.hasContent-1cNJDh + .groupStart-23k01U {
-	margin-top: calc(var(--group-spacing) + var(--dplus-spacing-ui) + var(--dplus-radius-ui) + var(--hascontent-correction-groupstart)) !important;
+/* Message groups with more than one message */
+
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh {
+	top: calc(-7px + var(--group-spacing) + var(--dplus-radius-ui));
+}
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U {
+	margin-top: calc(6px + var(--group-spacing) + var(--dplus-radius-ui)) !important;
+}
+.hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
+	top: calc(-7px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-spacing-ui)) !important;
+	height: var(--dplus-radius-ui);
 }
 
-.hasContent-1cNJDh + .groupStart-23k01U:before {
-	top: calc(0px - var(--group-spacing) - var(--hascontent-correction-groupstart-before) - var(--dplus-radius-ui) - var(--dplus-spacing-ui) * 2) !important;
+/* Message groups with only one message */
+.groupStart-23k01U + .hasContent-1cNJDh {
+	top: calc(3px + var(--group-spacing) + var(--dplus-radius-ui));
 }
+.groupStart-23k01U + .hasContent-1cNJDh {
+	margin-top: calc(-10px - var(--hascontent-correction-groupstart) + var(--group-spacing) + var(--dplus-radius-ui)) !important;
+}
+.groupStart-23k01U + .hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
+	top: calc(-4px - var(--hascontent-correction-groupstart-before) - var(--group-spacing) * 2 - var(--dplus-radius-ui) - var(--dplus-spacing-ui)) !important;
+	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
+}
+
 
 .content-1o0f9g {
 	background: var(--dplus-bgc-chatmsg);
