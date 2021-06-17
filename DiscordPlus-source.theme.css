@@ -1339,7 +1339,8 @@ margin-right: 0;
 	margin-top: 0 !important;
 }
 .divider-3_HH5L.isUnread-3Ef-o9.beforeGroup-1rH1F0 {
-	top: var(--dplus-spacing-ui) !important;
+	z-index: -1;
+	top: 0 !important;
 }
 
 .imageWrapper-2p5ogY {
