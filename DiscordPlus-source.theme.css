@@ -1285,16 +1285,16 @@ margin-right: 0;
 	pointer-events: none;
 	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
 }
-
+/* Message groups with more than one message */
 .cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
-	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing)) !important;
-	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing));
+	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui)) !important;
+	height: var(--dplus-radius-ui);
 }
-
 .cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y.groupStart-23k01U {
-	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)) !important;
+	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui)) !important;
 }
 
+/* Message groups with only one message */
 .cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
 	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
 	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
