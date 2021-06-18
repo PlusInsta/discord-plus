@@ -1187,6 +1187,13 @@ margin-right: 0;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {border-color: var(--dplus-accent-ui);}
 
+.theme-dark .backgroundFlash-24qWLN {
+	background-color: rgba(250, 166, 26, 0.50) !important;
+}
+.theme-light .backgroundFlash-24qWLN {
+	background-color: #ffe9c9de !important;
+}
+
 	/* Embeds */
 .embed-IeVjo6 {
 	border-radius: var(--dplus-radius-ui);
