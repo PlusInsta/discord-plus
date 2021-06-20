@@ -663,7 +663,7 @@ padding: var(--dplus-spacing-ui);
 	height: 24px; width: 100%;
 	position: absolute;
 	left: 0;
-	opacity: 0.2;
+	opacity: 0.72;
 	z-index: -1;
 }
 
