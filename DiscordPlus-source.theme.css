@@ -1187,12 +1187,28 @@ margin-right: 0;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {border-color: var(--dplus-accent-ui);}
 
-.theme-dark .backgroundFlash-24qWLN {
-	background-color: rgba(250, 166, 26, 0.50) !important;
+.theme-dark .backgroundFlash-24qWLN
+	{ background-color: rgba(250, 166, 26, 0.50) !important; }
+.theme-light .backgroundFlash-24qWLN
+	{ background-color: #ffe9c9de !important; }
+
+.backgroundFlash-24qWLN.groupStart-23k01U {
+	margin-top: -6px !important;
+	padding-top: 0 !important;
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0 !important;
 }
-.theme-light .backgroundFlash-24qWLN {
-	background-color: #ffe9c9de !important;
+
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .backgroundFlash-24qWLN.groupStart-23k01U {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0 !important;
 }
+
+.backgroundFlash-24qWLN .groupStart-23k01U:before {
+    top: calc(-11px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
+    height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui));
+}
+
 
 	/* Embeds */
 .embed-IeVjo6 {
@@ -1374,17 +1390,13 @@ margin-right: 0;
 
 
 /* Message groups with more than one message */
-
-.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh {
-	top: calc(-2px + var(--group-spacing) + var(--dplus-radius-ui));
-}
-.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U {
-	margin-top: calc(6px + var(--group-spacing) + var(--dplus-radius-ui)) !important;
-}
-.hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
-	top: calc(-7px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-spacing-ui)) !important;
-	height: var(--dplus-radius-ui);
-}
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh
+	{ top: calc(-2px + var(--group-spacing) + var(--dplus-radius-ui)); }
+.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U
+	{ margin-top: calc(6px + var(--group-spacing) + var(--dplus-radius-ui)) !important; }
+.hasContent-1cNJDh + .cozyMessage-3V1Y8y.groupStart-23k01U:before
+	{ top: calc(-7px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-spacing-ui)) !important;
+	height: var(--dplus-radius-ui); }
 
 /* Message groups with only one message */
 .groupStart-23k01U + .hasContent-1cNJDh {
