@@ -1,7 +1,5 @@
-/* This file adds trivial or unnecessary styles to the main theme.
-  Please don't make a pull request targeting this.
-  It's my playground for doing cool shit without affecting loading times too much.
-  - Insta */
+/* Don't make a pull request targeting this file. */
+
 /* make links to my carrd use my style */
 [href="https://plusinsta.carrd.co"],
 [href="https://plusinsta.carrd.co/"],
@@ -89,8 +87,12 @@
 
 			/* Invert light theme text color for dark backgrounds */
 [data-user-id="309931975102300160"] .headerTop-2cWpdB, [data-user-id="309931975102300160"] .topSection-y3p-_D,
-[data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D
-	{ --header-primary: #fff; --header-secondary: #b9bbbe; --text-normal: #dcddde; --interactive-normal: #b9bbbe; --interactive-active: #fff; filter: none !important; }
+[data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D {
+		--header-primary: #fff;
+		--header-secondary: #b9bbbe;
+		--text-normal: #dcddde;
+		--interactive-normal: #b9bbbe;
+		--interactive-active: #fff; }
 
 	/* Supporter badge */
 [data-user-id="220275692926009344"] .headerText-15Q25Z:after, [data-user-id="220275692926009344"] .headerTop-547GTz:before,
