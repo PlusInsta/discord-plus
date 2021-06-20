@@ -497,19 +497,25 @@ that have popups, or else the menu breaks when you hover over them */
 	transition: var(--dplus-anim-button);
 }
 
+[id^="status-picker-"] /* status picker (who would've guessed?) */ {
+	background-color: transparent !important;
+}
+
 .button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ):hover, /* buttons hovered over */
 .button-38aScr.focused-3ZzkKr, /* focused but not hovered over */
 .colorDefault-2K3EoJ:not(.labelContainer-1BLJti).focused-3afm-j, /* regular buttons, focused */
-.colorDefault-2K3EoJ:hover:not(.labelContainer-1BLJti):not(.hideInteraction-1iHO1O) /* regular buttons but only if clickable */ {
+.colorDefault-2K3EoJ:hover:not(.labelContainer-1BLJti):not(.hideInteraction-1iHO1O), /* regular buttons but only if clickable */ {
 	background-color: var(--dplus-bgc-button-hover);
 	transition: var(--dplus-anim-button);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91, /* branded buttons */
-.labelContainer-1BLJti:hover /* context menu buttons */  {
+.labelContainer-1BLJti:hover, /* context menu buttons */
+[id^="status-picker-"]:hover /* status picker hovered */  {
 	background-color: var(--dplus-accent-ui) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover, /* branded buttons, hovered over */
-.labelContainer-1BLJti.focused-3afm-j:not(:hover) /* context menu button w/ submenu */ {
+.labelContainer-1BLJti.focused-3afm-j:not(:hover), /* context menu button w/ submenu */
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) /* status picker drag-click */ {
 	background-color: var(--dplus-accent-ui-hover) !important;
 }
 
