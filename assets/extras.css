@@ -74,6 +74,9 @@
 	{ background: url(https://cdn.discordapp.com/attachments/854649169063182336/856087906354855966/testneo.webp) !important;
 	background-color: rgba(0,0,45) !important; /* fallback */
 	background-size: cover !important; background-repeat: no-repeat !important; }
+[data-user-id="309931975102300160"] .headerTagUsernameNoNickname-1ZLDYY,
+[data-user-id="309931975102300160"] .customStatus-oN4ZZY,
+[data-user-id="309931975102300160"] .nickname-2gQ76l { color: #fff; }
 
 [data-user-id="220275692926009344"] .avatarWrapper-3r9PdD:before, [data-user-id="220275692926009344"] .avatar-AvHqJA:before,
 [data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D
@@ -126,12 +129,12 @@
 [data-user-id="309931975102300160"] .username-2b1r56:after {
 	font-size: 16px;
 	content: "#0001";
-	color: var(--header-secondary);
+	color: #b9bbbe;
 }
 [data-user-id="309931975102300160"] .nickname-2gQ76l:after {
 	font-size: 16px;
 	content: " (Insta#0001)";
-	color: var(--header-secondary);
+	color: #b9bbbe;
 }
 [data-user-id="309931975102300160"] .discrimBase-1QwWzY,
 [data-user-id="309931975102300160"] .headerTagWithNickname-1SDMpI .headerTagUsernameBase-24SRnT {
