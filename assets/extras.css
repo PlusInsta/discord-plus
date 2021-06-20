@@ -72,12 +72,16 @@
 .headerTop-2cWpdB, .topSection-y3p-_D	{ background-size: cover !important; background-repeat: no-repeat !important; }
 
 [data-user-id="309931975102300160"] .headerTop-2cWpdB, [data-user-id="309931975102300160"] .topSection-y3p-_D
-	{ background: url(https://cdn.discordapp.com/attachments/854649169063182336/856087906354855966/testneo.webp) !important;
+	{ background-image: url(https://cdn.discordapp.com/attachments/854649169063182336/856087906354855966/testneo.webp) !important;
 	background-color: rgba(0,0,45) !important; }
 
 [data-user-id="275432265100558336"] .headerTop-2cWpdB, [data-user-id="275432265100558336"] .topSection-y3p-_D
-	{ background: url(https://cdn.discordapp.com/attachments/854649169063182336/856136288368197642/profilebg_275432265100558336.webp) !important;
+	{ background-image: url(https://cdn.discordapp.com/attachments/854649169063182336/856136288368197642/profilebg_275432265100558336.webp) !important;
 	background-color: rgba(0,28,27) !important; }
+
+[data-user-id="309931975102300160"] .headerTag-16AlQV, [data-user-id="309931975102300160"] .customStatus-1COQYu span,
+[data-user-id="275432265100558336"]	.headerTag-16AlQV, [data-user-id="275432265100558336"] .customStatus-1COQYu span,
+	{ filter: drop-shadow(0px 0px 1.5px black); }
 
 		/* Set profile background (color only) */
 [data-user-id="220275692926009344"] .avatarWrapper-3r9PdD:before, [data-user-id="220275692926009344"] .avatar-AvHqJA:before,
@@ -94,7 +98,8 @@
 
 			/* Invert light theme text color for dark backgrounds */
 [data-user-id="309931975102300160"] .headerTop-2cWpdB, [data-user-id="309931975102300160"] .topSection-y3p-_D,
-[data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D {
+[data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D,
+[data-user-id="275432265100558336"] .headerTop-2cWpdB, [data-user-id="275432265100558336"] .topSection-y3p-_D {
 		--header-primary: #fff;
 		--header-secondary: #b9bbbe;
 		--text-normal: #dcddde;
@@ -119,9 +124,10 @@
 { background-image: url("//plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
 	width: 120px; height: 25px;	background-size: cover; content: ""; display: block; z-index: 0; }
 
-.headerText-15Q25Z:after, .headerTop-547GTz:before,
-.headerTag-16AlQV:after, .topSection-y3p-_D header:after
-	{ filter: drop-shadow(0px 0px 1.5px black); }
+	/* Make text more legible */
+[data-user-id="309931975102300160"] .nameTag-m8r81H, [data-user-id="309931975102300160"] .customStatus-1COQYu span, [data-user-id="309931975102300160"] .colored-1armap,
+[data-user-id="275432265100558336"]	.nameTag-m8r81H, [data-user-id="275432265100558336"] .customStatus-1COQYu span, [data-user-id="275432265100558336"] .colored-1armap
+{ filter: drop-shadow(0px 0px 2px black); }
 
 	/* Badge for Michelle */
 [data-user-id="220275692926009344"]	.headerTag-16AlQV:after,
