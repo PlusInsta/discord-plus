@@ -52,7 +52,7 @@
 { top: 76px; }
 
 	/* Personalized banner data */
-		/* The banner images */
+		/* Set banner backgrounds */
 [data-user-id="309931975102300160"] .banner-2QYc2d
 	{ background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854642347043586058/banner_discord.jpg') !important; }
 [data-user-id="220275692926009344"] .banner-2QYc2d
@@ -63,16 +63,23 @@
 	{ background-image: url('https://cdn.discordapp.com/attachments/746689317090361425/854648565585805312/123.png'); }
 [data-user-id="644964603108786233"] .banner-2QYc2d
 	{ background-image: url('https://cdn.discordapp.com/attachments/854649169063182336/854677302196568092/644964603108786233.jpg'); }
+[data-user-id="275432265100558336"] .banner-2QYc2d
+	{ background: #074952 !important; }
 
 /* placeholder image: https://cdn.discordapp.com/attachments/560369937084973067/854645028789026827/banner_placeholder.jpg */
 
-		/* Set profile background image */
+		/* Set profile background */
+.headerTop-2cWpdB, .topSection-y3p-_D	{ background-size: cover !important; background-repeat: no-repeat !important; }
+
 [data-user-id="309931975102300160"] .headerTop-2cWpdB, [data-user-id="309931975102300160"] .topSection-y3p-_D
 	{ background: url(https://cdn.discordapp.com/attachments/854649169063182336/856087906354855966/testneo.webp) !important;
-	background-color: rgba(0,0,45) !important; /* fallback */
-	background-size: cover !important; background-repeat: no-repeat !important; }
+	background-color: rgba(0,0,45) !important; }
 
-		/* Set profile background color */
+[data-user-id="275432265100558336"] .headerTop-2cWpdB, [data-user-id="275432265100558336"] .topSection-y3p-_D
+	{ background: url(https://cdn.discordapp.com/attachments/854649169063182336/856136288368197642/profilebg_275432265100558336.webp) !important;
+	background-color: rgba(0,28,27) !important; }
+
+		/* Set profile background (color only) */
 [data-user-id="220275692926009344"] .avatarWrapper-3r9PdD:before, [data-user-id="220275692926009344"] .avatar-AvHqJA:before,
 [data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D
 	{ background-color: #FD008380 !important; }
