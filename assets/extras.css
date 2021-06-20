@@ -116,6 +116,33 @@
 { background-image: url("//plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
 	width: 120px; height: 25px;	background-size: cover; content: ""; display: block; z-index: 0; }
 
+	/* D+ badge in member list */
+		/*supporters*/
+	[data-user-id="220275692926009344"] .name-uJV0GL:after,
+	[data-user-id="367617500021784587"] .name-uJV0GL:after,
+	[data-user-id="719378258491342878"] .name-uJV0GL:after,
+	[data-user-id="644964603108786233"] .name-uJV0GL:after,
+	[data-user-id="299958646748741632"] .name-uJV0GL:after,
+	[data-user-id="354342865695932423"] .name-uJV0GL:after,
+	[data-user-id="275432265100558336"] .name-uJV0GL:after,
+		/*devs*/
+	[data-user-id="309931975102300160"] .name-uJV0GL:after,
+	[data-user-id="207335168430702602"] .name-uJV0GL:after,
+	[data-user-id="394891840815366147"] .name-uJV0GL:after {
+		margin-left: 3px;
+		content: "";
+		display: inline-block;
+		background-image: var(--dplus-logo);
+		width: 14px; height: 14px;
+	}
+
+.theme-dark {
+	--dplus-logo: url("//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg");
+}
+.theme-light {
+	--dplus-logo: url("//plusinsta.github.io/discord-plus/assets/discord/home_light.svg");
+}
+
 /* Invert light theme text color for dark backgrounds */
 [data-user-id="309931975102300160"] .headerTop-2cWpdB, [data-user-id="309931975102300160"] .topSection-y3p-_D,
 [data-user-id="220275692926009344"] .headerTop-2cWpdB, [data-user-id="220275692926009344"] .topSection-y3p-_D,
