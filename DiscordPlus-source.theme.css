@@ -1198,6 +1198,12 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0 !important;
 }
 
+.cozyMessage-3V1Y8y.groupStart-23k01U + .backgroundFlash-24qWLN.groupStart-23k01U {
+	margin-top: 48px !important;
+	padding-top: 0 !important;
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0 !important;
+}
+
 .cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .backgroundFlash-24qWLN.groupStart-23k01U {
 	margin-top: 0 !important;
 	padding-top: 0 !important;
