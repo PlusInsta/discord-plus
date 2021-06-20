@@ -673,6 +673,7 @@ padding: var(--dplus-spacing-ui);
 }
 .tooltipContent-bqVLWK {
 	padding: var(--dplus-spacing-ui);
+	background-color: transparent !important;
 }
 
 	/* Search */
