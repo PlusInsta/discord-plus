@@ -1460,6 +1460,17 @@ margin-right: 0;
 .wrapper-3WhCwL, #app-mount .mentioned-xhSam7 .mention {background: rgba(114,137,218,0.1)!important;}
 .mentioned-xhSam7:not(.groupStart-23k01U)::before {display: none;}
 
+	/* @everyone warning */
+.theme-dark .contentWarningPopout-n5JsIs,
+.theme-light .contentWarningPopout-n5JsIs
+{ background-color: var(--dplus-bgc-ui-base); }
+
+.contentWarningPopout-n5JsIs
+{ border-radius: var(--dplus-radius-ui); }
+
+.contentWarningPopout-n5JsIs .footer-3N9rgh
+{ border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); }
+
 	/* Replies */
 .cozy-3raOZG .repliedMessage-VokQwo {margin-left: 13px;}
 
