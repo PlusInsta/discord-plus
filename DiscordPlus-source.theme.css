@@ -552,8 +552,12 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 /* this link doesn't do much other than take up space */
-.setIdentityLink-3lcnXW {
+.setIdentityLink-1t8Ahd {
 	display: none;
+}
+
+.customStatus-oN4ZZY {
+	padding-top: var(--dplus-spacing-ui)
 }
 
 .avatarWrapper-3r9PdD:before {
@@ -1260,6 +1264,10 @@ margin-right: 0;
 	padding-top: var(--dplus-spacing-ui) !important;
 }
 
+.username-1A8OIy {
+	font-size: 1.125rem;
+}
+
 .wrapper-2aW0bm {
 	border-radius: var(--dplus-radius-ui);
 }
@@ -1458,14 +1466,11 @@ margin-right: 0;
 
 	/* @everyone warning */
 .theme-dark .contentWarningPopout-n5JsIs,
-.theme-light .contentWarningPopout-n5JsIs
-{ background-color: var(--dplus-bgc-ui-base); }
-
-.contentWarningPopout-n5JsIs
-{ border-radius: var(--dplus-radius-ui); }
-
-.contentWarningPopout-n5JsIs .footer-3N9rgh
-{ border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); }
+.theme-light .contentWarningPopout-n5JsIs {
+	background-color: var(--dplus-bgc-ui-base);
+}
+.contentWarningPopout-n5JsIs { border-radius: var(--dplus-radius-ui); }
+.contentWarningPopout-n5JsIs .footer-3N9rgh { border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui)}
 
 	/* Replies */
 .cozy-3raOZG .repliedMessage-VokQwo {margin-left: 13px;}
@@ -1509,9 +1514,6 @@ margin-right: 0;
 	top: calc(5% - var(--dplus-spacing-ui));
 }
 .theme-light .dots-3Bkt3k.themed-IQiCm3, .theme-light .base-gE7OpD {color: #fff;}
-
-.text-1y-e8-
-{ filter: drop-shadow(0 0 2px black); } 
 
 	/* Calling */
 .controlButton-2MhVEL foreignObject {mask: none;}
@@ -1646,10 +1648,11 @@ margin-right: 0;
 	height: calc(180px + var(--dplus-spacing-ui));
 }
 
-.profileBannerPreview-3FLQKD,
-.profileBannerPreview-3FLQKD .avatarUploaderInner-3UNxY3 {
-	border-radius: var(--dplus-radius-ui);
-}
+.profileBannerPreview-3_l0Wd
+{ border-radius: var(--dplus-radius-ui); }
+
+.banner-hcPdsd
+{ border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0; }
 
 .h1-1qdNzo, .h2-2gWE-o,
 .h4-AQvcAz, .h5-18_1nd {
@@ -1816,7 +1819,7 @@ transition: var(--dplus-anim-button) !important;
 }
 
 /* Server settings */
-.avatarUploaderInner-3UNxY3 {border-radius: var(--dplus-radius-server);}
+.avatarUploaderInner-Oiob_P {border-radius: var(--dplus-radius-avatar);}
 .avatarUploader-2yeaMv .avatarUploaderInnerSquare-2UOXj4, .avatarUploaderDisabled-310UAf .avatarUploaderInnerSquare-2UOXj4 {
 background-size: contain;
 }

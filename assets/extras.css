@@ -29,22 +29,23 @@
 
 /* Custom Profiles+ */
 	/* Setup */
-.banner-2QYc2d, .profileBanner-33-uE1, .headerTop-2cWpdB { background-size: cover; background-repeat: no-repeat; }
-.topSection-y3p-_D { background-size: 600px 240px;}
-.banner-2QYc2d { background-image: var(--dplus-background-image);	height: var(--dplus-banner-height, 60px); }
+.banner-2QYc2d, .profileBanner-33-uE1, .headerTop-3vNv-a { background-size: cover; background-repeat: no-repeat; }
+.topSection-y3p-_D { background-size: 600px 240px; background-position: bottom; }
+.banner-2QYc2d:not(.settingsBanner-15-pZk) { height: var(--dplus-banner-height, 60px); }
 .profileBanner-33-uE1 { height: var(--dplus-profilebanner-height, 120px);}
-.bannerPremium-2hSAwz { --dplus-banner-height: 120px; }
+.headerNormal-3KXFBt .bannerPremium-2hSAwz { --dplus-banner-height: 120px; }
+.topSection-y3p-_D .bannerPremium-2hSAwz { --dplus-banner-height: 240px; }
 .avatarPositionNormal-aZjAsn { top: var(--dplus-avatarpositionnormal, 16px); }
-.headerTop-2cWpdB, .topSection-y3p-_D {
+.headerTop-3vNv-a, .topSection-y3p-_D {
 	background-image: var(--dplus-profile-background);
 	--header-primary: var(--dplus-darktext1);
 	--interactive-active: var(--dplus-darktext1);
 	--text-normal: var(--dplus-darktext2);
 	--header-secondary: var(--dplus-darktext3);
 	--interactive-normal: var(--dplus-darktext3); }
-.nameTag-m8r81H, .nickname-2gQ76l, .customStatus-1COQYu span, .colored-1armap { filter: var(--dplus-dropshadow); }
-.headerTop-2cWpdB { background-color: var(--dplus-profilebg-header, var(--dplus-bgc-ui-card)); }
-.theme-dark .headerTop-2cWpdB {
+.nameTag-m8r81H, .nickname-3M3Jfa, .customStatus-1COQYu, .profileBadge-2niAfJ { filter: var(--dplus-dropshadow); }
+.headerTop-3vNv-a { background-color: var(--dplus-profilebg-header, var(--dplus-bgc-ui-card)); }
+.theme-dark .headerTop-3vNv-a {
 	--header-primary: #fff;
 	--interactive-active: #fff;
 	--text-normal: #dcddde;
@@ -54,21 +55,21 @@
 
 	/* Users with banner images */
 [data-user-id="309931975102300160"], /* me! */
-[data-user-id="220275692926009344"],
-[data-user-id="367617500021784587"],
-[data-user-id="394891840815366147"],
-[data-user-id="644964603108786233"] {
+[data-user-id="220275692926009344"], /* keep */
+[data-user-id="367617500021784587"] /* keep */ {
 	--dplus-banner-height: 120px;
 	--dplus-profilebanner-height: 240px;
  	--dplus-avatarpositionnormal: 76px; }
+[data-user-id="309931975102300160"] .banner-2QYc2d,
+[data-user-id="220275692926009344"] .banner-2QYc2d,
+[data-user-id="367617500021784587"] .banner-2QYc2d {
+	background-image: var(--dplus-background-image) !important;
+}
+
 		/* Banner images */
 [data-user-id="309931975102300160"] {	--dplus-background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854642347043586058/banner_discord.jpg'); }
 [data-user-id="220275692926009344"] { --dplus-background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/854380985386139749/unknown.png'); }
 [data-user-id="367617500021784587"] { --dplus-background-image: url('https://cdn.discordapp.com/attachments/854649169063182336/856214853081497640/IMP.gif'); }
-[data-user-id="394891840815366147"] { --dplus-background-image: url('https://cdn.discordapp.com/attachments/746689317090361425/854648565585805312/123.png'); }
-[data-user-id="644964603108786233"] { --dplus-background-image: url('https://cdn.discordapp.com/attachments/854649169063182336/854677302196568092/644964603108786233.jpg'); }
-		/* Banner colors */
-[data-user-id="275432265100558336"] { --dplus-background-image: linear-gradient(#074952,#074952); }
 
 	/* Users with profile backgrounds */
 [data-user-id="309931975102300160"],
@@ -146,7 +147,7 @@
 { margin-bottom: 0; }
 
 /* Make my own profile Different(TM) */
-[data-user-id="309931975102300160"] .nickname-2gQ76l,
+[data-user-id="309931975102300160"] .nickname-3M3Jfa,
 [data-user-id="309931975102300160"] .username-2b1r56 {
 	font-size: 28px;
 }
@@ -158,12 +159,12 @@
 	content: "#0001";
 	color: var(--header-secondary);
 }
-[data-user-id="309931975102300160"] .nickname-2gQ76l:after {
+[data-user-id="309931975102300160"] .nickname-3M3Jfa:after {
 	font-size: 16px;
 	content: " (Insta#0001)";
 	color: var(--header-secondary);
 }
-[data-user-id="309931975102300160"] .discrimBase-1QwWzY,
-[data-user-id="309931975102300160"] .headerTagWithNickname-1SDMpI .headerTagUsernameBase-24SRnT {
+[data-user-id="309931975102300160"] .discrimBase-24vY8o,
+[data-user-id="309931975102300160"] .headerTagWithNickname-3l_x6x .headerTagUsernameBase-1NqrY5 {
 	display: none;
 }
