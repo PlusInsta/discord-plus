@@ -1,14 +1,14 @@
 /**
  * @name Discord+
- * @version 3.1.0
+ * @version 3.1.1
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
  * @description A sleek, customizable Discord theme.
- * @website https://plusinsta.github.io/discord-plus/
+ * @website https://plusinsta.xyz/discord-plus/
  * @source https://github.com/PlusInsta/discord-plus/blob/master/DiscordPlus-source.theme.css
  * @invite 2Jwh2nS
 */
-@import url(//plusinsta.github.io/discord-plus/DiscordPlus-source.theme.css);
+@import url(//plusinsta.xyz/discord-plus/DiscordPlus-source.theme.css);
 
 /* I've commented most of these values so you can change them yourself.
    If you're having trouble, or you want to do more than what these values
@@ -50,8 +50,8 @@ the "CSS rules" it gives you. After that, just set the fonts below! */
 --dplus-spacing-app: 10px;
 
 /* The Home icon */
---dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
---dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+--dplus-icon-home-dark: url(//plusinsta.xyz/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(//plusinsta.xyz/discord-plus/assets/discord/home_light.svg);
 
 /* Icon sizes */
 --dplus-icon-avatar-chat: 64px;

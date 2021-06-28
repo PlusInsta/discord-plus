@@ -1,15 +1,15 @@
 /**
  * @name Discord+ Source Code
- * @version 3.1.0
+ * @version 3.1.1
  * @author PlusInsta
  * @authorLink https://plusinsta.carrd.co
  * @description For developers only. If you're a user, please download the latest release instead.
- * @website https://plusinsta.github.io/discord-plus
+ * @website https://plusinsta.xyz/discord-plus
  * @source https://raw.githubusercontent.com/PlusInsta/discord-plus/master/DiscordPlus-source.theme.css
  * @invite 2Jwh2nS
 */
-@import url(https://plusinsta.github.io/discord-plus/assets/plugins.css);
-@import url(https://plusinsta.github.io/discord-plus/assets/extras.css);
+@import url(https://plusinsta.xyz/discord-plus/assets/plugins.css);
+@import url(https://plusinsta.xyz/discord-plus/assets/extras.css);
 /* Main fonts */
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 /* Localized fonts */
@@ -48,8 +48,8 @@
 	--dplus-spacing-app: 10px;
 
 	/* Icons */
-	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+	--dplus-icon-home-dark: url(https://plusinsta.xyz/discord-plus/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(https://plusinsta.xyz/discord-plus/assets/discord/home_light.svg);
 
 		/* Icon sizes*/
 	--dplus-icon-avatar-chat: 64px;
@@ -860,7 +860,7 @@ padding: var(--dplus-spacing-ui);
 }
 .wordmark-2iDDfm {
 	display: block;
-	background: no-repeat url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+	background: no-repeat url(https://plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
 	background-size: 65px 16px;
 	background-position: 6px 4px !important;
 	height: 16px; width: 65px;

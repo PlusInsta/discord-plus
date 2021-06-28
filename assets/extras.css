@@ -14,13 +14,13 @@
 /* put a nice logo in my server's channel list */
 [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
 	font-size: 0;
-	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+	background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
 	background-size: 54px 13px;
 	width: 54px; height: 13px;
 	opacity: 0.6;
 }
 .theme-light [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
-	background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
+	background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_black.svg);
 	background-size: 54px 13px;
 	width: 54px; height: 13px;
 	opacity: 0.7;
@@ -105,14 +105,14 @@
 [data-user-id="299958646748741632"],
 [data-user-id="354342865695932423"],
 [data-user-id="275432265100558336"] {
-	--dplus-badge: url("//plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
+	--dplus-badge: url("//plusinsta.xyz/discord-plus/assets/badges/badge_supporter.svg");
 	--dplus-supporter: "";
 }
 /* Developers */
 [data-user-id="309931975102300160"],
 [data-user-id="207335168430702602"],
 [data-user-id="394891840815366147"] {
-	--dplus-badge: url("//plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
+	--dplus-badge: url("//plusinsta.xyz/discord-plus/assets/badges/badge_dev.svg");
 	--dplus-dev: "";
 }
 
@@ -133,13 +133,13 @@
 	width: 14px; height: 14px;
 }
 
-.theme-dark { --dplus-badge-memberlist: url("//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("//plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
+.theme-dark { --dplus-badge-memberlist: url("//plusinsta.xyz/discord-plus/assets/discord/home_dark.svg"); }
+.theme-light { --dplus-badge-memberlist: url("//plusinsta.xyz/discord-plus/assets/discord/home_light.svg"); }
 
 	/* Badge for Michelle */
 [data-user-id="220275692926009344"]	.headerTag-16AlQV:after,
 [data-user-id="220275692926009344"] .topSection-y3p-_D header:after
-{ background-image: url("//plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
+{ background-image: url("//plusinsta.xyz/discord-plus/assets/badges/badge_vip_michelle.svg");
 	width: 96px; height: 20px; background-size: cover; content: ""; display: block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-y3p-_D header:after
 { margin-left: 16px; }
