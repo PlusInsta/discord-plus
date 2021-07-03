@@ -22,8 +22,17 @@ the closest to 400 and 700. If you want more fonts, back out to the
 main page and add more. When you're done, click "View selected families"
 in the top right, click the Embed tab, and replace the entire line with
 the "CSS rules" it gives you. After that, just set the fonts below! */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 :root {
+	--columns:			3;							/* default:	3					(amount of servercolumns)																		*/
+	
+	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
+	--guildgap:			3;							/* default:	3					(top/bottom gap between servers in pixel)														*/
+	
+	--aligndms:			0;							/* default:	0					(should DMs be aligned in columns: 0 = no, 1 = yes)												*/
+	--dplus-background: url(https://i.imgur.com/3AiL3yN.png);
+
 /* Background image. Falls back to accent color if invalid.
    To use an image on your computer, send it anywhere on Discord,
    then right-click and Copy Link, then paste it between the ()'s'. */
