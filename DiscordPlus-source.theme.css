@@ -12,10 +12,16 @@
 @import url(https://plusinsta.xyz/discord-plus/assets/extras.css);
 /* Main fonts */
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
-/* Localized fonts */
 @import url(https://fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&family=Lalezar&display=swap);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 :root {
+	--columns:			3;							/* default:	3					(amount of servercolumns)																		*/
+	
+	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
+	--guildgap:			3;							/* default:	3					(top/bottom gap between servers in pixel)														*/
+	
+	--aligndms:			0;							/* default:	0					(should DMs be aligned in columns: 0 = no, 1 = yes)												*/
 	--dplus-background: url(https://i.imgur.com/3AiL3yN.png);
 
 	/* Accent colors */
