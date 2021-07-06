@@ -64,12 +64,17 @@
 	--dplus-anim-sticky: .2s;
 	--dplus-anim-button: .25s;
 	--dplus-anim-button-appear: .25s;
+
+	/* Widths */
 	--dplus-channels-width: 240px;
 	--dplus-members-width: 240px;
 	--dplus-scrollbar-width: 10px;
+
+	/* Scales */
 	--dplus-blur-scale: 100;
 }
 
+/* Disable animations for reduce-motion */
 :root.reduce-motion {
 	--dplus-anim-short: 0s;
 	--dplus-anim-long: 0s;
@@ -812,7 +817,9 @@ padding: var(--dplus-spacing-ui);
 #app-mount .focused-1En8bG:after, .theme-dark .result-3w1ZcL:hover:after {
     box-shadow: inset 0 0 0 2px var(--dplus-accent-ui), inset 0 0 0 3px #2f3136;
 }
-
+.scroller-3gAZLs::-webkit-scrollbar {
+  width: calc(var(--dplus-scrollbar-width) / 2) !important;
+}
 
 /* Region Select */
 #app-mount .quickSelectPopout-X1hvgV {
