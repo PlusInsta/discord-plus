@@ -26,6 +26,13 @@
 	opacity: 0.7;
 }
 
+[data-list-item-id="channels___554914403011526675"]:hover .name-3l27Hl { opacity: 0.7 }
+.theme-light [data-list-item-id="channels___554914403011526675"]:hover .name-3l27Hl { opacity: 0.8 }
+
+/* Make bold text in changelog channels use header font */
+[aria-label="changelog (channel)"] strong {
+    font-family: var(--dplus-font-header);
+}
 
 /* Custom Profiles+ */
 	/* Setup */
