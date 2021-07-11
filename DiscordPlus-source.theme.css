@@ -225,7 +225,7 @@ body, button, select {
 ::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
 .message-2qnXI6, .markup-2BOw-j, /*chat messages*/
 .subText-1KtqkB, /*member list body*/
-.customStatusText-3YJeRZ, /*user's custom status*/
+.customStatusText-2opeSw, /*user's custom status*/
 .modeDefault-3a2Ph1, /*settings small body*/
 .emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA, /*server settings: emoji name*/
 .topic-TCb_qw, /*channel topic in chat header*/
@@ -367,22 +367,19 @@ header, h1,
 
 
 /* Modals */
-#app-mount .modal-3c3bKg > div {
+.root-1gCeng {
 	background-color: var(--dplus-bgc-popout) !important;
-	border-radius: var(--dplus-radius-ui); }
-#app-mount .root-1gCeng {
-	background-color: var(--dplus-bgc-popout);
-	box-shadow: none;
+	border-radius: var(--dplus-radius-ui) !important; }
 	backdrop-filter: var(--blurcalc-popout);
 }
-#app-mount .footer-2gL1pp {
+.footer-2gL1pp {
 	background-color: transparent;
 	box-shadow: none;
 }
 iframe {
 	border-radius: var(--dplus-radius-ui);
 }
-#app-mount .modal-yWgWj- {background-color: transparent; box-shadow: none;}
+.modal-yWgWj- {background-color: transparent; box-shadow: none;}
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4 {
 	background-color: rgba(0, 0, 0, 0.6) !important;
 	backdrop-filter: var(--blurcalc-ui);
@@ -534,7 +531,8 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 .headerNormal-1mX3KY,
-.body-3HBlXn {
+.body-3HBlXn,
+.bodyInnerWrapper-26fQXj {
 	background-color: transparent;
 }
 
