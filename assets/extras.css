@@ -39,7 +39,7 @@
 .banner-2QYc2d, .profileBanner-33-uE1, .headerTop-3vNv-a { background-size: cover; background-repeat: no-repeat; }
 .topSection-y3p-_D { background-size: 600px 240px; background-position: bottom; }
 .banner-2QYc2d:not(.settingsBanner-15-pZk) { height: var(--dplus-banner-height, 60px); }
-.profileBanner-33-uE1 { height: var(--dplus-profilebanner-height, 120px);}
+.profileBanner-33-uE1 { height: var(--dplus-profilebanner-height, 120px) !important;}
 .headerNormal-3KXFBt .bannerPremium-2hSAwz { --dplus-banner-height: 120px; }
 .topSection-y3p-_D .bannerPremium-2hSAwz { --dplus-banner-height: 240px; }
 .avatarPositionNormal-aZjAsn { top: var(--dplus-avatarpositionnormal, 16px); }
