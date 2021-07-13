@@ -901,7 +901,7 @@ padding: var(--dplus-spacing-ui);
 .theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9,
 .theme-light .theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9,
 .theme-light .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
-	background: var(--dplus-icon-home-dark);
+	background-image: var(--dplus-icon-home-dark);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
