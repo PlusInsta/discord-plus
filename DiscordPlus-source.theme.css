@@ -441,13 +441,13 @@ iframe {
 	min-height: 70px;
 }
 	/* Upload modal */
-.uploadModal-2ifh8j { background-color: var(--dplus-bg-2) !important; }
+.uploadModal-2ifh8j { background-color: var(--dplus-bgc-ui-base) !important; }
 .uploadModal-2ifh8j, #app-mount .footer-3mqk7D {
 	border-radius: var(--dplus-radius-ui) !important;
 	box-shadow: none;
 }
 .uploadModal-2ifh8j, .uploadModal-2ifh8j .channelbodyArea-2VhZ6z {	border: 2px dashed var(--dplus-accent-ui); }
-.footer-3mqk7D { background-color: var(--dplus-bg-2) !important; }
+.footer-3mqk7D { background-color: var(--dplus-bgc-ui-base) !important; }
 
 
 /* Popouts */
@@ -818,15 +818,6 @@ padding: var(--dplus-spacing-ui);
 .scroller-3gAZLs::-webkit-scrollbar {
   width: calc(var(--dplus-scrollbar-width) / 2) !important;
 }
-
-/* Region Select */
-#app-mount .quickSelectPopout-X1hvgV {
-	background-color: var(--dplus-bg-2);
-	border-radius: var(--dplus-radius-ui);
-}
-.quickSelectPopoutOption-opKBx9 {border-radius: var(--dplus-radius-ui);}
-.quickSelectPopoutOption-opKBx9:hover, .quickSelectPopoutOption-opKBx9.selected {background-color: var(--dplus-accent-ui);}
-
 
 /* Light theme stuff */
 .theme-light .emoji, .theme-light .emoji.jumboable {
