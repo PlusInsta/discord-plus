@@ -165,6 +165,7 @@ body {
 	--channelbodyarea-background: transparent !important;
 	--background-floating: var(--dplus-bgc-popout) !important;
 	--radio-group-dot-foreground: white;
+	--brand-experiment: var(--dplus-accent-ui); /* remove the weird new branding colour with a much better accent colour */
 }
 
 .theme-dark {
@@ -369,10 +370,10 @@ header, h1,
 /* Modals */
 .root-1gCeng {
 	background-color: var(--dplus-bgc-popout) !important;
-	border-radius: var(--dplus-radius-ui) !important; }
+	border-radius: var(--dplus-radius-ui) !important; 
 	backdrop-filter: var(--blurcalc-popout);
 }
-.footer-2gL1pp {
+#app-mount .footer-2gL1pp {
 	background-color: transparent;
 	box-shadow: none;
 }
@@ -451,7 +452,7 @@ iframe {
 
 
 /* Popouts */
-.layer-v9HyYc > div > div {
+.layer-v9HyYc > div > div:not(.tooltipPointer-3ZfirK) {
 	background-color: var(--dplus-bgc-popout);
 	border-radius: var(--dplus-radius-ui);
 }
@@ -506,7 +507,7 @@ that have popups, or else the menu breaks when you hover over them */
 .button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ):hover, /* buttons hovered over */
 .button-38aScr.focused-3ZzkKr, /* focused but not hovered over */
 .colorDefault-2K3EoJ:not(.labelContainer-1BLJti).focused-3afm-j, /* regular buttons, focused */
-.colorDefault-2K3EoJ:hover:not(.labelContainer-1BLJti):not(.hideInteraction-1iHO1O), /* regular buttons but only if clickable */ {
+.colorDefault-2K3EoJ:hover:not(.labelContainer-1BLJti):not(.hideInteraction-1iHO1O) /* regular buttons but only if clickable */ {
 	background-color: var(--dplus-bgc-button-hover);
 	transition: var(--dplus-anim-button);
 }

@@ -29,6 +29,17 @@
 [data-list-item-id="channels___554914403011526675"]:hover .name-3l27Hl { opacity: 0.7 }
 .theme-light [data-list-item-id="channels___554914403011526675"]:hover .name-3l27Hl { opacity: 0.8 }
 
+/* PLEASE READ THE FAQ */
+[data-list-item-id="channels___804000972568526889"] .channelName-2YrOjO {
+	width: min-content;
+	border-radius: var(--dplus-radius-ui);
+	border: 3px solid red;
+	padding: 3px;
+}
+[data-list-item-id="channels___804000972568526889"] .channelName-2YrOjO::after {
+	content: " <- READ FIRST";
+	color: red;
+}
 /* Make bold text in changelog channels use header font */
 [aria-label="changelog (channel)"] strong {
     font-family: var(--dplus-font-header);
@@ -61,7 +72,7 @@
 }
 
 	/* Users with banner images */
-[data-user-id="309931975102300160"], /* me! */ {
+[data-user-id="309931975102300160"] /* me! */ {
 	--dplus-banner-height: 120px;
 	--dplus-profilebanner-height: 240px;
  	--dplus-avatarpositionnormal: 76px; }
