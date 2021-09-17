@@ -40,22 +40,6 @@
 	content: " <- READ FIRST";
 	color: red;
 }
-[aria-label*="+Server"] .containerDefault-3tr_sE + div  [data-list-item-id="channels___804000972568526889"]::after {
-	content: "READ FAQ TO ACCESS SUPPORT CHANNELS";
-	background-color: #ff000080; color: white;
-	border-radius: var(--dplus-radius-ui);
-	height: 330%; width: 105%;
-	position: absolute;
-	top: 100%; left: -5px;
-	z-index: 100;
-	display: flex;
-	text-align: center;
-	align-items: center;
- }
- .containerDefault--pIXnN.selected-3LIHYU [data-list-item-id="channels___804000972568526889"]::after {
-	content: "";
-	display: none!important;
- }
 /* Make bold text in changelog channels use header font */
 [aria-label="changelog (channel)"] strong {
     font-family: var(--dplus-font-header);
