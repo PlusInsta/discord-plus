@@ -1339,31 +1339,10 @@ margin-right: 0;
 	pointer-events: none;
 	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
 }
-/* Message groups with more than one message */
-.cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
-	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui)) !important;
-	height: var(--dplus-radius-ui);
-}
-.cozyMessage-3V1Y8y + .cozyMessage-3V1Y8y.groupStart-23k01U {
-	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui)) !important;
-}
-
-/* Message groups with only one message */
-.cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y.groupStart-23k01U:before {
-	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
-	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
-}
-.cozyMessage-3V1Y8y.groupStart-23k01U + .cozyMessage-3V1Y8y.groupStart-23k01U {
-	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
-}
 
 /* very last message in chat */
 .scrollerSpacer-avRLaA {
-	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing));
-}
-	/* if there's only one message */
-.groupStart-23k01U + .scrollerSpacer-avRLaA {
-	height: calc(var(--dplus-calc-chatmsg-spacing) + var(--dplus-radius-ui) + var(--dplus-spacing-ui));
+	height: calc(var(--dplus-calc-chatmsg-spacing) + var(--dplus-radius-ui) + var(--dplus-spacing-ui))!important;
 }
 
 .cozyMessage-3V1Y8y .scroller-2LSbBU {
@@ -1436,12 +1415,9 @@ margin-right: 0;
 	justify-content: flex-start;
 }
 
-.wrapper-2a6GCs:hover + .groupStart-23k01U:before,
-.wrapper-2a6GCs:hover + .scrollerSpacer-avRLaA,
-.wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before,
-.wrapper-2a6GCs.selected-2P5D_Z + .groupStart-23k01U:before,
-.wrapper-2a6GCs.selected-2P5D_Z + .scrollerSpacer-avRLaA,
-.wrapper-2a6GCs.selected-2P5D_Z + .hasContent-1cNJDh + .groupStart-23k01U:before {
+.messageListItem-1-jvGY:hover + li .groupStart-23k01U:before,
+.messageListItem-1-jvGY:hover + .scrollerSpacer-avRLaA,
+.wrapper-2a6GCs:hover + .hasContent-1cNJDh + .groupStart-23k01U:before {
 	background-color: var(--dplus-bgc-chatmsg-hover);
 }
 
