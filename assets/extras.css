@@ -54,13 +54,7 @@
 .headerNormal-3KXFBt .bannerPremium-2hSAwz { --dplus-banner-height: 120px; }
 .topSection-y3p-_D .bannerPremium-2hSAwz { --dplus-banner-height: 240px; }
 .avatarPositionNormal-aZjAsn { top: var(--dplus-avatarpositionnormal, 16px); }
-.headerTop-3vNv-a, .topSection-y3p-_D {
-	background-image: var(--dplus-profile-background);
-	--header-primary: var(--dplus-darktext1);
-	--interactive-active: var(--dplus-darktext1);
-	--text-normal: var(--dplus-darktext2);
-	--header-secondary: var(--dplus-darktext3);
-	--interactive-normal: var(--dplus-darktext3); }
+.headerTop-3vNv-a, .topSection-y3p-_D { background-image: var(--dplus-profile-background); }
 .nameTag-m8r81H, .nickname-3M3Jfa, .customStatus-1COQYu, .profileBadge-2niAfJ { filter: var(--dplus-dropshadow); }
 .headerTop-3vNv-a { background-color: var(--dplus-profilebg-header, var(--dplus-bgc-ui-card)); }
 .theme-dark .headerTop-3vNv-a {
@@ -101,16 +95,6 @@
 [data-user-id="394891840815366147"] { --dplus-profile-background: linear-gradient(#ffcbec80,#ffcbec80); }
 [data-user-id="644964603108786233"] { --dplus-profile-background: url(https://cdn.discordapp.com/attachments/854649169063182336/856189355874189312/output.webp); }
 [data-user-id="356817504330448906"] { --dplus-profile-background: url(https://i.pinimg.com/originals/37/51/93/37519305e9a09c3703f6305fb6e5b43c.gif); }
-		/* Adjust text for dark profile backgrounds */
-[data-user-id="309931975102300160"],
-[data-user-id="275432265100558336"],
-[data-user-id="220275692926009344"],
-[data-user-id="644964603108786233"],
-[data-user-id="356817504330448906"] {
-	--dplus-darktext1: #fff;
-	--dplus-darktext2: #dcddde;
-	--dplus-darktext3: #b9bbbe;
-}
 
 /* Supporters */
 [data-user-id="220275692926009344"],
