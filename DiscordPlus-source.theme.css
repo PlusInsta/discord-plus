@@ -1493,7 +1493,7 @@ margin-right: 0;
 #app-mount .wrapper-2qzCYF {
 	background-color: var(--dplus-bgc-ui-base)!important;
 }
-.videoWrapper-2v09vt, :not(:root):-webkit-full-screen::backdrop {background-color: transparent;}
+.videoWrapper-2v09vt, :not(:root):-webkit-full-screen::backdrop, .callContainer-36WRfH {background-color: transparent;}
 
 .videoHeight-Qp_9vC.noChat-3nt48u {
 	height: 100%;
