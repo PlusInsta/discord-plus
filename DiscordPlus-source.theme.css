@@ -885,21 +885,21 @@ padding: var(--dplus-spacing-ui);
 .platform-win .scroller-1Bvpku {
 	padding-top: var(--dplus-spacing-ui);
 }
-.homeIcon-FuNwkv {display: none !important;}
+.homeIcon-AaowEC {display: none !important;}
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
 	background-color: transparent;
 }
-.theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9,
-.theme-light .theme-dark .tutorialContainer-2sGCg9 .childWrapper-anI2G9,
-.theme-light .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
+.theme-dark .tutorialContainer-11ICd5 .childWrapper-anI2G9,
+.theme-light .theme-dark .tutorialContainer-11ICd5 .childWrapper-anI2G9,
+.theme-light .tutorialContainer-11ICd5 .childWrapper-anI2G9 {
 	background-image: var(--dplus-icon-home-dark);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-.theme-light .tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
+.theme-light .tutorialContainer-11ICd5 .childWrapper-anI2G9 {
 	background-image: var(--dplus-icon-home-light);
 }
 
