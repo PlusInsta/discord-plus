@@ -1206,12 +1206,6 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0 !important;
 }
 
-.cozyMessage-3V1Y8y:not(.groupStart-23k01U) + .hasContent-1cNJDh + .backgroundFlash-24qWLN.groupStart-23k01U {
-	margin-top: 0 !important;
-	padding-top: 0 !important;
-	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0 !important;
-}
-
 .backgroundFlash-24qWLN .groupStart-23k01U:before {
     top: calc(-11px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
     height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui));
@@ -1344,36 +1338,23 @@ margin-right: 0;
 	border-bottom-right-radius: var(--dplus-radius-ui);
 }
 
-.divider-3_HH5L { margin-bottom: 0px !important; }
+.divider-3_HH5L { margin: 0px !important; }
 .divider-JfaTT5, .container-3RCQyg {
 	margin-top: -1px !important;
-}
-
-.divider-3_HH5L.isUnread-3Ef-o9.beforeGroup-1rH1F0 {
-	top: 32px !important;
 }
 
 .imageWrapper-2p5ogY {
 	border-radius: var(--dplus-radius-ui);
 }
 
-.group-spacing-0,
-.group-spacing-4,
-.group-spacing-8,
-.group-spacing-16,
-.group-spacing-24 {
-	--hascontent-correction-groupstart: calc(0px - var(--group-spacing) + 4px);
-	--hascontent-correction-groupstart-before: calc(var(--group-spacing));
-}
-
-.hasContent-1cNJDh {
+.hasContent-1cNJDh:not(.divider-3_HH5L) {
 	position: relative;
 	top: calc(3px + var(--dplus-radius-ui));
 	margin-left: 0px;
 	margin-top: var(--dplus-spacing-ui) !important;
 }
 
-.hasContent-1cNJDh + .groupStart-23k01U { border-top-left-radius: 0; }
+.hasContent-1cNJDh + .messageListItem-1-jvGY .groupStart-23k01U { border-top-left-radius: 0; }
 
 
 /* Message groups with more than one message */
@@ -1401,7 +1382,7 @@ margin-right: 0;
 .content-1o0f9g {
 	background: var(--dplus-bgc-chatmsg);
 	color: var(--text-normal);
-	margin-top: 0px;
+	margin-top: calc(29px + var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)) !important;
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
 }
 
@@ -1553,7 +1534,7 @@ margin-right: 0;
 .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 	transition: background-color var(--dplus-anim-short);
 }
-.members-1998pB>div { background:transparent;}
+.members-1998pB>div, .container-2wlB3z { background:transparent;}
 .members-1998pB {
 	background: var(--dplus-bgc-ui-base);
 }
