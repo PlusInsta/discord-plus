@@ -1534,9 +1534,15 @@ margin-right: 0;
 .member-3-YXUe.clickable-1JJAn8:hover .layout-2DM8Md {
 	transition: background-color var(--dplus-anim-short);
 }
-.members-1998pB>div, .container-2wlB3z { background:transparent;}
+.members-1998pB>div, 
+	.container-2wlB3z {
+	background: var(--dplus-dark-bgc-ui-base);
+}
 .members-1998pB {
-	background: var(--dplus-bgc-ui-base);
+	background: transparent;
+}
+.members-1998pB>div {
+    background-color: transparent;
 }
 
 .roleColor-rz2vM0 { /* prevent tags from flowing into a new line */
