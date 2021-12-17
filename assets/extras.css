@@ -1,13 +1,18 @@
 /* Don't make a pull request targeting this file. */
 
+@font-face { /* my custom font */
+  font-family: PixelPetit;
+  src: url("//plusinsta.xyz/assets/fonts/PixelPetit.ttf")
+}
+
 /* make links to my carrd use my style */
 [href="https://plusinsta.xyz"],
 [href="https://plusinsta.xyz/"],
 [href="https://PlusInsta.xyz"],
 [href="https://PlusInsta.xyz/"] {
-	color: #802060 !important;
+	color: #003282 !important;
 	border-bottom: 1px solid;
-	font-family: Righteous;
+	font-family: PixelPetit;
 }
 
 
