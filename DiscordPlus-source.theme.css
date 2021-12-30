@@ -810,8 +810,8 @@ padding: var(--dplus-spacing-ui);
 
 /* Emoji/GIF/Sticker Picker */
 .result-3w1ZcL, .wrapper-1-Fsb8 {
-	background-color: var(--dplus-accent-ui)!important;
-	border-radius: var(--dplus-radius-ui);
+    background-color: transparent !important;
+    border-radius: var(--dplus-radius-ui);
 }
 #app-mount .focused-1En8bG:after, .theme-dark .result-3w1ZcL:hover:after {
     box-shadow: inset 0 0 0 2px var(--dplus-accent-ui), inset 0 0 0 3px #2f3136;
