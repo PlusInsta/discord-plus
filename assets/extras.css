@@ -17,31 +17,31 @@
 
 
 /* put a nice logo in my server's channel list */
-[data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+[data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
 	font-size: 0;
 	background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
 	background-size: 54px 13px;
 	width: 54px; height: 13px;
 	opacity: 0.6;
 }
-.theme-light [data-list-item-id="channels___554914403011526675"] .name-3l27Hl {
+.theme-light [data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
 	background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_black.svg);
 	background-size: 54px 13px;
 	width: 54px; height: 13px;
 	opacity: 0.7;
 }
 
-[data-list-item-id="channels___554914403011526675"]:hover .name-3l27Hl { opacity: 0.7 }
-.theme-light [data-list-item-id="channels___554914403011526675"]:hover .name-3l27Hl { opacity: 0.8 }
+[data-list-item-id="channels___554914403011526675"]:hover .name-3BUDLf { opacity: 0.7 }
+.theme-light [data-list-item-id="channels___554914403011526675"]:hover .name-3BUDLf { opacity: 0.8 }
 
 /* PLEASE READ THE FAQ */
-[data-list-item-id="channels___804000972568526889"] .channelName-2YrOjO {
+[data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw {
 	width: min-content;
 	border-radius: var(--dplus-radius-ui);
 	border: 3px solid red;
 	padding: 3px;
 }
-[data-list-item-id="channels___804000972568526889"] .channelName-2YrOjO::after {
+[data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw::after {
 	content: " <- READ FIRST";
 	color: red;
 }
@@ -52,17 +52,17 @@
 
 /* Custom Profiles+ */
 	/* Setup */
-.banner-2QYc2d, .profileBanner-33-uE1, .headerTop-3vNv-a { background-size: cover; background-repeat: no-repeat; }
-.topSection-y3p-_D { background-size: 600px 240px; background-position: bottom; }
-.banner-2QYc2d:not(.settingsBanner-15-pZk) { height: var(--dplus-banner-height, 60px); }
-.profileBanner-33-uE1 { height: var(--dplus-profilebanner-height, 120px) !important;}
-.headerNormal-3KXFBt .bannerPremium-2hSAwz { --dplus-banner-height: 120px; }
-.topSection-y3p-_D .bannerPremium-2hSAwz { --dplus-banner-height: 240px; }
-.avatarPositionNormal-aZjAsn { top: var(--dplus-avatarpositionnormal, 16px); }
-.headerTop-3vNv-a, .topSection-y3p-_D { background-image: var(--dplus-profile-background); }
-.nameTag-m8r81H, .nickname-3M3Jfa, .customStatus-1COQYu, .profileBadge-2niAfJ { filter: var(--dplus-dropshadow); }
-.headerTop-3vNv-a { background-color: var(--dplus-profilebg-header, var(--dplus-bgc-ui-card)); }
-.theme-dark .headerTop-3vNv-a {
+.banner-1YaD3N, .profileBanner-1owKI5, .headerTop-3GPUSF { background-size: cover; background-repeat: no-repeat; }
+.topSection-13QKHs { background-size: 600px 240px; background-position: bottom; }
+.banner-1YaD3N:not(.settingsBanner-1eDJ5w) { height: var(--dplus-banner-height, 60px); }
+.profileBanner-1owKI5 { height: var(--dplus-profilebanner-height, 120px) !important;}
+.headerNormal-3Zn_yu .bannerPremium-kkSkPv { --dplus-banner-height: 120px; }
+.topSection-13QKHs .bannerPremium-kkSkPv { --dplus-banner-height: 240px; }
+.avatarPositionNormal-2jWoC2 { top: var(--dplus-avatarpositionnormal, 16px); }
+.headerTop-3GPUSF, .topSection-13QKHs { background-image: var(--dplus-profile-background); }
+.nameTag-H6kSJ0, .nickname-t08Mck, .customStatus-kFfkj5, .profileBadge-12r2Nm { filter: var(--dplus-dropshadow); }
+.headerTop-3GPUSF { background-color: var(--dplus-profilebg-header, var(--dplus-bgc-ui-card)); }
+.theme-dark .headerTop-3GPUSF {
 	--header-primary: #fff;
 	--interactive-active: #fff;
 	--text-normal: #dcddde;
@@ -75,7 +75,7 @@
 	--dplus-banner-height: 120px;
 	--dplus-profilebanner-height: 240px;
  	--dplus-avatarpositionnormal: 76px; }
-[data-user-id="309931975102300160"] .banner-2QYc2d {
+[data-user-id="309931975102300160"] .banner-1YaD3N {
 	background-image: var(--dplus-background-image) !important;
 }
 		/* Banner images */
@@ -125,15 +125,15 @@
 }
 
 /* Badges */
-.headerText-15Q25Z:after, .headerTop-547GTz:before,
-.headerTag-16AlQV:after, .topSection-y3p-_D header:after
+.headerText-15Q25Z:after, .headerTop-1PNKck:before,
+.headerTag-16AlQV:after, .topSection-13QKHs header:after
 	{ filter: drop-shadow(0px 0px 2px black); }
-.headerText-15Q25Z:after, .headerTop-547GTz:before
+.headerText-15Q25Z:after, .headerTop-1PNKck:before
 { background-image: var(--dplus-badge);
 	width: 120px; height: 25px; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: block; z-index: 0; }
 
 	/* D+ badge in member list */
-.name-uJV0GL:after {
+.name-3Vmqxm:after {
 	content: var(--dplus-dev, var(--dplus-supporter));
 	background-image: var(--dplus-badge-memberlist);
 	margin-left: 3px;
@@ -146,33 +146,33 @@
 
 	/* Badge for Michelle */
 [data-user-id="220275692926009344"] .headerTag-16AlQV:after,
-[data-user-id="220275692926009344"] .topSection-y3p-_D header:after
+[data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { background-image: url("//plusinsta.xyz/discord-plus/assets/badges/badge_vip_michelle.svg");
 	width: 96px; height: 20px; background-size: cover; content: ""; display: block; z-index: 0; }
-[data-user-id="220275692926009344"] .topSection-y3p-_D header:after
+[data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { margin-left: 16px; }
-[data-user-id="220275692926009344"] .nameTag-ECvD8P
+[data-user-id="220275692926009344"] .nameTag-2Nlmsy
 { margin-bottom: 0; }
 
 /* Make my own profile Different(TM) */
-[data-user-id="309931975102300160"] .nickname-3M3Jfa,
-[data-user-id="309931975102300160"] .username-2b1r56 {
+[data-user-id="309931975102300160"] .nickname-t08Mck,
+[data-user-id="309931975102300160"] .username-3JLfHz {
 	font-size: 28px;
 }
-[data-user-id="309931975102300160"] .discriminator-1swucG {
+[data-user-id="309931975102300160"] .discriminator-1bqsd3 {
 	opacity: 0;
 }
-[data-user-id="309931975102300160"] .username-2b1r56:after {
+[data-user-id="309931975102300160"] .username-3JLfHz:after {
 	font-size: 16px;
 	content: "#0001";
 	color: var(--header-secondary);
 }
-[data-user-id="309931975102300160"] .nickname-3M3Jfa:after {
+[data-user-id="309931975102300160"] .nickname-t08Mck:after {
 	font-size: 16px;
 	content: " (Insta#0001)";
 	color: var(--header-secondary);
 }
-[data-user-id="309931975102300160"] .discrimBase-24vY8o,
-[data-user-id="309931975102300160"] .headerTagWithNickname-3l_x6x .headerTagUsernameBase-1NqrY5 {
+[data-user-id="309931975102300160"] .discrimBase-1VOoau,
+[data-user-id="309931975102300160"] .headerTagWithNickname-1U8zZH .headerTagUsernameBase-XYisdh {
 	display: none;
 }
