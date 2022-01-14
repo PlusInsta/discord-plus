@@ -482,11 +482,11 @@ iframe {
 that have popups, or else the menu breaks when you hover over them */
 
 .wrapper--nA0oy { padding: 0; }
-.customItem-2CxBSo .button-f2h6uQ { padding: calc(var(--dplus-spacing-ui) / 2); }
+.customItem-2CxBSo .button-38aScr { padding: calc(var(--dplus-spacing-ui) / 2); }
 .separator-1So4YB { margin: 0; }
 
 .item-1OdjEX,
-.button-f2h6uQ {
+.button-38aScr {
 	border-radius: var(--dplus-radius-ui);
 }
 .item-1OdjEX {
@@ -494,7 +494,7 @@ that have popups, or else the menu breaks when you hover over them */
 	transition: background-color var(--dplus-anim-button);
 }
 
-.button-f2h6uQ:not(.lookBlank-21BCro):not(.lookLink-15mFoz):not(.lookOutlined-3yKVGo):not(.colorRed-rQXKgM):not(.colorWhite-1H92hK), /* non-special buttons */
+.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ), /* non-special buttons */
 .colorDefault-CDqZdO:not(.labelContainer-2vJzYL) /* regular buttons, except context menu */ {
 	background-color: var(--dplus-bgc-button);
 	transition: var(--dplus-anim-button);
@@ -504,19 +504,19 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: transparent !important;
 }
 
-.button-f2h6uQ:not(.lookBlank-21BCro):not(.lookLink-15mFoz):not(.lookOutlined-3yKVGo):not(.colorRed-rQXKgM):not(.colorWhite-1H92hK):hover, /* buttons hovered over */
-.button-f2h6uQ.focused-H4w81f, /* focused but not hovered over */
+.button-38aScr:not(.lookBlank-3eh9lL):not(.lookLink-9FtZy-):not(.lookOutlined-3sRXeN):not(.colorRed-1TFJan):not(.colorWhite-rEQuAQ):hover, /* buttons hovered over */
+.button-38aScr.focused-H4w81f, /* focused but not hovered over */
 .colorDefault-CDqZdO:not(.labelContainer-2vJzYL).focused-3qFvc8, /* regular buttons, focused */
 .colorDefault-CDqZdO:hover:not(.labelContainer-2vJzYL):not(.hideInteraction-2jPGL_) /* regular buttons but only if clickable */ {
 	background-color: var(--dplus-bgc-button-hover);
 	transition: var(--dplus-anim-button);
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ, /* branded buttons */
+.lookFilled-1Gx00P.colorBrand-3pXr91, /* branded buttons */
 .labelContainer-2vJzYL:hover, /* context menu buttons */
 [id^="status-picker-"]:hover /* status picker hovered */  {
 	background-color: var(--dplus-accent-ui) !important;
 }
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, /* branded buttons, hovered over */
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover, /* branded buttons, hovered over */
 .labelContainer-2vJzYL.focused-3qFvc8:not(:hover), /* context menu button w/ submenu */
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) /* status picker drag-click */ {
 	background-color: var(--dplus-accent-ui-hover) !important;
@@ -650,7 +650,7 @@ padding: var(--dplus-spacing-ui);
 	font-family: inherit;
 }
 
-.disabledButtonWrapper-2Oz3aY { display: none; /* Remove Spotify buttons for yourself */ }
+.disabledButtonWrapper-3wH6-b { display: none; /* Remove Spotify buttons for yourself */ }
 .button-TGAkj4 { margin-top: var(--dplus-spacing-ui); }
 
 [style="background-color: rgb(114, 137, 218);"] {
