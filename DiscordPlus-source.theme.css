@@ -1536,13 +1536,15 @@ margin-right: 0;
 	.members-3WRCEx>div, 
 		.container-2o3qEW {
 		background: transparent;
-		border-radius: var(--dplus-radius-ui);
-	}
-	.members-3WRCEx {
-		width: var(--dplus-members-width);
 		background: var(--dplus-bgc-ui-base);
 		border-bottom-left-radius: var(--dplus-radius-ui);
 		border-bottom-right-radius: var(--dplus-radius-ui);
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	.members-3WRCEx {
+		width: var(--dplus-members-width);
+		background: transparent;
 	}
 	.members-3WRCEx>div {
 		background-color: transparent;
