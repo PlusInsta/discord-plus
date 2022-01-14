@@ -1529,26 +1529,27 @@ margin-right: 0;
 	margin: 0
 }
 
-	/* Server members */
-	.member-2gU6Ar.clickable-28SzVr:hover .layout-1qmrhw {
-		transition: background-color var(--dplus-anim-short);
-	}
-	.members-3WRCEx>div, 
-		.container-2o3qEW {
-		background: transparent;
-		background: var(--dplus-bgc-ui-base);
-		border-bottom-left-radius: var(--dplus-radius-ui);
-		border-bottom-right-radius: var(--dplus-radius-ui);
-		border-top-left-radius: 0;
-		border-top-right-radius: 0;
-	}
-	.members-3WRCEx {
-		width: var(--dplus-members-width);
-		background: transparent;
-	}
-	.members-3WRCEx>div {
-		background-color: transparent;
-	}
+/* Server members */
+.member-2gU6Ar.clickable-28SzVr:hover .layout-1qmrhw {
+	transition: background-color var(--dplus-anim-short);
+}
+/*this class is the whole member list*/
+.members-3WRCEx>div, 
+	.container-2o3qEW {
+	background: transparent;
+	background: var(--dplus-bgc-ui-base); /*member list's background*/
+	border-bottom-left-radius: var(--dplus-radius-ui);
+	border-bottom-right-radius: var(--dplus-radius-ui);
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.members-3WRCEx {
+	width: var(--dplus-members-width);
+	background: transparent;
+}
+.members-3WRCEx>div {
+	background-color: transparent;
+}
 
 .roleColor-nA7BqX { /* prevent tags from flowing into a new line */
 	display: inline !important;
