@@ -1320,7 +1320,10 @@ margin-right: 0;
 
 .groupStart-3Mlgv1 {
 	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
+/* partial fix for avatar black bar */
 }
+
+/* last message in group */
 .groupStart-3Mlgv1:before {
 	content: "";
 	position: absolute;
@@ -1340,10 +1343,9 @@ margin-right: 0;
 	border-bottom-right-radius: var(--dplus-radius-ui);
 }
 
-.divider-IqmEqJ { margin: 0px !important; }
-.divider-2rZFJK, .container-1yy5xN {
-	margin-top: -1px !important;
-}
+.divider-IqmEqJ { margin: 0px !important; z-index: 2 !important;}
+li + .divider-IqmEqJ { margin-top: 20px !important;}
+li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important; }
 
 .imageWrapper-oMkQl4 {
 	border-radius: var(--dplus-radius-ui);
