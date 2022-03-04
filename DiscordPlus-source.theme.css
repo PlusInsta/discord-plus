@@ -1246,10 +1246,6 @@ margin-right: 0;
 	background-color: var(--dplus-bgc-chatmsg);
 	box-shadow: none;
 }
-.groupStart-3Mlgv1 {
-	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
-	padding-top: var(--dplus-spacing-ui) !important;
-}
 
 .username-h_Y3Us {
 	font-size: 1.125rem;
@@ -1259,10 +1255,6 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 
-.scrollerSpacer-3AqkT9, .groupStart-3Mlgv1:before {
-	border-radius:  0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
-	width: 100%;
-}
 .wrapper-30-Nkg:hover, .wrapper-30-Nkg.selected-2LX7Jy {
 	background: var(--dplus-bgc-chatmsg-hover) !important;
 }
@@ -1317,21 +1309,47 @@ margin-right: 0;
 	font-size: 10px;
 	content: "Spacing variable";
 }
-
-.groupStart-3Mlgv1 {
+.cozy-VmLDNB.groupStart-3Mlgv1 {
 	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
+	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
+	padding-top: var(--dplus-spacing-ui) !important;
 /* partial fix for avatar black bar */
 	z-index: 1;
 }
 
+.group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1 {
+	border-radius: 0;
+}
+
 /* last message in group */
-.groupStart-3Mlgv1:before {
+.cozy-VmLDNB.groupStart-3Mlgv1:before {
 	content: "";
 	position: absolute;
-	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
+	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui));
 	left: 0;
 	pointer-events: none;
 	height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui));
+}
+.scrollerSpacer-3AqkT9, .groupStart-3Mlgv1:before {
+	border-radius:  0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+	width: 100%;
+}
+
+.group-spacing-0 .groupStart-3Mlgv1:before {
+	border-radius: 0;
+}
+.group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1 {
+	margin-top: calc(calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) / 2) !important;
+}
+.group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1:before {
+	height: calc(calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui)) / 2);
+	top: calc(calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) / 2);
+}
+.group-spacing-0 .compact-2Nkcau.groupStart-3Mlgv1 {
+	margin-top: 0px;
+}
+.compact-2Nkcau.groupStart-3Mlgv1:before {
+	width: 0; /* removes a black background */
 }
 
 /* very last message in chat */
@@ -1346,7 +1364,7 @@ margin-right: 0;
 
 .divider-IqmEqJ { margin: 0px !important; z-index: 2 !important;}
 li + .divider-IqmEqJ { margin-top: 20px !important;}
-li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important; }
+li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)); }
 
 .imageWrapper-oMkQl4 {
 	border-radius: var(--dplus-radius-ui);
@@ -1359,8 +1377,8 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 	margin-top: var(--dplus-spacing-ui) !important;
 }
 
-.hasContent-31hcsn + .messageListItem-ZZ7v6g .groupStart-3Mlgv1 { border-top-left-radius: 0; }
-
+.hasContent-31hcsn + .messageListItem-ZZ7v6g .groupStart-3Mlgv1 { border-top-left-radius: 0; border-top-right-radius: var(--dplus-radius-ui); }
+.group-spacing-0 .hasContent-31hcsn + .messageListItem-ZZ7v6g .groupStart-3Mlgv1::before { height: 26px; top: -26px; }
 
 /* Message groups with more than one message */
 .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) + .hasContent-31hcsn
@@ -1387,8 +1405,12 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 .content-3spvdd {
 	background: var(--dplus-bgc-chatmsg);
 	color: var(--text-normal);
-	margin-top: calc(29px + var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)) !important;
+	margin-top: calc(var(--group-spacing) * 2 + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui) * 2);
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
+}
+
+.group-spacing-0 .content-3spvdd {
+	margin-top: -17px;
 }
 
 .divider-2rZFJK {
