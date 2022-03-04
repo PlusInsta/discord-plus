@@ -1150,7 +1150,6 @@ margin-right: 0;
 	left: var(--dplus-spacing-ui) !important;
 	height: var(--dplus-icon-avatar-chat) !important;
 	width: var(--dplus-icon-avatar-chat) !important;
-	z-index: 1;
 }
 .cozy-VmLDNB.wrapper-30-Nkg {
 	padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);
@@ -1322,6 +1321,7 @@ margin-right: 0;
 .groupStart-3Mlgv1 {
 	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
 /* partial fix for avatar black bar */
+	z-index: 1;
 }
 
 /* last message in group */
