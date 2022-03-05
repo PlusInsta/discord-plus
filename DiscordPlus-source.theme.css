@@ -1176,7 +1176,7 @@ margin-right: 0;
 
 	/*forum*/
 .container-3wLKDe {
-	background-color: var(--dplus-bgc-chatmsg-hover) !important;
+	background-color: var(--dplus-bgc-chatmsg) !important;
 	border-radius: var(--dplus-radius-ui);
 }
 
