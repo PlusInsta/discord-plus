@@ -1173,6 +1173,13 @@ margin-right: 0;
 }
 
 	/* Messages */
+
+	/*forum*/
+.container-3wLKDe {
+	background-color: var(--dplus-bgc-chatmsg-hover) !important;
+	border-radius: var(--dplus-radius-ui);
+}
+
 .scrollerContent-2SW0kQ {
 	min-height: 0;
 }
