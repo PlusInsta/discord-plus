@@ -1180,11 +1180,11 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 .container-3XgAHv {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 .container-ZMc96U.themed-Hp1KC_ {
-	border-top-right-radius: var(--dplus-radius-ui);
-	border-top-left-radius: var(--dplus-radius-ui);
+	border-top-right-radius: var(--dplus-radius-ui) !important;
+	border-top-left-radius: var(--dplus-radius-ui) !important;
 }
 	/*forum-end*/
 .scrollerContent-2SW0kQ {
