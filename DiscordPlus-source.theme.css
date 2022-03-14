@@ -1327,8 +1327,6 @@ margin-right: 0;
 	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
 	padding-top: var(--dplus-spacing-ui) !important;
-/* partial fix for avatar black bar */
-	z-index: 1;
 }
 
 .group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1 {
