@@ -1583,7 +1583,7 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 .members-3WRCEx {
 	width: var(--dplus-members-width);
 	background: transparent;
-	background-color: var(--dplus-bgc-ui-base); /*member list's background color*/
+	background-color: var(--dplus-bgc-ui-base) !important; /*member list's background color*/
 	border-bottom-left-radius: var(--dplus-radius-ui);
 	border-bottom-right-radius: var(--dplus-radius-ui);
 }
