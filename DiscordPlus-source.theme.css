@@ -1574,7 +1574,7 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 .members-3WRCEx>div, 
 	.container-2o3qEW {
 	background: transparent;
-	background: var(--dplus-bgc-ui-base); /*member list's background*/
+	background-color: transparent;
 	border-bottom-left-radius: var(--dplus-radius-ui);
 	border-bottom-right-radius: var(--dplus-radius-ui);
 	border-top-left-radius: 0;
@@ -1583,9 +1583,9 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 .members-3WRCEx {
 	width: var(--dplus-members-width);
 	background: transparent;
-}
-.members-3WRCEx>div {
-	background-color: transparent;
+	background-color: var(--dplus-bgc-ui-base); /*member list's background color*/
+	border-bottom-left-radius: var(--dplus-radius-ui);
+	border-bottom-right-radius: var(--dplus-radius-ui);
 }
 
 .roleColor-nA7BqX { /* prevent tags from flowing into a new line */
