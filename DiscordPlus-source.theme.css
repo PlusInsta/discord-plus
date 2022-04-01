@@ -1474,8 +1474,12 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 .form-3gdLxP:before {display: none;}
 .chat-2ZfjoI form {
 	box-shadow: none;
-	margin: 0 10px -24px 0px;
+	margin: 0 10px 0 0;
 }
+.channelTextArea-1FufC0 {
+	margin: 0;
+}
+
 .wrapper-2SplAX {
 	height: 12px;
 	background: var(--dplus-bgc-ui-card);
