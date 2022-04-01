@@ -1021,7 +1021,10 @@ padding: var(--dplus-spacing-ui);
 
 .privateChannelsHeaderContainer-1UWASm {height: min-content;}
 .headerText-1qIDDT, .container-36u7Lw {text-transform: none;}
-.privateChannels-oVe7HL .channel-1Shao0 {margin: var(--dplus-spacing-ui);}
+.privateChannels-oVe7HL .channel-1Shao0 {
+	margin-left: var(--dplus-spacing-ui);
+	margin-right: var(--dplus-spacing-ui);
+}
 .closeButton-mupH76 {
 	display: block;
 	opacity: 0;
