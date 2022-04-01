@@ -201,20 +201,12 @@ body {
 
 /* Background image */
 #app-mount {
-	background: var(--dplus-background);
+	background: var(--dplus-background) !important;
 	background-size: cover !important;
 	background-position: center !important;
 }
-.blobContainer-ikKyFs[data-dnd-name="+Server"] {
-	background: url(https://cdn.discordapp.com/attachments/560369937084973067/959479234005446737/static_astley_for_accessibility.png) center;
-	background-size: cover;
-}
-.blobContainer-ikKyFs[data-dnd-name="+Server"]:hover {
-	background: url(https://cdn.discordapp.com/attachments/560369937084973067/959477132080345158/astley.gif) center;
-	background-size: cover;
-}
-.blobContainer-ikKyFs[data-dnd-name="+Server"] img {display: none;}
 html { background-color: var(--dplus-accent-ui); }
+
 
 /* Fonts */
 	/* Display font */
