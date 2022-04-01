@@ -201,38 +201,20 @@ body {
 
 /* Background image */
 #app-mount {
-	background: url('https://cdn.discordapp.com/attachments/560369937084973067/959477132080345158/astley.gif') !important;
+	background: var(--dplus-background);
 	background-size: cover !important;
 	background-position: center !important;
 }
-.reduce-motion #app-mount {
-	background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/959479234005446737/static_astley_for_accessibility.png') !important;
+.blobContainer-ikKyFs[data-dnd-name="+Server"] {
+	background: url(https://cdn.discordapp.com/attachments/560369937084973067/959479234005446737/static_astley_for_accessibility.png) center;
+	background-size: cover;
 }
-
-.nameTag-sc-gpq .title-338goq,
-.nameTag-sc-gpq .subtext-2HDqJ7 {
-	color: transparent;
+.blobContainer-ikKyFs[data-dnd-name="+Server"]:hover {
+	background: url(https://cdn.discordapp.com/attachments/560369937084973067/959477132080345158/astley.gif) center;
+	background-size: cover;
 }
-.nameTag-sc-gpq .title-338goq:before {
-	content: "Rick Astley";
-	color: white !important;
-}
-
-.nameTag-sc-gpq .subtext-2HDqJ7:before {
-	content: "Never Gonna Give You Up";
-	color: gray !important;
-}
-.avatarStack-3vfSFa img {
-	display: none;
-}
-.avatarStack-3vfSFa {
-	background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/959480940193775656/rickroll.png');
-	background-size: contain;
-    border-radius: var(--dplus-radius-avatar);
-}
-
+.blobContainer-ikKyFs[data-dnd-name="+Server"] img {display: none;}
 html { background-color: var(--dplus-accent-ui); }
-
 
 /* Fonts */
 	/* Display font */
