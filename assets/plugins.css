@@ -8,23 +8,21 @@
 		/* MemberCount */
 #MemberCount {
 	width: var(--dplus-members-width) !important;
-	height: 20px;
-	top: 10px !important;
+	top: -10px !important;
 	background: transparent !important;
 }
 
 #MemberCount .membersGroup-2eiWxl {
-	padding: 10px;
+	padding: 10px 0;
 }
 
 #MemberCount .membersGroup-2eiWxl span {
 	padding: 5px;
-	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
 	background-color: var(--dplus-bgc-ui-base);
 }
 
 .membersWrap-3NUR2t.hasCounter .members-3WRCEx {
-	margin-top: 0 !important;
+	margin-top: 26px !important;
 }
 
 	/* by DevilBro */
