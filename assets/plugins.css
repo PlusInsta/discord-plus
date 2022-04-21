@@ -32,10 +32,10 @@
 }
 
 		/* CharCounter */
-#charcounter.normal {
-	right: 10px !important;
-	top: -10px;
-	font-size: 10px;
+.chatCounter-XOMPsh {
+    bottom: 0;
+    top: -0.667rem;
+	font-size: 0.85rem;
 }
 
 		/* CreationDate / JoinedAtDate / LastMessageDate */
