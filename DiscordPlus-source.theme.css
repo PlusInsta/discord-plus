@@ -1502,10 +1502,11 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 }
 
 	/* Typing indicator */
-.base-3bcbY3 {
-	background: transparent!important;
+.typing-2J1mQU {
+	background: transparent !important;
 	font-size: 12px;
 	top: calc(5% - var(--dplus-spacing-ui));
+	width: max-content;
 }
 .theme-light .dots-1BwzZQ.themed-3T-OPr, .theme-light .base-3bcbY3 {color: #fff;}
 
