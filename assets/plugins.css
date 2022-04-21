@@ -13,17 +13,17 @@
 	background: transparent !important;
 }
 
-#MemberCount .membersGroup-v9BXpm {
+#MemberCount .membersGroup-2eiWxl {
 	padding: 10px;
 }
 
-#MemberCount .membersGroup-v9BXpm span {
+#MemberCount .membersGroup-2eiWxl span {
 	padding: 5px;
 	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
 	background-color: var(--dplus-bgc-ui-base);
 }
 
-.membersWrap-2h-GB4.hasCounter .members-1998pB {
+.membersWrap-3NUR2t.hasCounter .members-3WRCEx {
 	margin-top: 0 !important;
 }
 
@@ -41,7 +41,7 @@
 }
 
 		/* CreationDate / JoinedAtDate / LastMessageDate */
-.userPopout-xaxa6l .headerText-2sdzFM.userSelectText-1o1dQ7 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
+.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText-1wo4Nm + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
 	margin-top: var(--dplus-spacing-ui);
 }
 
@@ -56,7 +56,7 @@
 }
 
 		/* PluginRepo */
-.flexChild-faoVW3 > div > div,
+.flexChild-3PzYmX > div > div,
 .DevilBro-notice {
 	border-radius: var(--dplus-radius-ui) !important;
 }
