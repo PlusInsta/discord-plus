@@ -166,6 +166,8 @@ body {
 	--background-floating: var(--dplus-bgc-popout) !important;
 	--radio-group-dot-foreground: white;
 	--brand-experiment: var(--dplus-accent-ui); /* remove the weird new branding colour with a much better accent colour */
+	--background-mobile-primary: var(--dplus-bgc-ui-base);
+	--background-mobile-secondary: var(--dplus-bgc-ui-base);
 }
 
 .theme-dark {

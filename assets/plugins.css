@@ -97,6 +97,12 @@
 	vertical-align: super !important;
 }
 
+	/* by Strencher */
+		/* ChannelDms */
+.ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+	background: var(--dplus-bgc-ui-base)
+}
+
 	/* by Zerebos */
 		/* BetterFormattingRedux */
 .bf-toolbar {
