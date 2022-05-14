@@ -85,6 +85,12 @@
 	background-color: hsl(0, 80%, 20%, 0.8) !important;
 }
 
+	/* by Farcrada */
+		/* Hide Channels */
+.sidebar-1tnWFu.hideChannelElement {
+	margin: 0 calc(var(--dplus-spacing-app) / 2);
+}
+
 	/* by Puyodead1 */
 		/* Staff Tags */
 .ownertag {
