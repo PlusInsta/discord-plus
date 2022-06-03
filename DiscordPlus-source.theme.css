@@ -1057,12 +1057,13 @@ padding: var(--dplus-spacing-ui);
 .iconVisibility-vptxma:hover .children-1MGS9G {
 margin-right: 0;
 }
-.iconVisibility-vptxma .children-1MGS9G {
+.iconVisibility-vptxma .children-1MGS9G [role="button"] {
 	width: 0;
-	overflow: hidden;
+	opacity: 0;
 }
-.containerDefault-YUSmu3.selected-2TbFuo .children-1MGS9G, .iconVisibility-vptxma:hover .children-1MGS9G {
+.containerDefault-YUSmu3.selected-2TbFuo .children-1MGS9G [role="button"], .iconVisibility-vptxma:hover .children-1MGS9G [role="button"] {
 	width: fit-content;
+	opacity: 1;
 }
 .iconVisibility-vptxma .children-1MGS9G,
 .iconVisibility-vptxma .iconItem-1EjiK0,
