@@ -98,7 +98,10 @@
 [data-user-id="852664018438717481"],
 [data-user-id="299339580593799171"],
 [data-user-id="224367608382619648"],
-[data-user-id="356817504330448906"] {
+[data-user-id="356817504330448906"],
+[data-user-id="181240443747434496"],
+[data-user-id="168569629906698240"],
+[data-user-id="408875276265848833"] {
 	--dplus-badge: url("//plusinsta.xyz/discord-plus/assets/badges/badge_supporter.svg");
 	--dplus-supporter: "";
 }
@@ -119,7 +122,7 @@
 	width: 120px; height: 25px; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: block; z-index: 0; }
 
 	/* D+ badge in member list */
-.name-3Vmqxm:after {
+.username-i5-wv-:after {
 	content: var(--dplus-dev, var(--dplus-supporter));
 	background-image: var(--dplus-badge-memberlist);
 	margin-left: 3px;
