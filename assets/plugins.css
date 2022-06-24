@@ -43,6 +43,19 @@
 	margin-top: var(--dplus-spacing-ui);
 }
 
+		/* DisplayServersAsChannels */
+.styledGuildsAsChannels-DNHtg_ .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+	background-size: 28px 28px !important;
+	background-position-x: calc(100% - 4px) !important;
+}
+.styledGuildsAsChannels-DNHtg_ .wrapper-1_HaEi .wrapper-z5ab_q {
+	top: -8px !important;
+	height: 48px !important;
+}
+.styledGuildsAsChannels-DNHtg_ .guilds-2JjMmN .listItem-3SmSlK :not(span) {
+	border-radius: 5px;
+}
+
 		/* EditUsers */
 .EditUsers-tag {
 	text-transform: none;
