@@ -940,7 +940,7 @@ padding: var(--dplus-spacing-ui);
 .wrapper-3Njo_c ul {
 	height: calc(inherit + var(--dplus-spacing-ui)) !important;
 }
-.guilds-2JjMmN .listItem-3SmSlK {border-radius: var(--dplus-radius-server);} /*border radius for all*/
+.guilds-2JjMmN .listItem-3SmSlK :not(span) {border-radius: var(--dplus-radius-server);}
 .pill-2RsI5Q {border-radius: 0!important;} /*removes the radius on unread message pill*/
 .listItem-3SmSlK, .wrapper-38slSD {width: unset!important;} /*allows servers to adjust sizes depending on the ui-spacing variable*/
 .expandedFolderBackground-1kSAf6 {left: var(--dplus-spacing-ui);}
