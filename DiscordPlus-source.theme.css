@@ -1703,7 +1703,8 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 	transition-duration: var(--dplus-anim-short);
 }
 
-.item-3XjbnG {
+.item-3XjbnG,
+.item-3XjbnG .background-Gjdjzm {
 	transition: background-color, color, border;
 	transition-duration: var(--dplus-anim-short);
 }
@@ -1856,6 +1857,7 @@ background-color: var(--dplus-accent-ui)!important;
 }
 .input-2g-os5:hover {border-color: var(--dplus-accent-ui);}
 .item-3XjbnG,
+.item-3XjbnG .background-Gjdjzm,
 .input-2g-os5,
 .copyInput-3AbKWB,
 .Select .Select-control,
