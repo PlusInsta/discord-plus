@@ -207,8 +207,7 @@ body {
 	background-size: cover !important;
 	background-position: center !important;
 }
-html { background-color: var(--dplus-accent-ui); }
-
+body { background-color: var(--dplus-accent-ui); }
 
 /* Fonts */
 	/* Display font */
@@ -1885,6 +1884,12 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 
 /* Client mod specific */
 	/* BetterDiscord */
+		/* Transparency */
+.bd-transparency,
+.bd-transparency #app-mount {
+  background: transparent !important;
+}
+		
 		/* Addon lists */
 .bd-addon-list.bd-grid-view {
   column-gap: var(--dplus-spacing-ui);
