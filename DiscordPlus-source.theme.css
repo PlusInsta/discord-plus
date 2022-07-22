@@ -1740,12 +1740,26 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 
 /* My Account */
 .settingsBanner-1eDJ5w {
-    width: 100%;
-    height: 240px;
-    margin-bottom: -140px;
-    z-index: -1;
-    border-radius: var(--dplus-radius-ui);
+  width: 100%;
+  height: 240px;
+  margin-bottom: -140px;
+  z-index: -1;
+  border-radius: var(--dplus-radius-ui);
 }
+
+.accountProfileCard-lbN7n- {
+  backdrop-filter: opacity(1);
+}
+.settingsBanner-1eDJ5w::after {
+  display: block;
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.667;
+}
+.theme-light .settingsBanner-1eDJ5w::after { background: white; }
+.theme-dark .settingsBanner-1eDJ5w::after { background: black; }
 
 /* User Profile */
 	/* Avatar Preview */
