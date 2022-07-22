@@ -1213,11 +1213,6 @@ margin-right: 0;
 	margin: var(--dplus-spacing-ui);
 }
 .reaction-2A2y9y.reactionMe-3I9gFK {border-color: var(--dplus-accent-ui);}
-#app-mount .backgroundFlash-1X5jVs {background: transparent!important;}
-.theme-dark .backgroundFlash-1X5jVs .message-2CShn3
-	{ background-color: rgba(250, 166, 26, 0.50) !important; }
-.theme-light .backgroundFlash-1X5jVs .message-2CShn3
-	{ background-color: #ffe9c9de !important; }
 
 .cozyMessage-1DWF9U.groupStart-3Mlgv1 + .backgroundFlash-1X5jVs.groupStart-3Mlgv1 {
 	margin-top: 48px !important;
@@ -1229,7 +1224,6 @@ margin-right: 0;
     top: calc(-11px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
     height: calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui));
 }
-
 
 	/* Embeds */
 .embed-hKpSrO {
