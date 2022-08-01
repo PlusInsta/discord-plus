@@ -1,4 +1,5 @@
 /*
+/*
 * This file styles plugins.
 * Sorted alphabetically, first by author, then by plugin name.
 */
@@ -102,6 +103,13 @@
 		/* Hide Channels */
 .sidebar-1tnWFu.hideChannelElement {
 	margin: 0 calc(var(--dplus-spacing-app) / 2);
+}
+
+	/* by programmer2514 */
+		/* CollapsibleUI */
+.guilds-2JjMmN[style*="width: 0px;"],
+.sidebar-1tnWFu[style*="width: 0px;"] {
+	margin-right: 0px;
 }
 
 	/* by Puyodead1 */
