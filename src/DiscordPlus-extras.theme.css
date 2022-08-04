@@ -1,8 +1,20 @@
-/* Don't make a pull request targeting this file. */
-
+/**
+ * @name Discord+ (Source - Extras)
+ * @author PlusInsta
+ * @authorId 309931975102300160
+ * @authorLink https://plusinsta.xyz
+ * @version 3.2.0
+ * @description For development of extraneous features. Enable alongside source and extras for local editing.
+ * @donate https://ko-fi.com/plusinsta
+ * @website https://plusinsta.xyz/discord-plus
+ * @source https://github.com/PlusInsta/discord-plus
+ * @updateUrl https://plusinsta.xyz/discord-plus/src/DiscordPlus-extras.theme.css
+ * @invite 2Jwh2nS
+*/
+  
 @font-face { /* my custom font */
   font-family: PixelPetit;
-  src: url("//plusinsta.xyz/assets/fonts/PixelPetit.ttf")
+  src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf")
 }
 
 /* make links to my carrd use my style */
@@ -10,25 +22,25 @@
 [href="https://plusinsta.xyz/"],
 [href="https://PlusInsta.xyz"],
 [href="https://PlusInsta.xyz/"] {
-	color: #d29630 !important;
-	border-bottom: 1px solid;
-	font-family: PixelPetit;
+  color: #d29630 !important;
+  border-bottom: 1px solid;
+  font-family: PixelPetit;
 }
 
 
 /* put a nice logo in my server's channel list */
 [data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
-	font-size: 0;
-	background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
-	background-size: 54px 13px;
-	width: 54px; height: 13px;
-	opacity: 0.6;
+  font-size: 0;
+  background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
+  background-size: 54px 13px;
+  width: 54px; height: 13px;
+  opacity: 0.6;
 }
 .theme-light [data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
-	background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_black.svg);
-	background-size: 54px 13px;
-	width: 54px; height: 13px;
-	opacity: 0.7;
+  background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_black.svg);
+  background-size: 54px 13px;
+  width: 54px; height: 13px;
+  opacity: 0.7;
 }
 
 [data-list-item-id="channels___554914403011526675"]:hover .name-3BUDLf { opacity: 0.7 }
@@ -36,22 +48,22 @@
 
 /* PLEASE READ THE FAQ */
 [data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw {
-	width: min-content;
-	border-radius: var(--dplus-radius-ui);
-	border: 3px solid red;
-	padding: 3px;
+  width: min-content;
+  border-radius: var(--dplus-radius-ui);
+  border: 3px solid red;
+  padding: 3px;
 }
 [data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw::after {
-	content: " <- READ FIRST";
-	color: red;
+  content: " <- READ FIRST";
+  color: red;
 }
 /* Make bold text in changelog channels use header font */
-[aria-label="changelog (channel)"] strong {
-    font-family: var(--dplus-font-header);
+[data-dnd-name="changelog"] strong {
+  font-family: var(--dplus-font-header);
 }
 
 /* Custom Profiles+ */
-	/* Setup */
+  /* Setup */
 .headerTop-3GPUSF { background-size: cover; background-repeat: no-repeat; }
 .topSection-13QKHs { background-size: 600px 240px; background-position: bottom; }
 .avatarPositionNormal-2jWoC2 { top: var(--dplus-avatarpositionnormal, 16px); }
@@ -59,14 +71,14 @@
 .nameTag-H6kSJ0, .nickname-t08Mck, .customStatus-kFfkj5, .profileBadge-12r2Nm { filter: var(--dplus-dropshadow); }
 .headerTop-3GPUSF { background-color: var(--dplus-profilebg-header, var(--dplus-bgc-ui-card)); }
 .theme-dark .headerTop-3GPUSF {
-	--header-primary: #fff;
-	--interactive-active: #fff;
-	--text-normal: #dcddde;
-	--header-secondary: #b9bbbe;
-	--interactive-normal: #b9bbbe;
+  --header-primary: #fff;
+  --interactive-active: #fff;
+  --text-normal: #dcddde;
+  --header-secondary: #b9bbbe;
+  --interactive-normal: #b9bbbe;
 }
 
-	/* Users with profile backgrounds */
+  /* Users with profile backgrounds */
 [data-user-id="309931975102300160"],
 [data-user-id="275432265100558336"],
 [data-user-id="220275692926009344"],
@@ -75,9 +87,9 @@
 [data-user-id="644964603108786233"],
 [data-user-id="356817504330448906"],
 [data-user-id="224367608382619648"] {
-	--dplus-dropshadow: drop-shadow(0px 0px 2px black);
-	--dplus-profilebg-header: transparent; }
- 		/* Profile backgrounds */
+  --dplus-dropshadow: drop-shadow(0px 0px 2px black);
+  --dplus-profilebg-header: transparent; }
+     /* Profile backgrounds */
 [data-user-id="309931975102300160"] { --dplus-profile-background: url(https://cdn.discordapp.com/attachments/854649169063182336/856197355190616084/output.webp); }
 [data-user-id="275432265100558336"] { --dplus-profile-background: url(https://cdn.discordapp.com/attachments/854649169063182336/856197380230742036/output.webp); }
 [data-user-id="220275692926009344"] { --dplus-profile-background: linear-gradient(#FD008380,#FD008380); }
@@ -102,42 +114,42 @@
 [data-user-id="181240443747434496"],
 [data-user-id="168569629906698240"],
 [data-user-id="408875276265848833"] {
-	--dplus-badge: url("//plusinsta.xyz/discord-plus/assets/badges/badge_supporter.svg");
-	--dplus-supporter: "";
+  --dplus-badge: url("https://plusinsta.xyz/discord-plus/assets/badges/badge_supporter.svg");
+  --dplus-supporter: "";
 }
 /* Developers */
 [data-user-id="309931975102300160"],
 [data-user-id="207335168430702602"],
 [data-user-id="394891840815366147"] {
-	--dplus-badge: url("//plusinsta.xyz/discord-plus/assets/badges/badge_dev.svg");
-	--dplus-dev: "";
+  --dplus-badge: url("https://plusinsta.xyz/discord-plus/assets/badges/badge_dev.svg");
+  --dplus-dev: "";
 }
 
 /* Badges */
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,
 .headerTag-16AlQV:after, .topSection-13QKHs header:after
-	{ filter: drop-shadow(0px 0px 2px black); }
+  { filter: drop-shadow(0px 0px 2px black); }
 .headerText-15Q25Z:after, .headerTop-1PNKck:before
 { background-image: var(--dplus-badge);
-	width: 120px; height: 25px; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: block; z-index: 0; }
+  width: 120px; height: 25px; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: block; z-index: 0; }
 
-	/* D+ badge in member list */
+  /* D+ badge in member list */
 .username-i5-wv-:after {
-	content: var(--dplus-dev, var(--dplus-supporter));
-	background-image: var(--dplus-badge-memberlist);
-	margin-left: 3px;
-	display: inline-block;
-	width: 14px; height: 14px;
+  content: var(--dplus-dev, var(--dplus-supporter));
+  background-image: var(--dplus-badge-memberlist);
+  margin-left: 3px;
+  display: inline-block;
+  width: 14px; height: 14px;
 }
 
-.theme-dark { --dplus-badge-memberlist: url("//plusinsta.xyz/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("//plusinsta.xyz/discord-plus/assets/discord/home_light.svg"); }
+.theme-dark { --dplus-badge-memberlist: url("https://plusinsta.xyz/discord-plus/assets/discord/home_dark.svg"); }
+.theme-light { --dplus-badge-memberlist: url("https://plusinsta.xyz/discord-plus/assets/discord/home_light.svg"); }
 
-	/* Badge for Michelle */
+  /* Badge for Michelle */
 [data-user-id="220275692926009344"] .headerTag-16AlQV:after,
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
-{ background-image: url("//plusinsta.xyz/discord-plus/assets/badges/badge_vip_michelle.svg");
-	width: 96px; height: 20px; background-size: cover; content: ""; display: block; z-index: 0; }
+{ background-image: url("https://plusinsta.xyz/discord-plus/assets/badges/badge_vip_michelle.svg");
+  width: 96px; height: 20px; background-size: cover; content: ""; display: block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { margin-left: 16px; }
 [data-user-id="220275692926009344"] .nameTag-2Nlmsy
@@ -146,22 +158,22 @@
 /* Make my own profile Different(TM) */
 [data-user-id="309931975102300160"] .nickname-t08Mck,
 [data-user-id="309931975102300160"] .username-3JLfHz {
-	font-size: 28px;
+  font-size: 28px;
 }
 [data-user-id="309931975102300160"] .discriminator-1bqsd3 {
-	opacity: 0;
+  opacity: 0;
 }
 [data-user-id="309931975102300160"] .username-3JLfHz:after {
-	font-size: 16px;
-	content: "#0001";
-	color: var(--header-secondary);
+  font-size: 16px;
+  content: "#0001";
+  color: var(--header-secondary);
 }
 [data-user-id="309931975102300160"] .nickname-t08Mck:after {
-	font-size: 16px;
-	content: " (Insta#0001)";
-	color: var(--header-secondary);
+  font-size: 16px;
+  content: " (Insta#0001)";
+  color: var(--header-secondary);
 }
 [data-user-id="309931975102300160"] .discrimBase-1VOoau,
 [data-user-id="309931975102300160"] .headerTagWithNickname-1U8zZH .headerTagUsernameBase-XYisdh {
-	display: none;
+  display: none;
 }
