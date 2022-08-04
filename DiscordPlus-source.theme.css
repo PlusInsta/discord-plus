@@ -1,0 +1,66 @@
+/* This file is just a fallback for pre-3.2.0 versions! Do not actually use it! */
+@import url(https://plusinsta.xyz/discord-plus/src/DiscordPlus-source.theme.css);
+
+section.panels-3wFtMD::before {
+  display: block;
+  content: "Discord+ is outdated! Re-download it from: plusinsta.xyz/discord-plus (latest version is 3.2.0)";
+  height: 100px;
+  background-color: #802060;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+
+.theme-dark {
+  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-saturation: 60%;
+  --dplus-accent-color-lightness: 31%;
+  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-background-color-hue: 320;
+  --dplus-background-color-saturation-amount: 1;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0.8;
+}
+.theme-light {
+  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  
+  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-saturation: 60%;
+  --dplus-accent-color-lightness: 31%;
+  
+  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+
+  --dplus-background-color-hue: 320;
+  --dplus-background-color-saturation-amount: 1;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0.8;
+}
+
+:root {
+  --dplus-font-ui: 'Poppins';
+  --dplus-font-body: 'Roboto';
+  --dplus-font-header: 'Righteous';
+  --dplus-radius-ui: 10px;
+  --dplus-radius-avatar: 20%;
+  --dplus-radius-server: 20%;
+  --dplus-spacing-ui: 10px;
+  --dplus-spacing-app: 10px;
+  --dplus-icon-avatar-chat: 64px;
+  --dplus-icon-avatar-list: 32px;
+  --dplus-icon-avatar-profile: 80px;
+  --dplus-icon-server-sidebar: 48px;
+  --dplus-icon-server-list: 32px;
+  --dplus-icon-home-dark: url(https://plusinsta.xyz/discord-plus/assets/discord/home_dark.svg);
+  --dplus-icon-home-light: url(https://plusinsta.xyz/discord-plus/assets/discord/home_light.svg);
+}
