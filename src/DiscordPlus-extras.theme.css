@@ -29,7 +29,7 @@
 
 
 /* put a nice logo in my server's channel list */
-[data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
+.theme-dark [data-list-item-id="channels___554914403011526675"] .name-3BUDLf, .theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
   font-size: 0;
   background: no-repeat url(//plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
   background-size: 54px 13px;
