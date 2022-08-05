@@ -2143,6 +2143,10 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	padding: var(--dplus-spacing-ui);
 }
 
+.bd-addon-list .bd-addon-header {
+	border-radius: var(--dplus-radius-ui);
+}
+
 .bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: var(--blurcalc-popout);}
 .bd-select-transparent .bd-select-options { border-radius: var(--dplus-radius-ui) !important; border-color: var(--dplus-bg-1);}
 .bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bg-1);}
