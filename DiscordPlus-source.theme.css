@@ -3,12 +3,13 @@
 
 section.panels-3wFtMD::before {
   display: block;
-  content: "Discord+ is outdated! Re-download it from: plusinsta.xyz/discord-plus (latest version is 3.2.0)";
+  content: "Your theme file is outdated! Update it by downloading the latest version from: https://github.com/PlusInsta/ discord-plus/releases";
+  width: 240px;
   height: 100px;
   background-color: #802060;
   color: white;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   border-radius: 10px;
