@@ -810,6 +810,29 @@ that have popups, or else the menu breaks when you hover over them */
 	clip: rect(auto,auto,68px,auto);
 }
 
+/* WIP: A nice background behind status icons, similar to vanilla Discord, but this one respects your background color and roundness preferences. Currently commented out because I can't get the status icon in front of the background.
+
+.wrapper-1VLyxH svg foreignObject:after {
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	right: 0px;
+	bottom: 0px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent;
+	background-color: var(--dplus-bgc-popout);
+	border-radius: calc(var(--dplus-radius-avatar) * 2) 0 50% 0;
+	backdrop-filter: var(--blurcalc-popout);
+	z-index: 1;
+}
+
+.avatarWrapper-eenWra svg foreignObject rect {
+	z-index: 2;
+}
+*/
+
 /* this link doesn't do much other than take up space */
 .setIdentityLink-hOFsMl {
 	display: none;
