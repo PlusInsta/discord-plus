@@ -781,6 +781,35 @@ that have popups, or else the menu breaks when you hover over them */
 .bannerSVGWrapper-qc0szY mask {
     display: none;
 }
+
+.avatar-3QF_VA {
+	width: calc(var(--dplus-icon-avatar-profile) * 1.5) !important;
+	height: calc(var(--dplus-icon-avatar-profile) * 1.5) !important;
+}
+
+.avatarWrapper-eenWra {
+	border-radius: var(--dplus-radius-avatar);
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.avatarWrapper-eenWra:before, .avatar-3QF_VA:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: -8px;
+	top: -8px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent;
+	background-color: var(--dplus-bgc-popout);
+	border-radius: calc(var(--dplus-radius-avatar) + 5px);
+	clip: rect(auto,auto,68px,auto);
+}
+
 /* this link doesn't do much other than take up space */
 .setIdentityLink-hOFsMl {
 	display: none;
@@ -823,31 +852,6 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 	/* Profile modal */
-.avatar-3QF_VA {
-	width: calc(var(--dplus-icon-avatar-profile) * 1.5) !important;
-	height: calc(var(--dplus-icon-avatar-profile) * 1.5) !important;
-	border-radius: var(--dplus-radius-avatar);
-	border-width: 8px;
-	border-style: solid;
-	border-color: transparent;
-	background-color: transparent;
-}
-
-.avatar-3QF_VA:before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	right: -8px;
-	top: -8px;
-	border-width: 8px;
-	border-style: solid;
-	border-color: transparent;
-	background-color: var(--dplus-bgc-popout);
-	border-radius: calc(var(--dplus-radius-avatar) + 5px);
-	clip: rect(auto,auto,68px,auto);
-}
-
 .top-K_jibn .item-3XjbnG {
 	border-radius: 0 !important;
 }
