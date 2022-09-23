@@ -706,7 +706,7 @@ iframe {
 	padding: calc(var(--dplus-spacing-ui) / 1.25) var(--dplus-spacing-ui);
 }
 
-.item-1OdjEX:not([aria-haspopup="true"]),
+.item-1OdjEX:not([aria-haspopup="true"]):not(#account-avatar),
 .item-1OdjEX[aria-haspopup="true"],
 .wrapper--nA0oy,
 .separator-1So4YB { backdrop-filter: var(--blurcalc-popout) }
