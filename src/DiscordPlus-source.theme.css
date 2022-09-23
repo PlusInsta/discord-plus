@@ -778,6 +778,9 @@ that have popups, or else the menu breaks when you hover over them */
 	left: var(--dplus-spacing-ui);
 }
 
+.bannerSVGWrapper-qc0szY mask {
+    display: none;
+}
 /* this link doesn't do much other than take up space */
 .setIdentityLink-hOFsMl {
 	display: none;
