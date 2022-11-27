@@ -6,15 +6,15 @@
  * @version 3.2.0
  * @description For development of extraneous features. Enable alongside source and extras for local editing.
  * @donate https://ko-fi.com/plusinsta
- * @website https://plusinsta.xyz/discord-plus
+ * @website https://plusinsta.github.io/discord-plus
  * @source https://github.com/PlusInsta/discord-plus
- * @updateUrl https://plusinsta.xyz/discord-plus/src/DiscordPlus-extras.theme.css
+ * @updateUrl https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css
  * @invite 2Jwh2nS
 */
   
 @font-face { /* my custom font */
   font-family: PixelPetit;
-  src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf")
+  src: url("https://plusinsta.github.io/assets/fonts/PixelPetit.ttf")
 }
 
 /* make links to my carrd use my style */
@@ -114,14 +114,14 @@
 [data-user-id="181240443747434496"],
 [data-user-id="168569629906698240"],
 [data-user-id="408875276265848833"] {
-  --dplus-badge: url("https://plusinsta.xyz/discord-plus/assets/badges/badge_supporter.svg");
+  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
 }
 /* Developers */
 [data-user-id="309931975102300160"],
 [data-user-id="207335168430702602"],
 [data-user-id="394891840815366147"] {
-  --dplus-badge: url("https://plusinsta.xyz/discord-plus/assets/badges/badge_dev.svg");
+  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
 }
 
@@ -142,13 +142,13 @@
   width: 14px; height: 14px;
 }
 
-.theme-dark { --dplus-badge-memberlist: url("https://plusinsta.xyz/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("https://plusinsta.xyz/discord-plus/assets/discord/home_light.svg"); }
+.theme-dark { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg"); }
+.theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
 
   /* Badge for Michelle */
 [data-user-id="220275692926009344"] .headerTag-16AlQV:after,
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
-{ background-image: url("https://plusinsta.xyz/discord-plus/assets/badges/badge_vip_michelle.svg");
+{ background-image: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
   width: 96px; height: 20px; background-size: cover; content: ""; display: block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { margin-left: 16px; }

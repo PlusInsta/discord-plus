@@ -6,13 +6,13 @@
  * @version 3.2.0
  * @description For development of the theme. Enable alongside plugins and extras for local editing.
  * @donate https://ko-fi.com/plusinsta
- * @website https://plusinsta.xyz/discord-plus
+ * @website https://plusinsta.github.io/discord-plus
  * @source https://github.com/PlusInsta/discord-plus
- * @updateUrl https://plusinsta.xyz/discord-plus/src/DiscordPlus-source.theme.css
+ * @updateUrl https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css
  * @invite 2Jwh2nS
 */
-@import url('https://plusinsta.xyz/discord-plus/src/DiscordPlus-plugins.theme.css');
-@import url('https://plusinsta.xyz/discord-plus/src/DiscordPlus-extras.theme.css');
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Black+Han+Sans&family=Commissioner:wght@400;700&family=Gothic+A1:wght@400;700&family=Kosugi&family=Lalezar&family=Mitr:wght@400;700&family=PT+Sans+Caption:wght@400;700&family=Palanquin+Dark:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Righteous&family=Roboto:wght@400;700&family=RocknRoll+One&family=Russo+One&display=swap');
 
 .theme-dark {
@@ -130,8 +130,8 @@
 	--dplus-spacing-app: 10px;
 
 	/* Icons */
-	--dplus-icon-home-dark: url(https://plusinsta.xyz/discord-plus/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(https://plusinsta.xyz/discord-plus/assets/discord/home_light.svg);
+	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 
 	/* Icon sizes*/
 	--dplus-icon-avatar-chat: 64px;
@@ -1111,7 +1111,7 @@ padding: var(--dplus-spacing-ui);
 }
 .wordmark-2u86JB {
 	display: block;
-	background: no-repeat url(https://plusinsta.xyz/discord-plus/assets/wordmark_white.svg);
+	background: no-repeat url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
 	background-size: 65px 16px;
 	background-position: 6px 4px !important;
 	height: 16px; width: 65px;

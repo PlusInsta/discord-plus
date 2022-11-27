@@ -1,5 +1,5 @@
 /* This file is just a fallback for pre-3.2.0 versions! Do not actually use it! */
-@import url(https://plusinsta.xyz/discord-plus/src/DiscordPlus-source.theme.css);
+@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
 
 section.panels-3wFtMD::before {
   display: block;
@@ -62,6 +62,6 @@ section.panels-3wFtMD::before {
   --dplus-icon-avatar-profile: 80px;
   --dplus-icon-server-sidebar: 48px;
   --dplus-icon-server-list: 32px;
-  --dplus-icon-home-dark: url(https://plusinsta.xyz/discord-plus/assets/discord/home_dark.svg);
-  --dplus-icon-home-light: url(https://plusinsta.xyz/discord-plus/assets/discord/home_light.svg);
+  --dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+  --dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 }
