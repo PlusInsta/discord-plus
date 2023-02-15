@@ -1725,6 +1725,9 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 
 	/* Replies */
 .cozy-VmLDNB .repliedMessage-3Z6XBG {margin-left: 13px;}
+.hasReply-2Cr4KE .avatar-2e8lTP {
+  top: inherit !important;
+}
 
 	/* Message box */
 .form-3gdLxP {
