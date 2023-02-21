@@ -1421,7 +1421,7 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-avatar) !important; }
 .avatar-2e8lTP.clickable-31pE3P:active {translate: none;}
 
-.avatar-2e8lTP {
+.avatar-2e8lTP:not(.compact-2Nkcau) {
 	position: absolute;
 	margin-top: 0;
 	top: var(--dplus-spacing-ui) !important;
