@@ -130,6 +130,9 @@
 	--dplus-spacing-ui: 10px;
 	--dplus-spacing-app: 10px;
 
+	/* Wordmark (Windows only) */
+	--dplus-wordmark: url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+
 	/* Icons */
 	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
 	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
@@ -1112,11 +1115,16 @@ padding: var(--dplus-spacing-ui);
 }
 .wordmark-2u86JB {
 	display: block;
-	background: no-repeat url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
-	background-size: 65px 16px;
-	background-position: 6px 4px !important;
-	height: 16px; width: 65px;
-	opacity: 0.6;
+	background: var(--dplus-wordmark);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 !important;
+    position: fixed;
+    width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
+    height: 16px;
+    top: var(--dplus-spacing-app);
+    left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
+}
 
 }
 .theme-light .wordmark-2u86JB {filter: brightness(0);}
