@@ -1595,18 +1595,18 @@ margin-right: 0;
 	font-size: 10px;
 	content: "Spacing variable";
 }
-.cozy-VmLDNB.groupStart-3Mlgv1 {
+.cozy-VmLDNB:not(.divider-IqmEqJ.beforeGroup-1BvJAt).groupStart-3Mlgv1 {
 	margin-top: calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) !important;
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
 	padding-top: var(--dplus-spacing-ui) !important;
 }
 
-.group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1 {
+.group-spacing-0 .cozy-VmLDNB:not(.divider-IqmEqJ.beforeGroup-1BvJAt).groupStart-3Mlgv1 {
 	border-radius: 0;
 }
 
 /* last message in group */
-.cozy-VmLDNB.groupStart-3Mlgv1:before {
+.cozy-VmLDNB:not(.divider-IqmEqJ.beforeGroup-1BvJAt).groupStart-3Mlgv1:before {
 	content: "";
 	position: absolute;
 	top: calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui));
@@ -1622,10 +1622,10 @@ margin-right: 0;
 .group-spacing-0 .groupStart-3Mlgv1:before {
 	border-radius: 0;
 }
-.group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1 {
+.group-spacing-0 .cozy-VmLDNB:not(.divider-IqmEqJ.beforeGroup-1BvJAt).groupStart-3Mlgv1 {
 	margin-top: calc(calc(var(--group-spacing) + var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing) + var(--dplus-spacing-ui)) / 2) !important;
 }
-.group-spacing-0 .cozy-VmLDNB.groupStart-3Mlgv1:before {
+.group-spacing-0 .cozy-VmLDNB:not(.divider-IqmEqJ.beforeGroup-1BvJAt).groupStart-3Mlgv1:before {
 	height: calc(calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)  + var(--dplus-spacing-ui)) / 2);
 	top: calc(calc(0px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) / 2);
 }
@@ -1646,8 +1646,7 @@ margin-right: 0;
 	border-bottom-right-radius: var(--dplus-radius-ui);
 }
 
-.divider-IqmEqJ { margin: 0px !important; z-index: 2 !important;}
-li + .divider-IqmEqJ { margin-top: 20px !important;}
+li + .divider-IqmEqJ { margin-left: calc(64px + 1rem) !important;}
 li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)); }
 
 .imageWrapper-oMkQl4 {
