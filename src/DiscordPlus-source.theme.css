@@ -1528,6 +1528,40 @@ margin-right: 0;
 	width: 64px !important;
 }
 
+	/* Dividers / Separators */
+
+.messagesWrapper-RpOMA3:not(.group-spacing-0) li + .divider-IqmEqJ.hasContent-1y12-u + li > .groupStart-3Mlgv1:before {
+    top: calc(-25px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
+}
+
+.divider-IqmEqJ.hasContent-1y12-u {
+    margin-left: 0 !important;
+}
+
+.messagesWrapper-RpOMA3:not(.group-spacing-0) .divider-IqmEqJ.hasContent-1y12-u span {
+    margin-left: var(--dplus-radius-ui) !important;
+}
+
+.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u {
+    margin-top: 16px;
+    margin-bottom: 13px !important;
+    margin-right: 0;
+}
+.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u span {
+    width: 100%;
+    border-radius: 0;
+    margin-left: 0 !important;
+}
+
+.group-spacing-4 .divider-IqmEqJ,
+.group-spacing-8 .divider-IqmEqJ,
+.group-spacing-16 .divider-IqmEqJ,
+.group-spacing-24 .divider-IqmEqJ {
+  margin-top: 0;
+  margin-bottom: -1px;
+}
+
+
 .wrapper-30-Nkg:not(.disableInteraction-25fleg), .scrollerSpacer-3AqkT9, .groupStart-3Mlgv1:before, .container-1yy5xN {
 	background-color: var(--dplus-bgc-chatmsg);
 	box-shadow: none;
@@ -1847,29 +1881,6 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 	color: var(--dplus-accent-ui);
 	border: 2px solid var(--dplus-accent-ui);
 	margin: 0
-}
-
-.messagesWrapper-RpOMA3:not(.group-spacing-0) li + .divider-IqmEqJ.hasContent-1y12-u + li > .groupStart-3Mlgv1:before {
-    top: calc(-25px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
-}
-
-.divider-IqmEqJ.hasContent-1y12-u {
-    margin-left: 0 !important;
-}
-
-.messagesWrapper-RpOMA3:not(.group-spacing-0) .divider-IqmEqJ.hasContent-1y12-u span {
-    margin-left: var(--dplus-radius-ui) !important;
-}
-
-.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u {
-    margin-top: 16px;
-    margin-bottom: 13px !important;
-    margin-right: 0;
-}
-.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u span {
-    width: 100%;
-    border-radius: 0;
-    margin-left: 0 !important;
 }
 
 /* Server members */
