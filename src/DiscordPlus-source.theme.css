@@ -1849,6 +1849,29 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 	margin: 0
 }
 
+.messagesWrapper-RpOMA3:not(.group-spacing-0) li + .divider-IqmEqJ.hasContent-1y12-u + li > .groupStart-3Mlgv1:before {
+    top: calc(-25px - var(--group-spacing) - var(--dplus-radius-ui) - var(--dplus-calc-chatmsg-spacing) - var(--dplus-spacing-ui)) !important;
+}
+
+.divider-IqmEqJ.hasContent-1y12-u {
+    margin-left: 0 !important;
+}
+
+.messagesWrapper-RpOMA3:not(.group-spacing-0) .divider-IqmEqJ.hasContent-1y12-u span {
+    margin-left: var(--dplus-radius-ui) !important;
+}
+
+.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u {
+    margin-top: 16px;
+    margin-bottom: 13px !important;
+    margin-right: 0;
+}
+.group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u span {
+    width: 100%;
+    border-radius: 0;
+    margin-left: 0 !important;
+}
+
 /* Server members */
 .member-2gU6Ar.clickable-28SzVr:hover .layout-1qmrhw {
 	transition: background-color var(--dplus-anim-short);
