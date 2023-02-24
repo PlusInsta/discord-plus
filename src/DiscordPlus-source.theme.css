@@ -1452,6 +1452,21 @@ margin-right: 0;
 
 	/* Messages */
 
+	/* Beginning of chat */
+
+.navigationDescription-3xDmE2 + .container-1yy5xN + .divider-IqmEqJ.hasContent-1y12-u {
+	margin-top: 0 !important;
+  border-top: none;
+}
+
+.messagesWrapper-RpOMA3.group-spacing-0 .navigationDescription-3xDmE2 + .container-1yy5xN {
+    padding-bottom: 25px !important;
+}
+
+.messagesWrapper-RpOMA3:not(.group-spacing-0) .navigationDescription-3xDmE2 + .container-1yy5xN + .divider-IqmEqJ.hasContent-1y12-u + .messageListItem-ZZ7v6g .cozy-VmLDNB:not(.divider-IqmEqJ.beforeGroup-1BvJAt).groupStart-3Mlgv1:before {
+  height: calc(calc(var(--dplus-radius-ui) + var(--dplus-calc-chatmsg-spacing)) / 2) !important;
+}
+
 	/*forum-start*/
 .container-3wLKDe {
 	background-color: var(--dplus-bgc-chatmsg) !important;
