@@ -1132,14 +1132,12 @@ padding: var(--dplus-spacing-ui);
 
 /* macOS window buttons */
 .typeMacOS-3V4xXE {
-	margin-left: 10px;
-	margin-top: 10px;
-	background: var(--dplus-bgc-ui-base);
-	border-radius: var(--dplus-radius-ui);
+ background: var(--dplus-bgc-ui-base);
+ border-radius: 0 0 var(--dplus-radius-ui) 0;
 }
-.platform-osx .wrapper-1Rf91z {
-	margin-top: 0px !important;
-	padding-top: 32px;
+.platform-osx .guilds-2JjMmN {
+ padding-top: 8px;
+ margin-top:calc(20px + var(--dplus-spacing-app));
 }
 
 /* Sidebar */
