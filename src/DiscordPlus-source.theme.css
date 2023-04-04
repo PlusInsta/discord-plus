@@ -1557,8 +1557,8 @@ margin-right: 0;
 }
 
 .group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u {
-    margin-top: 16px;
-    margin-bottom: 13px !important;
+    margin-top: calc(var(--dplus-spacing-ui) + 15px);
+    margin-bottom: calc(var(--dplus-spacing-ui) + 15px);
     margin-right: 0;
 }
 .group-spacing-0 .divider-IqmEqJ.hasContent-1y12-u span {
@@ -1741,8 +1741,10 @@ li + .divider-IqmEqJ + li > .groupStart-3Mlgv1:before { top: calc(-21px - var(--
 }
 
 .group-spacing-0 .content-3spvdd {
-	margin-top: -17px;
+    margin-top: calc(var(--dplus-spacing-ui) + 15px);
 }
+
+
 
 .divider-2rZFJK {
 	justify-content: flex-start;
