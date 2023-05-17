@@ -1448,6 +1448,12 @@ margin-right: 0;
 .container-ZMc96U.themed-Hp1KC_ {
 	background: var(--dplus-bgc-ui-base);
 }
+.avatarDecoration-34OC0G {
+	width: calc(var(--dplus-icon-avatar-chat) * var(--decoration-to-avatar-ratio));
+	height: calc(var(--dplus-icon-avatar-chat) * var(--decoration-to-avatar-ratio));
+	left: calc(var(--dplus-icon-avatar-chat) - var(--dplus-spacing-ui)*5*var(--decoration-to-avatar-ratio));
+	margin-top: calc(var(--dplus-spacing-ui) * var(--decoration-to-avatar-ratio) - var(--dplus-icon-avatar-chat) / var(--decoration-to-avatar-ratio) /3 );
+}
 
 	/* Messages */
 
