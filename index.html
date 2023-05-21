@@ -7,39 +7,65 @@ All help is welcome, even feedback.
 --->
 <html lang="en_US">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-<title>Discord+</title>
-<link rel="icon" type="image/icon" href="https://plusinsta.github.io/discord-plus/assets/web/favicon.ico"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-48x48.png">
-<link rel="shortcut icon" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-16x16.png" type="image/png"/>
-<link rel="apple-touch-icon" sizes="180x180" href="https://plusinsta.github.io/discord-plus/assets/web/apple-touch-icon.png">
-<link rel="manifest" href="https://plusinsta.github.io/discord-plus/assets/web/site.webmanifest">
-<link rel="mask-icon" href="https://plusinsta.github.io/discord-plus/assets/web/safari-pinned-tab.svg" color="#871f60">
-<meta name="apple-mobile-web-app-title" content="Discord+">
-<meta name="application-name" content="Discord+">
-<meta name="msapplication-TileColor" content="#871f60">
-<meta name="msapplication-config" content="https://plusinsta.github.io/discord-plus/assets/web/browserconfig.xml">
-<meta property="og:title" content="Discord+">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="A sleek, customizable Discord theme.">
-<meta property="og:description" content="A sleek, customizable Discord theme.">
-<link rel="canonical" href="https://plusinsta.github.io/discord-plus/">
-<meta property="og:url" content="https://plusinsta.github.io/discord-plus/">
-<meta property="og:site_name" content="PlusInsta presents">
-<meta property="og:image" content="https://plusinsta.github.io/discord-plus/assets/web/DPlusImg.png" type="image/png">
-<meta property="og:image:height" content="1024" type="image/png">
-<meta property="og:image:width" content="1024" type="image/png">
-<meta property="og:image:alt" content="The Discord+ logo over an illustration of a landscape">
-<script type="application/ld+json">
-{"name":"Discord+","description":"A sleek, customizable Discord theme.","@type":"WebSite","url":"https://plusinsta.github.io/discord-plus/","headline":"PlusInsta presents","@context":"http://schema.org"}</script>
+  <title>Discord+</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#802060">
-    <link rel="stylesheet" href="assets/web/style.css">
+  <link rel="icon" type="image/icon" href="https://plusinsta.github.io/discord-plus/assets/web/favicon.ico"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-48x48.png">
+
+  <link rel="shortcut icon" href="https://plusinsta.github.io/discord-plus/assets/web/favicon-16x16.png" type="image/png"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://plusinsta.github.io/discord-plus/assets/web/apple-touch-icon.png">
+  <link rel="manifest" href="https://plusinsta.github.io/discord-plus/assets/web/site.webmanifest">
+  <link rel="mask-icon" href="https://plusinsta.github.io/discord-plus/assets/web/safari-pinned-tab.svg" color="#871f60">
+
+  <meta name="apple-mobile-web-app-title" content="Discord+">
+  <meta name="application-name" content="Discord+">
+
+  <meta name="msapplication-TileColor" content="#871f60">
+  <meta name="msapplication-config" content="https://plusinsta.github.io/discord-plus/assets/web/browserconfig.xml">
+
+  <meta property="og:title" content="Discord+">
+  <meta property="og:locale" content="en_US">
+  <meta name="description" content="A sleek, customizable Discord theme.">
+  <meta property="og:description" content="A sleek, customizable Discord theme.">
+  <link rel="canonical" href="https://plusinsta.github.io/discord-plus/">
+  <meta property="og:url" content="https://plusinsta.github.io/discord-plus/">
+  <meta property="og:site_name" content="PlusInsta presents">
+  <meta property="og:image" content="https://plusinsta.github.io/discord-plus/assets/web/DPlusImg.png" type="image/png">
+  <meta property="og:image:height" content="1024" type="image/png">
+  <meta property="og:image:width" content="1024" type="image/png">
+  <meta property="og:image:alt" content="The Discord+ logo over an illustration of a landscape">
+
+  <script type="application/ld+json">{"name":"Discord+","description":"A sleek, customizable Discord theme.","@type":"WebSite","url":"https://plusinsta.github.io/discord-plus/","headline":"PlusInsta presents","@context":"http://schema.org"}</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#802060">
+  <link rel="stylesheet" href="assets/web/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous">
+
+  <script>
+    // Recursively checks the parent element of an achor to find which parent has a "fade in" animation
+    function recursiveAnchorSearch(currentEl) {
+      if (getComputedStyle(currentEl.parentElement).animation.indexOf("fade") > -1) {
+        return currentEl.parentElement
+      }
+      else {
+        return recursiveAnchorSearch(currentEl.parentElement)
+      }
+    }
+
+    Array.from(document.getElementsByTagName("a")).forEach(el => {
+      const parent = recursiveAnchorSearch(el)
+      el.addEventListener("click", (event)=>{
+        if (getComputedStyle(parent).opacity != 1) {
+          event.preventDefault()
+        }
+      })
+    })
+  </script>
 <body>
   <div id="wrapper">
     <section class="page-header">
