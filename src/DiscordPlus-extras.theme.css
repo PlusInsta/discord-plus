@@ -14,7 +14,7 @@
   
 @font-face { /* my custom font */
   font-family: PixelPetit;
-  src: url("https://plusinsta.github.io/assets/fonts/PixelPetit.ttf")
+  src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf");
 }
 
 /* make links to my carrd use my style */
@@ -63,38 +63,38 @@
 }
 
 /* Supporters */
-[data-user-id="220275692926009344"],
-[data-user-id="367617500021784587"],
-[data-user-id="719378258491342878"],
-[data-user-id="644964603108786233"],
-[data-user-id="299958646748741632"],
-[data-user-id="354342865695932423"],
-[data-user-id="275432265100558336"],
-[data-user-id="852664018438717481"],
-[data-user-id="299339580593799171"],
-[data-user-id="224367608382619648"],
-[data-user-id="356817504330448906"],
-[data-user-id="181240443747434496"],
-[data-user-id="168569629906698240"],
-[data-user-id="408875276265848833"] {
+.member-48YF_l:has([src*="220275692926009344"]), .contents-2MsGLg:has([src*="220275692926009344"]), .userProfileModalInner-3dx9L9:has([src*="220275692926009344"])
+.member-48YF_l:has([src*="367617500021784587"]), .contents-2MsGLg:has([src*="367617500021784587"]), .userProfileModalInner-3dx9L9:has([src*="367617500021784587"]),
+.member-48YF_l:has([src*="719378258491342878"]), .contents-2MsGLg:has([src*="719378258491342878"]), .userProfileModalInner-3dx9L9:has([src*="719378258491342878"]),
+.member-48YF_l:has([src*="644964603108786233"]), .contents-2MsGLg:has([src*="644964603108786233"]), .userProfileModalInner-3dx9L9:has([src*="644964603108786233"]),
+.member-48YF_l:has([src*="299958646748741632"]), .contents-2MsGLg:has([src*="299958646748741632"]), .userProfileModalInner-3dx9L9:has([src*="299958646748741632"]),
+.member-48YF_l:has([src*="354342865695932423"]), .contents-2MsGLg:has([src*="354342865695932423"]), .userProfileModalInner-3dx9L9:has([src*="354342865695932423"]),
+.member-48YF_l:has([src*="275432265100558336"]), .contents-2MsGLg:has([src*="275432265100558336"]), .userProfileModalInner-3dx9L9:has([src*="275432265100558336"]),
+.member-48YF_l:has([src*="852664018438717481"]), .contents-2MsGLg:has([src*="852664018438717481"]), .userProfileModalInner-3dx9L9:has([src*="852664018438717481"]),
+.member-48YF_l:has([src*="299339580593799171"]), .contents-2MsGLg:has([src*="299339580593799171"]), .userProfileModalInner-3dx9L9:has([src*="299339580593799171"]),
+.member-48YF_l:has([src*="224367608382619648"]), .contents-2MsGLg:has([src*="224367608382619648"]), .userProfileModalInner-3dx9L9:has([src*="224367608382619648"]),
+.member-48YF_l:has([src*="356817504330448906"]), .contents-2MsGLg:has([src*="356817504330448906"]), .userProfileModalInner-3dx9L9:has([src*="356817504330448906"]),
+.member-48YF_l:has([src*="181240443747434496"]), .contents-2MsGLg:has([src*="181240443747434496"]), .userProfileModalInner-3dx9L9:has([src*="181240443747434496"]),
+.member-48YF_l:has([src*="168569629906698240"]), .contents-2MsGLg:has([src*="168569629906698240"]), .userProfileModalInner-3dx9L9:has([src*="168569629906698240"]),
+.member-48YF_l:has([src*="408875276265848833"]), .contents-2MsGLg:has([src*="408875276265848833"]), .userProfileModalInner-3dx9L9:has([src*="408875276265848833"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
 }
 /* Developers */
-[data-user-id="309931975102300160"],
-[data-user-id="207335168430702602"],
-[data-user-id="394891840815366147"] {
+.member-48YF_l:has([src*="309931975102300160"]), .contents-2MsGLg:has([src*="309931975102300160"]), .userProfileModalInner-3dx9L9:has([src*="309931975102300160"]),
+.member-48YF_l:has([src*="207335168430702602"]), .contents-2MsGLg:has([src*="207335168430702602"]), .userProfileModalInner-3dx9L9:has([src*="207335168430702602"]),
+.member-48YF_l:has([src*="394891840815366147"]), .contents-2MsGLg:has([src*="394891840815366147"]), .userProfileModalInner-3dx9L9:has([src*="394891840815366147"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
 }
 
 /* Badges */
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,
-.headerTag-16AlQV:after, .topSection-13QKHs header:after
+.headerTag-16AlQV:after, .text-lg-semibold-UQkeZc:after
   { filter: drop-shadow(0px 0px 2px black); }
-.headerText-15Q25Z:after, .headerTop-1PNKck:before
-{ background-image: var(--dplus-badge);
-  width: 120px; height: 25px; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: block; z-index: 0; }
+.headerText-2z4IhQ:after, .text-lg-semibold-UQkeZc::after{
+  background-image: var(--dplus-badge); margin-left: 10px;
+  width: 80px; height: 1rem; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: inline-block; z-index: 0; }
 
   /* D+ badge in member list */
 .username-i5-wv-:after {
@@ -109,13 +109,12 @@
 .theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
 
   /* Badge for Michelle */
-[data-user-id="220275692926009344"] .headerTag-16AlQV:after,
-[data-user-id="220275692926009344"] .topSection-13QKHs header:after
+.userProfileModalInner-3dx9L9:has([src*="220275692926009344"])  .text-lg-semibold-UQkeZc:after
 { background-image: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
-  width: 96px; height: 20px; background-size: cover; content: ""; display: block; z-index: 0; }
+  width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
 { margin-left: 16px; }
-[data-user-id="220275692926009344"] .nameTag-2Nlmsy
+[data-user-id="220275692926009344"] .nameTagSmall-2JO-C-
 { margin-bottom: 0; }
 
 /* Make my own profile Different(TM) */
