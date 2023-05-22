@@ -1229,7 +1229,7 @@ margin-right: 0;
 	background-color: transparent;
 	border-radius: var(--dplus-radius-ui);
 }
-.chatContent-3KubbW, .form-3gdLxP:before {
+.chatContent-3KubbW, .form-3gdLxP:before, .replying-eZ7p5z:before {
 	background: transparent !important;
 }
 .wrapper-15CKyy, #app-mount .children-3xh0VB:after {display: none;}
@@ -1435,6 +1435,9 @@ margin-right: 0;
 }
 .webkit-QgSAqd .buttons-uaqb-5 {
 	margin-right: calc(var(--dplus-spacing-ui) - 6px);
+}
+.attachedBars-2BCP3l + .scrollableContainer-15eg7h {
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
 }
       /*- 12.4.6 Search Function -*/	
 	/* Search */
