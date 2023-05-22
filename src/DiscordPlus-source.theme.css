@@ -1238,10 +1238,11 @@ margin-right: 0;
 .group-spacing-8 { --group-spacing: 8px; }
 .group-spacing-16 { --group-spacing: 10px; }
 .group-spacing-24 { --group-spacing: var(--dplus-spacing-ui); }
-.messageListItem-ZZ7v6g .message-2CShn3 {
+.messageListItem-ZZ7v6g .message-2CShn3,
+.quotedChatMessage-PxNsZi .message-2CShn3 {
 	background: var(--dplus-bgc-chatmsg);
 }
-.messageListItem-ZZ7v6g .groupStart-3Mlgv1, .backgroundFlash-1X5jVs.groupStart-3Mlgv1 {
+.messageListItem-ZZ7v6g .groupStart-3Mlgv1, .backgroundFlash-1X5jVs.groupStart-3Mlgv1, .quotedChatMessage-PxNsZi .groupStart-3Mlgv1 {
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
   margin-top: 0;
 }
@@ -1252,6 +1253,7 @@ margin-right: 0;
 	background: var(--dplus-bgc-chatmsg-hover) !important;
 }
 .scrollerSpacer-3AqkT9 { height: var(--dplus-spacing-ui);}
+.wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz[aria-labelledby*="upload"] {background-color: var(--dplus-bgc-chatmsg);}
 		/* Beginning of chat */
 .container-1yy5xN {
 	background: var(--dplus-bgc-chatmsg);
@@ -1292,7 +1294,9 @@ margin-right: 0;
 }
       /*- 12.4.1 Message Seperation -*/	
 .messageListItem-ZZ7v6g:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1) .groupStart-3Mlgv1:has(.avatar-2e8lTP), 
-.messageListItem-ZZ7v6g:has(+ div) .groupStart-3Mlgv1:has(.avatar-2e8lTP) {min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat))!important;}
+.messageListItem-ZZ7v6g:has(+ div) .groupStart-3Mlgv1:has(.avatar-2e8lTP), 
+.quotedChatMessage-PxNsZi:has(+ div) .groupStart-3Mlgv1:has(.avatar-2e8lTP),  
+.quotedChatMessage-PxNsZi:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1) .groupStart-3Mlgv1:has(.avatar-2e8lTP) {min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat))!important;}
 .cozy-VmLDNB.wrapper-30-Nkg {padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);}
 .message-2CShn3 {
   display: flex;
@@ -1301,7 +1305,8 @@ margin-right: 0;
   justify-content: center;
 }
 		/*Message group with one message*/
-.messageListItem-ZZ7v6g:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1) .groupStart-3Mlgv1 {
+.messageListItem-ZZ7v6g:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1) .groupStart-3Mlgv1,
+.quotedChatMessage-PxNsZi:has(+ .messageListItem-ZZ7v6g .groupStart-3Mlgv1) .groupStart-3Mlgv1 {
 	border-radius: var(--dplus-radius-ui);
 }	
 		/* Message group with multiple messages */
@@ -1337,6 +1342,7 @@ margin-right: 0;
 .mentioned-Tre-dv:before {
   display: none;
 }
+.wrapper-1ZcZW- {background-color: var(--brand-730);}
 .mentioned-Tre-dv :not(.repliedTextPreview-1bvxun) > .messageContent-2t3eCI, .mentioned-Tre-dv .container-2sjPya {
   padding-left: 0;
   margin-left: 0;
