@@ -1254,6 +1254,7 @@ margin-right: 0;
 }
 .scrollerSpacer-3AqkT9 { height: var(--dplus-spacing-ui);}
 .wrapper-30-Nkg.cozy-VmLDNB.zalgo-26OfGz[aria-labelledby*="upload"] {background-color: var(--dplus-bgc-chatmsg);}
+.cozy-VmLDNB .repliedMessage-3Z6XBG {max-width: 100%;}
 		/* Beginning of chat */
 .container-1yy5xN {
 	background: var(--dplus-bgc-chatmsg);
