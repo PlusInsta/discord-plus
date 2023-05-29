@@ -18,63 +18,63 @@
     █▄▄▄▄██▄▄▄█▄▄▄▄▄█▄▄▄▄▄█▄▄▄▄█▄▄█▄▄█▄▄▄▄████▄███▄▄▄▄▄█▄▄▄▄██▄▄▄▄██▄▄█▄▄█▄▄▄▄▄█▄▄▄▄▄█
     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
             Table of Contents
-      1 Imports
-      2 Default Values
-      3 Background
-          3.1 Image
-            3.1.1 Transparent Mode / Light Mode Specifics
-          3.2 Margins
-      4 Fonts
-          4.1 Display Font
-          4.2 Text Font
-          4.3 Names, Titles, and Headers Font
-      5 Load/Disconnect + Crash 
-      6 Scrollerbars
-      7 Modals
-          7.1 General Modal
-          7.2 Server Create/Join Modal
-          7.3 Custom Status Modal
-          7.4 Quick Switcher Modal
-          7.5 Keyboard Combo Modal
-          7.6 Upload Modal
-          7.7 Profile Modal
-      8 Popouts
-          8.1 General Popout
-          8.2 Pins Popout
-          8.3 Context Menu Popout
-					8.4 Inbox
-          8.5 Profile Popout
-				9 Titlebar
-					9.1 General Titlebar
-					9.2 Mac OS Buttons
-				10 Guild List
-					10.1 Background + Servers
-					10.2 Home Icon
-				11 Channels Sidebar
-					11.1 General Sidebar
-					11.2 DMs Sidebar
-					11.3 Server Sidebar
-				12 Main Content
-					12.1 General Main Content
-					12.2 Friends List
-					12.3 Library/Nitro Tab
-					12.4 Chat
-						12.4.1 Message Seperation
-						12.4.2 Pings
-						12.4.3 Timestamps
-						12.4.4 Embeds/Attachments
-            			12.4.5 Message Box
-						12.4.6 Search Function
-						12.4.7 Calling
-					12.5 Explore Public Servers
-					12.6 Members List
-					12.7 Server Boost
-				13 Avatars
-				14 Settings
-				15 Client Mod Specifics
-					15.1 BetterDiscord
-						15.1.1 Addon Lists
-						15.1.2 Toast Notifications	
+    1 Imports
+    2 Default Values
+    3 Background
+        	3.1 Image
+    	   		3.1.1 Transparent Mode / Light Mode Specifics
+        	3.2 Margins
+    4 Fonts
+    	    4.1 Display Font
+        	4.2 Text Font
+        	4.3 Names, Titles, and Headers Font
+    5 Load/Disconnect + Crash 
+    6 Scrollerbars
+    7 Modals
+        	7.1 General Modal
+        	7.2 Server Create/Join Modal
+        	7.3 Custom Status Modal
+        	7.4 Quick Switcher Modal
+        	7.5 Keyboard Combo Modal
+        	7.6 Upload Modal
+        	7.7 Profile Modal
+    8 Popouts
+        	8.1 General Popout
+        	8.2 Pins Popout
+    		8.3 Context Menu Popout
+			8.4 Inbox
+        	8.5 Profile Popout
+	9 Titlebar
+			9.1 General Titlebar
+			9.2 Mac OS Buttons
+	10 Guild List
+			10.1 Background + Servers
+			10.2 Home Icon
+	11 Channels Sidebar
+			11.1 General Sidebar
+			11.2 DMs Sidebar
+			11.3 Server Sidebar
+	12 Main Content
+			12.1 General Main Content
+			12.2 Friends List
+			12.3 Library/Nitro Tab
+			12.4 Chat
+				12.4.1 Message Seperation
+				12.4.2 Pings
+				12.4.3 Timestamps
+				12.4.4 Embeds/Attachments
+    			12.4.5 Message Box
+				12.4.6 Search Function
+				12.4.7 Calling
+			12.5 Explore Public Servers
+			12.6 Members List
+			12.7 Server Boost
+	13 Avatars
+	14 Settings
+	15 Client Mod Specifics
+			15.1 BetterDiscord
+				15.1.1 Addon Lists
+				15.1.2 Toast Notifications	
 */
 
         /*--- 1 imports ---*/
@@ -1121,7 +1121,7 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .scroller-3X7KbA {padding-top: var(--dplus-spacing-ui);}
 .homeIcon-r0w4ny {display: none !important;}
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .childWrapper-1j_1ub {
 	background-color: transparent;
 }
 .theme-dark .tutorialContainer-1pL9QS .childWrapper-1j_1ub,
