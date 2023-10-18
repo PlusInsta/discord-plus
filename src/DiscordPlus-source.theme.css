@@ -1119,7 +1119,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 		/*-- 10.2 Home Icon --*/
 #app-mount .scroller-3X7KbA {padding-top: var(--dplus-spacing-ui);}
-.homeIcon-r0w4ny {display: none !important;}
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub svg {display: none !important;}
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub, .childWrapper-1j_1ub {
 	background-color: transparent;
@@ -1225,11 +1225,11 @@ margin-right: 0;
 #app-mount .applicationStore-2nk7Lo, .header-2EadGG {background: transparent;}
 .container-36u7Lw, .applicationStore-2nk7Lo {border-radius: var(--dplus-radius-ui);}
     /*-- 12.4 Chat --*/	
-.chat-2ZfjoI, .wrapper-22ayhK {
+.chat-2ZfjoI, .wrapper-22ayhK, .chat-9g_3Xj {
 	background-color: transparent;
 	border-radius: var(--dplus-radius-ui);
 }
-.chatContent-3KubbW, .form-3gdLxP:before, .replying-eZ7p5z:before {
+.chatContent-3KubbW, .chatContent-2O4SXb, .form-3gdLxP:before, .form-3qe0Ni:before, .replying-eZ7p5z:before {
 	background: transparent !important;
 }
 .wrapper-15CKyy, #app-mount .children-3xh0VB:after {display: none;}
@@ -1410,7 +1410,7 @@ margin-right: 0;
 }
 .small-1bZsRQ[style*="transform"] {background-color: var(--background-accent)!important;}
       /*- 12.4.5 Message Box -*/
-.chat-2ZfjoI form {
+.chat-2ZfjoI form, .chat-9g_3Xj form {
 	border-top: none;
   box-shadow: none;
 	margin: 0 10px 0 0;
@@ -1418,7 +1418,7 @@ margin-right: 0;
   padding: 0;
   flex-direction: column-reverse;
 }
-#app-mount .channelTextArea-1FufC0 {
+#app-mount .channelTextArea-1FufC0, #app-mount .channelTextArea-1deLlK {
 	background-color: transparent;
 	margin-top: var(--dplus-spacing-ui)!important;
 	margin: 0;
@@ -1430,9 +1430,7 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 .typing-2J1mQU {
-  position: static;
-  height: 0;
-  overflow: visible;
+    top: calc(-1 * var(--dplus-spacing-app));
 }
 .channelbodyAreaDisabled-8rmlrp {
 	background: var(--dplus-bgc-ui-card);
