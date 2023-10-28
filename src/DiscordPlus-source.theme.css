@@ -1189,6 +1189,10 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden!important;
 }
+ 
+.layers__1c917  {
+  margin: 5px 15px 15px 5px!important; /* fixes spacing issues on edge of main section */ 
+}
     /*-- 12.2 Friends List --*/
 #app-mount .container__5c7e7, #app-mount .outer_a41cf3 {background-color: var(--dplus-bgc-ui-base)!important;}
 .nowPlayingColumn_f5023f, .container__5c7e7 .container__11d72.themed_b152d4, .container__0a6a9 {background-color: transparent!important;}
