@@ -1067,13 +1067,13 @@ that have popups, or else the menu breaks when you hover over them */
 .folder__17546 {background-color: transparent!important;}
 .folder__17546.hover-qTxTR_ {background-color: var(--dplus-bgc-server-button-hover)}
 .guilds__2b93a {
-	background: var(--dplus-bgc-ui-base)!important;
-	border-radius: var(--dplus-radius-ui)!important;
-	margin-right: var(--dplus-spacing-app)!important;
+	background: var(--dplus-bgc-ui-base);
+	border-radius: var(--dplus-radius-ui);
+	margin-right: var(--dplus-spacing-app);
 }
 .pill__6b31b {border-radius: 0!important;} /*removes the radius on unread message pill*/
 .guilds__2b93a, .listItem_fa7b36 {
-	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2)!important;
+	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
 }
 .wrapper__3af0b, .wrapper__3af0b svg {
   height: var(--dplus-icon-server-sidebar);
@@ -1126,12 +1126,12 @@ that have popups, or else the menu breaks when you hover over them */
     /*-- 11.1 General Sidebar --*/
 .sidebar_ded4b5,
 .bannerImage__39c51 {
-	width: var(--dplus-channels-width)!important;
+	width: var(--dplus-channels-width);
 }
 .sidebar_ded4b5 {
-	background: var(--dplus-bgc-ui-base)!important;
+	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui) !important;
-	margin-right: var(--dplus-spacing-app)!important;
+	margin-right: var(--dplus-spacing-app);
 }
 .panels__58331, .container_ca50b9  { /* Profile Panel*/
 	background-color: transparent !important;
