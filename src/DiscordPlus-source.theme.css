@@ -1100,23 +1100,6 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .childWrapper__01b9c:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
 }
-		/*-- 10.2 Home Icon --*/
-#app-mount .scroller__3d071 {padding-top: var(--dplus-spacing-ui)!important;}
-.tutorialContainer__890ea .childWrapper__01b9c svg {display: none !important;}
-.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c,
-.wrapper_d281dd:hover .childWrapper__01b9c, .childWrapper__01b9c {
-	background-color: transparent!important;
-}
-.theme-dark .tutorialContainer__890ea .childWrapper__01b9c,
-.theme-light .theme-dark .tutorialContainer__890ea .childWrapper__01b9c,
-.theme-light .tutorialContainer__890ea .childWrapper__01b9c {
-	background-image: var(--dplus-icon-home-dark);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.theme-light .tutorialContainer__890ea .childWrapper__01b9c {background-image: var(--dplus-icon-home-light);}
-
       /*--- 11 Channels Sidebar ---*/
         
     /*-- 11.1 General Sidebar --*/
