@@ -189,10 +189,6 @@
 	/* Wordmark (Windows only) */
 	--dplus-wordmark: url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
 
-	/* Icons */
-	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
-
 	/* Icon sizes*/
 	--dplus-icon-avatar-chat: 64px;
 	--dplus-icon-avatar-list: 32px;
