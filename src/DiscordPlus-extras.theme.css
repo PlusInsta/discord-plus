@@ -29,22 +29,22 @@
 
 
 /* put a nice logo in my server's channel list */
-.theme-dark [data-list-item-id="channels___554914403011526675"] .name-3BUDLf, .theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
+.theme-dark [data-list-item-id="channels___554914403011526675"] .name__27f04, .theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name__27f04 {
   font-size: 0;
   background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
   background-size: 54px 13px;
   width: 54px; height: 13px;
   opacity: 0.6;
 }
-.theme-light [data-list-item-id="channels___554914403011526675"] .name-3BUDLf {
+.theme-light [data-list-item-id="channels___554914403011526675"] .name__27f04 {
   background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
   background-size: 54px 13px;
   width: 54px; height: 13px;
   opacity: 0.7;
 }
 
-[data-list-item-id="channels___554914403011526675"]:hover .name-3BUDLf { opacity: 0.7 }
-.theme-light [data-list-item-id="channels___554914403011526675"]:hover .name-3BUDLf { opacity: 0.8 }
+[data-list-item-id="channels___554914403011526675"]:hover .name__27f04 { opacity: 0.7 }
+.theme-light [data-list-item-id="channels___554914403011526675"]:hover .name__27f04 { opacity: 0.8 }
 
 /* PLEASE READ THE FAQ */
 [data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw {
@@ -63,41 +63,41 @@
 }
 
 /* Supporters */
-.member-48YF_l:has([src*="220275692926009344"]), .contents-2MsGLg:has([src*="220275692926009344"]), .userProfileModalInner-3dx9L9:has([src*="220275692926009344"])
-.member-48YF_l:has([src*="367617500021784587"]), .contents-2MsGLg:has([src*="367617500021784587"]), .userProfileModalInner-3dx9L9:has([src*="367617500021784587"]),
-.member-48YF_l:has([src*="719378258491342878"]), .contents-2MsGLg:has([src*="719378258491342878"]), .userProfileModalInner-3dx9L9:has([src*="719378258491342878"]),
-.member-48YF_l:has([src*="644964603108786233"]), .contents-2MsGLg:has([src*="644964603108786233"]), .userProfileModalInner-3dx9L9:has([src*="644964603108786233"]),
-.member-48YF_l:has([src*="299958646748741632"]), .contents-2MsGLg:has([src*="299958646748741632"]), .userProfileModalInner-3dx9L9:has([src*="299958646748741632"]),
-.member-48YF_l:has([src*="354342865695932423"]), .contents-2MsGLg:has([src*="354342865695932423"]), .userProfileModalInner-3dx9L9:has([src*="354342865695932423"]),
-.member-48YF_l:has([src*="275432265100558336"]), .contents-2MsGLg:has([src*="275432265100558336"]), .userProfileModalInner-3dx9L9:has([src*="275432265100558336"]),
-.member-48YF_l:has([src*="852664018438717481"]), .contents-2MsGLg:has([src*="852664018438717481"]), .userProfileModalInner-3dx9L9:has([src*="852664018438717481"]),
-.member-48YF_l:has([src*="299339580593799171"]), .contents-2MsGLg:has([src*="299339580593799171"]), .userProfileModalInner-3dx9L9:has([src*="299339580593799171"]),
-.member-48YF_l:has([src*="224367608382619648"]), .contents-2MsGLg:has([src*="224367608382619648"]), .userProfileModalInner-3dx9L9:has([src*="224367608382619648"]),
-.member-48YF_l:has([src*="356817504330448906"]), .contents-2MsGLg:has([src*="356817504330448906"]), .userProfileModalInner-3dx9L9:has([src*="356817504330448906"]),
-.member-48YF_l:has([src*="181240443747434496"]), .contents-2MsGLg:has([src*="181240443747434496"]), .userProfileModalInner-3dx9L9:has([src*="181240443747434496"]),
-.member-48YF_l:has([src*="168569629906698240"]), .contents-2MsGLg:has([src*="168569629906698240"]), .userProfileModalInner-3dx9L9:has([src*="168569629906698240"]),
-.member-48YF_l:has([src*="408875276265848833"]), .contents-2MsGLg:has([src*="408875276265848833"]), .userProfileModalInner-3dx9L9:has([src*="408875276265848833"]) {
+.member_b44d5d:has([src*="220275692926009344"]), .contents_d3ae0d:has([src*="220275692926009344"]), .userProfileModalInner__99b1e:has([src*="220275692926009344"])
+.member_b44d5d:has([src*="367617500021784587"]), .contents_d3ae0d:has([src*="367617500021784587"]), .userProfileModalInner__99b1e:has([src*="367617500021784587"]),
+.member_b44d5d:has([src*="719378258491342878"]), .contents_d3ae0d:has([src*="719378258491342878"]), .userProfileModalInner__99b1e:has([src*="719378258491342878"]),
+.member_b44d5d:has([src*="644964603108786233"]), .contents_d3ae0d:has([src*="644964603108786233"]), .userProfileModalInner__99b1e:has([src*="644964603108786233"]),
+.member_b44d5d:has([src*="299958646748741632"]), .contents_d3ae0d:has([src*="299958646748741632"]), .userProfileModalInner__99b1e:has([src*="299958646748741632"]),
+.member_b44d5d:has([src*="354342865695932423"]), .contents_d3ae0d:has([src*="354342865695932423"]), .userProfileModalInner__99b1e:has([src*="354342865695932423"]),
+.member_b44d5d:has([src*="275432265100558336"]), .contents_d3ae0d:has([src*="275432265100558336"]), .userProfileModalInner__99b1e:has([src*="275432265100558336"]),
+.member_b44d5d:has([src*="852664018438717481"]), .contents_d3ae0d:has([src*="852664018438717481"]), .userProfileModalInner__99b1e:has([src*="852664018438717481"]),
+.member_b44d5d:has([src*="299339580593799171"]), .contents_d3ae0d:has([src*="299339580593799171"]), .userProfileModalInner__99b1e:has([src*="299339580593799171"]),
+.member_b44d5d:has([src*="224367608382619648"]), .contents_d3ae0d:has([src*="224367608382619648"]), .userProfileModalInner__99b1e:has([src*="224367608382619648"]),
+.member_b44d5d:has([src*="356817504330448906"]), .contents_d3ae0d:has([src*="356817504330448906"]), .userProfileModalInner__99b1e:has([src*="356817504330448906"]),
+.member_b44d5d:has([src*="181240443747434496"]), .contents_d3ae0d:has([src*="181240443747434496"]), .userProfileModalInner__99b1e:has([src*="181240443747434496"]),
+.member_b44d5d:has([src*="168569629906698240"]), .contents_d3ae0d:has([src*="168569629906698240"]), .userProfileModalInner__99b1e:has([src*="168569629906698240"]),
+.member_b44d5d:has([src*="408875276265848833"]), .contents_d3ae0d:has([src*="408875276265848833"]), .userProfileModalInner__99b1e:has([src*="408875276265848833"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
 }
 /* Developers */
-.member-48YF_l:has([src*="309931975102300160"]), .contents-2MsGLg:has([src*="309931975102300160"]), .userProfileModalInner-3dx9L9:has([src*="309931975102300160"]),
-.member-48YF_l:has([src*="207335168430702602"]), .contents-2MsGLg:has([src*="207335168430702602"]), .userProfileModalInner-3dx9L9:has([src*="207335168430702602"]),
-.member-48YF_l:has([src*="394891840815366147"]), .contents-2MsGLg:has([src*="394891840815366147"]), .userProfileModalInner-3dx9L9:has([src*="394891840815366147"]) {
+.member_b44d5d:has([src*="309931975102300160"]), .contents_d3ae0d:has([src*="309931975102300160"]), .userProfileModalInner__99b1e:has([src*="309931975102300160"]),
+.member_b44d5d:has([src*="207335168430702602"]), .contents_d3ae0d:has([src*="207335168430702602"]), .userProfileModalInner__99b1e:has([src*="207335168430702602"]),
+.member_b44d5d:has([src*="394891840815366147"]), .contents_d3ae0d:has([src*="394891840815366147"]), .userProfileModalInner__99b1e:has([src*="394891840815366147"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
 }
 
 /* Badges */
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,
-.headerTag-16AlQV:after, .text-lg-semibold-UQkeZc:after
+.headerTag-16AlQV:after, .text-lg-semibold__84aef:after
   { filter: drop-shadow(0px 0px 2px black); }
-.headerText-2z4IhQ:after, .text-lg-semibold-UQkeZc::after{
+.headerText_bd68ec:after, .text-lg-semibold__84aef::after{
   background-image: var(--dplus-badge); margin-left: 10px;
   width: 80px; height: 1rem; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: inline-block; z-index: 0; }
 
   /* D+ badge in member list */
-.username-i5-wv-:after {
+.username_ab1e31:after {
   content: var(--dplus-dev, var(--dplus-supporter));
   background-image: var(--dplus-badge-memberlist);
   margin-left: 3px;
@@ -109,7 +109,7 @@
 .theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
 
   /* Badge for Michelle */
-.userProfileModalInner-3dx9L9:has([src*="220275692926009344"])  .text-lg-semibold-UQkeZc:after
+.userProfileModalInner__99b1e:has([src*="220275692926009344"])  .text-lg-semibold__84aef:after
 { background-image: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
   width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
 [data-user-id="220275692926009344"] .topSection-13QKHs header:after
@@ -119,13 +119,13 @@
 
 /* Make my own profile Different(TM) */
 [data-user-id="309931975102300160"] .nickname-t08Mck,
-[data-user-id="309931975102300160"] .username-3JLfHz {
+[data-user-id="309931975102300160"] .username__7d629 {
   font-size: 28px;
 }
 [data-user-id="309931975102300160"] .discriminator-1bqsd3 {
   opacity: 0;
 }
-[data-user-id="309931975102300160"] .username-3JLfHz:after {
+[data-user-id="309931975102300160"] .username__7d629:after {
   font-size: 16px;
   content: "#0001";
   color: var(--header-secondary);
