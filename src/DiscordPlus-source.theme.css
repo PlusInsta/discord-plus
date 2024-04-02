@@ -498,12 +498,9 @@ body { background-color: var(--dplus-accent-ui); }
 	padding-bottom: 2px;
 }
 
-			/*-- 3.1 Margins --*/
-.app_b1f720, .app_de4237 {
-	left:		calc(var(--dplus-spacing-app) / 2) !important;
-	top:		calc(var(--dplus-spacing-app) / 2) !important;
-	right:	calc(var(--dplus-spacing-app) * 1.5 ) !important;
-	bottom:	calc(var(--dplus-spacing-app) * 1.5) !important;
+			/*-- 3.2 Margins --*/
+.layers__1c917  {
+	margin: var(--dplus-spacing-app) !important; 
 }
 		
 		/*--- 4 Fonts ---*/
@@ -1188,10 +1185,6 @@ margin-right: 0;
 .sidebar_e031be + main, .sidebar_e031be + div {
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden;
-}
-	
-.layers__1c917  {
-	margin: 5px 15px 15px 5px!important; /* fixes spacing issues on edge of main section */ 
 }
 	/*-- 12.2 Friends List --*/
 #app-mount .container_bd15da, #app-mount .outer_a41cf3 {background-color: var(--dplus-bgc-ui-base)	;}
