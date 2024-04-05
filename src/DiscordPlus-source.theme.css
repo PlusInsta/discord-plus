@@ -906,9 +906,6 @@ that have popups, or else the menu breaks when you hover over them */
 .avatarPositionNormal_ba6daa {
 	left: var(--dplus-spacing-ui);
 }
-.bannerSVGWrapper__8a38c mask {
-	display: none;
-}
 .avatar-3QF_VA {
 	width: calc(var(--dplus-icon-avatar-profile) * 1.5) !important;
 	height: calc(var(--dplus-icon-avatar-profile) * 1.5) !important;
@@ -1571,18 +1568,24 @@ margin-right: 0;
 
 		/*--- 13 Avatars ---*/
 .wrapper-1VLyxH foreignObject, .callAvatarMask__11fbc foreignObject, .wrapper-1VLyxH + svg foreignObject, .avatarContainerMasked_ed6212 foreignObject, .avatarHint__15059 foreignObject,
-.wrapper__3ed10 foreignObject {mask: none;}
+
+.wrapper__3ed10 foreignObject {mask: none;} /* this allows profile popout avatars to be rounded with a custom value */
+.wrapper__3ed10 [mask="url(#svg-mask-avatar-decoration-status-round-120)"] img,
+.wrapper__3ed10 [mask="url(#svg-mask-avatar-decoration-status-round-80)"] img { /* this uncrops the avatar decorations after that line above */
+  border-radius: inherit !important;
+} 
 .wrapper__3ed10 img, .wrapper-1VLyxH img, .voiceAvatar_d0dbc5, .border_e782de, .avatarHint__15059, .wrapper_e05ed7.ringingIncoming__5029e:after, .wrapper_e05ed7.ringingOutgoing_a88a21:after, .avatar__08316, .option-2KkUJO.user-23VtPS .displayAvatar-3XS1w6  {
 	border-radius: var(--dplus-radius-avatar) !important; }
 .avatar__08316.clickable__09456:active {translate: none;}
 /* In chat avatar decorations*/
 .message_ccca67 .avatarDecoration__8a0c2 {
-	height: var(--dplus-icon-avatar-chat);
-	width: var(--dplus-icon-avatar-chat);
-	left: var(--dplus-spacing-ui);
-	top: var(--dplus-spacing-ui);
+    height: calc(var(--dplus-icon-avatar-chat) + var(--dplus-icon-avatar-chat) / 5);
+    width: calc(var(--dplus-icon-avatar-chat) + var(--dplus-icon-avatar-chat) / 5);
+    left: calc(var(--dplus-icon-avatar-chat) / -10 + var(--dplus-spacing-ui));
+    top: calc(var(--dplus-icon-avatar-chat) / -10 + var(--dplus-spacing-ui));
 	margin: 0;
 }
+
 .avatar__08316:not(.compact_eda3c8) {
 	position: absolute;
 	margin-top: 0;
