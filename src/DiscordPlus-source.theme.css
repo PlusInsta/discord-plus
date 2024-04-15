@@ -321,7 +321,7 @@
 .theme-light {
 	/* The variable hell continues */
 	--header-primary: hsl(
-	calc(var(--dplus-foreground-color-hue) + 30),
+	calc(var(--dplus-foreground-color-hue-base) + 30),
 	calc(var(--dplus-foreground-color-saturation-factor) * 7.7%),
 	calc(var(--dplus-foreground-color-lightness-amount) * 2.5%)
 	);
