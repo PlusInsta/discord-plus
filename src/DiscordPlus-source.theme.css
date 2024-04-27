@@ -1233,7 +1233,7 @@ margin-right: 0;
 .wrapper_a62503:hover, .wrapper_a62503.selected_e3bc5d {
 	background: var(--dplus-bgc-chatmsg-hover) !important;
 }
-.scrollerSpacer__6b1b6 { height: var(--dplus-spacing-ui);}
+.scrollerSpacer__6b1b6 { height: 0; }
 .wrapper_a62503.cozy_f5c119.zalgo__39311[aria-labelledby*="upload"] {background-color: var(--dplus-bgc-chatmsg);}
 .cozy_f5c119 .repliedMessage__636d2 {max-width: 100%;}
 		/* Beginning of chat */
@@ -1391,18 +1391,24 @@ margin-right: 0;
 }
 .small-1bZsRQ[style*="transform"] {background-color: var(--background-accent)!important;}
 		/*- 12.4.5 Message Box -*/
-.chat__52833 form, .chat__52833 form {
+.chat__52833 form {
 	border-top: none;
 	box-shadow: none;
-	margin: 0 10px 0 0;
+	margin: 0;
+    margin-right: var(--dplus-scrollbar-width);
 	display: flex;
 	padding: 0;
 	flex-direction: column-reverse;
 }
-#app-mount .channelTextArea_c2094b, #app-mount .channelTextArea_c2094b {
+.sansAttachButton__5f863 {
+  padding: calc(2px + (var(--dplus-spacing-ui) / 2));
+  padding-top: calc(2px + (var(--dplus-spacing-ui) / 8));
+  padding-bottom: calc(2px + (var(--dplus-spacing-ui) / 8));
+}
+.channelTextArea_c2094b {
 	background-color: transparent;
-	margin-top: var(--dplus-spacing-ui)!important;
-	margin: 0;
+	margin-top: var(--dplus-spacing-app) !important;
+	margin: var(--dplus-spacing-ui) 0 0;
 }
 .wrapper__57349 {
 	height: 12px;
@@ -1411,7 +1417,20 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 .typing__6fd1d {
-	top: calc(-1 * var(--dplus-spacing-app));
+    top: calc(var(--dplus-spacing-ui) * 0.5);
+}
+.typingDots__0448d, .cooldownWrapper__193b2 {
+    background: var(--dplus-bgc-ui-card);
+    border-radius: var(--dplus-radius-ui);
+    padding-right: 0.5rem;
+} 
+.cooldownWrapper__193b2 {
+    padding-left: 0.5rem;
+    margin-right: 0;
+}
+.channelTextArea_c2094b:has(~ .typing__6fd1d) {
+    padding-top: 24px;
+    transition: var(--dplus-anim-sticky);
 }
 .channelbodyAreaDisabled-8rmlrp {
 	background: var(--dplus-bgc-ui-card);
@@ -1421,6 +1440,9 @@ margin-right: 0;
 	background-color: var(--dplus-bgc-chatmsg);
 	border-radius: var(--dplus-radius-ui);
 }
+.form_d8a4a1:before, .form_d8a4a1:after {
+    display: none;
+} /* Random gradient? Does this do anything? */
 .webkit__8d35a .buttons__7ecff {
 	margin-right: calc(var(--dplus-spacing-ui) - 6px);
 }
