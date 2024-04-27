@@ -1395,20 +1395,31 @@ margin-right: 0;
 	border-top: none;
 	box-shadow: none;
 	margin: 0;
-    margin-right: var(--dplus-scrollbar-width);
+	margin-right: var(--dplus-scrollbar-width);
 	display: flex;
 	padding: 0;
 	flex-direction: column-reverse;
 }
 .sansAttachButton__5f863 {
-  padding: calc(2px + (var(--dplus-spacing-ui) / 2));
-  padding-top: calc(2px + (var(--dplus-spacing-ui) / 8));
-  padding-bottom: calc(2px + (var(--dplus-spacing-ui) / 8));
+	padding: calc(2px + (var(--dplus-spacing-ui) / 2));
+	padding-top: calc(2px + (var(--dplus-spacing-ui) / 8));
+	padding-bottom: calc(2px + (var(--dplus-spacing-ui) / 8));
 }
 .channelTextArea_c2094b {
 	background-color: transparent;
 	margin-top: var(--dplus-spacing-app) !important;
 	margin: var(--dplus-spacing-ui) 0 0;
+}
+.channelTextArea_c2094b:not(:has(~ .base__06abc)) {
+	padding-top: 0px;
+	transition-property: padding-top;
+	transition-duration: var(--dplus-anim-long);
+	transition-delay: var(--dplus-anim-long);
+}
+.channelTextArea_c2094b:has(~ .base__06abc) {
+	padding-top: 24px;
+	transition-property: padding-top;
+	transition-duration: var(--dplus-anim-short);
 }
 .wrapper__57349 {
 	height: 12px;
@@ -1416,21 +1427,13 @@ margin-right: 0;
 	margin-top: var(--dplus-spacing-ui);
 	border-radius: var(--dplus-radius-ui);
 }
-.typing__6fd1d {
-    top: calc(var(--dplus-spacing-app) / 2);
+.base__06abc {
+	top: calc(var(--dplus-spacing-app) / 2);
 }
 .typingDots__0448d, .cooldownWrapper__193b2 {
-    background: var(--dplus-bgc-ui-card);
-    border-radius: var(--dplus-radius-ui);
-    padding-right: 0.5rem;
-} 
-.cooldownWrapper__193b2 {
-    padding-left: 0.5rem;
-    margin-right: 0;
-}
-.channelTextArea_c2094b:has(~ .typing__6fd1d) {
-    padding-top: 24px;
-    transition: var(--dplus-anim-sticky);
+	background: var(--dplus-bgc-ui-card);
+	border-radius: var(--dplus-radius-ui);
+	padding-right: 0.25rem;
 }
 .channelbodyAreaDisabled-8rmlrp {
 	background: var(--dplus-bgc-ui-card);
@@ -1441,7 +1444,7 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 .form_d8a4a1:before, .form_d8a4a1:after {
-    display: none;
+	display: none;
 } /* Random gradient? Does this do anything? */
 .webkit__8d35a .buttons__7ecff {
 	margin-right: calc(var(--dplus-spacing-ui) - 6px);
@@ -1721,13 +1724,13 @@ margin-right: 0;
 #app-mount .side-2ur1Qk .itemHover-EnbcjT:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
 #app-mount .closeButton__8177f {
-	transition: background-color;
+	transition-property: background-color;
 	transition-duration: var(--dplus-anim-short);
 }
 
 .item-3XjbnG,
 .item-3XjbnG .background__3b760 {
-	transition: background-color, color, border;
+	transition-property: background-color, color, border;
 	transition-duration: var(--dplus-anim-short);
 }
 
