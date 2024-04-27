@@ -1425,7 +1425,8 @@ margin-right: 0;
 .wrapper__57349 {
 	height: 12px;
 	background: var(--dplus-bgc-ui-card);
-	margin-top: var(--dplus-spacing-ui);
+	margin-top: var(--dplus-spacing-app);
+	margin-bottom: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 .base__06abc {
