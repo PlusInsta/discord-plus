@@ -57,10 +57,6 @@
   content: " <- READ FIRST";
   color: red;
 }
-/* Make bold text in changelog channels use header font */
-[data-dnd-name="changelog"] strong {
-  font-family: var(--dplus-font-header);
-}
 
 /* Supporters */
 .member_b44d5d:has([src*="220275692926009344"]), .contents_d3ae0d:has([src*="220275692926009344"]), .userProfileModalInner__99b1e:has([src*="220275692926009344"])
