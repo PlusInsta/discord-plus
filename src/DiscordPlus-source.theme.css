@@ -1417,7 +1417,7 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 .typing__6fd1d {
-    top: calc(var(--dplus-spacing-ui) * 0.5);
+    top: calc(var(--dplus-spacing-app) / 2);
 }
 .typingDots__0448d, .cooldownWrapper__193b2 {
     background: var(--dplus-bgc-ui-card);
