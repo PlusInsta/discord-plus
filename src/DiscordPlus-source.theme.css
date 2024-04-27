@@ -1406,17 +1406,18 @@ margin-right: 0;
 	padding-bottom: calc(2px + (var(--dplus-spacing-ui) / 8));
 }
 .channelTextArea_c2094b {
+	padding-top: 24px;
 	background-color: transparent;
 	margin-top: var(--dplus-spacing-app) !important;
 	margin: var(--dplus-spacing-ui) 0 0;
 }
-.channelTextArea_c2094b:not(:has(~ .base__06abc)) {
+:root:not(.reduce-motion) .channelTextArea_c2094b:not(:has(~ .base__06abc)) {
 	padding-top: 0px;
 	transition-property: padding-top;
 	transition-duration: var(--dplus-anim-long);
 	transition-delay: var(--dplus-anim-long);
 }
-.channelTextArea_c2094b:has(~ .base__06abc) {
+:root:not(.reduce-motion) .channelTextArea_c2094b:has(~ .base__06abc) {
 	padding-top: 24px;
 	transition-property: padding-top;
 	transition-duration: var(--dplus-anim-short);
