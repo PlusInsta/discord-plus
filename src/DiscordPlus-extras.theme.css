@@ -12,16 +12,14 @@
  * @invite 2Jwh2nS
 */
   
-@font-face { /* my custom font */
+@font-face { /* a font i made */
   font-family: PixelPetit;
   src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf");
 }
 
-/* make links to my carrd use my style */
-[href="https://plusinsta.xyz"],
-[href="https://plusinsta.xyz/"],
-[href="https://PlusInsta.xyz"],
-[href="https://PlusInsta.xyz/"] {
+/* make links to my domain use my style */
+[href*="plusinsta.xyz"],
+[href*="PlusInsta.xyz"] {
   color: #d29630 !important;
   border-bottom: 1px solid;
   font-family: PixelPetit;
@@ -111,26 +109,3 @@
 { margin-left: 16px; }
 [data-user-id="220275692926009344"] .nameTagSmall-2JO-C-
 { margin-bottom: 0; }
-
-/* Make my own profile Different(TM) */
-[data-user-id="309931975102300160"] .nickname-t08Mck,
-[data-user-id="309931975102300160"] .username__7d629 {
-  font-size: 28px;
-}
-[data-user-id="309931975102300160"] .discriminator-1bqsd3 {
-  opacity: 0;
-}
-[data-user-id="309931975102300160"] .username__7d629:after {
-  font-size: 16px;
-  content: "#0001";
-  color: var(--header-secondary);
-}
-[data-user-id="309931975102300160"] .nickname-t08Mck:after {
-  font-size: 16px;
-  content: " (Insta#0001)";
-  color: var(--header-secondary);
-}
-[data-user-id="309931975102300160"] .discrimBase-1VOoau,
-[data-user-id="309931975102300160"] .headerTagWithNickname-1U8zZH .headerTagUsernameBase-XYisdh {
-  display: none;
-}
