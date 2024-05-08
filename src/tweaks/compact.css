@@ -21,7 +21,7 @@
 
   @media (min-width: 320px) {
     /* Align popouts to the right. */ .layer__6b5c3 {right:var(--dplus-spacing-app)!important;}
-    /* Remove chat padding */ .messagesWrapper_add28b {--group-spacing:0}
+    /* Remove chat padding */ .messagesWrapper_add28b {--group-spacing:0 !important}
 
     /* Make settings a bit slimmer. */
     .standardSidebarView__12528 {--dplus-spacing-app:0;--dplus-radius-ui:0;width:calc(218px - 16px + 100%);transition-property:margin-left!important;transition-duration:var(--dplus-anim-short)!important;}
