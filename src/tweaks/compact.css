@@ -1,79 +1,73 @@
 /* Experimental functionality to make using Discord with a smaller than minimum window size easier. */
 .container_d1f8f5 {
-    transition-property: margin-left;
-    transition-duration: var(--dplus-anim-short);
-    width: calc(var(--if-push-comes-to-shove) + 100%);
+  transition-property: margin-left;
+  transition-duration: var(--dplus-anim-short);
+  width: calc(var(--if-push-comes-to-shove) + 100%);
 }
 
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
   /* Remove inner app padding */ .container_d1f8f5 .wrapper__216eb, .base_c0676e {--dplus-spacing-app:0;--dplus-spacing-ui:0px;--dplus-radius-ui:0;}
-  /* Remove outer app padding */ .layers__1c917 {margin: 0 !important;}
+  /* Remove outer app padding */ .appAsidePanelWrapper__5e6e2 .layers__1c917 {margin: 0 !important;}
   /* (Windows-specific) Remove titlebar padding */ .typeWindows_e41dab {margin:0!important;border-radius:0!important;left:0!important;}.wordmark__5b8c9{top:0;left:16px;}  
-  .container_d1f8f5 {
-    --if-push-comes-to-shove: calc(var(--dplus-channels-width) + var(--dplus-icon-server-sidebar) - var(--dplus-scrollbar-width) - 32px);
-  }
+  .container_d1f8f5 {--if-push-comes-to-shove: calc(var(--dplus-channels-width) + var(--dplus-icon-server-sidebar) - var(--dplus-scrollbar-width) - 32px);}
   .container_d1f8f5:not(:has(.sidebar_e031be:hover,.wrapper__216eb:hover)) {
     margin-left: calc(var(--if-push-comes-to-shove) * -1);
-  }
   /*
   Shoving variable explained:
     Positive is the stuff to shove off-screen. (channel list, server list)
     Negative is the visual anchor, the stuff we don't shove off-screen. (channel list scrollbar, rightmost buttons)
   */
-}
+  }
 
-@media screen and (max-width: 960px) and (min-width: 320px) {
-  /*** Usability hacks ***/
-  /* Align popouts to the right. */ .layer__6b5c3 {right:var(--dplus-spacing-app)!important;}
-  /* Remove chat padding */ .messagesWrapper_add28b {--group-spacing:0}
-  /* Remove inner app padding */ .container_d1f8f5 .wrapper__216eb, .base_c0676e {--dplus-spacing-app:0;--dplus-spacing-ui:0px;--dplus-radius-ui:0;}
-  /* Remove outer app padding */ .layers__1c917 {margin: 0 !important;}
-  /* (Windows-specific) Remove titlebar padding */ .typeWindows_e41dab {margin:0!important;border-radius:0!important;left:0!important;}.wordmark__5b8c9{top:0;left:16px;}  
+  @media (min-width: 320px) {
+    /* Align popouts to the right. */ .layer__6b5c3 {right:var(--dplus-spacing-app)!important;}
+    /* Remove chat padding */ .messagesWrapper_add28b {--group-spacing:0}
 
-  /* Make settings a bit slimmer. */
-  .standardSidebarView__12528 {--dplus-spacing-app:0;--dplus-radius-ui:0;width:calc(218px - 16px + 100%);transition-property:margin-left!important;transition-duration:var(--dplus-anim-short)!important;}
-  .standardSidebarView__12528:not(:has(.sidebarRegion__36437:hover)) {margin-left: calc(-218px + 16px + var(--dplus-scrollbar-width));}
-  .contentColumn__5f80b {max-width:calc(100vw - 64px - var(--dplus-scrollbar-width));}
+    /* Make settings a bit slimmer. */
+    .standardSidebarView__12528 {--dplus-spacing-app:0;--dplus-radius-ui:0;width:calc(218px - 16px + 100%);transition-property:margin-left!important;transition-duration:var(--dplus-anim-short)!important;}
+    .standardSidebarView__12528:not(:has(.sidebarRegion__36437:hover)) {margin-left: calc(-218px + 16px + var(--dplus-scrollbar-width));}
+    .contentColumn__5f80b {max-width:calc(100vw - 64px - var(--dplus-scrollbar-width));}
 
-  /* Okay. So you've made the window too small... */
-  .contentRegion__08eba:before {display:block;font-family:PixelPetit;color:var(--aiden);font-size:32px;text-align:center;padding:32px;padding-top:1rem;}
-  .contentRegion__08eba:after  {display:block;font-family:PixelPetit;color:var(--aiden);font-size:16px;top:4rem;padding:24px}
-  :has(:not(#profile-customization-tab)) {
-    @media screen and (max-width: 512px) {
-      .contentRegion__08eba:before {content:"Oops."}
-      .contentRegion__08eba{backdrop-filter:blur(128px);display:grid}
-      .contentRegion__08eba>.contentTransitionWrap__3ba4e{display:none;}
-      .contentRegion__08eba:after{content:"There's not enough pixels on the screen to show this page. Could you zoom out or make the window a bit wider?";}
-      @media screen and (max-height: 128px) {
-        .contentRegion__08eba:after {display:none!important}
-        .contentRegion__08eba:before {content:"(Maybe not...)"!important;color:var(--aiden-sad);font-size:16pt!important;padding-left:1rem;}
+    /* Okay. So you've made the window too small... */
+    .contentRegion__08eba:before {display:block;font-family:PixelPetit;color:var(--aiden);font-size:32px;text-align:center;padding:32px;padding-top:1rem;}
+    .contentRegion__08eba:after  {display:block;font-family:PixelPetit;color:var(--aiden);font-size:16px;top:4rem;padding:24px}
+    
+    @media (max-width: 512px) {
+      .standardSidebarView__12528:not(:has(#profile-customization-tab)) {
+        .contentRegion__08eba:before {content:"Oops.";}
+        .contentRegion__08eba{backdrop-filter:blur(128px);display:grid}
+        .contentRegion__08eba>.contentTransitionWrap__3ba4e{display:none;}
+        .contentRegion__08eba:after{content:"There's not enough pixels on the screen to show this page. Could you zoom out or make the window a bit wider?";}
+        @media screen and (max-height: 128px) {
+          .contentRegion__08eba:after {display:none!important}
+          .contentRegion__08eba:before {content:"(Maybe not...)"!important;color:var(--aiden-sad);font-size:16pt!important;padding-left:1rem;}
+        }
       }
     }
-  }
-  :has(#profile-customization-tab) {
-      @media screen and (max-width: 768px) {
-      .contentRegion__08eba:before {content:"Hate to bother you, but...";}
-      .contentRegion__08eba{backdrop-filter:blur(128px);display:grid}
-      .contentRegion__08eba>.contentTransitionWrap__3ba4e{display:none;}
-      .contentRegion__08eba:after{content:"The Profiles page needs more width than what you have now. Would you mind zooming out or extending the window width?";font-family:PixelPetit}
-      @media screen and (max-height: 128px) {
-        .contentRegion__08eba:after {display:none!important}
-        .contentRegion__08eba:before {content:"(Am I that much of a nag...?)"!important;color:var(--aiden-sad);font-size:16pt!important;padding-left:1rem;}
+    @media (max-width: 768px) {
+      .standardSidebarView__12528:has(#profile-customization-tab) {
+          .contentRegion__08eba:before {content:"Hate to bother you, but...";}
+          .contentRegion__08eba{backdrop-filter:blur(128px);display:grid}
+          .contentRegion__08eba>.contentTransitionWrap__3ba4e{display:none;}
+          .contentRegion__08eba:after{content:"The Profiles page needs more width than what you have now. Would you mind zooming out or extending the window width?";font-family:PixelPetit}
+          @media (max-height: 128px) {
+            .contentRegion__08eba:after {display:none!important}
+            .contentRegion__08eba:before {content:"(Am I that much of a nag...?)"!important;color:var(--aiden-sad);font-size:16pt!important;padding-left:1rem;}
+          }
+        }
       }
     }
-  }
-}
-
-/* Window is unacceptably small. */
-.wordmark__5b8c9 {transition: all var(--dplus-anim-long);}
-@media screen and (max-width: 320px) {
-  .appAsidePanelWrapper__5e6e2>* { display:none; }
-  .wordmark__5b8c9 {opacity:0}
-  .appAsidePanelWrapper__5e6e2:before { display:block;content:"It's getting a bit cramped in here. You should open up your window.";font-family:PixelPetit;color:var(--aiden);font-size:16px;padding:16px;margin:16px;background:var(--dplus-bgc-ui-base);min-width:168px;max-width:168px;height:64px; }
-  @media screen and (max-width: 224px) {
-  .appAsidePanelWrapper__5e6e2:before {content:"...";height:16px;min-width:16px;}
-    @media screen and (max-width: 144px) {
-  .appAsidePanelWrapper__5e6e2:before {content:"Please...?";font-size:8px;margin:0;color:var(--aiden-sad);}
+  /* Window is unacceptably small. */
+  .wordmark__5b8c9 {transition: all var(--dplus-anim-long);}
+  @media screen and (max-width: 320px) {
+    .appAsidePanelWrapper__5e6e2>* { display:none; }
+    .wordmark__5b8c9 {opacity:0}
+    .appAsidePanelWrapper__5e6e2:before { display:block;content:"It's getting a bit cramped in here. You should open up your window.";font-family:PixelPetit;color:var(--aiden);font-size:16px;padding:16px;margin:16px;background:var(--dplus-bgc-ui-base);min-width:168px;max-width:168px;height:64px; }
+    @media screen and (max-width: 224px) {
+      .appAsidePanelWrapper__5e6e2:before {content:"...";height:16px;min-width:16px;}
+      @media screen and (max-width: 144px) {
+        .appAsidePanelWrapper__5e6e2:before {content:"Please...?";font-size:8px;margin:0;color:var(--aiden-sad);}
+      }
     }
   }
 }
