@@ -26,7 +26,7 @@
     /* Make settings a bit slimmer. */
     .standardSidebarView__12528 {--dplus-spacing-app:0;--dplus-radius-ui:0;width:calc(218px - 16px + 100%);transition-property:margin-left!important;transition-duration:var(--dplus-anim-short)!important;}
     .standardSidebarView__12528:not(:has(.sidebarRegion__36437:hover)) {margin-left: calc(-218px + 16px + var(--dplus-scrollbar-width));}
-    .contentColumn__5f80b {max-width:calc(100vw - 64px - var(--dplus-scrollbar-width));}
+    .contentColumn__5f80b {max-width:calc(100vw - 64px - var(--dplus-scrollbar-width)) !important;}
 
     /* Okay. So you've made the window too small... */
     .contentRegion__08eba:before {display:block;font-family:PixelPetit;color:var(--aiden);font-size:32px;text-align:center;padding:32px;padding-top:1rem;}
@@ -66,7 +66,7 @@
     @media screen and (max-width: 224px) {
       .appAsidePanelWrapper__5e6e2:before {content:"...";height:16px;min-width:16px;}
       @media screen and (max-width: 144px) {
-        .appAsidePanelWrapper__5e6e2:before {content:"Please...?";font-size:8px;margin:0;color:var(--aiden-sad);}
+        .appAsidePanelWrapper__5e6e2:before {content:"Please...?";font-size:8px;margin:0;padding:4px;color:var(--aiden-sad);}
       }
     }
   }
