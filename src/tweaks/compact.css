@@ -11,7 +11,7 @@
   /* Sidebar shoving */
   .container_d1f8f5
   {
-    --if-push-comes-to-shove: calc(var(--dplus-channels-width) + var(--dplus-icon-server-sidebar) - var(--dplus-scrollbar-width) - 32px);
+    --if-push-comes-to-shove: calc(var(--dplus-channels-width) + var(--dplus-icon-server-sidebar) + (var(--dplus-spacing-ui) * 2) - var(--dplus-scrollbar-width) - 32px);
   }
   .container_d1f8f5:not(:has(.sidebar_e031be:hover,.wrapper__216eb:hover))
   {
@@ -26,7 +26,12 @@
   /* Remove inner app padding */
   .container_d1f8f5 .wrapper__216eb
   ,
-  .base_c0676e
+  .container_d1f8f5 .sidebar_e031be
+  {
+    border-radius: 0px !important;
+    --dplus-spacing-app: 0px;
+  }
+  .chat__52833
   {
     --dplus-spacing-app: 0px;
     --dplus-spacing-ui: 0px;
