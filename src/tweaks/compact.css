@@ -54,6 +54,29 @@
     top: 0px;
     left: 16px;
   }
+
+  /* Chat button adjustments */
+   */
+  .clickable_ce0925[aria-label="Notification Settings"]
+  , /* You can access this by right-clicking the channel in the sidebar anyway */
+  .clickable_ce0925[aria-label="Help"]
+  { /* When was the last time someone genuinely meant to open that? */
+    display: none;
+  }
+  
+  .searchBar__5a20a
+  { /* Make the search bar a search "button" when not expanded to save on channel header space */
+    width: 24px;
+    padding: 0;
+    .DraftEditor-root 
+    {
+      padding: 0px;
+      .public-DraftEditorPlaceholder-root 
+      {
+        display: none !important;
+      }
+    }
+  }
   
   @media (min-width: 320px)
   {
