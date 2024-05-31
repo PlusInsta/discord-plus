@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-backdrop: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bf87b08-11e7-4069-b40f-81404dfdfea3/dcdb109-6f14149f-de68-45f8-9d9f-b532da0146d3.png/v1/fill/w_1192,h_670,q_70,strp/4k_sonic_adventure_wallpaper___sonic_by_kryptixart_dcdb109-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzZiZjg3YjA4LTExZTctNDA2OS1iNDBmLTgxNDA0ZGZkZmVhM1wvZGNkYjEwOS02ZjE0MTQ5Zi1kZTY4LTQ1ZjgtOWQ5Zi1iNTMyZGEwMTQ2ZDMucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.wRmoz1t9PmV9iAwwAbiECriIbw6L6wzbqTYxZCcDd4w);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 320;
