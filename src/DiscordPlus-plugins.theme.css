@@ -26,16 +26,16 @@
 	background: transparent !important;
 }
 
-#MemberCount .membersGroup-2eiWxl {
+#MemberCount .membersGroup_cbd271 {
 	padding: 10px 0;
 }
 
-#MemberCount .membersGroup-2eiWxl span {
+#MemberCount .membersGroup_cbd271 span {
 	padding: 5px;
 	background-color: var(--dplus-bgc-ui-base);
 }
 
-.membersWrap-3NUR2t.hasCounter .members-3WRCEx {
+.membersWrap_cbd271.hasCounter .members_cbd271 {
 	margin-top: 26px !important;
 }
 
@@ -53,20 +53,20 @@
 }
 
 		/* CreationDate / JoinedAtDate / LastMessageDate */
-.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText-1wo4Nm + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
+.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText_d98cf4 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
 	margin-top: var(--dplus-spacing-ui);
 }
 
 		/* DisplayServersAsChannels */
-.styledGuildsAsChannels-DNHtg_ .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+.styledGuildsAsChannels-DNHtg_ .tutorialContainer_f9623d .childWrapper_a6ce15 {
 	background-size: 28px 28px !important;
 	background-position-x: calc(100% - 4px) !important;
 }
-.styledGuildsAsChannels-DNHtg_ .wrapper-1_HaEi .wrapper-z5ab_q {
+.styledGuildsAsChannels-DNHtg_ .wrapper_fea3ef .wrapper_fd07a3 {
 	top: -8px !important;
 	height: 48px !important;
 }
-.styledGuildsAsChannels-DNHtg_ .guilds-2JjMmN .listItem-3SmSlK :not(span) {
+.styledGuildsAsChannels-DNHtg_ .guilds_a4d4d9 .listItem_c96c45 :not(span) {
 	border-radius: 5px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 		/* PluginRepo */
-.flexChild-3PzYmX > div > div,
+.flexChild_bba380 > div > div,
 .DevilBro-notice {
 	border-radius: var(--dplus-radius-ui) !important;
 }
@@ -114,14 +114,14 @@
 
 	/* by Farcrada */
 		/* Hide Channels */
-.sidebar-1tnWFu.hideChannelElement {
+.sidebar_a4d4d9.hideChannelElement {
 	margin: 0 calc(var(--dplus-spacing-app) / 2);
 }
 
 	/* by programmer2514 */
 		/* CollapsibleUI */
-.guilds-2JjMmN[style*="width: 0px;"],
-.sidebar-1tnWFu[style*="width: 0px;"] {
+.guilds_a4d4d9[style*="width: 0px;"],
+.sidebar_a4d4d9[style*="width: 0px;"] {
 	margin-right: 0px;
 }
 
@@ -133,7 +133,7 @@
 
 	/* by Strencher */
 		/* ChannelDms */
-.ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+.ChannelDms-channelmembers-wrap .privateChannels_f0963d {
 	background: var(--dplus-bgc-ui-base)
 }
 
