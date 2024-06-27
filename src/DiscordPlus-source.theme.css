@@ -1202,6 +1202,13 @@ margin-right: 0;
 .container_e44302.themed_e44302 {
 	background: var(--dplus-bgc-ui-base);
 }
+.container_b385c8 { /* Forum specific; reactions, following, copy link */
+	margin-top: 0px;
+	border-top: none;
+}
+.empty_e2e187, .emptyForum_e2e187 { /* Spacing at the bottom */
+	display: none;
+}
 	/* New/Old/Load messages bar */
 .newMessagesBar_cf58b5 {
 	background-color: var(--dplus-accent-ui) !important;
