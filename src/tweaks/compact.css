@@ -80,9 +80,12 @@
   @media (min-width: 320px)
   {
     /* Align popouts to the right. */
-    .layer_cd0de5
-    {
+    .layer_cd0de5:has(.messagesPopoutWrap_ac90a2)
+    , /* pinned messages */
+    .messagesPopoutWrap_ac90a2
+    { /* pinned messages (again) */
       right: var(--dplus-spacing-app) !important;
+      max-width: 100vw !important;
     }
     /* Remove chat padding */
     .messagesWrapper_e2e187
