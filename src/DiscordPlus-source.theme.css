@@ -745,14 +745,12 @@ iframe {
 .messagesPopoutWrap_ac90a2 {
 	width: calc(440px + var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui));
 }
-.layer_cd0de5:not(.disabledPointerEvents_cd0de5) {
-	backdrop-filter: var(--blurcalc-popout);
-}
 .header_ac90a2 { padding: var(--dplus-spacing-ui); }
 .messagesPopoutWrap_ac90a2 {
 	background-color: transparent !important;
 	border: none !important;
 	max-height: 560px !important;
+	backdrop-filter: var(--blurcalc-popout);
 }
 .messageGroupWrapper_ac90a2 {
 	border-radius: var(--dplus-radius-ui);
