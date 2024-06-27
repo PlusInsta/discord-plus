@@ -714,47 +714,12 @@ iframe {
 .uploadModal_f82cc7, .uploadModal_f82cc7 .channelbodyArea-2VhZ6z {	border: 2px dashed var(--dplus-accent-ui); }
 .footer_f82cc7 { background-color: var(--dplus-bgc-ui-base) !important; }
 	/*-- 7.7 Profile Modal --*/
-.top-K_jibn .item-3XjbnG {
-	border-radius: 0 !important;
+.fullSizeInnerThemed_c69a7b {
+	background-color: var(--dplus-bgc-ui-base);
 }
-
-.listRow-hutiT_ {
-margin: var(--dplus-spacing-ui);
-padding: var(--dplus-spacing-ui);
-}
-.listRow-hutiT_ .iconInactive_f11207 {
-	border-radius: var(--dplus-radius-server);
-	width: var(--dplus-icon-server-list);
-	height: var(--dplus-icon-server-list);
-}
-.listAvatar-1NlAhb {
-	margin-right: var(--dplus-spacing-ui);
-}
-.body-1Ukv50, .topSection-13QKHs {
-	background-color: transparent;
-}
-
-.aboutMeSection---MkQa {
-	background-color: transparent;
-}
-
-.nickname-322DbL {
-	font-family: inherit;
-}
-
-.disabledButtonWrapper-2Oz3aY { display: none; /* Remove Spotify buttons for yourself */ }
 .button_da7790 { margin-top: var(--dplus-spacing-ui); }
-
 [style="background-color: rgb(114, 137, 218);"] {
 	background-color: var(--dplus-accent-ui) !important;
-}
-.theme-dark .path-lhsLSV,
-.theme-light .path-lhsLSV {
-	stroke: var(--dplus-accent-ui) !important;
-}
-
-.activity-fViXj7 {
-	border-bottom: 0;
 }
 
 		/*--- 8 Popouts ---*/
@@ -886,19 +851,10 @@ that have popups, or else the menu breaks when you hover over them */
 	width: calc(var(--dplus-scrollbar-width) / 2) !important;
 }
 	/*-- 8.7 Profile Popout --*/
-.headerNormal-1mX3KY,
-.body-2wLx-E,
-.bodyInnerWrapper-2bQs1k {
-	background-color: transparent;
-}
-.headerTop-2cWpdB {
-	background-color: var(--dplus-bgc-ui-card);
-}
-.translate-PeW1wK,
 .popout-2iWAc- {
 	backdrop-filter: var(--blurcalc-popout);
 }
-.userPopout-2j1gM4 {
+.userPopout-2j1gM4, .biteSizeInnerThemed_c69a7b {
 	background-color: var(--dplus-bgc-popout);
 	border-radius: var(--dplus-radius-ui);
 	box-shadow: none !important;
@@ -933,7 +889,7 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: calc(var(--dplus-radius-avatar) + 5px);
 	clip: rect(auto,auto,68px,auto);
 }
-
+.bannerSVGWrapper_b32cc2 circle {display: none;}
 /* WIP: A nice background behind status icons, similar to vanilla Discord, but this one respects your background color and roundness preferences. Currently commented out because I can't get the status icon in front of the background.
 
 .wrapper-1VLyxH svg foreignObject:after {
@@ -1875,6 +1831,12 @@ transition: var(--dplus-anim-button) !important;
 	background-color: rgb(114, 118, 125) !important;
 }
 
+/* Dropdown Menus */
+.lookFilled_f6639d.select_f6639d {
+	background: var(--dplus-bgc-ui-base);
+	border-color: transparent;
+}
+
 /* Server settings */
 .avatarUploaderInner-Oiob_P {border-radius: var(--dplus-radius-avatar);}
 .avatarUploader-2yeaMv .avatarUploaderInnerSquare-2UOXj4, .avatarUploaderDisabled-310UAf .avatarUploaderInnerSquare-2UOXj4 {
@@ -1884,8 +1846,8 @@ background-size: contain;
 background-color: transparent;
 }
 .scroller_e9196a, #app-mount .headerClickable-2IVFo9, #app-mount .headerDefault-1wrJcN {background: transparent;}
-.select_fb76b2 .Select-menu-outer, #app-mount .auditLog-3jNbM6 {
-background: var(--dplus-bg-dark-3) !important;
+.select_fb76b2 .Select-menu-outer, #app-mount .auditLog-3jNbM6, .input_f8bc55 {
+background: var(--dplus-bgc-ui-base) !important;
 border-color: var(--dplus-accent-ui) !important;
 border-radius: var(--dplus-radius-ui) !important;
 }
@@ -1903,7 +1865,8 @@ border-radius: var(--dplus-radius-ui) !important;
 background: transparent;
 border-color: var(--dplus-accent-ui); border-radius: var(--dplus-radius-ui);
 }
-
+		/* Audit Log */
+.customScroller_c25c6d>div, .container_c90ddb {max-width:unset; width: max-content;}
 /* Accessibility / a11y */
 	/* Font sizes */
 html[style^="font-size: 75%;"] { --chat-font-scaling: 0.75; }
@@ -1917,10 +1880,10 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	height: calc(var(--dplus-icon-avatar-chat) * var(--chat-font-scaling)) !important;
 }
 
-		/*--- 15 Client mod specific ---*/
+/*--- 15 Client mod specific ---*/
 
-			/*-- 15.1 BetterDiscord --*/	
-		/*- 15.1.1 Addon lists -*/
+	/*-- 15.1 BetterDiscord --*/	
+/*- 15.1.1 Addon lists -*/
 .bd-addon-list.bd-grid-view {
 	column-gap: var(--dplus-spacing-ui);
 	row-gap: var(--dplus-spacing-ui);
@@ -1937,11 +1900,9 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 .bd-addon-list .bd-footer {
 	padding: var(--dplus-spacing-ui);
 }
-
 .bd-addon-list .bd-addon-header {
 	border-radius: var(--dplus-radius-ui);
 }
-
 .bd-select .bd-select-options {background: var(--dplus-bg-2); backdrop-filter: var(--blurcalc-popout);}
 .bd-select-transparent .bd-select-options { border-radius: var(--dplus-radius-ui) !important; border-color: var(--dplus-bg-1);}
 .bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bg-1);}
@@ -1960,7 +1921,7 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 .bda-name, .bda-author {
 	font-size: 16px;
 }
-.bda-author {
+.bd-meta a.bd-link.bd-link-website {
 	color: var(--dplus-accent-ui);
 }
 .bda-links {
@@ -1976,9 +1937,9 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 
 		/*- 15.1.1 Toast Notifications -*/
 .toast, .bd-toast {
-	background: var(--dplus-bg-3)!important;
-	border: 2px solid var(--dplus-accent-ui)!important;
+	opacity: 0.7;
+	background: var(--dplus-accent-ui)!important;
 	border-radius: var(--dplus-radius-ui)!important;
-	color: var(--dplus-accent-ui)!important;
 	box-shadow: none!important;
 }
+		
