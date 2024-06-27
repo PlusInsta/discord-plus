@@ -1349,7 +1349,7 @@ margin-right: 0;
 }
 .small-1bZsRQ[style*="transform"] {background-color: var(--background-accent)!important;}
 		/*- 12.4.5 Message Box -*/
-.chat_a7d72e form {
+.form_a7d72e {
 	border-top: none;
 	box-shadow: none;
 	margin: 0;
@@ -1363,19 +1363,19 @@ margin-right: 0;
 	padding-top: calc(2px + (var(--dplus-spacing-ui) / 8));
 	padding-bottom: calc(2px + (var(--dplus-spacing-ui) / 8));
 }
-.channelTextArea_a7d72e {
+.channelTextArea_d0696b {
 	padding-top: 24px;
 	background-color: transparent;
 	margin-top: var(--dplus-spacing-app) !important;
 	margin: var(--dplus-spacing-ui) 0 0;
 }
-:root:not(.reduce-motion) .channelTextArea_a7d72e:not(:has(~ .base_d7ebeb)) {
+:root:not(.reduce-motion) .channelTextArea_d0696b:not(:has(~ .base_d7ebeb)) {
 	padding-top: 0px;
 	transition-property: padding-top;
 	transition-duration: var(--dplus-anim-long);
 	transition-delay: var(--dplus-anim-long);
 }
-:root:not(.reduce-motion) .channelTextArea_a7d72e:has(~ .base_d7ebeb) {
+:root:not(.reduce-motion) .channelTextAreaContainer_d0696b:has(~ .base_d7ebeb) {
 	padding-top: 24px;
 	transition-property: padding-top;
 	transition-duration: var(--dplus-anim-short);
