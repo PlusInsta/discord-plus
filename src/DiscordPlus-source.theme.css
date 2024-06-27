@@ -1095,25 +1095,25 @@ that have popups, or else the menu breaks when you hover over them */
 	transition-timing-function: ease-out;
 }
 .circleIconButton_db6521.selected_db6521,
-#app-mount .childWrapper_a6ce15:hover {
+#app-mount .childWrapper_f90abb:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
 }
 		/*-- 10.2 Home Icon --*/
 #app-mount .scroller_fea3ef {padding-top: var(--dplus-spacing-ui);}
-.tutorialContainer_f9623d .childWrapper_a6ce15 svg {display: none !important;}
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
-.wrapper__8436d:hover .childWrapper_a6ce15, .childWrapper_a6ce15 {
+.tutorialContainer_f9623d .childWrapper_f90abb svg {display: none !important;}
+.wrapper__8436d.selected_ae80f7 .childWrapper_f90abb,
+.wrapper__8436d:hover .childWrapper_f90abb, .childWrapper_f90abb {
 	background-color: transparent;
 }
-.theme-dark .tutorialContainer_f9623d .childWrapper_a6ce15,
-.theme-light .theme-dark .tutorialContainer_f9623d .childWrapper_a6ce15,
-.theme-light .tutorialContainer_f9623d .childWrapper_a6ce15 {
+.theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
+.theme-light .theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
+.theme-light .tutorialContainer_f9623d .childWrapper_f90abb {
 	background-image: var(--dplus-icon-home-dark);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-.theme-light .tutorialContainer_f9623d .childWrapper_a6ce15 {background-image: var(--dplus-icon-home-light);}
+.theme-light .tutorialContainer_f9623d .childWrapper_f90abb {background-image: var(--dplus-icon-home-light);}
 
 		/*--- 11 Channels Sidebar ---*/
 		
