@@ -1474,19 +1474,19 @@ margin-right: 0;
 #app-mount .elevationBorderHigh_ff8688 {box-shadow: none;}
 
 	/* Calendar picker */
-#app-mount .calendarPicker__47c85 .react-datepicker {
+#app-mount .calendarPicker_be05cd .react-datepicker {
 	background-color: var(--dplus-bgc-ui-base) !important;
 	margin-left: 46px;
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day:not(.react-datepicker__day--disabled):hover,
-#app-mount .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected:after,
+#app-mount .calendarPicker_be05cd .react-datepicker__day:not(.react-datepicker__day--disabled):hover,
+#app-mount .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:after,
 #app-mount .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
 	background-color: var(--dplus-accent-ui) !important;
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day {
+#app-mount .calendarPicker_be05cd .react-datepicker__day {
 	border-color: black !important;
 }
-#app-mount .calendarPicker__47c85 div {
+#app-mount .calendarPicker_be05cd div {
 	background-color: transparent !important;
 }
 .react-datepicker__day {
@@ -1862,7 +1862,7 @@ border-radius: var(--dplus-radius-ui) !important;
 .item-3XjbnG,
 .item-3XjbnG .background_ae3c77,
 .input-2g-os5,
-.copyInput_f549fd,
+.copyInput_d7e343,
 .Select .Select-control,
 .Select.is-open .Select-control {
 border-radius: var(--dplus-radius-ui) !important;
