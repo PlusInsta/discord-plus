@@ -536,6 +536,8 @@ body, button {
 		/*-- 4.2 Text Font --*/
 ::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
 .message_d5deea, .markup_d6076c, /*chat messages*/
+.form_a7d72e, /* message bar */
+.search_a46bef, /* search */
 .subText_e9f61e, /*member list body*/
 .customStatusText-_4TbWr, /*user's custom status*/
 .modeDefault-2fEh7a, /*settings small body*/
