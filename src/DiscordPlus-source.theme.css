@@ -529,7 +529,7 @@ body { background-color: var(--dplus-accent-ui); }
 	--font-chinese-simplified: var(--font-display);
 	--font-chinese-traditional: var(--font-display);
 }
-body, button, select {
+body, button {
 	font-family: var(--font-display);
 }
 		
