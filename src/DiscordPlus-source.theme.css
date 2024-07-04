@@ -815,8 +815,8 @@ that have popups, or else the menu breaks when you hover over them */
 	transition: background-color var(--dplus-anim-button);
 }
 
-.button_dd4f85:not(.lookBlank_dd4f85), /* non-special buttons */
-.colorDefault-CDqZdO:not(.labelContainer-2vJzYL) /* regular buttons, except context menu */ {
+.button_dd4f85:not(.lookBlank_dd4f85):not(.lowSaturationUnderline_c7819f), .colorDefault-CDqZdO:not(.labelContainer-2vJzYL)
+{
 	background-color: var(--dplus-bgc-button);
 	transition: var(--dplus-anim-button);
 }
