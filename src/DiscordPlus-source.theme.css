@@ -541,7 +541,7 @@ body, button {
 .subText_e9f61e, /*member list body*/
 .customStatusText-_4TbWr, /*user's custom status*/
 .modeDefault-2fEh7a, /*settings small body*/
-.emojiInput-1aLNse, .emojiAliasPlaceholder-3H_iZA, /*server settings: emoji name*/
+.emojiAliasPlaceholder_dc1809, /*emoji name placeholder*/
 .topic_bf3bbb, /*channel topic in chat header*/
 .content_bf3bbb, /*channel topic popup body*/
 .bd-description /*BD: plugin/theme desc*/ {
@@ -1873,6 +1873,14 @@ border-radius: var(--dplus-radius-ui) !important;
 #app-mount .colorPickerCustom-1swUKF {
 background: transparent;
 border-color: var(--dplus-accent-ui); border-radius: var(--dplus-radius-ui);
+}
+
+	/* Expressions */
+		/* Emoji */
+.emojiAliasPlaceholder_dc1809 {
+    padding-top: 8px;
+	padding-left: 7px;
+	font-weight: 500; /* Why is it a different font weight from input, Discord? */
 }
 		/* Audit Log */
 .customScroller_c25c6d>div, .container_c90ddb {max-width:unset; width: max-content;}
