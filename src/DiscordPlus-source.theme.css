@@ -1519,6 +1519,10 @@ margin-right: 0;
 .attachedBars_d0696b + .scrollableContainer_d0696b {
 	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
 }
+
+.channelAppLauncher_df39bd {
+  margin-bottom: calc(var(--dplus-spacing-ui) / 2);
+}
 		/*- 12.4.6 Search Function -*/	
 	/* Search */
 .search-1FM8Qc .searchBar-zdmu7v {
