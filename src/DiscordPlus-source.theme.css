@@ -630,16 +630,16 @@ header, h1,
 .title_a2a7b5, .note_a2a7b5 div p {font-size: 0px;}
 .title_a2a7b5:after {
 	font-size: 24px;
-	content: "Congratulations!";
+	content: var(--dplus-i11n-error-discordcrash-title,"Congratulations!");
 }
 .note_a2a7b5 div p:first-child:after {
 	font-size: 16px;
-	content: "You just unlocked Discord Minus!";
+	content: var(--dplus-i11n-error-discordcrash-body,"You just unlocked Discord Minus!");
 	color: white;
 }
 .note_a2a7b5 div p:nth-child(2):after {
 	font-size: 16px;
-	content: "...actually, Discord just crashed. Oops."
+	content: var(--dplus-i11n-error-discordcrash-note,"dplus-i11n");
 }
 		
 		/*--- 6 Scrollerbars ---*/

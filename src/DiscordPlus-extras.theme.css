@@ -121,3 +121,148 @@
   --aiden: hsl(0, 0%, 6%);
   --aiden-sad: hsl(240, 80%, 16%);
 }
+
+/* i11n */
+/* Explanation: First, the source string (in English), then, the languages in the order they appear inside the Discord app. */
+/* Any notices and modified text will be localized here. */
+
+html { --dplus-i11n-error-nitrotheme: "Switch away from Nitro colors to avoid compatibility issues."; }
+/* This message appears if a user has enabled a Nitro color theme, which breaks several aspects of the theme. */
+/*[lang="da"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="de"] { --dplus-i11n-error-nitrotheme: ""; }*/
+[lang="en-US"] { --dplus-i11n-error-nitrotheme: "Switch away from Nitro color theme to avoid compatibility issues."; }
+[lang="en-GB"] { --dplus-i11n-error-nitrotheme: "Switch away from Nitro colour theme to avoid compatibility issues."; }
+/*[lang="es-ES"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="fr"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="hr"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="it"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="lt"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="hu"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="nl"] { --dplus-i11n-error-nitrotheme: ""; }*/
+[lang="no"] { --dplus-i11n-error-nitrotheme: "Bytt vekk fra Nitro fargetema for å unngå kompatibilitetsproblemer."; }
+/*[lang="pl"] { --dplus-i11n-error-nitrotheme: ""; }*/
+[lang="pt-BR"] { --dplus-i11n-error-nitrotheme: "Mude do tema de cor Nitro para evitar problemas de compatibilidade."; }
+/*[lang="ro"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="fi"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="vi"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="tr"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="da"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="cs"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="el"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="bg"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="ru"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="uk"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="hi"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="th"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="ja"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-error-nitrotheme: ""; }*/
+/*[lang="ko"] { --dplus-i11n-error-nitrotheme: ""; }*/
+
+html { --dplus-i11n-error-discordcrash-title: "Congratulations!"; }
+/* This message appears on crash, and congratulates you. */
+/*[lang="da"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="de"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+[lang="en-US"] { --dplus-i11n-error-discordcrash-title: "Congratulations!"; }
+[lang="en-GB"] { --dplus-i11n-error-discordcrash-title: "Congratulations!"; }
+/*[lang="es-ES"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="fr"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="hr"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="it"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="lt"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="hu"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="nl"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+[lang="no"] { --dplus-i11n-error-discordcrash-title: "Gratulerer!"; }
+/*[lang="pl"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+[lang="pt-BR"] { --dplus-i11n-error-discordcrash-title: "Parabens!"; }
+/*[lang="ro"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="fi"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="vi"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="tr"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="da"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="cs"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="el"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="bg"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="ru"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="uk"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="hi"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="th"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="ja"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+/*[lang="ko"] { --dplus-i11n-error-discordcrash-title: ""; }*/
+
+
+html { --dplus-i11n-error-discordcrash-body: "You just unlocked Discord-!"; }
+/* This message appears on crash, and lets you know you've achieved something unusual. */
+/*[lang="da"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="de"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+[lang="en-US"] { --dplus-i11n-error-discordcrash-body: "You just unlocked Discord-!"; }
+[lang="en-GB"] { --dplus-i11n-error-discordcrash-body: "You just unlocked Discord-!"; }
+/*[lang="es-ES"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="fr"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="hr"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="it"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="lt"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="hu"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="nl"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+[lang="no"] { --dplus-i11n-error-discordcrash-body: "Du har nettopp låst opp Discord-!"; }
+/*[lang="pl"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+[lang="pt-BR"] { --dplus-i11n-error-discordcrash-body: "Você acabou de ativar Discord-!"; }
+/*[lang="ro"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="fi"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="vi"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="tr"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="da"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="cs"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="el"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="bg"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="ru"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="uk"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="hi"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="th"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="ja"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+/*[lang="ko"] { --dplus-i11n-error-discordcrash-body: ""; }*/
+
+html { --dplus-i11n-error-discordcrash-note: "...actually, Discord just crashed. Oops..."; }
+/* This message appears on crash, and informs you of the truth. Every language should have an appropriate local equivalent to "oof" */
+/*[lang="da"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="de"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+[lang="en-US"] { --dplus-i11n-error-discordcrash-note: "...actually, Discord just crashed. Yikes..."; }
+[lang="en-GB"] { --dplus-i11n-error-discordcrash-note: "... Actually, Discord just crashed. Blimey..."; }
+/*[lang="es-ES"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="fr"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="hr"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="it"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="lt"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="hu"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="nl"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+[lang="no"] { --dplus-i11n-error-discordcrash-note: "... Egentlig, har Discord nettopp krasjet. Uff..."; }
+/*[lang="pl"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+[lang="pt-BR"] { --dplus-i11n-error-discordcrash-note: "...na verdade, Discord parou de funcionar. Ai..."; }
+/*[lang="ro"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="fi"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="vi"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="tr"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="da"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="cs"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="el"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="bg"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="ru"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="uk"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="hi"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="th"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="ja"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-error-discordcrash-note: ""; }*/
+/*[lang="ko"] { --dplus-i11n-error-discordcrash-note: ""; }*/

@@ -146,11 +146,11 @@
         }
         .contentRegion_c25c6d:before
         {
-          content: "Oops.";
+          content: var(--dplus-i11n-cramped-settings,"Oops.");
         }
         .contentRegion_c25c6d:after
         {
-          content: "There's not enough pixels on the screen to show this page. Could you zoom out or make the window a bit wider?";
+          content: var(--dplus-i11n-cramped-settings-continued,"There's not enough pixels on the screen to show this page. Could you zoom out or make the window a bit wider?");
         }
         .contentColumn_c25c6d
         {
@@ -167,7 +167,7 @@
           .contentRegion_c25c6d:before
           {
             color: var(--aiden-sad);
-            content: "(Maybe not...)" !important;
+            content: var(--dplus-i11n-cramped-settings-worse,"(Maybe not...)") !important;
             font-size: 16pt !important;
             padding-left: 1rem;
           }
@@ -189,11 +189,11 @@
         }
         .contentRegion_c25c6d:before
         {
-          content: "Hate to bother you, but...";
+          content: var(--dplus-i11n-cramped-settings-profiles,"Hate to bother you, but...");
         }
         .contentRegion_c25c6d:after
         {
-          content: "The Profiles page needs more width than what you have now. Would you mind zooming out or extending the window width?";
+          content: var(--dplus-i11n-cramped-settings-profiles-continued,"The Profiles page needs more width than what you have now. Would you mind zooming out or extending the window width?");
         }
         .contentColumn_c25c6d
         {
@@ -210,7 +210,7 @@
           .contentRegion_c25c6d:before
           {
             color: var(--aiden-sad);
-            content: "(Am I that much of a nag...?)" !important;
+            content: var(--dplus-i11n-cramped-settings-profiles-worse,"(Am I that much of a nag...?)") !important;
             font-size: 16pt !important;
             padding-left: 1rem;
           }
@@ -241,7 +241,7 @@
     {
       background: var(--dplus-bgc-ui-base);
       color: var(--aiden);
-      content: "It's getting a bit cramped in here. You should open up your window.";
+      content: var(--dplus-i11n-cramped,"It's getting a bit cramped in here. You should open up your window.");
       display: block;
       font-family: PixelPetit;
       font-size: 16px;
@@ -255,7 +255,7 @@
     {
       .appAsidePanelWrapper_bd26cc:before
       {
-        content: "...";
+        content: var(--dplus-i11n-cramped-worse,"...");
         height: 16px;
         min-width: 16px;
       }
@@ -264,7 +264,7 @@
         .appAsidePanelWrapper_bd26cc:before
         {
           color: var(--aiden-sad);
-          content: "Please?";
+          content: var(--dplus-i11n-cramped-nowyourejustbeingmean,"Please?");
           font-size: 8px;
           margin: 0px;
           padding: 2px;
