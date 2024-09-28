@@ -1181,7 +1181,7 @@ margin-right: 0;
 .group-spacing-0 { --group-spacing: 0px; }
 .group-spacing-4 { --group-spacing: 4px; }
 .group-spacing-8 { --group-spacing: 8px; }
-.group-spacing-16 { --group-spacing: 10px; }
+.group-spacing-16 { --group-spacing: 16px; }
 .group-spacing-24 { --group-spacing: var(--dplus-spacing-ui); }
 .messageListItem_d5deea .message_d5deea,
 .quotedChatMessage_d5deea .message_d5deea {
