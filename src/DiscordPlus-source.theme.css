@@ -418,6 +418,58 @@
 	);
 }
 
+.theme-light, .theme-dark, :root {
+  /* There ain't no gettin' off this train, Cloud! */
+  --theme-base-color-amount: 100% !important;
+  --theme-base-color-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
+  --theme-base-color-dark-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
+  --theme-base-color-light-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
+  --theme-base-color: hsl(var(--dplus-accent-color-hue), var(--dplus-accent-color-saturation), var(--dplus-accent-color-lightness)) !important;
+  --theme-base-color-dark: hsl(var(--dplus-accent-color-hue), var(--dplus-accent-color-saturation), var(--dplus-accent-color-lightness)) !important;
+  --theme-base-color-light: hsl(var(--dplus-accent-color-hue), var(--dplus-accent-color-saturation), var(--dplus-accent-color-lightness)) !important;
+  &.custom-theme-background, & .custom-theme-background {
+    --theme-base-color: inherit;
+    --theme-text-color: inherit;
+    --theme-base-color-hsl: inherit;
+    --theme-text-color-amount: 0% !important;
+    --custom-theme-background: inherit;
+  }
+}
+
+.custom-theme-background {
+    --bg-overlay-1: inherit !important;
+    --bg-overlay-2: inherit !important;
+    --bg-overlay-3: inherit !important;
+    --bg-overlay-4: inherit !important;
+    --bg-overlay-5: inherit !important;
+    --bg-overlay-6: inherit !important;
+    --bg-overlay-hover: inherit !important;
+    --bg-overlay-active: inherit !important;
+    --bg-overlay-selected: inherit !important;
+    --bg-overlay-chat: inherit !important;
+    --bg-overlay-home: inherit !important;
+    --bg-overlay-home-card: inherit !important;
+    --bg-overlay-app-frame: inherit !important;
+    --bg-overlay-color: inherit !important;
+    --bg-overlay-color-inverse: inherit !important;
+    --bg-overlay-opacity-1: inherit !important;
+    --bg-overlay-opacity-2: inherit !important;
+    --bg-overlay-opacity-3: inherit !important;
+    --bg-overlay-opacity-4: inherit !important;
+    --bg-overlay-opacity-5: inherit !important;
+    --bg-overlay-opacity-6: inherit !important;
+    --bg-overlay-opacity-hover: inherit !important;
+    --bg-overlay-opacity-hover-inverse: inherit !important;
+    --bg-overlay-opacity-active: inherit !important;
+    --bg-overlay-opacity-active-inverse: inherit !important;
+    --bg-overlay-opacity-selected: inherit !important;
+    --bg-overlay-opacity-selected-inverse: inherit !important;
+    --bg-overlay-opacity-chat: inherit !important;
+    --bg-overlay-opacity-home: inherit !important;
+    --bg-overlay-opacity-home-card: inherit !important;
+    --bg-overlay-opacity-app-frame: inherit !important;
+}
+
 /* Blur */
 :root {
 	--dplus-blur-ui: 2px;
