@@ -1476,7 +1476,7 @@ margin-right: 0;
 	margin-top: var(--dplus-spacing-app) !important;
 	margin: var(--dplus-spacing-ui) 0 0;
 }
-:root:not(.reduce-motion) .channelTextArea_d0696b:not(:has(~ .base_d7ebeb)) {
+:root:not(.reduce-motion) .channelBottomBarArea_a7d72e:not(:has(~ .base_d7ebeb)) .channelTextArea_a7d72e {
 	padding-top: 0px;
 	transition-property: padding-top;
 	transition-duration: var(--dplus-anim-long);
