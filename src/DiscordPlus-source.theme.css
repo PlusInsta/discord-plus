@@ -28,7 +28,10 @@
 	4.1 Display Font
 	4.2 Text Font
 	4.3 Names, Titles, and Headers Font
-5 Load/Disconnect + Crash 
+5 Errors
+  5.1 Loading page (disconnection)
+  5.2 Crash page
+  5.3 Nitro theme enabled
 6 Scrollerbars
 7 Modals
 	7.1 General Modal
@@ -583,9 +586,9 @@ header, h1,
 	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Lalezar', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
 }
 		
-		/*--- 5 Load/Disconnect + Crash ---*/
+		/*--- 5 Errors ---*/
 		
-/* Loading page (disconnect error) */
+    /*-- 5.1 Loading page (disconnection) --*/
 .container_e40c16 { background-color: hsla(0, 0%, 0%, 0.68) }
 .quote-3aooyW {
 	font-size: 20px !important;
@@ -604,7 +607,7 @@ header, h1,
 	width: 24px;
 }
 		
-	/* Crash error */
+    /*-- 5.2 Crash page --*/
 .errorPage_dd2aa2 {
 	width: calc(100% - var(--dplus-spacing-app) * 2)
 }
@@ -642,6 +645,47 @@ header, h1,
 	content: var(--dplus-i11n-error-discordcrash-note,"dplus-i11n");
 }
 		
+    /*-- 5.3 Nitro theme enabled --*/
+.theme-light.custom-theme-background .layers_d4b6c5.layers_a01fb1::before,
+.custom-theme-background .theme-light .layers_d4b6c5.layers_a01fb1::before,
+.theme-dark.custom-theme-background .layers_d4b6c5.layers_a01fb1::before,
+.custom-theme-background .theme-dark .layers_d4b6c5.layers_a01fb1::before {
+	content: "⚠️ Discord+";
+	display:block;
+	color:white;
+	font-family: var(--dplus-font-header);
+	font-size:16pt;
+	position:absolute;
+	width:320px;
+	height: 16px;
+	text-align: center;
+	margin-left: calc(50%/1.4575);
+	z-index:999999999;
+	backdrop-filter:blur(10px);
+	padding: 16px;
+	background:rgb(191,63,47);
+	border-radius: 10px 10px 0 0;
+}
+.theme-light.custom-theme-background .layers_d4b6c5.layers_a01fb1::after,
+.custom-theme-background .theme-light .layers_d4b6c5.layers_a01fb1::after,
+.theme-dark.custom-theme-background .layers_d4b6c5.layers_a01fb1::after,
+.custom-theme-background .theme-dark .layers_d4b6c5.layers_a01fb1::after {
+	content: var(--dplus-i11n-error-nitrotheme, "Switch away from Nitro colors to avoid compatibility issues.");
+	display:block;
+	color:white;
+	font-size:12pt;
+	position:absolute;
+	font-family: var(--dplus-font-body);
+	width:320px;
+	margin-left: calc(50%/1.4575);
+	margin-top:48px;
+	z-index:999999999;
+	backdrop-filter:blur(10px);
+	padding: 16px;
+	background: rgb(63,47,63);
+	border-radius: 0 0 10px 10px;
+}
+
 		/*--- 6 Scrollerbars ---*/
 .theme-dark ::-webkit-scrollbar-track-piece,
 .theme-dark .theme-light ::-webkit-scrollbar-track-piece,
