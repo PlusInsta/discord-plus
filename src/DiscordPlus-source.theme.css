@@ -420,7 +420,7 @@
 
 .theme-light, .theme-dark, :root {
   /* There ain't no gettin' off this train, Cloud! */
-  --theme-base-color-amount: 100% !important;
+  --theme-base-color-amount: calc( var(--dplus-background-color-saturation-factor) * 100% ) !important;
   --theme-base-color-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
   --theme-base-color-dark-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
   --theme-base-color-light-hsl: var(--dplus-accent-color-hue) var(--dplus-accent-color-saturation) var(--dplus-accent-color-lightness) !important;
