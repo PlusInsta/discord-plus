@@ -1113,16 +1113,16 @@ that have popups, or else the menu breaks when you hover over them */
 .wrapper__8436d:hover .childWrapper_f90abb, .childWrapper_f90abb {
 	background-color: transparent;
 }
-.theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
-.theme-light .theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
-.theme-light .tutorialContainer_f9623d .childWrapper_f90abb {
-	background-image: var(--dplus-icon-home-dark);
-	background-repeat: no-repeat;
+
+.tutorialContainer_f9623d .childWrapper_f90abb {
+  background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+  background-image: var(--dplus-icon-home-dark) !important;
+  .theme-light & {
+    background-image: var(--dplus-icon-home-light) !important;
+  }
 }
-.theme-light .tutorialContainer_f9623d .childWrapper_f90abb {background-image: var(--dplus-icon-home-light);}
-
 		/*--- 11 Channels Sidebar ---*/
 		
 	/*-- 11.1 General Sidebar --*/
