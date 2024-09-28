@@ -1496,6 +1496,7 @@ margin-right: 0;
 }
 .base_d7ebeb {
 	top: calc(var(--dplus-spacing-app) / 2);
+  left: calc(calc(1*var(--custom-message-margin-left-content-cozy) - 9px - 24.5px - 4px));
 }
 .typingDots_d7ebeb, .cooldownWrapper_d7ebeb {
 	background: var(--dplus-bgc-ui-card);
