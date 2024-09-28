@@ -429,14 +429,14 @@
 
 /* Discord's variables */
 .theme-dark, .theme-light {
-	--background-primary: var(--dplus-bgc-ui-base) !important;
-	--background-secondary: var(--dplus-bgc-ui-card) !important;
-	--background-tertiary: var(--dplus-bgc-popout) !important;
-	--background-secondary-alt: var(--background-modifier-selected) !important; /* bottom-left account details */
+	--background-primary: var(--dplus-bgc-popout) !important;
+	--background-secondary: var(--dplus-bgc-ui-base) !important;
+	--background-secondary-alt: var(--dplus-bgc-ui-card) !important;
+	--background-tertiary: var(--dplus-bgc-ui-base) !important;
 	--channelbodyarea-background: transparent !important;
 	--background-floating: var(--dplus-bgc-popout) !important;
-	--background-mobile-primary: var(--dplus-bgc-ui-base);
-	--background-mobile-secondary: var(--dplus-bgc-ui-base);
+	--background-mobile-primary: var(--background-primary);
+	--background-mobile-secondary: var(--background-secondary);
 	--radio-group-dot-foreground: white;
 	--brand-color: var(--brand-experiment);
 	--brand-color-hover: var(--brand-experiment);
@@ -1134,9 +1134,6 @@ that have popups, or else the menu breaks when you hover over them */
 	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui) !important;
 	margin-right: var(--dplus-spacing-app);
-}
-.panels_a4d4d9, .container_b2ca13  { /* Profile Panel*/
-	background-color: transparent !important;
 }
 	/*-- 11.2 DMs Sidebar --*/
 .scroller_c47fa9, .privateChannels_f0963d {
