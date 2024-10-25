@@ -1020,6 +1020,19 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .theme-light .wordmark_a934d8 {filter: brightness(0);}
 .theme-light .theme-dark .wordmark_a934d8 {filter: none;}
+
+/* titlebar corners get glitched with Nitro theme without this */
+.custom-theme-background .withBackgroundOverride_a934d8.typeWindows_a934d8 {
+    width: 100vw;
+    margin-left: calc(var(--dplus-radius-ui) * -1);
+    border-radius: 0px;
+}
+
+/* settings bg, offset to go behind titlebar */
+.platform-win .bg_d4b6c5 { 
+    top: calc(var(--dplus-spacing-app)* -1 - 23px);
+}
+
 	/*-- 9.2 MacOS Buttons --*/	
 .typeMacOS_a934d8 {
 	background: var(--dplus-bgc-ui-base);
