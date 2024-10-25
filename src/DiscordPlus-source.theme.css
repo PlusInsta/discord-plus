@@ -31,7 +31,6 @@
 5 Errors
   5.1 Loading page (disconnection)
   5.2 Crash page
-  5.3 Nitro theme enabled
 6 Scrollerbars
 7 Modals
 	7.1 General Modal
@@ -427,47 +426,6 @@
   --theme-base-color: hsl(var(--dplus-accent-color-hue), var(--dplus-accent-color-saturation), var(--dplus-accent-color-lightness)) !important;
   --theme-base-color-dark: hsl(var(--dplus-accent-color-hue), var(--dplus-accent-color-saturation), var(--dplus-accent-color-lightness)) !important;
   --theme-base-color-light: hsl(var(--dplus-accent-color-hue), var(--dplus-accent-color-saturation), var(--dplus-accent-color-lightness)) !important;
-  &.custom-theme-background, & .custom-theme-background {
-    --theme-base-color: inherit;
-    --theme-text-color: inherit;
-    --theme-base-color-hsl: inherit;
-    --theme-text-color-amount: 0% !important;
-    --custom-theme-background: inherit;
-  }
-}
-
-.custom-theme-background {
-    --bg-overlay-1: inherit !important;
-    --bg-overlay-2: inherit !important;
-    --bg-overlay-3: inherit !important;
-    --bg-overlay-4: inherit !important;
-    --bg-overlay-5: inherit !important;
-    --bg-overlay-6: inherit !important;
-    --bg-overlay-hover: inherit !important;
-    --bg-overlay-active: inherit !important;
-    --bg-overlay-selected: inherit !important;
-    --bg-overlay-chat: inherit !important;
-    --bg-overlay-home: inherit !important;
-    --bg-overlay-home-card: inherit !important;
-    --bg-overlay-app-frame: inherit !important;
-    --bg-overlay-color: inherit !important;
-    --bg-overlay-color-inverse: inherit !important;
-    --bg-overlay-opacity-1: inherit !important;
-    --bg-overlay-opacity-2: inherit !important;
-    --bg-overlay-opacity-3: inherit !important;
-    --bg-overlay-opacity-4: inherit !important;
-    --bg-overlay-opacity-5: inherit !important;
-    --bg-overlay-opacity-6: inherit !important;
-    --bg-overlay-opacity-hover: inherit !important;
-    --bg-overlay-opacity-hover-inverse: inherit !important;
-    --bg-overlay-opacity-active: inherit !important;
-    --bg-overlay-opacity-active-inverse: inherit !important;
-    --bg-overlay-opacity-selected: inherit !important;
-    --bg-overlay-opacity-selected-inverse: inherit !important;
-    --bg-overlay-opacity-chat: inherit !important;
-    --bg-overlay-opacity-home: inherit !important;
-    --bg-overlay-opacity-home-card: inherit !important;
-    --bg-overlay-opacity-app-frame: inherit !important;
 }
 
 /* Blur */
@@ -695,47 +653,6 @@ header, h1,
 .note_a2a7b5 div p:nth-child(2):after {
 	font-size: 16px;
 	content: var(--dplus-i11n-error-discordcrash-note,"dplus-i11n");
-}
-		
-    /*-- 5.3 Nitro theme enabled --*/
-.theme-light.custom-theme-background .layers_d4b6c5.layers_a01fb1::before,
-.custom-theme-background .theme-light .layers_d4b6c5.layers_a01fb1::before,
-.theme-dark.custom-theme-background .layers_d4b6c5.layers_a01fb1::before,
-.custom-theme-background .theme-dark .layers_d4b6c5.layers_a01fb1::before {
-	content: "⚠️ Discord+";
-	display:block;
-	color:white;
-	font-family: var(--dplus-font-header);
-	font-size:16pt;
-	position:absolute;
-	width:320px;
-	height: 16px;
-	text-align: center;
-	margin-left: calc(50%/1.4575);
-	z-index:999999999;
-	backdrop-filter:blur(10px);
-	padding: 16px;
-	background:rgb(191,63,47);
-	border-radius: 10px 10px 0 0;
-}
-.theme-light.custom-theme-background .layers_d4b6c5.layers_a01fb1::after,
-.custom-theme-background .theme-light .layers_d4b6c5.layers_a01fb1::after,
-.theme-dark.custom-theme-background .layers_d4b6c5.layers_a01fb1::after,
-.custom-theme-background .theme-dark .layers_d4b6c5.layers_a01fb1::after {
-	content: var(--dplus-i11n-error-nitrotheme, "Switch away from Nitro colors to avoid compatibility issues.");
-	display:block;
-	color:white;
-	font-size:12pt;
-	position:absolute;
-	font-family: var(--dplus-font-body);
-	width:320px;
-	margin-left: calc(50%/1.4575);
-	margin-top:48px;
-	z-index:999999999;
-	backdrop-filter:blur(10px);
-	padding: 16px;
-	background: rgb(63,47,63);
-	border-radius: 0 0 10px 10px;
 }
 
 		/*--- 6 Scrollerbars ---*/
