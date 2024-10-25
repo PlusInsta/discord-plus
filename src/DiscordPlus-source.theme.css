@@ -1181,7 +1181,7 @@ margin-right: 0;
 .container-36u7Lw, .applicationStore_cecc86 {border-radius: var(--dplus-radius-ui);}
 	/*-- 12.4 Chat --*/	
 .chat_a7d72e, .wrapper-22ayhK {
-	background-color: transparent;
+	background: transparent;
 	border-radius: var(--dplus-radius-ui)	;
 }
 .chatContent_a7d72e, .form_a7d72e:before, .replying_d5deea:before {
