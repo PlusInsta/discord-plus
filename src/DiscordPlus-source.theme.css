@@ -933,14 +933,8 @@ that have popups, or else the menu breaks when you hover over them */
 	z-index: 2;
 }
 */
-
-/* this link doesn't do much other than take up space */
-.setIdentityLink-hOFsMl {
+.mask_d5fdb1 circle {
 	display: none;
-}
-
-.customStatus-3XAoF9 {
-	padding-top: var(--dplus-spacing-ui)
 }
 
 .avatarWrapper_f89da9:before {
@@ -1270,23 +1264,17 @@ margin-right: 0;
 	margin: 0
 }
 		/*- 12.4.1 Message Seperation -*/	
-.messageListItem_d5deea:has(+ .messageListItem_d5deea .avatar_f9f2ca,  + .backgroundFlash_d5deea .avatar_f9f2ca, + .scrollerSpacer_e2e187, + .divider_d5deea ) .groupStart_d5deea:has(.avatar_f9f2ca), 
-.quotedChatMessage_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea, > div) .groupStart_d5deea:has(.avatar_f9f2ca),
-.backgroundFlash_d5deea:has(+ .messageListItem_d5deea .avatar_f9f2ca, + .backgroundFlash_d5deea .avatar_f9f2ca, + .divider_d5deea) .groupStart_d5deea:has(.avatar_f9f2ca) {min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat));}
+:is(.messageListItem_d5deea, .quotedChatMessage_d5deea, .backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea,  + .backgroundFlash_d5deea .avatar_f9f2ca, + .scrollerSpacer_e2e187, + .divider_d5deea) .groupStart_d5deea 	{min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat));}
 .cozy_f9f2ca.wrapper_f9f2ca {padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);}
 .groupStart_d5deea,
-.divider_d5deea + .messageListItem_d5deea .message_d5deea, 
-.divider_d5deea + .backgroundFlash_d5deea .message_d5deea {
+.divider_d5deea + :is(.messageListItem_d5deea, .backgroundFlash_d5deea) .message_d5deea {
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
 }
-.messageListItem_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .message_d5deea,
-.backgroundFlash_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .message_d5deea {
+:is(.messageListItem_d5deea,.backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .message_d5deea {
 	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
 }
-.messageListItem_d5deea:has( + .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .groupStart_d5deea,
-.divider_d5deea + .messageListItem_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea) .message_d5deea,
-.divider_d5deea + .backgroundFlash_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea) .message_d5deea,
-.backgroundFlash_d5deea:has( + .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .groupStart_d5deea {
+:is(.messageListItem_d5deea,.backgroundFlash_d5deea):has( + .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .groupStart_d5deea,
+.divider_d5deea + :is(.messageListItem_d5deea, .backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea) .message_d5deea {
 	border-radius: var(--dplus-radius-ui);
 }
 	/* Forum */
@@ -1452,6 +1440,7 @@ margin-right: 0;
 
 .channelAppLauncher_df39bd {
   margin-bottom: calc(var(--dplus-spacing-ui) / 2);
+  & .button_df39bd {background-color: var(--dplus-bgc-chatmsg);}	
 }
 		/*- 12.4.6 Search Function -*/	
 	/* Search */
@@ -1597,7 +1586,7 @@ margin-right: 0;
 .wrapper_c51b4e [mask="url(#svg-mask-avatar-decoration-status-round-80)"] img { /* this uncrops the avatar decorations after that line above */
   border-radius: inherit !important;
 } 
-.wrapper_c51b4e img, .wrapper-1VLyxH img, .voiceAvatar_db83a2, .border_db83a2, .avatarHint_f89da9, .wrapper_db83a2.ringingIncoming_db83a2:after, .wrapper_db83a2.ringingOutgoing_db83a2:after, .avatar_f9f2ca, .option-2KkUJO.user-23VtPS .displayAvatar-3XS1w6  {
+.wrapper_c51b4e img, .wrapper-1VLyxH img, .voiceAvatar_db83a2, .border_db83a2, .clickable_f94206:hover .overlay_f94206:after, .wrapper_db83a2.ringingIncoming_db83a2:after, .wrapper_db83a2.ringingOutgoing_db83a2:after, .avatar_f9f2ca, .option-2KkUJO.user-23VtPS .displayAvatar-3XS1w6  {
 	border-radius: var(--dplus-radius-avatar) !important; }
 .avatar_f9f2ca.clickable_f9f2ca:active {translate: none;}
 /* In chat avatar decorations*/
