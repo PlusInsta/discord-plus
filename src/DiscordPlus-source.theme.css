@@ -1150,9 +1150,7 @@ margin-right: 0;
 	width: fit-content	;
 	opacity: 1;
 }
-.iconVisibility_f6f816 .children_d8bfb3,
-.iconVisibility_f6f816 .iconItem_f6f816,
-.iconVisibility_f6f816 .channelInfo_f6f816,
+.iconVisibility_f6f816:is(.children_d8bfb3, .iconItem_f6f816, .channelInfo_f6f816),
 .iconVisibility_f6f816:hover .wrapper_a5bc92 {
 	transition-duration: var(--dplus-anim-button-appear);
 }
@@ -1200,8 +1198,7 @@ margin-right: 0;
 .group-spacing-8 { --group-spacing: 8px; }
 .group-spacing-16 { --group-spacing: 16px; }
 .group-spacing-24 { --group-spacing: var(--dplus-spacing-ui); }
-.messageListItem_d5deea .message_d5deea,
-.quotedChatMessage_d5deea .message_d5deea {
+:is(.messageListItem_d5deea, .quotedChatMessage_d5deea) .message_d5deea {
 	background: var(--dplus-bgc-chatmsg);
 }
 
@@ -1264,7 +1261,10 @@ margin-right: 0;
 	margin: 0
 }
 		/*- 12.4.1 Message Seperation -*/	
-:is(.messageListItem_d5deea, .quotedChatMessage_d5deea, .backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea,  + .backgroundFlash_d5deea .avatar_f9f2ca, + .scrollerSpacer_e2e187, + .divider_d5deea) .groupStart_d5deea 	{min-height: calc(var(--dplus-spacing-ui) + var(--dplus-icon-avatar-chat));}
+:is(.messageListItem_d5deea, .quotedChatMessage_d5deea, .backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea,  + .backgroundFlash_d5deea .avatar_f9f2ca, + .scrollerSpacer_e2e187, + .divider_d5deea) .groupStart_d5deea 	{
+	min-height: calc(var(--dplus-spacing-ui)*2 + var(--dplus-icon-avatar-chat));
+	padding-top: 0; padding-bottom: 0;
+}
 .cozy_f9f2ca.wrapper_f9f2ca {padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);}
 .groupStart_d5deea,
 .divider_d5deea + :is(.messageListItem_d5deea, .backgroundFlash_d5deea) .message_d5deea {
@@ -1553,7 +1553,7 @@ margin-right: 0;
 .member_cbd271, .members_cbd271 {background: none;}
 /*this class is the whole member list*/
 .members_cbd271>div, 
-	.container_cbd271 {
+.container_cbd271 {
 	background: transparent;
 	background-color: transparent;
 	border-bottom-left-radius: var(--dplus-radius-ui);
@@ -1948,12 +1948,12 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 }
 .bda-links {
 	font-size: 0;
-}
-.bda-links .bda-link {
-	font-size: 12px;
-}
-.bda-link:not(:first-of-type) {
-	margin-left: 10px;
+	& .bda-link {
+		font-size: 12px;
+	}
+	&:not(:first-of-type) {
+		margin-left: 10px;
+	}
 }
 .theme-dark .bda-slist .bda-header, .theme-dark .bda-slist .bda-description  { color: white; }
 
