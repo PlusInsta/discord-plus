@@ -1150,7 +1150,7 @@ margin-right: 0;
 	width: fit-content	;
 	opacity: 1;
 }
-.iconVisibility_f6f816:is(.children_d8bfb3, .iconItem_f6f816, .channelInfo_f6f816),
+.iconVisibility_f6f816 :is(.children_d8bfb3, .iconItem_f6f816, .channelInfo_f6f816),
 .iconVisibility_f6f816:hover .wrapper_a5bc92 {
 	transition-duration: var(--dplus-anim-button-appear);
 }
