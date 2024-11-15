@@ -1261,7 +1261,7 @@ margin-right: 0;
 	margin: 0
 }
 		/*- 12.4.1 Message Seperation -*/	
-:is(.messageListItem_d5deea, .quotedChatMessage_d5deea, .backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea,  + .backgroundFlash_d5deea .avatar_f9f2ca, + .scrollerSpacer_e2e187, + .divider_d5deea) .groupStart_d5deea 	{
+:is(.messageListItem_d5deea, .quotedChatMessage_d5deea, .backgroundFlash_d5deea):has(+ .messageListItem_d5deea .groupStart_d5deea,  + .backgroundFlash_d5deea .groupStart_d5deea, + .scrollerSpacer_e2e187, + .divider_d5deea) .groupStart_d5deea:has(.avatar_f9f2ca) 	{
 	min-height: calc(var(--dplus-spacing-ui)*2 + var(--dplus-icon-avatar-chat));
 	padding-top: 0; padding-bottom: 0;
 }
