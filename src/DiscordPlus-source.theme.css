@@ -1044,6 +1044,7 @@ that have popups, or else the menu breaks when you hover over them */
 .guildSeparator-3s64Iy, .guildSeparator-33mFX6 {display: none}
 .folder_bc7085 {background-color: transparent;}
 .folder_bc7085.hover-qTxTR_ {background-color: var(--dplus-bgc-server-button-hover)}
+.folderIcon_bc7085 {padding: 4px;}
 .guilds_a4d4d9 {
 	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
