@@ -1775,8 +1775,8 @@ margin-right: 0;
 		z-index: 1;
 		pointer-events: none;
 }}
-.sliderContainer_ba5b9e::after {
-	content: "Accent coloured box previews how much is visible with the theme on.";
+.root_f9a4c9:has(.editingContainer_ba5b9e>.overlayAvatar_ba5b9e) .sliderContainer_ba5b9e::after {
+	content: var(--dplus-i11n-notice-avatar-crop-preview,--dplus-i11n-missingno);
 	color: var(--text-normal);
 	position: absolute;
 	bottom: 10px;

@@ -1,6 +1,42 @@
 /* i11n */
 /* Explanation: First, the source string shown for if a language is missing, which should be clearly worded, then, the actual localizated languages in the order they appear inside the Discord app. */
 
+html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the border-radius of Discord+."; }
+/* This message clarifies the accent colored square/circle in the avatar crop tool. */
+/*[lang="da"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="de"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+[lang="en-US"] { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the Discord+ border-radius."; }
+[lang="en-GB"] { --dplus-i11n-notice-avatar-crop-preview: "The coloured outline displays the border-radius of Discord+."; }
+/*[lang="es-ES"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="fr"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="hr"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="it"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="lt"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="hu"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="nl"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+[lang="no"] { --dplus-i11n-notice-avatar-crop-preview: "Den fargede utlinjen viser Discord+ border-radius."; }
+/*[lang="pl"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+[lang="pt-BR"] { --dplus-i11n-notice-avatar-crop-preview: "A borda colorida demonstra border-radius do Discord+."; }
+/*[lang="ro"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="fi"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="vi"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="tr"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="da"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="cs"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="el"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="bg"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="ru"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="uk"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="hi"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="th"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="ja"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+/*[lang="ko"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+
+
 html { --dplus-i11n-error-nitrotheme: "You have set a Nitro color theme, and must change to light theme or dark theme to prevent issues."; }
 /* This message will appear if there are issues with Nitro color themes. */
 /*[lang="da"] { --dplus-i11n-error-nitrotheme: ""; }*/
