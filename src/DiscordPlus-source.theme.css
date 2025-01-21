@@ -86,41 +86,85 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:400,700&family=Roboto:400,700&family=Righteous&family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&family=Lalezar&display=swap);
 		
 		/*--- 2 Default Values ---*/
+:root {
+	/* Unit: size (e.g. pixels) */
+	--dplus-radius-ui: 10px;
+	--dplus-radius-avatar: 20%;
+	--dplus-radius-server: 20%;
+
+	--dplus-spacing-ui: 10px;
+	--dplus-spacing-app: 10px;
+
+	--dplus-icon-avatar-chat: 64px;
+	--dplus-icon-avatar-list: 32px;
+	--dplus-icon-avatar-profile: 80px;
+
+	--dplus-icon-server-sidebar: 48px;
+	--dplus-icon-server-list: 32px;
+
+	--dplus-scrollbar-width: 10px;
+	--dplus-channels-width: 240px;
+	--dplus-members-width: 240px;
+
+	/* Value: CSS background-image */
+	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+	--dplus-wordmark: url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
+
+	/* Unit: seconds */
+	--dplus-anim-short: .2s;
+	--dplus-anim-long: .5s;
+	--dplus-anim-sticky: .2s;
+	--dplus-anim-button: .25s;
+	--dplus-anim-button-appear: .25s;
+
+	/* Unit: percent (no symbol) */
+	--dplus-blur-scale: 100;
+}
 
 .theme-dark {
 	--dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
 	
-	--dplus-accent-color-hue: 320;
-	--dplus-accent-color-saturation: 60%;
-	--dplus-accent-color-lightness: 31%;
+	/* accent color is used for things like buttons */
+	--dplus-accent-color-hue: 320; /* hue in HSL */
+	--dplus-accent-color-saturation: 60%; /* saturation in HSL */
+	--dplus-accent-color-lightness: 31%; /* lightness in HSL */
 	
+	/* foreground color affects icons, text, and many other things in the UI */
 	--dplus-foreground-color-hue-base: 210; /* based on vanilla --text-normal hue */
 	--dplus-foreground-color-hue-links: 197;
-	--dplus-foreground-color-saturation-amount: 1;
-	--dplus-foreground-color-lightness-amount: 1;
+	--dplus-foreground-color-saturation-amount: 1; /* offset, where 1 is normal strength and 0.5 is -50 percentile, can go above 1 at risk of clipping */
+	--dplus-foreground-color-lightness-amount: 1; /* ditto, 1 is normal and 0.5 is -50 percentile, can go above 1 at risk of clipping */
 	
+	/* background color affects the squares that darken the backdrop */
 	--dplus-background-color-hue: 320;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
-	--dplus-background-color-alpha: 0.8;
+	--dplus-background-color-alpha: 0.8; /* how opaque the backgrounds should be, where 1 is fully opaque and 0 is fully transparent. not recommended to set to 0 unless background is very dark or black */
 }
 .theme-light {
 	--dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
 	
-	--dplus-accent-color-hue: 320;
-	--dplus-accent-color-saturation: 60%;
-	--dplus-accent-color-lightness: 31%;
-	
+	/* accent color is used for things like buttons */
+	--dplus-accent-color-hue: 320; /* hue in HSL */
+	--dplus-accent-color-saturation: 60%; /* saturation in HSL */
+	--dplus-accent-color-lightness: 31%; /* lightness in HSL */
+
+	/* foreground color affects icons, text, and many other things in the UI */
 	--dplus-foreground-color-hue-base: 210;
 	--dplus-foreground-color-hue-links: 197;
-	--dplus-foreground-color-saturation-amount: 1;
-	--dplus-foreground-color-lightness-amount: 1;
+	--dplus-foreground-color-saturation-amount: 1; /* offset, where 1 is normal strength and 0.5 is -50 percentile, can go above 1 at risk of clipping */
+	--dplus-foreground-color-lightness-amount: 1; /* ditto, 1 is normal and 0.5 is -50 percentile, can go above 1 at risk of clipping */
 	
 	--dplus-background-color-hue: 320;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
-	--dplus-background-color-alpha: 0.8;
+	--dplus-background-color-alpha: 0.8; /* how opaque the backgrounds should be, where 1 is fully opaque and 0 is fully transparent. not recommended to set to 0 unless background is very light or white */
 }
+
+/* This marks the end of the default values section. */
+/* The variables that follow are shorthands used by the developers. */
+/* Please do not change them, as they are meant to be constants. */
 
 .theme-dark {
 	--dplus-background-color-lightness-025: 2.5%;
@@ -180,47 +224,6 @@
 	
 	--dplus-bgc-radiobar-hover: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-150)), calc(var(--dplus-background-color-alpha) * 100% + var(--dplus-bg-hover-alpha-modifier, 10%)));
 	--dplus-bgc-radiobar-selected: hsla(var(--dplus-background-color-hue), calc(var(--dplus-background-color-saturation-factor) * 50%), calc(var(--dplus-background-color-lightness-amount) * var(--dplus-background-color-lightness-200)), calc(var(--dplus-background-color-alpha) * 80%));	
-}
-
-:root {
-	/* Radiuses */
-	--dplus-radius-ui: 10px;
-	--dplus-radius-avatar: 20%;
-	--dplus-radius-server: 20%;
-
-	/* Spacing */
-	--dplus-spacing-ui: 10px;
-	--dplus-spacing-app: 10px;
-
-	/* Wordmark (Windows only) */
-	--dplus-wordmark: url(https://plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
-
-	/* Icons */
-	--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
-	--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
-
-	/* Icon sizes*/
-	--dplus-icon-avatar-chat: 64px;
-	--dplus-icon-avatar-list: 32px;
-	--dplus-icon-avatar-profile: 80px;
-	
-	--dplus-icon-server-sidebar: 48px;
-	--dplus-icon-server-list: 32px;
-
-	/* Animation lengths */
-	--dplus-anim-short: .2s;
-	--dplus-anim-long: .5s;
-	--dplus-anim-sticky: .2s;
-	--dplus-anim-button: .25s;
-	--dplus-anim-button-appear: .25s;
-
-	/* Widths */
-	--dplus-channels-width: 240px;
-	--dplus-members-width: 240px;
-	--dplus-scrollbar-width: 10px;
-
-	/* Scales */
-	--dplus-blur-scale: 100;
 }
 
 /* Disable animations for reduce-motion */
@@ -1004,7 +1007,7 @@ that have popups, or else the menu breaks when you hover over them */
 }
 .wordmark_a934d8 {
 	display: block;
-	background: var(--dplus-wordmark);
+	background-image: var(--dplus-wordmark);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 0 !important;
