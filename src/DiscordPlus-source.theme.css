@@ -1344,12 +1344,12 @@ margin-right: 0;
 .embed_b0068a {
 	border-radius: var(--dplus-radius-ui);
 }
-#app-mount .attachment_b52bef,
+#app-mount .fileWrapper_f46c86,
 #app-mount .wrapper_f316dd {
 	background-color: var(--dplus-bgc-popout)!important;
 	border-color: var(--dplus-accent-ui) !important;
 }
-.attachment_b52bef,
+.fileWrapper_f46c86,
 .wrapper_f316dd,
 .audioControls_f316dd,
 .videoControls_f316dd {
@@ -1398,7 +1398,7 @@ margin-right: 0;
 .base_d7ebeb {
 	top: calc(var(--dplus-spacing-app) / 2);
 }
-.typingDots_d7ebeb, .cooldownWrapper_d7ebeb {
+.typingDots_d7ebeb, .cooldownWrapper_f85cd6 {
 	background: var(--dplus-bgc-ui-card);
 	border-radius: var(--dplus-radius-ui);
 	padding-right: 0.25rem;
