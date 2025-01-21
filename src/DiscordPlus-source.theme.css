@@ -636,30 +636,6 @@ header, h1,
 	margin: var(--dplus-spacing-app) calc(var(--dplus-spacing-app) * 2) var(--dplus-spacing-app) var(--dplus-spacing-app);
 	border-radius: var(--dplus-radius-ui);
 }
-.theme-dark .image_a2a7b5,
-.theme-light .image_a2a7b5 {
-	background-image: url('https://cdn.discordapp.com/attachments/560369937084973067/853659649340473414/28.webp')
-}
-.image_a2a7b5 {
-	width: 256px;
-	height: 256px;
-	margin-bottom: 40px;
-	background-size: 256px 256px;
-}
-.title_a2a7b5, .note_a2a7b5 div p {font-size: 0px;}
-.title_a2a7b5:after {
-	font-size: 24px;
-	content: var(--dplus-i11n-error-discordcrash-title,--dplus-i11n-missingno);
-}
-.note_a2a7b5 div p:first-child:after {
-	font-size: 16px;
-	content: var(--dplus-i11n-error-discordcrash-body,--dplus-i11n-missingno);
-	color: white;
-}
-.note_a2a7b5 div p:nth-child(2):after {
-	font-size: 16px;
-	content: var(--dplus-i11n-error-discordcrash-note,--dplus-i11n-missingno);
-}
 
 		/*--- 6 Scrollerbars ---*/
 .theme-dark ::-webkit-scrollbar-track-piece,
