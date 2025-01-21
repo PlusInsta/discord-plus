@@ -80,12 +80,10 @@
 */
 
 /*--- 1 imports ---*/
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
+@import url('https://plusinsta.github.io/discord-plus/src/i11n.css');
 @import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
-/* Main fonts */
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
-/* Localized fonts */
-@import url(https://fonts.googleapis.com/css2?family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&family=Lalezar&display=swap);
+/* Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:400,700&family=Roboto:400,700&family=Righteous&family=Kosugi&family=RocknRoll+One&family=Gothic+A1&family=Black+Han+Sans&family=PT+Sans+Caption&family=Russo+One&family=Palanquin+Dark&family=Raleway:wght@500&family=Commissioner&family=Alegreya+Sans:wght@700&family=Mitr&family=Lalezar&display=swap);
 		
 		/*--- 2 Default Values ---*/
 
@@ -436,6 +434,10 @@
 	--blurcalc-ui: blur(calc(var(--dplus-blur-ui) / 100 * var(--dplus-blur-scale)));
 }
 
+/* Placeholder text that should never show up */
+:root {
+	--dplus-i11n-missingno: "missing text";
+}
 
 /* Discord's variables */
 .theme-dark, .theme-light {
@@ -643,16 +645,16 @@ header, h1,
 .title_a2a7b5, .note_a2a7b5 div p {font-size: 0px;}
 .title_a2a7b5:after {
 	font-size: 24px;
-	content: var(--dplus-i11n-error-discordcrash-title,"Congratulations!");
+	content: var(--dplus-i11n-error-discordcrash-title,--dplus-i11n-missingno);
 }
 .note_a2a7b5 div p:first-child:after {
 	font-size: 16px;
-	content: var(--dplus-i11n-error-discordcrash-body,"You just unlocked Discord Minus!");
+	content: var(--dplus-i11n-error-discordcrash-body,--dplus-i11n-missingno);
 	color: white;
 }
 .note_a2a7b5 div p:nth-child(2):after {
 	font-size: 16px;
-	content: var(--dplus-i11n-error-discordcrash-note,"dplus-i11n");
+	content: var(--dplus-i11n-error-discordcrash-note,--dplus-i11n-missingno);
 }
 
 		/*--- 6 Scrollerbars ---*/
