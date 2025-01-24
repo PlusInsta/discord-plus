@@ -1770,6 +1770,10 @@ margin-right: 0;
 #app-mount .paginator_f66684 {background-color: transparent!important;}
 #app-mount .bottomDivider_f66684 {border-color: var(--dplus-accent-ui);}
 	/* Voice and Video */
+#voice-\&-video-tab { /*Temp fix for the tab endlessly increasing in width */
+	max-width: calc(100vw - 274px - var(--dplus-spacing-ui) - var(--dplus-spacing-app)*2);
+	box-sizing: border-box;
+	}
 .css-gvi9bl-control, .css-6fzn47-control, .css-17e1tep-control {border-color: var(--dplus-accent-ui)!important;}
 .css-3vaxre-menu {
 	background-color: var(--dplus-bgc-popout);
