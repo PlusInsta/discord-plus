@@ -90,27 +90,27 @@
 }
 
 /* Supporters */
-.member_cbd271:has([src*="220275692926009344"]), .contents_f9f2ca:has([src*="220275692926009344"]), .userProfileModalInner_c69a7b:has([src*="220275692926009344"])
-.member_cbd271:has([src*="367617500021784587"]), .contents_f9f2ca:has([src*="367617500021784587"]), .userProfileModalInner_c69a7b:has([src*="367617500021784587"]),
-.member_cbd271:has([src*="719378258491342878"]), .contents_f9f2ca:has([src*="719378258491342878"]), .userProfileModalInner_c69a7b:has([src*="719378258491342878"]),
-.member_cbd271:has([src*="644964603108786233"]), .contents_f9f2ca:has([src*="644964603108786233"]), .userProfileModalInner_c69a7b:has([src*="644964603108786233"]),
-.member_cbd271:has([src*="299958646748741632"]), .contents_f9f2ca:has([src*="299958646748741632"]), .userProfileModalInner_c69a7b:has([src*="299958646748741632"]),
-.member_cbd271:has([src*="354342865695932423"]), .contents_f9f2ca:has([src*="354342865695932423"]), .userProfileModalInner_c69a7b:has([src*="354342865695932423"]),
-.member_cbd271:has([src*="275432265100558336"]), .contents_f9f2ca:has([src*="275432265100558336"]), .userProfileModalInner_c69a7b:has([src*="275432265100558336"]),
-.member_cbd271:has([src*="852664018438717481"]), .contents_f9f2ca:has([src*="852664018438717481"]), .userProfileModalInner_c69a7b:has([src*="852664018438717481"]),
-.member_cbd271:has([src*="299339580593799171"]), .contents_f9f2ca:has([src*="299339580593799171"]), .userProfileModalInner_c69a7b:has([src*="299339580593799171"]),
-.member_cbd271:has([src*="224367608382619648"]), .contents_f9f2ca:has([src*="224367608382619648"]), .userProfileModalInner_c69a7b:has([src*="224367608382619648"]),
-.member_cbd271:has([src*="356817504330448906"]), .contents_f9f2ca:has([src*="356817504330448906"]), .userProfileModalInner_c69a7b:has([src*="356817504330448906"]),
-.member_cbd271:has([src*="181240443747434496"]), .contents_f9f2ca:has([src*="181240443747434496"]), .userProfileModalInner_c69a7b:has([src*="181240443747434496"]),
-.member_cbd271:has([src*="168569629906698240"]), .contents_f9f2ca:has([src*="168569629906698240"]), .userProfileModalInner_c69a7b:has([src*="168569629906698240"]),
-.member_cbd271:has([src*="408875276265848833"]), .contents_f9f2ca:has([src*="408875276265848833"]), .userProfileModalInner_c69a7b:has([src*="408875276265848833"]) {
+.member_c8ffbb:has([src*="220275692926009344"]), .contents_c19a55:has([src*="220275692926009344"]), .userProfileModalInner_c69a7b:has([src*="220275692926009344"])
+.member_c8ffbb:has([src*="367617500021784587"]), .contents_c19a55:has([src*="367617500021784587"]), .userProfileModalInner_c69a7b:has([src*="367617500021784587"]),
+.member_c8ffbb:has([src*="719378258491342878"]), .contents_c19a55:has([src*="719378258491342878"]), .userProfileModalInner_c69a7b:has([src*="719378258491342878"]),
+.member_c8ffbb:has([src*="644964603108786233"]), .contents_c19a55:has([src*="644964603108786233"]), .userProfileModalInner_c69a7b:has([src*="644964603108786233"]),
+.member_c8ffbb:has([src*="299958646748741632"]), .contents_c19a55:has([src*="299958646748741632"]), .userProfileModalInner_c69a7b:has([src*="299958646748741632"]),
+.member_c8ffbb:has([src*="354342865695932423"]), .contents_c19a55:has([src*="354342865695932423"]), .userProfileModalInner_c69a7b:has([src*="354342865695932423"]),
+.member_c8ffbb:has([src*="275432265100558336"]), .contents_c19a55:has([src*="275432265100558336"]), .userProfileModalInner_c69a7b:has([src*="275432265100558336"]),
+.member_c8ffbb:has([src*="852664018438717481"]), .contents_c19a55:has([src*="852664018438717481"]), .userProfileModalInner_c69a7b:has([src*="852664018438717481"]),
+.member_c8ffbb:has([src*="299339580593799171"]), .contents_c19a55:has([src*="299339580593799171"]), .userProfileModalInner_c69a7b:has([src*="299339580593799171"]),
+.member_c8ffbb:has([src*="224367608382619648"]), .contents_c19a55:has([src*="224367608382619648"]), .userProfileModalInner_c69a7b:has([src*="224367608382619648"]),
+.member_c8ffbb:has([src*="356817504330448906"]), .contents_c19a55:has([src*="356817504330448906"]), .userProfileModalInner_c69a7b:has([src*="356817504330448906"]),
+.member_c8ffbb:has([src*="181240443747434496"]), .contents_c19a55:has([src*="181240443747434496"]), .userProfileModalInner_c69a7b:has([src*="181240443747434496"]),
+.member_c8ffbb:has([src*="168569629906698240"]), .contents_c19a55:has([src*="168569629906698240"]), .userProfileModalInner_c69a7b:has([src*="168569629906698240"]),
+.member_c8ffbb:has([src*="408875276265848833"]), .contents_c19a55:has([src*="408875276265848833"]), .userProfileModalInner_c69a7b:has([src*="408875276265848833"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
 }
 /* Developers */
-.member_cbd271:has([src*="309931975102300160"]), .contents_f9f2ca:has([src*="309931975102300160"]), .userProfileModalInner_c69a7b:has([src*="309931975102300160"]),
-.member_cbd271:has([src*="207335168430702602"]), .contents_f9f2ca:has([src*="207335168430702602"]), .userProfileModalInner_c69a7b:has([src*="207335168430702602"]),
-.member_cbd271:has([src*="394891840815366147"]), .contents_f9f2ca:has([src*="394891840815366147"]), .userProfileModalInner_c69a7b:has([src*="394891840815366147"]) {
+.member_c8ffbb:has([src*="309931975102300160"]), .contents_c19a55:has([src*="309931975102300160"]), .userProfileModalInner_c69a7b:has([src*="309931975102300160"]),
+.member_c8ffbb:has([src*="207335168430702602"]), .contents_c19a55:has([src*="207335168430702602"]), .userProfileModalInner_c69a7b:has([src*="207335168430702602"]),
+.member_c8ffbb:has([src*="394891840815366147"]), .contents_c19a55:has([src*="394891840815366147"]), .userProfileModalInner_c69a7b:has([src*="394891840815366147"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
 }
@@ -119,12 +119,12 @@
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,
 .headerTag-16AlQV:after, .text-lg-semibold__84aef:after
   { filter: drop-shadow(0px 0px 2px black); }
-.headerText_f9f2ca:after, .text-lg-semibold__84aef::after{
+.headerText_c19a55:after, .text-lg-semibold__84aef::after{
   background-image: var(--dplus-badge); margin-left: 10px;
   width: 80px; height: 1rem; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: inline-block; z-index: 0; }
 
   /* D+ badge in member list */
-.username_a31c43:after {
+.username__703b9:after {
   content: var(--dplus-dev, var(--dplus-supporter));
   background-image: var(--dplus-badge-memberlist);
   margin-left: 3px;
