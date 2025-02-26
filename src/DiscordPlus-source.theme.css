@@ -1065,6 +1065,7 @@ that have popups, or else the menu breaks when you hover over them */
 .scrollerBase__99f8c, .privateChannels__35e86 {
 	background-color: transparent!important;
 }
+.visual-refresh .scroller__99e7c {margin-bottom: 0;}
 .privateChannels__35e86 .channel__972a0 {
 	margin-left: var(--dplus-spacing-ui);
 	margin-right: var(--dplus-spacing-ui);
@@ -1083,6 +1084,7 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .container__2637a, .container__551b0,  .visual-refresh #app-mount .header_f37cb1, .visual-refresh .clickable_f37cb1  {
 	background-color: transparent;
 }
+.visual-refresh .container__2637a {padding-bottom: 0;}
 /* Animated channel buttons */
 .iconItem_c69b6d {display: block !important;}
 .iconVisibility_c69b6d .children__2ea32 {
