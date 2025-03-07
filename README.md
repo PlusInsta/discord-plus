@@ -2,8 +2,8 @@
 
 A sleek, customizable Discord theme, inspired by Material.
 
-![Screenshot of Discord+ in dark theme](https://imgur.com/9MfnL5D)
-![Screenshot of Discord+ in light theme](https://imgur.com/GyZaSyE)
+![Screenshot of Discord+ in dark theme](https://imgur.com/9MfnL5D.png)
+![Screenshot of Discord+ in light theme](https://imgur.com/GyZaSyE.png)
 
 **Discord+** is a theme for [Discord](https://discord.com). It's both sleek and customizable, without getting in your way. Its top priority is balancing between looks and performance.
 
