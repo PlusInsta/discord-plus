@@ -528,6 +528,9 @@ body { background-color: var(--dplus-accent-ui); }
 .layers__160d8  {
 	margin: var(--dplus-spacing-app) !important; 
 }
+.app_a3002d:nth-child(1) {
+    color: transparent;
+}
 
 		/*--- 4 Fonts ---*/
 
