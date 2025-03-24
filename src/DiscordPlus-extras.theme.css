@@ -29,9 +29,9 @@
 
 
 /* put a nice logo in my server's channel list */
-.theme-dark [data-list-item-id="channels___554914403011526675"] .name_a08117,
-.theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name_a08117,
-.theme-light [data-list-item-id="channels___554914403011526675"] .name_a08117 {
+.theme-dark [data-list-item-id="channels___554914403011526675"] .name__29444,
+.theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name__29444,
+.theme-light [data-list-item-id="channels___554914403011526675"] .name__29444 {
   font-size: 0;
   background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
   background-size: 54px 13px;
@@ -39,11 +39,11 @@
   opacity: 0.65;
   color: transparent;
 }
-.theme-light [data-list-item-id="channels___554914403011526675"] .name_a08117 {
+.theme-light [data-list-item-id="channels___554914403011526675"] .name__29444 {
   background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
 }
 
-[data-list-item-id="channels___554914403011526675"]:hover .name_a08117 { opacity: 0.75 }
+[data-list-item-id="channels___554914403011526675"]:hover .name__29444 { opacity: 0.75 }
 
 /* PLEASE READ THE FAQ */
 [data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw {
@@ -58,33 +58,33 @@
 }
 
 /* custom crash screen */
-.theme-dark .image_a2a7b5, .theme-light .image_a2a7b5 {
+.theme-dark .image__61a6b, .theme-light .image__61a6b {
   background-image: url('https://plusinsta.github.io/discord-plus/assets/crash.png');
 }
 
-.image_a2a7b5 {
+.image__61a6b {
   width: 256px;
   height: 256px;
   margin-bottom: 40px;
   background-size: 256px 256px;
 }
 
-.title_a2a7b5, .note_a2a7b5 div p {
+.title__61a6b, .note__61a6b div p {
   font-size: 0px;
 }
 
-.title_a2a7b5:after {
+.title__61a6b:after {
   font-size: 24px;
   content: var(--dplus-i11n-error-discordcrash-title,--dplus-i11n-missingno);
 }
 
-.note_a2a7b5 div p:first-child:after {
+.note__61a6b div p:first-child:after {
   font-size: 16px;
   content: var(--dplus-i11n-error-discordcrash-body,--dplus-i11n-missingno);
   color: white;
 }
 
-.note_a2a7b5 div p:nth-child(2):after {
+.note__61a6b div p:nth-child(2):after {
   font-size: 16px;
   content: var(--dplus-i11n-error-discordcrash-note,--dplus-i11n-missingno);
 }

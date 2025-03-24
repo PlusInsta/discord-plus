@@ -528,8 +528,10 @@ body { background-color: var(--dplus-accent-ui); }
 .layers__160d8  {
 	margin: var(--dplus-spacing-app) !important; 
 }
-.content_c48ade {margin-top: var(--dplus-spacing-ui);}
-		
+.app_a3002d:nth-child(1) {
+    color: transparent;
+}
+
 		/*--- 4 Fonts ---*/
 
 		/*-- 4.1 Display Font --*/
