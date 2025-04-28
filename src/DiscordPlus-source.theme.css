@@ -1087,6 +1087,8 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: transparent;
 }
 .visual-refresh .container__2637a {padding-bottom: 0;}
+/*unread bar*/
+.visual-refresh .bottom__7aaec {bottom: 0;}
 /* Animated channel buttons */
 .iconItem_c69b6d {display: block !important;}
 .iconVisibility_c69b6d .children__2ea32 {
@@ -1233,8 +1235,8 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 	/* Forum */
-	.container-3wLKDe, .container__01ae2:not(.floating__01ae2){
-	background-color: transparent;
+.container__01ae2:not(.floating__01ae2), .visual-refresh .container_f369db, .form_d9be46 .input__0f084 {
+	background-color: transparent!important;
 }
 .floating__01ae2 {filter: none;} 
 
@@ -1327,7 +1329,7 @@ margin-right: 0;
 }
 
 		/*- 12.4.5 Message Box -*/
-.form_f75fb0 {
+.form_f75fb0, .visual-refresh .form_f75fb0 {
 	border-top: none;
 	box-shadow: none;
 	margin: 0;
@@ -1474,7 +1476,7 @@ margin-right: 0;
 #app-mount .wrapper_cb9592 {
 	background-color: var(--dplus-bgc-ui-base)!important;
 }
-.videoWrapper__2f4f7, :not(:root):-webkit-full-screen::backdrop, .callContainer_cb9592 {background-color: transparent;}
+.videoWrapper__2f4f7, :not(:root):-webkit-full-screen::backdrop, .callContainer_cb9592, .visual-refresh .root_bfe55a {background-color: transparent;}
 .videoHeight__94748.noChat__94748 { 
 	height: 100%;
 }
@@ -1698,7 +1700,7 @@ margin-right: 0;
 }
 .theme-light .settingsBanner_c3e427::after { background: white; }
 .theme-dark .settingsBanner_c3e427::after { background: black; }
-
+.avatar__1fed1 {top: 216px;}
 /* User Profile */
 	/* Avatar Preview */
 
