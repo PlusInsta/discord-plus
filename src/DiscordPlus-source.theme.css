@@ -990,10 +990,10 @@ that have popups, or else the menu breaks when you hover over them */
 	/*-- 10.1 Background + Servers --*/
 .guilds_c48ade foreignObject {mask: none; overflow: visible;}
 .guildSeparator__252b6 {display: none}
-.folder__48112 {background-color: transparent;}
+.hiddenVisually__27f77 {background-color: transparent;}
 .visual-refresh .wrapper_ef3116 {margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );}
-.folder__48112.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
-.isExpanded__48112 .folderIcon__48112 svg {padding: 4px;}
+.hiddenVisually__27f77.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
+.isExpanded__48112 .folderHeader__48112 svg {padding: 4px;}
 #app-mount .guilds_c48ade {
 	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
@@ -1003,21 +1003,21 @@ that have popups, or else the menu breaks when you hover over them */
 .guilds_c48ade, .listItem__650eb {
 	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
 }
-.wrapper_cc5dd2, .wrapper_cc5dd2 svg, .folder__48112, .folderIconWrapper__48112, .guilds_c48ade .icon__6e9f8 {
+.wrapper_cc5dd2, .wrapper_cc5dd2 svg, .hiddenVisually__27f77, .folderPreviewWrapper__48112, .guilds_c48ade .icon__6e9f8 {
 	height: var(--dplus-icon-server-sidebar);
 	width: var(--dplus-icon-server-sidebar);
 }
 .visual-refresh .svg_cc5dd2 {left: unset; top: unset;}
-.visual-refresh .guildIcon__48112 {border-radius: var(--dplus-radius-server)!important;}
+.visual-refresh .folderPreviewGuildIcon__48112 {border-radius: var(--dplus-radius-server)!important;}
 .listItem__650eb {margin: 0 0 var(--dplus-spacing-ui);}
-.expandedFolderBackground__48112 {
+.folderGroupBackground__48112 {
 	width: var(--dplus-icon-server-sidebar);
 	border-radius: var(--dplus-radius-ui);
 	left: var(--dplus-spacing-ui);
 	bottom: 0;
 	background: var(--dplus-bgc-server-button);
 }
-.wrapper__48112 ul {height: calc(inherit + var(--dplus-spacing-ui)) !important;}
+.folderGroup__48112 ul {height: calc(inherit + var(--dplus-spacing-ui)) !important;}
 .guilds_c48ade .listItem__650eb :not(span) {border-radius: var(--dplus-radius-server);}
 .wrapper__58105 { top: calc(var(--dplus-icon-server-sidebar) / 10) !important;height: calc(var(--dplus-icon-server-sidebar) / 10 * 8) !important; }
 .circleIconButton__5bc7e {

@@ -20,139 +20,140 @@
 /* Plugins */
 	/* by Arashiryuu */
 		/* MemberCount */
-#MemberCount {
-	width: var(--dplus-members-width) !important;
-	top: -10px !important;
-	background: transparent !important;
-}
-
-#MemberCount .membersGroup_cbd271 {
-	padding: 10px 0;
-}
-
-#MemberCount .membersGroup_cbd271 span {
-	padding: 5px;
-	background-color: var(--dplus-bgc-ui-base);
-}
-
-.membersWrap_cbd271.hasCounter .members_cbd271 {
-	margin-top: 26px !important;
-}
-
-	/* by DevilBro */
-		/* BadgesEverywhere */
-.BE-badge:last-of-type {
-	margin-right: 0px;
-}
-
-		/* CharCounter */
-.chatCounter-XOMPsh {
-    bottom: 0;
-    top: -0.667rem;
-	font-size: 0.85rem;
-}
-
-		/* CreationDate / JoinedAtDate / LastMessageDate */
-.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText_d98cf4 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
-	margin-top: var(--dplus-spacing-ui);
-}
-
-		/* DisplayServersAsChannels */
-.styledGuildsAsChannels-DNHtg_ .tutorialContainer_f9623d .childWrapper_a6ce15 {
-	background-size: 28px 28px !important;
-	background-position-x: calc(100% - 4px) !important;
-}
-.styledGuildsAsChannels-DNHtg_ .wrapper_fea3ef .wrapper_c4cd66 {
-	top: -8px !important;
-	height: 48px !important;
-}
-.styledGuildsAsChannels-DNHtg_ .guilds_a4d4d9 .listItem_c96c45 :not(span) {
-	border-radius: 5px;
-}
-
-		/* EditUsers */
-.EditUsers-tag {
-	text-transform: none;
-	top: -1px !important;
-	height: 15px;
-	font-size: 12px;
-	padding: 0 4px;
-	vertical-align: middle;
-}
-
-		/* PluginRepo */
-.flexChild_dc333f > div > div,
-.DevilBro-notice {
-	border-radius: var(--dplus-radius-ui) !important;
-}
-
-		/* SendLargeMessages */
-.SendLargeMessages-modal #character-counter {
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-
-		/* TopRoleEverywhere */
-.TRE-tag {
-	border: none !important;
-	margin-top: 1px;
-	text-transform: none !important;
-	font-size: 12px !important;
-	text-shadow: 0px 0px 2px black;
-	border-radius: var(--dplus-radius-ui) !important;
-	padding: 0 4px !important;
-}
-.TRE-tag span {
-	vertical-align: middle;
-}
-
-	/* by Ducko */
-		/* Better Message Deletion */
-.gm-deleted-message {
-	background-color: hsl(0, 80%, 20%, 0.8) !important;
-}
-
-	/* by Farcrada */
-		/* Hide Channels */
-.sidebar_a4d4d9.hideChannelElement {
-	margin: 0 calc(var(--dplus-spacing-app) / 2);
-}
-
-	/* by programmer2514 */
-		/* CollapsibleUI */
-.guilds_a4d4d9[style*="width: 0px;"],
-.sidebar_a4d4d9[style*="width: 0px;"] {
-	margin-right: 0px;
-}
-
-	/* by Puyodead1 */
-		/* Staff Tags */
-.ownertag {
-	vertical-align: super !important;
-}
-
-	/* by Strencher */
-		/* ChannelDms */
-.ChannelDms-channelmembers-wrap .privateChannels_f0963d {
-	background: var(--dplus-bgc-ui-base)
-}
-
-	/* by Zerebos */
-		/* BetterFormattingRedux */
-.bf-toolbar {
-	margin-left: 10px!important;
-	margin-top: 20px;
-}
-.bf-toolbar::before {
-	background: hsla(0, 0%, 0%, 0.68);
-	border-radius: var(--dplus-radius-ui);
-}
-.bf-toolbar .format:hover {
-	background: transparent !important;
-}
-.bf-toolbar .format img {
-	transition: opacity var(--dplus-anim-short);
-}
-.bf-toolbar .format:hover img {
-	opacity: 1;
-}
+		#MemberCount {
+			width: var(--dplus-members-width) !important;
+			top: -10px !important;
+			background: transparent !important;
+		}
+		
+		#MemberCount .membersGroup_c8ffbb {
+			padding: 10px 0;
+		}
+		
+		#MemberCount .membersGroup_c8ffbb span {
+			padding: 5px;
+			background-color: var(--dplus-bgc-ui-base);
+		}
+		
+		.membersWrap_c8ffbb.hasCounter .members_c8ffbb {
+			margin-top: 26px !important;
+		}
+		
+			/* by DevilBro */
+				/* BadgesEverywhere */
+		.BE-badge:last-of-type {
+			margin-right: 0px;
+		}
+		
+				/* CharCounter */
+		.chatCounter-XOMPsh {
+			bottom: 0;
+			top: -0.667rem;
+			font-size: 0.85rem;
+		}
+		
+				/* CreationDate / JoinedAtDate / LastMessageDate */
+		.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText_d98cf4 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
+			margin-top: var(--dplus-spacing-ui);
+		}
+		
+				/* DisplayServersAsChannels */
+		.styledGuildsAsChannels-DNHtg_ .tutorialContainer__1f388 .childWrapper_a6ce15 {
+			background-size: 28px 28px !important;
+			background-position-x: calc(100% - 4px) !important;
+		}
+		.styledGuildsAsChannels-DNHtg_ .wrapper_ef3116 .wrapper__58105 {
+			top: -8px !important;
+			height: 48px !important;
+		}
+		.styledGuildsAsChannels-DNHtg_ .guilds_c48ade .listItem__650eb :not(span) {
+			border-radius: 5px;
+		}
+		
+				/* EditUsers */
+		.EditUsers-tag {
+			text-transform: none;
+			top: -1px !important;
+			height: 15px;
+			font-size: 12px;
+			padding: 0 4px;
+			vertical-align: middle;
+		}
+		
+				/* PluginRepo */
+		.flexChild__7c0ba > div > div,
+		.DevilBro-notice {
+			border-radius: var(--dplus-radius-ui) !important;
+		}
+		
+				/* SendLargeMessages */
+		.SendLargeMessages-modal #character-counter {
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+		
+				/* TopRoleEverywhere */
+		.TRE-tag {
+			border: none !important;
+			margin-top: 1px;
+			text-transform: none !important;
+			font-size: 12px !important;
+			text-shadow: 0px 0px 2px black;
+			border-radius: var(--dplus-radius-ui) !important;
+			padding: 0 4px !important;
+		}
+		.TRE-tag span {
+			vertical-align: middle;
+		}
+		
+			/* by Ducko */
+				/* Better Message Deletion */
+		.gm-deleted-message {
+			background-color: hsl(0, 80%, 20%, 0.8) !important;
+		}
+		
+			/* by Farcrada */
+				/* Hide Channels */
+		.sidebar_c48ade.hideChannelElement {
+			margin: 0 calc(var(--dplus-spacing-app) / 2);
+		}
+		
+			/* by programmer2514 */
+				/* CollapsibleUI */
+		.guilds_c48ade[style*="width: 0px;"],
+		.sidebar_c48ade[style*="width: 0px;"] {
+			margin-right: 0px;
+		}
+		
+			/* by Puyodead1 */
+				/* Staff Tags */
+		.ownertag {
+			vertical-align: super !important;
+		}
+		
+			/* by Strencher */
+				/* ChannelDms */
+		.ChannelDms-channelmembers-wrap .privateChannels__35e86 {
+			background: var(--dplus-bgc-ui-base)
+		}
+		
+			/* by Zerebos */
+				/* BetterFormattingRedux */
+		.bf-toolbar {
+			margin-left: 10px!important;
+			margin-top: 20px;
+		}
+		.bf-toolbar::before {
+			background: hsla(0, 0%, 0%, 0.68);
+			border-radius: var(--dplus-radius-ui);
+		}
+		.bf-toolbar .format:hover {
+			background: transparent !important;
+		}
+		.bf-toolbar .format img {
+			transition: opacity var(--dplus-anim-short);
+		}
+		.bf-toolbar .format:hover img {
+			opacity: 1;
+		}
+		
