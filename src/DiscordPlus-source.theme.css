@@ -990,10 +990,10 @@ that have popups, or else the menu breaks when you hover over them */
 	/*-- 10.1 Background + Servers --*/
 .guilds_c48ade foreignObject {mask: none; overflow: visible;}
 .guildSeparator__252b6 {display: none}
-.folder__48112 {background-color: transparent;}
+.hiddenVisually__27f77 {background-color: transparent;}
 .visual-refresh .wrapper_ef3116 {margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );}
-.folder__48112.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
-.isExpanded__48112 .folderIcon__48112 svg {padding: 4px;}
+.hiddenVisually__27f77.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
+.isExpanded__48112 .folderHeader__48112 svg {padding: 4px;}
 #app-mount .guilds_c48ade {
 	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
@@ -1003,21 +1003,21 @@ that have popups, or else the menu breaks when you hover over them */
 .guilds_c48ade, .listItem__650eb {
 	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
 }
-.wrapper_cc5dd2, .wrapper_cc5dd2 svg, .folder__48112, .folderIconWrapper__48112, .guilds_c48ade .icon__6e9f8 {
+.wrapper_cc5dd2, .wrapper_cc5dd2 svg, .hiddenVisually__27f77, .folderPreviewWrapper__48112, .guilds_c48ade .icon__6e9f8 {
 	height: var(--dplus-icon-server-sidebar);
 	width: var(--dplus-icon-server-sidebar);
 }
 .visual-refresh .svg_cc5dd2 {left: unset; top: unset;}
-.visual-refresh .guildIcon__48112 {border-radius: var(--dplus-radius-server)!important;}
+.visual-refresh .folderPreviewGuildIcon__48112 {border-radius: var(--dplus-radius-server)!important;}
 .listItem__650eb {margin: 0 0 var(--dplus-spacing-ui);}
-.expandedFolderBackground__48112 {
+.folderGroupBackground__48112 {
 	width: var(--dplus-icon-server-sidebar);
 	border-radius: var(--dplus-radius-ui);
 	left: var(--dplus-spacing-ui);
 	bottom: 0;
 	background: var(--dplus-bgc-server-button);
 }
-.wrapper__48112 ul {height: calc(inherit + var(--dplus-spacing-ui)) !important;}
+.folderGroup__48112 ul {height: calc(inherit + var(--dplus-spacing-ui)) !important;}
 .guilds_c48ade .listItem__650eb :not(span) {border-radius: var(--dplus-radius-server);}
 .wrapper__58105 { top: calc(var(--dplus-icon-server-sidebar) / 10) !important;height: calc(var(--dplus-icon-server-sidebar) / 10 * 8) !important; }
 .circleIconButton__5bc7e {
@@ -1087,6 +1087,8 @@ that have popups, or else the menu breaks when you hover over them */
 	background-color: transparent;
 }
 .visual-refresh .container__2637a {padding-bottom: 0;}
+/*unread bar*/
+.visual-refresh .bottom__7aaec {bottom: 0;}
 /* Animated channel buttons */
 .iconItem_c69b6d {display: block !important;}
 .iconVisibility_c69b6d .children__2ea32 {
@@ -1233,8 +1235,8 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 	/* Forum */
-	.container-3wLKDe, .container__01ae2:not(.floating__01ae2){
-	background-color: transparent;
+.container__01ae2:not(.floating__01ae2), .visual-refresh .container_f369db, .form_d9be46 .input__0f084 {
+	background-color: transparent!important;
 }
 .floating__01ae2 {filter: none;} 
 
@@ -1327,7 +1329,7 @@ margin-right: 0;
 }
 
 		/*- 12.4.5 Message Box -*/
-.form_f75fb0 {
+.form_f75fb0, .visual-refresh .form_f75fb0 {
 	border-top: none;
 	box-shadow: none;
 	margin: 0;
@@ -1474,7 +1476,7 @@ margin-right: 0;
 #app-mount .wrapper_cb9592 {
 	background-color: var(--dplus-bgc-ui-base)!important;
 }
-.videoWrapper__2f4f7, :not(:root):-webkit-full-screen::backdrop, .callContainer_cb9592 {background-color: transparent;}
+.videoWrapper__2f4f7, :not(:root):-webkit-full-screen::backdrop, .callContainer_cb9592, .visual-refresh .root_bfe55a {background-color: transparent;}
 .videoHeight__94748.noChat__94748 { 
 	height: 100%;
 }
@@ -1698,7 +1700,7 @@ margin-right: 0;
 }
 .theme-light .settingsBanner_c3e427::after { background: white; }
 .theme-dark .settingsBanner_c3e427::after { background: black; }
-
+.avatar__1fed1 {top: 216px;}
 /* User Profile */
 	/* Avatar Preview */
 
