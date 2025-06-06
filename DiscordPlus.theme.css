@@ -3,49 +3,55 @@
  * @author PlusInsta
  * @authorId 309931975102300160
  * @authorLink https://plusinsta.xyz
- * @version 3.2.1
+ * @version 3.3.0
  * @description A sleek, customizable Discord theme.
  * @donate https://ko-fi.com/plusinsta
  * @website https://plusinsta.github.io/discord-plus
- * @source https://github.com/PlusInsta/discord-plus
+ * @source https://github.com/PlusInsta/discord-plus/tree/master/src
  * @updateUrl https://plusinsta.github.io/discord-plus/DiscordPlus.theme.css
  * @invite 2Jwh2nS
 */
-@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
-
-/* I've commented most of these values so you can change them yourself. If you're having trouble, or you want to do more than what these values allow for, a volunteer might be able to help you in my server. */
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.css');
 
 .theme-dark {
-/* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
-   To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
-
-/* Accent color, used to decorate the UI with colors. */
+  --dplus-backdrop: url('https://i.imgur.com/3AiL3yN.png');
+  /* Image or color for the backdrop. Defaults to accent color on error. */
+  
   --dplus-accent-color-hue: 320;
   --dplus-accent-color-saturation: 60%;
   --dplus-accent-color-lightness: 31%;
+  /* Accent colors accentuate foreground elements. */
+  /* https://hslpicker.com */
 
-/* Foreground color: For things like text and icons. */
   --dplus-foreground-color-hue-base: 210;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
-
-/* Background color: Covers the backdrop so the app is easier to read. */
+  /* These determine the color of foreground elements. */
+  /*
+  * NOTE: "Amount" is an offset, where 1.0 is normal, and 0.5 is reduced by 50%.
+  * An example: If an element has a base lightness of 0.45,
+  * setting --dplus-foreground-color-lightness-amount to 0.8
+  * results in the element getting a final lightness of 0.25.
+  * While your offsets can be any number, the final values will always be between 0 and 1. */
+  
   --dplus-background-color-hue: 320;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
+  /* This determines the color and opacity of surfaces. */
+  /* If the foreground is hard to read, try adjusting these values. */
 }
 
-/* If you use light theme, you can give it unique settings that are separate from dark theme. */
+/* If you use light theme, you can modify it separately from dark theme. */
+/* The instructions above work for light theme too. */
 .theme-light {
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
-  
+  --dplus-backdrop: url('https://i.imgur.com/3AiL3yN.png');
+
   --dplus-accent-color-hue: 320;
   --dplus-accent-color-saturation: 60%;
   --dplus-accent-color-lightness: 31%;
-  
+
   --dplus-foreground-color-hue-base: 210;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
@@ -58,34 +64,35 @@
 }
 
 :root {
-/* Fonts */
-/* You can use any installed font on your device. */
   --dplus-font-ui: 'Poppins';
   --dplus-font-body: 'Roboto';
   --dplus-font-header: 'Righteous';
+  /* You can use any font that is installed, but you need to input its web name. */
+  /* If you just installed a font, you may need to restart the app or device first. */
 
-/* Round corner sizes, measured in pixel radius.
-Set avatar/server radius to 50% to make them circular.
-   UI radius must be in pixels, otherwise things break. */
   --dplus-radius-ui: 10px;
+  /* Rounding on square corners of app elements. Should be absolute size, e.g. pixels. */
   --dplus-radius-avatar: 20%;
+  /* Rounding of user profile icons. Should be relative size, e.g. percentage. */
   --dplus-radius-server: 20%;
+  /* Rounding of server profile icons. Should be relative size, e.g. percentage. */
 
-/* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
+  /* This value affects overall padding and margins across the app. */
+  /* Increasing this will make the app less compact. */
+  --dplus-spacing-app: 10px;
+  /* This value affects spacing between major app elements. */
+  /* Increasing this will make the backdrop easier to see. */
 
-/* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
-   --dplus-spacing-app: 10px;
-
-/* Size of user and server icons */
---dplus-icon-avatar-chat: 64px;
---dplus-icon-avatar-list: 32px;
---dplus-icon-avatar-profile: 80px;
-
---dplus-icon-server-sidebar: 48px;
---dplus-icon-server-list: 32px;
-
-/* The Home icon on the top left */
---dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
---dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+  --dplus-icon-avatar-chat: 64px;
+  /* This affects the size of user profile icons as seen in the chat. */
+  --dplus-icon-avatar-list: 32px;
+  /* The size of user profile icons as seen in lists. */
+  --dplus-icon-avatar-profile: 80px;
+  /* The size of user profile icons as seen on the full profile. */
+  
+  --dplus-icon-server-sidebar: 48px;
+  /* The size of server profile icons on the server list. */
+  --dplus-icon-server-list: 32px;
+  /* The size of server profile icons on other lists. */
 }

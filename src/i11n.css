@@ -37,12 +37,12 @@ html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the b
 /*[lang="ko"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 
 
-html { --dplus-i11n-error-nitrotheme: "You have set a Nitro color theme, and must change to light theme or dark theme to prevent issues."; }
+html { --dplus-i11n-error-nitrotheme: "You have set a Nitro color theme, and must change to a light theme or dark theme to prevent issues."; }
 /* This message will appear if there are issues with Nitro color themes. */
 /*[lang="da"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="de"] { --dplus-i11n-error-nitrotheme: ""; }*/
-[lang="en-US"] { --dplus-i11n-error-nitrotheme: "Switch your Discord theme in Settings>Appearance to light theme or dark theme to prevent issues with Nitro color themes."; }
-[lang="en-GB"] { --dplus-i11n-error-nitrotheme: "Switch your Discord theme in Settings>Appearance to light theme or dark theme to prevent issues with Nitro colour themes."; }
+[lang="en-US"] { --dplus-i11n-error-nitrotheme: "Switch your Discord theme in Settings>Appearance to a light theme or dark theme to prevent issues with Nitro color themes."; }
+[lang="en-GB"] { --dplus-i11n-error-nitrotheme: "Switch your Discord theme in Settings>Appearance to a light theme or dark theme to prevent issues with Nitro colour themes."; }
 /*[lang="es-ES"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="es-419"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="fr"] { --dplus-i11n-error-nitrotheme: ""; }*/
@@ -51,9 +51,9 @@ html { --dplus-i11n-error-nitrotheme: "You have set a Nitro color theme, and mus
 /*[lang="lt"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="hu"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="nl"] { --dplus-i11n-error-nitrotheme: ""; }*/
-[lang="no"] { --dplus-i11n-error-nitrotheme: "Bytt ditt Discord tema i Innstillinger>Utseende til lys eller mørk for å unngå problemer med Nitro fargetemaer."; }
+[lang="no"] { --dplus-i11n-error-nitrotheme: "Bytt ditt Discord tema i Innstillinger>Utseende til et lyst eller mørkt tema for å unngå problemer med Nitro fargetemaer."; }
 /*[lang="pl"] { --dplus-i11n-error-nitrotheme: ""; }*/
-[lang="pt-BR"] { --dplus-i11n-error-nitrotheme: "Mude seu tema no Discord em Config.>Aparência para tema claro ou tema escuro para evitar problemas com temas de cor Nitro."; }
+[lang="pt-BR"] { --dplus-i11n-error-nitrotheme: "Mude seu tema no Discord em Config.>Aparência para um tema claro ou tema escuro para evitar problemas com temas de cor Nitro."; }
 /*[lang="ro"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="fi"] { --dplus-i11n-error-nitrotheme: ""; }*/
 /*[lang="sv-SE"] { --dplus-i11n-error-nitrotheme: ""; }*/
@@ -143,12 +143,12 @@ html { --dplus-i11n-error-discordcrash-body: "You have unlocked Discord-!"; }
 /*[lang="zh-TW"] { --dplus-i11n-error-discordcrash-body: ""; }*/
 /*[lang="ko"] { --dplus-i11n-error-discordcrash-body: ""; }*/
 
-html { --dplus-i11n-error-discordcrash-note: "Unfortunately, that was a lie, and Discord has stopped working. Sorry."; }
+html { --dplus-i11n-error-discordcrash-note: "Actually, the Discord application has stopped working, and Discord- does not exist. Sorry."; }
 /* (Cont.) Self-explanatory. */
 /*[lang="da"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="de"] { --dplus-i11n-error-discordcrash-note: ""; }*/
-[lang="en-US"] { --dplus-i11n-error-discordcrash-note: "Actually, Discord just crashed, and this is the crash screen. I got your hopes up, didn't I?"; }
-[lang="en-GB"] { --dplus-i11n-error-discordcrash-note: "Actually, Discord has crashed, and this is the crash handler. My apologies for deceiving you."; }
+[lang="en-US"] { --dplus-i11n-error-discordcrash-note: "Actually, the Discord app just crashed, and there's no Discord-. Sorry."; }
+[lang="en-GB"] { --dplus-i11n-error-discordcrash-note: "Actually, the Discord application has crashed, and there is no Discord-. Sorry."; }
 /*[lang="es-ES"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="es-419"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="fr"] { --dplus-i11n-error-discordcrash-note: ""; }*/
@@ -157,9 +157,9 @@ html { --dplus-i11n-error-discordcrash-note: "Unfortunately, that was a lie, and
 /*[lang="lt"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="hu"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="nl"] { --dplus-i11n-error-discordcrash-note: ""; }*/
-[lang="no"] { --dplus-i11n-error-discordcrash-note: "Egentlig, har Discord sluttet å fungere, og dette er feilmeldingen... men minus og minus blir pluss!"; }
+[lang="no"] { --dplus-i11n-error-discordcrash-note: "Egentlig, sluttet Discord-appen å fungere, og Discord- fins ikke. Beklager."; }
 /*[lang="pl"] { --dplus-i11n-error-discordcrash-note: ""; }*/
-[lang="pt-BR"] { --dplus-i11n-error-discordcrash-note: "Na verdade, Discord parou de funcionar e Discord- não existe. Esse final não foi muito feliz, foi?"; }
+[lang="pt-BR"] { --dplus-i11n-error-discordcrash-note: "Na verdade, o applicativo Discord parou de funcionar, e Discord- não existe. Perdoe-me."; }
 /*[lang="ro"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="fi"] { --dplus-i11n-error-discordcrash-note: ""; }*/
 /*[lang="sv-SE"] { --dplus-i11n-error-discordcrash-note: ""; }*/
