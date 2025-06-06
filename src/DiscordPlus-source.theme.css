@@ -1,9 +1,6 @@
 /* 
-██████████████████████████████████████████████████████████████████████████████████
-█▄─▄▄▀█▄─▄█─▄▄▄▄█─▄▄▄─█─▄▄─█▄─▄▄▀█▄─▄▄▀███░███─▄▄▄▄█─▄▄─█▄─██─▄█▄─▄▄▀█─▄▄▄─█▄─▄▄─█
-██─██─██─██▄▄▄▄─█─███▀█─██─██─▄─▄██─██─█▄▄░▄▄█▄▄▄▄─█─██─██─██─███─▄─▄█─███▀██─▄█▀█
-█▄▄▄▄██▄▄▄█▄▄▄▄▄█▄▄▄▄▄█▄▄▄▄█▄▄█▄▄█▄▄▄▄████▄███▄▄▄▄▄█▄▄▄▄██▄▄▄▄██▄▄█▄▄█▄▄▄▄▄█▄▄▄▄▄█
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    discord-plus
+
 	Table of Contents
 1 Imports
 2 Default Values
@@ -506,8 +503,9 @@ body { background-color: var(--dplus-accent-ui); }
 }
 
 			/*-- 3.2 Margins --*/
-.layers__160d8  {
-	margin: var(--dplus-spacing-app) !important; 
+.content_c48ade, .standardSidebarView__23e6b {
+	margin: var(--dplus-spacing-app) !important;
+	margin-top: 0px !important;
 }
 .app_a3002d:nth-child(1) {
     color: transparent;
@@ -891,70 +889,20 @@ that have popups, or else the menu breaks when you hover over them */
 		/*--- 9 Titlebar ---*/
 		
 		/*-- 9.1 General Titlebar --*/
-.typeWindows__421ed {
-	background-color: var(--dplus-bgc-ui-base);
-	border-radius: var(--dplus-radius-ui);
-	height: 20px;
-	padding-bottom: 4px;
-	margin-right: calc(var(--dplus-spacing-app) * 2);
-	position: relative;
-	left: var(--dplus-spacing-app);
-	align-items: center;
-}
-.withFrame__421ed {
-	margin-top: var(--dplus-spacing-app);
-}
-.wordmark__421ed svg {display: none;}
-.winButton__421ed {
-	height: 24px;
-	top: 2px;
-}
-.winButtonClose__421ed {
-	border-radius: 0 10px 10px 0;
-}
-.wordmark__421ed {
-	display: block;
-	background-image: var(--dplus-wordmark);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 0 !important;
-	position: fixed;
-	width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
-	height: 16px;
-	top: var(--dplus-spacing-app);
-	left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
-}
-.theme-light .wordmark__421ed {filter: brightness(0);}
-.theme-light .theme-dark .wordmark__421ed {filter: none;}
-
-/* titlebar corners get glitched with Nitro theme without this */
-.custom-theme-background .withBackgroundOverride__421ed.typeWindows__421ed {
-    width: 100vw;
-    margin-left: calc(var(--dplus-radius-ui) * -1);
-    border-radius: 0px;
-}
-
 /* settings bg, offset to go behind titlebar */
-.platform-win .bg__960e4 { 
-    top: calc(var(--dplus-spacing-app)* -1 - 23px);
+.layer__960e4:has(.standardSidebarView__23e6b) { 
+    margin-top: 32px;
 }
 /*visual refresh stuff*/
-.bar_c38106::after {
-	content: "";
-	display: block;
-	background-image: var(--dplus-wordmark);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 0 !important;
-	position: fixed;
-	width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
-	height: 20px;
-	top: calc(var(--dplus-spacing-app) + 6px);
-	left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
-}
-.title_c38106 { 
+.bar_c38106 {
+	top: calc(var(--dplus-spacing-app) * -1);
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.title_c38106, .leading_c38106, .trailing_c38106 {
+	padding-top: var(--dplus-spacing-app);
 }
 	/*-- 9.2 MacOS Buttons --*/	
 .typeMacOS__421ed { 

@@ -14,24 +14,6 @@
   font-family: PixelPetit;
 }
 
-
-/* put a nice logo in my server's channel list */
-.theme-dark [data-list-item-id="channels___554914403011526675"] .name__29444,
-.theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name__29444,
-.theme-light [data-list-item-id="channels___554914403011526675"] .name__29444 {
-  font-size: 0;
-  background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
-  background-size: 54px 13px;
-  width: 54px; height: 13px;
-  opacity: 0.65;
-  color: transparent;
-}
-.theme-light [data-list-item-id="channels___554914403011526675"] .name__29444 {
-  background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
-}
-
-[data-list-item-id="channels___554914403011526675"]:hover .name__29444 { opacity: 0.75 }
-
 /* PLEASE READ THE FAQ */
 [data-list-item-id="channels___804000972568526889"] .channelName-3KPsGw {
   width: min-content;
@@ -77,7 +59,7 @@
 }
 
 /* Supporters */
-:is(.member_c8ffbb, .contents_c19a55):has(
+/*:is(.member_c8ffbb, .contents_c19a55):has(
   [src*="220275692926009344"],  [src*="367617500021784587"],
   [src*="719378258491342878"],  [src*="644964603108786233"],
   [src*="299958646748741632"],  [src*="354342865695932423"],
@@ -87,14 +69,14 @@
   [src*="168569629906698240"],  [src*="408875276265848833"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
-}
+}*/
 /* Developers */
-:is(.member_c8ffbb, .contents_c19a55):has(
+/*:is(.member_c8ffbb, .contents_c19a55):has(
   [src*="309931975102300160"], [src*="207335168430702602"], [src*="394891840815366147"]
 ) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
-}
+}*/
 
 /* Badges */
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,
@@ -104,7 +86,7 @@
   background-image: var(--dplus-badge); margin-left: 10px;
   width: 80px; height: 1rem; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: inline-block; z-index: 0; }
 
-  /* D+ badge in member list */
+  /* badge in member list */
 .username__703b9:after {
   content: var(--dplus-dev, var(--dplus-supporter));
   background-image: var(--dplus-badge-memberlist);
