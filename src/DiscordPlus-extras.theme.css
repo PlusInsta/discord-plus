@@ -59,7 +59,7 @@
 }
 
 /* Supporters */
-/*:is(.member_c8ffbb, .contents_c19a55):has(
+:is(.member_c8ffbb, .contents_c19a55):has(
   [src*="220275692926009344"],  [src*="367617500021784587"],
   [src*="719378258491342878"],  [src*="644964603108786233"],
   [src*="299958646748741632"],  [src*="354342865695932423"],
@@ -69,14 +69,14 @@
   [src*="168569629906698240"],  [src*="408875276265848833"]) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
-}*/
+}
 /* Developers */
-/*:is(.member_c8ffbb, .contents_c19a55):has(
+:is(.member_c8ffbb, .contents_c19a55):has(
   [src*="309931975102300160"], [src*="207335168430702602"], [src*="394891840815366147"]
 ) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
-}*/
+}
 
 /* Badges */
 .headerText-15Q25Z:after, .headerTop-1PNKck:before,

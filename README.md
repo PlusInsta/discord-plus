@@ -1,7 +1,7 @@
-# discord-plus
+# Discord+
 A sleek, customizable Discord theme.
 
-**discord-plus** is a theme for [Discord](https://discord.com). It's both sleek and customizable, without getting in your way. Its top priority is balancing between looks and performance.
+**Discord+** is a theme for the [Discord](https://discord.com) app. It's both sleek and customizable, without getting in your way. Its top priority is balancing between looks and performance.
 
 ## User customization
 Several variables in the theme file can be customized:
