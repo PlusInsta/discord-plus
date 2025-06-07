@@ -1,6 +1,22 @@
+   
+						 
+				   
+							  
+								   
+				
+																								   
+									 
+												   
+												   
+																					  
+				 
+  
 /* 
     Diskrot+
 
+																				  
+																				  
+																				  
 	Table of Contents
 1 Imports
 2 Default Values
@@ -925,7 +941,7 @@ that have popups, or else the menu breaks when you hover over them */
 	width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
 	height: 16px;
 	top: var(--dplus-spacing-app);
-	left: calc(var(--dplus-spacing-app) + var(dplus-spacing-ui));
+	left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
 }
 .theme-light .wordmark__421ed {filter: brightness(0);}
 .theme-light .theme-dark .wordmark__421ed {filter: none;}
@@ -1012,12 +1028,12 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .childWrapper__6e9f8:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
 }
-	/*-- 10.2 Home Icon --*/
+		/*-- 10.2 Home Icon --*/
 #app-mount .scroller_ef3116 {padding-top: var(--dplus-spacing-ui);}
 .tutorialContainer__1f388 .childWrapper__6e9f8 svg {display: none !important;}
-.wrapper__8436d.selected_6e9f8 .childWrapper__6e9f8,
+.wrapper__8436d.selected__6e9f8 .childWrapper__6e9f8,
 .wrapper__8436d:hover .childWrapper__6e9f8, .childWrapper__6e9f8 {
-	background-color: transparent
+	background-color: transparent;
 }
 
 .tutorialContainer__1f388 .childWrapper__6e9f8 {
