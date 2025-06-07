@@ -1,5 +1,5 @@
 /* 
-    Discord+
+    Diskrot+
 
 	Table of Contents
 1 Imports
@@ -35,6 +35,7 @@
 	9.2 Mac OS Buttons
 10 Guild List
 	10.1 Background + Servers
+	10.2 Home Icon
 11 Channels Sidebar
 	11.1 General Sidebar
 	11.2 DMs Sidebar
@@ -64,8 +65,8 @@
 */
 
 /*--- 1 imports ---*/
-@import url('https://plusinsta.github.io/discord-plus/src/i11n.css');
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-extras.theme.css');
+@import url('https://cosmicaljester.github.io/discord-plus/src/i11n.css');
+@import url('https://cosmicaljester.github.io/discord-plus/src/DiskrotPlus-extras.theme.css');
 /* Fonts */
 		
 		/*--- 2 Default Values ---*/
@@ -89,6 +90,11 @@
 	--dplus-scrollbar-width: 10px;
 	--dplus-channels-width: 240px;
 	--dplus-members-width: 240px;
+
+	/* Value: CSS background-image */
+	--dplus-icon-home-dark: url('https://raw.githubusercontent.com/cosmicaljester/image-host/main/Misc/Non-Roleplay_Things/funnyicon.webp')
+	--dplus-icon-home-light: url('https://raw.githubusercontent.com/cosmicaljester/image-host/main/Misc/Non-Roleplay_Things/funnyicon.webp')
+	--dplus-wordmark: url('https://raw.githubusercontent.com/cosmicaljester/image-host/main/Misc/Non-Roleplay_Things/wordmark_full.webp')
 
 	/* Unit: seconds */
 	--dplus-anim-short: .2s;
@@ -894,15 +900,22 @@ that have popups, or else the menu breaks when you hover over them */
     margin-top: 32px;
 }
 /*visual refresh stuff*/
-.bar_c38106 {
-	top: calc(var(--dplus-spacing-app) * -1);
+.bar_c38106::after {
+	content: "";
+	display: block;
+	background-image: var(--dplus-wordmark);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0 !important;
+	position: fixed;
+	width: calc(100% - ( var(--dplus-spacing-app) * 2 ) - ( 28px * 3 ) - var(--dplus-spacing-ui));
+	heigth: 20px;
+	top: calc(var(--dplus-spacing-app) + 6px);
+	left: calc(var(--dplus-spacing-app) + var(--dplus-spacing-ui));
+}	
+.title_c38106 {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-}
-.title_c38106, .leading_c38106, .trailing_c38106 {
-	padding-top: var(--dplus-spacing-app);
 }
 	/*-- 9.2 MacOS Buttons --*/	
 .typeMacOS__421ed { 
@@ -957,6 +970,24 @@ that have popups, or else the menu breaks when you hover over them */
 #app-mount .childWrapper__6e9f8:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
 }
+	/*-- 10.2 Home Icon --*/
+#app-mount .scroller_ef3116 {padding-top: var(--dplus-spacing-ui);}
+.tutorialContainer__1f388 .childWrapper__6e9f8 svg {display: none !important;}
+.wrapper__8436d.selected_6e9f8 .childWrapper__6e9f8,
+.wrapper__8436d:hover .childWrapper__6e9f8, .childWrapper__6e9f8 {
+	background-color: transparent
+}
+
+.tutorialContainer__1f388 .childWrapper__6e9f8 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: var(--dplus-icon-home-dark) !important;
+	.theme-light & {
+		background-image: var(--dplus-icon-home-light) !important;
+	}
+}
+
 		/*--- 11 Channels Sidebar ---*/
 		
 	/*-- 11.1 General Sidebar --*/
