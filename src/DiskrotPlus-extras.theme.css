@@ -1,12 +1,12 @@
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
-@import url('https://plusinsta.github.io/discord-plus/src/tweaks/compact.css');
+@import url('https://cosmicaljester.github.io/diskrot-plus/src/DiskrotPlus-plugins.theme.css');
+@import url('https://cosmicaljester.github.io/diskrot-plus/src/tweaks/compact.css');
 
-@font-face { /* a font i made */
+@font-face { /* a font the original creator made */
   font-family: PixelPetit;
   src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf");
 }
 
-/* make links to my domain use my style */
+/* make links to the original creator's domain use their style */
 [href*="plusinsta.xyz"],
 [href*="PlusInsta.xyz"] {
   color: #d29630 !important;
@@ -66,15 +66,17 @@
   [src*="275432265100558336"],  [src*="852664018438717481"],
   [src*="299339580593799171"],  [src*="224367608382619648"],
   [src*="356817504330448906"],  [src*="181240443747434496"],
-  [src*="168569629906698240"],  [src*="408875276265848833"]) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
+  [src*="168569629906698240"],  [src*="408875276265848833"],
+  [src*="600596405119352833"],  [src*="391390875554545664"]) {
+  --dplus-badge: url("https://cosmicaljester.github.io/diskrot-plus/assets/badges/badge_supporter.svg");
   --dplus-supporter: "";
 }
 /* Developers */
 :is(.member_c8ffbb, .contents_c19a55):has(
-  [src*="309931975102300160"], [src*="207335168430702602"], [src*="394891840815366147"]
-) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
+  [src*="309931975102300160"], [src*="207335168430702602"],
+  [src*="394891840815366147"], [src*="392445002409574432"],
+  [src*="616072878588166190"]) {
+  --dplus-badge: url("https://cosmicaljester.github.io/diskrot-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
 }
 
