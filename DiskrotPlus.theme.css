@@ -1,31 +1,31 @@
 /**
- * @name Discord+
- * @author PlusInsta
- * @authorId 309931975102300160
- * @authorLink https://plusinsta.xyz
+ * @name Diskrot+
+ * @author CosmicJester
+ * @authorId 392445002409574432 
  * @version 3.3.0
- * @description A sleek, customizable Discord theme.
- * @donate https://ko-fi.com/plusinsta
- * @website https://plusinsta.github.io/discord-plus
- * @source https://github.com/PlusInsta/discord-plus/tree/master/src
- * @updateUrl https://plusinsta.github.io/discord-plus/DiscordPlus.theme.css
- * @invite 2Jwh2nS
+ * @description Not my sleek, customizable Discord theme.
+ * @website https://cosmicaljester.github.io/diskrot-plus
+ * @source https://github.com/cosmicaljester/diskrot-plus/tree/master/src
+ * @updateUrl https://cosmicaljester.github.io/discord-plus/DiscordPlus.theme.css
 */
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.css');
+@import url('https://cosmicaljester.github.io/diskrot-plus/src/DiskrotPlus-source.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
 
 .theme-dark {
-  --dplus-backdrop: url('https://i.imgur.com/3AiL3yN.png');
+  --dplus-backdrop: url('https://raw.githubusercontent.com/cosmicaljester/image-host/main/Misc/Non-Roleplay_Things/rosepaper1.png)');
   /* Image or color for the backdrop. Defaults to accent color on error. */
   
-  --dplus-accent-color-hue: 320;
-  --dplus-accent-color-saturation: 60%;
-  --dplus-accent-color-lightness: 31%;
+  --dplus-accent-color-hue: 190;
+  --dplus-accent-color-saturation: 47%;
+  --dplus-accent-color-lightness: 15%;
   /* Accent colors accentuate foreground elements. */
   /* https://hslpicker.com */
 
-  --dplus-foreground-color-hue-base: 210;
-  --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-hue-base: 191;
+  --dplus-foreground-color-hue-links: 120;
+  --dplus-foreground-color-saturation-amount: 0.77;
   --dplus-foreground-color-lightness-amount: 1;
   /* These determine the color of foreground elements. */
   /*
@@ -35,9 +35,9 @@
   * results in the element getting a final lightness of 0.25.
   * While your offsets can be any number, the final values will always be between 0 and 1. */
   
-  --dplus-background-color-hue: 320;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-hue: 191;
+  --dplus-background-color-saturation-amount: 5;
+  --dplus-background-color-lightness-amount: 2;
   --dplus-background-color-alpha: 0.8;
   /* This determines the color and opacity of surfaces. */
   /* If the foreground is hard to read, try adjusting these values. */
@@ -61,20 +61,22 @@
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
+
+  --dplus-wordmark: url('https://raw.githubusercontent.com/cosmicaljester/image-host/main/Misc/Non-Roleplay_Things/wordmark_full.webp');
 }
 
 :root {
-  --dplus-font-ui: 'Poppins';
-  --dplus-font-body: 'Roboto';
-  --dplus-font-header: 'Righteous';
+  --dplus-font-ui: 'ITC Benguiat Gothic Std Medium';
+  --dplus-font-body: 'ITC Benguiat Gothic Std Medium';
+  --dplus-font-header: 'FOT-Seurat Pro';
   /* You can use any font that is installed, but you need to input its web name. */
   /* If you just installed a font, you may need to restart the app or device first. */
 
   --dplus-radius-ui: 10px;
   /* Rounding on square corners of app elements. Should be absolute size, e.g. pixels. */
-  --dplus-radius-avatar: 20%;
+  --dplus-radius-avatar: 30%;
   /* Rounding of user profile icons. Should be relative size, e.g. percentage. */
-  --dplus-radius-server: 20%;
+  --dplus-radius-server: 10%;
   /* Rounding of server profile icons. Should be relative size, e.g. percentage. */
 
   --dplus-spacing-ui: 10px;
@@ -84,7 +86,7 @@
   /* This value affects spacing between major app elements. */
   /* Increasing this will make the backdrop easier to see. */
 
-  --dplus-icon-avatar-chat: 64px;
+  --dplus-icon-avatar-chat: 32px;
   /* This affects the size of user profile icons as seen in the chat. */
   --dplus-icon-avatar-list: 32px;
   /* The size of user profile icons as seen in lists. */
@@ -95,4 +97,9 @@
   /* The size of server profile icons on the server list. */
   --dplus-icon-server-list: 32px;
   /* The size of server profile icons on other lists. */
+
+  /* The Home icon on the top left */
+  --dplus-icon-home-dark: url('https://raw.githubusercontent.com/cosmicaljester/image-host/main/Misc/Non-Roleplay_Things/funnyicon.webp');
+  --dplus-icon-home-light: url('https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg');
+  --dplus-blur-scale: 50;
 }
