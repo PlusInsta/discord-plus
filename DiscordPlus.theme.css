@@ -11,7 +11,7 @@
  * @updateUrl https://plusinsta.github.io/discord-plus/DiscordPlus.theme.css
  * @invite 2Jwh2nS
 */
-@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.css');
+@import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css');
 
 .theme-dark {
   --dplus-backdrop: url('https://i.imgur.com/3AiL3yN.png');
