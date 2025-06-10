@@ -90,9 +90,4 @@
   /* The size of user profile icons as seen in lists. */
   --dplus-icon-avatar-profile: 80px;
   /* The size of user profile icons as seen on the full profile. */
-  
-  --dplus-icon-server-sidebar: 48px;
-  /* The size of server profile icons on the server list. */
-  --dplus-icon-server-list: 32px;
-  /* The size of server profile icons on other lists. */
 }
