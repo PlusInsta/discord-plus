@@ -1,17 +1,11 @@
 @import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
 @import url('https://plusinsta.github.io/discord-plus/src/tweaks/compact.css');
 
-@font-face { /* a font i made */
-  font-family: PixelPetit;
-  src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf");
-}
-
 /* make links to my domain use my style */
 [href*="plusinsta.xyz"],
 [href*="PlusInsta.xyz"] {
   color: #d29630 !important;
   border-bottom: 1px solid;
-  font-family: PixelPetit;
 }
 
 /* PLEASE READ THE FAQ */
