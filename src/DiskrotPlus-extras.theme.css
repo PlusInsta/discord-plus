@@ -1,17 +1,11 @@
 @import url('https://cosmicaljester.github.io/diskrot-plus/src/DiskrotPlus-plugins.theme.css');
 @import url('https://cosmicaljester.github.io/diskrot-plus/src/tweaks/compact.css');
 
-@font-face { /* a font the original creator made */
-  font-family: PixelPetit;
-  src: url("https://plusinsta.xyz/assets/fonts/PixelPetit.ttf");
-}
-
 /* make links to the original creator's domain use their style */
 [href*="plusinsta.xyz"],
 [href*="PlusInsta.xyz"] {
   color: #d29630 !important;
   border-bottom: 1px solid;
-  font-family: PixelPetit;
 }
 
 /* PLEASE READ THE FAQ */
