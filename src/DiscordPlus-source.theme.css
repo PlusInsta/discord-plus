@@ -84,7 +84,6 @@
 	--dplus-icon-avatar-profile: 80px;
 
 	--dplus-scrollbar-width: 10px;
-	--dplus-channels-width: 240px;
 	--dplus-members-width: 240px;
 
 	/* Unit: seconds */
@@ -817,10 +816,6 @@ that have popups, or else the menu breaks when you hover over them */
 		/*--- 11 Channels Sidebar ---*/
 		
 	/*-- 11.1 General Sidebar --*/
-.sidebar_c48ade,
-.bannerImage_f37cb1 {
-	width: var(--dplus-channels-width);
-}
 .sidebar_c48ade {
 	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui) !important;
