@@ -999,7 +999,7 @@ margin-right: 0;
 	border-radius: var(--dplus-radius-ui);
 }
 	/* Forum */
-.container__01ae2:not(.floating__01ae2), .visual-refresh .container_f369db, .form_d9be46 .input__0f084 {
+.container__01ae2:not(.floating__01ae2), .visual-refresh .container_f369db, .form_d9be46 .input__0ed4f {
 	background-color: transparent!important;
 }
 .floating__01ae2 {filter: none;} 
@@ -1558,7 +1558,7 @@ background-size: contain;
 background-color: transparent;
 }
 .scroller_ff90b2, #app-mount .headerClickable-2IVFo9, #app-mount .headerDefault-1wrJcN {background: transparent;}
-.select_d48ec6 .Select-menu-outer, #app-mount .auditLog-3jNbM6, .input__0f084 {
+.select_d48ec6 .Select-menu-outer, #app-mount .auditLog-3jNbM6, .input__0ed4f {
 background: var(--dplus-bgc-ui-card) !important;
 border-color: var(--dplus-accent-ui) !important;
 border-radius: var(--dplus-radius-ui) !important;
