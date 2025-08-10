@@ -11,7 +11,7 @@
   /* Sidebar shoving */
   .container_c48ade
   {
-    --if-push-comes-to-shove: calc(var(--custom-guild-sidebar-width) + (var(--dplus-spacing-ui) * 2) - var(--dplus-scrollbar-width) - 32px);
+    --if-push-comes-to-shove: calc(var(--custom-guild-sidebar-width) - var(--dplus-scrollbar-width) * 2);
   }
   .container_c48ade:not(:has(.sidebar_c48ade:hover,.wrapper_ef3116:hover))
   {
