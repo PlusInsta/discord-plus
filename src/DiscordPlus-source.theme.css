@@ -663,9 +663,9 @@ header, h1,
 /*-- 10.1 Guilds --*/
 .guilds_c48ade foreignObject {mask: none; overflow: visible;}
 .guildSeparator__252b6 {display: none}
-.hiddenVisually__27f77 {background-color: transparent;}
+.hiddenVisually_b18fe2 {background-color: transparent;}
 .visual-refresh .wrapper_ef3116 {margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );}
-.hiddenVisually__27f77.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
+.hiddenVisually_b18fe2.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
 .isExpanded__48112 .folderHeader__48112 svg {padding: 4px;}
 #app-mount .guilds_c48ade {
 background: var(--dplus-bgc-ui-base);
@@ -1222,7 +1222,7 @@ border-radius: var(--dplus-radius-ui);
 		margin-right: var(--dplus-spacing-app);
 	}
 	.sidebarRegion__23e6b .sidebar__23e6b {max-width: 218px;}
-	.headerText_b3f026 {overflow: hidden;}
+	.headerText_aa8da2 {overflow: hidden;}
 	.standardSidebarView__23e6b .contentRegion__23e6b {
 		max-width: 100%;
 	}
@@ -1313,7 +1313,7 @@ border-radius: var(--dplus-radius-ui);
 		background-color: var(--dplus-bgc-radiobar-selected);
 	}
 }
-.headerText_b3f026 { overflow-x: clip; }
+.headerText_aa8da2 { overflow-x: clip; }
 
 /* My Account */
 .settingsBanner_c3e427 {
@@ -1404,7 +1404,7 @@ border-radius: var(--dplus-radius-ui);
 	.selected_e03935.option_e03935, .option_e03935:hover {background-color: var(--dplus-accent-ui);}
 	/* Keybinds */
 	.removeKeybind-2YVgVG { right: -17px; top: 2px;}
-	#app-mount .card_b846e5 .button_e18686 {
+	#app-mount .card__4bb93 .button__9a406 {
 	background-color: transparent;
 	border-radius: var(--dplus-radius-ui);
 	box-shadow: none;
@@ -1420,8 +1420,8 @@ border-radius: var(--dplus-radius-ui);
 	transition: var(--dplus-anim-button) !important;
 }
 
-.container__87bf1 svg path, svg.bd-switch-symbol {display:none;}
-.container__87bf1.checked__87bf1, .bd-switch-checked .bd-switch-body {background-color: var(--dplus-accent-ui) !important;}
+.container__3f21e svg path, svg.bd-switch-symbol {display:none;}
+.container__3f21e.checked__3f21e, .bd-switch-checked .bd-switch-body {background-color: var(--dplus-accent-ui) !important;}
 
 
 /* Dropdown Menus */
