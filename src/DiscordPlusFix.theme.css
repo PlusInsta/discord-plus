@@ -1,0 +1,383 @@
+/**
+ * @name Discord+ Fixes
+ * @author PlusInsta (edited by Kamikaze)
+ * @authorId 309931975102300160
+ * @authorLink https://plusinsta.xyz
+ * @version 0.0.5
+ * @description A sleek, customizable Discord theme.
+ * @source https://gist.github.com/Kamiikaze/3a2dada61f52d2e6bd113fb5417a61a7
+ * @updateUrl https://gist.githubusercontent.com/Kamiikaze/3a2dada61f52d2e6bd113fb5417a61a7/raw/643a7945e61a0ddd811400b27c9dc1ce6148bdec/DiscordPlusFix.theme.css
+ * @invite 2Jwh2nS
+*/
+
+/** region DiscordPlus (Theme Fixes) */
+
+/* User Profiles */
+[class*="user-profile-"] {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+
+[class*="user-profile-"] .overlay_c0bea0,
+[class*="user-profile-"] .inner_ab8609  {
+    background-color: var(--dplus-bgc-chatmsg-hover);
+}
+
+[class*="user-profile-"] .header__5be3e .outer_ab8609 {
+    background-color: var(--dplus-accent-ui);
+}
+
+.user-profile-modal-v2 .profileHeader__9c3be,
+.user-profile-modal-v2 .profileBody__9c3be
+{
+    background-color: var(--dplus-bgc-chatmsg);
+}
+
+/* Context Menus */
+.menu_c1e9c4 {
+    background-color: var(--dplus-bgc-ui-card);
+}
+
+
+/* Reactions Tooltip */
+.reactionTooltip_b49891 {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+
+/* Reactions Popover */
+.popover_f84418 {
+    background-color: var(--dplus-bgc-chatmsg);
+    box-shadow: 0 1px 4px 0 var(--dplus-accent-ui);
+}
+.popover_f84418:hover {
+    background-color: var(--dplus-bgc-chatmsg);
+    box-shadow: 0 4px 8px 0 var(--dplus-accent-ui);
+}
+
+/* Message History - Bottom gradient */
+.chatGradient__36d07,
+.chatTypingGradientNotAtBottom__36d07 {
+    display: none;
+}
+/* Typing Dots */
+.chatTypingGradientAtBottom__36d07 {
+    display: none;
+}
+/* Fix for weird typing behavior 2025-09-30 */
+.inTextChannel_b88801.typing_b88801 {
+    top: 12px;
+    left: 16px;
+    right: 16px;
+}
+.typingDots_b88801 {
+    background-color: unset;
+}
+/*.chatContent_f75fb0:has(.base_b88801) .channelTextArea_f75fb0
+ * Bug, doesnt detect changes
+*/
+.chatContent_f75fb0 .channelTextArea_f75fb0 {
+    padding-top: 24px !important;
+}
+.cooldownWrapper_b21699 {
+    background-color: var(--dplus-accent-ui);
+}
+
+
+/* Chat Reply Bar */
+.replyBar__841c8,
+.threadSuggestionBar__841c8 {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+.stackedBars__74017 {
+    background: unset;
+}
+
+
+/* Server Embeds */
+.container__5e208.isComponentsV2__5e208 .container__60fa3,
+.embed__623de,
+.wrapperAudio_cf09d8 {
+    background-color: var(--dplus-bgc-chatmsg-hover);
+}
+
+
+/* Stream Panel */
+.activityPanel_c48ade {
+    background-color: var(--dplus-bgc-ui-base);
+}
+
+
+/* Tooltips Container */
+.tooltipPrimary_c36707,
+.tooltip_c36707 { 
+    background-color: var(--dplus-bgc-ui-base);
+}
+
+
+/* Empty Activity Card */
+.emptyCard__7e549 {
+    background-color: var(--dplus-bgc-ui-card);
+}
+
+
+/* Left Sidebr */
+.sidebar_c48ade {
+    background: transparent;
+}
+
+
+/* DMs List */
+.sidebarList_c48ade .scroller__99e7c {
+    background: transparent;
+}
+/* DM List - Buttons */
+.searchBar__35e86 .button__201d5,
+.privateChannelsHeaderContainer__99e7c .button_a22cb0 {
+    background-color: var(--dplus-bgc-button);
+}
+.searchBar__35e86 .button__201d5:hover,
+.privateChannelsHeaderContainer__99e7c .button_a22cb0:hover {
+    background-color: var(--dplus-bgc-button-hover);
+}
+/* DM Button */
+.childWrapper__6e9f8 {
+    background-color: var(--dplus-bgc-button);
+}
+/* DM Close Button */
+.iconsContainer__972a0 {
+    padding: 0 8px;
+}
+
+
+/* Voice Channel  - Activity Preview */
+.container__4e30a {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+/* Active VoiceChannel Icon Color */
+.iconLive_c69b6d {
+    color: var(--dplus-bgc-button) !important;
+}
+/* Voice Channel Overview pulse gradient */
+.pulseGradient__11664 canvas {
+	filter: hue-rotate(45deg) brightness(0.5);
+}
+
+
+/* Guild List */
+.listItem__650eb svg:hover {
+    transform: scale(1.1);
+}
+.folderGroup__48112 svg:hover {
+    transform: none;
+}
+.guilds_c48ade .scroller_ef3116 {
+    margin: 4px 0;
+}
+.guilds_c48ade .scroller_ef3116 div:nth-child(6) {
+    margin-bottom: 0;
+}
+
+
+/* Member List (Threads) */
+.membersWrap_c8ffbb {
+    background-color: var(--dplus-bgc-ui-base);
+    border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+}
+
+
+/* Member List - Activity Cards */
+.container__0f2e8 {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+/* Member List - Activity Popout */
+.popoutContentWrapper_af3b89,
+.interactionsContainer_af3b89 {
+    background-color: var(--dplus-bgc-chatmsg-hover);
+}
+
+
+/* Server Boost Progress */
+.progressContainer__0d0f9 {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+
+
+/* Announcement Channel Follow Button */
+.button_a22cb0 {
+    background-color: var(--dplus-bgc-button);
+}
+.button_a22cb0:hover {
+    background-color: var(--dplus-bgc-button-hover);
+}
+
+/* Pinned Messages popout */
+.messagesPopoutWrap__45690,
+.messagesPopoutWrap__45690 .header__45690,
+.container_d9c882,
+.container_d9c882 .header_d9c882 {
+    background-color: var(--dplus-bgc-ui-card);
+}
+
+
+/* Thread List Container */
+.list_f369db {
+    background-color: var(--dplus-bgc-chatmsg);
+}
+.mainCard_f369db {
+    background-color: var(--dplus-bgc-ui-card);
+}
+.mainCard_f369db.isOpen_faa96b {
+    background-color: var(--dplus-accent-ui);
+}
+.mainCard_f369db:hover {
+    background-color: var(--dplus-bgc-ui-card-hover);
+}
+/* Thread List - Taglist popup */
+.container__5808f {
+    background-color: var(--dplus-bgc-ui-card);
+}
+/* Thread Follow Container */
+.container__34c2c{
+    background-color: var(--dplus-bgc-chatmsg);
+}
+/* Thread Channel Preview */
+.popout__76f04 {
+    background-color: var(--dplus-bgc-ui-base);
+}
+
+
+/* ServerTag recommend popover */
+.popover_d6f39b {
+    background-color: var(--dplus-bgc-ui-card);
+}
+
+/* User Quest Progress */
+.panels_c48ade .postEnrollmentBackground__636a2 {
+    background-color: var(--dplus-bgc-ui-base) !important;
+}
+
+
+/*endregion DiscordPlus */
+
+
+/** region BetterDiscord */
+.bd-button.bd-button-filled.bd-button-color-brand {
+    background-color: var(--dplus-bgc-button);
+}
+.bd-button.bd-button-filled.bd-button-color-brand:hover {
+    background-color: var(--dplus-bgc-button-hover);
+}
+
+
+.bd-store-card,
+.bd-addon-store .bd-addon-store-card {
+    background-color: var(--dplus-bgc-ui-card);
+}
+.bd-store-card:hover,
+.bd-addon-store .bd-addon-store-card:hover {
+    background-color: var(--dplus-bgc-ui-card-hover);
+}
+
+
+.bd-addon-list .bd-addon-header {
+    background-color: var(--dplus-bgc-ui-base);
+}
+.bd-addon-store {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+/*endregion BetterDiscord */
+
+
+/** region Plugins */
+
+/* ChannelTabs */
+#channelTabs-container {
+    background-color: var(--dplus-bgc-ui-base);
+    border-radius: var(--dplus-radius-ui);
+    height: 28px;
+    margin: 0;
+}
+
+.channelTabs-tabNav,
+#channelTabs-settingsMenu {
+    display: none;
+}
+
+.channelTabs-tabContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 15px 0 5px;
+    padding-top: 0 !important;
+}
+
+.channelTabs-tab {
+    background-color: var(--dplus-bgc-ui-card);
+    margin: 1px 2px;
+    padding: 2px 0;
+}
+.channelTabs-tab:not(.channelTabs-selected):hover {
+    background-color: var(--dplus-bgc-ui-card-hover);
+    margin: 1px 2px;
+}
+.channelTabs-tab.channelTabs-selected {
+    background-color: var(--dplus-accent-ui);
+}
+
+.channelTabs-onlineIcon {
+    stroke: #009d00;
+}
+
+.winButtons_c38106 {
+    gap: 10px;
+}
+
+
+/* LazyLoadChannels */
+#lazyLoader {
+    width: auto;
+    margin: 0 10px 0 0;
+    border-radius: 0 0 var(--dplus-radius-ui) !important;
+    background-color: var(--dplus-bgc-chatmsg);
+}
+
+#lazyLoader .stats {
+    bottom: 80px;
+    right: 35px;
+    border-radius: var(--dplus-radius-ui) !important;
+    background-color: var(--dplus-bgc-chatmsg);
+}
+
+#lazyLoader .channel {
+    background-color: var(--dplus-accent-ui);
+}
+
+
+/* CallTimeCounter */
+.panels_c48ade .connection_e131a9,
+.panels_c48ade .inner_e131a9,
+.panels_c48ade .rtcConnectionStatus__06d62 {
+    min-height: 48px;
+}
+
+.voiceTimer {
+    margin-top: 4px;
+}
+
+
+/* ImageUtilities */
+.imageModal_10e0a6 .actionButtons_cc1819 {
+    background-color: var(--dplus-bgc-ui-card);
+}
+.imageModal_10e0a6 .closeButton__6088c,
+.imageModal_10e0a6 .switchIcon_ac0584 {
+    background-color: var(--dplus-bgc-button);
+}
+
+.imageModal_10e0a6 img {
+    max-height: calc(100% - 70px);
+}
+
+
+
+/*endregion Plugins */
