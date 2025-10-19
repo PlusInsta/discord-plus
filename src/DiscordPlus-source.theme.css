@@ -1589,11 +1589,6 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
     display: none;
 }
 /* Fix for weird typing behavior 2025-09-30 */
-.inTextChannel_b88801.typing_b88801 {
-    top: 12px;
-    left: 16px;
-    right: 16px;
-}
 .typingDots_b88801 {
     background-color: unset;
 }
