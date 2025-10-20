@@ -1588,10 +1588,6 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 .chatTypingGradientAtBottom__36d07 {
     display: none;
 }
-/* Fix for weird typing behavior 2025-09-30 */
-.typingDots_b88801 {
-    background-color: unset;
-}
 /*.chatContent_f75fb0:has(.base_b88801) .channelTextArea_f75fb0
  * Bug, doesnt detect changes
 */
