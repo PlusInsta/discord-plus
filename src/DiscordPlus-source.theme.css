@@ -705,7 +705,7 @@ background-color: var(--dplus-bgc-server-button-hover);
 	border-radius: var(--dplus-radius-ui) !important;
 	margin-right: var(--dplus-spacing-app);
 }
-.visual-refresh .sidebarList_c48ade {
+.visual-refresh .sidebarList__5e434 {
 	background: var(--dplus-bgc-ui-base);
 	margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );
 	border-radius: var(--dplus-radius-ui) !important;
@@ -1643,7 +1643,7 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 
 
 /* DMs List */
-.sidebarList_c48ade .scroller__99e7c {
+.sidebarList__5e434 .scroller__99e7c {
     background: transparent;
 }
 /* DM List - Buttons */
