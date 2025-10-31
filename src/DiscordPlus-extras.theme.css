@@ -66,7 +66,7 @@
 }
 /* Developers */
 :is(.member_c8ffbb, .contents_c19a55):has(
-  [src*="309931975102300160"], [src*="207335168430702602"], [src*="394891840815366147"]
+  [src*="309931975102300160"], [src*="207335168430702602"], [src*="394891840815366147"], [src*="141851936168214528"]
 ) {
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
   --dplus-dev: "";
