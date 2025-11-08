@@ -715,6 +715,9 @@ background-color: var(--dplus-bgc-server-button-hover);
 .scrollerBase__99f8c, .privateChannels__35e86 {
 	background-color: transparent!important;
 }
+.privateChannels_e6b769 {
+	background: var(--dplus-bgc-ui-base) !important;
+}
 .visual-refresh .scroller__99e7c {margin-bottom: 0;}
 .privateChannels__35e86 .channel__972a0 {
 	margin-left: var(--dplus-spacing-ui);
