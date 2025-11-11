@@ -712,11 +712,11 @@ background-color: var(--dplus-bgc-server-button-hover);
 }
 .visual-refresh .sidebar__5e434:after{display: none;}
 /*-- 11.2 DMs Sidebar --*/
-.scrollerBase__99f8c, .privateChannels__35e86 {
+.scrollerBase__99f8c, .privateChannels_e6b769 {
 	background-color: transparent!important;
 }
 .visual-refresh .scroller__99e7c {margin-bottom: 0;}
-.privateChannels__35e86 .channel__972a0 {
+.privateChannels_e6b769 .channel__972a0 {
 	margin-left: var(--dplus-spacing-ui);
 	margin-right: var(--dplus-spacing-ui);
 }
