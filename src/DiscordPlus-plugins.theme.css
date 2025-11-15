@@ -25,25 +25,25 @@
 			margin-top: 26px !important;
 		}
 		
-			/* by DevilBro */
-				/* BadgesEverywhere */
+	/* by DevilBro */
+		/* BadgesEverywhere */
 		.BE-badge:last-of-type {
 			margin-right: 0px;
 		}
 		
-				/* CharCounter */
+		/* CharCounter */
 		.chatCounter-XOMPsh {
 			bottom: 0;
 			top: -0.667rem;
 			font-size: 0.85rem;
 		}
 		
-				/* CreationDate / JoinedAtDate / LastMessageDate */
+		/* CreationDate / JoinedAtDate / LastMessageDate */
 		.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText_d98cf4 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
 			margin-top: var(--dplus-spacing-ui);
 		}
 		
-				/* DisplayServersAsChannels */
+		/* DisplayServersAsChannels */
 		.styledGuildsAsChannels-DNHtg_ .tutorialContainer__1f388 .childWrapper_a6ce15 {
 			background-size: 28px 28px !important;
 			background-position-x: calc(100% - 4px) !important;
@@ -56,7 +56,7 @@
 			border-radius: 5px;
 		}
 		
-				/* EditUsers */
+		/* EditUsers */
 		.EditUsers-tag {
 			text-transform: none;
 			top: -1px !important;
@@ -66,19 +66,32 @@
 			vertical-align: middle;
 		}
 		
-				/* PluginRepo */
+		/* ImageUtilities */
+		.imageModal_10e0a6 .actionButtons_cc1819 {
+			background-color: var(--dplus-bgc-ui-card);
+		}
+		.imageModal_10e0a6 .closeButton__6088c,
+		.imageModal_10e0a6 .switchIcon_ac0584 {
+			background-color: var(--dplus-bgc-button);
+		}
+
+		.imageModal_10e0a6 img {
+			max-height: calc(100% - 70px);
+		}
+
+		/* PluginRepo */
 		.flexChild__7c0ba > div > div,
 		.DevilBro-notice {
 			border-radius: var(--dplus-radius-ui) !important;
 		}
 		
-				/* SendLargeMessages */
+		/* SendLargeMessages */
 		.SendLargeMessages-modal #character-counter {
 			margin-top: 10px;
 			margin-bottom: 5px;
 		}
 		
-				/* TopRoleEverywhere */
+		/* TopRoleEverywhere */
 		.TRE-tag {
 			border: none !important;
 			margin-top: 1px;
@@ -92,39 +105,115 @@
 			vertical-align: middle;
 		}
 		
-			/* by Ducko */
-				/* Better Message Deletion */
+	/* by Ducko */
+		/* Better Message Deletion */
 		.gm-deleted-message {
 			background-color: hsl(0, 80%, 20%, 0.8) !important;
 		}
 		
-			/* by Farcrada */
-				/* Hide Channels */
+	/* by QWERT */
+		/* CallTimeCounter */
+		.panels__5e434 .connection_e131a9,
+		.panels__5e434 .inner_e131a9,
+		.panels__5e434 .rtcConnectionStatus__06d62 {
+			min-height: 48px;
+		}
+
+		.voiceTimer {
+			margin-top: 4px;
+		}
+
+	/* by Farcrada */
+		/* Hide Channels */
 		.sidebar_c48ade.hideChannelElement {
 			margin: 0 calc(var(--dplus-spacing-app) / 2);
 		}
 		
-			/* by programmer2514 */
-				/* CollapsibleUI */
+	/* by programmer2514 */
+		/* CollapsibleUI */
 		.guilds_c48ade[style*="width: 0px;"],
 		.sidebar_c48ade[style*="width: 0px;"] {
 			margin-right: 0px;
 		}
 		
-			/* by Puyodead1 */
-				/* Staff Tags */
+	/* by Puyodead1 */
+		/* Staff Tags */
 		.ownertag {
 			vertical-align: super !important;
 		}
-		
-			/* by Strencher */
-				/* ChannelDms */
+	
+	/* by samfundev */
+		/* ChannelTabs */
+		#channelTabs-container {
+			background-color: var(--dplus-bgc-ui-base);
+			border-radius: var(--dplus-radius-ui);
+			height: 28px;
+			margin: 0;
+		}
+
+		.channelTabs-tabNav,
+		#channelTabs-settingsMenu {
+			display: none;
+		}
+
+		.channelTabs-tabContainer {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			margin: 0 15px 0 5px;
+			padding-top: 0 !important;
+		}
+
+		.channelTabs-tab {
+			background-color: var(--dplus-bgc-ui-card);
+			margin: 1px 2px;
+			padding: 2px 0;
+		}
+		.channelTabs-tab:not(.channelTabs-selected):hover {
+			background-color: var(--dplus-bgc-ui-card-hover);
+			margin: 1px 2px;
+		}
+		.channelTabs-tab.channelTabs-selected {
+			background-color: var(--dplus-accent-ui);
+		}
+
+		.channelTabs-onlineIcon {
+			stroke: #009d00;
+		}
+
+		.winButtons_c38106 {
+			gap: 10px;
+		}
+
+	/* by Skamt */
+		/* LazyLoadChannels */
+		#lazyLoader {
+			width: auto;
+			margin: 0 10px 0 0;
+			border-radius: 0 0 var(--dplus-radius-ui) !important;
+			background-color: var(--dplus-bgc-chatmsg);
+		}
+
+		#lazyLoader .stats {
+			bottom: 80px;
+			right: 35px;
+			border-radius: var(--dplus-radius-ui) !important;
+			background-color: var(--dplus-bgc-chatmsg);
+		}
+
+		#lazyLoader .channel {
+			background-color: var(--dplus-accent-ui);
+		}
+
+	/* by Strencher */
+		/* ChannelDms */
 		.ChannelDms-channelmembers-wrap .privateChannels__35e86 {
 			background: var(--dplus-bgc-ui-base)
 		}
 		
-			/* by Zerebos */
-				/* BetterFormattingRedux */
+	/* by Zerebos */
+		/* BetterFormattingRedux */
 		.bf-toolbar {
 			margin-left: 10px!important;
 			margin-top: 20px;
@@ -143,93 +232,11 @@
 			opacity: 1;
 		}
 
-/* ChannelTabs */
-#channelTabs-container {
-    background-color: var(--dplus-bgc-ui-base);
-    border-radius: var(--dplus-radius-ui);
-    height: 28px;
-    margin: 0;
-}
-
-.channelTabs-tabNav,
-#channelTabs-settingsMenu {
-    display: none;
-}
-
-.channelTabs-tabContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 15px 0 5px;
-    padding-top: 0 !important;
-}
-
-.channelTabs-tab {
-    background-color: var(--dplus-bgc-ui-card);
-    margin: 1px 2px;
-    padding: 2px 0;
-}
-.channelTabs-tab:not(.channelTabs-selected):hover {
-    background-color: var(--dplus-bgc-ui-card-hover);
-    margin: 1px 2px;
-}
-.channelTabs-tab.channelTabs-selected {
-    background-color: var(--dplus-accent-ui);
-}
-
-.channelTabs-onlineIcon {
-    stroke: #009d00;
-}
-
-.winButtons_c38106 {
-    gap: 10px;
-}
 
 
-/* LazyLoadChannels */
-#lazyLoader {
-    width: auto;
-    margin: 0 10px 0 0;
-    border-radius: 0 0 var(--dplus-radius-ui) !important;
-    background-color: var(--dplus-bgc-chatmsg);
-}
-
-#lazyLoader .stats {
-    bottom: 80px;
-    right: 35px;
-    border-radius: var(--dplus-radius-ui) !important;
-    background-color: var(--dplus-bgc-chatmsg);
-}
-
-#lazyLoader .channel {
-    background-color: var(--dplus-accent-ui);
-}
 
 
-/* CallTimeCounter */
-.panels__5e434 .connection_e131a9,
-.panels__5e434 .inner_e131a9,
-.panels__5e434 .rtcConnectionStatus__06d62 {
-    min-height: 48px;
-}
-
-.voiceTimer {
-    margin-top: 4px;
-}
 
 
-/* ImageUtilities */
-.imageModal_10e0a6 .actionButtons_cc1819 {
-    background-color: var(--dplus-bgc-ui-card);
-}
-.imageModal_10e0a6 .closeButton__6088c,
-.imageModal_10e0a6 .switchIcon_ac0584 {
-    background-color: var(--dplus-bgc-button);
-}
-
-.imageModal_10e0a6 img {
-    max-height: calc(100% - 70px);
-}
 
 

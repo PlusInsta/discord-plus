@@ -29,7 +29,7 @@
  *  8.2 Pins Popout
  *  8.3 Context Menu Popout
  *  8.4 Inbox
- *  8.5 Profile Popout
+ *  8.5 Profile/Server Popout
  * 9 Titlebar
  *  9.1 General Titlebar
  *  9.2 Mac OS Buttons
@@ -232,9 +232,10 @@
 
 /* Discord's variables */
 .theme-dark, .theme-light {
-	--background-base-highest: var(--dplus-bgc-popout);
+	--background-surface-highest: var(--dplus-bgc-popout);
 	--background-surface-higher: var(--dplus-bgc-ui-base-hover);
 	--background-surface-high: var(--dplus-bgc-popout);
+	--bg-surface-overlay: var(--background-surface-high);
 	--user-profile-overlay-background: var(--dplus-accent-ui);
 	--user-profile-overlay-background-hover: var(--dplus-accent-ui-hover);
 	--background-base-low: var(--dplus-bgc-ui-base);
@@ -242,6 +243,7 @@
 	--background-base-lowest: var(--dplus-bgc-ui-base);
 	--background-floating: var(--dplus-bgc-popout) !important;
 	--modal-background: var(--dplus-bgc-popout);
+	--user-profile-toolbar-background:var(--dplus-accent-ui);
 	--radio-group-dot-foreground: white;
 	--bg-brand: var(--dplus-accent-ui);
 	--bd-blue: var(--dplus-accent-ui) !important;
@@ -279,11 +281,6 @@ body { background-color: var(--dplus-accent-ui); }
 /*-- 3.2 Margins --*/
 .layers__160d8 {margin: var(--dplus-spacing-app) !important;}
 .content__5e434 {margin-top: var(--dplus-spacing-app) !important;}
-.standardSidebarView__23e6b {
-	margin: var(--dplus-spacing-app) !important;
-	margin-top: 0px !important;
-}
-
 
 /*--- 4 Fonts ---*/
 
@@ -417,7 +414,7 @@ header, h1,
 
 /*-- 7.2 Server Create/Join Modal --*/
 
-/*-- 7.3 Custom Status Modal --*/							 /* Possibly outdated */
+/*-- 7.3 Custom Status Modal --*/
 
 /*-- 7.4 Quick Switcher Modal --*/
 
@@ -438,16 +435,23 @@ header, h1,
 /*-- 8.4 Inbox --*/ /* Fix */
 
 /*-- 8.5 AutoComplete --*/
-
+.autocomplete__13533 {
+	background-color: var(--dplus-bgc-popout);
+	inset-inline: 0;
+}
+.clickable__13533[aria-disabled=false]>.base__13533:hover, .clickable__13533[aria-selected=true]>.base__13533 {background-color: var(--dplus-accent-ui-hover);}
 /*-- 8.6 Stickers/Emoji/Gif Tab --*/
 
-/*-- 8.7 Profile Popout --*/
+/*-- 8.7 Profile/Server Popout --*/
 
 /*--- 9 Titlebar ---*/
 
 /*-- 9.1 General Titlebar --*/
 /* settings bg, offset to go behind titlebar */
-.layer__960e4:has(.standardSidebarView__23e6b) {margin-top: 32px;}
+.layer__960e4:has(.standardSidebarView__23e6b) {margin-top: calc(32px + var(--dplus-spacing-app));}
+.systemBar_c38106 {
+	margin: var(--dplus-spacing-app);
+}
 .bar_c38106 {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
@@ -609,6 +613,7 @@ z-index: 2;
 	padding-top: 0; padding-bottom: 0;
 }
 .cozy_c19a55.wrapper_c19a55 {padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);}
+.message__5126c {border-radius: 0;}
 .groupStart__5126c,
 .divider__5126c + :is(.messageListItem__5126c, .flash__03436) .message__5126c {
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
@@ -950,10 +955,10 @@ border-radius: var(--dplus-radius-ui);
 	.avatar__07f91 {border-radius: var(--dplus-radius-avatar);}
 
 	/*--- 14 Settings ---*/
-	.layer__960e4, .standardSidebarView__23e6b, .contentRegionScroller__23e6b, .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b {background-color: transparent!important;}
-	.customColumn__23e6b, .contentColumn__23e6b {
+.layer__960e4, .standardSidebarView__23e6b, .contentRegionScroller__23e6b, .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b {background-color: transparent!important;}
+.customColumn__23e6b, .contentColumn__23e6b {
 		max-width: 100%;
-	}
+}
 	.sidebarRegion__23e6b {
 		max-width: 218px;
 		margin-right: var(--dplus-spacing-app);
