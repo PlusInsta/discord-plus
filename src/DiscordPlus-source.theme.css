@@ -29,7 +29,7 @@
  *  8.2 Pins Popout
  *  8.3 Context Menu Popout
  *  8.4 Inbox
- *  8.5 Profile Popout
+ *  8.5 Profile/Server Popout
  * 9 Titlebar
  *  9.1 General Titlebar
  *  9.2 Mac OS Buttons
@@ -55,9 +55,8 @@
  * 13 Avatars
  * 14 Settings
  * 15 Client Mod Specifics
- *  15.1 BetterDiscord
- *    15.1.1 Addon Lists
- *    15.1.2 Toast Notifications
+ *		15.1 BetterDiscord
+
  */
 
 /*--- 1 Imports ---*/
@@ -205,187 +204,7 @@
 }
 
 /* Colors */
-.theme-dark {
-	/* The variable hell begins */
-	--header-primary: hsl(
-		0,
-		0%,
-		calc(var(--dplus-foreground-color-lightness-amount) * 100%)
-	);
-	--header-secondary: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 6),
-							calc(var(--dplus-foreground-color-saturation-factor) * 3.7%),
-							calc(var(--dplus-foreground-color-lightness-amount) * 73.5%)
-	);
 
-	--text-normal: hsl(
-		var(--dplus-foreground-color-hue-base),
-					   calc(var(--dplus-foreground-color-saturation-factor) * 2.9%),
-					   calc(var(--dplus-foreground-color-lightness-amount) * 86.7%)
-	);
-	--text-muted: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 4),
-					  calc(var(--dplus-foreground-color-saturation-factor) * 4%),
-					  calc(var(--dplus-foreground-color-lightness-amount) * 65.3%)
-	);
-
-	--text-link: hsl(
-		var(--dplus-foreground-color-hue-links),
-					 calc(var(--dplus-foreground-color-saturation-factor) * 100%),
-					 calc(var(--dplus-foreground-color-lightness-amount) * 47.8%)
-	);
-	--text-link-low-saturation: hsl(
-		var(--dplus-foreground-color-hue-links),
-									calc(var(--dplus-foreground-color-saturation-factor) * 100%),
-									calc(var(--dplus-foreground-color-lightness-amount) * 52.9%)
-	);
-
-	--text-positive: hsl(
-		139,
-		calc(var(--dplus-foreground-color-saturation-factor) * 51.6%),
-						 calc(var(--dplus-foreground-color-lightness-amount) * 52.2%)
-	);
-	--text-warning: hsl(
-		38,
-		calc(var(--dplus-foreground-color-saturation-factor) * 95.7%),
-						calc(var(--dplus-foreground-color-lightness-amount) * 54.1%)
-	);
-	--text-danger: hsl(
-		359,
-		calc(var(--dplus-foreground-color-saturation-factor) * 82%),
-					   calc(var(--dplus-foreground-color-lightness-amount) * 73.9%)
-	);
-
-	--text-brand: hsl(
-		var(--dplus-accent-color-hue),
-					  calc(var(--dplus-foreground-color-saturation-factor) * 86.1%),
-					  calc(var(--dplus-foreground-color-lightness-amount) * 77.5%)
-	);
-
-	--interactive-normal: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 6),
-							  calc(var(--dplus-foreground-color-saturation-factor) * 3.7%),
-							  calc(var(--dplus-foreground-color-lightness-amount) * 73.5%)
-	);
-	--interactive-hover: hsl(
-		var(--dplus-foreground-color-hue-base),
-							 calc(var(--dplus-foreground-color-saturation-factor) * 2.9%),
-							 calc(var(--dplus-foreground-color-lightness-amount) * 86.7%)
-	);
-	--interactive-active: hsl(
-		0,
-		calc(var(--dplus-foreground-color-saturation-factor) * 0%),
-							  calc(var(--dplus-foreground-color-lightness-amount) * 100%)
-	);
-	--interactive-muted: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 7),
-							 calc(var(--dplus-foreground-color-saturation-factor) * 7.6%),
-							 calc(var(--dplus-foreground-color-lightness-amount) * 33.5%)
-	);
-
-	--channels-default: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 13),
-							calc(var(--dplus-foreground-color-saturation-factor) * 3.4%),
-							calc(var(--dplus-foreground-color-lightness-amount) * 60.2%)
-	);
-
-	--channel-icon: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 3),
-						calc(var(--dplus-foreground-color-saturation-factor) * 4.1%),
-						calc(var(--dplus-foreground-color-lightness-amount) * 57.5%)
-	);
-}
-
-.theme-light {
-	/* The variable hell continues */
-	--header-primary: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 30),
-						  calc(var(--dplus-foreground-color-saturation-factor) * 7.7%),
-						  calc(var(--dplus-foreground-color-lightness-amount) * 2.5%)
-	);
-	--header-secondary: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 5),
-							calc(var(--dplus-foreground-color-saturation-factor) * 9.7%),
-							calc(var(--dplus-foreground-color-lightness-amount) * 34.3%)
-	);
-
-	--text-normal: hsl(
-		var(--dplus-foreground-color-hue-base),
-					   calc(var(--dplus-foreground-color-saturation-factor) * 9.8%),
-					   calc(var(--dplus-foreground-color-lightness-amount) * 20%)
-	);
-	--text-muted: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 3),
-					  calc(var(--dplus-foreground-color-saturation-factor) * 9.6%),
-					  calc(var(--dplus-foreground-color-lightness-amount) * 40.8%)
-	);
-
-	--text-link: hsl(
-		calc(var(--dplus-foreground-color-hue-links) + 15),
-					 calc(var(--dplus-foreground-color-saturation-factor) * 100%),
-					 calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
-	);
-	--text-link-low-saturation: hsl(
-		calc(var(--dplus-foreground-color-hue-links) + 15),
-									calc(var(--dplus-foreground-color-saturation-factor) * 100%),
-									calc(var(--dplus-foreground-color-lightness-amount) * 43.9%)
-	);
-
-	--text-positive: hsl(
-		139,
-		calc(var(--dplus-foreground-color-saturation-factor) * 47.1%),
-						 calc(var(--dplus-foreground-color-lightness-amount) * 33.3%)
-	);
-	--text-warning: hsl(
-		38,
-		calc(var(--dplus-foreground-color-saturation-factor) * 81.5%),
-						calc(var(--dplus-foreground-color-lightness-amount) * 31.8%)
-	);
-	--text-danger: hsl(
-		359,
-		calc(var(--dplus-foreground-color-saturation-factor) * 85.6%),
-					   calc(var(--dplus-foreground-color-lightness-amount) * 64.7%)
-	);
-
-	--text-brand: hsl(
-		var(--dplus-accent-color-hue),
-					  calc(var(--dplus-foreground-color-saturation-factor) * 85.6%),
-					  calc(var(--dplus-foreground-color-lightness-amount) * 64.7%)
-	);
-
-	--interactive-normal: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 5),
-							  calc(var(--dplus-foreground-color-saturation-factor) * 9.7%),
-							  calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 34.3%)
-	);
-	--interactive-hover: hsl(
-		var(--dplus-foreground-color-hue-base),
-							 calc(var(--dplus-foreground-color-saturation-factor) * 9.8%),
-							 calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 20%)
-	);
-	--interactive-active: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 30),
-							  calc(var(--dplus-foreground-color-saturation-factor) * 7.7%),
-							  calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 2.5%)
-	);
-	--interactive-muted: hsl(
-		var(--dplus-foreground-color-hue-base),
-							 calc(var(--dplus-foreground-color-saturation-factor) * 9.8%),
-							 calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 80%)
-	);
-
-	--channels-default: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 3),
-							calc(var(--dplus-foreground-color-saturation-factor) * 9.6%),
-							calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 40.8%)
-	);
-
-	--channel-icon: hsl(
-		calc(var(--dplus-foreground-color-hue-base) + 3),
-						calc(var(--dplus-foreground-color-saturation-factor) * 9.4%),
-						calc(var(--dplus-foreground-color-lightness-amount) / 1.5 * 45.9%)
-	);
-}
 
 .theme-light, .theme-dark, :root {
 	/* There ain't no gettin' off this train, Cloud! */
@@ -413,27 +232,28 @@
 
 /* Discord's variables */
 .theme-dark, .theme-light {
-	--background-primary: var(--dplus-bgc-popout) !important;
-	--background-secondary: var(--dplus-bgc-ui-base) !important;
-	--background-secondary-alt: var(--dplus-bgc-ui-card) !important;
-	--background-tertiary: var(--dplus-bgc-ui-base) !important;
-	--channelbodyarea-background: transparent !important;
+	--background-surface-highest: var(--dplus-bgc-popout);
+	--background-surface-higher: var(--dplus-bgc-ui-base-hover);
+	--background-surface-high: var(--dplus-bgc-popout);
+	--bg-surface-overlay: var(--background-surface-high);
+	--user-profile-overlay-background: var(--dplus-accent-ui);
+	--user-profile-overlay-background-hover: var(--dplus-accent-ui-hover);
+	--background-base-low: var(--dplus-bgc-ui-base);
+	--background-base-lower: var(--dplus-bgc-ui-base);
+	--background-base-lowest: var(--dplus-bgc-ui-base);
 	--background-floating: var(--dplus-bgc-popout) !important;
-	--background-mobile-primary: var(--background-primary);
-	--background-mobile-secondary: var(--background-secondary);
+	--modal-background: var(--dplus-bgc-popout);
+	--user-profile-toolbar-background:var(--dplus-accent-ui);
 	--radio-group-dot-foreground: white;
 	--bg-brand: var(--dplus-accent-ui);
-}
-
-.theme-dark {
+	--button-filled-brand-background: var(--dplus-accent-ui);
+	--button-filled-brand-background-hover: var(--dplus-accent-ui-hover);
+	--control-background-primary-default: var(--dplus-accent-ui);
+	--control-background-primary-hover: var(--dplus-accent-ui-hover);
 	--bd-blue: var(--dplus-accent-ui) !important;
 	--background-accent: var(--dplus-accent-ui);
 }
 
-.theme-light {
-	--bd-blue: var(--dplus-accent-ui) !important;
-	--background-accent: var(--dplus-accent-ui);
-}
 /*--- 3 Background ---*/
 /* Quick and dirty fix for create a new server in dark mode */
 .theme-dark .layer-1Ixpg3 .theme-light { /* the ones i actually need */
@@ -464,14 +284,7 @@ body { background-color: var(--dplus-accent-ui); }
 
 /*-- 3.2 Margins --*/
 .layers__160d8 {margin: var(--dplus-spacing-app) !important;}
-.content_c48ade {margin-top: var(--dplus-spacing-app) !important;}
-.standardSidebarView__23e6b {
-	margin: var(--dplus-spacing-app) !important;
-	margin-top: 0px !important;
-}
-.app_a3002d:nth-child(1) {
-	color: transparent;
-}
+.content__5e434 {margin-top: var(--dplus-spacing-app) !important;}
 
 /*--- 4 Fonts ---*/
 
@@ -520,10 +333,7 @@ body, button {
 /*-- 4.3 Names, Titles, and Headers Font --*/
 header, h1,
 .nameAndDecorators__91a9d, /*name in member list*/
-.headerNameWrapper-3res2c, /*nickname in profile popup*/
 .username_c19a55, /*username in chat*/
-.headerText-15Q25Z, /*username#tag in profile popup*/
-.nickname-2gQ76l, /*nickname in profile popup*/
 .nameTag__37e49, /*your username in the bottom-left*/
 .detailsInner_de8f28, /*settings: your username in My Account*/
 .activityName__2ef49, /*user's activity name, includes song and author titles*/
@@ -531,17 +341,13 @@ header, h1,
 .userHook-3AdCBF, /*server settings: username in audit log*/
 .secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot names*/
 .roleName__48c1c, /*role name in profile*/
-.roleName-35qCvR, .roleName-3910zV, /*role name in server settings*/
 .membersGroup_c8ffbb, /*role name in member list*/
-.roleRow-3HnunM, /*role name in context menu*/
 .roleMention__75297, /*role name mention in chat*/
 .wrapper_d4fa29, /*username or channel name mention in chat*/
 [data-slate-object="inline"] .mention, /*mention in message box*/
-.systemMessage__5126c .anchorUnderlineOnHover-2qPutX, /* links / usernames in system messages */
 .name__29444, /*category name in sidebar*/
 .name__2ea32, /*channel name in sidebar*/
 .title__9293f, /*channel name in chat header*/
-.title-3hptVQ, /*channel name in channel topic popup*/
 .bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
 .timestamp_c19a55 /*chat message hover timestamp (counts as a header)*/ {
 	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Lalezar', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
@@ -569,7 +375,7 @@ header, h1,
 }
 
 /*-- 5.2 Crash page --*/
-.errorPage_a57b28 {
+.errorPage__01b8d {
 	width: calc(100% - var(--dplus-spacing-app) * 2)
 }
 .wrapper__61a6b {
@@ -609,10 +415,12 @@ header, h1,
 /*--- 7 Modals ---*/
 
 /*-- 7.1 General Modal --*/
-
+.root__49fc1 {
+	--modal-footer-background: transparent;
+}
 /*-- 7.2 Server Create/Join Modal --*/
 
-/*-- 7.3 Custom Status Modal --*/							 /* Possibly outdated */
+/*-- 7.3 Custom Status Modal --*/
 
 /*-- 7.4 Quick Switcher Modal --*/
 
@@ -621,7 +429,9 @@ header, h1,
 /*-- 7.6 Upload Modal --*/
 
 /*-- 7.7 Profile Modal --*/
-
+.user-profile-modal-v2 .inner_c0bea0 {
+	padding: var(--dplus-spacing-ui);
+}
 /*--- 8 Popouts ---*/
 
 /*-- 8.1 General Popout --*/
@@ -633,16 +443,25 @@ header, h1,
 /*-- 8.4 Inbox --*/ /* Fix */
 
 /*-- 8.5 AutoComplete --*/
-
+.autocomplete__13533 {
+	background-color: var(--dplus-bgc-popout);
+	inset-inline: 0;
+}
+.clickable__13533[aria-disabled=false]>.base__13533:hover, .clickable__13533[aria-selected=true]>.base__13533 {background-color: var(--dplus-accent-ui-hover);}
 /*-- 8.6 Stickers/Emoji/Gif Tab --*/
 
-/*-- 8.7 Profile Popout --*/
-
+/*-- 8.7 Profile/Server Popout --*/
+.mask__68edb circle {
+	display: none;
+}
 /*--- 9 Titlebar ---*/
 
 /*-- 9.1 General Titlebar --*/
 /* settings bg, offset to go behind titlebar */
-.layer__960e4:has(.standardSidebarView__23e6b) {margin-top: 32px;}
+.layer__960e4:has(.standardSidebarView__23e6b) {margin-top: calc(32px + var(--dplus-spacing-app));}
+.systemBar_c38106 {
+	margin: var(--dplus-spacing-app);
+}
 .bar_c38106 {
 	background-color: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui);
@@ -659,147 +478,83 @@ header, h1,
 }
 
 /*--- 10 Sidebar (Visual Refresh) ---*/
-
-/*-- 10.1 Guilds --*/
-.guilds__5e434 foreignObject {mask: none; overflow: visible;}
-.guildSeparator__252b6 {display: none}
-.hiddenVisually_b18fe2 {background-color: transparent;}
-.visual-refresh .wrapper_ef3116 {margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );}
-.hiddenVisually_b18fe2.hover__48112 {background-color: var(--dplus-bgc-server-button-hover)}
-.isExpanded__48112 .folderHeader__48112 svg {padding: 4px;}
-#app-mount .guilds__5e434 {
-background: var(--dplus-bgc-ui-base);
-border-radius: var(--dplus-radius-ui);
-margin-right: var(--dplus-spacing-app);
-}
-.pill__1f388 {border-radius: 0!important;} /*removes the radius on unread message pill*/
-.visual-refresh .folderPreviewGuildIcon__48112 {border-radius: var(--dplus-radius-server)!important;}
-.listItem__650eb {margin: 0 0 var(--dplus-spacing-ui);}
-.folderGroupBackground__48112 {
+	/*-- 10.1 Guilds --*/
+.guilds__5e434 {
+	margin: 0 var(--dplus-spacing-ui) calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) ) 0;
+	padding-top: var(--dplus-spacing-app);
 	border-radius: var(--dplus-radius-ui);
-	left: var(--dplus-spacing-ui);
-	bottom: 0;
-	background: var(--dplus-bgc-server-button);
+	mask: none
 }
-.folderGroup__48112 ul {height: calc(inherit + var(--dplus-spacing-ui)) !important;}
+.guildSeparator__252b6 {display: none}
+.guilds__5e434 foreignObject {mask: none; overflow: visible;}
 .guilds__5e434 .listItem__650eb :not(span) {border-radius: var(--dplus-radius-server);}
 .circleIconButton__5bc7e {
 	background-color: var(--dplus-bgc-server-button);
 	color: var(--dplus-accent-ui);
+	&:hover, &.selected__5bc7e {background-color: var(--dplus-bgc-server-button-hover);}
 }
-.circleIconButton__5bc7e.selected__5bc7e,
-#app-mount .childWrapper__6e9f8:hover {
-background-color: var(--dplus-bgc-server-button-hover);
-}
-/*-- 10.2 User Area --*/
+	/*-- 10.2 User Area --*/
 .panels__5e434 {
-	background: var(--dplus-bgc-ui-base);
-	width: 100%;
+	width: calc(100% - var(--dplus-spacing-ui));
 	left: 0; bottom: 0;
 }
-/*-- 10.3 Server/DM Sidebar --*/
-.scroller__99e7c {background: transparent}
-/*-- 11.1 General Sidebar --*/
-.sidebar__5e434 {
-
-	border-radius: var(--dplus-radius-ui) !important;
+	/*-- 10.3 Server/DM Sidebar --*/
+.sidebarListRounded__5e434 {
 	margin-right: var(--dplus-spacing-app);
-}
-.visual-refresh .sidebarList__5e434 {
-	background: var(--dplus-bgc-ui-base);
 	margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--dplus-spacing-ui) );
-	border-radius: var(--dplus-radius-ui) !important;
+	border-radius: var(--dplus-radius-ui);
 }
-.visual-refresh .sidebar__5e434:after{display: none;}
-/*-- 11.2 DMs Sidebar --*/
-.scrollerBase__99f8c, .privateChannels_e6b769 {
-	background-color: transparent!important;
+.scroller__99e7c {
+	background: transparent;
+	margin-bottom: 0;
 }
-.visual-refresh .scroller__99e7c {margin-bottom: 0;}
-.privateChannels_e6b769 .channel__972a0 {
-	margin-left: var(--dplus-spacing-ui);
-	margin-right: var(--dplus-spacing-ui);
+.channel__972a0 {
+	margin: 0 var(--dplus-spacing-ui);
+	border-radius: var(--dplus-radius-ui);
 }
-.closeButton__972a0 {
+.wrapper__2ea32 {
+	margin: 0 var(--dplus-spacing-ui);
+	padding: 0 calc(var(--dplus-spacing-ui) / 2);
+	border-radius: var(--dplus-radius-ui);
+}
+.container__2637a {padding-bottom: 0;}
+.sidebar__5e434:after {display: none;}
+.iconVisibility_c69b6d .children__2ea32 {margin-right: calc(0px - var(--dplus-spacing-ui));}
+.bottom__7aaec {bottom: var(--dplus-spacing-ui);}
+.iconsContainer__972a0 {padding: 0;}
+.closeButton__972a0, .iconItem_c69b6d {
 	display: block;
-	opacity: 0;
+	opacity: 0!important;
 	margin-right: calc(var(--dplus-spacing-ui) - var(--dplus-spacing-ui) * 1.5);
 	transition: var(--dplus-anim-button-appear);
+	:is(.channel__972a0:hover, .iconVisibility_c69b6d:hover, .selected_c69b6d) & {
+		opacity: 0.6!important;
+		margin-right: var(--dplus-spacing-ui);
+	}
 }
-.channel__972a0:hover .closeButton__972a0 {
-	opacity: 0.6;
-	margin-right: 0;
-}
-/*-- 11.3 Server Sidebar --*/
-#app-mount .container__2637a, .container__551b0,  .visual-refresh #app-mount .header_f37cb1, .visual-refresh .clickable_f37cb1  {
-background-color: transparent;
-}
-.visual-refresh .container__2637a {padding-bottom: 0;}
-/*unread bar*/
-.visual-refresh .bottom__7aaec {bottom: 0;}
-/* Animated channel buttons */
-.iconItem_c69b6d {display: block !important;}
-.iconVisibility_c69b6d .children__2ea32 {
-	margin-right: calc(0px - var(--dplus-spacing-ui));
-}
-.containerDefault_c69b6d.selected_c69b6d .children__2ea32,
-.iconVisibility_c69b6d:hover .children__2ea32 {
-	margin-right: 0;
-}
-.iconVisibility_c69b6d .children__2ea32 [role="button"] {
-	width: 0;
-	opacity: 0;
-}
-.containerDefault_c69b6d.selected_c69b6d .children__2ea32 [role="button"], .iconVisibility_c69b6d:hover .children__2ea32 [role="button"] {
-	width: fit-content	;
-	opacity: 1;
-}
-.iconVisibility_c69b6d :is(.children__2ea32, .iconItem_c69b6d, .channelInfo_c69b6d),
-.iconVisibility_c69b6d:hover .wrapper__260e1 {
-	transition-duration: var(--dplus-anim-button-appear);
-}
-/*-- 11.4 User Area (visual refresh) --*/
-
-
 /*--- 12 Main Content ---*/
 
-/*-- 12.1 General Main Content --*/
+	/*-- 12.1 General Main Content --*/
 .sidebar__5e434 + main, .sidebar__5e434 + div {
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden;
 }
-.visual-refresh .tabBody__133bf {background: transparent;}
-.content__5e434 { margin-top: 10px;}
+
 /*-- 12.2 Friends List --*/
-#app-mount .container__133bf, #app-mount .outer_bf1984 {background-color: var(--dplus-bgc-ui-base)	;}
-.nowPlayingColumn__133bf, .container__133bf .container__9293f.themed__9293f, .container__7d20c {background-color: transparent	;}
+.tabBody__133bf, .nowPlayingColumn__133bf, .container__133bf .container__9293f.themed__9293f, .container__7d20c {background: transparent;}
+
 .actionButton_f8fa06, #app-mount .inset_bf1984 {
 	background-color: var(--dplus-accent-ui)!important;
 	border-radius: var(--dplus-radius-ui);
 }
-.itemCard__7e549, #app-mount .outer_bf1984.active_bf1984, #app-mount .outer_bf1984.interactive_bf1984:hover { background: var(--dplus-bgc-ui-base-hover);}
-/* Notices */
-.app__160d8 .noticeWrapper-8z511t { /* Outdated... I don't even know what this was meant to change..*/
-	margin-left: -10px;
-	margin-right: calc(var(--dplus-spacing-app));
-	margin-bottom: var(--dplus-spacing-app);
-	border-radius: var(--dplus-radius-ui) !important;
-}
-/*-- 12.3 Library/Nitro Tab --*/
-.playButton__0cb56, .actionButtonSize_adb41f:hover, .rowWrapperActive_adb41f button {
-	background-color: var(--dplus-accent-ui)!important;
-}
-.gameUpdates__49035 {background: var(--dplus-bg-dark-2);}
-#app-mount .applicationStore_f07d62, .header_adb41f {background: transparent;}
-.applicationStore_f07d62 {border-radius: var(--dplus-radius-ui);}
+
+/*-- 12.3 Library/Nitro/Shop Tab --*/
+
 /*-- 12.4 Chat --*/
-#app-mount .chat_f75fb0 {
+#app-mount .chat_f75fb0, .chatContent_f75fb0, .replying__5126c:before, .chatGradient__36d07, .chatGradientBase__36d07  {
 background: transparent;
-border-radius: var(--dplus-radius-ui);
 }
-.chatContent_f75fb0, .form_f75fb0:before, .replying__5126c:before, .chatGradient__36d07, .chatGradientBase__36d07 {
-	background: transparent !important;
-}
+
 .wrapper_fc8177, #app-mount .children__9293f:after {display: none;}
 .group-spacing-0 { --group-spacing: 0px; }
 .group-spacing-4 { --group-spacing: 4px; }
@@ -868,6 +623,7 @@ z-index: 2;
 	padding-top: 0; padding-bottom: 0;
 }
 .cozy_c19a55.wrapper_c19a55 {padding-left: calc(var(--dplus-icon-avatar-chat) + var(--dplus-spacing-ui) * 2);}
+.message__5126c {border-radius: 0;}
 .groupStart__5126c,
 .divider__5126c + :is(.messageListItem__5126c, .flash__03436) .message__5126c {
 	border-radius: var(--dplus-radius-ui) var(--dplus-radius-ui) 0 0;
@@ -896,7 +652,7 @@ z-index: 2;
 .mentioned__5126c:before {
 	display: none;
 }
-.wrapper_d4fa29 {background-color: var(--brand-730);} /* Possibly Outdated*/
+
 .mentioned__5126c :not(.repliedTextPreview_c19a55) > .messageContent_c19a55, .mentioned__5126c .container_b7e1cb {
 	padding-left: 0;
 	margin-left: 0;
@@ -1069,12 +825,7 @@ color: white;
 	padding: 8px;
 	opacity: 0.6;
 }
-.wrapper__2ea32 {
-	margin-left: 0;
-	margin: 0 var(--dplus-spacing-ui);
-	padding: 0 calc(var(--dplus-spacing-ui) / 2);
-	border-radius: var(--dplus-radius-ui);
-}
+
 .searchResult__02a39.expanded-w_LCGl {
 	border: 1px solid var(--dplus-accent-ui) !important;
 	border-radius: var(--dplus-radius-ui) !important;
@@ -1124,7 +875,7 @@ background-color: var(--dplus-bgc-ui-base)!important;
 	&:hover {background-color: var(--background-accent);}
 }
 .background_fb62e2 {background-color: var(--dplus-bgc-ui-base)!important;}
-
+.resizeHandle__01ae2, .channelChatWrapper_cb9592 {background: transparent;}
 /*-- 12.5 Explore Public Servers --*/ /*Possibly Outdated*/
 #app-mount .guildIcon_e90879 {
 background-color: var(--dplus-accent-ui);
@@ -1214,10 +965,10 @@ border-radius: var(--dplus-radius-ui);
 	.avatar__07f91 {border-radius: var(--dplus-radius-avatar);}
 
 	/*--- 14 Settings ---*/
-	.layer__960e4, .standardSidebarView__23e6b, .contentRegionScroller__23e6b, .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b {background-color: transparent!important;}
-	.customColumn__23e6b, .contentColumn__23e6b {
+.layer__960e4, .standardSidebarView__23e6b, .contentRegionScroller__23e6b, .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b {background-color: transparent!important;}
+.customColumn__23e6b, .contentColumn__23e6b {
 		max-width: 100%;
-	}
+}
 	.sidebarRegion__23e6b {
 		max-width: 218px;
 		margin-right: var(--dplus-spacing-app);
@@ -1340,6 +1091,7 @@ border-radius: var(--dplus-radius-ui);
 .theme-dark .settingsBanner_c3e427::after { background: black; }
 .avatar__1fed1 {top: 216px;}
 /* User Profile */
+.user-profile-sidebar {border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); overflow: hidden;}
 /* Avatar Preview */
 
 .overlayAvatar__11787 {
@@ -1495,10 +1247,11 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	padding: var(--dplus-spacing-ui);
 }
 .bd-addon-list .bd-addon-header {
-	border-radius: var(--dplus-radius-ui);
+  background: transparent;
+	border-bottom: 1px solid var(--dplus-accent-ui);
+
 }
-.bd-select-transparent .bd-select-options { border-radius: var(--dplus-radius-ui) !important; border-color: var(--dplus-bg-1);}
-.bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bg-1);}
+.bd-search-wrapper, .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected { background: var(--dplus-bgc-ui-card);}
 .bda-slist .bda-header {
 	font-size: 14px;
 	line-height: 1.25;
@@ -1533,274 +1286,4 @@ html[style^="font-size: 93.75%;"] { --chat-font-scaling: 0.9375; }
 	opacity: 0.7;
 	background: var(--dplus-accent-ui)!important;
 	border-radius: var(--dplus-radius-ui)!important;
-	box-shadow: none!important;
 }
-
-
-/** region DiscordPlus (Theme Fixes) */
-
-/* User Profiles */
-[class*="user-profile-"] {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-
-[class*="user-profile-"] .overlay_c0bea0,
-[class*="user-profile-"] .inner_ab8609  {
-    background-color: var(--dplus-bgc-chatmsg-hover);
-}
-
-[class*="user-profile-"] .header__5be3e .outer_ab8609 {
-    background-color: var(--dplus-accent-ui);
-}
-
-.user-profile-modal-v2 .profileHeader__9c3be,
-.user-profile-modal-v2 .profileBody__9c3be
-{
-    background-color: var(--dplus-bgc-chatmsg);
-}
-
-/* Context Menus */
-.menu_c1e9c4 {
-    background-color: var(--dplus-bgc-ui-card);
-}
-
-
-/* Reactions Tooltip */
-.reactionTooltip_b49891 {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-
-/* Reactions Popover */
-.popover_f84418 {
-    background-color: var(--dplus-bgc-chatmsg);
-    box-shadow: 0 1px 4px 0 var(--dplus-accent-ui);
-}
-.popover_f84418:hover {
-    background-color: var(--dplus-bgc-chatmsg);
-    box-shadow: 0 4px 8px 0 var(--dplus-accent-ui);
-}
-
-/* Message History - Bottom gradient */
-.chatGradient__36d07,
-.chatTypingGradientNotAtBottom__36d07 {
-    display: none;
-}
-/* Typing Dots */
-.chatTypingGradientAtBottom__36d07 {
-    display: none;
-}
-/*.chatContent_f75fb0:has(.base_b88801) .channelTextArea_f75fb0
- * Bug, doesnt detect changes
-*/
-.chatContent_f75fb0 .channelTextArea_f75fb0 {
-    padding-top: 24px !important;
-}
-.cooldownWrapper_b21699 {
-    background-color: var(--dplus-accent-ui);
-}
-
-
-/* Chat Reply Bar */
-.replyBar__841c8,
-.threadSuggestionBar__841c8 {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-.stackedBars__74017 {
-    background: unset;
-}
-
-
-/* Server Embeds */
-.container__5e208.isComponentsV2__5e208 .container__60fa3,
-.embed__623de,
-.wrapperAudio_cf09d8 {
-    background-color: var(--dplus-bgc-chatmsg-hover);
-}
-
-
-/* Stream Panel */
-.activityPanel_c48ade {
-    background-color: var(--dplus-bgc-ui-base);
-}
-
-
-/* Tooltips Container */
-.tooltipPrimary_c36707,
-.tooltip_c36707 {
-    background-color: var(--dplus-bgc-ui-base);
-}
-
-
-/* Empty Activity Card */
-.emptyCard__7e549 {
-    background-color: var(--dplus-bgc-ui-card);
-}
-
-
-/* Left Sidebr */
-.sidebar__5e434 {
-    background: transparent;
-}
-
-
-/* DMs List */
-.sidebarList__5e434 .scroller__99e7c {
-    background: transparent;
-}
-/* DM List - Buttons */
-.searchBar__35e86 .button__201d5,
-.privateChannelsHeaderContainer__99e7c .button_a22cb0 {
-    background-color: var(--dplus-bgc-button);
-}
-.searchBar__35e86 .button__201d5:hover,
-.privateChannelsHeaderContainer__99e7c .button_a22cb0:hover {
-    background-color: var(--dplus-bgc-button-hover);
-}
-/* DM Button */
-.childWrapper__6e9f8 {
-    background-color: var(--dplus-bgc-button);
-}
-/* DM Close Button */
-.iconsContainer__972a0 {
-    padding: 0 8px;
-}
-
-
-/* Voice Channel  - Activity Preview */
-.container__4e30a {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-/* Active VoiceChannel Icon Color */
-.iconLive_c69b6d {
-    color: var(--dplus-bgc-button) !important;
-}
-/* Voice Channel Overview pulse gradient */
-.pulseGradient__11664 canvas {
-	filter: hue-rotate(45deg) brightness(0.5);
-}
-
-
-/* Guild List */
-.listItem__650eb svg:hover {
-    transform: scale(1.1);
-}
-.folderGroup__48112 svg:hover {
-    transform: none;
-}
-.guilds__5e434 .scroller_ef3116 {
-    margin: 4px 0;
-}
-.guilds__5e434 .scroller_ef3116 div:nth-child(6) {
-    margin-bottom: 0;
-}
-
-
-/* Member List (Threads) */
-.membersWrap_c8ffbb {
-    background-color: var(--dplus-bgc-ui-base);
-    border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
-}
-
-
-/* Member List - Activity Cards */
-.container__0f2e8 {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-/* Member List - Activity Popout */
-.popoutContentWrapper_af3b89,
-.interactionsContainer_af3b89 {
-    background-color: var(--dplus-bgc-chatmsg-hover);
-}
-
-
-/* Server Boost Progress */
-.progressContainer__0d0f9 {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-
-
-/* Announcement Channel Follow Button */
-.button_a22cb0 {
-    background-color: var(--dplus-bgc-button);
-}
-.button_a22cb0:hover {
-    background-color: var(--dplus-bgc-button-hover);
-}
-
-/* Pinned Messages popout */
-.messagesPopoutWrap__45690,
-.messagesPopoutWrap__45690 .header__45690,
-.container_d9c882,
-.container_d9c882 .header_d9c882 {
-    background-color: var(--dplus-bgc-ui-card);
-}
-
-
-/* Thread List Container */
-.list_f369db {
-    background-color: var(--dplus-bgc-chatmsg);
-}
-.mainCard_f369db {
-    background-color: var(--dplus-bgc-ui-card);
-}
-.mainCard_f369db.isOpen_faa96b {
-    background-color: var(--dplus-accent-ui);
-}
-.mainCard_f369db:hover {
-    background-color: var(--dplus-bgc-ui-card-hover);
-}
-/* Thread List - Taglist popup */
-.container__5808f {
-    background-color: var(--dplus-bgc-ui-card);
-}
-/* Thread Follow Container */
-.container__34c2c{
-    background-color: var(--dplus-bgc-chatmsg);
-}
-/* Thread Channel Preview */
-.popout__76f04 {
-    background-color: var(--dplus-bgc-ui-base);
-}
-
-
-/* ServerTag recommend popover */
-.popover_d6f39b {
-    background-color: var(--dplus-bgc-ui-card);
-}
-
-/* User Quest Progress */
-.panels__5e434 .postEnrollmentBackground__636a2 {
-    background-color: var(--dplus-bgc-ui-base) !important;
-}
-
-
-/*endregion DiscordPlus */
-
-
-/** region BetterDiscord */
-.bd-button.bd-button-filled.bd-button-color-brand {
-    background-color: var(--dplus-bgc-button);
-}
-.bd-button.bd-button-filled.bd-button-color-brand:hover {
-    background-color: var(--dplus-bgc-button-hover);
-}
-
-
-.bd-store-card,
-.bd-addon-store .bd-addon-store-card {
-    background-color: var(--dplus-bgc-ui-card);
-}
-.bd-store-card:hover,
-.bd-addon-store .bd-addon-store-card:hover {
-    background-color: var(--dplus-bgc-ui-card-hover);
-}
-
-
-.bd-addon-list .bd-addon-header {
-    background-color: var(--dplus-bgc-ui-base);
-}
-.bd-addon-store {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-/*endregion BetterDiscord */
-
