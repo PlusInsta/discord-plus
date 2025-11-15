@@ -246,6 +246,10 @@
 	--user-profile-toolbar-background:var(--dplus-accent-ui);
 	--radio-group-dot-foreground: white;
 	--bg-brand: var(--dplus-accent-ui);
+	--button-filled-brand-background: var(--dplus-accent-ui);
+	--button-filled-brand-background-hover: var(--dplus-accent-ui-hover);
+	--control-background-primary-default: var(--dplus-accent-ui);
+	--control-background-primary-hover: var(--dplus-accent-ui-hover);
 	--bd-blue: var(--dplus-accent-ui) !important;
 	--background-accent: var(--dplus-accent-ui);
 }
@@ -411,7 +415,9 @@ header, h1,
 /*--- 7 Modals ---*/
 
 /*-- 7.1 General Modal --*/
-
+.root__49fc1 {
+	--modal-footer-background: transparent;
+}
 /*-- 7.2 Server Create/Join Modal --*/
 
 /*-- 7.3 Custom Status Modal --*/
@@ -423,7 +429,9 @@ header, h1,
 /*-- 7.6 Upload Modal --*/
 
 /*-- 7.7 Profile Modal --*/
-
+.user-profile-modal-v2 .inner_c0bea0 {
+	padding: var(--dplus-spacing-ui);
+}
 /*--- 8 Popouts ---*/
 
 /*-- 8.1 General Popout --*/
@@ -443,7 +451,9 @@ header, h1,
 /*-- 8.6 Stickers/Emoji/Gif Tab --*/
 
 /*-- 8.7 Profile/Server Popout --*/
-
+.mask__68edb circle {
+	display: none;
+}
 /*--- 9 Titlebar ---*/
 
 /*-- 9.1 General Titlebar --*/
@@ -642,7 +652,7 @@ z-index: 2;
 .mentioned__5126c:before {
 	display: none;
 }
-.wrapper_d4fa29 {background-color: var(--brand-730);} /* Possibly Outdated*/
+
 .mentioned__5126c :not(.repliedTextPreview_c19a55) > .messageContent_c19a55, .mentioned__5126c .container_b7e1cb {
 	padding-left: 0;
 	margin-left: 0;
@@ -865,7 +875,7 @@ background-color: var(--dplus-bgc-ui-base)!important;
 	&:hover {background-color: var(--background-accent);}
 }
 .background_fb62e2 {background-color: var(--dplus-bgc-ui-base)!important;}
-
+.resizeHandle__01ae2, .channelChatWrapper_cb9592 {background: transparent;}
 /*-- 12.5 Explore Public Servers --*/ /*Possibly Outdated*/
 #app-mount .guildIcon_e90879 {
 background-color: var(--dplus-accent-ui);
@@ -1081,6 +1091,7 @@ border-radius: var(--dplus-radius-ui);
 .theme-dark .settingsBanner_c3e427::after { background: black; }
 .avatar__1fed1 {top: 216px;}
 /* User Profile */
+.user-profile-sidebar {border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); overflow: hidden;}
 /* Avatar Preview */
 
 .overlayAvatar__11787 {
