@@ -14,7 +14,7 @@
 @import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css');
 
 .theme-dark {
-  --dplus-backdrop: url('https://i.ibb.co/tPXsm6ZG/Moonlit-Dusk-2018.webp');
+  --dplus-backdrop: url('https://i.ibb.co/1yMXFFr/Moonlit-Dusk-2018.webp');
   /* Image or color for the backdrop. Defaults to accent color on error. */
   
   --dplus-accent-color-hue: 320;
@@ -46,7 +46,7 @@
 /* If you use light theme, you can modify it separately from dark theme. */
 /* The instructions above work for light theme too. */
 .theme-light {
-  --dplus-backdrop: url('https://i.ibb.co/tPXsm6ZG/Moonlit-Dusk-2018.webp');
+  --dplus-backdrop: url('https://i.ibb.co/CKzkqnyk/Dawn-2020.webp');
 
   --dplus-accent-color-hue: 320;
   --dplus-accent-color-saturation: 60%;
