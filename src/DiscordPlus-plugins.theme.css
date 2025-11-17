@@ -52,7 +52,7 @@
 			top: -8px !important;
 			height: 48px !important;
 		}
-		.styledGuildsAsChannels-DNHtg_ .guilds_c48ade .listItem__650eb :not(span) {
+		.styledGuildsAsChannels-DNHtg_ .guilds__5e434 .listItem__650eb :not(span) {
 			border-radius: 5px;
 		}
 		
@@ -125,14 +125,14 @@
 
 	/* by Farcrada */
 		/* Hide Channels */
-		.sidebar_c48ade.hideChannelElement {
+		.sidebar__5e434.hideChannelElement {
 			margin: 0 calc(var(--dplus-spacing-app) / 2);
 		}
 		
 	/* by programmer2514 */
 		/* CollapsibleUI */
-		.guilds_c48ade[style*="width: 0px;"],
-		.sidebar_c48ade[style*="width: 0px;"] {
+		.guilds__5e434[style*="width: 0px;"],
+		.sidebar__5e434[style*="width: 0px;"] {
 			margin-right: 0px;
 		}
 		
@@ -208,7 +208,7 @@
 
 	/* by Strencher */
 		/* ChannelDms */
-		.ChannelDms-channelmembers-wrap .privateChannels__35e86 {
+		.ChannelDms-channelmembers-wrap .privateChannels_e6b769 {
 			background: var(--dplus-bgc-ui-base)
 		}
 		

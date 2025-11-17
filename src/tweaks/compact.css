@@ -1,5 +1,5 @@
 /* Experimental functionality to make using Discord with a smaller than minimum window size easier. */
-.container_c48ade
+.container__5e434
 {
   transition-property: margin-left;
   transition-duration: var(--dplus-anim-short);
@@ -9,11 +9,11 @@
 @media (max-width: 960px)
 {  
   /* Sidebar shoving */
-  .container_c48ade
+  .container__5e434
   {
     --if-push-comes-to-shove: calc(var(--custom-guild-sidebar-width) - var(--dplus-scrollbar-width) * 2);
   }
-  .container_c48ade:not(:has(.sidebar_c48ade:hover,.wrapper_ef3116:hover))
+  .container__5e434:not(:has(.sidebar__5e434:hover,.wrapper_ef3116:hover))
   {
     margin-left: calc(var(--if-push-comes-to-shove) * -1);
   }
@@ -24,9 +24,9 @@
   */
   
   /* Remove inner app padding */
-  .container_c48ade .wrapper_ef3116
+  .container__5e434 .wrapper_ef3116
   ,
-  .container_c48ade .sidebar_c48ade
+  .container__5e434 .sidebar__5e434
   {
     border-radius: 0px !important;
     --dplus-spacing-app: 0px;
@@ -80,9 +80,9 @@
   @media (min-width: 320px)
   {
     /* Align popouts to the right. */
-    .layer_da8173:has(.messagesPopoutWrap__45690)
+    .layer__59d0d:has(.messagesPopoutWrap_e8b59c)
     , /* pinned messages */
-    .messagesPopoutWrap__45690
+    .messagesPopoutWrap_e8b59c
     { /* pinned messages (again) */
       right: var(--dplus-spacing-app) !important;
       max-width: 100vw !important;
