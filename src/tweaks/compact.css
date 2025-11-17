@@ -136,60 +136,28 @@
     
     @media (max-width: 512px)
     {
-      .standardSidebarView__23e6b:not(:has(#profile-customization-tab))
+      .standardSidebarView__23e6b .contentRegion__23e6b
       {
-        .contentRegion__23e6b
-        {
-          backdrop-filter: blur(128px);
-          display: grid;
-        }
-        .contentRegion__23e6b:before
-        {
-          content: var(--dplus-i11n-cramped-settings-header,--dplus-i11n-missingno);
-        }
-        .contentRegion__23e6b:after
-        {
-          content: var(--dplus-i11n-cramped-settings-body,--dplus-i11n-missingno);
-        }
-        .contentColumn__23e6b
-        {
-          display: none;
-        }
-        .toolsContainer__23e6b
-        {
-          left: calc(100vw - 80px);
-          position: absolute;
-          top: 0px;
-        }
+        backdrop-filter: blur(128px);
+        display: grid;
       }
-    }
-    @media (max-width: 768px)
-    {
-      .standardSidebarView__23e6b:has(#profile-customization-tab)
+      .contentRegion__23e6b:before
       {
-        .contentRegion__23e6b
-        {
-          backdrop-filter: blur(128px);
-          display: grid;
-        }
-        .contentRegion__23e6b:before
-        {
-          content: var(--dplus-i11n-cramped-settings-profiles-header,--dplus-i11n-missingno);
-        }
-        .contentRegion__23e6b:after
-        {
-          content: var(--dplus-i11n-cramped-settings-profiles-body,--dplus-i11n-missingno);
-        }
-        .contentColumn__23e6b
-        {
-          display: none;
-        }
-        .toolsContainer__23e6b
-        {
-          left: calc(100vw - 80px);
-          position: absolute;
-          top: 0px;
-        }
+        content: var(--dplus-i11n-cramped-settings-header,--dplus-i11n-missingno);
+      }
+      .contentRegion__23e6b:after
+      {
+        content: var(--dplus-i11n-cramped-settings-body,--dplus-i11n-missingno);
+      }
+      .contentColumn__23e6b
+      {
+        display: none;
+      }
+      .toolsContainer__23e6b
+      {
+        left: calc(100vw - 80px);
+        position: absolute;
+        top: 0px;
       }
     }
   }
