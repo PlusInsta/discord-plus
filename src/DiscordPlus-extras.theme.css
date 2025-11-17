@@ -1,100 +1,26 @@
 @import url('https://plusinsta.github.io/discord-plus/src/DiscordPlus-plugins.theme.css');
 @import url('https://plusinsta.github.io/discord-plus/src/tweaks/compact.css');
 
-/* make links to my domain use my style */
-[href*="plusinsta.xyz"],
-[href*="PlusInsta.xyz"] {
-  color: #d29630 !important;
-  border-bottom: 1px solid;
-}
-
-/* custom crash screen */
-.theme-dark .image__61a6b, .theme-light .image__61a6b {
-  background-image: url('https://plusinsta.github.io/discord-plus/assets/crash.png');
-}
-
-.image__61a6b {
-  width: 256px;
-  height: 256px;
-  margin-bottom: 40px;
-  background-size: 256px 256px;
-}
-
-.title__61a6b, .note__61a6b div p {
-  font-size: 0px;
-}
-
-.title__61a6b:after {
-  font-size: 24px;
-  content: var(--dplus-i11n-error-discordcrash-title,--dplus-i11n-missingno);
-}
-
-.note__61a6b div p:first-child:after {
-  font-size: 16px;
-  content: var(--dplus-i11n-error-discordcrash-body,--dplus-i11n-missingno);
-  color: white;
-}
-
-.note__61a6b div p:nth-child(2):after {
-  font-size: 16px;
-  content: var(--dplus-i11n-error-discordcrash-note,--dplus-i11n-missingno);
-}
-
-/* Supporters */
-:is(.member_c8ffbb, .contents_c19a55):has(
-  [src*="220275692926009344"],  [src*="367617500021784587"],
-  [src*="719378258491342878"],  [src*="644964603108786233"],
-  [src*="299958646748741632"],  [src*="354342865695932423"],
-  [src*="275432265100558336"],  [src*="852664018438717481"],
-  [src*="299339580593799171"],  [src*="224367608382619648"],
-  [src*="356817504330448906"],  [src*="181240443747434496"],
-  [src*="168569629906698240"],  [src*="408875276265848833"]) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_supporter.svg");
-  --dplus-supporter: "";
-}
-/* Developers */
-:is(.member_c8ffbb, .contents_c19a55):has(
+/* Define contributors */
+:is(.user-profile-popout):has(
   [src*="309931975102300160"], /*@plusinsta*/
+  [src*="207335168430702602"], /*@notiphiliac*/
   [src*="394891840815366147"], /*@ra.bb.it*/
+  [src*="392445002409574432"], /*@cosmicjester_.*/
   [src*="141851936168214528"]  /*@_kamikaze*/) {
-  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_dev.svg");
+  --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/src/DiscordPlusLogo.svg");
   --dplus-dev: "";
 }
 
-/* Badges */
-.text-lg-semibold__84aef:after
-  { filter: drop-shadow(0px 0px 2px black); }
-.headerText_c19a55:after, .text-lg-semibold__84aef::after{
-  background-image: var(--dplus-badge); margin-left: 10px;
-  width: 80px; height: 1rem; background-repeat: no-repeat; content: var(--dplus-dev, var(--dplus-supporter)); display: inline-block; z-index: 0; }
-
-  /* badge in member list */
-.username__703b9:after {
-  content: var(--dplus-dev, var(--dplus-supporter));
-  background-image: var(--dplus-badge-memberlist);
-  margin-left: 3px;
-  display: inline-block;
-  width: 14px; height: 14px;
-}
-
-.theme-dark { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); }
-
-  /* Badge for Michelle */
-.userProfileModalInner_c69a7b:has([src*="220275692926009344"])  .text-lg-semibold__84aef:after
-{ background-image: url("https://plusinsta.github.io/discord-plus/assets/badges/badge_vip_michelle.svg");
-  width: 96px; height: 20px; background-size: cover; content: ""; display: inline-block; z-index: 0; }
-[data-user-id="220275692926009344"] .topSection-13QKHs header:after
-{ margin-left: 16px; }
-[data-user-id="220275692926009344"] .nameTagSmall-2JO-C-
-{ margin-bottom: 0; }
-
-/* :) */
-.theme-dark #app-mount {
-  --aiden: hsl(0, 0%, 94%);
-  --aiden-sad: hsl(240, 80%, 84%);
-}
-.theme-light #app-mount {
-  --aiden: hsl(0, 0%, 6%);
-  --aiden-sad: hsl(240, 80%, 16%);
+  /* badge in profile */
+.tags__63ed3:last-child::after {
+  content: var(--dplus-dev);
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-image: var(--dplus-badge);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: saturate(var(--saturation-factor, 1));
 }
