@@ -227,7 +227,7 @@
 
 /* Placeholder text that should never show up */
 :root {
-	--dplus-i11n-missingno: "missing text";
+	--dplus-i11n-missingno: "⚠️ Missing Internationalization String ⚠️";
 }
 
 /* Discord's variables */

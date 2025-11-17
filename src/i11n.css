@@ -1,12 +1,13 @@
 /* i11n */
-/* Explanation: First, the source string shown for if a language is missing, which should be clearly worded, then, the actual localizated languages in the order they appear inside the Discord app. */
+/* Explanation: First, the source string shown for if a language is missing, which should be written in American English and be both clearly worded and avoid using noisy languistic terms. Then, the language-specific strings, listed in the same order as the Discord app lists languages. */
+/* TODO: Split these up per language rather than per string. Editing this is messy... Could even go in a separate file for each language? */
 
-html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the border-radius of Discord+."; }
-/* This message clarifies the accent colored square/circle in the avatar crop tool. */
+html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline represents the shape of avatar icons while the Discord+ theme is enabled."; }
+/* This message explains the additional shape seen when cropping an avatar. "Avatar" is the word used by Discord for the user's icon across all languages. */
 /*[lang="da"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="de"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
-[lang="en-US"] { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the Discord+ border-radius."; }
-[lang="en-GB"] { --dplus-i11n-notice-avatar-crop-preview: "The coloured outline displays the border-radius of Discord+."; }
+[lang="en-US"] { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the avatar shape with the Discord+ theme on."; }
+[lang="en-GB"] { --dplus-i11n-notice-avatar-crop-preview: "The coloured outline shows the shape of avatars with the Discord+ theme enabled."; }
 /*[lang="es-ES"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="es-419"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="fr"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
@@ -15,9 +16,9 @@ html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the b
 /*[lang="lt"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="hu"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="nl"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
-[lang="no"] { --dplus-i11n-notice-avatar-crop-preview: "Den fargede utlinjen viser Discord+ border-radius."; }
+/*[lang="no"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="pl"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
-[lang="pt-BR"] { --dplus-i11n-notice-avatar-crop-preview: "A borda colorida demonstra border-radius do Discord+."; }
+/*[lang="pt-BR"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="ro"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="fi"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="sv-SE"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
@@ -35,3 +36,178 @@ html { --dplus-i11n-notice-avatar-crop-preview: "The colored outline shows the b
 /*[lang="ja"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="zh-TW"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
 /*[lang="ko"] { --dplus-i11n-notice-avatar-crop-preview: ""; }*/
+
+html { --dplus-i11n-cramped: "There is not enough space for the application to function properly. Increase the size of the window, or zoom out with [Ctrl] & [-]." }
+/* This message appears if the user's app is too small to fit basic UI elements. */
+/*[lang="da"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="de"] { --dplus-i11n-cramped: ""; }*/
+[lang="en-US"] { --dplus-i11n-cramped: "There's not enough space for the app to work. Make the window bigger, or zoom out with [Ctrl] & [-]."; }
+[lang="en-GB"] { --dplus-i11n-cramped: "There is not enough space for the app to function. Make the window larger, or zoom out with [Ctrl] & [-]."; }
+/*[lang="es-ES"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="fr"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="hr"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="it"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="lt"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="hu"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="nl"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="no"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="pl"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="pt-BR"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="ro"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="fi"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="vi"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="tr"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="da"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="cs"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="el"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="bg"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="ru"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="uk"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="hi"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="th"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="ja"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-cramped: ""; }*/
+/*[lang="ko"] { --dplus-i11n-cramped: ""; }*/
+
+html { --dplus-i11n-cramped-settings-header: "Attention!" }
+/* This header text precedes --dplus-i11n-cramped-settings-body. */
+/*[lang="da"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="de"] { --dplus-i11n-cramped-settings-header: ""; }*/
+[lang="en-US"] { --dplus-i11n-cramped-settings-header: "One moment!"; }
+[lang="en-GB"] { --dplus-i11n-cramped-settings-header: "A moment!"; }
+/*[lang="es-ES"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="fr"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="hr"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="it"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="lt"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="hu"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="nl"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="no"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="pl"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="pt-BR"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="ro"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="fi"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="vi"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="tr"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="da"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="cs"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="el"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="bg"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="ru"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="uk"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="hi"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="th"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="ja"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-cramped-settings-header: ""; }*/
+/*[lang="ko"] { --dplus-i11n-cramped-settings-header: ""; }*/
+
+html { --dplus-i11n-cramped-settings-profiles-header: "Attention!" }
+/* Should be identical, or close to, --dplus-i11n-cramped-settings-header. */
+/*[lang="da"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="de"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+[lang="en-US"] { --dplus-i11n-cramped-settings-profiles-header: "One moment!"; }
+[lang="en-GB"] { --dplus-i11n-cramped-settings-profiles-header: "A moment!"; }
+/*[lang="es-ES"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="fr"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="hr"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="it"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="lt"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="hu"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="nl"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="no"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="pl"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="pt-BR"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="ro"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="fi"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="vi"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="tr"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="da"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="cs"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="el"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="bg"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="ru"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="uk"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="hi"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="th"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="ja"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+/*[lang="ko"] { --dplus-i11n-cramped-settings-profiles-header: ""; }*/
+
+html { --dplus-i11n-cramped-settings-body: "This page requires more horizontal space to show all of its elements properly. Increase the horizontal size of the window, or zoom out with [Ctrl] & [-]."}
+/* This message comes after --dplus-i11n-cramped-settings-header. Informs the user that the current Settings page requires more width. The word "Settings" is not said in the generic version, as "Settings" is called something else in most languages. */
+/*[lang="da"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="de"] { --dplus-i11n-cramped-settings-body: ""; }*/
+[lang="en-US"] { --dplus-i11n-cramped-settings-body: "This Settings page needs more width to show everything. Make the window wider, or zoom out with [Ctrl] & [-]."; }
+[lang="en-GB"] { --dplus-i11n-cramped-settings-body: "This Settings page needs more width to display all elements. Make the window wider, or zoom out with [Ctrl] & [-]."; }
+/*[lang="es-ES"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="fr"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="hr"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="it"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="lt"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="hu"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="nl"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="no"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="pl"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="pt-BR"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="ro"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="fi"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="vi"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="tr"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="da"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="cs"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="el"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="bg"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="ru"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="uk"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="hi"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="th"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="ja"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-cramped-settings-body: ""; }*/
+/*[lang="ko"] { --dplus-i11n-cramped-settings-body: ""; }*/
+
+html { --dplus-i11n-cramped-settings-profiles-body: "This page requires more horizontal space to show all of its elements properly. Increase the horizontal size of the window, or zoom out with the keyboard shortcut [Ctrl] and [-]."}
+/* Similar to --dplus-i11n-cramped-settings-body. It must specify that the Profiles page requires more width. Placeholder version does not say "Profiles", as the actual page name varies from language to language. */
+/*[lang="da"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="de"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+[lang="en-US"] { --dplus-i11n-cramped-settings-profiles-body: "The Profiles page needs more width to show everything. Please make the window wider, or zoom out with [Ctrl] and [-] on your keyboard."; }
+[lang="en-GB"] { --dplus-i11n-cramped-settings-profiles-body: "The Profiles page needs more width to display all elements. Please, make the window wider, or zoom out with the [Ctrl] and [-] keys on your keyboard."; }
+/*[lang="es-ES"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="es-419"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="fr"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="hr"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="it"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="lt"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="hu"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="nl"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="no"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="pl"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="pt-BR"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="ro"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="fi"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="sv-SE"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="vi"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="tr"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="da"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="cs"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="el"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="bg"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="ru"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="uk"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="hi"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="th"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="zh-CN"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="ja"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="zh-TW"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/
+/*[lang="ko"] { --dplus-i11n-cramped-settings-profiles-body: ""; }*/

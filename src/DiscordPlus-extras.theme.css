@@ -2,18 +2,22 @@
 @import url('https://plusinsta.github.io/discord-plus/src/tweaks/compact.css');
 
 /* Define contributors */
-:is(.user-profile-popout):has(
-  [src*="309931975102300160"], /*@plusinsta*/
-  [src*="207335168430702602"], /*@notiphiliac*/
-  [src*="394891840815366147"], /*@ra.bb.it*/
-  [src*="392445002409574432"], /*@cosmicjester_.*/
-  [src*="141851936168214528"]  /*@_kamikaze*/) {
+/* Listed in order of first commit. If a first commit is from more than one new contributor, use alphabetical order for each new contributor. */
+/* TODO: Add the remaining contributors. */
+/* TODO: Consider the possibility of a contributor not wanting their Discord ID to be included as part of the theme code. Is there a better way to do this, like using :has() to check for a linked GitHub account that matches a contributor's? */
+:is(.user-profile-popout):has ( 
+  [src*="309931975102300160"] /*@plusinsta*/,
+  [src*="207335168430702602"] /*@notiphiliac*/,
+  [src*="394891840815366147"] /*@ra.bb.it*/,
+  [src*="392445002409574432"] /*@cosmicjester_.*/,
+  [src*="141851936168214528"] /*@_kamikaze*/)
+{
   --dplus-badge: url("https://plusinsta.github.io/discord-plus/assets/src/DiscordPlusLogo.svg");
   --dplus-dev: "";
 }
 
   /* badge in profile */
-.tags__63ed3:last-child::after {
+.tags__63ed3 .container__8061a:last-child::after {
   content: var(--dplus-dev);
   display: block;
   height: 20px;

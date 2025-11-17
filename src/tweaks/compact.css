@@ -115,7 +115,7 @@
     ,
     .contentRegion__23e6b:after
     {
-      color: var(--aiden);
+      color: var(--text-normal);
       display: block;
     }
     .contentRegion__23e6b:before
@@ -145,11 +145,11 @@
         }
         .contentRegion__23e6b:before
         {
-          content: var(--dplus-i11n-cramped-settings,"Oops.");
+          content: var(--dplus-i11n-cramped-settings-header,--dplus-i11n-missingno);
         }
         .contentRegion__23e6b:after
         {
-          content: var(--dplus-i11n-cramped-settings-continued,"There's not enough pixels on the screen to show this page. Could you zoom out or make the window a bit wider?");
+          content: var(--dplus-i11n-cramped-settings-body,--dplus-i11n-missingno);
         }
         .contentColumn__23e6b
         {
@@ -160,20 +160,6 @@
           left: calc(100vw - 80px);
           position: absolute;
           top: 0px;
-        }
-        @media (max-height: 128px)
-        {
-          .contentRegion__23e6b:before
-          {
-            color: var(--aiden-sad);
-            content: var(--dplus-i11n-cramped-settings-worse,"(Maybe not...)") !important;
-            font-size: 16pt !important;
-            padding-left: 1rem;
-          }
-          .contentRegion__23e6b:after
-          {
-            display: none !important;
-          }
         }
       }
     }
@@ -188,11 +174,11 @@
         }
         .contentRegion__23e6b:before
         {
-          content: var(--dplus-i11n-cramped-settings-profiles,"Hate to bother you, but...");
+          content: var(--dplus-i11n-cramped-settings-profiles-header,--dplus-i11n-missingno);
         }
         .contentRegion__23e6b:after
         {
-          content: var(--dplus-i11n-cramped-settings-profiles-continued,"The Profiles page needs more width than what you have now. Would you mind zooming out or extending the window width?");
+          content: var(--dplus-i11n-cramped-settings-profiles-body,--dplus-i11n-missingno);
         }
         .contentColumn__23e6b
         {
@@ -203,20 +189,6 @@
           left: calc(100vw - 80px);
           position: absolute;
           top: 0px;
-        }
-        @media (max-height: 128px)
-        {
-          .contentRegion__23e6b:before
-          {
-            color: var(--aiden-sad);
-            content: var(--dplus-i11n-cramped-settings-profiles-worse,"(Am I that much of a nag...?)") !important;
-            font-size: 16pt !important;
-            padding-left: 1rem;
-          }
-          .contentRegion__23e6b:after
-          {
-            display: none !important;
-          }
         }
       }
     }
@@ -239,8 +211,8 @@
     .appAsidePanelWrapper_a3002d:before
     {
       background: var(--dplus-bgc-ui-base);
-      color: var(--aiden);
-      content: var(--dplus-i11n-cramped,"It's getting a bit cramped in here. You should open up your window.");
+      color: var(--text-normal);
+      content: var(--dplus-i11n-cramped,--dplus-i11n-missingno);
       display: block;
       font-size: 16px;
       height: 64px;
@@ -248,26 +220,6 @@
       max-width: 168px;
       min-width: 168px;
       padding: 16px;
-    }
-    @media (max-width: 200px)
-    {
-      .appAsidePanelWrapper_a3002d:before
-      {
-        content: var(--dplus-i11n-cramped-worse,"...");
-        height: 16px;
-        min-width: 16px;
-      }
-      @media (max-width: 64px)
-      {
-        .appAsidePanelWrapper_a3002d:before
-        {
-          color: var(--aiden-sad);
-          content: var(--dplus-i11n-cramped-nowyourejustbeingmean,"Please?");
-          font-size: 8px;
-          margin: 0px;
-          padding: 2px;
-        }
-      }
     }
   }
 }
