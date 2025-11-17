@@ -215,10 +215,9 @@
       content: var(--dplus-i11n-cramped,--dplus-i11n-missingno);
       display: block;
       font-size: 16px;
-      height: 64px;
+      width: auto;
+      height: auto;
       margin: 16px;
-      max-width: 168px;
-      min-width: 168px;
       padding: 16px;
     }
   }
