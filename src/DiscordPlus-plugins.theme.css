@@ -12,16 +12,16 @@
 			background: transparent !important;
 		}
 		
-		#MemberCount .membersGroup_c8ffbb {
+		#MemberCount .c8ffbb79449f399c-membersGroup {
 			padding: 10px 0;
 		}
 		
-		#MemberCount .membersGroup_c8ffbb span {
+		#MemberCount .c8ffbb79449f399c-membersGroup span {
 			padding: 5px;
 			background-color: var(--dplus-bgc-ui-base);
 		}
 		
-		.membersWrap_c8ffbb.hasCounter .members_c8ffbb {
+		.c8ffbb79449f399c-membersWrap.hasCounter .c8ffbb79449f399c-members {
 			margin-top: 26px !important;
 		}
 		
@@ -44,15 +44,15 @@
 		}
 		
 		/* DisplayServersAsChannels */
-		.styledGuildsAsChannels-DNHtg_ .tutorialContainer__1f388 .childWrapper_a6ce15 {
+		.styledGuildsAsChannels-DNHtg_ ._1f388bcaa446c0c8-tutorialContainer .childWrapper_a6ce15 {
 			background-size: 28px 28px !important;
 			background-position-x: calc(100% - 4px) !important;
 		}
-		.styledGuildsAsChannels-DNHtg_ .wrapper_ef3116 .wrapper__58105 {
+		.styledGuildsAsChannels-DNHtg_ .ef3116c2da186559-wrapper ._581051df43c5ebb6-wrapper {
 			top: -8px !important;
 			height: 48px !important;
 		}
-		.styledGuildsAsChannels-DNHtg_ .guilds__5e434 .listItem__650eb :not(span) {
+		.styledGuildsAsChannels-DNHtg_ ._5e434347c823b592-guilds ._650eb104245d257b-listItem :not(span) {
 			border-radius: 5px;
 		}
 		
@@ -67,10 +67,10 @@
 		}
 		
 		/* ImageUtilities */
-		.imageModal_10e0a6 .actionButtons_cc1819 {
+		.imageModal_10e0a6 .cc1819cb49c2d109-actionButtons {
 			background-color: var(--dplus-bgc-ui-card);
 		}
-		.imageModal_10e0a6 .closeButton__6088c,
+		.imageModal_10e0a6 ._6088c3df6d10c76d-closeButton,
 		.imageModal_10e0a6 .switchIcon_ac0584 {
 			background-color: var(--dplus-bgc-button);
 		}
@@ -80,7 +80,7 @@
 		}
 
 		/* PluginRepo */
-		.flexChild__7c0ba > div > div,
+		._7c0bae9243151ddd-flexChild > div > div,
 		.DevilBro-notice {
 			border-radius: var(--dplus-radius-ui) !important;
 		}
@@ -113,9 +113,9 @@
 		
 	/* by QWERT */
 		/* CallTimeCounter */
-		.panels__5e434 .connection_e131a9,
-		.panels__5e434 .inner_e131a9,
-		.panels__5e434 .rtcConnectionStatus__06d62 {
+		._5e434347c823b592-panels .e131a99484292a19-connection,
+		._5e434347c823b592-panels .e131a99484292a19-inner,
+		._5e434347c823b592-panels ._06d6249a1f2584ac-rtcConnectionStatus {
 			min-height: 48px;
 		}
 
@@ -125,14 +125,14 @@
 
 	/* by Farcrada */
 		/* Hide Channels */
-		.sidebar__5e434.hideChannelElement {
+		._5e434347c823b592-sidebar.hideChannelElement {
 			margin: 0 calc(var(--dplus-spacing-app) / 2);
 		}
 		
 	/* by programmer2514 */
 		/* CollapsibleUI */
-		.guilds__5e434[style*="width: 0px;"],
-		.sidebar__5e434[style*="width: 0px;"] {
+		._5e434347c823b592-guilds[style*="width: 0px;"],
+		._5e434347c823b592-sidebar[style*="width: 0px;"] {
 			margin-right: 0px;
 		}
 		
@@ -182,7 +182,7 @@
 			stroke: #009d00;
 		}
 
-		.winButtons_c38106 {
+		.c38106a3f0c3ca76-winButtons {
 			gap: 10px;
 		}
 
@@ -208,7 +208,7 @@
 
 	/* by Strencher */
 		/* ChannelDms */
-		.ChannelDms-channelmembers-wrap .privateChannels_e6b769 {
+		.ChannelDms-channelmembers-wrap .e6b7699ce8339e1c-privateChannels {
 			background: var(--dplus-bgc-ui-base)
 		}
 		
@@ -231,12 +231,3 @@
 		.bf-toolbar .format:hover img {
 			opacity: 1;
 		}
-
-
-
-
-
-
-
-
-
