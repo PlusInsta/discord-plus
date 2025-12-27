@@ -927,7 +927,7 @@ border-radius: var(--dplus-radius-ui);
 ._44b0c28be7879b7b-wrapper [mask="url(#svg-mask-avatar-decoration-status-round-80)"] img { /* this uncrops the avatar decorations after that line above */
 	border-radius: inherit !important;
 }
-._44b0c28be7879b7b-wrapper img, .wrapper-1VLyxH img, .f910d08f42c82225-voiceAvatar, .f910d08f42c82225-border, ._75742e4cc9019aeb-clickable:hover ._75742e4cc9019aeb-overlay:after, .f910d08f42c82225-wrapper.f910d08f42c82225-ringingIncoming:after, .f910d08f42c82225-wrapper.f910d08f42c82225-ringingOutgoing:after, .c19a557985eb7793-avatar, .option-2KkUJO.user-23VtPS .displayAvatar-3XS1w6  {
+._44b0c28be7879b7b-avatar:not([src^="https://cdn.discordapp.com/avatar-decoration-presets"]), .wrapper-1VLyxH img, .f910d08f42c82225-voiceAvatar, .f910d08f42c82225-border, ._75742e4cc9019aeb-clickable:hover ._75742e4cc9019aeb-overlay:after, .f910d08f42c82225-wrapper.f910d08f42c82225-ringingIncoming:after, .f910d08f42c82225-wrapper.f910d08f42c82225-ringingOutgoing:after, .c19a557985eb7793-avatar, .option-2KkUJO.user-23VtPS .displayAvatar-3XS1w6 {
 	border-radius: var(--dplus-radius-avatar) !important; }
 	.c19a557985eb7793-avatar.c19a557985eb7793-clickable:active {translate: none;}
 	/* In chat avatar decorations*/
