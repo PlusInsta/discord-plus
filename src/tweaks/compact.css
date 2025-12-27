@@ -1,5 +1,5 @@
 /* Experimental functionality to make using Discord with a smaller than minimum window size easier. */
-.container__5e434
+._5e434347c823b592-container
 {
   transition-property: margin-left;
   transition-duration: var(--dplus-anim-short);
@@ -9,11 +9,11 @@
 @media (max-width: 960px)
 {  
   /* Sidebar shoving */
-  .container__5e434
+  ._5e434347c823b592-container
   {
     --if-push-comes-to-shove: calc(var(--custom-guild-sidebar-width) - var(--dplus-scrollbar-width) * 2);
   }
-  .container__5e434:not(:has(.sidebar__5e434:hover,.wrapper_ef3116:hover))
+  ._5e434347c823b592-container:not(:has(._5e434347c823b592-sidebar:hover,.ef3116c2da186559-wrapper:hover))
   {
     margin-left: calc(var(--if-push-comes-to-shove) * -1);
   }
@@ -24,46 +24,46 @@
   */
   
   /* Remove inner app padding */
-  .container__5e434 .wrapper_ef3116
+  ._5e434347c823b592-container .ef3116c2da186559-wrapper
   ,
-  .container__5e434 .sidebar__5e434
+  ._5e434347c823b592-container ._5e434347c823b592-sidebar
   {
     border-radius: 0px !important;
     --dplus-spacing-app: 0px;
   }
-  .chat_f75fb0
+  .f75fb00fb7356cbe-chat
   {
     --dplus-spacing-app: 0px;
     --dplus-spacing-ui: 0px;
     --dplus-radius-ui: 0px;
   }
   /* Remove outer app padding */
-  .appAsidePanelWrapper_a3002d .layers__960e4
+  .a3002d7de5be5280-appAsidePanelWrapper ._960e4207cea8323e-layers
   {
     margin: 0px !important;
   }
   /* (Windows-specific) Remove titlebar padding */
-  .platform-win .typeWindows__421ed
+  .platform-win ._421edea01cb52e16-typeWindows
   {
     margin: 0px !important;
     border-radius: 0px !important;
     left: 0px !important;
   }
-  .platform-win .wordmark__421ed
+  .platform-win ._421edea01cb52e16-wordmark
   {
     top: 0px;
     left: 16px;
   }
 
   /* Chat button adjustments */
-  .clickable__9293f:has([d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"])
+  ._9293f6b2fc12398a-clickable:has([d="M9.7 2.89c.18-.07.32-.24.37-.43a2 2 0 0 1 3.86 0c.05.2.19.36.38.43A7 7 0 0 1 19 9.5v2.09c0 .12.05.24.13.33l1.1 1.22a3 3 0 0 1 .77 2.01v.28c0 .67-.34 1.29-.95 1.56-1.31.6-4 1.51-8.05 1.51-4.05 0-6.74-.91-8.05-1.5-.61-.28-.95-.9-.95-1.57v-.28a3 3 0 0 1 .77-2l1.1-1.23a.5.5 0 0 0 .13-.33V9.5a7 7 0 0 1 4.7-6.61ZM9.18 19.84A.16.16 0 0 0 9 20a3 3 0 1 0 6 0c0-.1-.09-.17-.18-.16a24.86 24.86 0 0 1-5.64 0Z"])
   , /* Notification settings; still accessible by right-clicking the channel in the sidebar. */
-  .clickable__9293f:has([d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98 0-1.81.47-2.27 1.14A1 1 0 1 1 7.8 7.01 4.73 4.73 0 0 1 11.72 5c2.5 0 4.65 1.88 4.65 4.38 0 2.1-1.54 3.77-3.52 4.24l.14 1a1 1 0 0 1-1.98.27l-.28-2a1 1 0 0 1 .99-1.14c1.54 0 2.65-1.14 2.65-2.38 0-1.23-1.1-2.37-2.65-2.37ZM13 17.88a1.13 1.13 0 1 1-2.25 0 1.13 1.13 0 0 1 2.25 0Z"])
+  ._9293f6b2fc12398a-clickable:has([d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98 0-1.81.47-2.27 1.14A1 1 0 1 1 7.8 7.01 4.73 4.73 0 0 1 11.72 5c2.5 0 4.65 1.88 4.65 4.38 0 2.1-1.54 3.77-3.52 4.24l.14 1a1 1 0 0 1-1.98.27l-.28-2a1 1 0 0 1 .99-1.14c1.54 0 2.65-1.14 2.65-2.38 0-1.23-1.1-2.37-2.65-2.37ZM13 17.88a1.13 1.13 0 1 1-2.25 0 1.13 1.13 0 0 1 2.25 0Z"])
   { /* Help button; press F1 or something. It's just a link. */
     display: none;
   }
   
-  .searchBar__97492
+  .c322aadb96ff59c9-searchBar
   { /* Make the search bar a search "button" when not expanded to save on channel header space */
     width: 24px;
     padding: 0;
@@ -80,21 +80,21 @@
   @media (min-width: 320px)
   {
     /* Align popouts to the right. */
-    .layer__59d0d:has(.messagesPopoutWrap_e8b59c)
+    ._59d0d7075b521375-layer:has(.e8b59c4b335dd2fc-messagesPopoutWrap)
     , /* pinned messages */
-    .messagesPopoutWrap_e8b59c
+    .e8b59c4b335dd2fc-messagesPopoutWrap
     { /* pinned messages (again) */
       right: var(--dplus-spacing-app) !important;
       max-width: 100vw !important;
     }
     /* Remove chat padding */
-    .messagesWrapper__36d07
+    ._36d072eab2b2e737-messagesWrapper
     {
       --group-spacing: 0px !important;
     }
 
     /* Make settings a bit slimmer. */
-    .standardSidebarView__23e6b
+    ._23e6b439306f125a-standardSidebarView
     {
       width: calc(218px - 16px + 100%);
       transition-property: margin-left !important;
@@ -102,23 +102,23 @@
       --dplus-spacing-app: 0px;
       --dplus-radius-ui: 0px;
     }
-    .standardSidebarView__23e6b:not(:has(.sidebarRegion__23e6b:hover))
+    ._23e6b439306f125a-standardSidebarView:not(:has(._23e6b439306f125a-sidebarRegion:hover))
     {
       margin-left: calc(-218px + 16px + var(--dplus-scrollbar-width));
     }
-    .contentColumn__23e6b {
+    ._23e6b439306f125a-contentColumn {
       max-width: calc(100vw - 64px - var(--dplus-scrollbar-width)) !important;
     }
 
     /* Okay. So you've made the window too small... */
-    .contentRegion__23e6b:before
+    ._23e6b439306f125a-contentRegion:before
     ,
-    .contentRegion__23e6b:after
+    ._23e6b439306f125a-contentRegion:after
     {
       color: var(--text-normal);
       display: block;
     }
-    .contentRegion__23e6b:before
+    ._23e6b439306f125a-contentRegion:before
     {
       font-size: 32px;
       padding: 32px;
@@ -126,7 +126,7 @@
       text-align: center;
       top: 1rem;
     }
-    .contentRegion__23e6b:after 
+    ._23e6b439306f125a-contentRegion:after 
     {
       font-size: 16px;
       padding: 24px;
@@ -136,24 +136,24 @@
     
     @media (max-width: 512px)
     {
-      .standardSidebarView__23e6b .contentRegion__23e6b
+      ._23e6b439306f125a-standardSidebarView ._23e6b439306f125a-contentRegion
       {
         backdrop-filter: blur(128px);
         display: grid;
       }
-      .contentRegion__23e6b:before
+      ._23e6b439306f125a-contentRegion:before
       {
         content: var(--dplus-i11n-cramped-settings-header,--dplus-i11n-missingno);
       }
-      .contentRegion__23e6b:after
+      ._23e6b439306f125a-contentRegion:after
       {
         content: var(--dplus-i11n-cramped-settings-body,--dplus-i11n-missingno);
       }
-      .contentColumn__23e6b
+      ._23e6b439306f125a-contentColumn
       {
         display: none;
       }
-      .toolsContainer__23e6b
+      ._23e6b439306f125a-toolsContainer
       {
         left: calc(100vw - 80px);
         position: absolute;
@@ -162,21 +162,21 @@
     }
   }
   /* If the window gets too small */
-  .wordmark__421ed
+  ._421edea01cb52e16-wordmark
   {
     transition: all var(--dplus-anim-long);
   }
   @media (max-width: 320px)
   {
-    .appAsidePanelWrapper_a3002d > *
+    .a3002d7de5be5280-appAsidePanelWrapper > *
     {
       display: none;
     }
-    .wordmark__421ed
+    ._421edea01cb52e16-wordmark
     {
       opacity: 0;
     }
-    .appAsidePanelWrapper_a3002d:before
+    .a3002d7de5be5280-appAsidePanelWrapper:before
     {
       background: var(--dplus-bgc-ui-base);
       color: var(--text-normal);
