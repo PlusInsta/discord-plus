@@ -1,6 +1,7 @@
 /*
-* This file styles plugins.
-* Sorted alphabetically, first by author, then by plugin name.
+* This file is deprecated, and will one day be removed.
+* Themes should not need extra code to support plugins.
+* Plugins should instead reuse and extend the native UI.
 */
 
 /* Plugins */
