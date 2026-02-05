@@ -52,11 +52,16 @@
  *  12.5 Explore Public Servers
  *  12.6 Members List
  *  12.7 Server Boost
+ *  12.8 Threads
+ *    12.8.7 Create Post
+ *    12.8.7 Search Result Bar
+ *    12.8.7 Tags
+ *    12.8.7 Thread Tags Sort & Expand Button
  * 13 Avatars
  * 14 Settings
  * 15 Client Mod Specifics
  *		15.1 BetterDiscord
-
+ *
  */
 
 /*--- 1 Imports ---*/
@@ -536,7 +541,7 @@ header, h1,
 }
 /*--- 12 Main Content ---*/
 
-	/*-- 12.1 General Main Content --*/
+/*-- 12.1 General Main Content --*/
 .sidebar__5e434 + main, .sidebar__5e434 + div {
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden;
@@ -920,6 +925,37 @@ border-radius: var(--dplus-radius-ui);
 }
 /*-- 12.7 Server Boost --*/
 
+/*-- 12.8 Threads --*/
+/*-- 12.8.1 Create Post --*/
+.mainCard_f369db {
+	background: var(--dplus-bgc-ui-base);
+}
+
+/*-- 12.8.2 Search Result Bar --*/
+.matchingPostsRow_f369db {
+	background: var(--dplus-bgc-ui-base);
+}
+
+/*-- 12.8.3 Tags --*/
+.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8) {
+	background-color: var(--dplus-bgc-button);
+}
+.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+	background-color: var(--dplus-bgc-button-hover);
+}
+
+/*-- 12.8.4 Thread Tags Sort & Expand Button --*/
+.sortDropdown_f369db, .tagsButton_f369db {
+	background: var(--dplus-bgc-button);
+}
+.sortDropdown_f369db:hover, .tagsButton_f369db:hover {
+	background: var(--dplus-bgc-button-hover);
+}
+.tagsButton_f369db .tagsButtonInner_f369db,
+.sortDropdownTextHighContrastForcedColor_f369db {
+	color: white;
+}
+
 /*--- 13 Avatars ---*/ /*not fully done*/
 .callAvatarMask_f910d0 foreignObject, .avatarContainerMasked__183c2 foreignObject, .avatarHint_f89da9 foreignObject,
 .wrapper__44b0c svg:not(.avatarDecoration__44b0c) foreignObject {mask: none;} /* this allows profile popout avatars to be rounded with a custom value */
@@ -1158,7 +1194,7 @@ border-radius: var(--dplus-radius-ui);
 	.selected_e03935.option_e03935, .option_e03935:hover {background-color: var(--dplus-accent-ui);}
 	/* Keybinds */
 	.removeKeybind-2YVgVG { right: -17px; top: 2px;}
-	#app-mount .card__4bb93 .button__9a406 {
+	#app-mount .card_b846e5 .button__9a406 {
 	background-color: transparent;
 	border-radius: var(--dplus-radius-ui);
 	box-shadow: none;
