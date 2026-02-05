@@ -957,8 +957,6 @@ border-radius: var(--dplus-radius-ui);
 }
 
 /*--- 13 Avatars ---*/ /*not fully done*/
-.callAvatarMask_f910d0 foreignObject, .avatarContainerMasked__183c2 foreignObject, .avatarHint_f89da9 foreignObject,
-.wrapper__44b0c svg:not(.avatarDecoration__44b0c) foreignObject {mask: none;} /* this allows profile popout avatars to be rounded with a custom value */
 .wrapper__44b0c [mask="url(#svg-mask-avatar-decoration-status-round-120)"] img,
 .wrapper__44b0c [mask="url(#svg-mask-avatar-decoration-status-round-80)"] img { /* this uncrops the avatar decorations after that line above */
 	border-radius: inherit !important;
