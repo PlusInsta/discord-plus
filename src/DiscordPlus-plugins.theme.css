@@ -5,227 +5,227 @@
 */
 
 /* Plugins */
-	/* by Arashiryuu */
-		/* MemberCount */
-		#MemberCount {
-			width: var(--dplus-members-width) !important;
-			top: -10px !important;
-			background: transparent !important;
-		}
-		
-		#MemberCount .membersGroup_c8ffbb {
-			padding: 10px 0;
-		}
-		
-		#MemberCount .membersGroup_c8ffbb span {
-			padding: 5px;
-			background-color: var(--dplus-bgc-ui-base);
-		}
-		
-		.membersWrap_c8ffbb.hasCounter .members_c8ffbb {
-			margin-top: 26px !important;
-		}
-		
-	/* by DevilBro */
-		/* BadgesEverywhere */
-		.BE-badge:last-of-type {
-			margin-right: 0px;
-		}
-		
-		/* CharCounter */
-		.chatCounter-XOMPsh {
-			bottom: 0;
-			top: -0.667rem;
-			font-size: 0.85rem;
-		}
-		
-		/* CreationDate / JoinedAtDate / LastMessageDate */
-		.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText_d98cf4 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
-			margin-top: var(--dplus-spacing-ui);
-		}
-		
-		/* DisplayServersAsChannels */
-		.styledGuildsAsChannels-DNHtg_ .tutorialContainer__1f388 .childWrapper_a6ce15 {
-			background-size: 28px 28px !important;
-			background-position-x: calc(100% - 4px) !important;
-		}
-		.styledGuildsAsChannels-DNHtg_ .wrapper_ef3116 .wrapper__58105 {
-			top: -8px !important;
-			height: 48px !important;
-		}
-		.styledGuildsAsChannels-DNHtg_ .guilds__5e434 .listItem__650eb :not(span) {
-			border-radius: 5px;
-		}
-		
-		/* EditUsers */
-		.EditUsers-tag {
-			text-transform: none;
-			top: -1px !important;
-			height: 15px;
-			font-size: 12px;
-			padding: 0 4px;
-			vertical-align: middle;
-		}
-		
-		/* ImageUtilities */
-		.imageModal_10e0a6 .actionButtons_cc1819 {
-			background-color: var(--dplus-bgc-ui-card);
-		}
-		.imageModal_10e0a6 .closeButton__6088c,
-		.imageModal_10e0a6 .switchIcon_ac0584 {
-			background-color: var(--dplus-bgc-button);
-		}
+/* by Arashiryuu */
+/* MemberCount */
+#MemberCount {
+	width: var(--dplus-members-width) !important;
+	top: -10px !important;
+	background: transparent !important;
+}
 
-		.imageModal_10e0a6 img {
-			max-height: calc(100% - 70px);
-		}
+#MemberCount .membersGroup_c8ffbb {
+	padding: 10px 0;
+}
 
-		/* PluginRepo */
-		.flexChild__7c0ba > div > div,
-		.DevilBro-notice {
-			border-radius: var(--dplus-radius-ui) !important;
-		}
-		
-		/* SendLargeMessages */
-		.SendLargeMessages-modal #character-counter {
-			margin-top: 10px;
-			margin-bottom: 5px;
-		}
-		
-		/* TopRoleEverywhere */
-		.TRE-tag {
-			border: none !important;
-			margin-top: 1px;
-			text-transform: none !important;
-			font-size: 12px !important;
-			text-shadow: 0px 0px 2px black;
-			border-radius: var(--dplus-radius-ui) !important;
-			padding: 0 4px !important;
-		}
-		.TRE-tag span {
-			vertical-align: middle;
-		}
-		
-	/* by Ducko */
-		/* Better Message Deletion */
-		.gm-deleted-message {
-			background-color: hsl(0, 80%, 20%, 0.8) !important;
-		}
-		
-	/* by QWERT */
-		/* CallTimeCounter */
-		.panels__5e434 .connection_e131a9,
-		.panels__5e434 .inner_e131a9,
-		.panels__5e434 .rtcConnectionStatus__06d62 {
-			min-height: 48px;
-		}
+#MemberCount .membersGroup_c8ffbb span {
+	padding: 5px;
+	background-color: var(--dplus-bgc-ui-base);
+}
 
-		.voiceTimer {
-			margin-top: 4px;
-		}
+.membersWrap_c8ffbb.hasCounter .members_c8ffbb {
+	margin-top: 26px !important;
+}
 
-	/* by Farcrada */
-		/* Hide Channels */
-		.sidebar__5e434.hideChannelElement {
-			margin: 0 calc(var(--dplus-spacing-app) / 2);
-		}
-		
-	/* by programmer2514 */
-		/* CollapsibleUI */
-		.guilds__5e434[style*="width: 0px;"],
-		.sidebar__5e434[style*="width: 0px;"] {
-			margin-right: 0px;
-		}
-		
-	/* by Puyodead1 */
-		/* Staff Tags */
-		.ownertag {
-			vertical-align: super !important;
-		}
-	
-	/* by samfundev */
-		/* ChannelTabs */
-		#channelTabs-container {
-			background-color: var(--dplus-bgc-ui-base);
-			border-radius: var(--dplus-radius-ui);
-			margin: 0;
-		}
+/* by DevilBro */
+/* BadgesEverywhere */
+.BE-badge:last-of-type {
+	margin-right: 0px;
+}
 
-		.channelTabs-tabContainer {
-			position: relative;
-		}
+/* CharCounter */
+.chatCounter-XOMPsh {
+	bottom: 0;
+	top: -0.667rem;
+	font-size: 0.85rem;
+}
 
-		.channelTabs-tabNav + div {
-			width: 100%;
-		}
-		.channelTabs-tabNav + div div:first-child {
-			border-top-left-radius: var(--dplus-radius-ui);
-			border-bottom-left-radius: var(--dplus-radius-ui);
-		}
+/* CreationDate / JoinedAtDate / LastMessageDate */
+.userPopout-2j1gM4 .headerText-2sdzFM.userSelectText_d98cf4 + .date-YN6TCS, .root-SR8cQa .nameTag-2IFDfL + .date-YN6TCS {
+	margin-top: var(--dplus-spacing-ui);
+}
 
-		.channelTabs-tab {
-			background-color: var(--dplus-bgc-ui-card);
-			margin: 1px 2px;
-			padding: 2px 0;
-		}
-		.channelTabs-tab:not(.channelTabs-selected):hover {
-			background-color: var(--dplus-bgc-ui-card-hover);
-			margin: 1px 2px;
-		}
-		.channelTabs-tab.channelTabs-selected {
-			background-color: var(--dplus-accent-ui);
-		}
+/* DisplayServersAsChannels */
+.styledGuildsAsChannels-DNHtg_ .tutorialContainer__1f388 .childWrapper_a6ce15 {
+	background-size: 28px 28px !important;
+	background-position-x: calc(100% - 4px) !important;
+}
+.styledGuildsAsChannels-DNHtg_ .wrapper_ef3116 .wrapper__58105 {
+	top: -8px !important;
+	height: 48px !important;
+}
+.styledGuildsAsChannels-DNHtg_ .guilds__5e434 .listItem__650eb :not(span) {
+	border-radius: 5px;
+}
 
-		.channelTabs-onlineIcon {
-			stroke: #009d00;
-		}
+/* EditUsers */
+.EditUsers-tag {
+	text-transform: none;
+	top: -1px !important;
+	height: 15px;
+	font-size: 12px;
+	padding: 0 4px;
+	vertical-align: middle;
+}
 
-		.winButtons_c38106 {
-			gap: 10px;
-		}
+/* ImageUtilities */
+.imageModal_10e0a6 .actionButtons_cc1819 {
+	background-color: var(--dplus-bgc-ui-card);
+}
+.imageModal_10e0a6 .closeButton__6088c,
+.imageModal_10e0a6 .switchIcon_ac0584 {
+	background-color: var(--dplus-bgc-button);
+}
 
-	/* by Skamt */
-		/* LazyLoadChannels */
-		#lazyLoader {
-			width: auto;
-			margin: 0 10px 0 0;
-			border-radius: 0 0 var(--dplus-radius-ui) !important;
-			background-color: var(--dplus-bgc-chatmsg);
-		}
+.imageModal_10e0a6 img {
+	max-height: calc(100% - 70px);
+}
 
-		#lazyLoader .stats {
-			bottom: 80px;
-			right: 35px;
-			border-radius: var(--dplus-radius-ui) !important;
-			background-color: var(--dplus-bgc-chatmsg);
-		}
+/* PluginRepo */
+.flexChild__7c0ba > div > div,
+.DevilBro-notice {
+	border-radius: var(--dplus-radius-ui) !important;
+}
 
-		#lazyLoader .channel {
-			background-color: var(--dplus-accent-ui);
-		}
+/* SendLargeMessages */
+.SendLargeMessages-modal #character-counter {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
 
-	/* by Strencher */
-		/* ChannelDms */
-		.ChannelDms-channelmembers-wrap .privateChannels_e6b769 {
-			background: var(--dplus-bgc-ui-base)
-		}
-		
-	/* by Zerebos */
-		/* BetterFormattingRedux */
-		.bf-toolbar {
-			margin-left: 10px!important;
-			margin-top: 20px;
-		}
-		.bf-toolbar::before {
-			background: hsla(0, 0%, 0%, 0.68);
-			border-radius: var(--dplus-radius-ui);
-		}
-		.bf-toolbar .format:hover {
-			background: transparent !important;
-		}
-		.bf-toolbar .format img {
-			transition: opacity var(--dplus-anim-short);
-		}
-		.bf-toolbar .format:hover img {
-			opacity: 1;
-		}
+/* TopRoleEverywhere */
+.TRE-tag {
+	border: none !important;
+	margin-top: 1px;
+	text-transform: none !important;
+	font-size: 12px !important;
+	text-shadow: 0px 0px 2px black;
+	border-radius: var(--dplus-radius-ui) !important;
+	padding: 0 4px !important;
+}
+.TRE-tag span {
+	vertical-align: middle;
+}
+
+/* by Ducko */
+/* Better Message Deletion */
+.gm-deleted-message {
+	background-color: hsl(0, 80%, 20%, 0.8) !important;
+}
+
+/* by QWERT */
+/* CallTimeCounter */
+.panels__5e434 .connection_e131a9,
+.panels__5e434 .inner_e131a9,
+.panels__5e434 .rtcConnectionStatus__06d62 {
+	min-height: 48px;
+}
+
+.voiceTimer {
+	margin-top: 4px;
+}
+
+/* by Farcrada */
+/* Hide Channels */
+.sidebar__5e434.hideChannelElement {
+	margin: 0 calc(var(--dplus-spacing-app) / 2);
+}
+
+/* by programmer2514 */
+/* CollapsibleUI */
+.guilds__5e434[style*="width: 0px;"],
+.sidebar__5e434[style*="width: 0px;"] {
+	margin-right: 0px;
+}
+
+/* by Puyodead1 */
+/* Staff Tags */
+.ownertag {
+	vertical-align: super !important;
+}
+
+/* by samfundev */
+/* ChannelTabs */
+#channelTabs-container {
+	background-color: var(--dplus-bgc-ui-base);
+	border-radius: var(--dplus-radius-ui);
+	margin: 0;
+}
+
+.channelTabs-tabContainer {
+	position: relative;
+}
+
+.channelTabs-tabNav + div {
+	width: 100%;
+}
+.channelTabs-tabNav + div div:first-child {
+	border-top-left-radius: var(--dplus-radius-ui);
+	border-bottom-left-radius: var(--dplus-radius-ui);
+}
+
+.channelTabs-tab {
+	background-color: var(--dplus-bgc-ui-card);
+	margin: 1px 2px;
+	padding: 2px 0;
+}
+.channelTabs-tab:not(.channelTabs-selected):hover {
+	background-color: var(--dplus-bgc-ui-card-hover);
+	margin: 1px 2px;
+}
+.channelTabs-tab.channelTabs-selected {
+	background-color: var(--dplus-accent-ui);
+}
+
+.channelTabs-onlineIcon {
+	stroke: #009d00;
+}
+
+.winButtons_c38106 {
+	gap: 10px;
+}
+
+/* by Skamt */
+/* LazyLoadChannels */
+#lazyLoader {
+	width: auto;
+	margin: 0 10px 0 0;
+	border-radius: 0 0 var(--dplus-radius-ui) !important;
+	background-color: var(--dplus-bgc-chatmsg);
+}
+
+#lazyLoader .stats {
+	bottom: 80px;
+	right: 35px;
+	border-radius: var(--dplus-radius-ui) !important;
+	background-color: var(--dplus-bgc-chatmsg);
+}
+
+#lazyLoader .channel {
+	background-color: var(--dplus-accent-ui);
+}
+
+/* by Strencher */
+/* ChannelDms */
+.ChannelDms-channelmembers-wrap .privateChannels_e6b769 {
+	background: var(--dplus-bgc-ui-base)
+}
+
+/* by Zerebos */
+/* BetterFormattingRedux */
+.bf-toolbar {
+	margin-left: 10px!important;
+	margin-top: 20px;
+}
+.bf-toolbar::before {
+	background: hsla(0, 0%, 0%, 0.68);
+	border-radius: var(--dplus-radius-ui);
+}
+.bf-toolbar .format:hover {
+	background: transparent !important;
+}
+.bf-toolbar .format img {
+	transition: opacity var(--dplus-anim-short);
+}
+.bf-toolbar .format:hover img {
+	opacity: 1;
+}
