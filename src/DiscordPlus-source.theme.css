@@ -1111,7 +1111,7 @@ header, h1,
 	border-radius: var(--dplus-radius-ui);
 }
 
-.accountProfileCard__1fed1 {
+.accountProfileCard_a9178b {
 	backdrop-filter: opacity(1);
 }
 .settingsBanner_c3e427::after {
@@ -1124,7 +1124,7 @@ header, h1,
 }
 .theme-light .settingsBanner_c3e427::after { background: white; }
 .theme-dark .settingsBanner_c3e427::after { background: black; }
-.avatar__1fed1 {top: 216px;}
+.avatar_a9178b {top: 216px;}
 /* User Profile */
 .user-profile-sidebar {border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); overflow: hidden;}
 /* Avatar Preview */
@@ -1223,7 +1223,7 @@ button,
 .avatarUploader-2yeaMv .avatarUploaderInnerSquare-2UOXj4, .avatarUploaderDisabled-310UAf .avatarUploaderInnerSquare-2UOXj4 {
 	background-size: contain;
 }
-.fieldList__1fed1 {
+.fieldList_a9178b {
 	background-color: transparent;
 }
 .scroller_ff90b2, #app-mount .headerClickable-2IVFo9, #app-mount .headerDefault-1wrJcN {background: transparent;}

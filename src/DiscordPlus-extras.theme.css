@@ -16,8 +16,8 @@
   --dplus-dev: "";
 }
 
-  /* badge in profile */
-._63ed30c16c7151f2-tags ._8061a5f9dbf6d829-container:last-child::after {
+/* badge in profile */
+.tags__63ed3 .container__8061a:last-child::after {
   content: var(--dplus-dev);
   display: block;
   height: 20px;
