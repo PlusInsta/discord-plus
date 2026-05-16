@@ -187,8 +187,7 @@
 /* by Skamt */
 /* LazyLoadChannels */
 #lazyLoader {
-	width: auto;
-	margin: 0 10px 0 0;
+	width: 100%;
 	border-radius: 0 0 var(--dplus-radius-ui) !important;
 	background-color: var(--dplus-bgc-chatmsg);
 }
