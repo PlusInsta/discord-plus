@@ -558,6 +558,10 @@ header, h1,
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden;
 }
+.notice__6e2b9 {
+	border-radius: var(--dplus-radius-ui);
+	margin: var(--dplus-spacing-app) 0;
+}
 
 /*-- 12.2 Friends List --*/
 .tabBody__133bf, .nowPlayingColumn__133bf, .container__133bf .container__9293f.themed__9293f, .container__7d20c {background: transparent;}
