@@ -1126,7 +1126,16 @@ header, h1,
 .theme-dark .settingsBanner_c3e427::after { background: black; }
 .avatar_a9178b {top: 216px;}
 /* User Profile */
-.user-profile-sidebar {border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); overflow: hidden;}
+.user-profile-sidebar,
+:where(.outer_c0bea0).user-profile-sidebar.user-profile-sidebar-redesign {
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+	overflow: hidden;
+}
+.aside_f58343 {
+	background: none;
+	padding: 0;
+}
+
 /* Avatar Preview */
 
 .overlayAvatar__11787 {
