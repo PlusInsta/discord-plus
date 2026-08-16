@@ -241,6 +241,7 @@
 	--background-surface-higher: var(--dplus-bgc-ui-base-hover);
 	--background-surface-high: var(--dplus-bgc-popout);
 	--bg-surface-overlay: var(--background-surface-high);
+	--bg-surface-raised: var(--dplus-bgc-ui-card);
 	--user-profile-overlay-background: var(--dplus-accent-ui);
 	--user-profile-overlay-background-hover: var(--dplus-accent-ui-hover);
 	--background-base-low: var(--dplus-bgc-ui-base);
@@ -250,6 +251,8 @@
 	--modal-background: var(--dplus-bgc-popout);
 	--user-profile-toolbar-background:var(--dplus-accent-ui);
 	--radio-group-dot-foreground: white;
+	--radio-background-selected-default: var(--dplus-accent-ui);
+	--radio-background-selected-hover: var(--dplus-accent-ui-hover);
 	--bg-brand: var(--dplus-accent-ui);
 	--background-brand: var(--dplus-accent-ui);
 	--button-filled-brand-background: var(--dplus-accent-ui);
@@ -259,6 +262,15 @@
 	--control-primary-background-hover: var(--dplus-accent-ui-hover);
 	--bd-brand:var(--dplus-accent-ui);
 	--background-accent: var(--dplus-accent-ui);
+	--chat-background-default: var(--dplus-bgc-popout);
+	--control-secondary-background-default: var(--dplus-bgc-button);
+	--control-secondary-background-hover: var(--dplus-bgc-button-hover);
+	--card-background-default: var(--dplus-bgc-ui-card);
+	--interactive-background-hover: var(--dplus-bgc-ui-card-hover);
+	--bg-surface-overlay-tmp: var(--dplus-bgc-ui-card-hover);
+	--checkbox-background-selected-default: var(--dplus-accent-ui);
+	--checkbox-background-selected-hover: var(--dplus-accent-ui-hover);
+
 }
 
 /*--- 3 Background ---*/
@@ -545,6 +557,10 @@ header, h1,
 .sidebar__5e434 + main, .sidebar__5e434 + div {
 	border-radius: var(--dplus-radius-ui);
 	overflow: hidden;
+}
+.notice__6e2b9 {
+	border-radius: var(--dplus-radius-ui);
+	margin: var(--dplus-spacing-app) 0;
 }
 
 /*-- 12.2 Friends List --*/
@@ -880,8 +896,15 @@ header, h1,
 	background-color: var(--dplus-bgc-ui-base);
 	&:hover {background-color: var(--background-accent);}
 }
+
 .background_fb62e2 {background-color: var(--dplus-bgc-ui-base)!important;}
 .resizeHandle__01ae2, .channelChatWrapper_cb9592 {background: transparent;}
+.participantsButton__211d1 {
+	background-color: var(--dplus-bgc-button);
+}
+.participantsButton__211d1:hover {
+	background-color: var(--dplus-bgc-button-hover);
+}
 /*-- 12.5 Explore Public Servers --*/ /*Possibly Outdated*/
 #app-mount .guildIcon_e90879 {
 	background-color: var(--dplus-accent-ui);
@@ -1126,7 +1149,16 @@ header, h1,
 .theme-dark .settingsBanner_c3e427::after { background: black; }
 .avatar_a9178b {top: 216px;}
 /* User Profile */
-.user-profile-sidebar {border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui); overflow: hidden;}
+.user-profile-sidebar,
+:where(.outer_c0bea0).user-profile-sidebar.user-profile-sidebar-redesign {
+	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
+	overflow: hidden;
+}
+.aside_f58343 {
+	background: none;
+	padding: 0;
+}
+
 /* Avatar Preview */
 
 .overlayAvatar__11787 {
@@ -1202,14 +1234,19 @@ header, h1,
 /* Switches, Checkboxes, Buttons */
 button, [type="button"] {
 	border-radius: var(--dplus-radius-ui) !important;
-}
-button,
-[type="button"] {
 	transition: var(--dplus-anim-button) !important;
 }
 
+
 .container__3f21e svg path, svg.bd-switch-symbol {display:none;}
 .container__3f21e.checked__3f21e, .bd-switch-checked .bd-switch-body {background-color: var(--dplus-accent-ui) !important;}
+
+.switchIndicator_a28278:has(svg[style*="left: 24px"]) {
+	background-color: var(--dplus-accent-ui) !important;
+}
+.switchIndicator_a28278:has(svg[style*="left: 24px"]):hover {
+	background-color: var(--dplus-accent-ui-hover) !important;
+}
 
 
 /* Dropdown Menus */
