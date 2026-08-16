@@ -892,8 +892,15 @@ header, h1,
 	background-color: var(--dplus-bgc-ui-base);
 	&:hover {background-color: var(--background-accent);}
 }
+
 .background_fb62e2 {background-color: var(--dplus-bgc-ui-base)!important;}
 .resizeHandle__01ae2, .channelChatWrapper_cb9592 {background: transparent;}
+.participantsButton__211d1 {
+	background-color: var(--dplus-bgc-button);
+}
+.participantsButton__211d1:hover {
+	background-color: var(--dplus-bgc-button-hover);
+}
 /*-- 12.5 Explore Public Servers --*/ /*Possibly Outdated*/
 #app-mount .guildIcon_e90879 {
 	background-color: var(--dplus-accent-ui);
