@@ -1223,11 +1223,9 @@ header, h1,
 /* Switches, Checkboxes, Buttons */
 button, [type="button"] {
 	border-radius: var(--dplus-radius-ui) !important;
-}
-button,
-[type="button"] {
 	transition: var(--dplus-anim-button) !important;
 }
+
 
 .container__3f21e svg path, svg.bd-switch-symbol {display:none;}
 .container__3f21e.checked__3f21e, .bd-switch-checked .bd-switch-body {background-color: var(--dplus-accent-ui) !important;}
