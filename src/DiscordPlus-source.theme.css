@@ -259,6 +259,7 @@
 	--control-primary-background-hover: var(--dplus-accent-ui-hover);
 	--bd-brand:var(--dplus-accent-ui);
 	--background-accent: var(--dplus-accent-ui);
+	--chat-background-default: var(--dplus-bgc-popout);
 }
 
 /*--- 3 Background ---*/
